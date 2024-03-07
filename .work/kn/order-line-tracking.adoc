@@ -1,0 +1,38 @@
+include::{root}/.inc/include.adoc[]
+
+= Order Line Tracking
+3 Teams, Status tracking vertical
+
+* https://jira.int.kn/browse/KNESPR-790[Roadmap]
+* https://jira.int.kn/browse/KNOMP-33332[Main]
+
+----
+                                                    <- PackageLine1 -> Container1 -> Booking1(hätte shipment sein müssen)
+PurchaseOrder1 <- PurchaseOrderLine1 <- Allocation1
+                                                    -> Booking1  1<-1 Shipment1
+
+
+----
+
+== Naming conventions
+* *Status* - statuses in different contexts have different subset of properties, so in the EventStore, there are Statuses specific for the context, like "BookingStatus", "OrderStatus" (without Location and Remarks) and so on
+* *Context* - this is used, when a entity / projection contains the information from different contexts. In our case - OrderLineMovement contains its own information, but also the information from different contexts, like Order, Booking etc. The main goal here is to group properties to make it easier to understand & maintain.
+* *Entity* - suffix "Entity" was mainly chosen for JPA entities to avoid conflicts with the classes defined in the domain (like OrderLineMovement (domain) vs OrderLineMovementEntity (JPA) )
+* *Event* - Suffix for domain events and for event entities in Event Store. To avoid conflicts with domain events, we've chosen "EventEntry" for names in EventStore
+
+* POL(Bestellwunsch) und Allo(Lieferfähigkeit) sind quasi 1:1
+* POL.quantity = #bestellt Allo.quantity = #lieferbar
+* Allo gibt es nur, wenn es eine Booking gibt
+* PackageLine PkgL = kleinstes Material, nur in einem Container
+* Booking existiert vor dem Shipment = Transport
+
+
+adapter : ShipmentMessageHandler.handle(SeaShipmentEventMessage message)
+    -> List<Command.ShipmentEventData> decompose(SeaShipmentEventMessage message)     *map*
+    -> ProcessShipmentEventUseCase.Command.build()                                    *map*
+    -> ProcessShipmentEventService.apply(Command command); Service implements UseCase *call*
+           -> ShipmentMapper.mapShipmentEventData(Command.ShipmentEventData> shipmentEventData); *map*
+           -> StoreShipmentEventApi.Command.build()                                              *map*
+           -> StoreShipmentEventApi.apply(Command command);                                      *call*
+
+

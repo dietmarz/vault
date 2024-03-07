@@ -1,0 +1,155 @@
+include::{root}/.inc/include.adoc[]
+
+= Börsen Akquise
+
+== Strategie
+* Nicht dem Endkunden vorstellen, erst den Markt sichten. Keinen Druck aufbauen lassen. Wer Druck aufbaut will nur verdienen.
+
+* Emails durchgehen nach neuen Kontakten
+
+[source,bash]
+----
+cat mailingliste-akquise.adoc | sort -u -t'@' -k2,2 -k1,1 | tr '[:upper:]' '[:lower:]' > mails-sorted.txt
+mv mails-sorted.txt mails.txt
+----
+
+
+
+== xing.com
+* https://www.xing.com/profile/Dietmar_Zabel/web_profiles[Link]
+* Verfügbarkeit unter Dietmar Zabel - Wants
+* Skill Liste unter Haves
+
+* [ ] Contains my PDF profile under Portfolio
+* [ ] No own Job details
+
+== LinkedIn.com
+* https://www.linkedin.com/in/dietmar-zabel-6b2413125/edit/forms/summary/new/?profileFormEntryPoint=PROFILE_SECTION&trackingId=M7ho1Q9BQf6TZDxoNfErhA%3D%3D[Link]
+* Profil PDF wieder entfernt. Vielleicht gibt es eine neue Möglichkeit
+* Verfügbarkeit
+* Me - View Profile, unter "Edit about" als Freitext
+* Unter Experience kann man im Description Teil den Teil aus dem Profile kopieren.
+* Unter "Add profile section" gibt es Intro- Looking for Job Opportunities
+
+== Gulp.de
+* Gulp lohnt sich nicht, nie wieder was von gehört
+* Verfügbarkeit -Dietmar Zabel- Mein Profil aktualisieren
+* Letzte Projekte
+* Dietmar Zabel - Profil - Profil Upload. Wird von Gulp bearbeitet
+* https://www.gulp.de/gulp2/g/experten/selbststaendige/profile/upload[Profilupload]
+* https://www.gulp.de/gulp2/g/experten/selbststaendige/profile/53ff8382e4b080615e3ff2d8[Verfügbarkeit]
+
+== Freelance.de
+* Verfügbarkeit, im Linken Menü Link suchen nach Verfügbarkeit oder "Nicht bis "
+* Unter Dokumente Profil und Firmeninterne Projekte
+
+== Freelancer Map
+* Verfügbarkeit oben rechts ein kleiner Button "Verfügbar" oder "nicht verfügbar bis "
+* 2x Profil unter
+  ** Profil bearbeiten - Portfolio und Dateianlagen
+
+== Hays
+* Kein Profil, aber Emails abstellbar. Mein Hays-Meine Einstellungen-Themenauswahl
+* https://www.hays.de/meinhays/meine-einstellungen-preference-center
+
+== Kontakt Quellen
+* kununu.com
+* Detlef Ponath
+* de.ideed.com
+
+== Email Kontakts
+* Alle send Emails durchgehen, denen man jemals ein Profil geschickt hat und dieses erneut schicken
+
+
+=== Hays als extra Mail
+----
+# Sort and rm doubles
+cat mails.txt | sort -t @ -k2 |  awk '{print tolower($0)}' | uniq > mails-uniq-sorted.txt
+----
+
+.Mail Suche
+----
+
+Betr.: Update Verfügbarkeit auf 01.04.2022
+Sehr geehrte Damen und Herren,
+
+hiermit möchte Ich Ihnen kurz mein aktualisiertes Profil übersenden und erlaube Ihnen explizit
+die Speicherung der Daten zum Zwecke der Projektvermittlung.
+
+Aktuell suche ich ein Java / Angular / React / Vue Projekt im Hamburger Raum oder
+lieber Remote.
+
+Schicken Sie mir bitte ihre Angebote per Mail, sollte ich Interesse haben, melde ich mich bei
+Ihnen telefonisch. Sollte ich mich für ein anderes Projekt entschieden haben, schicke ich allen,
+die die diese Mail erhalten haben ein Update meiner Verfügbarkeit.
+
+Bitte antworten Sie nicht direkt auf diese Mail, sondern schicken jedes Angebot in einer neuen
+Mail, da es sonst für mich sehr unübersichtlich wird.
+
+Vielen Dank für Ihre Hilfe!
+
+Mit freundlichen Grüßen
+
+Dietmar Zabel
+
+....................................................................
+
+Dear Madam or Sir,
+
+I would like to send you my updated profile and therefore explicitly allow
+the storage for the purpose of project brokerage.
+
+
+Right now I am searching for Java / Angular / React / Vue projects near Hamburg or in home office / remote.
+
+Please send me your offers via mail. I will give you a call if i am interested.
+Otherwise, if I have decided to join a different project, I will send an update
+mail to everybody who has received this message about my new availability.
+
+Please do not respond to this mail directly, but send each offer in a new E-mail otherwise
+it will be confusing for me to differentiate each offer.
+
+Many thanks for your help!
+
+Kind regards
+
+Dietmar Zabel
+----
+
+.Mail Update
+----
+Sehr geehrte Damen und Herren,
+
+hiermit möchte ich Sie bitten, meine Verfügbarkeit auf den
+01.04.2023 zu aktualisieren.
+Ich möchte mich noch herzlich bei Ihnen für die Unterstützung
+bedanken, und wünsche allen eine frohe Weihnacht und ein
+gesundes und erfolgreiches 2020.
+
+Mit freundlichen Grüßen
+
+Dietmar Zabel
+
+=======================================================
+
+Dear Sirs and Madames,
+
+I would like to kindly ask you to update my availability to first of April 2020.
+Furthermore, I would like to thank you for your support, and I wish you all a
+Merry Christmas and a healthy and happy New Year.
+
+Sincerely yours
+
+Dietmar Zabel
+----
+
+
+
+== Kununu
+* Die Unternehmen suchen aber u.U. keine Java Entwickler
+
+== Google Suche
+* Medizintechnik Hamburg Java
+
+== Jobbörsen
+=== Indeed

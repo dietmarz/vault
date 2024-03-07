@@ -1,0 +1,9 @@
+*.dec.adoc
+*.pdf
+!.inc/template.dec.adoc
+
+.obsidian/
+.idea/
+vault.iml
+
+.attach_pid*

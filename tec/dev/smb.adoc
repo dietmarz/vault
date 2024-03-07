@@ -1,0 +1,9 @@
+include::{root}/.inc/include.adoc[]
+
+= SMB
+
+smb user=smbuser
+smb password=smbuser!
+
+# Url oben in die Leiste vom caja eingeben
+smb://smbuser@fritz.box/fritz.nas/SanDisk/Brother-MFC-8950

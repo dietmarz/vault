@@ -1,0 +1,15 @@
+include::{root}/.inc/include.adoc[]
+
+= python
+
+== Pipenv Nutzung
+
+----
+= initial
+pipenv install
+
+= start shell with special environment
+pipenv shell
+
+pipenv install <missing package>
+----

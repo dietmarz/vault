@@ -1,0 +1,40 @@
+include::{root}/.inc/include.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2022-01-07
+
+== Aufgaben
+
+
+[ ] 876 Umzug Artikeldatendashboard in den scale-Account
+[ ] Klaus mit Stundenzettel geantwortet
+[ ] apt-get update python reparieren
+
+== Fragen
+
+
+
+
+== Privat
+[ ] Steuer
+[ ] Schreibtisch aufräumen, Post auswerten
+[ ] Stegemann einrichten
+[ ] Andree einsehen und dokumentieren
+[ ] Buch zurückschicken
+
+== Irgendwann
+[ ] Was ist mit den Grundstücken jetzt? s. GMail, Landkreis fragen
+[ ] Neues Tool: Git Log extrahieren: Repo->Branch->Log zum greppen
+[ ] Erhöhung für den Server, für sauberen Aufbau
+
+
+
+
+
+
+== Notizen
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

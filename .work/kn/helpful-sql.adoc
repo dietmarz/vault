@@ -1,0 +1,17 @@
+include::{root}/.inc/include.adoc[]
+
+= Helpful SQL
+
+
+[source,oracle]
+.Find Foreinkey constraints on 'ESP_SHIPMENT'
+----
+SELECT
+    a.table_name, a.constraint_name, a.r_constraint_name
+FROM
+    all_constraints a JOIN all_constraints b ON a.r_constraint_name = b.constraint_name
+WHERE
+    b.table_name = 'ESP_SHIPMENT' AND a.constraint_type = 'R';
+----
+
+

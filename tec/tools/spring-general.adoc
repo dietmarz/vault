@@ -1,0 +1,55 @@
+include::{root}/.inc/include.adoc[]
+
+= spring
+
+== Test
+
+* Springboot integration test with mocks
+[source, java]
+----
+@ExtendWith(MockitoExtension.class)
+@SpringBootTest
+@ContextConfiguration(classes = ShipmentClientConfiguration.class)
+@TestPropertySource(
+        properties = {
+            "application.properties.nur.fuer-diesen-Test1=10",
+            "application.properties.nur.fuer-diesen-Test2=10"})
+  public class RemoteShipmentServiceTest {
+
+  @Autowired
+  private RemoteShipmentService normalService;
+
+  @SpyBean
+  private SecondService serviceContainingMocks;
+}
+---- 
+
+== Breakpoints
+* Suspend Thread instead of all, to use 'Evaluate Expression' in a server environment. So the server thread is still responding
+
+----
+@SpringBootApplication =
+@Configuration = If we create beans here they are going to the application context
+@ComponentScan = I want you to scan for components configurations and services whithin this PACKAGE
+
+
+@Component @Service @Controller @Repository ask spring to manage this class as bean.
+----
+
+== Zyklische Abhängigkeiten (ud sboot-3 2.18)
+* 1. spring.main.allow-circular-references=true # Nicht schön
+* 2. Setter nutzen                              # etwas besser
+* 3. Lazy Annotation                            # noch besser
+* 4. Abhängigkeit richtig lösen                 # Am besten
+
+== Fabriken
+----
+@Configuration
+public class MyFactory {
+  @Bean Foo bean_name_is_method_name() { return ...}
+  @Bean Bar another_factory_method() { return ...}
+----
+
+== @Configuration vs @Component (ud sboot-3 2.19)
+* @Configuration erzeugt cglib Subklassen um Methodenaufrufe umzubiegen, abschalten: proxyBeanMethods = false
+

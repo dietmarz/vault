@@ -1,0 +1,55 @@
+include::{root}/.inc/include.adoc[]
+
+= orderlinedeletion
+
+* tms-export
+* https://jira.int.kn/browse/KNOMP-29749[ticket]
+
+== Parameter
+* Test: amqpTemplate
+  ** exchange    = esp.purchaseordermessage.v1.e.topic
+  ** routingKey = esp.purchaseorderline.delete
+
+* PurchaseOrderMessageReceiver
+  ** (BucketMessageConsumer) bucketStoreNames = ORDER_LINE_DELETED
+  ** (BucketMessageConsumer) bucketKeyJsonPointer = "/purchaseOrderLineKey"
+
+* PurchaseOrderLineDeletedEventMessageClientConfiguration
+  ** (BucketStoreMessageDispatcher) bucketStoreNames = ORDER_LINE_DELETED
+
+  ** (Binding) exchange name     = esp.purchaseordermessage.v1.e.topic
+
+  ** (Binding) destination       = esp.tmsexport.q.purchaseorderline-deleted.v1
+  ** (Binding) destinationType   = Binding.DestinationType.QUEUE
+  ** (Binding) exchange          = esp.purchaseordermessage.v1.e.topic
+  ** (Binding) routingKey        = esp.purchaseorderline.delete
+
+== Code
+
+[source,java]
+.Binding
+----
+public class PurchaseOrderClientConfiguration implements IQueueConfiguration {
+    @Bean
+    public Binding purchaseOrderLineDeleteBinding() {
+        return new Binding(
+                ESP_TMSEXPORT_Q_PURCHASEORDER_V2, // Destination
+                QUEUE,                            // Destination Type
+                ESP_PURCHASE_ORDER_DELETION_MESSAGE_V1_EXCHANGE, // Teil der API
+                ESP_PURCHASE_ORDER_LINE_DELETION_EVENT, // RoutingKey
+                emptyMap());                            // arguments
+    }
+}
+----
+
+[source,java]
+.Do the work
+----
+public class PurchaseOrderMessageReceiver {
+    @BucketMessageConsumer(bucketStoreNames = PURCHASE_ORDER, // Teilen sich einen Bucket, Unterscheidung anhand des parameter Typs
+                           bucketKeyJsonPointer = "/purchaseOrderLineKey") // Nach diesem pointer Pfad in die Nachricht werden die Buckets gruppiert
+    public void receivePurchaseOrderLineDeletedMessage(PurchaseOrderLineDeletedEventMessage message) {
+        // Do the work with message
+    }
+}
+----

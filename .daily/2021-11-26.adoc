@@ -1,0 +1,29 @@
+include::/home/dietmar/cloud/customer/Otto/templateInclude.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2021-11-26
+
+== Aufgaben
+
+[ ] Cicker Core
+[ ] Weihnachtsurlaub 3,5 PT eintragen
+[ ] May Termin anrufen
+
+abc
+[ ] Cicker Core
+[ ] Weihnachtsurlaub 3,5 PT eintragen, Genehmigen
+[ ] May Termin anrufen
+
+def
+
+
+
+== Daily
+* 842 Abgeschlossen
+* XLT Live Calibration Jenkins Job eingestellt
+
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

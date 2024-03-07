@@ -1,0 +1,16 @@
+include::{root}/.inc/include.adoc[]
+
+= Hexagonal Architecture
+
+* Udemy Course https://www.udemy.com/course/microservices-clean-architecture-ddd-saga-outbox-kafka-kubernetes/[Course]
+* Hexa prinzip: https://www.youtube.com/watch?v=-VmhytwBZVs[Hombergs build components]
+
+== Projects
+* Good: ~/project/hexa/food-ordering-system
+
+
+== Rules
+* A usecase does not call another usecase
+
+
+== 10 DDD

@@ -1,0 +1,2 @@
+#/bin/bash
+kill $(pid4port $1)

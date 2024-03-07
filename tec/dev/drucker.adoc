@@ -1,0 +1,30 @@
+include::{root}/.inc/include.adoc[]
+
+= Drucker
+
+== Drucker Brother-MFC-8950
+URL: http://192.168.178.24/scan/profile_net.html
+Passwort: admin
+
+== SMB
+Profile SMB-SmbUser
+Host: fritz-nas
+Store Directory: fritz.nas/SanDisk/Brother-MFC-8950
+Auth. Methode: Auto oder besser NTLMv2
+Username: smbuser
+Password: smbuser!
+
+== Drucker Brother-MFC-9570CDW
+URL: http://192.168.178.68/general/status.html
+Passwort: initpass
+
+Administrator -> Netzwerkprofil
+
+Profile SMB-SmbUser
+Netzwerkpfad: \\fritz.box\fritz.nas\SanDisk\Brother-MFC-L9570CDW
+Auth. Methode: Auto oder besser NTLMv2
+Username: smbuser
+Password: smbuser!
+
+\\fritz.box\fritz.nas\SanDisk\Brother-MFC-L9570CDW
+

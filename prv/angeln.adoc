@@ -1,0 +1,51 @@
+include::{root}/.inc/include.adoc[]
+
+= Angeln
+
+== Mefo & Hornhecht Fehmarn
+
+video::fyDaYJCURsY[youtube]
+
+* Spiro 20g Vorfach ca. 1,2m 30er 1er Haken
+* Fastensee Seeseite, Strukkamphuk, unter der Brücke
+* Herings, Rotauge, Horni fetzen Montage, mit Schwimmpose
+* Antitangle sbirolino
+* Hornhecht Seide mit an den Köder machen
+* Hornhecht auf dem Rücken halten für Ruhe
+* Entschuppen mit Sand
+
+== Brandungsangeln
+* Guter Film: https://www.youtube.com/watch?v=6Dl0RZF7kWg
+* Bis 14 Grad Wassertemperatur
+* Haken verschränken, eher kleinere Größe
+* Wurm evt mit gummi festwickeln
+* Shield haken nutzen!
+* Finger abkleben
+* Lappen, was zum Händewaschen: Eimer mit Seil als Tripod stütze und waschbecken
+* Lappen fürs Geländer, besser tripod nutzen
+* Kühltruhe und akkus 
+
+
+=== Packen
+* Rutentasche mit
+
+== Vorfach
+* Rundschleife in Rolle als Ende.  Durchfädelbar mit Hülse
+* einhängen einer 1m Leine mit Anti tengle tube
+* Tube mit Impact shield
+* Antitängle am hoehen Bein einen Korken befestigen, damit unter Wasser auch oben wie tiroler Hölzli
+* Oberer Tubbereich mit einhänger für unteren Haken
+* Vorteile: 
+  ** Beide Haken Nicht-Blei Empfindlich in der Bissanzeige
+  ** Ein Vorfach hängt höher
+
+== Orte an der Elbe
+* https://asv-hh.maps.arcgis.com/apps/webappviewer/index.html?id=acf5f9ae428248ceb171810fd77538c8[Wo-erlaubt]
+* https://goo.gl/maps/acvPeA5YACJyttUG9[Strand Drage]
+* https://goo.gl/maps/BH4Pqzpcc9wkegYv7[Harburg mit Marina]
+* https://goo.gl/maps/WAsNJp7R8UUHC4GS9[Der verbotene Ponton]
+* https://goo.gl/maps/nZZ56KYdS9tEvRe69[Am Holthusenkai]
+* https://goo.gl/maps/giRzbdKa8GsV2xeK8[WaPolizei mit Dirk]
+
+== Ostsee
+* https://goo.gl/maps/5k1kS3sFKYu71sLG9[Strand Hohen Wieschendorf]

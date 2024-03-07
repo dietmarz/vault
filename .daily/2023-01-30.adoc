@@ -1,0 +1,57 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2023-01-30
+
+== Aufgaben 
+
+
+=== 28993 Unlink Featurebranch Epic-21294
+  ****
+* Probleme mit dem Environment. Team Taris ist von Daniel beauftragt worden das zu fixen
+* [ ] WVL Alte OShift 3 Instanz löschen wenn Dennis fertig
+* [x] Weiter: Erstellung review-app modify tabelle in t kn featurebranch
+* [ ] #Fragen# Sven, warum gibt es esp-spring-boot-admin Snapshot?
+* [ ] Wenn fertig Joachim bescheid geben
+* Fixen -knomp21294
+administration      |X
+api-gateway         |X
+collaboration       |!
+dev-sign-in         |X
+documents           |!
+eventlog            |X
+frontend            |X
+frontend-service    |!
+itemmaster          |X
+masterdata          |!
+search              |!
+shipment            |!
+taskmanager         |X
+thirdparty-shipment |!
+
+  ****
+
+
+=== 29749 Delete-Purchas Orderlines Tms-export Epic-22972
+  ****
+* [X] ge-squashed, rebased to Dev, Commit message korrigiert
+* [X] geliefert auf Epic branch KNOMP-22972
+
+  ****
+
+
+
+=== 29867 Unlink-Bug Shipment:  Unlink an unlinked
+  ****
+* [X] Unlink Unklinked Shipments is fertig
+* [x] Ruwen sagen: Germerged, kann getestet werden.
+* [ ] Joachim testet das heute 30.1
+  ****
+
+
+== Notizen
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

@@ -1,0 +1,77 @@
+#!/bin/bash
+set -eu
+
+git_ops() {
+    local env_var_name=$1
+    local commit_msg=$2
+    local stashed_changes=false
+
+    # Check if the environment variable is set and not empty
+    if [[ -z ${!env_var_name:-} ]]; then
+        echo "Environment variable $env_var_name is not set. Skipping..."
+        return
+    fi
+
+    local dir=${!env_var_name}
+
+    # Check if the directory exists
+    if [[ ! -d $dir ]]; then
+        echo "Directory $dir (from $env_var_name) does not exist. Skipping..."
+        return
+    fi
+
+    # Change to the specified directory
+    cd $dir
+
+    echo "========================= ${dir} git operations ========================= "
+
+    # Check if there are uncommitted changes and stash them if there are
+    if ! git diff-index --quiet HEAD --; then
+        # Detected changes
+        echo "Stashing changes in $dir"
+        git stash
+        stashed_changes=true
+    fi
+
+    echo "------------------------- ${dir} rebasing -------------------------"
+    if ! git pull --rebase; then
+        echo "Es gab einen Konflikt beim Versuch, Änderungen zu pullen/rebasen in $dir."
+        echo "Bitte lösen Sie den Konflikt manuell."
+        exit 1
+    fi
+
+    # Apply the stashed changes if they were stashed earlier
+    if $stashed_changes && git stash list | grep -q "stash@{0}"; then
+        echo "Applying stashed changes in $dir"
+        git stash pop
+    fi
+
+    git status -s
+
+    # Check if there are changes to be committed
+    if [[ $(git status --porcelain) ]]; then
+        git add .
+        git commit -m "$commit_msg"
+    else
+        echo "No changes to commit for $dir"
+    fi
+
+    echo "------------------------- ${dir} pushing -------------------------"
+    git push
+
+    git status -s
+}
+
+# Check if ENV_VAULT and ENV_KH are set and not empty
+if [[ -n ${ENV_VAULT:-} && -n ${ENV_KH:-} ]]; then
+    # Encryption operation
+    echo "-------------------------  vault encryption -------------------------"
+    ${ENV_KH}/util/bin/t   "e"
+
+    # Call the function for vault
+    git_ops ENV_VAULT "Update vault by sv"
+fi
+
+# Call the function for office and kh
+git_ops ENV_OFFICE "Update office by sv"
+git_ops ENV_KH "Update kh by sv"

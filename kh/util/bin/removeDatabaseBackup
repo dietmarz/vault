@@ -1,0 +1,25 @@
+#!/bin/bash
+
+currentDir=${pwd}
+volumeName="postgresql"
+
+if [ -z "$1" ]
+ then
+    fileName="${volumeName}.tgz"
+  else
+    fileName="$1.tgz"
+fi
+
+cd /opt/volumes/
+
+if [ -f "${fileName}" ]; then
+  echo "   ############################"
+  echo "   # Removing backup: ${fileName}     "
+  echo "   ############################"
+  sudo rm ${fileName}
+else
+    echo "There is no backup file: ${fileName}, please use one of these:"
+    ls *.tgz | sed s/\.tgz//g
+fi
+
+cd $currentDir

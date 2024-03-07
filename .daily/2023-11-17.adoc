@@ -1,0 +1,181 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2023-11-17
+
+== Aufgaben 
+Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus
+
+=== Heute
+.Abrechnung für Monat: Oktober 2023
+Amazon letzter Artikel: Cepewa Tür Fensterhaken
+|===
+| [X] | Kopieren           | Diese Liste in das Daily kopieren und Monat richtig setzen, damit grep Fähigkeit hergestellt.
+| [X] | Postkasten         | Ggf. Stempeln und Scannen
+| [X] | Portemonnaie       | Ggf. Einkleben
+| [X] | Selfhost           | https://selfhost.de/cgi-bin/selfhost?p=account&cat=rechnung&CGISESSID=090ed7dc07cc73a1f6237252daa8d67f[Selfhost-Login]
+| [X] | Amazon             | https://www.amazon.de/gp/css/order-history?ref_=nav_AccountFlyout_orders[Meine Bestellungen]
+| [x] | Amazon Messages    | https://www.amazon.de/gp/message#!/inbox
+| [x] | Email              | https://mail.google.com/mail/u/0/?pli=1#advanced-search/subset=all&attach=true&within=1d&sizeoperator=s_sl&sizeunit=s_smb[Gmail m. Anhang]
+| [x] | Ebay zur Prüfung   | https://www.ebay.de/mye/myebay/v2/purchase[Ebay gekauft]
+| [x] | Udemy              | https://www.udemy.com/dashboard/purchase-history/[Udemy-Gekauft]
+| [x] | Bhhz Digital       | https://portal.buchholz-stadtwerke.de/powercommerce/ivu/fo/portal/invoiceDetails[Bhhz-Digital]
+| [x] | HVV                | https://shop.hvv.de/personal_data/orderList[HVV-Login]
+| [X] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank]
+| [x] | Auszüge Skat       | https://www.vrbank-altenburgerland.de/services_auth/auth-ui/?v=5ff448423447dee6&client_id=fkp&redirect_uri=https:%2F%2Fwww.vrbank-altenburgerland.de%2Fservices_cloud%2Fportal%2Fportal-oauth%2Flogin[Skat Bank]
+| [X] | Umsätze QCC prüfen | Ggf. An Frau Bahlburg senden
+| [ ] | Auszüge Flatex     | https://www.flatex.de/#[Flatex Bank]
+| [x] | EWE Tel Handy      | https://mein.ewe.de/ewetelcss/secure/billingOverview.xhtml[EWE-Tel-Login]
+| [ ] | Invest tätigen     | Was, wie, welche Strategie?
+| [X] | Chat GPT           | Im Portal kann man Rechnungen downloaden 07.11.2023
+| [X] | Scan Ordner leeren | vorher syncSmb
+| [-] | Besonderheiten     | WVL und offene Dinge notiert im Daily
+| [X] | Ordern sync        | git office & sv, ganz zum Schluß
+| [X] | Mail               | Mail an Frau Bahlburg
+|===
+
+
+
+
+* Sonntag? Start Energiearbeit: 2h Labor, 3 Haufen: (Behalten) Verkaufen Verschenken Entsorgen
+* Kaminholz bestellen
+* usb kabel
+* DKB Konto needed?
+* Comdirect? Mail!
+
+
+=== Mittag
+=== Abend
+=== Sport
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Task Kotlin Entwicklung
+* [ ] JDW Bewerben! Plath, bundesdruckerei Maurer, Toni Gansel Zertifikate Jobs,
+https://www.bundesdruckerei.de/de/karriere/maurer-electronics-hamburg
+
+* [ ] weiter task printservice einbauen, Testen!
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Eichengrund
+* [ ] FdW XX 06 Wertermittlung link:../fnz/eichengrund-uebertragung.adoc[Stand]
+* [ ] F w XX 07 Garage leckt link:../fnz/eichengrund-stand.adoc[Stand]
+* [ ] Was wir mit den Geldern der OLB? link:../fnz/oberes-juechen-grundstuecke.adoc[Details]
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Weitere, laufende Projekte
+* [ ] H W 90 Keller säubern"
+* [ ] J W 90 08 link:../prv/entscheidungsfindung-mentale-modelle.adoc[MM]
+* [ ] J W 30 08 Orga: Board: Fehlende Tasks anbringen, priorisieren
+* [ ] H W 60 Liste jeder Raum 60min, Entsorgen-Verkaufen-Behalten.
+
+* [ ] GdW 30 09 KKasse wechseln
+* [ ] JDW 30 03 PlaBewerbung fertig
+* [ ] Hdw 30 03 Isomatte (+ Luftbett) auf Dichtigkeit prüfen
+* [ ] F W 30 03 SThree Monatsnachweise einsortieren und drucken
+* [ ] JdW 60 03 Office: Script in kh: Copy smb; ocr +  guess Name! Enum mit bekannten Absendern
+* [ ] Regalwand Stube Kleinanzeigen suchen
+
+
+== Backlog
+
+=== Irgendwann
+* [ ] Hdw 30 03 Isomatte (+ Luftbett) auf Dichtigkeit prüfen
+* [ ] Gdw TB 01 Harte Matratze im eigenen Haus oder kaufen.
+* [ ] Gw  60 03 Skript, wie man das Wissen und Dateinamen aus doc & office grepfähig machen kann, vielleicht mit t d <search> (oder o)
+* [ ] Jdw 99 03 Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg  ?Daraus OKRs generieren? 3, 5, 15 Jahres Plan?
+
+* [ ] FDW 30 03 ?Jens Rabe monatlich https://aktienkannjeder.de/?utm_source=mail&utm_medium=newsletter&utm_campaign=aktienkannjeder
+* [R] F W 99 01 Andree de B Aufstellung verstehen, Pflege-Routine erarbeiten
+* [ ] F W 45 03 Outcome Frame Dietmar Vermietet. Vorteile beachten.
+* [ ] Fdw 99 03 Amazon Invoice Generator, alles absetzbar und nicht verfolgbar. Einarbeitung PDF Generator
+
+* [ ] P w 30 03 CM Notizen auswerten,
+* [R] P w 99 03 Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich.
+* [ ] P   60 03 CM 7 Schritte fertig
+
+* [ ] H W TB 01 Keller aufräumen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Kühne & Nagel
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+=== Do and Done
+* WVL Mail: Hat das mit Stundenzettel bei sThree geklappt?
+
+=== Woche Buchen ('.' Log Time)
+https://jira.int.kn/secure/Tempo.jspa[MyWork]
+https://jira.int.kn/browse/KNOMP-29388[Operationals]
+https://jira.int.kn/browse/KNOMP-31487[Remove Status]
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-34983 [status-tracking] Define APIs and ignored test cases
+
+Hi Dietmar, I have just added deployment hints (h3. Deployment Hints) in the description for
+https://jira.int.kn/browse/KNOMP-33392
+
+Please make sure these hints will appear in the table https://esp-release-notes.int.kn/ after the release 6.08 for each of 4 verticals we created PRs for
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-33537 34204 [Reporting] Remove old eventHistory attributes
+* Basiert auf: Dennis KNOMP-34599 Added container sequence number
+*Frage*
+* [X] PR Pflegen
+* https://git.int.kn/projects/KNLOGIN/repos/esp-reporting/pull-requests/3129/overview[PR]
+* Sonar tobt sich aus
+
+* [ ] WVL? Sonar ist rot, kein Neuer Fehler: UnifiedStatusHistoryMapper.mapToShipmentStatus:86
+  ** ShipmentStatus.location is NonNull, but return value of mapToLocation is.
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-33931 [esp-shipment] remove ShipmentEvent message backward compatibility
+* https://jira.int.kn/browse/KNOMP-33931[Jira]
+* https://jira.int.kn/browse/KNOMP-31282[Epic] MDM: Clean-Up
+* *Tests und Code fixen* "AirEventTypes durch StatusCodes"
+
+  ** ArchitectureTest -> Entfernt! Quellpackge shipmentevents gibt es nicht mehr.
+  ** SeaShpV700FclProcessIntegrationTest.shouldProcessFclShipmentFromSalog -> Ignore in json wegen flaky tests. expected_sea_shipment_event_message.json
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== [shared-message-api] KNOMP-33930 remove esp-shipment-events dependency
+*Frage*
+
+* [ ] Was bedeutet: the removal of the code as defined in https://jira.int.kn/browse/KNOMP-34204 is missing (please amend them and change the commit message to reflect the new ticket number
+  ** https://git.int.kn/projects/KNLOGIN/repos/esp-shared-message-api/pull-requests/247/overview[PR]
+
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

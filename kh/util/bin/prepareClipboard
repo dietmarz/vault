@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo -n "Ein Beispieltext für die Zwischenablage" | xclip -selection clipboard

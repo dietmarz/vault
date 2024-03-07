@@ -1,0 +1,118 @@
+include::{root}/.inc/include.adoc[]
+
+= Fixierung und Enneagramm
+
+* Kirstin Kaul https://www.landsiedel-seminare.de/enneagramm/enneagramm.html[Source]
+  ** https://youtu.be/aTnO_67641s[youtube-zur-1]
+
+== Übersicht (GPT-4)
+1. **Perfektionist**: Ist sehr kritisch, sowohl gegenüber sich selbst als auch gegenüber anderen, und strebt nach Ordnung und Perfektion.
+2. **Helfer**: Hat ein starkes Bedürfnis, gebraucht zu werden, und neigt dazu, anderen zu helfen, manchmal auf Kosten ihrer eigenen Bedürfnisse.
+3. **Erfolgreiche**: Ist sehr zielorientiert und strebt nach Erfolg und Anerkennung.
+4. **Individualist**: Hat ein starkes Bedürfnis nach Individualität und Ausdruck ihrer Einzigartigkeit.
+5. **Beobachter**: Ist zurückhaltend und introvertiert und beobachtet die Welt lieber aus der Distanz.
+6. **Loyale**: Ist sehr loyal und sucht nach Sicherheit und Stabilität in Beziehungen.
+7. **Enthusiast**: Ist lebenslustig und optimistisch und sucht nach neuen Erfahrungen und Abenteuern.
+8. **Herausforderer**: Ist selbstbewusst und dominant und sucht nach Kontrolle über ihre Umgebung.
+9. **Friedensstifter**: Sucht nach Harmonie und Frieden und vermeidet Konflikte um jeden Preis.
+
+== Typ 1 Perfektionist oder Reformer (GPT-4)
+* Stress:   Typ 4: emotional distanziert, reizbar, melancholisch
+* Wachstum: Typ 7: Optimistisch, gelassen, akzeptierender
+* Kernangst: Korrupt oder schlecht zu sein. Fehler zu machen.
+* Wunsch: Das Richtige zu tun. Integer zu sein, eine gute Person zu sein.
+
+== Untertypen 1 (GPT-4)
+* Selbsterhaltung: Sich mehr auf innere Kritik und das Bedürfnis nach persönlicher Integrität zu konzentrieren
+* Sozial: Sich mehr auf die Verbesserung der Gemeinschaft oder der Welt konzentriert
+* Sex: Sich auf die Beziehungen zu anderen zu konzentrieren und erwartet oft das gleiche Maß an Perfektion von anderen, wie er es von sich selbst erwartet.
+
+* Die drei Typen 8, 9, und 1 haben eine körperliche Fixierung.
+  Sie sind fest in ihrem beengenden Körper gefangen, sodass das Bedürfnis nach Ausdehnung präsent ist. Dieses Bedürfnis
+  wird in Wut umgewandelt, die sich je nach Ausprägung in Wut nach außen, innen oder in Unterdrückung der Wut, ausprägt.
+  Diese Menschen haben ein großes intuitives Potential. Die 9 betäubt sich selbst, um das Gefühl der Wut nicht zu
+  spüren und wird weggedrückt. Bei der 8 richtet sich die Wut und Lebenskraft gegen den Außen. Bei der 1 richtet sich
+  die Wut gegen sich selbst, sodass der Körper eine *hohe Grundanspannung* hat, um sich konstant zu beherrschen.
+
+=== Abgrenzung zur 5
+* Die 6 hat den Kontakt mit der Weisheit verloren. Sie folgt der Angst und verstrickt sich in ihren Gedanken und
+  sorgt sich chronisch. Ihre Entscheidungen und ihre Handlungen werden durch Sorgen und Angst angetrieben. Die 5
+  fokussiert die mentale Energie nach Innen. Sie reichern sich *sehr viel spezifisches Wissen* an, um in diesem Bereich
+  Sicherheit zu bekommen und die Angst nicht spüren zu müssen.
+
+== Details
+* Die Wut und Aggression richten sich gegen sich selbst und somit strebt er nach Perfektion.
+* Er hat hohe moralische Werte und neigt zu harter Kritik anderen aber vor allem sich selbst gegenüber.
+* **unterdrückte Zorn** führt zu einer immer vorhandenen Anspannung, die ihn als unflexibel und steif auftreten lässt.
+* Er neigt zu einem hohen Ordnungsdrang und Kontrolle über sich ist ihm das Wichtigste.
+* Im angespannten Modus verfällt er in Tendenzen der 4. Das führt dazu, dass er sich in der eigenen Melancholie
+  verfängt und die Opferhaltung einnimmt „mir ist nicht zu helfen“.
+* Er fühlt sich allein auf dieser Welt und verliert sich in der Schwere des eigenen Dramas
+* Im entspannten Modus übernimmt die 1 Eigenschaften der 7. Dann wirkt die 1 gelassener und verspürt Freude und
+  Leichtigkeit. Sie versteht, dass Perfektion ihre eigene Definition ist, und sie lernt den Wunsch nach Perfektion und
+  die Kontrolle aufzugeben. Sie versteht, die Herzenswüsche hinter ihren Werten und moralischen Ansprüchen zu sehen.
+  Die Gelassenheit lässt sie Herzensentscheidungen treffen, welche sie über die eigenen Begrenzungen herauswachsen
+  lassen.
+* Führt einen ständigen Kampf gegen Planlosigkeit, Fehlerhaftigkeit oder Leistungsschwäche
+* Gegensätzlich dazu kann er mit Kritik, die er von anderen Menschen hinsichtlich seines Tuns und Machens erhält
+  jedoch kaum umgehen
+* eine große Angst davor, Fehler zu machen. Daraus resultiert, dass er nicht sonderlich gewissenhaft ist und
+  Entscheidungen nur mit Mühe und Not treffen kann.
+* Trotz alledem stellt er sich selber ständig infrage.
+* Er ist von einem durchaus ausgeprägten Schwarz-Weiß-Denken geprägt, wobei er sich selbst seine Freude am Leben nimmt.
+* Das Grundproblem eines Perfektionisten ist, dass der Anschluss an sein Innerstes verloren gegangen ist und er in
+  seinen Augen von einer andauernden Schuld betroffen ist. Meist führt das dazu, dass er eine ständige Unruhe verspürt,
+  die ihm den Genuss und die Entspannung innerhalb seines Lebens vorwiegend verweigert.
+* Man könnte diesem Druck ein wenig umgehen, indem man ab und zu „heimlich“ Dinge zulässt, die man so eigentlich nicht
+  machen würde und sich dafür im Regelfall schlecht fühlen würde. Man muss sich auch mal etwas gönnen können, sei es
+  eine Süßigkeit, eine größere Lernpause oder auch mal ein Zuspätkommen bei einem Treffen, ohne dass man sich folglich
+  dafür eine große Schuld zuweisen oder sich schlecht fühlen muss.
+* Auch einmal versuchen, sich selbst zu verwöhnen. Dabei ist das Abschalten des Kopfes von Vorteil
+* Abstand von seinem enormen Trieb alles kontrollieren und bewerten zu müssen nehmen
+* Zum anderen muss wieder eine innere psychische Ruhe in seinen Geist eintreten, indem er über seine negativen
+  Gedanken hinwegsieht.
+
+=== Stärken
+* Sehr gründlich und strukturiert
+* Selbstkritisch
+* Hält sich an Gesetze, Normen und Prinzipien
+* Verlässlich
+* Starke Selbstkontrolle
+* Ordentlich, pünktlich, genau
+* Ehrlich
+
+=== Schwächen
+* Rechthaberisch und perfektionistisch
+* Fokus: Was ist hier falsch!
+* Predigen
+* Zornig gerne und häufig.
+* Intolerant
+* Ungeduldig
+* Unzufrieden und innerlich unruhig
+* Empfindlich
+* Stur
+
+* Idealialistisch. Sieht, wie die Welt sein könnte. Nimmt Abweichungen schnell wahr. Die Welt zu einem besseren Ort zu machen.
+  Sie weiß wie die Welt sein könnte, deshalb sieht sie das so schnell.
+
+== Was die 1 lernen darf
+* Einstellung dazu ändern, dass Fehler überaus schlimm und nicht zu verzeihen sind
+* Er muss sich seiner Aggressionen bewusster werden und versuchen mit Kritik besser umzugehen und diese eher zur
+Steigerung der eigenen Fähigkeiten nutzen.
+* Ungeduld einzusehen und zu reduzieren
+* Nicht erst das Vergnügen und dann die Arbeit: Heitere Gelassenheit, kann dann andere Menschen mitnehmen ohne zu
+  predigen. Kann auch lernen selbst das Leben etwas zu genießen.
+Typ 1, der Perfektionist, muss lernen, dass es in Ordnung ist, nicht perfekt zu sein. Hier sind einige spezifische Lektionen, die Typ 1 lernen muss:
+* Selbstfürsorge **praktizieren**
+* Entspannung lernen
+
+1. **Selbstakzeptanz**: Akzeptiere dich selbst und andere so, wie sie sind. Niemand ist perfekt, und das Streben nach Perfektion kann oft mehr Stress und Unzufriedenheit verursachen als es wert ist.
+2. **Loslassen**: Lerne, die Dinge loszulassen, die du nicht kontrollieren kannst. Konzentriere dich auf das, was du kontrollieren kannst, und versuche, den Rest loszulassen.
+3. **Nachsicht**: Sei nachsichtig mit dir selbst und anderen. Fehler sind eine natürliche und unvermeidliche Teil des Lebens und bieten eine Gelegenheit zum Wachstum und zur Verbesserung.
+4. **Flexibilität**: Versuche, flexibler zu sein in deinen Erwartungen und deiner Denkweise. Es ist in Ordnung, Pläne zu ändern und sich an neue Situationen anzupassen.
+5. **Gelassenheit**: Lerne, in dem Moment zu leben und die kleinen Freuden des Lebens zu schätzen, auch wenn nicht alles perfekt ist.
+
+* Es ist auch wichtig für Typ 1, zu lernen, ihre **Wut zu akzeptieren** und zu managen. Wut ist eine natürliche Emotion, aber Typ 1 neigt dazu, sie zu unterdrücken oder zu leugnen, was zu Stress und Frustration führen kann.
+* Es ist wichtig, gesunde Wege zu finden, um diese **Emotionen auszudrücken und loszulassen**.
+
+

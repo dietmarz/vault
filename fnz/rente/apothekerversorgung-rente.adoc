@@ -1,0 +1,7 @@
+include::{root}/.inc/include.adoc[]
+
+= Apotheker Versorgungswerk Rentenversicherung
+
+* Rentenbeginn:
+
+==

@@ -1,0 +1,230 @@
+= react 
+
+== Sorce for learning
+
+* https://www.udemy.com/course/react-redux/
+
+== 7. Creating a example project
+
+* Install nodejs first
+* `npm install -g create-react-app`
+  ** npm = note package manager
+  ** -g install globally so we can run it from the terminal.
+Needed write rights to /opt/node-xyz/ dir
+  ** create-react-app generally known package to create react apps
+
+* Run `create-react-app jsx` Or
+* Run `npx create-react-app jsx`
+  ** we just intalled create react app
+  ** jsx is our free choice name
+
+== 8 Versions of Java Script
+
+* We want to run always the newest JS version eb.
+ES2018. But the browser support is poor.
+* Babel helps to support the newest JS version
+
+== 9 Content of generated project
+
+* `src` we write our own
+* `public` static files
+* `node_modules` dependencies as files
+* `package.json`  dependencies description
+* `package-lock.json` exact versions we installed
+* `README.md` HowTo use this project
+
+== 10 Start project
+
+* with `npm start` see README.md for details!
+
+== 11 Module System
+
+----
+// 'import' : Dependency
+// 'React'  : Variable name
+// 'from'   :
+// 'react'  : Name of the dependency, see package-lock.json, or /node_modules/react folder
+import React from 'react';
+----
+
+* Two types of code sharing:
+  ** #ES2015# modules systems are used by `import` statements
+  ** #CommonJS# modules systems are used by `require` statements
+
+== 12 Displaying content
+
+* react componet is a Class or Function that produces Html using JSX and handles feedback from the user using Event Handlers
+
+== 16
+
+* Format jsx return within parenthesis
+
+[source,javascript]
+----
+const App = () => {
+  return ( // Parenthis, to start machting in new line
+     <div ....
+     </div>
+  );
+};
+----
+
+== 17 inline styling
+
+[source,javascript]
+----
+<div style={{color: 'white'}}>
+// Outer curly brace: reference a js variable inside jsx
+// inner curly brace: indicates js object
+
+----
+
+== 19 Why className instead of class
+
+* Just to avoid collisions by parsing `class App extends React.Component`
+* This will change back evt. in future
+* 22. dito for instead label.for use label.htmlFor
+
+== 22 Use Console to see all warnings! Even not shown one in lindt window.
+
+== XX Good CSS framework for react
+
+* Use semantic-ui.com
+
+== 29
+
+----
+  npm install --save faker # Installiert "faker" nicht global wie -g option sondern nur im projekt
+----
+
+== 41 Reusability: Show attributes and Children
+
+[source,javascript]
+----
+<script type="text/babel" data-presets="env,react">
+    const App = () => {
+        return (
+            <div>
+                <Message header="Changes in Service" >
+                    <p>We just updated our privacy policy here to better service our customers.</p>
+                </Message>
+            </div>
+        );
+    }
+
+    const Message = (props) => {
+        return (
+            <div className="ui message">
+                <div className="header">{props.header}</div>
+                {props.children}
+            </div>
+        );
+    }
+
+    // Renders the App component into a div with id 'root'
+    ReactDOM.render(<App />, document.querySelector('#root'));
+</script>
+----
+
+== 52 States
+
+* Only used with class components
+* Dont mix props with state
+* 'State' contains data relevant to a component
+* State must be initialized
+* State can ONLY BE SET using `*setState*`
+
+== 60 Life Cycle methods
+
+* `constructor` - Do setup.
+Dont forget to call super
+* `render` - Should only return JSX. No time expensive calls
+* `componentDidMount` - Do data loading
+* `componentDidUpdate` - Do data loading after state/props changes
+* `componentWillUnmout` - Do cleanup, especially for non react stuff
+
+== 77 Functional and Class based components
+
+.Class based component
+[source,javascript]
+----
+class UserForm extends React.Component {
+
+    render() {
+        return (<form>
+       ...</form>);
+    }
+} /* No semi here */
+----
+
+.Functional based component
+[source,javascript]
+----
+const UserForm = () => {
+    return (<form>
+       ...</form>
+    );
+}
+----
+
+== 83 Controlled UI Elements
+
+[source,javascript]
+----
+<input type="text"
+  value={this.state.term}
+  onChange={ event => this.setState({myField: event.target.value}) } />
+----
+
+== 85. Understanding this in JS
+
+* JS always referes to the left side of the dot for 'this', so don't look at the class!
+* https://stephengrider.github.io/playgrounds/[Play with it there]
+* 'undefined' IS a javascript object, this can help to read error messages
+
+[source,javascript]
+----
+class Car {
+    setDriveSound(sound) {this.sound = sound;}
+    drive() {return this.sound;}
+}
+const car = new Car();
+car.setDriveSound('vrooom');
+
+const truck = {
+    sound: 'putputput',
+    driveMyTruck: car.drive
+}
+truck.driveMyTruck() // returns putputput!
+// --------------------------------
+const drive = car.drive;
+drive() // TypeError: Cannot read property 'sound' of undefined
+// Becase this in Car.drive() is now 'undefined' and the object 'undefined' has no property 'sound'
+----
+
+* Old way to hard connect a method to this:
+
+[source,javascript]
+----
+class Car {
+    constructor() {
+        this.drive = this.drive.bind(this);
+    }
+}
+----
+
+== 86 Different way to archive that:
+
+[source,javascript]
+----
+class XYZ {
+  onFormSubmit_1(event) {...}
+  // _1 and _2 needs a bind method to fix the undifined 'this' problem
+  onFormSubmit_2: function(event) {...}
+  // _3 is an arrorw-function which automatically connects to the sourrounding this
+  onFormSubmit_3 = event => {...}
+}
+----
+== 88 Callback children
+* In classes refere to props with this.props.myValue
+

@@ -1,0 +1,10 @@
+include::{root}/.inc/include.adoc[]
+
+= Bash Examples
+
+[source,bash]
+----
+# Endlessloop one line
+while true; do echo hallo; done
+----
+

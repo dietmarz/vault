@@ -1,0 +1,34 @@
+include::/home/dietmar/cloud/customer/Otto/msg/templateInclude.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2021-12-01
+
+== Aufgaben
+
+
+== Daily fragen
+[X] 918 fertig zum mergen? Fragen an Shozu
+[ ] Koala Frage geklärt?
+[ ] WVL Bug report anlegen
+
+
+== Bug Report
+
+
+== Privat
+[ ] Skandia anrufen auflösen oder nicht?
+[ ] May Termin besorgen
+[ ] Schnelltest 15.12. 13:40 Uhr buchen
+[ ] Steuern
+[ ] Jenisch antworten
+[ ] Stegemann einrichten
+[ ] Andree einsehen und dokumentieren
+
+
+
+== Notizen
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

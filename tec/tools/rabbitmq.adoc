@@ -1,0 +1,156 @@
+include::{root}/.inc/include.adoc[]
+
+= RabbitMQ
+
+* sources https://www.youtube.com/watch?v=NQ3fZtyXji0[100s]
+* sources https://www.youtube.com/watch?v=deG25y_r6OY[5min]
+* source https://www.udemy.com/course/rabbitmq-in-practice/[udemy]
+* Implements Standard AMQP 
+
+[source, text]
+----
+                        /- [queue] - <Consumer>
+<Producer> - (Exchange) -- [queue] - <Consumer>
+                        \- [queue] - <Consumer>
+
+Message      - Exchange-Name  - Q-Name
+(routingKey) -                - (bindingKey)           
+---- 
+* Message has a routing key, Q has a binding key and a name
+* Fanout Exchange Type: incoming goes to all known Q, it ignores routingKey
+* Direct Exchange Type: Only to Qs where routing-key == binding-key
+* Topic  Exchange Type: BindingKey is a pattern: *.logs.error, routingKey: applicaton1.logs.error
+* Header Exchange Type: Uses Message header instead of routingKey
+* Default (nameless) Exchange Type: routing-key == Q-name
+  ** to directly addressing the Q without knowing the exchange name
+
+== Example
+* Button click
+* REST API call
+* Publish a Message to Exchange
+* Exchange routes it to N Qs using a binding and routing key
+  ** Could route direkt to a Q
+  ** Could route to multiple Qs using a topic
+  ** Could route to every Q which knows about it using fanout
+* Consumer reads message
+
+== Introduction (3.3)
+* Most important Attributes for monitoring: 
+  ** Q Size
+  ** Q Age (Not supported by default!)
+* Erst wenn Msg verarbeitet und in Outbound gesteckt, wird die Nachricht von der Inbound genommen
+* Wenn Msg konsumiert ist sie nicht mehr in rabbitmq im gegensatz zu Kafka oder AWS Kinesis
+* AWS Kinesis = Realtime Processsing, AWS SQS/SNS für einfachere Anwendungen
+* AMQP Message 3 parts: Header(specified), Properties(arbitrary), Body(just bytes, max 2GB)
+
+[source, dockerfile]
+----
+docker run -d --name rabbitmq-demo -p 5672:5672 -p 5673:5673 -p 15672:15672 rabbitmq:3-management
+# http://localhost:15672/ User guest, pwd guest
+---- 
+* 4.12 A connection can open N `Channels` (Are part of TCP package)
+* 4.12 Exchanges start with amq are internal.
+* 4.13 Web admin API sits on REST API 
+  ** e.g. a get to: http://localhost:15672/api/nodes returns some json
+
+== 4.14 Core Concepts
+* Producer never sends direct to rmq 
+[source, text]
+----
+Producer -> Exchange - BindingKey - Q
+---- 
+* 4.14 Exchange compares `routingKey` with `bindingKey` to figure out the correct Q
+* QName exist node-wide only once
+* Producer and Consumer can create a Q
+* 1 Q is one Erlang process in rmq
+* Not durable Qs are empty after restart
+* Auto delete Qs deletes itself, wenn all consumers disconnect
+* Quorum Qs are highly available with mirroring
+* Exclusive Q used by only one connection & will be deleted when that connection closes
+* Priority, additional CPU cost
+* TTL (time to live)  for Msgs & Qs.  
+* DLX = Dead Letter Exchange
+
+== Patterns (5.18)
+* Manchmal möchte ich das jede Nachricht von jedem Client gelesen wird, dann schalte ich nach der Q ein Topic
+* Manchmal möchte ich das jede Nachricht nur einmal gelesen wird, dann brauche ich am Ende der Q kein Topic
+* Beim Abholen mit Negativ Acknowledgement wird die Message nicht aus der Q gelöscht.
+* Beim Abholen mit `Reject requeue false` wird die Message trotz neg return value nicht wieder ein geQed.
+
+== Publish Subscribe using direct exchange
+* Exchange has Types: Direct, Fanout, Headers, Topic
+* Message hat einen routingKey und das Binding eigentlich einen bindingKey
+
+[source, text]
+----
+Message: routingKey, Headers, Properties, Payload
+Exchange: Name, Type, Durability, Auto-delete,...
+
+                    /- Binding1: routingKey1 + Args - Q2
+Message - Exchange1 -- Binding2: routingKey2 + Args - Q1
+                    \- Binding3: routingKey3 + Args - Q1
+
+Eg: Q1 listens on Sport, Q2 on Sport and Weather
+                    /- Binding1: "Sport"   + Args - Q1
+Message - DirectExc -- Binding2: "Sport"   + Args - Q2
+                    \- Binding3: "Weather" + Args - Q2
+----
+== 5.21 Publish Subscribe using topic exchange
+* Reduce the amount of Bindings
+* Matching knowhow
+  ** Words are divided by '.' dot (max length 255 chars)
+  ** *-Star means exactly one word !
+  ** #-Hash means 0 or N words
+  ** Examples
+  *** ev.sport              Not(*.sport.*) -> missing end word
+  *** ev.sport.rug.huh      Not(*.sport.*) -> two instead of one word
+  *** ev.sport.today-news Match(*.sport.*) -> - is no divider
+  ** That's why you should start with a very generic binding name and
+   get more specific to the end of the name
+  ** Use the field routing key for topic binding values
+
+== Publish Subscribe using header parameter exchange (5.22)
+* `x-match` is used for `all` if all or `any` if any attribute needs to be fulfilled for a match
+  ** `all` means AND combined attributes, `any` means OR
+* Headernames with `x-` are ignored for matches
+* Create name value pairs as argument for the binding
+* No substitution in headers, Ignores routing key,
+
+[source, text]
+----
+Example:
+  Q-1: category == 'sport' AND source == 'bbc'
+  Q-2: category == 'sport' OR  source == 'cnn'
+
+Message ---to-----> Exchange-1
+  Header            |
+    category...     |->Binding-1 ---to---> (Q-1)!
+    source...       |    x-match: all
+  Properties        |    category: sport
+    <leer>          |    source: bbc
+  Body              |->Binding-2 ---to---> (Q-2)!
+   <irgendwas>           x-match: any
+                         category: sport
+                         source: cnn
+---- 
+
+== Sending a message KN example
+[source, text]
+----
+Body:
+  {"bookingNumber":"CH2212U00061","shipmentNumber":"CH2212U00061-01"}
+
+Header:
+  x-sender-app     -> esp-shipment-app
+  x-sender-version -> 7.0.0-SNAPSHOT
+  __TypeId__       -> kn.knlogin.esp.shipment.api.service.UnlinkShipmentRequest
+
+Properties:
+  contentType     -> application/json
+  contentEncoding -> UTF-8
+  contentLength   -> 67
+  deliveryMode    -> PERSISTENT
+  priority        -> 0
+  deliveryTag     -> 0
+----
+

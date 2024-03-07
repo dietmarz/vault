@@ -1,0 +1,20 @@
+include::{root}/.inc/include.adoc[]
+
+= Ordertypen
+== Flatex https://www.youtube.com/watch?v=DiNHoqMYBmo&t=139s
+
+Alle Handlungen im Orderbuch überprüfen
+
+=== Preisanfrage
+Direkt und schnell
+
+=== Limitorder
+* Market: Handel zum nächsten handelbaren Kurs
+* Limit: Wieviel möchte ich denn mindestens bekommen oder max bezahlen
+* Stop Market Order: Wenn das Papier über eine Marke steigt, steige ich mit ein
+
+
+* Trailing Stop (Verkauf)
+* Stoplimit: Ab wann im Aufwärtstrend, möchte ich verkaufen, Stop-Limit Abstand: Erlaubte Rückschritt bevor verkauft wird
+
+

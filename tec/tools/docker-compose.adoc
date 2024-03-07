@@ -1,0 +1,18 @@
+include::{root}/.inc/include.adoc[]
+
+= docker-compose
+
+== Ports mapping
+
+[source,dockerfile]
+----
+version: "3.9"
+services:
+  service_name:
+  ports:
+    - "HOST-SIDE:CONTAINER-SIDE"
+----
+
+
+    ports:
+      - "8888:8080"

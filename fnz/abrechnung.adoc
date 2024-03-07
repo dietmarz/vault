@@ -1,0 +1,47 @@
+include::{root}/.inc/include.adoc[]
+
+= Abrechnung Template
+
+== Monatsabrechnung Steuern
+
+.Abrechnung für Monat: MMM 2024
+Amazon letzter Artikel: <ARTIKEL>
+ebay   letzter Artikel: <ARTIKEL>
+udemy  letzter Artikel: <ARTIKEL>
+|===
+| [ ] | Kopieren           | Diese Liste in das Daily kopieren und Monat richtig setzen, damit grep Fähigkeit hergestellt.
+| [ ] | Postkasten         | Ggf. Stempeln und Scannen
+| [ ] | Portemonnaie       | Ggf. Einkleben
+| [ ] | Selfhost           | https://selfhost.de/cgi-bin/selfhost?p=account&cat=rechnung&CGISESSID=090ed7dc07cc73a1f6237252daa8d67f[Selfhost-Login]
+| [ ] | Amazon             | https://www.amazon.de/gp/css/order-history?ref_=nav_AccountFlyout_orders[Meine Bestellungen]
+| [ ] | Amazon Messages    | https://www.amazon.de/gp/message#!/inbox
+| [ ] | Email              | https://mail.google.com/mail/u/0/?pli=1#advanced-search/subset=all&attach=true&within=1d&sizeoperator=s_sl&sizeunit=s_smb[Gmail m. Anhang]
+| [ ] | Ebay zur Prüfung   | https://www.ebay.de/mye/myebay/v2/purchase[Ebay gekauft]
+| [ ] | Udemy              | https://www.udemy.com/dashboard/purchase-history/[Udemy-Gekauft]
+| [ ] | Bhhz Digital       | https://portal.buchholz-stadtwerke.de/powercommerce/ivu/fo/portal/invoiceDetails[Bhhz-Digital]
+| [ ] | HVV                | https://shop.hvv.de/personal_data/orderList[HVV-Login]
+| [ ] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank]
+| [ ] | Auszüge Skat       | https://www.vrbank-altenburgerland.de/services_auth/auth-ui/?v=5ff448423447dee6&client_id=fkp&redirect_uri=https:%2F%2Fwww.vrbank-altenburgerland.de%2Fservices_cloud%2Fportal%2Fportal-oauth%2Flogin[Skat Bank]
+| [ ] | Umsätze QCC prüfen | Ggf. An Frau Bahlburg senden
+| [ ] | Auszüge Flatex     | https://www.flatex.de/#[Flatex Bank]
+| [ ] | EWE Tel Handy      | https://mein.ewe.de/ewetelcss/secure/billingOverview.xhtml[EWE-Tel-Login]
+| [ ] | Invest tätigen     | Was, wie, welche Strategie?
+| [ ] | Chat GPT           | Profile -> My Plan -> Manage My Subscription. Unten Tabelle, rechts neben der Datum Spalte den Link-Pfeil drücken
+| [ ] | Scan Ordner leeren | vorher syncSmb
+| [ ] | Besonderheiten     | WVL und offene Dinge notiert im Daily
+| [ ] | Ordern sync        | git office & sv, ganz zum Schluß
+| [ ] | Mail               | Mail an Frau Bahlburg
+|===
+
+
+
+
+
+* [?] Neue Ausgabenbeträge anpassen? Abos? https://docs.google.com/spreadsheets/d/1wcaSUzaoQKvjAMRyZKRfzUcnd6u6rM3baQRob9JD4Dw/edit#gid=0[Drive]
+
+=== Fehlende Rechnungen
+* [ ] XYZ nachgefordert
+
+== Monatlich UG
+* Heftstreifen für nächsten Monat nehmen
+* Rechnungen laut Kontoauszug Skatbank abheften

@@ -1,0 +1,113 @@
+include::{root}/.inc/include.adoc[]
+
+= Entscheidungsfindung Mentale Modelle (Kap 1)
+
+TODO: Kindle <<Holl1>> weiter Kap2
+
+== Was ist ein Mentales Modell (MM)
+Es ist eine Blaupause, die Ihre Aufmekerksamkeit auf die wichtigen Elemente dessen lenkt, womit sie konfrontiert sind.
+Ein Rezept is ein MM, es funktioniert aber nur im Bereich der Lebensmittel, deshalb brauchen wir eine breite Palette an MMs.
+
+== MM #1: Wichtig ansprechen, dringend ignorieren (Eisenhauer)
+* Wir verbringen viel zu viel Zeit mit dringenden Aufgaben, obwohl wir uns auf wichtige konzentrieren sollten
+* Wichtige Aufgaben müssen nicht sofort erledigt werden und erscheinen deshalb als nicht wichtig.
+* Wichtige Aufgaben verschwinden nicht, sie sind unerledigt immer wichtig, weil sie langfristige Auswirkungen haben
+* Dringende Aufgaben sind oft leichter zu erledigen und eignen sich zur Prokrastination um uns gleichzeitig produktiv zu fühlen.
+* Die Dinge die sich am meisten auf alle anderen Dinge in unserem Leben oder Arbeit auswirken sind die Wichtigsten.
+
+== MM #2: Visualisieren Sie alle Dominosteine
+* Denken Sie mehr als einen Schritt voraus und nicht nur für sich.
+* Denken zweiter Ordnung Fragen:
+  ** Wie weitreichend wird diese Entscheidung die Dinge in der Zukunft beeinflussen?
+  ** Welches Ergebnis wird meiner Meinung nach eintreten, bei Erfolg / Scheitern?
+  ** Wie hoch ist die Wahrscheinlichkeit das ich richtig liege?
+  ** Wie unterscheidet sich das, was ich denke, von dem, was alle anderen denken?
+  ** "Ignoriere die Affenpfote": 1. Wunsch Geld->200$ für toten Sohn ...
+
+== MM #3: Treffen Sie umkehrbare Entscheidungen
+* Um Unentschlossenheit strategisch zu beseitigen.
+* Wie kann ich diese Entscheidung umkehrbar machen, UND was wäre dazu nötig? Kann ich das tun? Dann tun Sie das. Aber wenn Sie den Unterschied kennen, erhalten Sie auch eine ganze Reihe von Informationen, die Sie sonst nicht erkennen würden.
+* Im schlimmsten Fall sind Sie wieder da, wo Sie angefangen haben.
+* Werner v. Braun: "Ein guter Test ist mehr wert als tausend Expertenmeinungen"
+* Wenn Sie reversible Entscheidungen treffen, bleiben Sie immer in Bewegung und lernen. Sie überanalysieren nicht un verfallen nicht in eine Analyse-Lähmung
+* Keinen Analyse Prozess für unumkehrbare E. anwenden auf umkehrbare E.! Massiver Resourcen Verbrauch!
+* Aber wenn wir die bestmögliche Entscheidung treffen wollen, können wir von jetzt an umkehrbare Entscheidungen verwenden, um genau das herauszufinden, was Sie wissen müssen.
+
+== MM #4: Suche Zufriedenheit
+* Satisfice = satisfy + suffice = zufriedenstellen + genügen
+* Maximierer: unendlich viel Zeit für eine Entscheidung, Zweifel, 100%ige Zufriedenheit trotz des Gesetzes des abnehmenden Ertrags - der geringen Rendite aus so vielen Stunden Recherche
+* Satisfizierer: Weiß was wichtig für ihn ist, Entscheidet sich für Dinge, die für seine Zwecke ausreicht. Gut genug, zufrieden, glücklich.
+* Nach dem Sie `37% Regel` gesehen haben, einfach aufhören und Entscheidung treffen
+* Sich selber Grenzen setzen hilft nicht zu Maximieren
+
+== MM #5: Innerhalb von 40-70% bleiben
+* Für schwierige Entscheidungen brauchen Sie nicht weniger als 40% und nicht mehr als 70% der Informationen
+* Zu viel Wissen führt zu Unentschlossenheit da man den Überblick verliert.
+* Nutzen Sie dieses Modell um absichtlich weniger Informationen zu konsumieren
+
+== MM #6: Reue minimieren
+. Projizieren Sie sich auf ein Alter von 80 Jahren
+. Sie blicken zurück und möchten so wenig wie möglich bereuen
+. Frage: Werde ich in X Jahren bereuen, dass ich diese Aktion nicht durchgeführt habe?
+
+== MM #7: Schwarze Schwäne ignorieren
+Ein ein unvorhersehbares Ereignis, ein Ausreißer, der ignoriert werden sollte, aus dem man keine Konsequenzen ziehen sollte. Wie zB. ein Blitzschlag.
+
+== MM #8: Suchen Sie nach Gleichgewichtspunkten
+Beobachte Trends im Fortschritts: Von 0 auf 1 = ∞, 1 auf 2 geringer, 2 auf 3 noch geringer... Irgendwo kommt ein Gleichgewichtspunkt, der den wirklichen Mittelwert repräsentiert. Machen Sie nicht den Fehler, nicht darauf zu warten
+
+== MM #9: Warten Sie nicht auf die Regression zum Mittelwert
+Eine Veränderung ohne Grund ist nicht wirklich eine Veränderung, nur eine Abweichung. Es pendelt sich früher oder später alles wieder zum Mittelwert ein.
+
+== MM #10: Was würde Bayes tun?
+Mathematische formel, hilfreich?
+[asciimath]
+++++
+P(A|B) = (P(B|A) \times P(A)) / (P(B))
+++++
+
+== MM #11: Mach es wie Darwin
+* Unermüdliche Hingabe zur Wahrheit. Allen Meinungen, die der eigenen wiedersprechen, das gleiche Gewicht und die gleiche Aufmerksamkeit schenken.
+
+== MM #12: Mit System 2 denken
+Sys1: Automatisch & schnell, keine Anstrengung, ohne bewusste Kontrolle, heuristisch und instinktiv: Radfahren, Gesichtsausdrücke interpretieren
+Sys2: Bewusst & überlegt, schwierige mathematische Problem lösen
+
+== MM #13: Prüfen Sie Ihre Perspektiven
+Prüfen Sie die Unfähigkeit, andere Perspektiven einnehmen zu können. ZB: Ortsbestimmung durch Triangulation
+
+== MM #14: Finden Sie ihre eigenen Schwächen.
+Gehen Sie davon aus, das Sie im Unrecht sind. Gehen Sie davon aus, das Sie für min 1% der Konflikte verantwortlich sind.
+
+== MM #15: Trennen Sie Korrelation und Kausalität
+Der Verkauf von Sonnenbrillen und Eis ist jahreszeitlich korreliert hat aber keinen kausalen Zusammenhang.
+
+== MM #16: Umgekehrtes Erzählen
+Fischgräten (Ishikawa, Ursache-Wirkungs) Diagramm die Ursachen der Ursachen dokumentiert, = Storytelling reverse, denn Sie beginnen mit der Schlussfolgerung. Oder auch 6M Methode: (Mensch, Maschine, Methode, Material, Messung, Milieu)
+
+. Problem identifizieren,
+. Hauptursachen identifizieren, zB 6Ms
+. Unterursachen identifizieren, quer zur M-Gräte.
+. Wichtigsten Ursachen identifizieren und priorisieren.
+
+== MM #17: SCAMPER
+Ideen zur Produkt- oder Prozessverbesserung zu entwickeln und bestehende Produkte oder Prozesse zu überdenken
+
+S – Substitute (Ersetzen): Was kann ersetzt oder ausgetauscht werden? Zum Beispiel andere Materialien, Menschen oder andere Komponenten.
+C – Combine (Kombinieren): Wie kann man verschiedene Teile zusammenführen oder integrieren? Zum Beispiel zwei Features eines Produkts kombinieren.
+A – Adapt (Anpassen): Kann man ein existierendes Element anpassen oder modifizieren? Zum Beispiel die Funktion eines Produkts verändern.
+M – Modify (Modifizieren): Was kann hinzugefügt oder geändert werden in Form, Aussehen oder Funktion?
+P – Put to another use (Anderweitig verwenden): Kann das Produkt oder die Prozess in anderer Weise oder in einem anderen Kontext verwendet werden?
+E – Eliminate (Eliminieren): Was kann entfernt oder weggelassen werden, ohne den gesamten Prozess oder das Produkt zu beeinträchtigen?
+R – Reverse (Umkehren) / Rearrange (Neuanordnen): Kann man die Reihenfolge von Prozessen ändern? Oder kann man die Perspektive umkehren?
+
+== MM #18: Zurück zu den ersten Prinzipien "First Principles Thinking".
+. Identifizieren und Zerlegen: Brechen Sie das Problem oder den Gegenstand, den Sie verstehen oder verbessern möchten, in seine grundlegendsten Bestandteile oder Wahrheiten auf. Was bleibt bestehen, wenn alle Annahmen entfernt werden?
+. Analysieren: Überdenken Sie diese "ersten Prinzipien". Was sind die grundlegendsten Wahrheiten oder Gesetze, die für dieses Problem oder diesen Gegenstand gelten?
+. Neuzusammenstellung: Beginnen Sie von diesen grundlegenden Wahrheiten aus, um das Problem neu zu konstruieren oder eine neue Lösung von Grund auf neu zu denken.
+
+
+
+[bibliography]
+- [[[Holl1]]] Mentale Modelle:  30 Denkwerkzeuge, die den Durchschnitt vom Außergewöhnlichen unterscheiden. Verbesserte Entscheidungsfindung, logische Analyse und Problemlösung (Peter Hollins Deutsch 4)
+

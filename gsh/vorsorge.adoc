@@ -1,0 +1,18 @@
+include::{root}/.inc/include.adoc[]
+
+= Vorsorge
+
+== Augenarzt alle 2 Jahre
+* 11.03.2025, Termin zum Terminbesorgen schon eingetragen. Termin ca. 09.2025
+
+== Hautkrebs
+
+== Check-up 35?
+
+== Prostatakrebs jährlich
+* Termin 23.010.23, Urinstrahl Untersuchung!
+
+== Impfungen & Blutdruck
+
+== Proktologe alle 3 Jahre (Je nach dem was der Arzt sagt)
+* 13.05.24 Termin Besorgung

@@ -1,0 +1,21 @@
+include::{root}/.inc/include.adoc[]
+
+= OLB Daten
+
+* TODO: Bitte encrypten!
+
+
+== Online
+Kundennummer: 4677439
+Depot 868 247 6050
+
+== App
+AppTan-ID 100TOWWV
+Aktivierungscode: 66108081
+
+== Festgeld
+* Zugangsnummer: 5045468187
+* Kundennummer 868 24760 00
+* KontoNr      868 24760 20
+* IBAN DE57 2802 0050 8682 4760 00
+* 12.000€ 3% bis 09.01.2025

@@ -1,0 +1,51 @@
+include::{root}/.inc/include.adoc[]
+
+= Local Development
+
+* Versionsgleichheit herstellen wenn ext DB!
+
+== Shipment
+
+=== Spring profile integration
+
+* Add zur Runconfiguration: Active Profile: "integration"
+
+[source,yaml]
+.src/mail/resources/application-integration.yml
+----
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@(DESCRIPTION=(CONNECT_TIMEOUT=10)(FAILOVER=ON)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=ompi2-s1.db.int.kn)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=ompi2-s2.db.int.kn)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=OMPI2_APP.INT.KN)))
+    username: OMP
+    password: z509lAxZ
+    jpa:
+      show-sql: true
+      properties.hibernate.show_sql: true
+
+  liquibase.enabled: false
+
+logging.level:
+  org.hibernate.sql: DEBUG
+  org.hibernate.type: DEBUG
+
+
+----
+
+
+=== Docker
+[source,bash]
+
+----
+export SSO_USERNAME=<vorName>.<nachName>
+cd esp-dev-launcher
+dc pull && dc up
+./launcher launch esp-masterdata esp-taskmanager esp-administration
+
+----
+
+=== Urls
+* Wenn vanish läuft geht alles über Port 8888
+* User: esp.admin   Passwort: Hamburg01
+
+http://localhost:8888/shp/api-doc[Swagger Übersicht]
+

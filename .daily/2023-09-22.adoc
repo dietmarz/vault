@@ -1,0 +1,174 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2023-09-22
+
+== Aufgaben 
+Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus
+
+=== Heute
+* [ ] FDW 30 09 Bafög und Steuerunterlagen an StB schicken
+* [ ] FDW 30 09 FA antworten per Fax?
+* [ ] PDW 99 09 Packen !!!, Liste durchgehen.
+  **              Kisten reservieren für Regale?
+  **              Einkaufen: Tabak, Penny Reis Tüten
+
+* [ ] Hdw 30 03 Isomatte (+ Luftbett) auf Dichtigkeit prüfen
+* [ ] Hdw 90 09 QRP fertig! <Anfangen>
+
+=== Mittag
+
+=== Abend
+
+=== Sport
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== FDW 60 09 Linas Unterhalt errechnen
+* link:../fnz/unterhalt-lina.adoc[Linas Unterhalt]
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Task Kotlin Entwicklung
+* [ ] weiter task printservice einbauen, Testen!
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Eichengrund
+* [ ] FdW XX 06 Wertermittlung link:../fnz/eichengrund.adoc[Stand]
+* [ ] F w XX 07 Garage leckt link:../fnz/eichengrund.adoc[Stand]
+* [ ] Was wir mit den Geldern der OLB? link:../fnz/oberes-juechen-grundstuecke.adoc[Details]
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Weitere, laufende Projekte
+* [ ] H W 90 Keller säubern"
+* [ ] J W 90 08 link:../prv/entscheidungsfindung-mentale-modelle.adoc[MM]
+* [ ] J W 30 08 Orga: Board: Fehlende Tasks anbringen, priorisieren
+* [ ] H W 60 Liste jeder Raum 60min, Entsorgen-Verkaufen-Behalten.
+
+* [ ] GdW 30 09 KKasse wechseln
+* [ ] JDW 30 03 PlaBewerbung fertig
+* [ ] Hdw 30 03 Isomatte (+ Luftbett) auf Dichtigkeit prüfen
+* [ ] F W 30 03 SThree Monatsnachweise einsortieren und drucken
+* [ ] JdW 60 03 Office: Script in kh: Copy smb; ocr +  guess Name! Enum mit bekannten Absendern
+
+
+
+== Backlog
+
+
+=== Irgendwann
+* [ ] Gdw TB 01 Harte Matratze im eigenen Haus oder kaufen.
+* [ ] Gw  60 03 Skript, wie man das Wissen und Dateinamen aus doc & office grepfähig machen kann, vielleicht mit t d <search> (oder o)
+* [ ] Jdw 99 03 Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg  ?Daraus OKRs generieren? 3, 5, 15 Jahres Plan?
+
+* [ ] FDW 30 03 ?Jens Rabe monatlich https://aktienkannjeder.de/?utm_source=mail&utm_medium=newsletter&utm_campaign=aktienkannjeder
+* [R] F W 99 01 Andree de B Aufstellung verstehen, Pflege-Routine erarbeiten
+* [ ] F W 45 03 Outcome Frame Dietmar Vermietet. Vorteile beachten.
+* [ ] Fdw 99 03 Amazon Invoice Generator, alles absetzbar und nicht verfolgbar. Einarbeitung PDF Generator
+
+* [ ] P w 30 03 CM Notizen auswerten,
+* [R] P w 99 03 Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich.
+* [ ] P   60 03 CM 7 Schritte fertig
+
+* [ ] H W TB 01 Keller aufräumen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Kühne & Nagel
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+=== Do and Done
+* Urlaub annoncieren!
+* DHL Lager Antrag 13 Euro ausfüllen
+
+
+
+=== Woche Buchen ('.' Log Time)
+https://jira.int.kn/secure/Tempo.jspa[MyWork]
+https://jira.int.kn/browse/KNOMP-29388[Operationals]
+https://jira.int.kn/browse/KNOMP-31487[Remove Status]
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-34206 [oedi-data-bridge] update to unified-shipment-model-message v1 8.0.0
+* https://jira.int.kn/browse/KNOMP-34206[Jira]
+* https://jira.int.kn/browse/KNOMP-31282[Epic] MDM: Clean-Up
+* link:../.ticket/34206.adoc[docu]
+
+[source,java]
+.Projekt: eps-shared-message-api ArtifactId: esp-unified-shipment-model-message-api-v1 Version: 8.0.0
+----
+package kn.knlogin.esp.message.v1.unifiedshipmentmodelmessage.types;
+public class UnifiedShipment {
+  ShipmentEventHistory eventHistory; // removed !!!
+  ShipmentEvent lastCargoMovement;  // removed !!!
+}
+----
+
+[source,java]
+.Projekt: esp-oedi-data-bridge Version 6.0.0
+----
+package kn.knlogin.esp.oedidatabridge.unified.types;
+public class UnifiedShipment {
+  ShipmentEventHistory eventHistory; // removed !!!
+}
+
+----
+
+
+* [ ] Wie ausbauen in oedi-data-bridge? Abhängig von der Benutzung, deshalb Frage an Martin und Dimitrii.
+* Kontakt: Martin Bekier und Dmitrii Danileiko (Chef) -> Aditi Singh (Architect)
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-33802 [esp-shipment] clean up "null" status codes from ESP_SHIPMENT_STATUS
+https://jira.int.kn/browse/KNOMP-33802[Jira]
+https://jira.int.kn/browse/KNOMP-31282[Epic] MDM: Clean-Up
+* [X] PR gemerged: Dependency shipment-events & liquibase undo
+* [ ] PR gestellt, weiter Review mit Georg, feature/KNOMP-33802-drop-column-idempotent
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-33980 Create new ART for testing integration from ESP & myKN
+https://jira.int.kn/browse/KNOMP-33980[Jira]
+link:../.ticket/33980.adoc[docu]
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== PreShipment Video Mitschrift (auf SystemTest)
+* https://kuehne-nagel.zoom.us/rec/share/tIBAqgLHncLqjWWNfoWzwi7eI286j1DoLw172iVtlB1KNMyoNT0caqhxihnv_Il4.orwSIHesSRMCW8M_ [Video]
+  ** Kenncode: RAC3iQ%L
+  ** link:../kn/pre-shipment.adoc[DOC]
+* [ ] Film anschauen, wesentlichen Dinge extrahieren
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

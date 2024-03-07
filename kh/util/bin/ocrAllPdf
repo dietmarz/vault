@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+shopt -s nocaseglob
+
+ls *.pdf | xargs -i -P 7 ocr "{}"
+

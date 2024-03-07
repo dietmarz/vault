@@ -1,0 +1,38 @@
+include::{root}/.inc/include.adoc[]
+
+= Entwicklungs Knowhow
+
+== Scaling Framework
+* Ermöglicht parallele Bearbeitung
+* Berücksichtigung sequential Bearbeitung gleicher entitäten in der Reihenfolge wie sie ankamen
+* Der BucketStore sammelt alle Nachrichten des Types, der
+
+[source, java]
+----
+// bucketStoreName = Speicherort, bucketKeyJsonPointer = Pointer auf den Entity Wert um zu Entscheiden ob eine parallele
+// Verarbeitung möglich ist
+@BucketMessageConsumer(bucketStoreNames = KNIE_MESSAGE_IMPORT, bucketKeyJsonPointer = "/messageHeader/shipmentNumber")
+----
+
+Dazu wird um die annotierte Methode einiges herum aufgebaut, was prinzipiell im `BucketMessageConsumerAutoConfiguration`
+beschrieben wird.
+[source, java]
+----
+public class BucketMessageConsumerAutoConfiguration {
+  @Bean
+  public ProcessingFlowsCreated createMessageWorkflow() {
+    annotationsContext.getHandlerMetadata().forEach(bucketStoreMetadata -> {
+      BucketStoreProcessingMode processingMode = bucketStoreMetadata.getBucketStoreProcessingMode();
+      BucketStoreName bucketStoreName = bucketStoreMetadata.getBucketStoreName();
+      SingleTableMessageStore messageGroupStore = createMessageGroupStoreBean(dataSource, bucketStoreMetadata);
+      LockRepository lockRepository = createLockRepositoryBean(dataSource, bucketStoreMetadata);
+      LockRegistry lockRegistry = createLockRegistryBean(lockRepository, bucketStoreName);
+      BucketStore<Message<?>> bucketStore = createBucketStoreBean(messageGroupStore,lockRegistry,bucketStoreName);
+      AbstractBucketMessageProducer bucketMessageProducer = createBucketMessageProducerBean(bucketStore, bucketStoreName, bucketStoreMetadata,processingMode);
+      MessageChannel inputChannel = createInputChannelBean(bucketStoreName);
+      MessageChannel processingDoneChannel = createProcessingDoneChannelBean(bucketStoreName);
+      createMessageProcessingWorkflowBean(inputChannel, processingDoneChannel, bucketMessageProducer, bucketStoreName, bucketStoreMetadata); });
+  return new ProcessingFlowsCreated(); // Das ist bloß eine leer Markerklasse, die man sich als Abhängigkeit in seinen Consumer setzen kann
+  }
+}
+---- 

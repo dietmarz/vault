@@ -1,0 +1,93 @@
+= Bachlor of Time
+
+* src: ./prv/mind/lernen/Reichel_Bachelor-of-Time.epub
+
+== Ziele
+
+**SMART**e Ziele:
+
+* **S**pezifisch, Konkret, eindeutig
+* **M**essbar, überprüfbar
+* **A**ngemessen, Attraktiv! Nicht zu groß
+* **R**ealistisch, Erreichbar
+* **T**erminiert, als Timebox oder Ergebnis
+
+Maximalprinzip: Input steht fest zB. Eine Zeitspanne, output maximum
+Minimalprinzip: Output steht fest zB. Eine Prüfung, input minimieren
+
+Ziele als Karte definieren
+Jede Task SMART
+
+== Eat the Frog
+* Schwierigste und wichtigste Aufgabe
+* Neigung zum Aufschieben
+* 30min als erstes den Frog angehen
+* Nie genug Zeit um alles zu erledigen
+* Zuerst die wichtigen Dinge
+
+== Planung
+* Zu viel Planung macht Dich unflexibel
+* Nur den roten Faden planen
+* Lebensziele, 5J, 1J, 6M, 1M, 1W, 1T
+* Am besten Abends, (Unterbewusstsein plant in der Nacht mit)
+  ** Kalender Termine?
+  ** Tasks
+
+=== ALPEN für die Tagesplanung
+* **A**ufgaben aufschreiben
+* **L**änge schätzen
+* **P**ufferzeit für den Tag einplanen 50%
+* **E**ntscheidung treffen, welche Aufgabe heute?
+* **N**achkontrolle: Planung eingehalten? Task an-strichen per Tag?
+
+== Rubikon methode==
+Rubikon ist ein Point of no Return. Also z.B. eine Prüfungsanmeldung oder sonstiger Termin der Druck erzeugt.
+
+Identifiziere Dein Problem.
+Setze Dir ein Ziel.
+Warum möchtest Du das?
+Bestimme den ersten Schritt
+Setze den Rubikon!
+
+== Bist Du Produktiv oder nur effizient?
+* Effizient: Die Dinge richtig tun
+* Effektiv: Die richtigen Dinge tun
+
+== Pareto Prinzip
+* Finde die 20% Aufwands Aufgaben die Dir 80% des Erfolges liefern!
+
+== Parkinson Gesetz
+* Eine Aufgabe dehnt sich in genau dem Maße wie Zeit zur Verfügung steht.
+* Deshalb ist eine Deadline unabdingbar.
+* Weite Deadline 14 Tg in kleine alle zwei Tage Deadlines aufteilen
+* Such Dir eine Person, die dich kontrolliert.
+
+== Pomodoro Technik
+25w - 5p - 25w - 5p - 25w - 5p - 25w - 30p
+
+== Gewohnheiten aufbauen
+* Zeitmanagement funktioniert nur Tag für Tag
+* Planung am Vorabend
+* Drei Schritte der Gewohnheit: Auslösereiz, Durchführung, Belohnung
+* Führe ein Aktivitäten log aus um zu sehen, wieviel Zeit Du hast.
+* Konzentriere Dich immer nur auf eine neue Gewohnheit.
+  ** Gewohnheiten in kleinen Schritten angehen und aufteilen
+  ** Jeden Tag zu einer Festen Zeit planen
+  ** Gewohnheiten planen
+     *** 15 Aufstehen   05:30
+     *** 07 Meditation  05:45
+     *** 15 Gymn        06:00
+     *** 15 Duschen     06:15
+     *** 15 Planung     06:30
+     *** 15 Frühstücken 06:45
+     *** 30 Frog        07:00 !
+     *** 70 Bahn        07:30
+     *** 8h Arbeit      08:30
+     *** 10 Planung     17:30
+     *** 70 Bahn        18:00
+     *** 90 Sport       19:30
+     *** 30 Abspannen   21:30
+     *** 8h Schlafen    22:00 !
+
+weiter Seite 96
+

@@ -1,0 +1,25 @@
+include::{root}/.inc/include.adoc[]
+
+= 33958 Field "Active Task" not correct in ESP reporting
+
+* https://jira.int.kn/browse/KNOMP-33958[Ticket]
+
+== Reporting
+
+[source,java]
+----
+public class DataQualityShipmentController implements DataQualityShipmentApi {
+    public ResponseEntity<String> getDataQualityShipment(@PathVariable String bookingOrShipmentNumber) {
+        EspShipment dataQualityShipment = dataQualityShipmentService.createDataQualityShipment(bookingOrShipmentNumber);
+    }
+}
+
+public class DataQualityShipmentService {
+    public EspShipment createDataQualityShipment(String bookingOrShipmentNumber) {
+        return unifiedShipmentModelService.buildShipment(getStagingModel(bookingOrShipmentNumber));
+    }
+}
+
+
+----
+

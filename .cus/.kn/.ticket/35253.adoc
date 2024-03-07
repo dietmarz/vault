@@ -1,0 +1,35 @@
+include::{root}/.inc/include.adoc[]
+
+= 35253
+
+https://jira.int.kn/browse/KNOMP-35253[Ticket]
+
+== Problem
+* Werte sind leer und nicht null, assert not blank schlägt fehl
+* https://esp-sentry.int.kn/esp/esp-reporting/issues/77408/events/3d56a80debfb49919317936b04a59a8b/[ReleaseNotes]
+
+
+=== Column Factory Code
+* In CPE_ORDER_SHIPPING, CPE_BOOKING_DETAILS weil aus VIEW V_CORE_PROCESS_EVENT
+
+
+
+[source, sql]
+----
+-- Korrektur "Factory Code"
+UPDATE CPE_ORDER_SHIPPING
+SET FACTORY_CODE = NULL
+WHERE TRIM(FACTORY_CODE) = '';
+
+UPDATE CPE_BOOKING_DETAILS
+SET FACTORY_CODE = NULL
+WHERE TRIM(FACTORY_CODE) = '';
+
+UPDATE D_ESP_SHIPMENT
+SET RELEASE_NOTES = NULL
+WHERE TRIM(RELEASE_NOTES) = '';
+
+# Release Notes ist ein LOB! kein char
+
+
+----

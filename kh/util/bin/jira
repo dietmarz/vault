@@ -1,0 +1,6 @@
+#!/bin/bash
+
+TICKET="KNOMP-$1"
+
+git fetch --all && git branch -a | sed 's/remotes\/origin\///' | grep ${TICKET} | xargs -i git checkout {}
+

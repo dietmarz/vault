@@ -1,0 +1,33 @@
+include::{root}/.inc/include.adoc[]
+
+= bootstrap
+
+== Card System
+* Ordentliche Gestaltung mit Card System
+[source, html]
+----
+<div class="card">
+  ** <div class="card-header">...</div>
+  ** <div class="card-body">...</div>
+  ** <div class="card-footer">...</div>
+</div>
+----
+
+== Grid System
+* Jede Zeile hat in Summe eine Breite von `12` egal wieviel Pixel
+[source, html]
+----
+<div class="row">
+  ** <div class="col-1">...</div>
+  ** <div class="col-2">...</div>
+  ** <div class="col-9">...</div>
+</div>
+----
+
+== Formdata
+* Besser sieht es aus mit den Klassen.
+[source, html]
+----
+<label class="form-label">My Label</label>
+<input class="form-control" />
+----

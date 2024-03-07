@@ -1,0 +1,27 @@
+include::{root}/.inc/include.adoc[]
+
+= esp-rest-apis
+
+== Bauen
+* mvn clean generate-resources && mvn -f target/shipment-status install
+* Dann im benutzenden Projekt mvn refresh (in Intellij ! )
+
+[source,xml]
+.pom.xml
+----
+<esp-shipment-status-openapi-java-server.version>2.0.0-SNAPSHOT</esp-shipment-status-openapi-java-server.version>
+----
+
+== Releasen
+* Man kann nur das jeweilige Unterprojekt releasen also shipment-status oder shipment-admin
+* awx->Templates->ESP | Release library->
+  ** Repository to Release: "esp-rest-apis"
+  ** Branch name: "develop"
+  ** Add qualifier= ""
+  ** Module to release: "shipment-status"
+  ** Build Mode: "normal"
+  ** -> Launch
+
+  ** Module to be released: shipment-status oder shipment-admin
+(Ansonsten würde es für jede Änderung ca. 50 neue Artefakte geben)
+  ** Vergiss nicht, die Version im Yaml file zu erhöhen, das passiert nicht automatisch.

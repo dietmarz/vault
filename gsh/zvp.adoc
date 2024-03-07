@@ -1,0 +1,42 @@
+include::{root}/.inc/include.adoc[]
+
+[tag="Essen"]
+
+= zvp
+    
+Phasen: **Z**urück, **V**erbessern, **P**rofitieren
+
+== Phase 1 Z
+* Dauer 2 Wochen
+* max 3 Mahlzeiten! 3h Pause!
+
+=== No
+* Getreide, Reis, Zucker, Soja. Alles Süße
+
+=== Yes
+* Ballaststoffe
+* Gemüse
+* Proteine, Milchprodukte, Fisch, Eier
+* Alle Hülsenfrüchte
+  ** Aus Dosen gut mit heißem Wasser abspülen
+  ** Dicke, Weiße, Kidney , Schwarze Bohnen, Kicher + Erbsen, Linsen
+* Heidelbeeren! Zimt! Kokosöl
+* Butter statt Margarine
+
+* Gemüse
+  ** Jeder Kohl
+  ** Radieschen, Gurken, Aubergine
+  ** Alles was nicht süß schmeckt
+
+* Milchprodukte
+  ** Quark, Joghurt, Frischkäse, Hüttenkäse
+  ** Keine Light Produkte verwenden!
+
+* Ungesättigte Fettsäuren
+  ** Avocado
+  ** Fisch aus Wildfang
+  ** Oliven-, Lein-, Distel-, Kürbis-, Wallnuss Öl
+  ** Eier
+
+* Obst, nur 2 Stück! NICHT zwischen den Mahlzeiten
+

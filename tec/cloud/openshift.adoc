@@ -1,0 +1,29 @@
+include::{root}/.inc/include.adoc[]
+
+= Openshift4
+
+* https://console.emea.ocp.int.kn/k8s/cluster/projects[Neuer Cluster]
+* Login mit Spezial Passwort was per Mail kam
+* Projekt auswählen! ZB: cp-474844 (Einfach click auf den Link)
+* Versuche Admin zu werden, als developer siehst du nichts
+
+== Pods
+
+* Linkes Menu -> Workloads -> Pods (Filter: myVertical-knomp21294)
+  ** Tab Details: Alle Mounts, Volumes, Imagenames
+  ** Tab Logs:
+  ** Tab Terminal
+
+== DeploymentConfigs
+* Linkes Menu -> Workload -> DeploymentConfigs  (Filter: myVertical-knomp21294)
+  ** Details: Pod Count (Donat)
+  ** Rechts: "Action Dropdown" -> Edit deploymentconfig ->
+  *** Docker image name (containing git branch name!)
+  *** Environment variables, VM-Options etc. Passwörter, Reconnection Timeouts.
+
+== Actions Dropdown (Wenn Pod ausgewählt)
+* Start rollout: Zieht ein upgedatetes Image und startet
+
+== Networking
+* Linkes Menu ->  Networking -> Routes (Filter: myVertical-knomp21294)
+  ** Unter Location die jeweilige URL. Das ESP Frontend heißt varnish-knomp21294

@@ -1,0 +1,29 @@
+:toc:
+:sectnums:
+= Xpath Expressions
+
+== Usage in selenium
+
+.StandingOrderPo.java
+[source,java]
+----
+ // Any Element with that id, any deep (//) ngb... element then first div containing a button
+  @FindBy(xpath = "//*[@id='firstExecution']//ngb-datepicker-navigation/div[1]/button")
+  public WebElement stoFirstExecutionPreviousMonthDatePickerButton;
+----
+
+== Test correct string
+
+.Do this in chrome console
+[source,javascript]
+----
+$x('//myExpression')[0]
+----
+* Dont close expressions with an `/` at the end.
+* Use DevTools (F12) -> right click on element->Copy->Copy XPath
+* the `[0]` highlights it in chrome
+
+== Architecture UI tests with selenium
+. PageObject classes containing xpath - java mappings
+. Steps classes for cucumber
+. feature files containing scenarios.

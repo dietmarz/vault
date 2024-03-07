@@ -1,0 +1,52 @@
+#!/bin/bash
+set -eu
+
+# Prüft, ob ein Parameter übergeben wurde
+# shellcheck disable=SC2235
+if [ $# -eq 0 ] || ( [ "$1" != "ours" ] && [ "$1" != "theirs" ] ); then
+    echo "Usage: $0 <theirs|ours>"
+    exit 1
+fi
+
+PARAM=$1
+
+# Funktion, um den Git-Status zu überprüfen und zu bestimmen, ob sich Git im Merge- oder Rebase-Modus befindet
+check_git_status() {
+
+  if [ -d ".git/rebase-merge" ] || [ -d ".git/rebase-apply" ]; then
+      echo "rebase"
+  elif [ -f ".git/MERGE_HEAD" ]; then
+      echo "merge"
+  else
+      echo "none"
+      exit 1
+  fi
+}
+
+# Funktion, um Konflikte zu lösen
+solve_conflicts() {
+    git diff --name-only --diff-filter=U | while read fileName; do
+        git checkout "$1" "$fileName"
+        echo "OK? call: git add $fileName"
+    done
+}
+
+# Hauptlogik des Skripts
+GIT_STATUS=$(check_git_status)
+
+if [ "$GIT_STATUS" = "rebase" ]; then
+    # Bei Rebase die Bedeutung von 'ours' und 'theirs' vertauschen
+    if [ "$PARAM" = "ours" ]; then
+        solve_conflicts "--theirs"
+    else
+        solve_conflicts "--ours"
+    fi
+elif [ "$GIT_STATUS" = "merge" ]; then
+    # Bei Merge den Parameter direkt verwenden
+    solve_conflicts "--$PARAM"
+else
+    echo "Git is neither in merge nor rebase state."
+    exit 1
+fi
+
+echo "Took changes from '$PARAM' in git state: '$GIT_STATUS'."

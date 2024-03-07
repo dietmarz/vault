@@ -1,0 +1,86 @@
+include::{root}/.inc/include.adoc[]
+
+= Rundrücken 22 Tage
+Jeff, Athlean-x
+
+video::XxSgdX7lX6E[youtube]
+
+IMPORTANT: Only perform the stretches and exercises for tests you fail!
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Wall Splat (thoraci)
+* Test #FAIL !#
+  ** Schuhspitze 15cm von der Wand weg
+  ** Hände auf 11 und 1 Uhr ausgestreckt an die Wand
+  ** Squat down, until Hips? are parallel or hands move from wall.
+  ** Pass: Solange runter, bis Oberschenkel parallel oder die Hände von der Wand
+
+* Dehnung
+  ** Bauchlage, Ellenbogen gestützt zB Yoga-Bloc und Kopf durch Oberarme dehnen. 3x45sec
+
+* Kräftigung
+  ** Facepull: Oberarm parallel, Unterarm 90°, Daumen zeigen Richtung Gesicht
+  ** Alternativ rückwärts gelagert im Türrahmen
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+==  Hamstring (hinterer Oberschenkel)
+* Test #FAIL !#
+  ** Mit geradem! Rücken, gebeugten Knien runter bis zu den Zehen.
+
+* Dehnung
+  ** Stand, Wand, Arme 11, 1 Uhr, lines Bein in der Boden Ecke vorne, rechts 1m zurück. Nun mit den Armen versuchen höher
+  zu gehen. 4 x 45sec
+
+* Kräftigung Hüftbeuter
+  ** Stand, ein Bein auf eine Box, Oberschenkel etwas über 90° angehoben. Aufgabe: Knie über 3cm höher heben, so das das Bein schwebt. Für 4s halten und wieder runter. 4 Sätze, 12 Wiederholungen.
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Calves (Wade)
+* Test `Pass !`
+  ** Stand, Wand. Rechts 15 cm Abstand, Knie berührt Wand! Pass: Hacken bleibt unten.
+
+* Dehnung
+  ** Knieretter mit gestreckten Knien und gebeugten Knien 1
+
+* Kräftigung
+  ** Am boden, beine ausgestreckt, Gummiband an der Wand fest um dem Fuß gewickelt und Fuß anziehen und lösen.
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Abdominal Stretch (Bauchmuskel)
+* Test #FAIL !#
+  ** Bauchlage, abdrücken mit den Armen. Bei gestreckten Armen darf die Hüfte nicht abheben.
+
+* Dehnung
+  ** Weites, gebeugtes Aushängen an der Klimmzugstange. 4x45s
+  ** Gymnastikball rückwärtig drüberlegen. Oberarme an den Ohren
+
+* Kräftigung
+  ** Superman: Bauchlage: Arme Beine und Kopf abheben.
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Hip Flexer (Hüftbeuter)
+* Test #FAIL !#
+  ** Rücklage auf den Tisch, LWS berührt Tisch! Rechtes Knie zur Brust ziehen, Pass: linker Oberschenkel tiefer oder horizontal
+
+* Dehnung
+  ** Ausfallschritt: Rechtes Bein vorne, Oberschenkel parallel, Linkes Knie zum Boden. Linker Arm zur Decke und dann nach rechts rüber dehnen. 4x45sec
+
+* Kräftigung
+  ** Rücklage, Brücke. Ein Bein jeweils nach vorne mit dem Hacken kurz den Boden vorne berühren.
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Hip Rotators
+* Test #FAIL !#
+  ** Im Sitzen, linker Knöchel auf rechts Knie. Knie drücken, so das linker Unterschenkel parallel zum Boden.
+
+* Dehnung
+  ** Selbe Übung wie im Test, nur rücklage liegend und mit Arm auf Knie drückend
+
+* Kräftigung
+  ** Frosch Gesäß Presse: Rücklage, Fußsohlen zusammen und dicht heranziehen, Gesäß von der Matte heben. Arme gekreuzt.
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Continue
+  ** even days = stretch day
+  ** odd days = strength day
+  **  day 22 = test day again

@@ -1,0 +1,28 @@
+include::{root}/.inc/include.adoc[]
+
+= 5 Fragen
+
+von Christian Meyer
+
+== 5 Fragen des Wollens
+
+1.) Was fühle ich jetzt?
+2.) Was möchte ich jetzt?  (Ohne Begrenzung)
+3.) Was gibt es, was ich jetzt tun sollte,
+    was zu tun ist und was möglich ist?
+4.) Was will ich jetzt? (Synthese von 2 & 3)
+5.) Was werde ich tun und jetzt zu tun beginnen?
+Was fühle ich jetzt?
+
+== 5 Fragen des Tuns
+
+1.) Was tue ich gerade?
+2.) Was will ich jetzt gerade?
+3.) Was will ich eigentlich?
+4.) Was fühle oder erfahre ich jetzt?
+5.) Was vermeide ich im Augenblick?
+Was fühle ich jetzt?
+
+== Erklärung 5 Fragen des Wollens
+
+== Erklärung 5 Fragen des Tuns

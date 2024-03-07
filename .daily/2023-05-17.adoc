@@ -1,0 +1,131 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2023-05-17
+
+== Aufgaben 
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-31571 Define deletion contracts
+link:../.ticket/31571.adoc[Ticket]
+* [ ] >90% Coverage, Edge cases mit Mockito
+*  hier weiter mit asserts
+
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== 30061 Unlink FCL shipment
+link:../.ticket/30061.adoc[docu]
+https://jira.int.kn/browse/KNOMP-30061[jira]
+
+* [ ] Erkenntnis: Sea wird nicht ge-canceled, kein Relinkage. Irgendwie dokumentieren?
+* [ ] Wie ist die Verbindung
+* [ ] Sven docu in link:../kn/esp-scaling-support.adoc[] zeigen
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== WIP
+* [ ] FdW 30 15 Anwalt termin
+* [ ] JDW 30 PlaBewerbung fertig
+
+
+
+==== Backlog nach Prio
+* [ ] FdW 30 05 Rentenversicherung, Beratung, ob Einzahlungen möglich sind. Welche Effektivität?
+  ** Lüneburg Terminvereinbarung: 04131 7595 0  E-Mail: beratung.in.lueneburg@drv-bsh.de, Online Zugang ermöglichen!
+* [ ] JDW 60 03 Handy Lösung finden! https://www.handy-deutschland.de/handys-vergleichen/samsung-galaxy-a54-a546_mit_samsung-galaxy-a34-a346.html
+* [ ] F W 30 SThree Monatsnachweise einsortieren und drucken
+* [ ] J   60 Office: Alte Ordner entsorgen, weiter hängeordner durchgehen
+* [ ] J w 30 Gmail alle Doings durchgehen
+
+* [ ] JdW 60 Office: Script in kh: Copy smb; ocr +  guess Name! Enum mit bekannten Absendern
+* [ ] F W 30 WVL OLB Tan verfahren.evt Kündigen auf Haspa gehen? Kosten evaluieren
+
+* [ ] GDW 30 Nochmal lesen, was der RuderMensch geschrieben hat.
+* [ ] F W 10 GPT fragen nach Ftx Depot Skript
+
+* [ ] Jdw 30 encryption PDF Passwort als 2. Alternative https://docs.asciidoctor.org/pdf-converter/latest/optimize-pdf/
+
+
+
+
+
+== KN Idle
+* [ ] JDW 30 03 Zoom Webinar aufzeichnen, als unkonkrete Investition
+* [ ] Jw  60 03 Eigene Q mit mehreren Topics
+* [ ] Jdw 30 04 State-Diagram zeichnen, mit Events als Vorbereitung für https://jira.int.kn/browse/KNOMP-31118[jira]
+* [ ] Jdw 30 03 Document tms-export branch KNOMP-22972
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+== Backlog
+
+=== Dringender
+* [-] FDW 15 WVL start 23.03. FA Briefe an Bahlburg mailen
+* [ ] GDW 15 Athletikum starten
+  ** https://www.tk.de/techniker/gesundheit-und-medizin/behandlungen-und-medizin/sportmedizin-und-sportverletzungen/sportmedizinische-sportorthopaedische-behandlung-hamburg-2129924
+  ** 040/7410-58559, Athletikum direkt: 040/7410-28540
+* [B] Fdw 15 03 Krankenkasse wechseln nach Athletikum 450€ max pro Jahr sparen
+* [ ] P   30 05 Office: Reiter neu farbig ausdrucken. Schubladen beschriften mit Klebe fächern die sonst für Kisten benutzt werden.
+
+=== Irgendwann
+* [ ] Gdw TB 01 OtF harte Matratze
+* [ ] Gw  60 03 Skript, wie man das Wissen und Dateinamen aus doc & office grepfähig machen kann, vielleicht mit t d <search> (oder o)
+* [ ] Gw  60 03 Ongoing: t minimalismus
+
+
+* [ ] Jdw 99 03 Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg  ?Daraus OKRs generieren? 3, 5, 15 Jahres Plan?
+
+* [W] FDW 30 03 Lohnsteuer Jahresausgleich fertig fertig. Evaluieren von Software.  Welche Fragen an Fr. Bahlburg? Status QCC?
+* [ ] FDW 60 01 Depot 7988387 kündigen, brauche ich da Hilfe, Frage an Frau Bahlburg?
+* [ ] FDW 30 03 ?Jens Rabe monatlich https://aktienkannjeder.de/?utm_source=mail&utm_medium=newsletter&utm_campaign=aktienkannjeder
+* [R] F W 99 01 Andree de B Aufstellung verstehen.
+* [ ] F W 45 03 Outcome Frame Dietmar Vermietet
+* [ ] Fdw 99 03 Amazon Invoice Generator, alles absetzbar und nicht verfolgbar. Einarbeitung PDF Generator
+
+* [ ] P w 30 03 CM Notizen auswerten,
+* [ ] J W 60 05 Anderes eBook?
+* [R] P w 99 03 Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich.
+* [ ] P w 30 03 Meinen Film anschauen, was bewirkt es?
+* [ ] P   60 03 CM 7 Schritte fertig
+
+* [ ] H W TB 01 Keller aufräumen
+* [ ] Hdw 30 03 Isomatte (+ Luftbett) auf Dichtigkeit prüfen
+
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

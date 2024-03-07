@@ -1,0 +1,12 @@
+include::{root}/.inc/include.adoc[]
+
+= timostool
+
+== Einstellungen Beispiel Create Shipment
+* Booking or Tracking: DE2301U00462
+* Environment: Feature_branch
+* Feature Branch Name: knomp21924
+* Customer Code: DEHAM32
+* Shipment Type: FCL
+* Movement Type: Cy/Cy
+* Button: Create Shipment

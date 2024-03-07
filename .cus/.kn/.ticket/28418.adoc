@@ -1,0 +1,14 @@
+include::${ENV_VAULT}/.inc/include.adoc[]
+
+= 28418
+
+== Wichtige Attribute
+BookingNumber
+CustomerCode
+ContainerNumbers
+
+== Vorhanden = Vorlagen
+Ediord -> EDIORD
+
+== Ziel 
+EDIORD -> EdiordKnie4Message  

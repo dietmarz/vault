@@ -1,0 +1,103 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2023-03-01
+
+== Aufgaben 
+
+
+* [X] 23456 Updaten
+* [X] Sheet an Lynn
+* [ ] 7. Demo & 8. März Live Deployments! 6.01b
+
+* [ ] Prj Sheet updaten
+
+=== Office
+* [X] Fri 31.03 Urlaub einreichen UND Mi 22.11. bis Fri 24.11
+* [ ] SThree Februar abschicken
+* [ ] WVL, Frage Dezember Urlaub, weitere Meldungen in esp-io-private?
+* Zuletzt in Reporting geholfen beim Umzug SpringIntegration nach rabbitMq
+
+
+=== 30670 Reporting entityIdentifier and bucketIdentifier differs
+link:.ticket/30670.adoc[task]
+
+
+
+
+
+=== 30562 SHP ClassNotFound kn.knlogin.esp.orderstructure.OrderAttributeId
+* Shp -> esp-administration-api -> esp-orderstructure (provided)
+* [X] WVL Frage in MM esp-administration.
+* [X] PR Shipment. Comments? -> Merge!
+
+===  30393 NPE in SeaShipmentKnieMessageImportMapper
+* [x] Shipment Merge!
+* [x] kleine Doku fürs reproduzieren
+
+===  30324 IllegalArgumentEx
+* [x] Search PR  Merge!
+
+== Idle
+* [ ] Orderline deletion queues learning aufschreiben
+* [ ] Eigene Q mit mehreren Topics
+* [ ] States durchspielen KNESP
+* [ ] Reporting doc lesen
+* [ ] tms-export als svg
+* [ ] Tobi fragen:
+  ** Klärung Überstunden, wie abbauen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+== Private Aufgaben
+
+.[.red]#Weiter#
+  ****
+* 120 Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg
+  ** Daraus OKRs generieren
+* Alle own Infos in t, dazu planen wo welche stehen. Diese Einfrieren und migrieren
+* ALLES konsolidieren! Alle docs aus own etc.
+
+* Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich.
+* Jens Rabe monatlich https://aktienkannjeder.de/?utm_source=mail&utm_medium=newsletter&utm_campaign=aktienkannjeder
+* Docuscanner kaufen?
+  ****
+
+.[.green]#Backlog#
+  ****
+
+* 60 Schreibtisch frei
+* 60 Depot kündigen
+* 30 TimeBox Keller aufräumen
+* 120 OtF Harte Matratze
+* 60 Gelbe Säcke organisieren
+* 120 Andree de B Aufstellung verstehen
+
+* Zu Projekten: nextcloud with kibana... see techteddy
+  ****
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

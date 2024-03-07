@@ -1,0 +1,58 @@
+include::{root}/.inc/include.adoc[]
+
+= Ärzte und Therapeuten
+
+* Vielleicht mal einen Termin in Köln
+https://func-fit.de/ueber-uns/personal-training-studio-koeln/
+
+== Proktologe
+* ausprobieren Israelitisches Krankenhaus, 040 511250
+* Dr. Boris Brand, Lerchenfeld 14, 22081 HH, 040 22949494
+* Dr. med. Florian Giensch, Am Wall 1, 040 76613622
+
+== Zahnarzt
+Dr. Antje Neumann, Schützenstraße 29, 04181 93210
+
+== Proktologe:
+Termine für Mon Morgen im November (Schlechtes Wetter), dann kann man das WE nutzen zum trinken
+Besser Israelitsches KH Hamburg link:vorsorge.adoc[vorsorge]
+
+
+Dr. Boris Brand, Lerchenfeld 14, 22081 HH, 040 22949494
+(Dr. Giensch Proktologie, Am Wall 1, 21073 HH, 040 76613622)
+
+== Hausarzt:
+Dr. Prettin, Adolfstrasse 16, 04181 6124
+
+== Psychologin:
+Dr. Dörthe Lehmann, Kirchenstrasse 3 , 04181 4059
+Lüneburg Klinik E37 Frau Dr. Sowislo
+Christian Braun, Am Radeland 34, 04105 635525
+Fritz Plotzitzka, Abbestraße 33, 040 36006825
+
+== Othopädie:
+Knie-Praxis Hamburg Dr. Wolf Lutz Müller
+Dr. Justus Lindschau, Vogt-Wells-Straße 20, 22529 Hamburg
+Dr. Reichel, Kirchenstrasse 3, 04181 4411
+Chiropraktik Rene Öhlenschläger, Hermann-Behn-Weg 10, 20146 Hamburg, 040 461420040 461420Hermann-Behn-Weg 10, 20146 Hamburg
+
+== Ostheopath
+Dirk Fieselmann, Osteopathiewelten Hamburg
+Ulrike Feik: Bei den Hünengräbern 23, 04105 6524507
+
+== Urologe:
+Dr. Carsten Braun, Thomasweg 2, 04181 39731
+
+== HNO:
+Dr. Töpfner, Jungfernstieg 7, 040 343543
+
+== Hautarzt:
+Dr. Markus Wegener, Mönckebergstraße 15-17 , 20095 HH, 040 338738
+Dr. Kirsten C. Wiese, Plan 6, 20095 HH, 040 30393710
+
+== Physio Therapeut
+Matthias Abel, Kirchenstrasse 5, 21244 Buchholz,  04181 1376616
+Physiotherapie Jonas, Friedhofstraße 21, 21244 Buchholz
+
+== Augenarzt
+Dr. med. Christian Braemer, Dr.med. Andrea Schürhaus, Breite Str. 11, 04181 97593 (weiter rechts neben Lindenpassage)

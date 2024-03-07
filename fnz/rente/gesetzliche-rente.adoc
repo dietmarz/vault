@@ -1,0 +1,30 @@
+include::{root}/.inc/include.adoc[]
+
+= Gesetzliche Rentenversicherung
+
+* Versicherungsnummer: 28 13011971 Z 007
+* link:/home/dietmar/cloud/office/Finanz/Rente/Rentenversicherung-28130171Z007/[cloud]
+
+* Rentenbeginn: 01.10.2034
+
+== Beratung Lüneburg 07.05.2023
+=== Stichpunkte
+* Auszahlung frühestens nach 35 Jahren Einzahlung
+* Fehlende Zeiten: 2010 - 2021
+* 2007 gab es einen Freiwilligen Monat
+* 23J 3M habe ich, 11J 9M fehlen
+* Wenn ich nichts einzahle, gehe ich erst 67, also 4 Jahre später
+* Ohne weitere Einzahlungen erhalte ich 676 Brutto ca. 600 Netto (-KK, -Pflege, +Steuern)
+* Wenn weiter wie 22, dann 1400 B bzw 1245 Netto. da sind 12% Abschlag drin.
+* 12% wegen <67, kann man ausgleichen mit 191,28€ bis 01.10.34 macht 48.423€ (steuerlich absetzbar)
+
+=== Einzahlungsmöglichkeiten als Freiberufler
+1.) Nicht: Dann erst Rente mit 67
+2.) Freiwillig: 100 - 1350€/M oder
+3a.) Pflicht gesetzlich: 18,6% vom Brutto
+3b.) Pflicht Antrag. Festgesetzt 630€ (=1.0, =für Durchschnittsrente) fest, solange wie selbständig. Vorteil: Erwerbsminderungsrente möglich
+4.) Wiedereinzahlung zum Ausgleich einer Rentenminderung (wg. 12% Abschlag)
+
+=== Wichtig
+* Wenn wieder selbstständig, wieder vorbeischauen.
+

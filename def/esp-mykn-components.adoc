@@ -1,0 +1,51 @@
+include::{root}/.inc/include.adoc[]
+
+= ESP mykn components
+
+Steht auch alles im README
+
+Siehe auch
+link:../.ticket/32333.adoc[Ticket]
+link:../.ticket/32333-2.excalidraw.svg[Zeichnung]
+
+
+
+== Start und Testdata
+
+[source,bash]
+.Start
+----
+cd esp-dev-launcher
+
+# Oracle nötig?
+dc --profile oracle up # or ./launcher --init-with-oracle # Starts infrastructure like rabbit...
+
+./launcher launch esp-masterdata esp-frontend esp-frontend-services esp-taskmanager esp-administration
+
+# Reporting starten
+intellij kn.knlogin.esp.reporting.ReportingApplication # (Active profile: int-oracle,backend,frontend)
+# application-int-oracle.yml: username: ESP password: QSgvK2lp
+
+# Search starten
+intellij kn.knlogin.esp.search.SearchApplication # (Active profile int-es)
+
+cd esp-mykn-components
+
+mvn spring-boot:run "-Dwebpack.env=integration"
+
+# Neue shell
+yarn start
+----
+
+
+== Daten importieren
+* Json in Rabbbit importieren
+* http://localhost:15672/#/queues   User:esp / changeme
+* Publish a UnifiedShipmentModelMessage to RabbitMQ Queue `esp.search.q.unifiedshipmentmodelmessage.v1`
+  ** Headers:  __TypeId__        = kn.knlogin.esp.message.v1.unifiedshipmentmodelmessage.UnifiedShipmentModelMessage
+  ** Property: content_type      = application/json
+  ** Property: content_encodiong = UTF-8
+  ** Payload: Kopieren von hier: https://es-esp-monitor-test.int.kn/app/discover#/doc/aba8a170-1d2a-11ec-81bd-b130e750e1bb/esp.int.apps-2023.31?id=h7wctYkBFGHzHkuhnihn
+   Unter `message`, nur der Teil: payload={...}, incl. Geschweiften Klammern.
+
+

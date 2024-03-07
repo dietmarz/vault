@@ -1,0 +1,146 @@
+include::{root}/.inc/include.adoc[]
+
+= Asciidoc Examples
+// ---------------------------------------------------------------------------------------------------------------------
+== Text
+* Normal Text, 'single ticks', "double ticks"
+* `Backticks mono`, *bold*, _italic_, #High#, bold**In**Word
+* https://google.de[a link]
+// ---------------------------------------------------------------------------------------------------------------------
+
+== Comments
+// comment line
+
+////
+comment block
+////
+// ---------------------------------------------------------------------------------------------------------------------
+== Create with a... ad-admonition-para
+NOTE: A note
+
+TIP: A tip
+
+IMPORTANT: Important!
+
+CAUTION: Caution!
+
+WARNING: Warning!
+// ---------------------------------------------------------------------------------------------------------------------
+== Create with a... ad-admonition-block
+[NOTE]
+====
+As block
+
+with several lines
+====
+// ---------------------------------------------------------------------------------------------------------------------
+== Questions AND Answers = quanda!
+[qanda]
+Why not use Java?::
+Kotlin is cooler
+Why not using SQL?::
+SQL is not type safe
+// ---------------------------------------------------------------------------------------------------------------------
+== Refer to Code segments
+[source,java]
+----
+public class Example { // <1>
+    private String member;  // <2>
+    public void method(){} // <3>
+}
+----
+<1> Class declaration
+<2> Member declaration
+<3> Method declaration
+// ---------------------------------------------------------------------------------------------------------------------
+== Include partial source code from external file
+
+[source, java]
+.External java example class
+----
+include::Example.java[tags=helloMethod]
+----
+// ---------------------------------------------------------------------------------------------------------------------
+== Kleinkram
+* Increment counter each time used: One: {counter:cnt-step}, two {counter:cnt-step}
+* <Crtl> + <click on filename> works
+* link:{root}/kn/release.adoc[release]
+// ---------------------------------------------------------------------------------------------------------------------
+== Blöcke
+
+.Example block title
+====
+Content in an example block is subject to normal substitutions.
+====
+
+.Sidebar title
+  ****
+Sidebars contain aside text and are subject to normal substitutions.
+  ****
+// ---------------------------------------------------------------------------------------------------------------------
+== Zitate und Gedichte
+
+[quote,firstname lastname,movie title]
+____
+I am a block quote or a prose excerpt.
+I am subject to normal substitutions.
+____
+
+[verse,firstname lastname,poem title and more]
+____
+I am a verse block.
+  Indents and end-lines are preserved in verse blocks.
+____
+// ---------------------------------------------------------------------------------------------------------------------
+== Extended Table
+[cols= "80,10,10"]
+|===
+3+h| 3 Colums
+.2+h| 2 Rows
+2+h| 1 Row
+h|Y
+h|N
+h|Ok?|X |
+|===
+// ---------------------------------------------------------------------------------------------------------------------
+== Weitere Hinweise
+* https://www.udemy.com/course/technical-writing-with-asciidoc-and-intellij-idea/[Source]
+* When I rename in adoc it renames the file!
+* Problem view shows typos und problems
+* SVG können als image includes werden
+* missing include can be created with <alt> and click
+* formatting within a word avery**long**word
+* a text with underscores ++_tag_++
+* https://www.google.com[Google^] open in new tab?
+
+
+== Glossar, FAQ, Wörterbuch
+Begriff 1:: Dies ist die Beschreibung von Begriff 1.
+Begriff 2:: Hier wird Begriff 2 erklärt.
+
+
+[asciimath]
+++++
+sum_(i=1)^n i^3=((n(n+1))/2)^2
+++++
+
+[latexmath]
+++++
+\[E=mc^2\]
+++++
+
+
+== Literaturverzeichnis
+
+Diese Information stammt aus diesem Film <<dock-1>> und aus diesem Buch <<antenna>>
+
+[bibliography]
+.Meine spezielle Literatur Empfehlung
+- [[[dock-1]]] https://www.youtube.com/watch?v=VpAH2IoMzKw&t=790s[Youtube]
+- [[[antenna]]] file:///home/dietmar/cloud/doc/tec/antenna/Fuchsantenne_160m_DF1BT.pdf[Fuchs-Antenne]
+
+* Zeichen für "soll sein" `:=`
+* Wichtige Zeichen: ↑ ↓ ← → ∑ π ∈ Δ
+
+
+

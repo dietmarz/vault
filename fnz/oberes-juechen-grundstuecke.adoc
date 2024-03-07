@@ -1,0 +1,53 @@
+include::{root}../.inc/include.adoc[]
+
+= Oberes Jüchen Grundstücke
+
+* Ziele
+  ** Grundstücke bebaubar machen
+  ** Erbengemeinschaft auflösen
+
+== Historie
+* 2021-05-20: Mail <<reents>>: Möchte Flurstreifen 1,5-2m Breite
+* 2021-06-02: Antwort von mir als PDF
+* 2021-06-03: Mail Reents: <<oltmanns>> unterstützt, <<jahn>> wünscht sich Müll&Rettungsfahrzeug Zuwegung durch verschmälerung von Grundstück 100
+* 2021-06-15: Mail PingPong Stadt Esens <<kuen>>, Bauvoranfrage macht keine Sinn, anliegenden Flächen in Privatbesitz -> Ich WhatsApp an <<reents>>
+* 2022-04-28: Audio <<reents>>: Stadt Esens: Möglich, wenn das eine Grundstück verengt, <<jahn>> hat auch freigabe erteilt: 3.5m reichen. Abschlussgespräch mit <<vRahden>>
+* 2022-06-27: Audio <<reents>>: 01.07.22 Abschlussgespräch mit der Stadt, da LK OK gegeben hat.
+* 2022-07-04: Audio <<reents>>: Erschließungskosten für nur 4 Baupl. zu hoch? Frage an ein Planungsbüro.
+
+* 2023-08-24: Anruf <<olb>>, weil ich maschinell angerufen worden bin, aber sich niemand gemeldet hat. Mail <<olb>>, mit Frage wie es weiter geht
+* 2023-08-28: Anruf <<olb>>, das Geld steht mir zur Verfügung. [ ] Ich soll den Verbleib mit der Stadt klären.
+
+
+
+[source,text]
+.aus Mail vom 2021-06-15 von <<kuen>>
+----
+Ansonsten müssten Sie ihn, Herrn Groß,  für weitere Rückfragen direkt kontaktieren unter 04971 206 12.
+----
+
+
+
+
+== Probleme
+* Zuwegung
+* Pflege/Mähen
+* Was wenn Verkauf aber verpachtet
+
+== Mündelsichere Wertpapiere bei der OLB
+Zur Absicherung der späteren Erschließung, damit zumindest das eine Grundstück erschlossen werden kann.
+
+* OLB Anlageportfolio:
+  ** 1. Rentenstrategie Nehlmeier 12.000, Täglich verkaufbar.
+  ** 2. 12.000 Marktzinsanleihe 5 Jahre Laufzeit BnP Paribar Franz. all3Monat 3 monats euribor, 100% Kapitalschutz. Von 2,5 bis 4,2% quarteilsweise anpassen. Tägliche Verfügbarkeit. Startet 15.03.24
+  ** Online Banking mal testen.
+
+
+
+[bibliography]
+- [[[reents]]] Reents Immobilien Tel. 04971 947373 Mobil: 0174 1616464 E-Mail: info@reents-immobilien.de
+- [[[olb]]] OLB Esens, Andrea Reents, Depot 8682476050
+- [[[oltmanns]]] Joachim Oltmanns, Bauamt Esens
+- [[[jahn]]] Frau Jahn LK WTM
+- [[[kuen]]] Herr Sander Kühn, Stadt Esens
+- [[[vRahden]]] Frau von Rahden, Stadt Esens

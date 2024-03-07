@@ -1,0 +1,26 @@
+include::{root}/.inc/include.adoc[]
+
+= vmware
+
+== fstab mapping
+
+[source,text]
+----
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sda5 during installation
+UUID=8c19dda6-2685-446a-80b5-293c5834fb56 /               ext4    errors=remount-ro 0       1
+# /boot/efi was on /dev/sda1 during installation
+UUID=EB97-2C66  /boot/efi       vfat    umask=0077      0       1
+/swapfile                                 none            swap    sw              0       0
+
+
+# guest ist der "Name" unter VM->Settings->Options->Shared Folders
+.host:/host  /host              fuse.vmhgfs-fuse    ro,allow_other          0    0
+.host:/guest /home/dietmar/host fuse.vmhgfs-fuse    defaults,allow_other    0    0
+----

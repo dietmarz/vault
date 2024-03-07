@@ -1,0 +1,44 @@
+include::{root}/.inc/include.adoc[]
+
+= Backlog Aufgabenstapel
+
+== Lernen Job
+* Udemy Lehrgang: https://www.udemy.com/course/microservices-clean-architecture-ddd-saga-outbox-kafka-kubernetes/learn/lecture/31152934?start=195#overview
+
+
+== Aufgaben generell
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Eichengrund
+* [ ] F w XX 07 Garage leckt link:../fnz/eichengrund-stand.adoc[Stand]
+* [ ] F w XX 12 Datenlogger besorgen
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Thomsen Erbschaft
+* [ ] Was wir mit den Geldern der OLB? link:../fnz/oberes-juechen-grundstuecke.adoc[Details]
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Weitere, laufende Projekte
+* [ ] H W 99 11 Energiearbeit: 2h Labor, 3 Haufen: (Behalten) Verkaufen Verschenken Entsorgen
+* [ ] H W 90 08 Keller säubern
+* [ ] J W 90 08 link:../prv/entscheidungsfindung-mentale-modelle.adoc[MM]
+* [ ] H W 60 Liste jeder Raum 60min, Entsorgen-Verkaufen-Behalten.
+
+* [ ] GdW 30 09 KKasse wechseln
+* [ ] Hdw 30 03 Isomatte (+ Luftbett) auf Dichtigkeit prüfen
+* [ ] JdW 60 03 Office: Script in kh: Copy smb; ocr +  guess Name! Enum mit bekannten Absendern
+
+=== Irgendwann
+* [ ] Gdw TB 01 Harte Matratze im eigenen Haus oder kaufen.
+* [ ] Gw  60 03 Skript, wie man das Wissen und Dateinamen aus doc & office grepfähig machen kann, vielleicht mit t d <search> (oder o)
+* [ ] Jdw 99 03 Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg  ?Daraus OKRs generieren? 3, 5, 15 Jahres Plan?
+
+* [ ] FDW 30 03 ?Jens Rabe monatlich https://aktienkannjeder.de/?utm_source=mail&utm_medium=newsletter&utm_campaign=aktienkannjeder
+* [R] F W 99 01 Andree de B Aufstellung verstehen, Pflege-Routine erarbeiten
+* [ ] F W 45 03 Outcome Frame Dietmar Vermietet. Vorteile beachten.
+
+* [ ] P w 30 03 CM Notizen auswerten,
+* [R] P w 99 03 Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich.
+* [ ] P   60 03 CM 7 Schritte fertig
+
+

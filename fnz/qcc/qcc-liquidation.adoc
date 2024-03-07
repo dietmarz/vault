@@ -1,0 +1,28 @@
+include::{root}/.inc/include.adoc[]
+
+= liquidation
+
+* [ ] Was ist noch zu tun?
+* [ ] FDW 60 01 Depot 7988387 kündigen, brauche ich da Hilfe, Frage an Frau Bahlburg?
+
+
+== Depot
+* Evt. Lei Nummer aktualisieren
+http://https://www.lei-manager.com/renew?lei=894500WQYVTR1R6SMQ53[eqs]
+Billiger
+https://www.unilei.com/de-de/ubertragung/
+* Lei Nummer
+LEI: 894500WQYVTR1R6SMQ53
+
+[source, text]
+----
+27.01.20	10.000,00 €
+16.03.20	10.000,00 €
+04.06.20	-10.000,00 €
+09.07.20	-9.000,00 €
+08.07.21	12.000,00 €
+25.07.21	-3.000,00 €
+27.07.21	-3.000,00 €
+Summe	7.000,00 €
+----
+

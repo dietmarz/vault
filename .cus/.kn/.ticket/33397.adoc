@@ -1,0 +1,26 @@
+include::{root}/.inc/include.adoc[]
+
+= 33397 Refactoring
+
+https://jira.int.kn/browse/KNOMP-33397[Ticket]
+
+== Commands
+
+[source,bash]
+----
+msa && mci
+git reset *.java && git co *.java && git clean -f *.java
+----
+
+
+
+== Problems
+* MasterDataServiceMapper  means  MasterDataStatusServiceWrapper
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+* kn.knlogin.esp.reporting.app.PartyService should be moved to masterdata packages    nach app.adapter.masterdata!
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+* kn.knlogin.esp.reporting.app.OrderLineAttributeEsopServiceAdapter should be moved to masterdata packages    nach app.adapter.masterdata!
+

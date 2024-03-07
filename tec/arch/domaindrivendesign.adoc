@@ -1,0 +1,23 @@
+include::{root}/.inc/include.adoc[]
+
+= DDD Domain driven design
+
+
+== Projekt design
+=== DDD Domain driven design
+api    -> api           (Client & Remote-Local-Interface)
+domain -> domain
+app    -> api, domain (Backend)
+* Im DDD haben die Domain Objekte alle Business logic nicht nur getter und setter
+* Die Entitäten werden nicht rausgegeben an api, nur DTOs
+* Das api enthält keine Abhängigkeit zu app oder domain
+
+
+== Ordner
+* src: udemy spring-boot-3-spring-framework-6-grundlagen, Kap 12
+* Ordner
+  ** core: Geschäftslogik, Events, Domain, Services: Keine Abhängigkeiten raus
+  ** infrastructure: Backendsysteme, Messaging, Relationale DBs, Configuration von Spring
+  ** interfaces: Typen die Requests von außen annehmen, RestController, Shell Commands
+* datenfluss: Typ aus interfaces beinhaltet Request, dann wird das von einem Typ aus dem Core bearbeitet, möglicherweise
+  werden daten aus infrastructure geladen

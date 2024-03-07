@@ -1,0 +1,72 @@
+include::{root}/.inc/include.adoc[]
+
+= 2022-10-13
+
+== Aufgaben 
+
+* Vertüten und zur Post bringen
+
+* Lesen
+  ** Elasticsearch (als document store, nicht nur im ELK Stack)
+  ** Spring Integration (wobei hier nur ein kurzes skimmen der Doku und später am Problem gezieltes Doku lesen helfen wird)
+  ** OpenApi (falls nicht schonmal benutzt)
+  ** Vuejs (gerade wir haben extrem wenig Frontend, aktuell gehen wir auf die composition api in Vorbereitung auf die vue3 migration)
+
+=== Private Aufgaben
+* 2019 einkommensnachweis für Lina
+* 2.0h TB Hecke schneiden
+* Todtglüsingen kündigen
+
+=== Berufliche Aufgaben 
+* 2 Notebooks Ent-Otton
+* Obsidian lernen
+* Zusammenstellung der Themen
+* Themen lern liste erstellen
+* Projekt überlegen, vue? Angular? Angular! Vor dem Projekt ist nach dem Projekt
+* Logbuch Anwendung auf AWS deployen
+
+== Zeitstrahl
+
+[source, text]
+----
+  ** |Tabata
+|-08-|-09-|-10-|-11-|-12-|-13-|-14-|-15-|-16-|-17-|-18-|-19-|-20-|-21-|
+---- 
+  **
+
+
+=== Privat Backlog
+* 2021 Einkommenssteuer fertig
+* 0,5h Vogelhaus aufbauen
+* 1,0h Keller aufräumen
+* 0,5h Aktien einkaufen
+* 2,0h LStJA Dokumente zusammen sammeln
+* 0,5h Jetbrains Kotlin machen oder nicht
+
+=== Unternehmen
+* WVL GEZ Unternehmen anmelden, haben sie schon abgebucht?
+* Neuen StB suchen
+
+== Feedback
+* Dinge besser merken
+* Zu viel Paring, mehr alleine machen
+* Fokus besser halten
+* Weniger viele Themen öffnen wie TF, Spring, Vue, AWS,...
+* Besser ein Thema konzentrieren
+* Vielleicht Plath
+
+
+== Einsortieren
+* https://www.youtube.com/watch?v=3NSkk31vFbU[source]
+  ** Plan night before, goals
+  ** Stay seated
+  ** Hide phone
+  ** Rewards!
+  ** Settings Standards
+
+
+== Notizen
+
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen|
+|-------------|-----------|------|-------|------|------|
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |      |

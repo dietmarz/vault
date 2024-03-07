@@ -1,0 +1,9 @@
+include::{root}/.inc/include.adoc[]
+
+= _THEMA_
+
+https://jira.int.kn/browse/KNOMP-_THEMA_[Ticket]
+
+
+
+==

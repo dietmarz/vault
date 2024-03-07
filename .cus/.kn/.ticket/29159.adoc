@@ -1,0 +1,47 @@
+include::{root}/.inc/include.adoc[]
+
+= 29159
+
+* reporting rebuild on local environment with oracle profile
+
+----
+@Profile("!nolocal && !test")
+LocalRebuildEventServiceImpl implements RebuildEventService
+  f UnifiedShipmentBucketMessageConsumer
+  f UnifiedOrderBucketMessageConsumer
+  f UnifiedExceptionBucketMessageConsumer
+  m initiateRebuild()
+----
+
+----
+@Profile("nolocal || test")
+NoLocalRebuildEventServiceImpl  implements RebuildEventService
+   f AmqpTemplate amqpTemplate;
+   m initiateRebuild()
+----
+
+
+Benutzt jetzt überall RebuildEventService statt AmqpTemplat
+----
+RebuildController implements RebuildApi
+   f RebuildEventService rebuildEventService
+   m rebuild Shipment, Order, OrderLine, BCM, Exception
+----
+
+----
+RebuildEventSubscriber 
+   f  RebuildEventService rebuildEventService
+   statt AmqpTemplate amqpTemplate;
+----
+
+----
+@Profile("!nolocal")
+@ManagedResource(objectName = "Rebuild:name=RebuildController")
+RebuildControllerJmxWrapper
+  f RebuildController rebuildController;
+  m rebuildController.rebuildReporting(OperationType.valueOf(type), customerCode, body);
+----
+
+
+reporting 
+search

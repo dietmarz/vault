@@ -1,0 +1,19 @@
+include::{root}/.inc/include.adoc[]
+
+= Backup DVD Brennen
+
+* Am besten abends machen und System nicht mehr anfassen!
+
+* K3b als Tool
+* 1 Speed, kann man auswählen
+* Image anlegen lassen
+* Keine Simulation, geht bei MDisc nicht
+* . Dateien eigentlich nicht hinzufügen, also .git brauchen wir nicht.
+* File System: "Linux/Unix only"
+
+.md5 Datei anlegen
+
+----
+find . ! -empty -type f -exec md5sum {} + | tee ~/cloud/project/backup-md5files/<yyyy-mm-dd>-mdisc-backup.md5
+# Danach suchen nach io read errors!
+----

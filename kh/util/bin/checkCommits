@@ -1,0 +1,32 @@
+#!/bin/bash
+
+
+commits=`git log --pretty=oneline -$1 | awk '{print $1}'`;
+
+resultsDir="./resultsDir"
+logFile=${resultsDir}/checkCommits.log
+
+if [ -d "${resultsDir}" ]; then
+  echo ${resultsDir} exists. Please delete manually.
+  exit -1;
+fi
+
+mkdir -p ${resultsDir}
+
+i=0;
+for commit in ${commits}
+do
+  let i=i+1;
+
+  echo ""                                                                                                           2>&1 | tee -a ${logFile}
+  echo "--------------------------------------------------------------------------------------------------------"   2>&1 | tee -a ${logFile}
+  echo - commit ${i}: ${commit} `git show -s --format=%B ${commit}`                                                 2>&1 | tee -a ${logFile}
+  echo "--------------------------------------------------------------------------------------------------------"   2>&1 | tee -a ${logFile}
+  git checkout ${commit}                                                                                            2>&1 | tee -a ${logFile}
+  ant clean test                                                                                                    2>&1 | tee -a ${logFile}
+  cp target/reports/tests/overview-summary.html ${resultsDir}/${i}-${commit}-tests.html                             2>&1 | tee -a ${logFile}
+  ant clean testdata.refresh run.integration-tests                                                                  2>&1 | tee -a ${logFile}
+  cp target/reports/integration-tests/overview-summary.html ${resultsDir}/${i}-${commit}-integration.html           2>&1 | tee -a ${logFile}
+done
+
+

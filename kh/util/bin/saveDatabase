@@ -1,0 +1,32 @@
+#!/bin/bash
+
+currentDir=${pwd}
+volumeName="postgresql"
+
+if [ -z "$1" ]
+ then
+    fileName="${volumeName}.tgz"
+  else
+    fileName="$1.tgz"
+fi
+
+echo "   ############################"
+echo "   # Stopping database...     "
+echo "   ############################"
+cd ~/cloud/customer/dataport
+docker-compose stop
+
+echo "   ############################"
+echo "   # creating backup ${fileName}"
+echo "   ############################"
+cd /opt/volumes/
+sudo tar czf ${fileName} ${volumeName}
+ls -l ${fileName} && echo " ... done"
+
+echo "   ############################"
+echo "   # Starting database...      "
+echo "   ############################"
+cd ~/cloud/customer/dataport
+docker-compose up -d
+
+cd $currentDir

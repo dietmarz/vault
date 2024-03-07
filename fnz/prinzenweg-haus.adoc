@@ -1,0 +1,9 @@
+include::{root}/.inc/include.adoc[]
+
+= Prinzenweg 5
+
+== Nachbarn
+* Trepenberg: Magnus Ose Finja Silas
+* Meyer: Christian links und Florian rechts
+* Adelheid, Klara, Peter
+* Stadnik: Meike Thorsten Rabea

@@ -1,0 +1,11 @@
+include::{root}/.inc/include.adoc[]
+
+= remote
+
+##
+Zeitaufwändiges Essen / Kaffee / Snack
+Essen buchen
+Corona Risiko
+Anreise
+Arbeitsplatz auf und Abbau
+Nur 2k Bildschirme

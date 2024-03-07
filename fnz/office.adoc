@@ -1,0 +1,97 @@
+include::{root}/.inc/include.adoc[]
+
+= Office
+* src: Ebook Büro Effizienz Rositta Beck
+
+
+* Ziel: Das Gefühl von Kontrolle, Spaß an Ordnung, Freude, mit einem positiven Gefühl der Kontrolle tiefer in das Verständnis eindringen und die Dinge auch thematisch besser aufarbeiten, selbständiger Arbeiten zu können. ZB. LStJaAus. Und damit einen Finanzüberblick, was habe ich, was kann ihc erwarten, was brauche ich für meine Pension, wenn ihc nicht mehr arbeiten bräuchte, was könnte ihc dann machen? Friedvolles Sein im wo ich gerade möchte.
+* [ ] Grabrede, was würden Sie sich wünschen, dort zu hören? Was möchte ich noch machen, welche Ziele sind mir wichtig?
+* [ ] Mindmap mit Andrea wiederholen.
+* [ ] Tabelle mit Andrea; Jahr, Mein Alter, A Alter, besonderes Ereignis
+
+* Das Wichtigste ist Arbeiten als #Erledigt# zu markieren! (Sonst macht man alles doppelt!)
+* 3As = Abfall, Archiv oder Action
+
+
+== 10 Farben, 10 Nummer
+
+[cols= "1,10,15,74"]
+|===
+|#|Farbe |Ordner       |Themen
+
+|1|Grün  |Person       |Scheidung, Daten, Persönliches,
+|2|Pink  |Gesundheit   |Arztbefunde, Krankmeldungen
+|3|Rot   |Freizeit     |Sport, Vereine, Pläne, Angeln, Urlaubsplanung
+|4|Weiß  |Job          |Arbeitsverträge, Zeugnisse
+|5|Orange|Finanzen     |Bank, Kredit,  Kontoauszüge, Depot, Steuern Privat, Steuern QCC, Absetzbare Quittungen
+|6|Gelb  |Versicherung |Renten, Hausrat, (kfz) Haftpflicht, Vorgänge, Unfälle, BU
+|7|Blau  |Immobilien,  |Eichengrund, OJü Grundstücke,
+|8|Braun |Sachwerte    |Auto, Fahrrad, Anleitungen
+|9|Lila  |Wohnen       |Vermietung, Heizen-Kamin, Strom-Gas-Wasser, Grundsteuer, Müll, Prinz
+|0|Shw   |             |
+|===
+
+== Encryption Vorgang
+* Dokument als passwort PDF & adoc file
+
+== Legende
+Die Tue-Nicht-gut-Falle! Effektiv, nicht effizient!
+
+* [A] BCD EF GH <Story>: Beschreibung
+A : State: ' ' Todo, B = Blocked, X = Done, R = Refine it!, W = Wiedervorlage
+B : Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus -> Nach definierten Farben
+C : ' ' = nicht dringend d= dringend D=sehr dringend, = termingebunden (Eisenhauer)
+D : ' ' = nicht wichtig  w= wichtig  W=sehr wichtig, = Konsequenzen  (Eisenhauer)
+EF: Dauer in [min], 99 = Fehlende Subtask!, TB= Time box
+GH: StartMonat, nach 3 Monaten löschen. War weder D noch W
+<Story> Optional, alles zusammenhängend
+
+== EFFEKT-iver werden und Effizienz beibehalten
+* Störungsstrichliste anlegen
+* Zeit ist mehr wert als Geld. Passen sie min. genauso gut auf Ihre Zeit auf wie auf Ihr Geld
+* Versuche zu deligieren
+* Neue Habbits, 66 Tage lang durchhalten, mit Kalendar als markierung
+* 60% Verplanen 40% Puffer
+* Fri mit Wochenplan beginnen für 20min
+* Fri Wochenbilanz ziehen
+* Gleiche Tätigkeiten zusammen bündeln
+* Nur Kiesel geschafft oder auch ein Frog?
+* Kommunizieren, was auf der not-to-do Liste steht
+* Aufgaben haben Prioritäten
+* Anti-Perfektion: 20% der Zeit 80% der Arbeit
+
+== Abends fertig Low-Brain-Work!
+* Hirse & Eier gekocht
+* Wäsche gewaschen & einsortiert
+* Post geholt
+* Frühstücksschalen fertig
+* Heißes Wasser
+
+
+.Daily template für Neue Firma Jobs
+----
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Neue Firma
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== JIRA-12345 Titel
+* https://jira/JIRA-12345[JIRA]
+* link:../.ticket/12345.adoc[Ticket]
+----
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Event-Vorlage
+* [ ] Event gebucht
+* [ ] Event bezahlt und Ticket-Druck im Ordner
+* [ ] Event Rechnung angepasst und gedruckt im Ordner
+* [ ] Bahn Hin- und Rückfahrt gekauft & gedruckt
+* [ ] Unterkunft gebucht
+* [ ] Unterkunft bezahlt und gedruckt im Ordner
+* [ ] Unterkunft Rechnung angepasst und gedruckt im Ordner
+* [ ] Event und Unterkunft Details in Kalendar eingetragen
+* [ ] StB: Event, Unterkunft, PKW-Km als PostIt da. Sonst nichts!
+
+
+

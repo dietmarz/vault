@@ -1,0 +1,19 @@
+include::{root}/.inc/include.adoc[]
+
+= Planung und Ziele
+
+== Urlaubsplanung
+* Sinnvolle Abstände finden
+*
+
+== Monatsplan
+
+== Halb-Jahresplan
+
+== Jahresplan
+
+== 5 Jahre
+
+== 10 Jahre
+
+... Was würdest du machen wenn du nour noch 3h ,... zu leben hättest als Plaungshilfe.

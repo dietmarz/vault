@@ -1,0 +1,112 @@
+include::{root}/.inc/include.adoc[]
+
+= Minimalismus
+
+* Quelle: Minimalismus leben für Dummies
+* Falle: Minimalismus beschäftigen ohne Doing!
+
+== Energie und Findung
+* 2h Keller aufräumen
+* Liste mit Räumen: Dachboden, Bad, Schlaf, Lina, Gäste, O-Flur, Carport, Gartenhaus, Garten, HWR, GWC, Küche, Stube, Büro, E-Flur, Versorgungsraum, Werkstatt, Labor, U-Flur
+* Time-Box pro Raum festlegen
+* Kein Minimalismus erstmal. Nur das weg, was nicht gebraucht wird.
+
+== Beachte
+* Ordner: behalten, verschenken, verkaufen, recyceln und wegwerfen.
+* Systematische Herangehensweise: Beginnen Sie mit einem Raum und bewegen Sie sich erst zum nächsten, wenn der aktuelle vollständig entrümpelt ist.
+* Regelmäßige Pausen
+
+
+== Erster Schritt
+* Im E-Werkstatt sammeln 10 unnützen und lieblosen Gegenstände bis 18.
+* Regelmäßige Zeit festlegen, 17 - 18 Uhr?
+* Wir definieren Regeln: ZB. Immer 10 Gegenstände auf eBay/Klein
+* Klein anfangen! Erfolge dokumentieren und feiern!
+
+== Vision
+* Minimalismus in Materiellem, im Organisatorischen im Digitalen, Abbos, alle Solltest!, oberflächliche Freundschaften,
+  ** Rente im Griff und Ausgaben. Den Kopf freier kriegen durch weniger Ding-Verpflichtungen, Office-Komplexitäten
+  ** # Vorbereitung für den nächsten Schritt: Umzug, Reise, Entspanntes Sein
+* Digitale Ordnung: Merge: Ordner+Hänge-Ordner+Digitale Dokumente
+* Blockaden der materiellen Unordnung angehen und sich auf das konzentrieren, wofür man brennt.
+
+== Vorgehen
+* Nicht fragen, was darf weg, sondern was bleibt. Beachte die Interessen-Wechsel, im Zweifel besser erstmal was anderes
+  ** minimieren
+* Zuerst innere Resourcen entwickeln und dann mit den richtigen
+inneren Resourcen äußere Resourcen erschaffen. Nicht andersherum.
+Man kann nicht innere Resourcen dazu kaufen. Das ist der unbewusste
+Fehler.
+
+Sie hoffen:
+  ** sich kompetenter zu fühlen durch mehr Elektronik.
+  ** sich entspannter zu fühlen durch mehr Angeln.
+Das Gefühl hält nicht lange an
+
+* Die Gedanken sind ein Versuch der Leere zu entkommen. Die Leere fühlt sich bedrohlich an.
+* Sich trennen von Dingen/Personen/Hobbys schmerzt als Verlust. Es braucht einen Abschluss, zB. einen Verkauf aller
+  ** Unterlagen, o. Prüfung und den Mut, die Leere auszuhalten und nicht wieder anzufangen.
+* Macht es Sinn eine Schachtel zu definieren, in der das Hobby reinpassen muss oder wäre das nur ein Aufschieben?
+
+
+== 4 M Methode
+=== Mindset: Mentale Vorbereitung
+Wo geht die Reise hin, was liebe ich was brauche ich regelmäßig, was ist meine Mission oder Roter Faden?
+* Umzugsfähigkeit durch wenig Material?
+* Vermietungsfreiheit, ich kann nichts verlieren?
+* R55 planen,
+
+=== Minimalisieren
+* Reduktion physischer und nicht physischer Dinge.
+* Nie gebraucht oder kein Nutzen? Potenzial für Nutzen? Macht glücklich?
+
+=== Methodisieren
+Neue Ordnung systematisch aufrechterhalten, neue Routinen entwickeln
+
+=== Meistern
+Anwenden, durchhalten
+
+== Dinge und Hobbies
+9 Wichtig, 0 unwichtig (Emotionalität)
+9 Täglich, 0 < 1 / Jahr
+
+.Wichtig - Oft - Summe
+[cols="0,0,0,1"]
+|===
+|W|O|S|Tätigkeit
+
+|9|9|18|CM, Minimalismus
+|9|9|18|Rückensport
+|9|9|18|Ausdauersport, SW-L-RR
+|8|9|17|Arbeitsplatz
+|7|7|14|Papierloses Büro
+|4|9|13|Gitarre
+|6|7|12|M Werkstatt
+|4|6|10|Lötarbeiten
+|4|5|09|Elektronik Messgeräte
+|3|3|06|Spinn Angeln
+|4|2|06|Stationärer Funk
+|5|1|06|Wandern
+|5|0|05|Portabel Funk
+|5|0|05|Zelten
+|5|0|05|Rad-Reisen
+|3|2|05|DSV
+|3|2|05|µController
+|3|0|03|Platinen
+|3|0|03|Brandungsangeln
+|4|0|03|Klettern
+|2|0|02|Motorrad
+|2|0|02|Bergsteigen
+|2|0|02|Geocachen
+|2|0|00|Schießsport
+|===
+
+Möchtest Du jetzt jeden kleinkram listen: Zeichnen, Fotographieren, Inlinern, N-Walking, Finanzen im Griff,...
+eigentlich schon, es geht um die Frage, was weg kann.
+
+
+== Entzug: Einen Monat lang versuchen, ohne Abos zu leben
+* Prime, Blinkist und was es sonst noch so gibt. Nur was man wirklich vermisst wieder abonnieren. Aus <<Coaching>>
+
+[bibliography]
+- [[[Coaching]]] Spiegel Coaching 01/2022 Arbeitsbuch

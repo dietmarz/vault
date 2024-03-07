@@ -1,0 +1,122 @@
+giinclude::{root}/.inc/include.adoc[]
+
+= 2022-08-11
+
+== Aufgaben
+
+* [ ] Prüfe Monitoring Channel!
+
+
+
+=== Dird Doku
+* Stage 0 -> 2. Select (richtig?) ... Follow Link (richtig?)...
+  ** Serviceanfrage-Typ: Neu (richtig?)
+  ** OCN-User (fehlt?) dizabel
+  ** Angabe der AWS Rollen
+  ** Freigabe durch Triaden
+  ** Kostenstelle
+  ** Seite muss überarbeitet werden
+  ** !img.png[Maske]
+
+* Stage 1
+  ** For internal DIRDs an account for dr should already exist and be configured so you can skip all steps on setting the new account id in the config files
+  ** Welcher Step ist das denn?
+  ** 1.6 IN der AWS Bootstrap Anleitung gibt es kein git push, das ein observe der GH Actions rechtfertigen würde
+  ** 1 Update DNS root zone delegation for `prime.cloud.otto.de`
+  ** !img_2.png[Fehler Otto Console]
+
+* Stage 3
+  ** `For all essential serices...`
+  ** Welche sind das? Entweder Liste oder zeigen, wo man das nachschauen kann
+  ** Ich hätte gedacht das TF in der Lage ist zu schauen, welcher Service schon läuft. Muss ich das wissen?
+
+* Stage 4
+  ** 2. !img_3.png[KeyCloak forbidden]
+  ** 3.2 Verification Links funktioneren nicht.
+  ** 3.3 Vielleicht kann man noch ausdrücken wie genau man sie informieren möchte
+
+* Stage 5
+  ** We're not integrating other teams, so move on to Stage 6...
+  ** Dann raus mit Stage 5. Gibt noch viele andere Dinge die wir nicht machen müssen.
+
+* Stage 7
+  ** Entfernen?
+
+
+
+
+
+
+
+
+
+* Steuerberatung bezahlen
+* Ich bin System Monitor Überwacher diesen sprint doku anlegen!
+  ** Monitor in Teams mit Thumb abhaken
+
+=== Dird
+* Dird doku prüfen, 16.08 dird,
+* Dird checkliste https://confluence.otto.de/display/PRIME/Preperations
+
+=== 283 Bug
+* Warum kann ich im Local Betrieb keine PBK anlegen? Im Docker wohl
+1. Mehr ausbauen als nur die Annotation
+2. Düfte etwas langsamer geworden sein
+3. Besser Cache invalidieren
+4. Structure richtig rein oder ausbauen.
+
+
+=== 194 structure fullsync
+* Info: AcceptanceTest lief in timeout wegen zu wenig speicher
+* Schauen, was noch an UnitTests fehlt
+* Anschauen für alle AttributeStructureClientIntegrationTest für AttributeSchemaContextsClientIntegrationTest
+
+=== Sonstiges Otto
+* WVL Simon Wiesmann, Betriebsarzt, weiß wo Duschen sind
+* Buchen fertig
+
+==  Schreibtisch leer
+* Steuer berarbeiten!!!
+
+=== Prime für mich
+* Vue Kurs weiter
+* Notebokk in betrieb nehmen für Otto
+* Componentisierung versuchen in Prime
+* Selber mal die gesamte Strecke starten und testen
+* endpukte.adoc weiter
+
+=== Privat
+* Obsidian lernen
+* 2021 Einkommenssteuer fertig
+* t grundsteuer
+* 0,5h Vogelhaus aufbauen
+* 1,0h Keller aufräumen
+* 0,5h Aktien einkaufen
+* 2,0h LStJA Dokumente zusammen sammeln
+* 0,5h 4 ultraleichte Untersetzer für Campustische?
+* 0,5h Jetbrains Kotlin machen oder nicht
+
+=== Unternehmen
+* WVL GEZ Unternehmen anmelden, haben sie schon abgebucht?
+* Neuen StB suchen
+
+
+
+
+== Einsortieren
+* source https://www.youtube.com/watch?v=3NSkk31vFbU
+  ** Plan night before, goals
+  ** Stay seated
+  ** Hide phone
+  ** Rewards!
+  ** Settings Standards
+
+
+
+
+
+== Notizen
+
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen|
+|-------------|-----------|------|-------|------|------|
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |      |

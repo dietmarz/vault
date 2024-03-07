@@ -1,0 +1,47 @@
+include::{root}/.inc/include.adoc[]
+
+= windows
+
+* System und User! Env Variable: HOME auf C:\Users\dietmar.zabel, HOMEDRIVE auf C:
+
+== Wichtige Einstellungen für Win10
+* Dünner Fenster rahmen
+  ** Rechte Maus auf Desktop: Personalize
+  ** Colors-> [X] Title bars and windows borders
+
+== Disable sounds
+* Controlpanel -> Sound -> Tab Sounds
+* Im Tree select 'Notification' Im Dropdown Sounds select '(None)'
+* Im Tree select 'Default Beep' Im Dropdown Sounds select '(None)'
+
+== Docker
+Falls docker nicht startet nach der installation
+----
+wsl --install -d Ubuntu --web-download
+----
+
+== VMware Workstation 16 Pro
+* Key CF3N0-6YD1L-M8EEQ-KZYXX-P3RA0
+
+== Totalcommander
+* Ihr Schlüsselanforderungscode: HWQG9E-DK57QB-MGZBYG-WQPPEK-72PRN5
+* Ihre Lizenznummer: 382027
+* /home/dietmar/cloud/system/dev/lizenzen/total-commander-key__WINCMD.key
+* remove total-commander-key__ from name!
+
+== KN browser Search Engines
+* git https://git.int.kn/projects/KNLOGIN/repos/esp-%s/commits
+* image https://harbor.emea.ocp.int.kn/harbor/projects/6/repositories/esp-%s
+* p https://gitlab.int.kn/kn-esp/esp-%s/-/pipelines
+* pr https://git.int.kn/projects/KNLOGIN/repos/esp-%s/pull-requests
+* t https://jira.int.kn/browse/KNOMP-%s
+* w https://wiki.int.kn/dosearchsite.action?cql=siteSearch+~+%22%s%22&queryString=%s
+
+== Windows Lizenz https://www.youtube.com/watch?v=HYstkF_HqWE
+* Volume: Irgendjemand verwaltet diese und kann Dich rauskicken! Nicht kaufen! Du bist nicht der Inhaber!
+* OEM: Eigentlich nur zusammen mit Hardware (Orig. Equip. Manu.) Du bist der Inhaber. Nur für EINE Hardware! One-Shot-Lizenz.
+* Retail: Teuer!
+* check Windows: `slmgr -dli`
+* check Office: `cscript ospp.vbs /dstatus`
+
+

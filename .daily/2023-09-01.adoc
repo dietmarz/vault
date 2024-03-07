@@ -1,0 +1,149 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2023-09-01
+
+== Aufgaben 
+* Team Event Organisieren
+  ** [ ] WVL 04.09. Erinnerung https://bitpoll.de/poll/z4m8kTKDlW/[EventTermin]
+
+* CM analysieren und trennen. Bitep Berlin
+* AZ Größe-L bestellen, E Griffe bestellen
+* EKA: LHantel mit Gewichten?
+
+* [ ] J W 90 08 link:../prv/entscheidungsfindung-mentale-modelle.adoc[MM]
+* [ ] JDW 30 08 Orga: Board: Fehlende Tasks anbringen, priorisieren
+
+
+* 18:30 - 20:30Jumping, Yoga
+
+== Wochenende
+* Rasenmähen, Saugen & Wischen
+* 2h Keller
+* + QRP fertig!
+
+== Frog
+* task printservice einbauen, Testen!
+
+
+=== Woche Buchen ('.' Log Time)
+https://jira.int.kn/secure/Tempo.jspa[MyWork]
+https://jira.int.kn/browse/KNOMP-29388[Operationals]
+https://jira.int.kn/browse/KNOMP-31487[Remove Status]
+
+
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-33958 [Reporting] Field "Active Task" not correct
+https://jira.int.kn/browse/KNOMP-33958[Jira]
+link:../.ticket/33958[docu]
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-33296 [DI] [esp-tms-export] Add "Shipper's Reference" to EDIORD message
+https://jira.int.kn/browse/KNOMP-33296[Jira]
+link:../.ticket/33296.adoc[docu]
+
+* [ ] https://git.int.kn/projects/KNLOGIN/repos/esp-tms-export/pull-requests/740/overview[tms-mergen]
+* [ ] PR tms-export erstellen
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-33980 Create new ART for testing integration from ESP & myKN
+https://jira.int.kn/browse/KNOMP-33980[Jira]
+link:../.ticket/33980[docu]
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== Eichengrund
+* [ ] Mit der Stadt Esens klären, was mit den MündSich Wertpapieren geschehen soll.
+* [ ] link:../org/eat-the-frog.adoc[Frog]
+
+
+
+
+
+=== WIP
+* [ ] KKasse wechseln
+* [ ] JDW 30 PlaBewerbung fertig
+
+
+==== Backlog nach Prio
+* [ ] Hdw 30 03 Isomatte (+ Luftbett) auf Dichtigkeit prüfen
+
+* [ ] F W 30 SThree Monatsnachweise einsortieren und drucken
+
+* [ ] JdW 60 Office: Script in kh: Copy smb; ocr +  guess Name! Enum mit bekannten Absendern
+* [ ] F W 30 WVL OLB Tan verfahren.evt Kündigen auf Haspa gehen? Kosten evaluieren
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+== Backlog
+
+=== Dringender
+* [ ] GDW Vorsorge Terminserien anlegen
+
+=== Irgendwann
+* [ ] Gdw TB 01 OtF harte Matratze
+* [ ] Gw  60 03 Skript, wie man das Wissen und Dateinamen aus doc & office grepfähig machen kann, vielleicht mit t d <search> (oder o)
+* [ ] Jdw 99 03 Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg  ?Daraus OKRs generieren? 3, 5, 15 Jahres Plan?
+
+* [ ] FDW 30 03 ?Jens Rabe monatlich https://aktienkannjeder.de/?utm_source=mail&utm_medium=newsletter&utm_campaign=aktienkannjeder
+* [R] F W 99 01 Andree de B Aufstellung verstehen.
+* [ ] F W 45 03 Outcome Frame Dietmar Vermietet
+* [ ] Fdw 99 03 Amazon Invoice Generator, alles absetzbar und nicht verfolgbar. Einarbeitung PDF Generator
+
+* [ ] P w 30 03 CM Notizen auswerten,
+* [R] P w 99 03 Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich.
+* [ ] P   60 03 CM 7 Schritte fertig
+
+* [ ] H W TB 01 Keller aufräumen
+
+
+
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

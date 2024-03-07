@@ -1,0 +1,50 @@
+include::{root}/.inc/include.adoc[]
+
+= 2022-09-24
+
+== Aufgaben 
+* Buchen
+* Packen
+  ** Leki
+
+=== Privat
+* Alle adoc dateien nach md convertieren. zB Interview etc.
+* Obsidian lernen
+  ** https://www.youtube.com/watch?v=oE8HyLuHjsQ&ab_channel=Effective
+  ** Was sind MOC? Gibt es einen kurs für linking your thinking?
+* 2021 Einkommenssteuer fertig
+* t grundsteuer
+* 0,5h Vogelhaus aufbauen
+* 1,0h Keller aufräumen
+* 0,5h Aktien einkaufen
+* 2,0h LStJA Dokumente zusammen sammeln
+* 0,5h 4 ultraleichte Untersetzer für Campustische?
+* 0,5h Jetbrains Kotlin machen oder nicht
+
+=== Unternehmen
+* WVL GEZ Unternehmen anmelden, haben sie schon abgebucht?
+* Neuen StB suchen
+
+== Feedback
+* Dinge besser merken
+* Zu viel Paring, mehr alleine machen
+* Fokus besser halten
+* Weniger viele Themen öffnen wie TF, Spring, Vue, AWS,...
+* Besser ein Thema konzentrieren
+* Vielleicht Plath
+
+
+== Einsortieren
+* https://www.youtube.com/watch?v=3NSkk31vFbU[source]
+  ** Plan night before, goals
+  ** Stay seated
+  ** Hide phone
+  ** Rewards!
+  ** Settings Standards
+
+
+== Notizen
+
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen|
+|-------------|-----------|------|-------|------|------|
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |      |

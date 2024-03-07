@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+
+if [ "$HOSTNAME" == "cinnamon-vm" ]
+then
+  nohup nemo $@ >/dev/null 2>&1 &
+else
+  nohup caja $@ >/dev/null 2>&1 &
+fi

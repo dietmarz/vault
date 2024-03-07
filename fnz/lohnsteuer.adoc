@@ -1,0 +1,19 @@
+include::{root}/.inc/include.adoc[]
+
+= Lohnsteuer
+
+* 2021 erledigt
+* 2022 eingereicht
+
+== Jahresausgleich
+
+* Basisrente 201139069 Dokument im https://www.cosmosdirekt.de/kundenportal/[Portal]
+* Dokumente 2022 durchgehen und Regeln finden.
+
+
+== Lohnsteuer Seminar
+* Nebeneinkünfte 410 € pro Jahr ist frei
+* Kapitalerträge für die noch keine Abgeltungssteuer entrichtet wurde. Automatisch 25%. Kümmern bei Auslandskonten
+* Abgabe einer Steuererklärung Frist 2022 bis 31.07.23, vorher verlängern lassen. 25€ pro Monat Strafe.
+* Große Eingriffe besser in einem Jahr komplett machen, mehr als 1200€ in dem Jahr auch bezahlen!
+* Kapitalerträge über 825€

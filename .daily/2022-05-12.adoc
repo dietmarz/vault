@@ -1,0 +1,50 @@
+include::{root}/.inc/include.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2022-05-12
+
+== Aufgaben
+
+
+
+== Dringend und Wichtig
+
+* Steuern April erstellen
+* Steuerberater verjährung Mail frage stellen
+* Urlaub Seminar 1 eintragen?
+
+== Diese Woche
+* Enneagramm bezahlen
+* Brille abholen
+* DVD brennen
+* Authy für linux
+* Otto devices mit meinem Label versehen. Adressaufkleber
+
+* Eintragen
+  ** Zeiterfassung 27.05 1Tg, 26 - 28.10 3Tg, 25.11. 1Tg
+* Vogelhaus
+* Schau was es für UI Stories im nächsten oder übernächsten sprint gibt
+* 4 Ultraleichte Untersetzer für Campustische?
+* Backend docu online lesen
+* keycloak doku
+
+
+
+* [ ] Rohr installieren unterm Tisch + Schrauben zur Befestigung DVI Swich
+* zoom update in update.sh einbauen
+
+
+== Privat
+* Keypass mit google drive
+[ ] Finanz Termin setzen knallhart 30 Min pro Woche fix
+[ ] Andree einsehen und dokumentieren
+[ ] Rentenkasse, warum weniger?
+
+
+
+== Notizen
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

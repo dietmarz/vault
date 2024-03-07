@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+/c/opt/totalcmd/TOTALCMD64.exe $@ &

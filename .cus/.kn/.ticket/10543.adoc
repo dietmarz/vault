@@ -1,0 +1,9 @@
+include::{root}/.inc/include.adoc[]
+
+= 10543
+
+https://jira.int.kn/browse/KNOMP-10543[Ticket]
+
+
+
+==

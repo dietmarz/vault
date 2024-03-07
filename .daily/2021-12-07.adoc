@@ -1,0 +1,54 @@
+include::{root}/.inc/include.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2021-12-07
+
+== Aufgaben
+
+
+
+== Daily fragen
+[x]  ~/project/otto/quality_psr_grafana testen -> technisches Monitoring FT1 Wishlist dev läuft wieder
+
+[ ] 883 weiter
+[X] Vasili antworten, review durchgeführt
+[X] Pfichtunterweisung durchgeführt
+
+== Privat
+
+[X] Udemy kaufen
+[ ] Skandia anrufen auflösen oder nicht?
+[ ] May Termin besorgen
+[ ] Boostern bei Otto
+
+----
+Montag	    08:00–18:00
+Dienstag	08:00–15:00
+Mittwoch	08:00–18:00
+Donnerstag	08:00–15:00
+----
+
+
+[ ] Steuern
+[ ] Jenisch antworten
+[ ] Stegemann einrichten
+[ ] Andree einsehen und dokumentieren
+
+
+
+
+
+
+
+
+
+
+
+
+
+== Notizen
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

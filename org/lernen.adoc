@@ -1,0 +1,56 @@
+= Lernen
+
+== Start KI lernen!
+* https://www.youtube.com/watch?v=UDQyu1XkdsI&list=PLIYzsTnFhywyjBon1_tE4ZGVzXAx5FpWr
+
+
+== Von Projekten gefordert
+* AWS
+
+== Aktuell
+
+== Fortbildung Job Vorschläge
+* Typescript
+  ** https://www.udemy.com/course/typescript-the-complete-developers-guide/learn/lecture/14504488?start=15#overview
+
+
+
+== Prinzip
+* Jeder Lernende ist ein Lehrender, sich selbst mit seinen eigenen Notizen. Deshalb ist es sinnvoll
+   bei Udemy zu schauen, mit welchen Methoden und Tools die Lehrenden unterrichten, um diese für sich zu verwenden
+* Lernkarten, Lehren (als Video), Tutorial als adoc erstellen, Absatzweise lesen und wiederholen, Aufgaben lösen
+
+== Platformen
+* https://exercism.org/tracks
+* https://www.youtube.com/playlist?list=PLn8PRpmsu08oBSjfGe8WIMN-2_rwWFSgr[matlab]
+
+== Generell lernen
+* zshell
+* CW Abkürzungen
+* English Udemy?
+
+==  Kotlin
+
+== Finanz
+* Jens Rabe https://www.youtube.com/playlist?list=PLbjKFWV6G0HAnINM9mXydiBWnk5JTKkIZ
+
+== Plattformen
+* edx.org mit signalprocessen
+* udacity.com mit vielen freien kursen
+* cousera mit recht teuren Angeboten
+
+
+== Blinkist Jim Kwik, Limitless
+* (1) Zuviel Smart macht dumm. 30min am Tag mal alle Geräte ausschalten.
+* (2) Intelligenz kann wachsen. Beispiel Eng. Taxifahrer 25k Straßennamen. Befreie Dich von Lernlügen.
+* (3) Stell Dir positive Fragen. Ich kann nicht... -> Ich konnte bislang nicht... Trainiere diese Denkweise
+* (4) Leidenschaft(innerlich) und Sinn(äußerlich), Frag Dich wie Du die Tätigkeiten zu denen Du dich schwer aufraffen kannst mit einem tieferen Sinn verknüpfen kannst. *Motivation ist immer an den Factor Identität geknüpft.*
+* (5) Kraftstoffe fürs Gehirn: Schlaf, Bewegung, Essen
+  ** Wichtigsten: Avocado, Heidelbeeren, Broccoli, Dunkle Schokolade, Eier, Blattgemüse, Lachs, Kurkuma, Wallnüsse Wasser
+* (6) Lästige Aufgaben in kleine Schritte zerlegen
+* (7) Setze die  wichtigsten Lerndinge an den Anfang und an das Ende. (Primacy-Recency Effekt) Pomodoro. Wiederholtechniken.
+* (8) Visualisierung: Ziel Deiner Konzentration wie eine helle Lichtkugel (Loci Methode)
+* (9) Besser Lesen. (200W/min = Grundschule). Ü: Beim Lesen laut zählen 1,2,3... Oder Finger-zeigen
+* (10) Ohne Grenzen Denken:
+  ** Denkhut Methode,
+  ** Naveen Jain: Lineares Denken hangel Dich von Kriese zu Kriese, expotentionellem Denken: Was ist die Wurzel allen Übels.

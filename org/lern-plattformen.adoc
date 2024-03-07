@@ -1,0 +1,11 @@
+include::{root}/.inc/include.adoc[]
+
+= Lern Plattformen und Quellen
+
+== Udemy
+== Coursera
+== Baeldung
+
+
+== Heise Hefte
+* https://www.heise.de/select/ix-special

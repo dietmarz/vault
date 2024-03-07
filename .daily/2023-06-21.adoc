@@ -1,0 +1,198 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2023-06-21
+
+== Aufgaben 
+
+
+
+
+=== Heute Work
+07:
+08:
+09:
+10:
+11:
+12: Sport & EiGr
+13:
+14:
+15:
+16:
+17:
+18:
+19:
+20:
+21:
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-32333 [esp-mykn-components] fix local development process
+* https://jira.int.kn/browse/KNOMP-32333[Jira]
+link:../.ticket/32333.adoc[Ticket]
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-31571 Define deletion contracts
+* https://jira.int.kn/browse/KNOMP-31571[Jira]
+link:../.ticket/31571.adoc[Ticket]
+  *** https://git.int.kn/projects/KNLOGIN/repos/esp-shipment/pull-requests/1075/overview[PR]
+* Merged!
+* [ ] Was machen mit den Impediments?
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== Eichengrund
+
+
+* [ ] Wertfeststellung per Ertragswertverfahren
+* [ ] Feststellung Kosten Renovierungsstau nur der Pflichtanteile (Heizung!)
+* [ ] Besichtigungstermin mit Gutachter mit beiden Mieterinnen.
+* [ ] Kontoauszüge für Mieteinnahmen
+
+* [ ] Stb Janssen Middels letzten 3 EKStErklärungen, Betr. u. Heizkosten, Welcher Steuersatz -> Was bleibt netto von der Miete?
+
+* [ ] WVL: v14. auf 16.06. Mail Preuss   -> Was zahle ich drauf
+* [ ] WVL: v14. auf 16.06. Mail Raveling -> Diverse Fragen
+* [ ] WVL: v14. auf 17.06. Rückruf Valerie -> Steuern.
+* [ ] WVL: v14. auf 16.06. Mail Schapp   -> Änderungswünsche
+* [ ] WVL: v14. auf 17.06. WhAp Reents   -> Wiese?
+
+
+
+
+* [X] Kopieren des Ordners und wieder in Caddy legen
+
+
+
+
+=== WIP
+* Urlaub planen, Was mache ich im Urlaub? Rad/wandern? CM-Besuch? Dänemark-küste? Norwegen? Bergsteigen? Kitelernen?
+* Monitor tauschen
+
+* [ ] JDW 30 PlaBewerbung fertig
+
+
+==== Backlog nach Prio
+* [ ] Fdw 30 06 Steuer 2021 Quittungen durchgehen, nach prinzipiellen Unterlagen und diese dokumentieren
+* [ ] PDW 99 06 Vorbereitung Rad Urlaub!!!
+  ** TRad Bremsen, Schlauch Schrader, Ölwechsel, Schaltzug neu
+  ** Luftmatratze checken
+* [ ] P w 30 06   Luftbett checken
+
+* [ ] P   15 06 Liste von offenene Projekten anfertigen
+
+* Was machen mit Lina? Fri 23 - 25.06. -> Spiekeroog 6:30.  Oder Langeoog
+
+
+* [ ] FdW 30 05 Rentenversicherung, Beratung, ob Einzahlungen möglich sind. Welche Effektivität? WVL, Mail vom 25.05.23
+  ** Lüneburg Terminvereinbarung: 04131 7595 0  E-Mail: beratung.in.lueneburg@drv-bsh.de, Online Zugang ermöglichen!
+* [ ] JDW 60 03 Handy Lösung finden! https://www.handy-deutschland.de/handys-vergleichen/samsung-galaxy-a54-a546_mit_samsung-galaxy-a34-a346.html
+* [ ] F W 30 SThree Monatsnachweise einsortieren und drucken
+* [ ] J   60 Office: Alte Ordner entsorgen, weiter hängeordner durchgehen
+* [ ] J w 30 Gmail alle Doings durchgehen
+
+* [ ] JdW 60 Office: Script in kh: Copy smb; ocr +  guess Name! Enum mit bekannten Absendern
+* [ ] F W 30 WVL OLB Tan verfahren.evt Kündigen auf Haspa gehen? Kosten evaluieren
+
+* [ ] GDW 30 Nochmal lesen, was der RuderMensch geschrieben hat.
+* [ ] F W 10 GPT fragen nach Ftx Depot Skript
+
+* [ ] Jdw 30 encryption PDF Passwort als 2. Alternative https://docs.asciidoctor.org/pdf-converter/latest/optimize-pdf/
+
+
+
+
+
+== KN Idle
+* [ ] JDW 30 03 Zoom Webinar aufzeichnen, als unkonkrete Investition
+* [ ] Jw  60 03 Eigene Q mit mehreren Topics
+* [ ] Jdw 30 04 State-Diagram zeichnen, mit Events als Vorbereitung für https://jira.int.kn/browse/KNOMP-31118[jira]
+* [ ] Jdw 30 03 Document tms-export branch KNOMP-22972
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+== Backlog
+
+=== Dringender
+* [-] FDW 15 WVL start 23.03. FA Briefe an Bahlburg mailen
+* [B] Fdw 15 03 Krankenkasse wechseln nach Athletikum 450€ max pro Jahr sparen
+* [ ] P   30 05 Office: Reiter neu farbig ausdrucken. Schubladen beschriften mit Klebe fächern die sonst für Kisten benutzt werden.
+* [ ] GDW Vorsorge Terminserien anlegen
+
+=== Irgendwann
+* [ ] Pdw 99 05 Tourenrad: Bremsbacken neu, Schlauch ersetzen von Presta nach Schrader, Schaltzug neu?
+* [ ] Gdw TB 01 OtF harte Matratze
+* [ ] Gw  60 03 Skript, wie man das Wissen und Dateinamen aus doc & office grepfähig machen kann, vielleicht mit t d <search> (oder o)
+* [ ] Gw  60 03 Ongoing: t minimalismus
+
+
+* [ ] Jdw 99 03 Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg  ?Daraus OKRs generieren? 3, 5, 15 Jahres Plan?
+
+* [W] FDW 30 03 Lohnsteuer Jahresausgleich fertig fertig. Evaluieren von Software.  Welche Fragen an Fr. Bahlburg? Status QCC?
+* [ ] FDW 60 01 Depot 7988387 kündigen, brauche ich da Hilfe, Frage an Frau Bahlburg?
+* [ ] FDW 30 03 ?Jens Rabe monatlich https://aktienkannjeder.de/?utm_source=mail&utm_medium=newsletter&utm_campaign=aktienkannjeder
+* [R] F W 99 01 Andree de B Aufstellung verstehen.
+* [ ] F W 45 03 Outcome Frame Dietmar Vermietet
+* [ ] Fdw 99 03 Amazon Invoice Generator, alles absetzbar und nicht verfolgbar. Einarbeitung PDF Generator
+
+* [ ] P w 30 03 CM Notizen auswerten,
+* [ ] J W 60 05 Anderes eBook?
+* [R] P w 99 03 Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich.
+* [ ] P w 30 03 Meinen Film anschauen, was bewirkt es?
+* [ ] P   60 03 CM 7 Schritte fertig
+
+* [ ] H W TB 01 Keller aufräumen
+* [ ] Hdw 30 03 Isomatte (+ Luftbett) auf Dichtigkeit prüfen
+
+
+* Bus: Wäscheleine, Not-Picknick-plane, 2 lange löffel mit loch
+* Kajak: Werner Zündorf 0151 235 28180
+* Tangriakocher? BW Besteck, Gemüse Messer zurück
+* [ ] Trockengeräte für Neopren etc.
+* [ ] Andrea: Verschweißte Karten mit Kiste->Inhalt
+* [ ] UV-Lampe Bernstein
+
+=== Decathlon
+* Einteiler
+* Winter Neo https://www.decathlon.de/p/neoprenanzug-surfen-herren-900-5-4-mm-mit-kopfhaube/_/R-p-302345
+
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

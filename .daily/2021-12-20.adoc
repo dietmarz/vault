@@ -1,0 +1,44 @@
+include::{root}/.inc/include.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2021-12-20
+
+== Aufgaben
+
+
+
+[ ] 876 Umzug Artikeldatendashboard in den scale-Account
+[ ] Git Log extrahieren: Repo->Branch->Log zum greppen
+[ ] Andreas Ruder Computer zusammenbauen
+[ ] Buchen!
+[ ] Weihnachtsgeschenk bezahlen
+
+== Daily fragen
+
+== Privat
+[ ] Skandia anrufen auflösen oder nicht?
+
+[ ] Was ist mit den Grundstücken jetzt? s. GMail, Landkreis fragen
+[ ] Jenisch antworten -> WVL anlegen
+[ ] Stegemann einrichten
+[ ] Andree einsehen und dokumentieren
+[ ] 801 Entnahme
+[ ] Buch zurück schicke
+[ ] Überstunden beantragen
+
+
+
+
+
+
+
+
+
+
+
+== Notizen
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

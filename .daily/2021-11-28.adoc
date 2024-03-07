@@ -1,0 +1,16 @@
+include::/home/dietmar/cloud/customer/Otto/templateInclude.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2021-11-28
+
+== Aufgaben
+[ ] Skandia auflösen oder nicht?
+[ ] 918 fertig zum mergen?
+
+
+== Notizen
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

@@ -1,0 +1,79 @@
+include::{root}/.inc/include.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2022-01-27
+
+== Aufgaben
+
+
+
+[ ] 876 Umzug Artikeldatendashboard in den scale-Account
+[ ] Buchen
+[ ] Wie nimm
+
+== Fragen im Daily
+
+
+
+== Privat
+[ ] Finanz Termin setzen knallhart 30 Min pro Woche fix
+[ ] Stegemann einrichten
+[ ] Andree einsehen und dokumentieren
+[ ] Ziele Tageszettel mit Miro verbinden
+[ ] Miro Ziel genau definieren
+[ ] Rentenkasse, warum weniger?
+  ** Problem, Lösungsidee, Schritte, Tracking einrichten
+* Gew tracker 88.8 starten,
+* Waage kaufen
+
+== Ziele
+* Gitarre S19 Done!
+* Angular! React Vue definieren
+* Log Server?
+
+== Irgendwann
+[ ] Was ist mit den Grundstücken jetzt? s. GMail, Landkreis fragen
+[ ] Neues Tool: Git Log extrahieren: Repo->Branch->Log zum greppen
+[ ] Erhöhung für den Server, für sauberen Aufbau
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+== Notizen
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+find . \( -type f -name '*.jar' -o -name '*.war' \) -print0 |  xargs -0 -I '{}' sh -c "jar tf {} | grep $1 &&  echo {}"
+
+
+
+
+
+
+
+

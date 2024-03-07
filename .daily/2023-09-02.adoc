@@ -1,0 +1,198 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2023-09-02
+
+== Aufgaben
+Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus
+
+* Team Event Organisieren
+  ** [ ] WVL 04.09. Erinnerung https://bitpoll.de/poll/z4m8kTKDlW/[EventTermin]
+
+* CM analysieren und trennen. Bitep Berlin
+* EKA: LHantel mit Gewichten?
+
+* [ ] J W 90 08 link:../prv/entscheidungsfindung-mentale-modelle.adoc[MM]
+* [ ] JDW 30 08 Orga: Board: Fehlende Tasks anbringen, priorisieren
+
+
+== Wochenende
+
+=== Samstag
+* [X] 1200 FDw 60 Steuern + Post
+* [X] 1300 HDW 80 Einkaufen
+* [X] P W 30 09 CM SRII Aufzeichnungen
+* [X] 1700 HD  60 Rasenmähen
+* [ ] 2130 Gdw Sonntag Radtour fertig Büchen
+* [ ] 1430 HDW 60 Saugen & Wischen
+* [ ] 1830 Gdw 80 Sport des Tages-> Kraft!
+
+* [ ] 1600 H W 90 Keller
+* [ ] 2000 HDw 90 + QRP fertig! <Anfangen!>
+
+=== Sonntag
+* [ ] 0600 PDW 99 <Radtour für die Seele>
+
+
+
+.Abrechnung für Monat: August 2023
+|===
+| [X] | Kopieren           | Diese Liste in das Daily kopieren und Monat richtig setzen, damit grep Fähigkeit hergestellt.
+| [X] | Postkasten         | Ggf. Stempeln und Scannen
+| [X] | Portemonnaie       | Ggf. Einkleben
+| [X] | Selfhost           | https://selfhost.de/cgi-bin/selfhost?p=account&cat=rechnung&CGISESSID=090ed7dc07cc73a1f6237252daa8d67f[Selfhost-Login]
+| [X] | Amazon             | https://www.amazon.de/gp/css/order-history?ref_=nav_AccountFlyout_orders[Amazon]
+| [X] | Email              | https://mail.google.com/mail/u/0/?pli=1#advanced-search/subset=all&attach=true&within=1d&sizeoperator=s_sl&sizeunit=s_smb[Gmail m. Anhang]
+| [X] | Ebay zur Prüfung   | https://www.ebay.de/mye/myebay/v2/purchase[Ebay gekauft]
+| [X] | Udemy              | https://www.udemy.com/dashboard/purchase-history/[Udemy-Gekauft]
+| [X] | Bhhz Digital       | https://portal.buchholz-stadtwerke.de/powercommerce/ivu/fo/portal/invoiceDetails[Bhhz-Digital]
+| [X] | HVV                | https://shop.hvv.de/personal_data/orderList[HVV-Login]
+| [ ] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank]
+| [ ] | Auszüge Skat       | https://www.vrbank-altenburgerland.de/services_auth/auth-ui/?v=5ff448423447dee6&client_id=fkp&redirect_uri=https:%2F%2Fwww.vrbank-altenburgerland.de%2Fservices_cloud%2Fportal%2Fportal-oauth%2Flogin[Skat Bank]
+| [ ] | Umsätze QCC prüfen | Ggf. An Frau Bahlburg senden
+| [ ] | Auszüge Flatex     | https://www.flatex.de/#[Flatex Bank]
+| [X] | EWE Tel Handy      | https://mein.ewe.de/ewetelcss/secure/billingOverview.xhtml[EWE-Tel-Login]
+| [ ] | Invest tätigen     | Was, wie, welche Strategie?
+| [x] | Chat GPT           | Siehe Mails, button folgen, oder Mail drucken
+| [X] | Scan Ordner leeren | vorher syncSmb
+| [X] | Besonderheiten     | WVL und offene Dinge notiert im Daily
+| [X] | Ordern sync        | git office & sv, ganz zum Schluß
+|===
+
+
+
+
+
+
+
+
+
+
+
+
+
+== Frog
+* task printservice einbauen, Testen!
+
+
+=== Woche Buchen ('.' Log Time)
+https://jira.int.kn/secure/Tempo.jspa[MyWork]
+https://jira.int.kn/browse/KNOMP-29388[Operationals]
+https://jira.int.kn/browse/KNOMP-31487[Remove Status]
+
+
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-33958 [Reporting] Field "Active Task" not correct
+https://jira.int.kn/browse/KNOMP-33958[Jira]
+link:../.ticket/33958[docu]
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-33296 [DI] [esp-tms-export] Add "Shipper's Reference" to EDIORD message
+https://jira.int.kn/browse/KNOMP-33296[Jira]
+link:../.ticket/33296.adoc[docu]
+
+* [ ] https://git.int.kn/projects/KNLOGIN/repos/esp-tms-export/pull-requests/740/overview[tms-mergen]
+* [ ] PR tms-export erstellen
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-33980 Create new ART for testing integration from ESP & myKN
+https://jira.int.kn/browse/KNOMP-33980[Jira]
+link:../.ticket/33980[docu]
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== Eichengrund
+* [ ] Mit der Stadt Esens klären, was mit den MündSich Wertpapieren geschehen soll.
+* [ ] link:../org/eat-the-frog.adoc[Frog]
+
+
+
+
+
+=== WIP
+* [ ] KKasse wechseln
+* [ ] JDW 30 PlaBewerbung fertig
+
+
+==== Backlog nach Prio
+* [ ] Hdw 30 03 Isomatte (+ Luftbett) auf Dichtigkeit prüfen
+
+* [ ] F W 30 SThree Monatsnachweise einsortieren und drucken
+
+* [ ] JdW 60 Office: Script in kh: Copy smb; ocr +  guess Name! Enum mit bekannten Absendern
+* [ ] F W 30 WVL OLB Tan verfahren.evt Kündigen auf Haspa gehen? Kosten evaluieren
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+== Backlog
+
+=== Dringender
+* [ ] GDW Vorsorge Terminserien anlegen
+
+=== Irgendwann
+* [ ] Gdw TB 01 OtF harte Matratze
+* [ ] Gw  60 03 Skript, wie man das Wissen und Dateinamen aus doc & office grepfähig machen kann, vielleicht mit t d <search> (oder o)
+* [ ] Jdw 99 03 Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg  ?Daraus OKRs generieren? 3, 5, 15 Jahres Plan?
+
+* [ ] FDW 30 03 ?Jens Rabe monatlich https://aktienkannjeder.de/?utm_source=mail&utm_medium=newsletter&utm_campaign=aktienkannjeder
+* [R] F W 99 01 Andree de B Aufstellung verstehen.
+* [ ] F W 45 03 Outcome Frame Dietmar Vermietet
+* [ ] Fdw 99 03 Amazon Invoice Generator, alles absetzbar und nicht verfolgbar. Einarbeitung PDF Generator
+
+* [ ] P w 30 03 CM Notizen auswerten,
+* [R] P w 99 03 Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich.
+* [ ] P   60 03 CM 7 Schritte fertig
+
+* [ ] H W TB 01 Keller aufräumen
+
+
+
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

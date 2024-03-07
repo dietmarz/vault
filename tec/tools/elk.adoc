@@ -1,0 +1,17 @@
+include::{root}/.inc/include.adoc[]
+
+= Elastic-search Logstash Kibana
+
+== Using docker
+  ** https://www.youtube.com/watch?v=VpAH2IoMzKw&t=790s[YT]
+  ** ~/project/elk/Elasticsearch-logstash-Kibana-Docker-Compose
+  ** https://www.udemy.com/course/elasticsearch-7-and-elastic-stack/[Udemy U]
+
+== U5 Overview 
+* Elasticsearch: started off as Lucene, just serves JSON requests and returns JSON
+* Kibana, Dashboard based. UI on top of Elasticsearch
+* Logstash / Beats, feeds ES, collects and sends data 
+* X-Pack: Adds Security, Alerting, Monitoring, KI, more!
+
+U6 REST
+* st

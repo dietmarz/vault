@@ -1,0 +1,122 @@
+include::{root}/.inc/include.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2022-02-11
+
+== Aufgaben
+
+
+* [ ] 942
+* [ ] Zertifikat debuggen
+* [ ] Strategie erarbeiten, Weiterbildung Ziele
+  ** Kündigungsfristen ermitteln: 2 Wochen bis 15.03 danach 4 Wochen
+
+* [ ] Profil updaten
+
+=== Ziel Woche 07 - 12
+
+less /var/log/user-data.log
+https://github.com/otto-ec/spoc_status-api/blob/master/scripts/dr_teardown_all_stacks.sh#L4
+
+
+* [ ] Schreibtisch leer
+* [ ] Rainer antworten
+* [ ] Gitarre üben 15 min
+* [ ] Gitarre üben 15 min
+* [ ] Rad 30 min
+* [ ] Rad 30 min
+* [ ] Schwimmen
+* [ ] Krafttraining
+
+* [ ] AWS Angular Projekt starten TB 2h planen
+* [ ] Housekeeping TB 2h planen
+
+
+* [ ] Acer fertig (RAM & Drive)
+
+== Fragen im Daily
+
+
+
+== Privat
+[ ] Finanz Termin setzen knallhart 30 Min pro Woche fix
+[ ] Stegemann einrichten
+[ ] Andree einsehen und dokumentieren
+[ ] Ziele Tageszettel mit Miro verbinden
+[ ] Miro Ziel genau definieren
+[ ] Rentenkasse, warum weniger?
+  ** Problem, Lösungsidee, Schritte, Tracking einrichten
+* Gew tracker 88.8 starten,
+* Waage kaufen
+
+== Ziele
+* Gitarre S19 Done!
+* Angular! React Vue definieren
+* Log Server?
+
+== Irgendwann
+[ ] Was ist mit den Grundstücken jetzt? s. GMail, Landkreis fragen
+[ ] Neues Tool: Git Log extrahieren: Repo->Branch->Log zum greppen
+[ ] Erhöhung für den Server, für sauberen Aufbau
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+== Notizen
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

@@ -1,0 +1,3 @@
+#/bin/bash
+
+netstat -plten 2>/dev/null | egrep $1 | awk '{print $9}' | sed 's/\/.*//'

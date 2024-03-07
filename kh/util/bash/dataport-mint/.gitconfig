@@ -1,0 +1,33 @@
+# This is Git's per-user configuration file.
+
+[http]
+        proxy = http://141.91.176.130:80
+[core]
+	editor = vim
+	autocrlf = input
+#	autocrlf = true
+[user]
+	email = dietmar.zabel@dataport.de
+	name = Dietmar Zabel
+[push]
+	default = current
+[alias]
+	co = checkout
+	cp = cherry-pick
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	dt = difftool -y
+	mt = mergetool -y
+        lg = log --graph --pretty=format:'%Cred%h%Creset - %s %C(yellow)%d%Creset%Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	trustExitCode = false
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	trustExitCode = false
+[credential]
+	helper = cache

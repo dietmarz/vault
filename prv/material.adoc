@@ -1,0 +1,6 @@
+include::{root}/.inc/include.adoc[]
+
+= Material
+
+== Auto Caddy
+* Letzte Inspektion 04.04.2023 261TKm

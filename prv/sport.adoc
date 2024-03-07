@@ -1,0 +1,57 @@
+include::{root}/.inc/include.adoc[]
+
+= Sport
+
+== Büro Siten
+* Tastatur an den vorderen Rand kleben mit Tesa -> Schultern zusammen
+* Schneidersitz auf Airex-Kissen mit kleiner Yoga matte
+* PullUps mit Beinen von der Stange
+* Bauch gegen Airex-Kissen und Tischplatte drücken, gegen Hexenbuckel
+* Fuß in Grüne Gummischlinge von der Klimmzugstange nach hinten drücken
+* Unterschenkel quer auf Tisch und mit Tisch hochfahren
+* Halbrundschale zum Skaten auf dem Boden nutzen
+* Keil-Stehhilfe nutzen
+* Knien auf Airex-Kissen
+* Doppelte lila Gummischlinge über Klimmzugstange und sich rückwärts fallen lassen
+* Ein bein weiter vorne bis Oberschenkel zieht, auch breitbeinig stehen <<beh-1>>
+* Im gedrehte Stand stehen, oder Knie auf Stuhl und Unterschenkel gegen Lehne zur Dehnung <<beh-1>>
+
+== Ideen
+* Nordic Curls üben
+* Triggerpunkte lernen
+
+
+== Rennrad
+
+
+== Aufgaben
+* [ ] GDW 15 Athletikum starten (oder doch nicht?)
+  ** https://www.tk.de/techniker/gesundheit-und-medizin/behandlungen-und-medizin/sportmedizin-und-sportverletzungen/sportmedizinische-sportorthopaedische-behandlung-hamburg-2129924
+  ** 040/7410-58559, Athletikum direkt: 040/7410-28540
+
+
+== Triathlon
+* Einteiler von Bioracer
+
+== Rudern
+
+[quote,Olli Zeidler,Profi Ruderer]
+____
+Meine Erfahrung sagt mir, dass Rückenprobleme oder ein Rundrücken für gewöhnlich durch zu schwache Hüftbeuger hervorgerufen werden. Daran sollte man definitiv arbeiten, da die Streckung des Rückens auch beim Rudern besser ist als der Rundrücken, zumal man mehr Kraft an den Hebel bekommt, wenn der Pendel des Körpers mehr Weg hat.
+
+Nun meine Empfehlung an Sie: Schrauben Sie, sobald sie merken, dass der Rücken beim Training rund wird die Intensität oder Dauer etwas runter. Das Ergometertraining sollten Sie weiterführen, wenn es ihrer Fitness gut tut, allerdings immer auf die Technik achten. Ergänzend würde ich die angehängte Übung zur Stärkung des Psoas empfehlen, diese hat mir sehr geholfen. Um die Streckung des Rückens sicher zu stellen, können sie sich anfangs mit dem Rücken an die Wand setzten. Aber klären Sie das vorsichtshalber mit ihrem Arzt oder Physiotherapeut ab, da ich ihren Gesundheitszustand nicht einschätzen kann.
+____
+https://www.ollizeidler.com/aktuelles/fitbook-workout-von-und-mit-ruder-weltmeister-oliver-zeidler[Trainings-Videos]
+
+== Schwimmen
+* Kalkschulter mit Kraftsport entgegenwirken oder endoskopische Behandlung evt hier: Orthopädicum Hamburg Neuer Wall
+
+
+== Stube
+* Nordic curls trainieren: Schlaufen an volle Langhantel, Knie auf Airex
+* Brücke mit 20Kg Scheiben auf der Hüfte.
+
+
+[bibliography]
+- [[[beh-1]]] https://www.youtube.com/watch?v=PXvSdVMZIN4
+

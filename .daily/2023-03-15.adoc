@@ -1,0 +1,120 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2023-03-15
+
+== Aufgaben 
+* [ ] DW Prepare Reichel
+* [ ] dw KN 365 Mail beantworten
+
+
+
+* [ ] Fragen sammel zur Klärung und wir erfinden eine Session zur Klärung
+
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== 25755 Int
+* Nur bei Air, Ciel macht kein Air mehr
+export office
+9999 Testoffice
+Tracking statustabelle 2 spalten, knR, alles was ins Unif mit air rein löuft funzt nicht
+Tracking Air filtern not assigned klicken
+Unified shipment kann nicht gebaut werden
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== 30670 Reporting entityIdentifier and bucketIdentifier differs
+link:../.ticket/30670.adoc[task]
+* [X] Neuer PR gestellt (Feld aus anderem Wert dem Header hinzugefügt)
+* [X] Reduce Flakieness of Scaling support
+* [ ] PR für Reporting OK?
+
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Idle
+
+* [ ] Eigene Q mit mehreren Topics
+* [ ] States durchspielen KNESP
+* [ ] Reporting doc lesen
+* [ ] tms-export als svg
+* [ ] Tobi fragen:
+  ** Klärung Überstunden, wie abbauen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Private Aufgaben
+Die Tue-Nicht-gut-Falle!
+D=sehr dringend
+W=sehr wichtig
+03=Start Monat
+TB= Time box,
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+== Kurzfristiges Backlog
+* [ ] DW 30 03 PA in Wohnzimmer vorbereiten. Kamera, Mikro, was braucht man für Aufzeichnungen?
+* [ ] DW 45 03 PA Dietmar Vermietet, Plath oder nicht? Worauf 100% Focus?(elo?, FE?)
+* [ ] Dw 15 03 Gibt es Unterstützung vom Athletikum? Muskuläre Disbalancen
+* [ ] W  15 03 Eigene Rentendokumentation sichern in SV
+* [ ] D  99 03 Hecke fertig schneiden
+* [ ] w  99 03 Lohnsteuer Jahresausgleich fertig fertig. Evaluieren von Software.
+               Welche Fragen an Fr. Bahlburg? Status QCC?
+
+* [ ] w  30 03 CM Notizen auswerten,
+* [ ] w  60 03 CM 7 Schritte fertig
+* [ ] w  99 03 Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich.
+* [ ] w  30 03 Meinen Film anschauen
+
+* [ ] dw 00 03 ?Docuscanner kaufen?
+* [ ] dw 99 03 Amazon Invoice Generator
+  **             Vorarbeit: Was genau bringt der Aufwand, alle Aktendokumente digital zu haben? Welchen strategischen Vorteil? t digital anlegen
+
+* [ ] DW 60 03 Handy Lösung
+* [ ] DW 60 03 Outcome frame mit Plath
+
+* [ ] dw 99 03 Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg
+  **             ?Daraus OKRs generieren? 3, 5, 15 Jahres Plan?
+
+* [ ]       03 Huperman mal anschauen
+* [ ]       03 Flow durchforsten
+
+== Backlog
+* [ ] DW 60 01 Depot kündigen
+* [ ] dw TB 01 OtF harte Matratze
+* [ ] dW 99 01 Andree de B Aufstellung verstehen
+* [ ] W  15 03 Klärung Weide? Ihnen anrufen, was ist letzter Stand? Kann er helfen beim verpachten?
+* [ ] w  60 01 Schreibtisch frei
+* [ ] w  TB 01 Keller aufräumen
+* [ ] d  60 01 Gelbe Säcke organisieren
+* [ ] w  30 03 Isomatte (+ Luftbett) auf Dichtigkeit prüfen
+* [ ] w  60 03 Skript, wie man das Wissen und Dateinamen aus doc grepfähig machen kann, vielleicht mit t d <search>
+* [ ] w  60 03 Ongoing: t minimalismus
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

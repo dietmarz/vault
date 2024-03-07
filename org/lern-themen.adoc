@@ -1,0 +1,40 @@
+= Lern Themen
+
+
+== C++ für Plath et al.
+
+== zeitlicher Lehrplan
+* 5h Arbeiten
+
+
+
+
+== Platformen
+* https://exercism.org/tracks
+
+== Generell
+* zshell
+* CW Abkürzungen
+* English Udemy?
+* Keycloak
+
+== Frontend
+* Angular!
+
+== Backend
+* Ein Server, den man nach Inhalten von cloud/doc fragen kann
+
+===  Kotlin
+* task project
+
+=== Spring
+* Course bei Baeldung?
+
+=== terraform terragrunt
+* Ud: terraform-for-the-absolute-beginners
+
+=== µController
+* AD Wandler FFT mit STM32:
+
+video::3WF4CGKoMas[youtube]
+

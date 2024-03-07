@@ -1,0 +1,94 @@
+include::{root}/.inc/include.adoc[]
+
+= KNOMP-33296 [DI] [esp-tms-export] Add "Shipper's Reference" to EDIORD message
+
+* https://jira.int.kn/browse/KNOMP-33296[Ticket]
+* Glossar: 'SR' = ShippersReference
+
+== knie4
+[source,java]
+----
+
+// TODO: Nothing: Generischer Eingang.
+// SR = EDIORD->SHPORD->SHPINF->ADR[@ADRTYP='SH')->REF->CDE[text()='SRN']->VAL
+
+public interface ShipmentInformationMapper {
+    @Mapping(target = "shippersReference", source = "nameAddress") // TODO: Add SR to ShipmentInformation
+    ShipmentInformation mapShipmentInformation(EDIORD.SHPORD.SHPINF shpinf);
+
+    default ShippersReference map(List<NameAndAddressWithType> addresses) {
+        // TODO: Map EDIORD -> DOMAIN
+    }
+
+    @AfterMapping
+    default void addShippersReference(@MappingTarget EDIORD.SHPORD.SHPINF shpinf, ShipmentInformation shipmentInformation) {
+        // TODO: Map DOMAIN -> EDIORD
+    }
+}
+----
+
+
+
+
+== tms-export
+[source,java]
+.OrderShipping
+----
+public class OrderShippingMessageReceiver {
+
+    @BucketMessageConsumer(bucketStoreNames = ORDER_BOOKING, bucketKeyJsonPointer = "/orderBookingNumber")
+    public void receiveOrderShippingMessage(@Payload OrderShippingTransportUpdatedMessage message) {  //TODO: message erweitert aus POM ordershipping 9.1.0
+        MdcKeys.EVENT_SOURCE.put(ORDER_SHIPPING.name());
+
+        OrderShippingContent content = mappingService.mapOrderShippingForm(message);  // TODO: DTO Content erweitern, mapOrderShippingForm erweitern
+        OrderShippingExport orderShippingExport = storageService.storeOrderShipping(content); // TODO: storeOrderShipping mapping auf Entity erweitern
+
+        exportService.exportOrderShipping(orderShippingExport);
+    }
+
+}
+
+public class OrderShippingExport extends AbstractEntity {
+    private ShippersReference shippersReference;
+}
+
+public class OrderShippingExportService {
+    exportOrderShipping(OrderShippingExport orderShippingExport) {
+        EdiordKnieMessage ediord = ediordService.createFromOrderShippingExport(...) // TODO: Neue EdiordKnieMessage aus POM Knie4
+        exportEdiord(tmsRequestJob, tmsStation, ediord);
+    }
+}
+
+public class EdiordExporter { // TODO: Nothing, generisch.
+    exportEdiord(TmsRequestJob tmsRequestJob, EdiordKnieMessage ediord, TmsStation tmsStation) {
+        EdiordExportEvent ediordExportEvent = new EdiordExportEvent(ediord, uuid, tmsStation);
+        eventPublisher.publish(ediordExportEvent);
+    }
+}
+public class EdiordExportEvent { // TODO: Nothing, generisch.
+    EdiordKnieMessage ediord;
+}
+----
+
+
+
+[source,java]
+.OrderBooking
+----
+public class BookingEventMessageReceiverV2 {
+    @BucketMessageConsumer(bucketStoreNames = ORDER_BOOKING, bucketKeyJsonPointer = "/orderBookingNumber")
+    public void handleEvent(@Payload BookingEventMessage bookingEventMessage) {// TODO Message erweitern
+         handleTransportationPlannedEvent(bookingEventMessage);
+    }
+
+    private void handleTransportationPlannedEvent(BookingEventMessage bookingEventMessage) {
+        OrderBookingContent orderBookingContent = orderBookingContentMapperV2.map(bookingEventMessage); // TODO mapping erweitern
+        OrderBookingExport orderBookingExport = orderBookingStorageService.storeOrderBooking(orderBookingContent);
+        orderBookingExportService.exportTransportationPlanned(orderBookingExport);
+    }
+
+}
+
+----
+
+

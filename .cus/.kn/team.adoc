@@ -1,0 +1,20 @@
+include::{root}/.inc/include.adoc[]
+
+= Team
+
+Rathjen, Tobias / Kuehne + Nagel / Ham MI-DS <tobias.rathjen@kuehne-nagel.com>;
+Bartel, Sven / Kuehne + Nagel / Ham MI-DS <sven.bartel@kuehne-nagel.com>; 
+Brardt, Jürgen / Kuehne + Nagel / Ham EXT <external.juergen.brardt@kuehne-nagel.com>; 
+Drahmann, Kai / Kuehne + Nagel / Ham EXT <external.kai.drahmann@kuehne-nagel.com>;
+Kirsch, Robin / Kuehne + Nagel / Ham MI-DS <robin.kirsch@kuehne-nagel.com>; 
+Lieb, Joachim / Kuehne + Nagel / Ham MI-DS <joachim.lieb@kuehne-nagel.com>; 
+Petersen, Georg / Kuehne + Nagel / Ham MI-DS <georg.petersen@Kuehne-Nagel.com>; 
+Przybycin, Nicole / Kuehne + Nagel / Ham MI-DS <nicole.przybycin@kuehne-nagel.com>; 
+Remme, Dennis / Kuehne + Nagel / Ham EXT <external.dennis.remme@kuehne-nagel.com>;
+Rowinski, Robin / Kuehne + Nagel / Ham EXT <external.robin.robinski@kuehne-nagel.com>;
+Zabel, Dietmar / Kuehne + Nagel / Ham EXT <external.dietmar.zabel@kuehne-nagel.com>
+
+
+== Kühne und Nagel
+* Support für Büro related
+  ** Schuette-Berg, Christiane / Kuehne + Nagel / Ham GI-DS

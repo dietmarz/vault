@@ -1,0 +1,8 @@
+include::{root}/.inc/include.adoc[]
+
+= Geburtstags Gratulanten
+
+Andrea, Manfred, Marion, Hanni,  Karin, Lina, Auguste, Sigrid, Per, Okko, Valerie, Patrick, Carmen, Kirsten, Jens, Wiltraud, Elke, Axel, Carsten,
+
+Patrick
+Carmen

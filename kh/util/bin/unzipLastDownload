@@ -1,0 +1,22 @@
+#!/bin/bash
+
+DOWNLOAD_DIR=/home/dietmar/Downloads
+
+last_downloaded=`ls -tp ${DOWNLOAD_DIR} | grep -v / | head -n1 |awk '{printf("%s",$0)}'`
+last_downloaded=${DOWNLOAD_DIR}/${last_downloaded}
+
+if [[ $last_downloaded == *.zip ]]
+then
+  echo unzip ${last_downloaded}
+  unzip ${last_downloaded}
+elif [[ $last_downloaded == *.tar ]]
+then
+  echo tar xvf ${last_downloaded}
+  tar xvf ${last_downloaded}
+elif [[ $last_downloaded == *.tgz ]]
+then
+  echo tar xvf ${last_downloaded}
+  tar xvf ${last_downloaded}
+else
+  echo Unknown compression for ${last_downloaded}
+fi

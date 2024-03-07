@@ -1,0 +1,61 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <localRepository>C:/data/tools/mvn-repo</localRepository>
+
+    <servers>
+        <server>
+            <id>repository.int.kn</id>
+            <username>${env.NEXUS_USER}</username>
+            <password>${env.NEXUS_PASSWORD}</password>
+        </server>
+    </servers>
+
+    <mirrors>
+        <mirror>
+            <id>repository.int.kn</id>
+            <mirrorOf>*</mirrorOf>
+            <url>https://repository.int.kn/repository/esp-download</url>
+        </mirror>
+    </mirrors>
+
+    <profiles>
+        <profile>
+            <id>repository.int.kn</id>
+            <repositories>
+                <repository>
+                    <id>repository.int.kn</id>
+                    <url>https://repository.int.kn/repository/esp-download</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                        <updatePolicy>always</updatePolicy>
+                    </snapshots>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>repository.int.kn</activeProfile>
+    </activeProfiles>
+	
+	<proxies>
+        <proxy>
+            <id>https-proxy</id>
+            <active>true</active>
+            <protocol>https</protocol>
+            <host>zscaler.proxy.int.kn</host>
+            <port>80</port>
+            <nonProxyHosts>*.int.kn</nonProxyHosts>
+        </proxy>
+        <proxy>
+            <id>http-proxy</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>zscaler.proxy.int.kn</host>
+            <port>80</port>
+            <nonProxyHosts>*.int.kn</nonProxyHosts>
+        </proxy>
+    </proxies>
+	
+</settings>

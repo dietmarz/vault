@@ -1,0 +1,39 @@
+#!/bin/bash
+
+currentDir=${pwd}
+volumeName="postgresql"
+
+if [ -z "$1" ]
+ then
+    fileName="${volumeName}.tgz"
+  else
+    fileName="$1.tgz"
+fi
+
+cd /opt/volumes/
+
+if [ -f "${fileName}" ]; then
+  echo "   ############################"
+  echo "   # Stopping database...     "
+  echo "   ############################"
+  cd ~/cloud/customer/dataport
+  docker-compose stop
+
+  echo "   ############################"
+  echo "   # Extracting ${fileName}"
+  echo "   ############################"
+  cd /opt/volumes/
+  sudo rm -rf ${volumeName}
+  sudo tar xf ${fileName}
+
+  echo "   ############################"
+  echo "   # Starting database...      "
+  echo "   ############################"
+  cd ~/cloud/customer/dataport
+  docker-compose up -d
+else
+    echo "There is no backup file: ${fileName}, please use one of these:"
+    ls *.tgz | sed s/\.tgz//g
+fi
+
+cd $currentDir

@@ -1,0 +1,18 @@
+include::{root}/.inc/include.adoc[]
+
+= fokus
+
+* Src: Hörbuch: Dandapani, Fokus.Die Kraft der Konzentration.Geistige Klarheit gewinnen – Erfolg und Erfüllung manifestieren
+* link:{doc}/prv/mind/orga/Dandapani-Focus.zip[]
+
+== Die 3 Stufen
+1. Beenden, 2. Gut machen, 3. Neue Herausforderung meistern, selbst daran wachsen
+
+
+* 120: Konzentration bringt: gutes Zuhören -> Überlegen -> Verstehen -> Empathie -> Mitgefühl -> Liebe -> Frieden
+
+== Aufgaben
+* Alle nicht beendeten Projekte aufschreiben
+* Alle nicht gehaltenen Versprechen, Zusagen
+
+

@@ -1,0 +1,125 @@
+include::{root}/.inc/include.adoc[]
+
+= Projekte und Hobbies
+
+== Lernen
+* Siehe 
+link:../org/lernen.adoc[]
+link:../org/lern-themen.adoc[]
+
+* Warum diese Datei: Überblick über Tätigkeiten mit der Option sich von Dingen zu trennen, oder Tätigkeiten zu intensivieren.
+  ** A: Bestimmte Dinge beenden/verkaufen, andere Dinge anfangen!
+
+* Wie möchte ich kategorisieren, um was zu erreichen?
+
+* Was bedeutet mir was, Bewertung nach Nutzen und Freude
+* 1. Beenden 2. Gut machen 3. So gut wie man es nicht für möglich gehalten hätte. Daran wachsen!
+* Unterkategorien sind aus /home/dietmar/vault/fnz/office.adoc
+
+== Hobbies
+Wünsche: Entfernen(-) Weniger(~) Weiter so(.) Unentschlossen(?) Mehr(+) Viel Mehr(#)
+* [ ] Erstmal diese Tabelle im Kopf und aktualisieren
+* [ ] Welches Gefühl steht im Vordergrund? Angst: Ich muss! ; Freude: Ja! oder Endlich!
+* [ ] Tabelle: Spalten: Ist mir das privat wichtig? (0-9); Möchte ich mich beruflich wichtig (0-9); Endgültig Beenden? ( ,X)
+* [ ] Stundenplan / Tagesplan erstellen? Zumindest einen Lehrplan, denn es muss ein Kompromiss Job/Interesse gefunden werden. Auch eine Sprache lernen. (mit Rosetta Stone?)
+
+* Pausenfüller 15min: Gitarre, Rudern, Zwift?, Schlaf
+* Ziele Definieren und Abbruchkriterien mit Lessons Learned.
+* DDD
+
+
+
+=== Zeit ist das Limitierte
+* Werktag Pause: Gitarre, Rudern, Schlafen, Nordic
+
+|===
+|Zeit |Mon |Die |Mit |Don |Fri |Sam |Son
+
+|07-09
+|-
+|-
+|-
+|-
+|-
+|-
+|-
+
+|18-21
+|-
+|Aerobic
+|Andrea
+|Aerobic
+|-
+|-
+|-
+|===
+
+=== [P] Privat (Muße)
+* . Gitarre
+* . Strand-Camping (mit Bus)
+* + CM / Meditation / Erwachen
+* . Touren Radtouren (Ein & Mehrtagestouren)
+* . Spinn Angeln
+* . Wandern
+* . Wellenreiten / Bodyboard
+* . Rad-Wandern mit Übernachtung
+* + Fels Klettern
+* + Brandungsangeln
+* + Amateurfunk CW Betrieb
+* # QRP Draußen
+* + Hochtouren Bergsteigen
+* . Geocaching
+* ? Kiten
+* + Wintersport?
+* - Motorrad
+* - Sportschießen
+
+=== [G] Gesundheit
+* Aerobic
+* Nordic Walken
+* Rennrad (Draussen und Simulator)
+* Joggen / Laufen
+* Schwimmen (Halle, Freiwasser, Schnorcheln?)
+* Heimsport (Rad / Rudern / Gymnastik)
+* Inliner
+* Slaglinen
+
+=== [H] Haus
+* Haus Instandhaltung (Garten, Streichen)
+* Vogelhaus bauen
+* Regal Hut Ablage im HW Raum
+* Gäste WC verfugen
+* Terrassen Überdachung?
+* Hängematte in Schaukel?
+* Überspannungsschutz und Leistungsmessung
+
+=== [F] Finanz
+* QCC Liquidation!
+* Investor werden!
+* Vermietung
+* Früher Rentenausstieg
+* Übernahme Eichengrund
+* Freiheit durch Minimalismus
+
+=== [J] Job
+* Elektronik basteln
+* GSM Blocker
+* Eine Radarfalle bauen.
+* Als App mit USB Anbindung, bauen des USB Radar adapters.
+* QRP Station (seltenes QTH oder Urlaub)
+* Lernen Angular (Lernkarten Projekt)
+* Platinen ätzen
+* µController lernen
+* Den DVB-T Stick zu laufen bekommen, mit Kurzwelle.
+* Das Notebook und die B200 Platine zu einer mobilen Abhörstation bauen
+* Traffic mit Selenium zur Datenerfassung.
+* Büro Ampel App, überwacht Lautstarke
+* App Sabbelpausen measurer, mit Sabbel wiederhol Ta
+* Zu Projekten: nextcloud with kibana... see techteddy
+* Guess filename application
+* t vault, office und doc im Web als Zugriff
+* CM Fulltext Such Web site. Text aus MP3. Angular, Docker etc.
+
+* DSP wegen Restwunsch Verständnis aus dem Studium
+* Elektronik weil nicht im Job ausgelebt
+* Bergsteigen Klettern weil MontBlanc abgebrochen

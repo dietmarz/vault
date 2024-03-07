@@ -1,0 +1,23 @@
+include::{root}/.inc/include.adoc[]
+
+= 30670 entityIdentifier and bucketIdentifier differs
+
+https://jira.int.kn/browse/KNOMP-30670[Ticket]
+
+== Log infos
+* kn.knlogin.esp.reporting.domain.events.BookingDataUpdatedEvent
+* Suche mit entityIdentifier GT2003I00290
+  ** bucketKey: VN2107I00108
+  ** kn.knlogin.esp.reporting.domain.events.BookingDataUpdatedEvent IllegalArgumentException
+
+== Zwei Probleme
+=== Message ist null
+* PR gestellt
+
+=== Falsche MDCs
+* suche nach GT2003I00290
+  ** add entityNumber, bucketKey, bookingNumber as column
+
+  ** Spalten einblenden und prüfen auf bucketKey != entityIdentifier
+  ** __TypeId__: kn.knlogin.esp.reporting.domain.events.BookingDataUpdatedEvent
+  ** application: esp-reporting-app

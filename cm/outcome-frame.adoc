@@ -1,0 +1,44 @@
+include::{root}/.inc/include.adoc[]
+
+= 4. Outcome-Frame
+* Christian Meyer
+
+== Wohlformulierte Bedingungen des Outcome-Frame
+. Zustand muss positiv benannt werden
+. Spezifisch != sinnlich, begründete Beschreibbarkeit und Demonstrierbarkeit
+. Wird initiiert, aufrechterhalten und verändert vom Klienten
+. Ökologisches: Verträglichkeit mit dem sozialen und weiteren Kontext und Angemessenheit hinsichtlich Zeit-Rahmen und Größe
+
+== Grundlegende Fragen
+. Ist der gewünschte Zustand erstrebenswert?
+. Ist der gewünschte Zustand möglich?
+
+== 1. Gewünschter Zustand - desire state
+. Was wünschst Du?
+. Was willst Du erreichen?
+
+== 2. Ziel sinnesspezifisch konkretisieren
+. Wie wirst Du wissen, dass Du erreicht hast, was Du wolltest?
+. Was wirst Du sehen?
+. Was wirst Du hören? (Auch intern: Der innere Dialog)
+. Was wirst Du spüren? (Körperlich: Atem, Muskelanspannung, Haltung)
+. Was wirst Du fühlen?
+
+== 3. Vom Klienten initiiert und aufrechterhalten
+. Was hindert Dich daran, den gewünschten Zustand zu bekommen?
+. Was musst Du tun?
+. Wie wirst Du es anfangen und beginnen, es zu tun?
+. Welche Ressourcen hast Du bereits, das zu bekommen, was Du wünschst?
+
+== 4. Kontextualisieren
+. Wann, wo und mit wem wünschst Du es?
+. Wann, wo und mit wem wünschst Du es nicht?
+
+== 5. Positive Nebeneffekte erhalten
+. Was sind die Nachteile, das zu erreichen? - Wenn Du das erreicht hast, wirst Du dann etwas anderes verlieren, was Du jetzt hast?
+. Was sind die Vorteile des gegenwärtigen Zustandes?
+
+== 6. Ökologisch (den Gesamtzusammenhang betrachten)
+. Wie wird der gewünschte Zustand Dein Leben verändern?
+. Gibt es irgendeinen Teil von Dir, der es nicht wünscht?
+. Gibt es Menschen in Deiner Umgebung, die Dich von dem Ziel abhalten wollen?

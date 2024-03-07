@@ -1,0 +1,43 @@
+include::{root}/.inc/include.adoc[]
+
+= Laufenden Abos und Kündigungen
+
+== Hamburg Stadtrad
+* 5€ / Jahr.
+* Kündigen: https://stadtrad.hamburg.de/de/kundenbereich[Hier]
+
+== Zwift
+* Zwift Kündigen über PayPal -> Zwift einzug finden, Zahlungen an Zwift verwalten ->Anklicken & kündigen
+* Und hier kündigen: https://zwift.com/cancellation
+
+
+== JoyFitness
+* Gekündigt zum 29.02.24
+
+== Blauweiß
+* Aerobic
+
+== Amazon Auditable
+* bis anfang März 2024
+
+== Blinkist
+* Gekündigt
+
+== D Ticket
+* gekündigt
+
+== Yousican
+* gekauft, black friday
+
+== Zoom
+* gekündigt 18.06.2024
+
+== Reisekrankenversicherung
+
+== Baggersee Abo
+
+== Bahncard 25 bis 21.02.2025
+* gekündigt auf bahn.de. Kostet 62,90, lohnt sich erst ab 251,60
+
+
+...

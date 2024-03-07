@@ -1,0 +1,13 @@
+include::{root}/.inc/include.adoc[]
+
+= 33980  Create new ART for testing integration from ESP & myKN
+
+https://jira.int.kn/browse/KNOMP-33980[Ticket]
+
+* ART Autom. regression test
+* esp-regression-test
+
+== Einführung
+* login esp-test.int.kn
+* Wird ein Video veröffentlicht
+

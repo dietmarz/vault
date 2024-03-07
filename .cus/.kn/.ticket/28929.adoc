@@ -1,0 +1,7 @@
+include::{root}/.inc/include.adoc[]
+
+= 28929
+
+== Deletion happened
+* [KNOMP-25658] removal of shipment-api messages
+* 11d18b4cd7c8799cd0325b6229a0687030ff7aa9

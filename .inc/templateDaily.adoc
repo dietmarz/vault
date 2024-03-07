@@ -1,0 +1,15 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= _THEMA_
+
+link:../def/score-board.adoc[Daily Score Board]
+
+== Aufgaben
+_LAST_AUFGABEN_== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

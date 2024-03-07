@@ -1,0 +1,69 @@
+include::{root}/.inc/include.adoc[]
+
+= Dokumenten Struktur
+
+== Grund
+* Überblick verschaffen
+* Wiederfinden von Informationen erleichtern, grep-fähig
+* Steuerliche Daten wiederfinden, LStJaAusgl
+* Ortsunabhängig
+* Kostenüberblick?
+
+* [ ] Wie kann man verhindern, das man die Dokumente / Mails / Amazon wieder und wieder durchgeht?
+* [ ] Was gibt es zu beachten zu Papierversion und Digitalversion eines Dokumentes. Braucht man immer beides?
+
+
+
+
+* Namens-schema: YYYY-MM-dd_Absender-Betreff.pdf
+  ** dd und Absender sind optional
+* Alle Rechnungen existieren als Papierform und digital mindestens unter /office/Rechnung
+
+== Speicher Orte
+
+=== Vault
+* Selbstgeschriebenes, sehr oft benutzt, Einstiegspunkte
+
+=== cloud/office
+* Briefe, Rechnungen,Personenbezogenes
+
+=== cloud/doc
+* Bücher, Manuals, Anleitungen
+
+=== cloud/dietmar
+=== cloud/project
+
+== Vorschlag
+video::LxJJxLiogaE[youtube]
+
+* Ordner Bank
+  ** Zahlungsverkehr (Auszüge, Einzugsermächtigungen, Kreditkarten Verträge)
+  ** Vermögensbildung (Tagesgeld, Festgeld, Depot)
+  ** Kredite (Verträge, Zahlungsnachweise)
+
+* Ordner Beruf
+  ** Bewerbungen
+  ** Arbeitsverträge
+  ** Briefwechsel (Gehaltszettel, Vereinbarungen)
+  ** Steuer (Lohnsteuerkarte)
+  ** Rentenversicherung (SoziVersAusweis, Rentenbescheide)
+  ** Zeugnisse
+
+* Ordner Wohnen
+  ** Mietvertrag
+  ** Nebenkosten
+  ** Bausparverträge
+  ** Umbau / Renovierung
+
+* Ordner Versicherungen
+  ** Haftpflicht, BU, Krankenkasse, Hausrat, Wohngebäude
+
+* Ordner Mobilität
+  ** Kaufvertrag, Fahrzeugbrief, Werkstatt, KFZ Steuer, Knöllchen
+  ** Radverträge, Bahnverträge, Mitgliedschaften
+
+* Ordner Gesundheit
+  ** Rezepte, Impfpass...
+
+* Ordner Steuer
+  ** Rechnungen

@@ -1,0 +1,37 @@
+include::{root}/.inc/include.adoc[]
+
+= 2023-01-27
+
+== Aufgaben
+.#28993 Unlink Featurebranch knomp#
+  ****
+* [.line-through]#Alte OShift 3 Instanz löschen? Nein, weil Dennis da noch was an der DB machen muss.#
+  ****
+
+.#27886 Unlink Mergen in dev branch#
+  ****
+* [x] Weiter: Erstellung review-app modify tabelle in t kn featurebranch
+  ** Knie Library releasen!, die aus virtual tms benutzt wird.
+* [ ] #Fragen# Sven, warum gibt es esp-spring-boot-admin Snapshot?
+* [ ] Wenn fertig Joachim bescheid geben
+  ****
+
+.#29867 Unlink-Bug Shipment:  Unlink an unlinked#
+  ****
+* [X] Unlink Unklinked Shipments is fertig
+* [ ] Ruwen sagen: Germerged, kann getestet werden.
+  ****
+
+.#29749 Delete-Orderlines Tms-export#
+  ****
+* [X] Test fixen Review von Tobi fertig machen
+* [X] OS ClearMdcAfterExecutionConfiguration.java einbauen. MDC.clear() Aufrufe entfernt
+* #Warum# habe ich das auf 29540 gemacht?
+  ****
+
+== Notizen
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

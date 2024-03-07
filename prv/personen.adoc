@@ -1,0 +1,74 @@
+include::{root}/.inc/include.adoc[]
+
+= Personen.adoc
+
+== Kühne & Nagel, ANÜ
+* Computer Futures / SThree Vermittler Matthias Märtens
+* Rathjen, Tobias
+* Bartel, Sven
+* Brardt, Jürgen
+* Drahmann, Kai
+* Kirsch, Robin
+* Lieb, Joachim
+* Petersen, Georg
+* Przybycin, Nicole
+* Remme, Dennis
+* Rowinski, Robin
+* Zabel, Dietmar
+
+== Otto Team Quality, ANÜ
+* Computer Futures / SThree Vermittler Georg Langwieler
+* Triade
+  ** Blickhäuser Klaus
+  ** Westmann Raiko
+  ** Silke Goth
+  ** Rossmann Kirsten
+* Hasenbanck Nils
+* Jan Käppler
+* Vasili Velvelidis
+* Sascha Siegmund
+* Eduard Valentin
+* Lukas Linke
+* Carlos Alfonso Cohen Polanco
+* Manuel Gnerlich
+
+== Otto Team Prime, ANÜ
+* Computer Futures / SThree Vermittler Langwieler Georg,
+* Triade
+  ** Jürgen Holtschmidt
+  ** Sara Albrecht
+  ** Daniel Hanke
+  ** David Zimmermann
+* Christian Bürk
+* Malte Sörensen
+* Yana Bestmann
+* Hikmat Hajiyev
+* Niels von Stein
+* Lara Ohler
+* Nora Wotersdorff
+
+== Dataport, School-SH, Team Wilde 13, Freiberufler
+* Leitung
+  ** Kai Sebastian Meinke -> deltaDAO AG, Gaia-X
+  ** Lindner, Michael
+  ** Wegener, Leila
+  ** Weinert, Kay
+* Nathalie, Schulz (Duisburg)
+* Frost, Holger
+* Bens, Karen 
+* Heck, Albert 
+* Junker, Karsten 
+* Wendt, Michael 
+* Eberhardt, Robert 
+* Rücker, Stefan 
+* Dönen, Savas 
+* Mahmoud, Ibrahim 
+* Shah, Yelda 
+* Wahba, Mohammed 
+* Barowsky, Gabriela
+* Hahn, Henrik 
+* Wagner, Dorothee 
+* Tautenhahn, Thomas
+* Dammann, Stephanie
+
+* Weitere : Hinsch, Laura; Fegert, Kai; Jöhnk, Leandra; Pfeil, Michael; Tratzky, Cherina; Buske, Thorben; Gerling, Mirco; Sierralta Espinoza, Dina; Beck, Clemens; Buske, Thorben; Helms, Janis; Jöhnk, Leandra; Li, Xiaoyun; Monsees, Oliver; Tratzky, Cherina; Westfalen, Laura; Fegert, Kai; Müller, Karolin; Pfeil, Michael; Voges, Daniel; Fegert, Kai; Gerling, Mirco; Jonsdotter, Jiyan; Nolte, Tobias; Pfeil, Michael; Stockmann, Waldema; Görgen, Markus; Morciniec, Mike;

@@ -1,0 +1,73 @@
+include::{root}/.inc/include.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2021-12-29
+
+== Aufgaben
+
+
+
+[ ] 876 Umzug Artikeldatendashboard in den scale-Account
+[ ] Git Log extrahieren: Repo->Branch->Log zum greppen
+[ ] Andreas Ruder Computer zusammenbauen
+[ ] Buchen!
+
+
+
+Probiert
+Unabhängig vom Commit.
+Auf unterschiedlichen Umgebungen funktionierts
+Scale Jenkins ist Ursache Instance 20.12 , image 1.12 deployed
+Jenkins scale nochmal neu bauen, wenn das  schief geht muss man das aber lösen
+
+
+== Doku Prüfung der Statuskacheln überarbeitet
+
+.Es gibt kein Security  Block
+----
+in Security etwas rot ist, dann muss man da in der Regel reinklicken, wobei man dann kritische Instanz-Informationen sieht. Falls eine Instanz rot ist, kann man die terminieren im AWS account. Es sollte überall Autoscaling existieren, daher ist das dann kein Problem dies zu tun.
+----
+
+.Weiter
+----
+War bis gerade damit beschäftigt mit Michael zu schauen warum der Nearlive calculator kaputt ist. Ab und zu stürzt die vm ab. Wie es aussieht hat es nichts mit den Änderungen zu tun sondern mit dem Image, da es auf dem neuen quality Jenkins geht.
+Michael meint sich noch daran zu erinnern das Nils auf dem neuen Jenkins etwas eingebaut hat was das Problem fixed. Wir haben das aber nicht mehr gefunden.
+Alles sehr aufwändige Detektiv Arbeit. Denn eigentlich wollte ich nur meine "cleanup Wednesday" Änderungen ge-reviewed haben.
+----
+
+== Privat
+[ ] Skandia anrufen auflösen oder nicht?
+[ ] Schreibtisch aufräumen, Post auswerten
+[ ] Was ist mit den Grundstücken jetzt? s. GMail, Landkreis fragen
+[ ] Jenisch antworten -> WVL anlegen
+[ ] Stegemann einrichten
+[ ] Andree einsehen und dokumentieren
+[ ] 801 Entnahme
+[ ] Buch zurück schicken
+
+
+[x] Freistellungsauftrag Flatex
+[x] Weihnachtsgeschenk bezahlen
+[x] Urlaub eintragen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+== Notizen
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

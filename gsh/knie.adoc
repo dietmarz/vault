@@ -1,0 +1,12 @@
+include::{root}/.inc/include.adoc[]
+
+= Ergebnis  Dr. Wolf Lutz Müller 
+
+== Besuch
+* Termin beim Orthopäden für MRT
+* MRT um sicher zu sein dass  nichts drin ist
+* dann kortison spritzen
+* Nebenbei Ibuprofen und Kühlen
+* Wenn das alles nichts hilft Schleimbeutel entfernen
+* Nicht drücken
+* Wenn man nichts macht, geht auch nichts kaputt in diesem Fall

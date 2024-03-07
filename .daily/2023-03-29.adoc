@@ -1,0 +1,125 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2023-03-29
+
+== Aufgaben 
+
+* [ ] buchen! Donnerstag letzter Tag des Monats!
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== 30061 Unlink FCL shipment
+link:../.ticket/30061.adoc[docu]
+https://jira.int.kn/browse/KNOMP-30061[jira]
+* [ ] Wie erzeugt man im Test eine Request "Air" Booking?
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+== Idle
+
+* [ ] JDW 60 Plath Schreiben!
+* [ ] FDW 15 Was ist aus der OLB geworden, Mail oder anrufen
+
+* [ ] Jw  60 Eigene Q mit mehreren Topics
+* [ ] State-Diagram zeichnen, mit Events als Vorbereitung für https://jira.int.kn/browse/KNOMP-31118[jira]
+
+
+* [ ] Document tms-export branch KNOMP-22972
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Private Aufgaben
+Die Tue-Nicht-gut-Falle!
+State: ' ' Todo, B = Blocked, X = Done, R = Refine, W = Wiedervorlage
+Themen: G Gesundheit, J Job, F Finanz, P Privat, H Housekeeping
+Eisenhauer: D=sehr dringend  W=sehr wichtig
+Dauer in [min], 99 = Fehlende Subtask!, TB= Time box
+Start Monat
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+== Backlog
+
+=== Shortrunner
+* [-] FDW 15 WVL start 23.03. FA Briefe an Bahlburg mailen
+* [-] HDW 15 WVL start 23.03.Heizungsanfrage
+* [-] FDW 15 WVL start 23.03.KK quittung schicken
+* [ ] GDW 15 Athletikum starten
+  ** https://www.tk.de/techniker/gesundheit-und-medizin/behandlungen-und-medizin/sportmedizin-und-sportverletzungen/sportmedizinische-sportorthopaedische-behandlung-hamburg-2129924
+  ** 040/7410-58559, Athletikum direkt: 040/7410-28540
+* [B] Fdw 15 03 Krankenkasse wechseln nach Athletikum 450€ max pro Jahr sparen
+
+=== Longrunner
+* [ ] GDw 99 03 Encryption fertig machen, mergen!
+* [ ] GDw 30 03 cloud prv body und prv sport mergen. Es fehlt ein health oder ges Ordner in doc
+* [ ] Gdw TB 01 OtF harte Matratze
+* [ ] Gw  60 03 Skript, wie man das Wissen und Dateinamen aus doc grepfähig machen kann, vielleicht mit t d <search>
+* [ ] Gw  60 03 Ongoing: t minimalismus
+
+* [ ] JDW 60 03 Outcome frame mit Plath, Plath oder nicht? Worauf 100% Focus?(elo?, FE?)
+* [ ] JDw 60 03 Handy Lösung
+* [ ] Jdw 99 03 Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg  ?Daraus OKRs generieren? 3, 5, 15 Jahres Plan?
+* [ ] J   60 03 Skripte in kh lassen, alle configs nach vault oder?
+
+* [W] FDW 30 03 Lohnsteuer Jahresausgleich fertig fertig. Evaluieren von Software.  Welche Fragen an Fr. Bahlburg? Status QCC?
+* [ ] FDW 60 01 Depot 7988387 kündigen, brauche ich da Hilfe, Frage an Frau Bahlburg?
+* [ ] FDW 30 03 ?Jens Rabe monatlich https://aktienkannjeder.de/?utm_source=mail&utm_medium=newsletter&utm_campaign=aktienkannjeder
+* [R] FW  99 01 Andree de B Aufstellung verstehen.
+* [ ] FW  15 03 Eigene Rentendokumentation sichern in SV
+* [ ] FW  45 03 Outcome Frame Dietmar Vermietet
+* [ ] Fdw 99 03 Amazon Invoice Generator, alles absetzbar und nicht verfolgbar. Einarbeitung PDF Generator
+* [ ] Fdw 00 03 ?Dokumenten scanner kaufen?  Vorarbeit: Was genau bringt der Aufwand, alle Aktendokumente digital zu haben? Welchen strategischen Vorteil? t digital anlegen
+* [X] FW  15 03 Klärung Weide? Reents Immobilien 0174 1616464 anrufen, was ist letzter Stand? Kann er helfen beim verpachten?
+* [ ] Fw  60 01 Schreibtisch frei
+
+* [ ] Pw  30 03 CM Notizen auswerten,
+* [R] Pw  99 03 Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich. Anderes ebook?
+* [ ] Pw  30 03 Meinen Film anschauen, was bewirkt es?
+* [ ] P   60 03 CM 7 Schritte fertig
+
+* [W] HDW 10 03 Heizung leckt, Bohlmann anrufen
+* [ ] HW  TB 01 Keller aufräumen
+* [ ] H   30 03 Isomatte (+ Luftbett) auf Dichtigkeit prüfen
+
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

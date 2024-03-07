@@ -1,0 +1,106 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2023-02-09
+
+== Aufgaben
+* Firmeware für docker 3 updaten
+* Boysen und Masch bescheid geben wegen Speicher 04105 650830
+* 30110 Problem: Wie soll man erkenne, dass ein LCL nicht nochmal gelinked werden soll, wie erkennt man das
+  es extra ge-unlinked worden ist.
+* Kann man direkt auf den LCL_REFERENCE u ESP... arbeiten?
+[source,java]
+.Geht das von der Q direkt in den Bucket?
+----
+  @Bean
+    @BucketStoreMessageDispatcher(skipInvalidMessagesWithoutError = true)
+    public Queue internalShipmentQueue() {
+        return getSingleActiveConsumerQueue(ESP_SHIPMENT_Q_KNIEMESSAGE_IMPORT);
+    }
+----
+
+
+
+
+* Weiter 30110 ermitteln wie LCLs und BCM miteinander verknüpft sind um diese
+  Verknüpfung entsprechend aufzulösen
+* Osteopathic welten Ü, siehe board
+* Zählerstände übermitteln, siehe board
+* P20 Ü?
+
+* [x] Bescheid geben! Unlink ist fertig!
+
+=== 30110 Unlink BCM
+* Unlink.svg bild erweitert, t 30110
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+== Private Aufgaben
+
+.[.red]#Weiter#
+  ****
+* [ ] Linas Sachen vom Dachboden holen
+* [ ] Eigene Q mit mehreren Topics
+* [ ] States durchspielen KNESP
+* [ ] Reporting doc lesen
+* Googledrive pdfs drucken und zu 2021 anlegen, gmail durchgehen
+* Mülltonne reduzieren
+
+  ****
+
+.[.green]#Backlog#
+  ****
+* Futter in den Keller
+* kaufen? https://shop.doktorweigl.de/product/naehrstoffe-und-nahrungsergaenzungsmittel-fuer-muskelaufbau-fitness-und-abnehmen/#toggle-id-2-closed
+* Steuern 2021 abgeben, Rechnung Esens, Rechnung Anzeiger
+* Orderline deletion queues learning aufschreiben
+* tms-export als svg
+* Tobi fragen:
+  ** Urlaub beantragen 27.11. - 15.12.23
+  ** Klärung Überstunden, wie abbauen
+
+* Schreibtisch frei
+* Depot kündigen
+* Keller 30min
+* Harte Matratze
+
+* neuer Urlaub einstellen 27.11.2023 - 15.12.2023 (Whatsapp vom 18.12)
+* Andree de B Aufstellung verstehen
+
+* Zu Projekten: nextcloud with kibana... see techteddy
+
+* Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg
+  ** Daraus OKRs generieren
+  ****
+
+
+
+
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

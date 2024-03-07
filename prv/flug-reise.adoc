@@ -1,0 +1,38 @@
+include::{root}/.inc/include.adoc[]
+
+= Flug Reise
+
+== Verhalten Flughaven
+* Checkin = Board Karte = Sitzplatz
+  ** Abgabe Hauptgepäck -> Letzte Chance für verbotene Dinge
+  ** Selfservice Gepäck Aufkleber an der Langen Seite anbringen
+  ** Welches Gate
+* Handgepäck Checkin
+  ** Kein Raus mehr.
+* Paßkontrolle
+  ** Warten in der Gate-Halle
+* Flug ...
+* Ankunft
+  ** Auf welchem Band kommt das Gepäck an
+
+
+
+
+
+== Flug
+* Aufblasbarer Nackenstrecker
+* Bose, Handy, Flasche Wasser kaufen im Secure Bereich
+* Euros mitnehmen und vor Ort ganz klein tauschen
+* [ ] Selbsttönende Sonnenbrille
+* [ ] Doppelkopfhörer Adapter
+* [ ] Perso, ReisePass, Führerschein Foto auf Handy?
+
+
+== Mietwagen
+* UsbLoader
+* Mobilen Handy halter
+* Visacard auf 2000€ Kaution freischalten
+
+
+
+d

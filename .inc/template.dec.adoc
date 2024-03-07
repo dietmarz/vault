@@ -1,0 +1,7 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= _THEMA_
+
+==
+
+//-----BEGIN MESSAGE-----

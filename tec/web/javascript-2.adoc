@@ -1,0 +1,1015 @@
+= Understanding javascript  =
+:author: Dietmar Zabel
+:doctype: book
+:toc:
+:lang: en
+:encoding: iso-8859-1
+
+|====
+| Source | https://www.udemy.com/understand-javascript/
+|====
+
+== I Educational objective
+* getting a good javascript background
+* Angular-js ground knowledge
+
+== II Done when: (Only SMART)
+* [ ] Understand Globe-JS
+  ** [ ] define questions from code
+* [ ] Do a complete video session, create an essence
+* [ ] Create an reentry learning document and a dojo, drill document
+
+== 18 Asynchronous calls
+[source, javascript]
+----
+function waitThreeSeconds() {
+    var ms = 3000 + new Date().getTime();
+    while (new Date() < ms) {
+    }
+    console.log('finish function');
+}
+function clickHandler() {
+    console.log('click event!')
+}
+document.addEventListener('click', clickHandler);
+
+// Three seconds time left to click to the document!
+waitThreeSeconds();
+
+console.log('finished execution');
+----
+The script engine processes events only if nothing else has to be done. So if you click the document it will not be
+executed immediately, first the waitThreeSeconds method will finish.
+
+== 26 Equality comparison table ==
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness[Equality comparison table]
+
+== 27 Existence and Boolean ==
+[source, javascript]
+----
+var a;
+Boolean(undefined) === false
+Boolean(null) === false
+Boolean(0) === false
+
+if(a) {
+  console log("a wurde über Boolean(a) ausgewertet")
+}
+----
+boxing is named coercion in javascript
+
+== 28 Default Values ==
+
+[source, javascript]
+----
+function greet(name) {
+    name = name || 'defaultValue'
+    console.log('greet ' + name )
+}
+greet("huhu");
+----
+We can use the || to define default values, because the || returns the first not false evaluated string, and
+Boolean(undefined) is false.
+
+== 29 Framework aside ==
+[source, html]
+----
+<script src="lib1.js"></script>
+<script src="lib2.js"></script>
+----
+Variables with same name in lib2 will override variables in lib1.
+Both contains e.g. var libraryName =  "Lib 1" or 2 for lib2.js
+How can you prevent this?
+[source, javascript]
+----
+// If libraryName is already defined use it, otherwise use "Lib 2"
+window.libraryName = window.libraryName || "Lib 2"
+----
+
+
+== 30 Object notation ==
+The bracket notation is the same as the dot notation.
+[source, javascript]
+----
+person['firstName'] = 'Hansi';
+console.log(person['firstName'])
+console.log(person.firstName;
+// Not good but possible the new Object notation:
+person.address = new Object();
+// Better
+person.address = {};
+----
+
+== Jason notation
+[source, javascript]
+----
+var sameJavaScript = {};
+sameJavaScript.ene = 'mene';
+sameJavaScript.name = 'uschi';
+
+var sameJason = {
+  ene: 'mene',
+  name: 'uschi'
+};
+----
+
+
+== 31 Objects ==
+Instead using _new Object()_, we are just using curly braces.
+I can create objects on the fly, see Hansi.
+[source, javascript]
+----
+var Tony = {
+  firstname: 'Tony',
+  address: {
+    street: '66 Main street'
+  }
+};
+function greet(person) {
+  console.log('Hi ' + person.firstname);
+}
+greet(Tony);
+greet({firstname: 'Hansi'})
+----
+
+== 32 Namespaces ==
+We can use object notation to prevent namespaces.
+[source, javascript]
+----
+var greet = 'Hello';
+var greet = 'Hola'; // Collision!
+var english = {};
+var spanish = {};
+english.greet = 'Hello';
+spanish.greet = 'Hola'
+console.log(english.greet);
+console.log(spanish.greet);
+----
+
+== 33 JSON javascript object notation ==
+Json: Properties have to be wrapped in quotes.
+Anything that is JSON valid is also valid in javascript but not
+all OLS (Object literal syntax) is valid JSON
+
+[source, javascript]
+----
+// Javascript
+var objectLiteral = {
+  firstname: 'Mary',
+  isAProgrammer: true
+};
+// JSON
+var json = {
+  "firstname": "Mary",
+  "isAProgrammer": true
+};
+// Convert Object Literal to JSON string
+var jsonString = JSON.stringify(objectLiteral);
+var jsObject = JSON.parse(jsonString);
+
+console.log(JSON.stringify(jsonString));
+console.log(JSON.stringify(jsObject));
+----
+There is a Method called _JSON.stringify()_ which transforms a javascript object
+to a JSON string
+
+== 34 Functions are objects ==
+* *First class functions* = all what you can do with other Types  you can do with functions:
+assign variables, pass as parameter to other functions, creating on the fly.
+* *Functions are objects* and have:
+* Primitves, Objects, Functions, *name (optional)*, *code*
+code is "Invocable"
+
+[source, javascript]
+----
+function greet() {
+  console.log('Hi');
+}
+greet.language = 'english';
+console.log(greet); // returns function name + code
+console.log(greet.language); // returns english
+----
+
+== 35 Function statements and expressions ==
+* `Expression` = Unit of code that results in a value
+[source, javascript]
+----
+// Every statement returns an object;
+var a = { greeting: 'Hi' };
+ // returns: object {greeting: 'Hi'};
+
+ var anonymousGreet = function() {
+   console.log('HI');
+ }
+anonymousGreet();
+// Call a function parameter
+function myCaller(a) {
+  a();
+}
+
+myCaller(function() {console.log('Hy');});
+----
+
+== 36 Concept aside by value vs. by reference ==
+
+=== Primitives are treated `by value`, means copy.
+[source, javascript]
+----
+// by value (primitives)
+var a = 3;
+var b;
+
+b = a;
+a = 2;
+
+console.log(a); // a gets new value -> 2
+console.log(b); // b stays at 3
+----
+
+=== Objects (functions are objects) are treated `by reference`.
+
+==== Mutate a referenced object
+[source, javascript]
+----
+// by reference (all objects (including functions))
+var c = { greeting: 'hi' };
+var d;
+
+d = c; // c,d point to the same object
+c.greeting = 'hello'; // mutate c
+
+console.log(c); // -> hello
+console.log(d); // -> hello, same object.
+
+// by reference (even as parameters)
+function changeGreeting(obj) {
+    obj.greeting = 'Hola'; // mutate
+}
+
+changeGreeting(d); // mutate referenced object
+console.log(c); // -> Hola
+console.log(d); // -> Hola
+----
+
+==== Change reference within method
+Similar to java, it is *not* possible to change the reference object
+within a method.
+[source, javascript]
+----
+var e = { greeting: 'Hansi' };
+
+function reAssign(p) {
+  p = {greeting: 'Uschi'};
+}
+reAssign(e);
+console.log(e); // -> DOES NOT WORK! -> Hansi!
+----
+
+== 37 Objects, functions and this
+* This points to something dIIFErent, depending on how the function is called.
+
+=== The global execution context is Window here
+[source, javascript]
+----
+// What is 'this' here?
+console.log(this); // The Window object = global exec context
+function a() {
+  console.log(this); // It's the same global exec context.
+  this.myVariable = 'Text Huhu';
+}
+a();
+// We can access it from this exec context!
+console.log(this.myVariable);
+----
+
+=== Try to create a this pointer to an object
+Every thing works as expected...
+[source, javascript]
+----
+var c =  {
+  name: 'my c object',
+  log: function() {
+    // This works!
+    this.name = 'New name value';
+    return this;
+  }
+}
+console.log(c.log());
+----
+
+=== Unexpected behaviour
+Now we do the same thing within the function:
+The inner function returns the window object instead of the c object!
+[source, javascript]
+----
+var c =  {
+  log: function() {
+    console.log('Within log function:' + this);
+    var innerLog = function() {
+      console.log('Within innerLog:' +  this);
+    }
+    innerLog();
+  }
+}
+console.log(c.log());
+----
+Workaround: Save the reference to the c object:
+[source, javascript]
+----
+var c =  {
+  log: function() {
+    var self = this; // Do this as first command, replace this by self
+    console.log('Within log function:' + self);
+    var innerLog = function() {
+      console.log('Within innerLog:' +  self);
+    }
+    innerLog();
+  }
+}
+console.log(c.log());
+----
+
+==  38 Arrays: Collections of everything
+* Can hold any type:
+[source, javascript]
+----
+var arr = [
+  1,
+  false,
+  {
+    name: 'Tony'
+  },
+  function(name) {
+    console.log('Hi ' + name);
+  }
+];
+arr[3](arr[2].name);
+----
+
+== 39 Arguments and spread
+Not given parameters are undefined:
+[source, javascript]
+----
+function greet(first, last, lang) {
+  // How to set a default argument !
+  lang = lang || 'default language';
+  console.log('first ' + first + '\nlast ' + last + '\nlang ' + lang);
+  console.log(arguments);
+  console.log('-----------------');
+}
+greet();
+greet('Tim');
+greet('Tim', 'Warnecke');
+greet('Tim', 'Warnecke', 'german');
+----
+
+`arguments` is an special javascript array.
+
+There is a '...' arguemnt extender, but not always available.
+
+[source, javascript]
+----
+function greet(first, last, lang, ...other) {
+   console.log('length is: ' + arguments.length);
+}
+greet(1,2,3,4,5);
+----
+
+== 44 Immediately invoked function expressions
+* Short: IIFE
+[source, javascript]
+----
+// Function call
+var greetCall = function( name ) {
+  console.log('Hello ' + name);
+}('Hansi'); // greetCall gets the RETURN value!
+console.log(greetCall); // undefined !!!
+console.log(greetCall('a')); // is not a function!!!
+
+// Function expression with name
+var greeting = function( name ) {
+  return 'Hello ' + name;
+}('Hansi');
+console.log(greeting);
+
+// IIFE immediately invoked function expression without name
+(function(name){
+  console.log('Hello ' + name);
+}('Hansi'));
+// --- OR outside parantheses
+(function(name){
+  console.log('Hello ' + name);
+})('Hansi');
+----
+Within `(function(){` and `})();` we can write namespace aware code, which would never
+collide, because the parenthesis opens a new execution context.
+
+== 46 Closures
+[source, javascript]
+----
+// Works! writes Hi Tony on the console....
+function greet(whattosay) {
+  return function(name) {
+    console.log(whattosay + ' ' + name);
+  };
+}
+var sayHi = greet('Hi');
+// But on this line, the execution context of greet has been gone, but the `whattosay` value is
+// still available. It is stored  "closed in" the execution context of the `greet()` call.
+sayHi('Tony');
+----
+
+== 47 Closures part 2
+[source, javascript]
+----
+function buildFunctions() {
+    var arr = [];
+    for (var i = 0; i < 3; i++) {
+        arr.push(
+            function() {
+                console.log(i);
+            }
+        );
+    }
+
+    return arr;
+}
+
+var fs = buildFunctions();
+
+fs[0](); // returns 3!
+fs[1](); // returns 3!
+fs[2](); // returns 3!
+----
+
+[source, javascript]
+----
+function buildFunctions() {
+    var arr = [];
+    for (var i = 0; i < 3; i++) {
+        arr.push(
+
+        (function(j){ // <IIFE start>: Always new, extra own exectution context!
+
+          return function() {
+            console.log(j);
+          };
+
+        }(i)) // <IIFE end>
+
+        );
+    }
+
+    return arr;
+}
+
+var fs = buildFunctions();
+
+fs[0](); // returns 0
+fs[1](); // returns 1
+fs[2](); // returns 2
+----
+
+== 50 call(), apply() and bind()
+* How 'bind()' works
+
+[source, javascript]
+----
+var person = {
+  firstname: 'John', lastname: 'Doe',
+  getName: function() {
+     return this.firstname + ' ' + this.lastname;
+  }
+}
+
+var person2 = {
+  firstname: 'Hansi', lastname: 'Meier'
+}
+
+
+// RuntimeError! this is pointing to the global exec context, not to person
+var logName = function(lang1, lang2) {
+  console.log('logged: ' + this.getName());
+  console.log(lang1 + ' ' + lang2 + '\n---------------')
+} // OR instead }.bind(person)
+
+// Now `this` within logName function is `person`
+// bind() creates a copy of logName, does NOT execute.
+var logPersonName = logName.bind(person);
+
+// Calling the copy
+logPersonName('en', 'es');
+
+// Call calls function: 1. parameter points to `this` object
+logName.call(person, 'en', 'es');
+
+// Difference between call and apply: apply whants an array as argument.
+logName.apply(person, ['en', 'es']);
+
+// function borrowing: person2 borrows person.getName function.
+console.log(person.getName.apply(person2))
+----
+
+Function currying
+[source, javascript]
+----
+function multiply(a, b) {
+  return a*b;
+}
+
+// Creates a copy function with fix 2. operand.
+var multiplyByTwo = multiply.bind(this, 2);
+console.log(multiplyByTwo(4));
+
+var noSenceMultiply = multiply.bind(this, 2, 9);
+console.log(noSenceMultiply(6)); // Argument is ignored.
+----
+
+== 51 Functional programming
+[source, javascript]
+----
+function doItForEach(array, fn) {
+  var newArray = [];
+  for(var i =0;i<array.length;i++) {
+    newArray[i] = fn(array[i]);
+  }
+  return newArray;
+}
+
+// Copy and double the values of the array. -> [2, 4, 6]
+console.log(doItForEach([1,2,3], function(j){return 2*j;}));
+
+// Which element is <3 [true, true, false]
+console.log(doItForEach([1,2,3], function(j){return j<3}));
+
+// If I want to do this variable:
+var checkPastLimit = function(limit, item) {
+  return item > limit;
+}
+// fn takes only one parameter, the first of checkPastLimit is set to fix 2 by bind
+console.log(doItForEach([1,2,3], checkPastLimit.bind(this, 2)));
+
+var checkPastLimitSimplified = function(limiter) {
+  return function(item) {
+    console.log(item + ' > ' + limiter);
+    return item > limiter;
+  }
+}
+console.log(doItForEach([1,2,3], checkPastLimitSimplified(2)));
+----
+
+Homework
+Try to create a function where you only have to pass the limiter,
+[source, javascript]
+----
+var checkPastLimitSimplified = function(limiter) {
+  return function(item) {
+    return item > limiter;
+  }
+}
+
+----
+== 52 Functional Programming - Part 2
+* underscorejs.org is a nice library where you can learn by reading code, how to be a
+better javascript developer.
+
+
+== 53 Inheritance and prototyping
+* Classical inheritance: Like java with a lot of keywords: private, public, interface...
+* Prototypal inheritance is much more easier. (Not necessarily better)
+
+=== Example from youtube.com
+https://www.youtube.com/watch?v=qMO-LTOrJaE[source]
+[source, javascript]
+----
+function
+----
+
+== 54 Understanding the prototype
+All objects have a "proto" prototype property. That will be ask if a property was not found
+on the original object.
+
+[source, javascript]
+----
+var person = { // Base person
+  firstName: 'Default',
+  lastName: 'Default',
+  getFullName: function() {
+    return this.firstName + ' ' + this.lastName;
+  }
+}
+// ------------------------------------------------
+var john = { // Derived person
+  firstName: 'john', // Override of person!
+  lastName: 'Doe' // Override of person!
+}
+
+// Don't do this ever!! Just for demonstration.
+john.__proto__ = person;
+
+// John inherited getFullName method.
+console.log(john.getFullName()); // prints john Doe.
+// ------------------------------------------------
+var jenny = {
+  firstName: 'Jenny' // Only overrides firstName
+}
+
+// Don't do this ever!! Just for demonstration.
+jenny.__proto__ = person;
+
+console.log(jenny.getFullName()); // prints Jenny Default
+----
+
+The engine defines the type of an object with the __proto__ value.
+
+[source, javascript]
+----
+// Defining an empty function.
+var f = function() {console.log('Huhu');};
+
+// returns "function() {}", means, this object is a function and the __proto__ reference contains all function specific
+// methods like call, bind, apply. Because these three methods aren't written in my code, so the inheritance mechanism
+// is already working.
+console.log(f.__proto__);
+
+// returns 'Object {}', which is the main object in java, the absolute Base Object.
+console.log(f.__proto__.__proto__);
+
+// returns null, the base has no base. Same in pm4j ;-)
+console.log(f.__proto__.__proto__.__proto__);
+----
+
+== 55 Reflection and extend
+
+[source, javascript]
+----
+var person = {
+  firstName: 'default',
+  lastName: 'default',
+  getFullName: function() {
+    return this.firstName + ' ' + this.lastName;
+  }
+}
+
+var john = {
+  firstName: 'John',
+  lastName: 'Doe'
+}
+
+john.__proto__ = person;
+
+for(var prop in john) {
+
+  // Prints all properties
+  console.log(prop + ':' + john[prop]); // firstName:John lastName:Doe getFullName: function...
+
+  // Prints only johns, not the inherited properties
+  if(john.hasOwnProperty(prop)) {
+  console.log(prop + ':' + john[prop]); // firstName:John lastName:Doe
+  }
+}
+----
+== 56 Reflection and extend
+[source, javascript]
+----
+var john = {
+  firstName: 'John'
+}
+var jenny =  {
+  address: '5th avenue'
+}
+// you can extend john with everything from jenny using underscore library
+_.extendOwn(john, jenny);
+----
+
+== 57 Building objects
+* The *right* way:
+[source, javascript]
+----
+function Person() {
+  // this is important here, otherwise it will not be set.
+  this.firstName= 'John';
+  // Notice here is no return statement!
+}
+
+// The new operator calls the function and returns *this* object, and sets the *prototype* to Person
+var john = new Person();
+
+// without the new operator john would be undefined.
+console.log(john); // prints (!)Person(!) {firstName: "John"}
+----
+== 58 Function constructors and prototype
+* functions can have the following properties: Name, CODE (invocable)
+* But all function have a prototype property, but it is only used by the new operator.
+
+* The .prototye or __proto__ is not the prototype of the function! It the prototype of any object that is created by the function, if you using the function as a function constructor.
+
+* (From 58) So johns __proto__ is pointing to the Person.prototype property!
+[source, javascript]
+----
+//  So you can change the behaviour of all Person objects by e.g. adding a method:
+Person.prototype.getFormattedFullName = function() {
+ return this.firstName + ', ' + this.lastName;
+}
+----
+
+
+* Question: Can I override using the prototype member?
+[source, javascript]
+----
+function Person(argName) {
+  this.name= argName || 'default';
+  this.getName = function() { return this.name; };
+}
+
+// DONT foget the new operator, otherwise john is undefined.
+var john = new Person('john')
+console.log(john.getName());
+
+// Change all existing Person objects
+Person.prototype.getName = function() {
+  return 'NEW!!! ' + this.name;
+}
+// No! does not work!
+console.log(john.getName());
+----
+
+* That is why you should not declare methods within the Person
+function constructor. You should use the
+`Person.prototype.xyz = function...`
+Another reason is, that if you declare the getName() method within
+the constructor, every Person object has this method-object, this
+means an unnecessary memory consumption. If you declare the method-object
+within the prototype, it will exist only once.
+
+== 59 New and function
+* Don't forget the new operator if you create a new object using
+ a function constructor.
+
+[source, javascript]
+----
+// See Item 33 of Effective JavaScript
+function User(name, passwordHash) {
+    // "use strict" // Would prevent this mistake
+    this.name = name;
+    this.passwordHash = passwordHash;
+}
+// If a caller forgets the new keyword, then the function’s receiver
+// becomes the global object:
+// var u = User("baravelli", "d8b74df393528d51cd19980ae0aa028e");
+// u; // undefined, function returns nothing!
+// this.name; // "baravelli"
+// this.passwordHash; // "d8b74df393528d51cd19980ae0aa028e"
+----
+
+
+* Use a capital letter for function constructor methods, to
+ remind that it should only be used with the new operator.
+
+== 60 Build in function constructors
+[source, javascript]
+----
+// This is an Object! Its a Number containig a primitive
+var a = new Number(3);
+
+// Save original method
+var originalMethod = Number.prototype.toExponential;
+
+// Override toExponential
+Number.prototype.toExponential = function() {return 'huhu';};
+
+// Check if its overridden. returns "huhu"
+a.toExponential();
+
+// Undo overriding
+Number.prototype.toExponential = originalMethod;
+
+// Check if its not overridden anymore. returns "3e+0"
+a.toExponential();
+----
+* The advantage putting a method within the constructor is that it is
+immutable and invisible, private so to say, but it is then on every instance. This could make sense
+ for security issues
+
+== 61 Dangerour asides function constructors
+[source, javascript]
+----
+var a = 3; // primitive
+var b = new Number(3); // Object
+a == b; // true! b will be unboxed.
+a === b // false! a and b have even different types.
+----
+You should use the primitive values!
+(There is an interessting js lib, called moment.js, concerning date manipulations...)
+
+== 62 Dangerour asides function constructors with arrays
+[source, javascript]
+----
+// create an array
+var arr = ['John', 'Jane', 'Jim'];
+
+// extend the prototype
+Array.prototype.myField = 'uschi';
+
+// Expected? 3 Names but it returns 0: John ... 2: Jim myField: uschi
+// So the var loop finds the prototype field as well. That is probably not what you want.
+for(var prop in arr) {
+  console.log(prop + ': ' + arr[prop]);
+}
+
+// This is the recomendation, but i would not prototype Array with a field.
+// By the index based access we are not iterating over the prototype fields.
+for(var i=0;i < arr.length; i++) {
+  console.log(i + ': ' + arr[i]);
+}
+----
+So better not prototype arrays... from my point.
+== 63 Object.create and Pure prototypal inheritance
+With this technique, you can override fields and methods.
+[source, javascript]
+----
+var person = {
+   firstname: 'default',
+   lastname: 'default',
+   greet: function() {
+   return 'Hi ' + this.firstname;
+   }
+}
+// An __proto__: 'Object'
+var john = Object.create(person);
+john.firstname = 'John';
+john.lastname = 'Doe';
+john.greet = function() {
+  return 'Hallo ' + this.firstname + ' ' + this.lastname;
+};
+john.greet();
+----
+The difference is that person returns:
+`Object {firstname: "default", lastname: "default"}`
+and John returns
+Object {}
+In Details this means person has the properties on its own
+and john has its properties on its prototype.
+The fields and methods of john are referenced to the person object until you
+override it. Then, john gets his own copy. The reference to the "Base" method
+stays within the __proto__.
+This works because the JS-engine looks first to the Objects execution
+environment and then to the prototype environment.
+
+[source, javascript]
+----
+/* If you have to support older browsers without Object.create, you
+can create your own polyfill */
+if (!Object.create) {
+  Object.create = function (o) {
+    if (arguments.length > 1) {
+      throw new Error('Object.create implementation'
+      + ' only accepts the first parameter.');
+    }
+    function F() {}
+    // This line shows all whats happening!
+    F.prototype = o;
+    return new F();
+  };
+}
+----
+
+== 64 ES6 and Classes
+Syntactic Sugar: A different Way to type something that doesnt change how it works under the hood.
+DZA In chrome Person is not an object, AND it cant be redefined like objects. So there seemed to be a difference, not only sugar.
+Everything behaves as expected. A quite natural way of expressing inheritance.
+[source, javascript]
+----
+class Person {
+  constructor(firstname, lastname) {
+    this.firstname = firstname;
+    this.lastname = lastname;
+  }
+
+  greet() {
+    return 'Hi ' + this.firstname;
+  }
+}
+
+var john = new Person('John', 'Doe');
+john.greet();
+
+class InformalPerson extends Person {
+  constructor(firstname, lastname) {
+    super(firstname, lastname);
+  }
+  greet() {
+    return 'Info: ' + this.firstname;
+  }
+}
+var jen = new InformalPerson('Jen','Doe');
+jen.greet();
+----
+
+== 65 Odds and Ends
+(Just a show of how a array has to be set up. Nothing new.)
+
+== 66 Type of and instanceof
+[source, javascript]
+----
+var a = 3;
+console.log(typeof a); // number
+
+var b = 'Hello';
+console.log(typeof b); // string
+
+var c = {};
+console.log(typeof c); // object
+
+var d = [];
+console.log(typeof d); // object -> weird
+
+// Call toString and set d to be this.
+console.log(Object.prototype.toString.call(d)); // [object Array] -> better!
+
+function Person(name) {
+  this.name = name;
+}
+
+var e = new Person('Jane');
+console.log(typeof e); // object
+console.log(e instanceof Person); // true
+
+console.log(typeof undefined); // undefined
+console.log(typeof null); // object ! This is an old bug!
+
+var z = function() {};
+console.log(typeof z); // function
+----
+So remember typeof null is object and an array is an objects.
+Consider the types starts with a lower letter.
+instanstanceof goes up the prototype chain, if it finds that
+type, it will return true.
+
+== 67 strict mode
+Cool help for debugging and developement.
+[source, javascript]
+----
+"use strict";
+
+var person;
+persom = {}
+console.log(person);
+----
+It must be the first line of a file or function.
+What exactly strict means is not defined, and differs between browsers.
+That enables more differences between browsers.
+
+== 68 strict mode reference
+Read more about strict mode on the MDN (Mozilla Developer Network): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+
+== 69 Learning from other's good code
+* Learn from github goto
+  ** https://github.com/explore
+  ** https://github.com/showcases/front-end-javascript-frameworks
+
+== 70 Deep dive into source code
+=== JQuery
+[source, javascript]
+----
+// This function prevents me from writing the `new` keyword every time because it calls a function constructor.
+jQuery = function( selector, context ) {
+  return new jQuery.fn.init( selector, context);
+}
+----
+* Is a library that helps manipulating the DOM browser tree.
+* You can use $ or jQuery, then pass a string
+[source, javascript]
+.See example within html
+----
+// searching all <li> childs of all <ul> with class people
+var q = $("ul.people li");
+console.log(q);
+
+[li, li, li, prevObject: jQuery.fn.init[1], context: document, selector: "ul.people li"]
+0:li
+1:li
+2:li
+context:document
+length:3
+prevObject:jQuery.fn.init[1]
+selector:"ul.people li"
+__proto__:Object[0]
+----
+
+*Don't be afraid of taking a look into good code!*
+
+== 73 Requirements for own library
+* Call it Greetr, choose different languages and greeting format methods.
+* Should be reusable without collisions
+* Easy structure G$()
+* Support jQuery arguments
+
+== How to throw an error
+[source, javascript]
+----
+function thrower(msg) {
+  throw msg;
+}
+thrower('Huhu'); // returns: <Err> Uncaught Huhu
+----

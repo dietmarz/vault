@@ -1,0 +1,3 @@
+:data-uri:
+:icons: font
+:prj-dir: /home/dietmar/project/

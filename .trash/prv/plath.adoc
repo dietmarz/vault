@@ -1,0 +1,85 @@
+include::{root}/.inc/include.adoc[]
+
+= plath
+
+== Roadmap
+* 28.03.23  Telefonat mit Frau Fischer
+
+*  Welche Technologien genau?
+* Gibt es die Möglichkeit in den Embeddedsektor zu wechseln?
+
+== Wohlformulierte Bedingungen des Outcome-Frame
+. Zustand muss positiv benannt werden
+. Spezifisch != sinnlich, begründete Beschreibbarkeit und Demonstrierbarkeit
+. Wird initiiert, aufrechterhalten und verändert vom Klienten
+. Ökologisches: Verträglichkeit mit dem sozialen und weiteren Kontext und Angemessenheit hinsichtlich Zeit-Rahmen und Größe
+
+* Arbeitsplatzwechsel zu Plath, Mathematik, Elektronik, Funk, Software, alles was mich interessiert.
+* Zustand ist genau definiert
+
+== Grundlegende Fragen
+. Ist der gewünschte Zustand erstrebenswert?
+-   Die Tätigkeit entspricht meinen Neigungen
+. Ist der gewünschte Zustand möglich?
+-   Ja, finanziell könnte es interessant werden.
+
+== 1. Gewünschter Zustand - desire state
+. Was wünschst Du?
+-   Eine Tätigkeit, die mich fachlich und technisch interessiert. Mich interessiert schon immer Funk, ich denke, ich
+  suche damit Verbindungen.
+
+. Was willst Du erreichen?
+-   Mehr Zufriedenheit. Weniger Langeweile, besser im Job sein. Anerkennung? Möglichkeit eigene Elektronik Projekte
+  umzusetzen. Etwas wo ich bleiben kann, was mir nicht zu langweilig wird.
+
+== 2. Ziel sinnesspezifisch konkretisieren
+. Wie wirst Du wissen, dass Du erreicht hast, was Du wolltest?
+-  Wenn ich dort eine Strategie habe, wie ich vom Java Umfeld in die Embedded Welt komme-
+. Was wirst Du sehen?
+-  Elektronik, Mathematik lernen.
+. Was wirst Du hören? (Auch intern: Der innere Dialog)
+-  Das Rauschen eines Empfängers, innerlich Stille
+. Was wirst Du spüren? (Körperlich: Atem, Muskelanspannung, Haltung)
+-  Anspannung, waches Gefühl
+. Was wirst Du fühlen?
+-  Ein aufregendes Gefühl
+
+== 3. Vom Klienten initiiert und aufrechterhalten
+. Was hindert Dich daran, den gewünschten Zustand zu bekommen?
+-   Bezahlung wird schlechter sein
+-   Homeoffice wahrscheinlich nicht möglich
+-   Mangelnde Kenntnisse
+-   Riskant? Militärsektor blüht eigentlich
+. Was musst Du tun?
+-   Anrufen
+. Wie wirst Du es anfangen und beginnen, es zu tun?
+-   Anrufen bis ich jemanden erreiche.
+. Welche Ressourcen hast Du bereits, das zu bekommen, was Du wünschst?
+-  In die Java-Welt könnte ich so starten und schon mal einen fachlichen Hintergrund lernen.
+
+== 4. Kontextualisieren
+. Wann, wo und mit wem wünschst Du es?
+-  Wenn die Bedingungen stimmen in zwei drei Monaten, mit Plath
+. Wann, wo und mit wem wünschst Du es nicht?
+-  Ich werde gut bezahlt, so schlecht ist mein jetziger Job nicht, ich bin mir nicht sicher, ob
+   ich den wechseln möchte, nur um was anderes zu machen. Irgendwie ist es dort auch ok.
+
+== 5. Positive Nebeneffekte erhalten
+. Was sind die Nachteile, das zu erreichen? - Wenn Du das erreicht hast, wirst Du dann etwas anderes verlieren, was Du
+jetzt hast?
+-   Evt. die Chance wieder im Web Umfeld locker, leicht Geld zu verdienen.
+-   Mein Gehalt ist geringer, ich weiß noch nicht welche Auswirkungen das hat.
+
+. Was sind die Vorteile des gegenwärtigen Zustandes?
+-   Mehr Geld, sicher? Nee.
+
+== 6. Ökologisch (den Gesamtzusammenhang betrachten)
+. Wie wird der gewünschte Zustand Dein Leben verändern?
+-   Ich hoffe, ich werde zufriedener sein, vielleich könnte ich mit dem Wissen auch in Berufsschulen unterrichten, aber
+     das ist nur ein Traum.
+. Gibt es irgendeinen Teil von Dir, der es nicht wünscht?
+-   Ja, der Teil, der nicht scheitern möchte, der Teil der es bequem haben möchte, der Teil der einfach nur die Zeit
+    genießen möchte, ohne etwas zu wollen.
+. Gibt es Menschen in Deiner Umgebung, die Dich von dem Ziel abhalten wollen?
+-   Die gibt es nicht. Eher im Gegenteil, ich wäre ja wahrscheinlich öfter in HH. Also ist der einzige, der mich davon
+    abhält ich selber.

@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Überprüfen, ob eine pom.xml im aktuellen Verzeichnis vorhanden ist
+if [[ -f pom.xml ]]; then
+    # Überprüfen, ob die pom.xml das spotless-Plugin enthält
+    if grep -q "<artifactId>spotless-maven-plugin</artifactId>" pom.xml; then
+        mvn spotless:apply
+
+        # Überprüfen, ob es Änderungen nach dem Ausführen von spotless:apply gibt
+        if git diff --exit-code; then
+            echo "Keine Änderungen durch spotless:apply."
+        else
+            echo "Es gibt Änderungen durch spotless:apply."
+            # Optional: Sie können das Skript hier stoppen, falls Änderungen vorhanden sind
+            exit 1
+        fi
+    else
+        echo "Die pom.xml unterstützt nicht spotless."
+    fi
+else
+    echo "Es gibt keine pom.xml im aktuellen Verzeichnis."
+fi
+git push -f
+git lg -1
+git status -s

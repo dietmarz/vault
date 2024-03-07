@@ -1,0 +1,31 @@
+include::{root}/.inc/include.adoc[]
+
+= 4DX
+
+== The 4 Disciplines of Execution
+
+. Fokussierung auf das Wichtigste: Identifiziere ein oder zwei hochwirksame Ziele.
+  * Diese sollten klar, messbar und erreichbar sein.
+  * Es ist wichtig, sich auf eine begrenzte Anzahl von Zielen zu konzentrieren, um eine Überforderung zu vermeiden.
+
+. Handeln anhand der Leistungskennzahlen:
+  * Definiere Leistungsmessungen, die anzeigen, ob du auf dem Weg bist, deine Ziele zu erreichen. Diese sollten in zwei Kategorien fallen:
+    ** Leistungskennzahlen (zeigen, was du erreicht hast) und
+    ** Treibende Kennzahlen (zeigen, was du tun musst, um dort anzukommen).
+       Zum Beispiel, wenn dein Ziel ist, gesünder zu essen, könnten Leistungskennzahlen die Anzahl der gesunden Mahlzeiten pro Woche sein, während treibende Kennzahlen die Zeit sein könnten, die du mit der Vorbereitung gesunder Mahlzeiten verbringst.
+
+. Halten eines überzeugenden Scoreboards:
+  * Erstelle ein visuelles Scoreboard, das deine Fortschritte in Richtung deiner Ziele zeigt. Dies könnte ein einfaches Diagramm, eine Tabelle oder eine App sein, die dir hilft, deine Leistungs- und Treibenden Kennzahlen zu verfolgen. Das Ziel ist, auf einen Blick sehen zu können, ob du "gewinnst" oder nicht.
+
+. Schaffen einer Verantwortungskultur
+  * Selbst wenn du alleine arbeitest, ist Verantwortlichkeit wichtig.
+  * Setze regelmäßige Überprüfungen an, um deine Fortschritte zu bewerten. Dies könnte eine wöchentliche Selbstbewertung sein, bei der du deine Fortschritte überprüfst, Reflektionen machst und Anpassungen vornimmst
+  * Du könntest auch einen Freund, Mentor oder Coach einbeziehen, um zusätzliche Verantwortlichkeit und Perspektive zu bieten.
+
+== Anwendung
+EKZ = Ergebniskennzahl (Lag Measure), ob das Ziel erreicht wurde, Vergangenheit, Event, nicht änderbar
+FID = Frühindikator (Lead Measure), wie wahrscheinlich wird das Ziel erreicht, Prognose Character
+Beispiel: Auto: Pannenstatistik = EKZ. Wie oft zur Inspektion = FID
+
+1. Fokus finden und messbare Teilziele
+2. Welche Aktionen haben den größten Hebel

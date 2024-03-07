@@ -1,0 +1,51 @@
+include::{root}/.inc/include.adoc[]
+
+= Früher Rentenausstieg
+
+Möchte ich nur prokrastinieren oder steckt mehr dahinter
+* [ ]SMART
+  ** Spezifisch:  Erstellung eines Rentenausstiegskonzeptes
+  ** Messbar:     Konzept steht, wieviel Geld und wann geht es los
+  ** Angemessen:  4 A4 Seiten Aufwand für ein Konzept
+  ** Realistisch: Ist erstmal nur ein Konzept
+  ** Terminiert:  Mo 18.08 steht das Konzept
+
+
+
+== Strategie
+* [ ] FdW 90 08 Stratgie erarbeiten. Hilfe Buch Stiftung Warentst
+* [ ] Kann GPT helfen?
+
+== Buch: Früher in Rente und Ruhestand
+* [ ] Frugalismus Test S21
+* [ ] Gründliche Finanzcheck S34
+* [ ] Bedarf ermitteln S46
+* [ ] Motivationsscheck S32
+* [ ] Quelle Aktien und ETFs S58
+* [ ] Quelle Immobilien S64
+* [ ] Altersteilzeit S86
+* [ ] Rente ab 55 Kapitel S79
+
+
+* Idee wenn ich 14xYear angespart habe kann Rentenphase starten
+
+== Frugalismus S17
+* Diese Wohnung sinnvoll, günstigere Gegend sogar besser?
+* Vermieten?
+* Brauche ich Auto?
+
+* 10 wichtigsten Lehren des Frugalismus S22
+  ** Nur mit einem realistischem Plan gelingt der Ausstieg.
+  ** Lernen Sie Ihre wahren Grundbedürfnisse kennen
+  ** Fokussieren Sie sich auf ihr Ziel und planen Sie Puffer ein
+  ** Testen Sie enthaltsamen Lebensstil ausgiebig
+  ** Sichern Sie sich ein passives Einkommen (Aktien, Vermietung)
+  ** Werden Sie Selbst-Optimierer. (Verträge: Strom, Handy, Sport...)
+  ** Klären, was sie mit der Freiheit erleben wollen
+  ** 173er Regel in 10 Jahren sparen: 10*12*7% Nachrechnen!
+  ** Alle Kosten tracken
+  ** Sparen lohnt sich
+
+
+
+

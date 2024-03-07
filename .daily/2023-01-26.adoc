@@ -1,0 +1,47 @@
+include::{root}/.inc/include.adoc[]
+
+= 2023-01-26
+
+== Aufgaben
+* Steuern 2021 abgeben
+* Orderline deletion queues learning aufschreiben
+* Teams installieren
+* tms-export als svg
+* Tobi fragen:
+  ** Urlaub beantragen 27.11. - 15.12.23
+  ** Klärung Überstunden, wie abbauen
+
+=== Daily
+* 29749 Delete-Orderlines Tms-export https://jira.int.kn/browse/KNOMP-29749
+  ** [ ] Test fixen Review von Tobi fertig machen
+  ** [ ] OS ClearMdcAfterExecutionConfiguration.java einbauen
+
+
+* 29867 Bug Shipment:  unlink an unlinked
+  ** [X] Unlink Unklinked Shipments is fertig
+
+* Eigene Q mit mehreren Topics
+* [ ] States durchspielen KNESP
+* Reporting doc lesen
+* t grep bauen
+
+=== Privat
+* Schreibtisch frei
+* Depot kündigen
+* Keller 30min
+* Harte Matratze
+
+* neuer Urlaub einstellen 27.11.2023 - 15.12.2023 (Whatsapp vom 18.12)
+* Andree de B Aufstellung verstehen
+
+* Zu Projekten: nextcloud with kibana... see techteddy
+* Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

@@ -1,0 +1,69 @@
+include::{root}/.inc/include.adoc[]
+
+= KNOMP-31571 Define deletion contracts
+
+== Impediments & Learnings
+* Gelernt: MessageId ist nicht die Zuverlässige Verbindung zwischen 1. & 2. Stage
+* Identifierzieren der TMS_Status Nachrichten mittels ESP Milestone IDs
+* Mapping von Milestone Type nach TMS Status
+* Wie findet man den TMS_Status nach ESP_Milestone
+* Unterschiedliches Txn handling zwischen JPA und native.
+* Builder-Know how. Wann wird ein (ESP-) ContainerEvent gespeichert
+* Doppelte Klassen in maven build durch rest-apis reingekommen
+* Flaky tests bei mir local aus unerklärlichen Gründen
+* Vorgänger Integration Tests räumen nicht richtig auf
+* Domain / API Aufteilung falsch
+* Besser QueryDsl statt Native, führt zu unwartbarem Code
+* QueryDsl mit Joins nur in Service Klassen da EntityManger gebraucht wird. Dann ist aber ServiceKlasse gleichzeitig
+  Repository, damit nur als Spy Bean testbar. Spy Bean braucht aber NoArgskonstruktor + Setter.
+
+== Tickets und Docs
+* https://jira.int.kn/browse/KNOMP-31487[Epic]
+* https://jira.int.kn/browse/KNOMP-31571[Ticket]
+* https://jira.int.kn/browse/KNOMP-31535[Delete]
+* https://jira.int.kn/browse/KNOMP-31533[List]
+* https://wiki.int.kn/display/GSD/Remove+Shipment+or+Container+Status[wiki]
+
+
+== Übersicht
+=== ShipmentContainerStatus
+* Gelöscht werden ContainerEvents und EspContainerEvents, + Message RepublishShipmentJobs
+* List: In ShipmentNumber + ContainerNumber -> Shipment.getContainerByContainerNumber -> espContainerEventRepository.findBy
+
+
+
+image::../def/image-2023-05-30-12-41-49-525.png[Review-Marcin]
+
+
+
+* Vorbild RepublishController
+  ** private final IApplicationUser applicationUser; Userlogging
+  ** shipmentEventMessageSender.sendRepublishShipmentMessage Republish
+
+
+== Delete im Wesentlichen
+Löschen `ContainerEvents`
+  EspContainerEvent.containerId
+  ContainerEvent.containerId
+
+Löschen `ShipmentEvents`
+  EspShipmentMilestone.shipmentId
+  TmsStatus.shipmentId
+  TmsStatus.type
+
+
+== Generate shipment-status rest-api
+mvn clean generate-resources && mvn -f target/shipment-status install
+
+== Fix Test Phase
+SQL to find correct data for rest api calls
+[source,sql]
+----
+select es.SHIPMENT_NUMBER, ec.CONTAINER_NUMBER, mile.TYPE as shipmentType, mile.LOCATION, ece.TYPE as containerType
+from ESP_SHIPMENT_MILESTONE mile
+    join ESP_SHIPMENT ES on mile.SHIPMENT_ID = ES.ID
+    join ESP_CONTAINER EC on ES.ID = EC.SHIPMENT_ID
+    join ESP_CONTAINER_EVENT ECE on EC.ID = ECE.CONTAINER_ID
+where es.CREATED > TO_DATE('2023-05-01','YYYY-MM-dd')
+----
+

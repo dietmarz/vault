@@ -1,0 +1,17 @@
+include::{root}/.inc/include.adoc[]
+
+= vue
+
+* Sources
+  ** https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance[vm]
+
+
+
+
+Dynamic attribute binding
+[source, vue]
+----
+<img v-bind:src="expression" />
+<!--shorthand-->
+<img :src="expression" />
+---- 

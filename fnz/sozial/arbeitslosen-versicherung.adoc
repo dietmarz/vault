@@ -1,0 +1,30 @@
+include::{root}/.inc/include.adoc[]
+
+= Arbeitslosen Versicherung, Arbeitsamt, Arge, Agentur für Arbeit
+* Bundesargentur für Arbeit, Arbeitsargentur
+== Kundennummer
+* 251 D 057396   (falsch: 251 D 310349, soll gemerged werden)
+
+== Ansprechpartnerin
+* Frau Pamirzad Buchholz.223-Vermittlung@arbeitsagentur.de
+
+== Authentifizieren
+
+== Einrichten
+* https://wiki.ubuntuusers.de/Elektronischer_Personalausweis/[Doc Quelle]
+.EINMALIG Adding ppa  via: ppa:misery/ppa
+----
+sudo add-apt-repository ppa:misery/ppa
+----
+Handy Ausweis App starten und auf Kopplung stellen evt. mit Pin Angebot. Handy wartet auf PC
+.Starten der AusweisApp2 unter linux
+----
+AusweisApp2 --show
+----
+
+* AusweisApp -> Start -> Einstellungen -> Smartphone als Kartenleser -> Klicken zum Koppeln
+* Enter Pin <4-Stellig>
+* Der PC Website sagen, das man ready ist
+  ** Die Seite leitet einen weiter an einen dritt Anbieter
+* Handy auf Kartenleser stellen und Perso auf die ober Rückseite legen
+* Dort die Pin 745974 eingeben. (Weiter Personalausweis Daten in LastPass)

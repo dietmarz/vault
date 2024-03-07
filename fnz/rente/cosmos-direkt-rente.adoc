@@ -1,0 +1,13 @@
+include::{root}/.inc/include.adoc[]
+
+= Cosmos Direktversicherung 3860585
+
+* Steuerfrei in der Auszahlung
+* Anmerkung: Alleiniger Geschäftsführer, vergünstigungen stehen nicht zu. da sie nicht unter das Betriebsrentengesetz fallen. <<Cosmos>>
+
+
+* Rentenbeginn:
+
+
+
+==

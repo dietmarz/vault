@@ -1,0 +1,25 @@
+include::{root}/.inc/include.adoc[]
+
+= Sportarten
+
+== Reichel, Befund 2023-03-23
+* ISG Hüfte rechts blockiert
+* Empfehlung statt Rudern Crosstrainer
+* Langhantel Training wenig sinnvoll gegen RundRücken, insbesondere Ausfallschritte mit Last schlecht für die Hüfte
+  ** Schlecht für Rücken, Hüfte
+* Rudern, schlecht für Rundrücken. Sagt auch das Internet.
+* Terraband ziehen von der Decke herunter, auch gerne einarmig um die schrägen Strecker zu erwischen.
+* Empfehlung für Yoga
+* Vorschlag Gesamtes Röntgen Hüfte, LWS, BWS
+
+* Einsortieren, wenn transformiert von cloud
+https://www.xn--orthopdie-harburg-vqb.de/die-praxis/die-aerzte/dr-goetze
+
+== Reichel, Befund 2023-05-23
+* Hüftspalt gut, nicht verschlechtert (entscheidendes Kriterium)
+* Keine extremen Läufe
+* Übungen im Liegen
+  ** Seitlage mit 4kg am Bein, in Schere oberes Bein anheben.
+  ** Seitlage, Beine angewinkelt, Knie nach oben drücken, gerne auch mit Band zwischen den Knien.
+  ** Seitlage oberes Bein angewinkelt zu Seite, unteres Bein gerade nach Oben strecken.
+  ** Po Muskulatur auf Bauch und Rückentrainer in tiefer Stützstellung trainieren.

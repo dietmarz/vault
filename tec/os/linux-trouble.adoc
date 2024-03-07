@@ -1,0 +1,9 @@
+include::{root}/.inc/include.adoc[]
+
+= linux-trouble
+
+== Cinnamon bei 3 Bildschirmen CPU auf 100%
+* Mit der "Display" App kleine Änderungen speichern
+
+== VMware, slow keyboard response
+* Disable 3D acceleration

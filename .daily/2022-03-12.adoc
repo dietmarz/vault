@@ -1,0 +1,167 @@
+include::{root}/.inc/include.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2022-03-12
+
+== Aufgaben
+
+== Using idea drawio plugin
+* Plugin kann kein Export deshalb
+* Edit im SVG Format damit md das ohne transformation anzeigen kann
+* Man kann XML SVG und PNG direkt editieren
+* Nicht alle Formen-Images im SVG werden im svg angezeigt
+* Web Version hat mehr Images zur Auswahl als das Plugin
+* Sinnvoll einen extra Rahmen um das bild zu ziehen
+* Bedienung Intuitiv
+* Vorteil Miro: Mit mehreren gleichzeitig editierbar
+
+* Besser nicht mit Schriftfarbe experimentieren, weiß ideal, automatisch schwarz...
+* Icons lassen sich aus dem Web kopieren bzw importieren über import / export
+* Bug: Man muss die svg immer wieder neu öffnen um den editor zu starten in Idea
+
+
+
+
+
+== Heute
+* URLs kibana korrigieren
+
+
+=== Morgen
+
+
+=== Mittagspause
+
+
+=== Nachmittag
+
+=== Abend
+* [ ] Rohr installieren unterm Tisch + Schrauben zur Befestigung DVI Swich
+
+
+=== Sport
+* [ ] Yoga
+* [ ] Zwift
+
+=== Ziel Woche 13 - 19
+
+* [ ] Strategie erarbeiten, Weiterbildung Ziele
+  ** Kündigungsfristen ermitteln: 2 Wochen bis 15.03 danach 4 Wochen
+
+* [ ] Krafttraining
+
+
+* [ ] AWS Angular Projekt starten TB 2h planen
+* [ ] Housekeeping TB 2h planen
+
+
+
+== Privat
+[ ] Urlaub eintragen und genehmigen
+[ ] Finanz Termin setzen knallhart 30 Min pro Woche fix
+[ ] Andree einsehen und dokumentieren
+[ ] Ziele Tageszettel mit Miro verbinden
+[ ] Miro Ziel genau definieren
+[ ] Rentenkasse, warum weniger?
+
+  ** Problem, Lösungsidee, Schritte, Tracking einrichten
+* Gew tracker 88.8 starten,
+* Waage kaufen
+
+== Ziele
+* 6 Med 7 Sport 8 Learn 9 Work 17
+
+== Irgendwann
+[ ] Was ist mit den Grundstücken jetzt? s. GMail, Landkreis fragen
+[ ] Neues Tool: Git Log extrahieren: Repo->Branch->Log zum greppen
+[ ] Erhöhung für den Server, für sauberen Aufbau
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+== Notizen
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

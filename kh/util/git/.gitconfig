@@ -1,0 +1,36 @@
+[user]
+	name = Dietmar Zabel
+	email = dietmar.zabel@otto.de
+[core]
+	editor = vim
+[alias]
+	co = checkout
+	cp = cherry-pick
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	dt = difftool -y
+	mt = mergetool -y
+	lg = log --graph --pretty=format:'%Cred%h%Creset - %s %C(yellow)%d%Creset%Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	trustExitCode = false
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	trustExitCode = false
+[credential]
+	helper = cache
+# [push]
+#  	default = current
+# [branch]
+#         autosetupmerge = always
+#         autosetuprebase = always
+[push]
+	default = current
+[init]
+	defaultBranch = master
+[commit]
+	template = /home/dietmar/project/kh/util/git/gitmessage

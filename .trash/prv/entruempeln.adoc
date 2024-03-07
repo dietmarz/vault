@@ -1,0 +1,10 @@
+include::{root}/.inc/include.adoc[]
+
+= Entrümpeln
+
+== Ziel / Zeitplan / Prioritäten
+* Todo Raumliste
+
+*
+
+

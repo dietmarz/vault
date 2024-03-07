@@ -1,0 +1,62 @@
+include::{root}/.inc/include.adoc[]
+
+= 30815
+
+https://jira.int.kn/browse/KNOMP-30815[Ticket]
+
+https://es-esp-monitor.int.kn/app/dashboards#/view/9e27baa0-ad55-11e9-a321-75644471cb55?_g=(filters:!(),query:(language:kuery,query:'%22%20were%20not%20found%20in%20D_ORDERLINE%20table!!%22'),refreshInterval:(pause:!t,value:0),time:(from:now-30d,to:now))
+
+== Logstash Production
+* Filter esp-reporting-app
+* Search: "were not found in D_ORDERLINE table!"
+* Type
+  ** kn.knlogin.esp.reporting.domain.events.BookingDataUpdatedEvent
+  ** kn.knlogin.esp.reporting.domain.events.BuyersConsolidationDataUpdatedEvent
+
+java.lang.IllegalStateException: for
+shipment 1051309057 the following purchase order line keys [
+  b9aed4b6796364e5eb149872347b3035522424b7,
+  befb65f59dee7ca6b8e3fd0a7c1a60c8fdef0714,
+  74cba6768c032d48b9365ed77f3f71ee81106a0f,
+  25b17a74d0c0c97b38bfd1260c571c8e74484841,
+  af838323d8daad946f3e1e1fad85b0cc270bfc5e,
+  8b8f265534e86a06e98cc48c3b98db94d31300df,
+  bd88a1bdcd54e2bd7d51a708843ee5f149baa9d8] were not found in D_ORDERLINE table!
+
+
+== Erkenntnisse
+* Die Orderlines sind tatsächlich nicht da!
+* Beim BuyersConsolidationDataUpdatedEvent gibt es für die betroffenen Shipments ein `Initiated a temporary lockdown because of exception`
+
+
+
+=== Hinweise und Spuren
+
+  @BucketMessageConsumer(
+  public void bookingDataUpdatedEventMessageConsumer( BookingDataUpdatedEvent
+--- OR ---
+  @BucketMessageConsumer(
+  public void buyersConsolidationDataUpdatedEventMessageConsumer(BuyersConsolidationDataUpdatedEvent
+
+
+handleEventMessage
+handleStarSchema
+
+@Transactional
+public EspShipment insertOrUpdate(EspShipment espShipment)
+
+insertOrUpdateContainerAllocation
+fillFactTypeTableForShipmentContainerAllocation
+getOrderLineKeyToOrderLineIdByAllocations -> to throws Zeile 1087
+link:C:/data/esp-reporting/reporting-app/src/main/java/kn/knlogin/esp/reporting/domain/reports/starschema/StarSchemaRepository.java[StarSchema]
+
+== Suche nach
+1051309057 and
+not "EspShipment and updating StarSchemaRepository" and
+not "Failed to create UnifiedShipmentModelMessage for espShipment" and
+not " 5 times, message will be discarded!" and
+not "An exception occurred while sending the event to Sentry"
+filter application: esp-reporting-app
+filter level: ERROR
+
+

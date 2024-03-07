@@ -1,0 +1,19 @@
+include::{root}/.inc/include.adoc[]
+
+= trauma-jahresgruppe
+
+== Teilnehmer
+https://docs.google.com/spreadsheets/d/1fDZtFL3zj0KLy6eEgZGERhPMSMDrV-83sNGFZyyOxI0/edit?pli=1#gid=0[Liste]
+
+== Meetings
+* 02.07.2023 11:00 (Dietmar)
+* 16.07.2023 19:30 (Margit)
+* 20.07.2023 20:00 (Elisa)
+* 03.08.2023 20:00 (Elisa)
+* Vorschlag: Mi 16.08.2023, 20 Uhr
+
+* 20 - 23.10.2023 Offiziell Online
+* 23 - 25.02.2024 Offiziell Online
+* 19 - 21.04.2024 Offiziell Präsens
+
+

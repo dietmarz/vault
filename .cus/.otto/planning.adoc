@@ -1,0 +1,6 @@
+include::{root}/.inc/include.adoc[]
+
+= Planning
+
+* findet auf dem daily board statt
+==

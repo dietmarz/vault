@@ -1,0 +1,32 @@
+include::{root}/.inc/include.adoc[]
+
+= matlab
+[source, text]
+----
+Aktivierungsschlüssel
+15486-02439-32850-77692-23575
+----
+
+== Installation
+* Version nur für R2021b vorhanden
+* Download zip file
+[source, shell]
+----
+sudo mkdir /opt/matlab-install/ ; chown dietmar:dietmar /opt/matlab-install/
+sudo mkdir /opt/matlab/         ; chown dietmar:dietmar /opt/matlab/
+cd matlab-install
+./install
+// # dietmar.zabel@gmail.com
+// # passwd: Q68vWpEZLV$r
+// # Into directory /opt/matlab 
+// # Create no links
+// #  
+----
+
+
+
+[source, shell]
+----
+// # Desktop Icon mit
+/opt/matlab/bin/matlab -desktop
+----

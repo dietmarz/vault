@@ -1,0 +1,18 @@
+include::{root}/.inc/include.adoc[]
+
+= Kleine Abenteuer
+
+* Vorbereitungsliste damit es dann auch losgehen kann.
+
+
+== QRP Drachen
+* [ ]
+
+== Brandungsangeln
+* [ ] Fertig und los
+
+== Hornhecht Saison!
+
+== Tourenrad mit Übernachtung
+
+== Wandern

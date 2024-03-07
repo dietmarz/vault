@@ -1,0 +1,40 @@
+include::{root}/.inc/include.adoc[]
+
+= Renten Planung
+
+link:file:///home/dietmar/cloud/office/Finanz/Rente/Finanz-Coaching/dietmar_zabel.xlsx[Excel]
+
+== Ziele
+. Früher Rentenaustritt, ich kann mir nicht vorstellen bis 67 zu arbeiten.
+. Übersicht der Ausgaben, Einnahmen, Verträge, Laufzeiten, wann wird was fällig
+. Aus dem Zeitstrahl eine Strategie entwickeln, was macht wann Sinn?
+.. Haus vermieten? Untervermieten? Was sind die psychologischen Hemmschwellen
+
+== [ ] Jahresplan!
+* unterteilt sich in quartalsplan
+* unterteilt sihc in Monatsplan
+* Klares Monatsziel
+* Dann 3, 5 Jahresplan...
+
+
+
+== Aufgaben
+* [ ] Dokument verstehen, besonders Simulation, Spalte Einkommen!
+* [ ] Dokument updaten
+* [ ] Thema Rente aufsplitten, diese Datei ist der Verteiler das verteilen auf: Verträge, Prognose?
+* [ ] Finanzplanung erstellen: Erwartete Kosten: Auto, Rücklagen Haus: Heizung, Dach?
+
+
+== Finanzplanung
+
+* https://docs.google.com/spreadsheets/d/1wcaSUzaoQKvjAMRyZKRfzUcnd6u6rM3baQRob9JD4Dw/edit#gid=366111380[Ausgaben-Pro-Monat]
+
+== Kosten
+* Regelmäßige Feste Kosten ermitteln: Beispiel Katzenfutter: 3 Monate / 3 mitteln, also nicht nur Abos. <<coa>>
+* Budget ermitteln = Einnahmen - Feste Ausgaben
+
+
+
+
+[bibliography]
+- [[[coa]]] Spiegel Coaching Buch 1/2022

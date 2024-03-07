@@ -1,0 +1,26 @@
+include::{root}/.inc/include.adoc[]
+
+= backend
+
+== Run Backend Server
+
+[source, sh]
+----
+8080 muss frei sein wenn über debug
+java17
+./scripts/start-database.sh
+PORT=8081 ENVIRONMENT=local ./gradlew bootRun -x Test -x asciidoctor
+----
+
+[source, sh]
+----
+curl -i -d '{"id": "1"}' -H 'Content-Type: application/json'  -X POST http://localhost:8080/schema/importer/
+curl -i -d '{"id": "98859573be4693a44111bbc52e925c86"}' -H 'Content-Type: application/json'  -X POST http://localhost:8080/schema/importer/
+----
+
+.Wichtige URLs
+----
+https://attribute.develop.opal.cloud.otto.de/opal-attribute/definitions/attributes?productClass=Wimpernzangen
+https://attribute.develop.opal.cloud.otto.de/opal-attribute/search/attributedefinitions?reference.productBaseClass=in(*uhren)
+https://attribute.develop.opal.cloud.otto.de/opal-attribute/search/attributedefinitions?attributes.approved=true&reference.productBaseClass=in(Hornhautfeilen)&groupBy=attributes.name,attributes.id,attributes.primeCommKey&sort=attributes.name&sample=0
+----

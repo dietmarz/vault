@@ -1,0 +1,55 @@
+include::{root}/.inc/include.adoc[]
+
+= Christian Meyer
+
+== Download
+
+=== With Firefox
+* Open Zoom Site in Firefox!
+* Shift and right mouse button
+* Choose Download as...
+
+=== With youtube downloader
+----
+youtube-dl --no-check-certificate                         <URL>
+# Oder mit Passwort
+youtube-dl --no-check-certificate --video-password ramana <URL>
+# Oder dieser Aufruf
+yt-dlp --legacy-server-connect --no-check-certificate --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" <URL>
+----
+
+== Convert
+----
+# Rename downloaded files
+   removeSpacesInFiles
+   ls > move.sh
+   # Bearbeiten der namen in Intellij mit <shift><alt><insert> im Insertmode oder mit gedrückter Mittelmaustaste
+
+# Format: yyyy-mm-dd-N-18mt3
+# Format All: yy-mm-dd_N_XXX.mp3
+## XXX= WR, LuA, 3JT-2
+
+# mp4 to mp3
+ls | sed 's/.mp4//' | xargs -i -n 1 -P 7 ffmpeg -i {}.mp4 -vn -acodec libmp3lame -ac 2 -qscale:a 4 -ar 48000 {}.mp3
+
+
+# Keep Original files
+   mcd all
+   cp ../*.mp3 .
+   ls > move.sh
+   # Bearbeiten der namen in Intellij mit <shift><alt><insert>
+
+
+# adapt audio gain
+ls *.mp3 | xargs -n 1 -P 7 mp3gain -r -k
+----
+
+== Retreat Packliste
+* Schreibzeug, Kladde, Bleistift,  Ringelbuch mit eigenen Notizen, Sportgerät, Wasser, Airex-Kissen,
+* Fahrt: Kopfhörer, Ladegerät, Kindle, Taschentücher, Mundwasser, Zahnbürste, Decke?, Sitz?
+
+== Bewußtheitsgruppe Nord Gunnar
+* https://docs.google.com/spreadsheets/d/1G1W5cj5qA3nkP3i1s2PNZAPJ0bdMy5uuBGcXN6iUhpw/edit#gid=0[Anmelde Excel]
+
+
+

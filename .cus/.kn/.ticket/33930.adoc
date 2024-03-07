@@ -1,0 +1,40 @@
+include::{root}/.inc/include.adoc[]
+
+= 33930 [esp-shipment-events] deprecate git repository
+
+https://jira.int.kn/browse/KNOMP-33930[Ticket]
+
+== Findings
+
+=== esp-documents
+
+
+
+----
+git co -b feature/KNOMP-33930-remove-esp-shipment-events-dependency
+add
+commit KNOMP-33930 remove esp-shipment-events dependency
+----
+
+
+----
+./esp-documents/esp-documents-app/pom.xml:            <artifactId>esp-shipment-events</artifactId>
+./esp-documents/pom.xml:        <esp-shipment-events.version>4.0.3</esp-shipment-events.version>
+
+./esp-shared-message-api/unified-shipment-model-message/pom.xml:        <esp-shipment-events.version>4.0.3</esp-shipment-events.version>
+./esp-shared-message-api/unified-shipment-model-message/pom.xml:                <artifactId>esp-shipment-events</artifactId>
+./esp-shared-message-api/unified-shipment-model-message/pom.xml:                <version>${esp-shipment-events.version}</version>
+./esp-shared-message-api/unified-shipment-model-message/pom.xml:            <artifactId>esp-shipment-events</artifactId>
+
+./esp-shipment/pom.xml:        <esp-shipment-events.version>4.0.3</esp-shipment-events.version>
+./esp-shipment/pom.xml:                <artifactId>esp-shipment-events</artifactId>
+./esp-shipment/pom.xml:                <version>${esp-shipment-events.version}</version>
+./esp-shipment/shipment-app/pom.xml:            <artifactId>esp-shipment-events</artifactId>
+./esp-shipment-events/pom.xml:    <artifactId>esp-shipment-events</artifactId>
+
+./esp-thirdparty-shipment/app/pom.xml:            <artifactId>esp-shipment-events</artifactId>
+./esp-thirdparty-shipment/pom.xml:        <esp-shipment-events.version>4.0.1</esp-shipment-events.version>
+./esp-thirdparty-shipment/pom.xml:                <artifactId>esp-shipment-events</artifactId>
+./esp-thirdparty-shipment/pom.xml:                <version>${esp-shipment-events.version}</version>
+----
+

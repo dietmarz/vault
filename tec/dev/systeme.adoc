@@ -1,0 +1,21 @@
+include::{root}/.inc/include.adoc[]
+
+= Systeme Rechner Handies
+
+== Huawai P20
+* Private Space Passwort 1222
+* Pin für Display entsperren 7459
+* Als root
+.in der /lib/udev/rules.d/69-libmtp.rules
+----
+# Huawei P10
+ATTR{idVendor}=="12d1", ATTR{idProduct}=="107e", SYMLINK+="libmtp-%k", MODE="660", GROUP="audio", ENV{ID_MTP_DEVICE}="1", ENV{ID_MEDIA_PLAYER}="1"
+----
+
+./lib/udev/rules.d/51-android.rules
+----
+#Huawei Technologies Co., Ltd.
+SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", MODE="0666", GROUP="plugdev"
+
+----
+* danach system udev restart

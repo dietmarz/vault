@@ -1,0 +1,99 @@
+
+= typescript
+
+
+== Types
+<<yt-angular>>
+
+[source,typescript]
+----
+// Types ---------------------------------------------------------------------------------------------------------------
+let a: number; // boolean, string, any, number, number[]
+const ColorRed = 0;
+enum Color {Red = 0, Green = 1, Blue = 2}
+let BgColor = Color.Red;
+// Casting  ------------------------------------------------------------------------------------------------------------
+let message; // type 'any'!
+message = 'abc'
+let stringMethod = message.endsWith('c'); // Not ok
+let castOne = (<string>message).endsWith('c'); // OK
+let castTwo = (message as string).endsWith('c'); // OK
+// Functions  ----------------------------------------------------------------------------------------------------------
+let log = function(msg) {console.log(msg);} // Vanilla style
+let lo1 = (msg) => {console.log(msg);} // Arrow function
+let lo2 =  msg  =>  console.log(msg); // Arrow special case
+// Function parameters -------------------------------------------------------------------------------------------------
+let drawPoint = (point) => { /*...*/ } // Not typed!
+drawPoint({x: 1, y: 2, z: 'Any bullshit!'}) // Not typed!
+let drawPoin2 = (point: {x: number, y: number}) => { /*...*/ } // better declaration
+interface Point {x: number, y: number}
+let drawPoin3 = (point: Point) => { /*...*/ } // Best way
+// Classes -------------------------------------------------------------------------------------------------------------
+class Point2 {
+    x: number; y: number;
+    constructor(x:number, y:number) {this.x = x ; this.y =y;}
+    draw() {console.log('X: ' + this.x + ', Y: ' + this.y);}
+}
+let point = new Point(1,2);
+point.draw()
+// Class with two constructors -----------------------------------------------------------------------------------------
+class Point3 {
+    x: number; y: number; // Public members!
+    // Use of optional parameters
+    constructor(x?:number, y?:number) {this.x = x ; this.y =y;}
+}
+class Point4 {
+    constructor(private _x?:number, private _y?:number) {
+        // Underline prevents name clash with getter and setter method
+        // Empty body and no member declaration works!
+    }
+    get x() {return this._x}
+    set x(value) { if (value < 0) throw Error('...');
+        this._x = value
+    }
+}
+let point4 = new Point4(1,2);
+let x = point4.x; // Using getter method!
+point4.x = 10 // Using setter method!
+
+export class Point5 { // in file Points.ts. With export it is now a module
+/*...*/ }
+
+import {Point} from './point'; //  Usage, without .ts
+
+
+
+----
+
+
+== 18 Type inference
+<<ud-type>>
+* As long as declaration and initialisation is in one line ts will figure out the type.
+
+== 19 Any Type
+<<ud-type>>
+* try to avoid any type at all costs, means ts has no idea what type it is.
+
+== 46: Fields in classes
+<<ud-type>>
+[source, typescript]
+----
+class Vehicle {
+    constructor(public color: string) {}
+}
+----
+
+== 97. Setup
+<<ud-type>>
+* `npm init -y # creates package.json file`
+* `tsc --init # creates tsconfig.json file`
+* 'npm install nodemon concurrently'
+
+
+In tsconfig.json enalbe sourceMap attribute to get an debugging mapping file
+
+
+[bibliography]
+- [[[ud-type]]] https://www.udemy.com/course/typescript-the-complete-developers-guide/
+- [[[yt-angular]]] https://www.youtube.com/watch?v=k5E2AVpwsko
+

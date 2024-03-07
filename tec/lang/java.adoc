@@ -1,0 +1,8 @@
+include::{root}/.inc/include.adoc[]
+
+= Java
+
+== Magazin
+* https://www.doag.org/de/mitmachen/java-aktuell-archiv/[Java-Aktuell]
+
+* https://www.doag.org/de/mitmachen/red-stack-business-news-archiv/[Red Stack]

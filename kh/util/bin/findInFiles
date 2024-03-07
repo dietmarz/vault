@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Prevent trouble with spaces in names
+find . -type f -print0 | xargs -0  grep "$@"
+

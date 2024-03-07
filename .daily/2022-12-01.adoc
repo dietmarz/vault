@@ -1,0 +1,82 @@
+include::{root}/.inc/include.adoc[]
+
+= 2022-12-01
+
+== Aufgaben 
+* anmelden https://wiki.int.kn/display/KNESP/Onboarding+Helmes+Team
+* FahrradBox verlängern in der Stadt
+* Urlaub eintragen von der mail
+
+* Registieren https://wiki.int.kn/pages/viewpage.action?pageId=480353427
+* Reporting doc lesen
+* Bitep buchen, Urlaub Mi 22 - Mo 27.02.23 = 4 Tage
+* Bürotisch leeren
+* Linux VM Netzwerk problem lösen, wer kennt sich aus bei KN?
+* doku State diagram erstellen
+* P50 Festplatte testen
+
+* Zu Projekten: nextcloud with kibana... see techteddy
+
+== Daily
+* KNOMP-28929-create-unlink-shipment-remote-api
+  ** Anforderung von Sven und Georg soweit eingearbeitet
+  ** Offene Fragen
+  ** Implementierung anschauen nit dem Optional, ob das so wirklich gewollt ist.
+  ** Eigene Anmerkungen erstellt: https://git.int.kn/projects/KNLOGIN/repos/esp-shipment/pull-requests/995/overview
+
+* KNOMP-25352-RuntimeException-SeaContainerKnieMessage
+  ** PR Anforderungen von Tobi soweit möglich eingearbeitet und gepushed
+  ** Warte auf Georg oder Sven. Prüfen: https://git.int.kn/projects/KNLOGIN/repos/esp-shipment/pull-requests/996/overview
+  ** WVL Einladung an Georg per Mattermost
+  ** Dabei ging es um die fachliche Frage, ob eine Exception geworfen werden muss.
+
+
+
+== Learn
+
+  **
+=== Private Aufgaben
+* Todtglüsingen kündigen ?
+
+=== Berufliche Aufgaben 
+* Alles Settings als ENV Variablen und einpflegen
+
+== Zeitstrahl
+
+[source, text]
+----
+  ** |Tabata
+|-08-|-09-|-10-|-11-|-12-|-13-|-14-|-15-|-16-|-17-|-18-|-19-|-20-|-21-|
+---- 
+  **
+
+
+=== Privat Backlog
+
+=== Unternehmen
+* WVL GEZ Unternehmen anmelden, haben sie schon abgebucht?
+* Neuen StB suchen
+
+== Feedback
+* Dinge besser merken
+* Zu viel Paring, mehr alleine machen
+* Fokus besser halten
+* Weniger viele Themen öffnen wie TF, Spring, Vue, AWS,...
+* Besser ein Thema konzentrieren
+* Vielleicht Plath
+
+
+== Einsortieren
+* https://www.youtube.com/watch?v=3NSkk31vFbU[source]
+  ** Plan night before, goals
+  ** Stay seated
+  ** Hide phone
+  ** Rewards!
+  ** Settings Standards
+
+
+== Notizen
+
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen|
+|-------------|-----------|------|-------|------|------|
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |      |

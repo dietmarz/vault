@@ -1,0 +1,17 @@
+include::{root}/.inc/include.adoc[]
+
+= Bewusstheitsgruppe Nord
+
+* Treffen bei Gunnar.elksnat@gmail.com , Kählerkoppel 4 HH
+
+== Teilnehmer
+* Gunnar
+* Christine
+* Ose
+* Carla
+* Bernhard
+* ? Esther, Bettina, Inge, Yelan
+
+== Material
+
+* Schreibzeug,

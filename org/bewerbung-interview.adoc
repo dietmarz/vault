@@ -1,0 +1,64 @@
+include::{root}/.inc/include.adoc[]
+
+= Bewerbung Interview ---> Siehe Sektion Vorbereitung
+
+== Wichtige Tätigkeiten
+
+=== Kühne und Nagel
+* Einführung Status-Tracking für Container für Kunden (DDD & Hexagonale Architektur)
+* Einführung Shipper's Reference in Messages und Persistence
+* Einbau Delete Contract (Wegen Komplexität fachlich viel auf Zuruf)
+
+=== Otto, Projekt Verwaltung strategischer Produktdaten
+* Anzeige Kontextspezifischer Überschreibungen
+* Einführung von Entwürfen
+* Aufbau und Deployment des Structures Service (Kotlin Projekt)
+* Aufbau und Deployment des Tree Service (Kotlin Projekt)
+* Unterstützung bei Lasttests
+
+=== Schulverwaltungssoftware Schleswig-Holstein
+* Einführung mehrerer Schulformen pro Schule
+* Konsolidierung der PDF-Generatoren zur Zeugnisgenerierung
+* Einführung von UI Tests mittels Selenium in Docker, Page Object Pattern und Cucumber und Docker
+
+=== Berenberg Bank
+* Unterstützung bei Daueraufträgen.
+* Einführung neue Wealth Management App
+* Prüfung der Ablösung des Depot-Donuts in Angular
+* Prüfung Einführung Browserstack
+
+== Vorbereitung Telefon Interview oder online
+* Screenrecorder starten!
+* Handy und Kopfhörer geladen?
+* Browser-Tabs: Ausschreibung, eigenes Profil, andere Profile, Text editor
+* Schachuhr starten, wann immer Du anfängst was zu erzählen
+
+== Vorbereitung Interview vorort
+* Vorbereitung Telefon Interview machen.
+* Namen und Bilder drucken
+* Ausschreibung drucken
+* min 1h früher da, pünktlich, 5min früher hereingehen.
+* Nicht zu viel trinken
+
+== Fragen
+* Kleidung, Anzug
+* Homeoffice wie oft
+* Können mehr als 8h abgerechnet werden?
+* Eigene / Fremde Hardware erlaubt? PC, Monitor.. Welches OS?
+* Vorgehensweise: Scrum, Kanban...
+* Wie groß ist das Team?
+* Reisetätigkeit?
+* Urlaubswünsche übermitteln!
+
+== Vorbereitung
+* Diese Seite öffnen, Schreibblock mit Namen
+* Wikipedia zum Unternehmen lesen
+* Kein Kaffee trinken!
+* Ruhig und gelassen, wenn sich das Schicksal gegen Dich entscheidet, gibt es etwas besseres für Dich!
+* Was sind die Projektanforderungen, wo habe ich das schonmal gemacht*
+* Profile der Teilnehmer suchen
+* Eigenes Profil lesen letzte Tätigkeiten gedanklich vorstellen.
+* Zeit beobachten, wie lang soll das Interview dauern?
+* Kurz und knapp antworten. Max 10s, lieber nachfragen, ob man genauer einsteigen soll.
+
+* Was sind Deine Stärken: Qualität, Ehrlichkeit

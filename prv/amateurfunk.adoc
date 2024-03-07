@@ -1,0 +1,6 @@
+include::{root}/.inc/include.adoc[]
+
+= amateurfunk
+
+== Kite Portabel
+* Verwendeter Drachen: Jumbo Power Sled 36, 2-6Bft, Leine 220Kg, 323x150cm

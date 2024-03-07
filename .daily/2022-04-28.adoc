@@ -1,0 +1,55 @@
+include::{root}/.inc/include.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2022-04-28
+
+== Aufgaben
+* Parkticket bezahlen
+* Servie von opal leserechte
+* rasenmähen
+
+
+
+
+
+=== WVL
+* Stb Termin Liquidieren!
+
+
+
+* [ ] Steuer Dokumente dokumentieren und sortieren
+* Foto zur Doku von Patrick
+
+
+=== Vor dem D
+=== Mittagspause
+=== Nachmittag
+
+=== Abend
+* [ ] Rohr installieren unterm Tisch + Schrauben zur Befestigung DVI Swich
+* t daten auf ssd syncen
+* zoom update in update.sh einbauen
+
+
+
+== Privat
+
+[ ] Finanz Termin setzen knallhart 30 Min pro Woche fix
+[ ] Andree einsehen und dokumentieren
+[ ] Rentenkasse, warum weniger?
+
+
+
+
+
+
+
+
+
+
+== Notizen
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

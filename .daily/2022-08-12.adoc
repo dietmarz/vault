@@ -1,0 +1,17 @@
+include::{root}/.inc/include.adoc[]
+
+= 2022-08-12
+
+== Aufgaben
+=== 175
+* Header in blau
+* Header + Tooltip
+* Button label ändert sich
+* Rollenbasiert
+
+
+== Notizen
+
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen|
+|-------------|-----------|------|-------|------|------|
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |      |

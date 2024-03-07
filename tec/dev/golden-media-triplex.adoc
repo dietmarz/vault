@@ -1,0 +1,29 @@
+include::{root}/.inc/include.adoc[]
+
+= golden media triplex
+
+== Flashen
+
+Neueste Firmware für Golden Media Triplex hier runterziehen:
+http://images.mynonpublic.com/openatv/current/index.php?open=sparktriplex
+
+Einen fat32 formatierten ALTEN USB Stick.
+
+Auspacken und nur den enigma2 Ordner auf der Oberfläche lassen.
+
+Gerät ausschalten.
+
+USB Platte abziehen und hinten den USB Stick reinstecken. Es geht NUR hinten!
+
+OK Taste gedrückt halten.
+
+Einschalten
+
+OK Taste loslassen.
+
+Mit Prg + und - Enigma wählen
+
+Dann Volume+ drücken
+
+Es erscheint erst FACT dann U LD, wie Upload?
+

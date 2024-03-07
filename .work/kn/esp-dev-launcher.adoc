@@ -1,0 +1,29 @@
+include::{root}/.inc/include.adoc[]
+
+= esp-dev-launcher
+
+* https://wiki.int.kn/display/KNESP/esp-dev-launcher+development+setup
+
+
+== Passwort / Login Prüfen für launcher
+* Username und Passwort
+  ** #Schreibt aktuelles Pwd auf Console!# `echo harbor.emea.ocp.int.kn | docker-credential-desktop.exe get`
+  ** müssen funktionieren auf https://console.cluster1.emea.cp.int.kn:8443/console/logout
+
+== Passwort wechseln
+* `https://ex.int.kn/automate/wizards/reset_ipa_user_password`
+  ** Login and then: Click "User Defined". The form needs already the new passwort
+  ** then `docker login harbor.emea.ocp.int.kn`
+
+.Delete den service, den du local starten möchtest
+== starten
+rm -rf ./data
+./launcher --init # ODER  ./launcher --init-with-oracle
+./launcher start --use-oracle esp-administration esp-api-gateway esp-documents esp-exceptions esp-masterdata esp-frontend-services esp-ordershipping esp-purchaseorder esp-reporting esp-shipment esp-taskmanager
+
+== MyKn starten nach Anleitung
+* https://git.int.kn/projects/KNLOGIN/repos/esp-mykn-components/browse/README.md[Readme]
+* Change in data\esp-reporting\reporting-app\src\main\resources\application-int-oracle.yml
+  ** Pwd: Int Reporting: QSgvK2lp    Test Reporting: yx8eLVnj
+
+

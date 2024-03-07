@@ -1,0 +1,30 @@
+[prime-live-admin]
+aws_account_id = 585322426445
+role_name = admin
+color = ff6060
+region = eu-central-1
+
+[prime-nonlive-admin]
+aws_account_id = 373401691505
+role_name = admin
+color = ffb638
+region = eu-central-1
+
+[dr-live-admin]
+aws_account_id = 974557510689
+role_name = admin
+color = ff6060
+region = eu-central-1
+
+[dr-nonlive-admin]
+aws_account_id = 881044812439
+role_name = admin
+color = ffb638
+region = eu-central-1
+
+[prime-infra-admin]
+aws_account_id = 335373990591
+role_name = admin
+color = ff6060
+region = eu-central-1
+

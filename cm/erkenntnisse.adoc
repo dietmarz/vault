@@ -1,0 +1,7 @@
+include::{root}/.inc/include.adoc[]
+
+= Erkenntnisse
+
+== Depression
+* Immer anfagen mit Polaritätsarbeit, die Seite die leben will und die Seite, die nicht mehr Leben will
+* Dem Herzen folgen um Dinge loslassen zu können, sonst begleiten sie gedanklich immer weiter

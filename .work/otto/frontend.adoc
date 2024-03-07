@@ -1,0 +1,63 @@
+include::{root}/.inc/include.adoc[]
+
+= Frontend
+
+== Start
+
+Start frontend with docker backend
+----
+# Mit localem Docker-Container als Backend
+swamp-prime-nonlive-admin
+./scripts/ecr-login.sh
+npm run dev   # startet mongodb und backend als docker container
+npm run dev -- --port 8181
+----
+
+Start frontend with local backend
+[source, shell]
+----
+npm run serve
+npm run serve -- --port 8181
+----
+
+[source, shell]
+----
+vue-cli-service serve --port 8181
+----
+
+
+.Store new snapshot tests
+---- 
+npm run test:unit -- -u
+---- 
+
+
+Run with different port
+[source, shell]
+----
+vue-cli-service serve --port 8181
+---- 
+
+
+== Struktur
+
+=== Merkmalsmanagement
+
+
+
+=== Strukturmanagement
+* Tree:  components/context/ContextsTree/ContextsTree.vue
+  ** Left: `Dropdown Symbol`:
+  ** Left: `PT-Name`:
+  ** Right: `Edit-Btn`:
+  ** Right: `Delete-Btn`:
+  ** Mitte: `PBK-Name`:
+  ** Mitte: `Burger-Menu`:
+  ** Mitte: `Check-hook`:
+  ** Right: `3 Dots`:
+  ** `PT hinzufügen`:
+  ** `Löschen`: Interessante Hilfe wenn disabled.
+  **
+* Details: components/context/ContextsDetailView/ContextsDetailView.vue
+  ** Oben: `Geerbte Merkmale`:
+  ** Unten: `Zugewiesene Merkmale`:

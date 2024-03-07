@@ -1,0 +1,41 @@
+include::{root}/.inc/include.adoc[]
+
+= Unterhalt Lina
+
+* Anstellung nur als Selbständiger /  UG, dort müssen dann auch Gelder eingehen.
+
+== Stand
+* [X] FDW 60 09 Linas Unterhalt errechnen, Siehe spread-sheet: https://docs.google.com/spreadsheets/d/1wcaSUzaoQKvjAMRyZKRfzUcnd6u6rM3baQRob9JD4Dw/edit#gid=515429823
+  ** Kontakte Familienkasse oder Familien Anwalt herstellen
+  ** Anwälte am Markt, Herr Kluge 190€ Erstgespräch
+* Stand: 14.09. SMS Frage an Karin wie wir weiter machen wollen.
+*        Telefonat: Karin prüft was ihr bereinigtes Netto ist.
+
+
+
+== Berechnung nur nach DDT
+* Kindergeld gibt es extra
+  ** Unterhalt <U>
+  ** Bereinigtes Netto <BN> -> DDT -> Linas Anspruch <LA>
+  ** Gesamt Bereinigtes Netto <GBN>
+  ** <U> = <LA> * <BN> / <GBN>
+
+== Berechnungshilfe
+https://www.scheidung.org/anrechnung-kindergeld-auf-unterhalt/
+
+== Steuerlich absetzen
+* https://www.youtube.com/watch?v=KKztIg-y4lk&ab_channel=vonArps-AubertundPartnerSteuerberatung
+
+
+== Wie berechnet man das bereinigte Netto
+* https://www.youtube.com/watch?v=TXJhWTFPrvs&ab_channel=WolfgangBehlau
+* <~N> (= durchschnittliche monatliche Netto Einkommen)
+  ** Ang: letzten 12, Selbständiger letzten 36 Monate
+  ** Vorteil mietfrei wohnen?
+
+* Netto minus:
+  ** pauschal 5%
+  ** Hälfte des Kindergeldes = "Zahlbetrag"
+
+
+  ** Beide Elternteile

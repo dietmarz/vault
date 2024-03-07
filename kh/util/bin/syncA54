@@ -1,0 +1,21 @@
+#!/bin/bash
+
+HANDY_PATH="/storage/3163-3838/DCIM/Camera/"
+LOCAL_DIR="/home/dietmar/EINSORTIEREN/"
+ADB="/usr/bin/adb"
+
+if [ "$1" = "-d" ]; then
+  echo Using move instead of only copy !!!
+  DELETE=true
+else
+  DELETE=false
+fi
+
+echo copy from $HANDY_PATH to $LOCAL_DIR
+$ADB pull $HANDY_PATH $LOCAL_DIR
+
+# Überprüfe den Exit-Code des pull-Befehls
+if [ $? -eq 0 ] && $DELETE; then
+  echo delete $HANDY_PATH
+  $ADB shell rm "${HANDY_PATH}/*"
+fi

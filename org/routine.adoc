@@ -1,0 +1,54 @@
+include::{root}/.inc/include.adoc[]
+
+= Routine Vorschlag
+
+
+video::SELWtQpcy1A[youtube]
+
+* Jedes Mal im Bad 200ml Wasser trinken
+
+== Morgen Routine
+* 06:00 Was hatte ich geträumt, 5 Fragen
+* 06:15 Bett machen
+* 06:20 Becher Wasser
+* 06:45 15min Rudern, Rad oder Schwimmen
+* 07:00 2min Dehnen + 5min Meditation
+* 07:10 10s Kalt Duschen, Rasieren, Zähne putzen, Creme,...
+* 07:30 Matcha Tee, Frühstück, Handy Nachrichten lesen
+* 08:00 Rechner: 2 x Kalendar, Check `sv` + `t`
+
+* 09:05 Klar, was ich im Daily sage und möchte?
+* 09:15 Daily
+* 09:45 Klar, was ich diesen Tag erreichen möchte?
+
+== 10:00 Work Routine
+* Alle Ergebnisse aufschreiben
+* Alle 25min Pause
+* Mittagspause 15min Schlaf & Rudern, Joggen
+
+* 16:00 Start Lernen, was Du möchtest
+
+== 16:00 Lern Routine
+* Private Projekte, Udemy, was anliegt.
+
+
+== 17:30 Housekeeping Routine
+* Rechner aus?
+* Post,... vielleicht schaffst Du etwas Housekeeping z.B. Bürotisch freiräumen
+* Ist klar, was ich  beim Daily sagen werde? Bewegst Du min. eine Karte?
+* Küche aufgeklart
+* evt. Müll raus stellen
+* Sportsachen packen
+
+== 19:00 Sport Routine
+* Nach Bedarf, Plan und Stimmung
+
+== 21:00 Entspannung
+* Lesen, CM, Flow,... Kein TV, Kein Sport
+
+== 21:50 Schlafen
+
+
+
+== Weitere Vorschläge
+* https://www.ergotopia.de/blog/morgenroutine

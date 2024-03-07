@@ -1,0 +1,49 @@
+include::{root}/.inc/include.adoc[]
+
+= 2023-01-23
+
+== Fragen
+* Rebuild von was?
+
+== Aufgaben (Block 1)
+* Tobi fragen:
+  ** Urlaub beantragen 27.11. - 15.12.23
+  ** Klärung Überstunden, wie abbauen
+
+=== Daily
+* Delete-Orderlines Tms-export https://jira.int.kn/browse/KNOMP-29749
+  ** Integration Test fertig. Nur noch eine Q
+  ** PR gestellt
+
+* unlink an unlinked: 29867
+  ** Enhanced Logging
+  ** Ask PO how to proceed
+  ** [X] In einen bug umwandeln und dem epic zuordnen
+
+== Aufgaben (Block 2)
+* WVL: Adminrechte C2301-20983 C2301-20986
+* Eigene Q mit mehreren Topics
+  ** mvn, docker VMWare, läuft
+* [ ] States durchspielen KNESP
+* Reporting doc lesen
+* t grep bauen
+
+=== Privat
+* Schreibtisch frei
+* Harte Matratze
+* Steuern 2021 nach Monaten durchgehen und drucken
+* Depot kündigen
+* Keller 30min
+
+* neuer Urlaub einstellen 27.11.2023 - 15.12.2023 (Whatsapp vom 18.12)
+* Andree de B Aufstellung verstehen
+
+* Zu Projekten: nextcloud with kibana... see techteddy
+* Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg
+
+== Notizen
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===

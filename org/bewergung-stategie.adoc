@@ -1,0 +1,6 @@
+include::{root}/.inc/include.adoc[]
+
+= Bewerber Strategie
+
+== Vermeidung von Absagen und Verprellen
+

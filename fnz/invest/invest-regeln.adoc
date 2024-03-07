@@ -1,0 +1,48 @@
+include::{root}/.inc/include.adoc[]
+
+= Investment Regeln
+
+== Aus: https://www.youtube.com/watch?v=T0ny4dZam7w
+
+1. Kaufe mit nur mit Aufwärts Trend, also nur wenn Kurse steigen.
+Wenn ein Absturz war, warte bis sie wieder etwas steigen
+
+2. Sei bereit Gewinne mitzunehmen, in Stärke verkaufen
+Wenn Aktien gut gelaufen sind. An einer Gewinnmitnahme ist noch keiner gestorben
+
+3. Reduziere deine Verluste FRÜHZEITIG
+
+4. Lass große Gewinner nicht zu Verlieren werden. Laß Dir das Geld nicht
+wieder aus der Tasche nehmen
+
+=== Interessante Kommentare
+Immer erst einen Plan machen und danach handeln, das Buchgefühl und die Hoffnung ist hierbei im Weg, aus eigener Erfahrung
+
+Hier werden 2 Dinge vermischt. Buy & Hold (& Hope) und Traden sind 2 komplett unterschiedliche Strategien.
+Bei Buy&Hold kaufe ich Firmen, von denen ich nach detaillierter Analyse überzeugt bin.
+Ich verkaufe nur, wenn sich fundamental etwas ändert, nicht weil sich der Chart ändert.
+Beim Traden gehe ich nach dem Chart.
+
+
+
+=== Interessante Aktien (Kolja)
+* ETR: BRYN Berkshire Hathaway (v. Warren Buffett, als Aktie ETF ähnlich. Steuervorteil. https://www.youtube.com/watch?v=-5OZE1ziGyE[Aktien m. Kopf])
+  ** WKN A0YJQ2 ISIN US0846707026
+* Vanguard FTSE All-World UCITS ETF (USD) Accumulating ETF (Norwegischer ETF für Renten https://www.youtube.com/watch?v=JR8yygi4FYs)
+  ** WKN A2PKXG ISIN IE00BK5BQT80
+
+
+== Aktien Ideen
+SAP	 DE0007164600
+Deka Asien ex Japan	LU0052859252	Sparplan
+WW Fidelity Tech Fonds	LU0099574567	Sparplan
+Med Forschungs Fonds	LU0119891520
+Touristik ETF	LU2082999132
+Med Technik Fonds	LU0415392249
+Pictet Nachhaltiger Fonds	LU0503631714	Sparplan
+Pictet Clean Energy Fonds	LU0312383663
+Gold
+NXPNL0009538784
+Nestle	CH0038863350
+Vonovia Wohnungen 	DE000A1ML7J1
+Dax ETF	DE0005933931	Sparplan

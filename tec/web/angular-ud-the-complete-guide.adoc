@@ -1,0 +1,245 @@
+= Angular
+:toc:
+:sectnums:
+:sectnumlevels: 4
+
+== Sorce for learning
+* https://udemy.com/course/the-complete-guide-to-angular-2/[udemy-course]
+
+[source,shell script]
+----
+  npm install -g @angular/cli
+  ng new my-first-app
+  cd my-first-app
+  ng serve
+
+  mv ~/Downloads/app.component.html src/app/app.component.html
+----
+
+== Install Bootstrap locally
+`mv ~/Downloads/app.component.html src/app/app.component.html`
+.angular.json file line 27
+[source,json]
+----
+{    "styles": [
+      "node_modules/bootstrap/dist/css/bootstrap.min.css",
+      "src/styles.css"]  }
+----
+
+== 14 How Angular gets started
+[source,typescript jsx]
+----
+// from main.ts
+  platformBrowserDynamic().bootstrapModule(AppModule)
+// is pointing to app.module.ts
+@NgModule({ // ...
+  bootstrap: [AppComponent] // pointing to app.component
+})
+// And app.component.ts contains something like
+export class AppComponent {
+  title = 'Dietmar!';
+  name = 'My name';
+}
+----
+
+== 16 Create a new Component ex. Radar
+
+.Add src/app/radar/radar.component.ts
+[source,typescript]
+----
+import {Component} from '@angular/core'
+@Component ({
+  selector: 'app-radar',
+  templateUrl: './radar.component.html' // Needs  to be present!
+})
+export class RadarComponent {
+}
+----
+
+.Register own components in src/app/app.module.ts
+[source,typescript]
+----
+import {RadarComponent} from './radar/radar.component'
+@NgModule({
+  declarations: [
+    AppComponent,
+    RadarComponent // !
+  ] // ...
+})
+export class AppModule { }
+----
+
+== 19 Create components with CLI
+* call `ng generate component radar`
+
+
+== 25 Binding 1: String interpolation
+[source,angular2html]
+----
+// curly braces need to return a String. That's all.
+<p>Dynamic text: {{componentMember}}</p>
+----
+
+== 26 Binding 2: Property binding
+[source,angular2html]
+----
+// use square braces
+<button [disabled]="componentMember">My Button</button>
+<p [innerText]="componentMember" />
+// instead of string interpolation <p>{{componentMember}}</p>, don't mix it!
+----
+
+== 27 Binding 3: Event binding
+[source,typescript]
+----
+import {OnInit} from '@angular/core';
+export class MyComponent  implements OnInit {
+  onUpdateTextfield(event : Event){ // ...
+    this.myMember = (<HTMLInputElement>event.target).value;
+  }
+}
+----
+[source,angular2html]
+----
+// use of parenthesis, $event is a reserved word. It does't getting an update if the value changed in background
+<button (click)="onClickHandler()" >My Button</button>
+<input (input)="onUpdateTextfield($event)" />
+----
+== 32 4 Binding 3: Two way binding
+[source,angular2html]
+----
+// use of square brackets and parenthesis, get updated if the value changed in the background
+// for ngModel import { FormsModule} from '@angular/forms' is needed in app.modules.ts
+<input [(ngModel)]="componentMember" />
+----
+
+== 35 What are directives?
+* Directives are Instructions in the DOM
+* Components are instructions within the DOM
+* Selector is typically an attribute selector like so:
+  ** e.g. `<p appTurnGreen>Text</p>` // But css-classes work fine too.
+  ** @Directive({selector:'[appTurnGreen]'}) // Mind the square brackets
+
+== 36 Using ngIf, Positive logic block
+[source,angular2html]
+----
+<p *ngIf="myBooleanMember">Paragraph inserted if member is true</p>
+----
+
+== 36 Using ngIf else
+[source,angular2html]
+----
+<p *ngIf="myBooleanMember; else myElseBlock">Paragraph inserted if member is true</p>
+<ng-template #myElseBlock>
+   <p>Shown paragraph if member is false</p>
+</ng-template>
+----
+* If you only need the else block add an `!` in front and use the positive logic block
+
+
+== 38 Dynamic Styling elements
+* Unlike structural directives, attribute directives dont add or remove, the change where the element were placed on
+[source,angular2html]
+----
+The square brackets are not part of the directive name, the indicates that we want to bind some property on this directive
+and this property. And this property name also happens to ngStyle.
+<p [ngStyle]="{backgroundColor: getMyBgColor()}">...</p>
+<p [ngClass]="{myCssClassName: myAddOrRemoveCondition()}">...</p> // from chapter 39
+----
+== 40 ngFor
+[source,angular2html]
+----
+<p *ngFor="let cat of cats"></p>
+----
+
+
+== Accessors
+* Remind the space between get/ste and firstname
+[source,typescript]
+----
+class Person {
+  private _firstName: string; // Only g/setter name important!
+  get firstName(): string {return this._firstName;} // public by default!
+  set fistName(value: string) {this._firstName=value;}
+}
+myPerson.firstName = "Susan"; // Calls setter!
+----
+
+
+== !!! Event based Communication !!!
+
+=== List component, parent
+
+.person-list.component.html
+[source,angular2html]
+----
+<div *ngFor="let person of persons">
+    <app-person-detail>
+      [pers]="p" (noti)="onNotify($event)">
+    </app-person-detail>
+</div>
+----
+.person-list.component.ts
+[source,typescript]
+----
+export class PersonListComponent {
+    onNotify(p: Person) {
+        window.alert("Details want to inform parent list compoent that button was pressed for person p")
+    }
+}
+----
+
+=== Detail component, child, used by person-list.component
+.detail.component.html
+[source,angular2html]
+----
+<input type="text" [(ngModel)]="newPersonName">
+<button (click)="onButtonPressed()" >Notify me</button>
+----
+
+.detail.component.ts
+[source,typescript]
+----
+import { Input } from '@angular/core';
+import { Output, EventEmitter } from '@angular/core';
+// ...
+export class DetailComponent implements OnInit {
+    @Input() newPersonName;
+    @Output() noti = new EventEmitter<Person>();
+    onButtonPressed() {
+      p = new Person(this.newPersonName);
+      noti.emit(P);
+    }
+}
+----
+
+.Person.ts
+[source,typescript]
+----
+export class Person {
+    constructor(public name: string) {}
+}
+----
+
+== Debugging tool
+* Learn everything about Augury chrome extension
+
+== 71 View encapsulation
+* angular changes the selector from each component.css internally by adding to the html an open attribute. The
+element then will be referenced then by using `p [special-attribute-2]`
+* You can switch the behaviour using `@Component({encapsulation: ViewEncapsulation.Native|None|Emulated})`
+
+== 73 Using local references
+* like `<input #serverNameInput ...>`
+* Can be placed on ANY html element
+* References the whole html element with all its properties.
+
+
+
+== 90 Module introduction
+* Attribute Directives only affect the element they are added to
+* Structural Directives have a leading * ,affect the whole DOM by add or rm elements.
+
+
+
+

@@ -1,0 +1,13 @@
+include::{root}/.inc/include.adoc[]
+
+= morning routine Morgenroutine
+
+== Miracle Moring (Hal Elrod)
+
+Akronym Live SAVERS
+* Silence (Stille): Zeit in Stille verbringen, wie Meditation, Atemübungen oder Gebet.
+* Affirmations (Affirmationen): Positives Selbstgespräch, um Glaubenssätze und Verhaltensweisen zu stärken.
+* Visualization (Visualisierung): Sich Erfolg und die Erreichung persönlicher Ziele vorstellen.
+* Exercise (Bewegung): Körperliche Aktivität, um Energie und Gesundheit zu fördern.
+* Reading (Lesen): Lesen von inspirierender oder bildender Literatur.
+* Scribing (Schreiben): Journaling oder Schreiben, um Gedanken zu klären und Ziele zu reflektieren.

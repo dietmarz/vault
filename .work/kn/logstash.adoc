@@ -1,0 +1,35 @@
+
+= logstash
+
+Siehe:  Kibana Query Language
+
+* Hilfreich: Button "View surrounding documents"
+* Beachte: In Winterzeit im Elastik ist es eine Stunde später als im Sentry
+* Gefunden über uuid 
+* Finden der Messages u.U. im KNESP unter Monitoring
+* Per Timestamp finden
+  ** auf die richtige App     filtern, einfach per + Button
+  ** auf den richtigen Thread filtern, einfach per + Button
+
+== Verbindung Log -> Code
+* Schauen, ob es für den Event Message Type einen Listener im Code gibt
+
+== In messages suchen
+* Teile der Messages "and" oder "and not" verknüpfen
+  ** 263caf and "receive msg" and not "esp-exceptions-app" and "kn.knlogin.esp.purchaseorder.attribute.api.PurchaseOrderLineAttributesUpdatedMessage,"
+  *** Texte als ganzes kopieren, nichts weglassen!
+  *** Wenn ein minus im Text sind klammern zwingend!
+
+[source, text]
+----
+timestamp: "1672832207678"
+message: "Exception"
+throwable: "*NullPointer*"
+
+uuid: "82bb509d-d8bd-4573-a387-7789a0c9662e"
+
+Add Filter: 
+  ** uuid: 82bb509d-d8bd-4573-a387-7789a0c9662e
+Oder in der Searchbar
+  ** uuid: "82bb509d-d8bd-4573-a387-7789a0c9662e"
+---- 

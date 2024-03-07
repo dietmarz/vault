@@ -1,0 +1,63 @@
+include::{root}/.inc/include.adoc[]
+
+= Estimation Meeting
+
+* Start in new Window: Work/Documentation/Estimation
+* Stories hier stehen lassen
+
+
+
+== Fragen
+
+=== t 171 tägliche Spiegelung der Live-Konfiguration auf develop
+* Entspricht dem FullSync von Structure und Taxo Tree oder?
+* Änderungen, die auf develop neuer sind als auf live, bleiben erhalten !!!
+* (?) das zusätzliche Löschen von Konfigurationen/Merkmalen auf Develop kann per Parameter eingeschaltet werden
+* 
+
+=== t 231 Security Findings als Push Notification
+* 3P ?
+
+=== t 207 Entwürfe pro Struktur konfigurieren und übernehmen
+
+
+=== t 177 5P Verwendung des Merkmals FARBE in Kontexten 
+Siehe Screenshot
+
+=== t 220 2P OAUTH2 Client in attribute-schema für den Zugriff auf OPAL-attribute
+* Gibt es ein Beispiel?
+* Abhängigkeiten zu anderen Teams?
+
+=== t 233 2P (1/4) Endpunkt zum Speichern von Entwürfen
+* Änderung speichert gleichzeitig Live UND Alle Felder als Historie
+
+=== t 234 3P (2/4) Entwurfsansicht im Merkmalsmanagement
+* 2 Tabs: Entwürfe und Live-Merkmale, einer zeigt die aus 233 gespeicherten Werte an
+* Neu GET Abruf endpunkt
+* Endpunkt absichern, nur mit lese oder schreibrechten, gepaged
+* Tab inhaltlich genauso aufgebaut
+* Name   CommKey   Zuletzt-Geändert   [Edit]   [Delete] ohne Funktion
+
+=== t 235 3P (3/4) Entwurfsübersicht pro Feld
+* Beim Speichern wird statt alles in einer Zeile, pro geändertem Feld eine Zeile gespeichert
+* Es wird die Anzahl der erstellten Einträge per Snackbar kenntlich gemacht
+* Diff-algorithmus
+* Wie sieht das Schema aus, entwickeln!
+* Vorschau Änderung implementieren
+* Button  [View] [Delete] noch ohne Funktion
+* Commkey   Feld   Änderung   verwendet/spezifisch   Zuletzt-geändert [View] [Delete]
+* Button Ohne funktion, statt burger gibt es ein auge
+  ** Feld "Änderung" ist platzabhängig schrumpfbar
+  ** Feld "Änderung", Daten aus anderer Story
+
+=== t 236 (4/4) Livegang von Entwürfen bestätigen
+* Weitere View die den Entwurf darstellt, es sind die selben Felder grau hinterlegt, nur mit den Entwurfswerten
+* Entwurf Felder werden visuell kenntlich gemacht (zB. grau hinterlegt)
+* Entwurf Felder können nicht weiter bearbeitet werden
+* Im Merkmalsmanagement wird weiterhin die live Version angezeigt
+* In der Entwurfsansicht wird die bearbeitete Version angezeigt
+* Speichern in Live
+* Entwurf löschen
+* Kernfeature: Entwurf speichern, speichert nicht Live
+  ** Entwurf ablehnen mit Popup aus der übersicht
+  ** Entwurf akzeptieren mit Popup aus der übersicht

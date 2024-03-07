@@ -1,0 +1,23 @@
+include::{root}/.inc/include.adoc[]
+
+= Anschaffungen
+
+== Ukulele Ibanez UEW13MEE-DBO 254€
+* Elektroakustische
+https://www.thomann.de/de/ibanez_uew13mee_dbo.htm?gad_source=4&gclid=Cj0KCQiA4NWrBhD-ARIsAFCKwWsecaLC1S1a_OiV9sPCANFr2nQcGFSlyCsuWhGiq45B-Wdy6dUGZNYaAlQzEALw_wcB%23bewertung#bewertung
+
+== Standkompressor
+* Ölen von Auto und Fahrrädern
+* Reinigung von Regalen
+* Reifendruck
+* Platzsparend: Gieb Kompressor Kompressoren 640/90-11 stehend ZWEISTUFIG Zweizylinder
+
+
+== Lüfter W2E250-HL06-01
+* Haus belüftung, Feuchtigkeitssteuerung
+
+== Stahlkappe Klöpperboden, Schweißdeckel 168,3mm
+https://www.ebay.de/itm/151593368566?var=450799613313
+
+== neue Notebook
+* https://www.notebookstore.de/Lenovo-Campus-ThinkPad-P16-Gen-2-21FA0006GE

@@ -1,0 +1,126 @@
+// include::{root}/.inc/include.adoc[]
+
+= Packen für Bus / Auto
+
+== Vorbereitung
+* [ ] DHL Postlagernd, eine Woche vorher kaufen. 13,90€
+* [ ] Vorbereitungs-Wochenende in Kalendar eintragen
+* [ ] GPS und Karten und Christian updaten, Öl prüfen
+* [ ] Bad-Flaschen auffüllen
+* [ ] 1 Wochenende vorher, diese Liste drucken!
+* [ ] Raum reservieren für Sammlung von Teilen, die mit sollen.
+* [ ] PostITs/Marker für alle Teile die in der Woche noch benötigt werden.
+  ** Beispiel: PostIt Bus-Ersatzschlüssel an Andrea, Oder Zahnbürste
+* [ ] Aufräumen
+* [ ] PostIt mit genauen Bus Abmessungen in den Bus hängen!
+
+* *Vorbereitung*
+  ** [ ] Bus Ersatzschlüssel anfordern!
+  ** [ ] Liste der ausgeliehenen Dinge beim Packen anfertigen
+  ** [ ] Landkarte kaufen und Tour planen
+
+* *Beifahrer Rücklehnen Tasche*
+  ** Schlüsselband: Dachbox, Spanngurt-Fahrradträger
+
+* *Fahrzeugbox (je Beutel!)*
+  ** Schuhe:   Sportschuhe, Radschuhe, Surfschuhe, N-Sport-Merino Shirts
+  ** Kleidung: Pro Nacht: Shirt, U-Hose, Socken
+  ** Getragen: Schmutzbeutel
+  ** Zubehör:  Sonnenschutz, Basecap, Schlauchtücher, Handschuhe
+  ** Sport:    Airex-Kissen, Hantel, Bänder,...
+  ** Elektro:  USB Lader
+  ** A4-Beutel: Fährunterlagen, Wichtige Schlüssel
+
+* *Innenraum*
+  ** Notebook: Rucksack, PC, Headset, extra Maus, Monitor Kabel, ...
+  ** zweite Angeltasche, oder Kescher
+
+* *Dachbox*
+  ** Wandern:    blauer Rucksack mit Fernglas, Jacken, Picknickdecke, Leki Stöcke
+  ** Strand:     Picknick Decke, Strandmuschel
+  ** Nordic:     N-Walking Stöcke
+  ** Angeln:     Angeltasche(n), Angelrucksack (&Koffer), Kescher, Spültasche, Strandmuschel
+  ** Radfahren:  Lenkertasche, Radtaschen, Trinkflaschen, Einteiler
+  ** Funk:       Drachen, Schnüre, Antennen
+  ** Schwimmen:  Kappe, Brille, Shorty, Kälteausrüstung, Flossen, Freischwimmer-Sack
+  ** Surfen:     Surfanzug, Body-Board, Flossen, Shorty, Kälteausrüstung, Schnorchel?
+  ** Sauna Tasche?: Jever-Handtuch, Bademantel, größeres Handtuch, Badelatschen
+
+* *Bett (nur notfalls, wenn Campingplatz)*
+  ** Jacken an Türhaken
+  ** Strohhut an Magnethaken
+
+* *Oberes Regal (wichtige Dinge)*
+  ** (nachts) Brille, `Sonnenbrille`, Bose-Kopfhörer, Bluetooth Lautsprecher, Kindle, 3fach-Lader, Gürtel Kompass
+  ** ebook-Reader-kindle
+  ** Portemonnaie
+  ** Stirnlampe + Ersatzbatterien
+  ** Radflasche gefüllt
+
+* *Mittleres Regal (optional)*
+  ** [ ] Massageöl
+  ** <Bad Sack>: Elektro-Bürste Blaue & Orange-Faulenzer-Tasche, 2 gr. Microfaser-Handtücher, Badelatschen, Abzieher, Becher, Vitamin Tabletten, Plastik Tüte für Kleidung gegen Nässe
+  ** Funkausrüstung: TRX, Akku, Taste, Antenne?
+  ** Autan-Mückenspray
+  ** Ersatzbrille
+  ** Gitarre besser aufhängen?
+  ** Notizbuch mit bleistift mit Zeichenmaterial
+
+* *Unteres Regal*
+  ** 1,5l Thermos + Tauchsieder
+
+* *Küchen Box*
+  ** Große Espresso Kanne
+  ** 1l French Press oder löslichen
+  ** Trockenfutter
+
+* *Hauptsache im Bus*
+  ** 1l Motorenöl, Panzertape, Werkzeug
+  ** Fliegenschwamm, Abzieher, Spüli
+  ** Hannies Kühlbox
+  ** Tischtennisschläger
+
+* *Blauer Rucksack*
+  ** Oben: Sonnenbrille, Sonnenmilch, Geld, Schlüssel im extra Beutel
+  ** Haupt: Schwimmbrille, Handtuch, Flossen, Wasser, Snacks
+
+== Bus Fächer
+* Breite 97, Tiefe 17-21, Höhe 17 und mehr
+* Aufteilung der Materialien, nach wie oft brauche ich... u.U. Depots schaffen
+
+== Vorm Verlassen des Hauses
+* [ ] Fenster zu, 3 Türen abgeschlossen, Wasser aus, Strom aus, alles rausziehen, Toilette mit Reiniger
+* [ ] Müll raus, Blumen gießen, "Bitte keine Zeitung oder Werbung" Aufkleber
+
+== Proviant
+* [ ] Die Reis mit Linsen oder Kichererbsen Fertig-Tüten zum warm machen kann man kalt essesn
+
+== Campingplatz-Routine
+* Perso! + Fragen: Wie funktionieren die Duschen, Waschmaschine? Ist Wasser Trinkwasser? Wo ist was?
+* Alles Rausstellen bis auf Essen, Wäscheleine zum Trocknen
+* Nachtvorbereitung: Wo sind die Toiletten? Wasser, Stirnlampe klar.
+* Heißes Wasser per Tauchsieder möglich?
+* Fragen, ob man rechtzeitig morgens wieder rausfahren kann z.B. zur Fähre
+
+== Was wirklich (oder nicht) benutzt, lessons learned
+* Angeln kaum zu viel anderes, Schwimmen oft, Wandern gerne, Radfahren selten wenn alleine.
+* Body Board nicht benutzt wenn keine Wellen
+* Schlafen statt Kindle, Handy statt PC.
+* Besser vorbereiten mit Karte!
+* Schnorcheln macht Spaß
+* Wünsche: Mehr Bewegung!
+* 5000km 3000€ 3Wochen
+
+== Musik
+* L'italiano - Toto Cutugno
+
+== Offene Bus ToDos
+* [ ] Regal Stütze, Halterungsbox damit die Flaschen nicht rumfliegen
+* [ ] X2 lange Wäscheleine reicht nicht für 2
+* [ ] Genaue Abmessungen Bus bestimmen
+* [ ] Tischtennisschläger
+* [ ] 2 Weiße Funktionsshirts
+* [ ] Angelruten Rohr
+* [ ] Extra Panzertape kaufen
+* [ ] Mückennetz magnetisch
+* [ ] Neue Badehose

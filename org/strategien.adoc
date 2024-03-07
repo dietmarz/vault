@@ -1,0 +1,43 @@
+include::{root}/.inc/include.adoc[]
+
+= Strategien
+
+== Weg
+=== Vorstellung alles schon erreicht zu haben. Was gibt es mir? Und dann?
+* Alles digital, was dann?
+* Genau weiß, wie viel Geld ich brauche. Was dann?
+* Eine Strategie habe, nicht mehr arbeiten zu müssen. Was dann?
+* Ich nicht mehr arbeite. Was dann?
+* Ich Erleuchtung gefunden habe. Was dann?
+
+==== Alle Informationen Zentral
+* Alle eigenen adoc (Ideen) in einem Repository
+  ** Weniger verzetteln, da sofort auffindbar
+  ** Ziele bleiben im Focus.
+
+* Alle Docs (ebooks, pdfs) abfragbar, durchsuchbar
+* Alle Scans (Briefe, Rechnungen) durchsuchbar
+
+==== Finanziell unabhängig
+siehe link:../fnz/rente/planungs-uebersicht.adoc[Planung]
+* Du musst eine Ent-Scheidung treffen = Sammeln von Energie (Zeit, Motivation)
+  ** TODO: CM Fragen anwenden
+
+== Energie sammeln
+* bedeutet, Energie richten, bedeutet auch Energie von Dingen wegziehen! Bedeutet loslassen.
+
+== Was neues wagen, oder zuende radeln
+* Java, Web, Angular, etc.
+* yController, SDR, etc
+* Berufsschullehrer
+* Day-Trader
+
+== Lebensstil
+* Vollzeitmensch? Ignore dich selbst?
+* Teilzeitmensch auf Reisen im Warmen?
+* Freizeitmensch mit Rucksack ohne Zuhause?
+* Freizeitmensch mit Auto/Bus?
+* Warum nicht alles zu seiner Zeit?
+
+== Projekt Annahme, wie Zeit gewinnen ohne abzusagen
+* späteren Starttermin auszuhandeln. Dann muss mir aber schon klar sein, dass es sich um 2. Wahl handelt

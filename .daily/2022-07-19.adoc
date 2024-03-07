@@ -1,0 +1,103 @@
+include::{root}/.inc/include.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2022-07-19
+
+== Aufgaben
+* umstellen auf md
+* Handy Bildschirm sperre installieren
+* Dell 5401 Dockingstation bestellen
+* Componentisierung versuchen in Prime
+* GEZ anmelden
+* Obsidian lernen
+
+
+
+
+* endpukte.adoc
+* t 175 anschauen
+* Obsidian
+
+== Plan
+
+
+
+
+== WVL
+* 15.07 Hat sich Bahlburg gemeldet 1330 & GStReform
+
+Wie wir den Object mapper kondfigurieren können, damit der mit dem Enum klar kommt.
+Mapper custoermizeen.
+
+* [ ] Block 1
+* [ ] Block 2
+* [ ] Block 3
+* [ ] Block 4
+* [ ] Block 5
+
+=== t 237 Fragen u. Hilfe
+
+== Dringend und Wichtig: Heute
+
+* Neuen StB suchen
+* Sport planen, start Juli
+* 2021 Einkommenssteuer fertig
+* t grundsteuer
+
+== WVL
+
+== Morgen
+
+== Diese Woche
+* 1,0h Keller aufräumen
+* 0,5h Aktien einkaufen
+* 2,0h Steuer liste der 1800er findings durchgehen.
+* 2,0h LStJA Dokumente zusammen sammeln
+* 0,5h Vogelhaus aufbauen
+* 0,2h Schau was es für UI Stories im nächsten oder übernächsten sprint gibt
+* 0,5h 4 ultraleichte Untersetzer für Campustische?
+* 0,5h Rohr installieren unterm Tisch + Schrauben zur Befestigung DVI Switch
+* 0,5h Jetbrains Kotlin machen oder nicht
+
+== Liquidierung
+* Einzüge umbuchen oder kündigen
+
+== Werktag
+
+== WE 21.05.
+[ ] 55R Finanz Termin setzen knallhart 30 Min pro Woche fix
+[ ] 55R Andree einsehen und dokumentieren
+[ ] 55R Rentenkasse, warum weniger?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+== Notizen
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

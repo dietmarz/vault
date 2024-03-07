@@ -1,0 +1,60 @@
+include::{root}/.inc/include.adoc[]
+
+= 2022-08-07
+
+== Aufgaben
+
+* Dr Müller anrufen: 040 46 96 15 51
+* Steuerberatung bezahlen
+* Ich bin System Monitor Überwacher diesen sprint doku anlegen!
+  ** Monitor in Teams mit Thumb abhaken
+
+=== Dird
+* Dird doku prüfen, 16.08 dird,
+* Dird checkliste https://confluence.otto.de/display/PRIME/Preperations
+
+=== 283 Bug
+* Warum kann ich im Local Betrieb keine PBK anlegen? Im Docker wohl
+
+=== 194 structure fullsync
+* Info: AcceptanceTest lief in timeout wegen zu wenig speicher
+* Schauen, was noch an UnitTests fehlt
+* Anschauen für alle AttributeStructureClientIntegrationTest für AttributeSchemaContextsClientIntegrationTest  
+
+=== Sonstiges Otto
+* WVL Simon Wiesmann, Betriebsarzt, weiß wo Duschen sind
+* Buchen fertig
+
+==  Schreibtisch leer
+* Steuer berarbeiten!!!
+
+=== Prime für mich
+* Vue Kurs weiter
+* Notebokk in betrieb nehmen für Otto
+* Componentisierung versuchen in Prime
+* Selber mal die gesamte Strecke starten und testen
+* endpukte.adoc weiter
+
+=== Privat
+* Obsidian lernen
+* 2021 Einkommenssteuer fertig
+* t grundsteuer
+* 0,5h Vogelhaus aufbauen
+* 1,0h Keller aufräumen
+* 0,5h Aktien einkaufen
+* 2,0h LStJA Dokumente zusammen sammeln
+* 0,5h 4 ultraleichte Untersetzer für Campustische?
+* 0,5h Jetbrains Kotlin machen oder nicht
+
+=== Unternehmen
+* WVL GEZ Unternehmen anmelden, haben sie schon abgebucht?
+* Neuen StB suchen
+
+
+
+
+== Notizen
+
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen|
+|-------------|-----------|------|-------|------|------|
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |      |

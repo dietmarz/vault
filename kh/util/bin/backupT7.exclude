@@ -1,0 +1,10 @@
+*.log
+.npm
+.config
+.gradle
+.cache
+.local
+.gradle
+.rustup
+.m2/repository
+

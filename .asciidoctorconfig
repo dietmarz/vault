@@ -1,0 +1,10 @@
+:root: {asciidoctorconfigdir}
+:doc: {asciidoctorconfigdir}/../cloud/doc
+:office: {asciidoctorconfigdir}/../cloud/office
+
+
+////
+:linkcss:
+:stylesdir: https://darshandsoni.com/asciidoctor-skins/css
+:stylesheet: fedora.css
+////

@@ -1,0 +1,19 @@
+include::{root}/.inc/include.adoc[]
+
+= Development Know-How
+
+== Write actual snapshots as file
+
+[source,java]
+.Wohl nur in TMS-Export...
+----
+class TmsExportProcessV2IntegrationTest {
+    @SuppressWarnings("deprecation")
+    @Test
+    public void shouldAlwaysUseSameTmsReference() {
+        kn.knlogin.esp.tmsexport.test.JsonSnapshotMatcher.writeSnapshot(myObj, "myJson.json");
+    }
+}
+----
+
+

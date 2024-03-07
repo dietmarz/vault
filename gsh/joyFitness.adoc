@@ -1,0 +1,14 @@
+include::{root}/.inc/include.adoc[]
+
+= joyFitness
+
+== Trainingsplan
+15 Wdh, 3-4 Sätze 60-90s Pause
+Warmup Crosstrainer, Rudern
+
+01 20 Beinpresse     4x15 77Kg
+02  D Hyperextension 3x15 ohne
+03 16 Rudermaschine  3x15 40Kg
+03 14 Reverse Fly    3x15 35Kg
+03 12 Latzug         3x15 65Kg
+04 18 Brustpresse    4x15 35Kg

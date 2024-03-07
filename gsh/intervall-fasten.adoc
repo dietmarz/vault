@@ -1,0 +1,29 @@
+include::{root}/.inc/include.adoc[]
+
+= intervall-fasten
+
+video::HZx1wGgwdm4[youtube]
+
+== Autophagie durch Ayurveda
+1.) Intervallfasten nur 2 Mahlzeiten. 1/2 fest, 1/4 flüssig, 1/4 leer
+2.) Sport
+3.) Eiweiß Restriktion
+4.) Höhentraining, Sauerstoffmangel in Bergregionen
+5.) Polypfhenole: Gemüse,
+6.) Sauna!
+
+
+== AGE advanced glycation end products
+
+video::dublPCEM-mM[youtube]
+
+* Vermeidung wenn
+  ** Nahrung frisch, roh (nicht abends) oder schonend gegart also lieber dünsten statt braten.
+  ** Nie erhitztes Eiweiß mit Zucker zusammen
+
+* Keine gebratenen oder gerösteten Eiweiße mit Kohlenhydraten kombinieren
+  ** Honig nie erhitzen
+  ** Sorbet statt Eis
+  ** Pasteurisierte statt H-Milch
+  ** Jegliches Fastfood, alle industriell zubereiteten Lebensmittel meiden
+

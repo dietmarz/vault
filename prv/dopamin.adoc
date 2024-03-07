@@ -1,0 +1,80 @@
+include::{root}/.inc/include.adoc[]
+
+= Mind
+
+== Dopamin
+video::2ynnmNTKwCw[youtube]
+* Dopamin ist wie eine Batterie und jede vergnügliche Aktivität erschöpft sie.
+* Wer Dopamin durch Video Spiele, Soziale Medien in die höhe treibt, wird Schwierigkeiten haben sich zu motivieren
+* Lösungen
+  ** Wiederstehen der Versuchung, die Dinge immer so angenehm (perfekt?) wie möglich zu gestalten, sorge für Abwechslung,
+   manchmal Musik hören, manchmal nicht...
+  ** Wenn man sich dafür belohnt, macht einen die Tätigkeit selber weniger Spaß.
+  ** Machen Sie die *Anstrengung* zum Vergnügen, nicht die Belohnung oder das Drumherum oder die Freunde.
+   (Liebe das Fasten, nicht das Essen am Ende es fasten Intervalls.)
+  ** Sie sollten lernen, Ihr Dopamin durch die Anstrengung selbst zu erhöhen
+
+=== Dopamin fasten
+* https://medium.com/swlh/dopamine-fasting-2-0-the-hot-silicon-valley-trend-7c4dc3ba2213[fasten]
+  ** Put the stimulus (like your phone) away or make it harder to access.
+  ** Engage in an alternative activity that is incompatible with the stimulus (Sport?)
+  ** Use website-blocking software or social accountability to prevent yourself from cheating.
+
+.[.red]#Wichtig Lernen!#
+****
+We can also naturally expose ourselves to the internal stimuli (negative emotions), without engaging in the conditioned response (grabbing for our phone), which is another (Cognitive-Behavioral Therapy)-based technique called “exposure and response prevention”.
+
+1) Notice when the impulses arise, and what thoughts and feelings you’re experiencing in that moment.
+
+2) Practice “urge surfing”: watch the desire to engage in the conditioned response come and go without giving into it.
+
+3) Repeatedly returning to whatever you are doing on instead, with a spirit of non-judgement.
+****
+
+* Fasten planning against: Emotional eating, internet, porn, thrill & novelty seeking
+  ** 1–4 hours at the end of the day (depending on work & family demands)
+  ** 1 weekend day (spent it outside on a Saturday or Sunday)
+  ** 1 weekend per quarter (go on a local trip)
+  ** 1 week per year (go on vacation!)
+  ** (Or allow it for 3? times per 5min per day and do a note in t when it happened)
+
+
+=== Urge Surfing
+* https://portlandpsychotherapy.com/2011/11/riding-wave-using-mindfulness-help-cope-urges/[source]
+
+. Was am wichtigsten ist, ist, dass Sie bemerken, wo in Ihrem Körper Sie den Drang am meisten bemerken, wenn er auftaucht.
+. Richten Sie Ihre Aufmerksamkeit darauf. Wie fühlen sich die Empfindungen an?
+  Fühlt es sich an wie Druck, Kribbeln, Wärme oder Kälte?
+  Wie viel Platz nehmen diese Empfindungen an dieser Stelle in Ihrem Körper ein?
+. Lenken Sie Ihre Aufmerksamkeit auf Ihren Atem. Sie müssen Ihre Atmung überhaupt nicht ändern.
+  Nehmen Sie für die nächsten 1-2 Minuten
+. Verlagern Sie Ihre Aufmerksamkeit sanft zurück zu den Körperteilen, an denen Sie den Drang bemerken. Erlaube dir,
+  wahrzunehmen, welche Empfindungen an diesen Orten hochkommen. Wenn es überwältigend wird, die Empfindungen zu bemerken,
+  lenken Sie Ihre Aufmerksamkeit für einige Momente sanft zurück zum Atmen und kehren Sie dann zurück,
+  um die mit dem Drang verbundenen Empfindungen wahrzunehmen. Vielleicht findest du es hilfreich, dir vorzustellen,
+  wie du deinen Atem zu den Teilen deines Körpers schickst, die mit dem Drang in Verbindung stehen (z. B. kannst du in
+  deine Schultern atmen und deinen Atem diesen Teil deines Körpers füllen lassen). Achte darauf, ob und wie sich die
+  Empfindungen verändern, während du sie beobachtest. Achten Sie darauf, diesen Schritt mindestens 1 Minute lang zu
+  üben, aber länger ist wahrscheinlich besser.
+. Dieser nächste Schritt ist optional, aber ich habe ihn in meinem eigenen Leben und in der Arbeit mit Menschen mit
+  Sucht als hilfreich empfunden. Stellen Sie sich vor, dass die mit Ihrem Drang verbundenen Empfindungen eine Welle
+  sind. Beobachten Sie, wie die Welle immer wieder steigt und fällt, während die Intensität Ihrer Empfindungen ihren
+  Höhepunkt erreicht und abklingt. Deine Aufgabe ist es, deinen Atem als Surfbrett zu benutzen, um auf diesen Wellen
+  zu reiten. Egal wie groß die Welle wird, egal wie sehr Sie das Gefühl haben, dass die Welle Sie verschlingt, Sie sind
+  ein erfahrener Surfer und Sie werden Ihren Atem nutzen, um jede Welle zu reiten, wie sie kommt. Üben Sie dies
+  mindestens 1 Minute lang, aber länger ist wahrscheinlich besser, besonders die ersten Male, wenn Sie dies üben.
+. Während Sie auf der Welle reiten (oder nur die Empfindungen wahrnehmen), finden Sie es vielleicht hilfreich, die
+  Empfindungen stillschweigend auf objektive und wertfreie Weise zu beschreiben (z. B. ich bemerke eine Wärme in meinem
+  Bauch, die zunimmt … die Wärme in meinem Bauch nimmt ab und mein Bauch fühlt sich kühler an).
+. Wenn Sie mit dem Surfen fertig sind, nehmen Sie sich einen Moment Zeit, um sich selbst dafür zu danken, dass Sie
+  sich die Zeit genommen haben und bereit sind, etwas anderes mit Ihrem Drang zu tun. Sie können diese Zeit auch
+  nutzen, um Ihre Absicht für die nächsten Minuten, Stunden oder Tage festzulegen.
+
+== Gedanken
+* Jeder Gedanke beruht auf einen Mangel oder auf ein Ungefühltes.
+  ** Frage im Bewusstsein, was ist der auslösende Mangel? Und beende die Energieverschwendung
+
+== Vom Traumverwalter zum Traum realisierer
+* "Lesen Sie hier!"
+* Vielleicht zwangsweise Zeit zuweisen, und nicht erst die "wichtigeren" Dinge zuerst, sondern diese Zeit einem
+  anderen Budged nehmen. Nur das machen, was man wirklich "cm-möchte"

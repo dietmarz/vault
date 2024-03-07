@@ -1,0 +1,9 @@
+include::{root}/.inc/include.adoc[]
+
+= Fonds Rentenversicherung
+
+* link:/home/dietmar/cloud/office/Finanz/Rente/Zurich-FondsRente-2FV1421219/[cloud]
+
+* Rentenbeginn:
+
+==

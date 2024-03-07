@@ -1,0 +1,56 @@
+include::{root}/.inc/include.adoc[]
+
+= Urlaub
+
+* Resturlaub verfällt erst zum 31.03.23 das sind 9 Tage Stand 27.12.
+* Neue Anweisung: https://wiki.int.kn/pages/viewpage.action?pageId=414409209
+
+== Urlaub Beantragen Übersicht
+* In Outlook als Termin
+* In Jira Zeiten
+* In SThree als Antrag
+* Andi Google Calendar eintragen
+* In Google-Drive als eigenes Spreadsheet
+
+=== Jira
+* In Jira -> Tempo -> MyWork anpassen!
+
+=== Outlook
+* Neue Besprechung
+* An webdev-esp-io <webdev-esp-io@Kuehne-Nagel.com>
+* Button Räume -> "OneESP Team Absence" (Button direkt neben dem Feld Ort)
+* Betreff: "Dietmar on vacation"
+* Datum ändern
+* Ganztägiges Ereignis anhaken
+* Anzeigen als: Frei
+* Erinnerung: Ohne
+
+=== SThree
+* In SThree Urlaub genehmigen lassen
+
+* https://wiki.int.kn/pages/viewpage.action?pageId=414409209[KN-Anleitung]
+
+=== SThree
+* Im Menu, unter Urlaub. So wie die anderen auch
+
+=== Google Drive
+* https://docs.google.com/spreadsheets/d/1zPzguiN9h1_ZfRWTVYPPTJNkTX88fK6Qlu1_si0cIkM/edit#gid=0[Tabelle]
+https://docs.google.com/spreadsheets/d/1bWKZUZ6lhmsPfpYM3ZEIekcORt_BA7_wLoHMOpmizFQ/edit#gid=0[2024 m. Andrea]
+
+== Vor Antritt
+* Jira -> Tempo -> MyWork fertig buchen für die Monate
+* In Mattermost esp-out-of-office bekanntgeben
+* Automatic Reply in Office
+  ** Datei -> Automatische Antworten
+----
+Dear Sender,
+
+I am currently out of office and will be back at work on Mmmmm DD.
+Your emails will not be forwarded or read during my absence.
+
+Kind regards,
+Dietmar Zabel (Team IO)
+----
+
+== Nach Urlaub
+* In Goolge Calendar als genommen markieren

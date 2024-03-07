@@ -1,0 +1,61 @@
+include::{root}/.inc/include.adoc[]
+
+= Vermieten
+
+== Studentenzimmer per ebay-kleinanzeigen
+* steuerlich nicht nachvollziehbar
+
+* ?Trockner
+* ?Lankabel
+* Küche
+* [ ] Beschreibung
+  ** wen ich mir wünsche, was ich biete
+
+* [ ] Genauer Putzplan
+
+
+
+
+
+
+
+
+== Airbnb Experiment Todo
+
+#Fazit: Lieber nicht#
+* https://www.airbnb.de/resources/hosting-homes/a/the-amenities-guests-want-25[src]
+
+=== Dagegen
+* https://tom.alby.de/blog/erfahrungen-als-airbnb-vermieter/[src]
+* https://www.uniturm.de/magazin/finanzen/bei-airbnb-wohnung-vermieten-ein-erfahrungsbericht-1463[src]
+
+* Was wenn vermietet, ich aber wegfahren will
+
+=== Missing parts
+* Eigenständiger Checkin
+  ** ?CodeBox besorgen
+
+* Ein Dusch Handtuch
+* Ein Toiletten Handtuch
+
+* Eine Decke
+* Ein Kopfkissen
+* Bettwäsche
+* Einwegpapierhandtücher;
+* Einweghandschuhe;
+* Universalreiniger;
+* Desinfektionstücher oder -spray;
+* antibakterielles Handdesinfektionsmittel.
+* ?Trockner
+* Extra Putzmittel
+* Grundausstattung Shampoo und Spülung
+* Kaffee Tee / Pads maschine
+* Kleiderbügel
+* Adapter Ladegeräte
+* Büromaterial, Drucker
+* Weingläser
+* ?Doppelbett
+* ?TV
+* Reisehilfe Blatt nach HH
+* Wasser und Obst im Zimmer anbieten
+* Bio Schokolade auf dem Tisch

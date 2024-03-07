@@ -1,0 +1,62 @@
+video::icIosLjHu3I[youtube]
+video::vcfvjA1P5rw[youtube]
+
+
+== Basics
+* Queue: Only one Consumer per Message!
+* Topic: Every consumer gets the Message
+
+* 3 Component types
+  ** Producer (Sender = Endpoint)
+  ** Consumer (Receiver = Endpoint)
+  ** Pipe (called channel)
+
+* Talks with Messages / Events to each other
+* Producer Pipe Consumer are stackable
+* Message = Header + Properties + Payload
+
+== Types of Message Endpoints
+* *Adapter*
+  ** Connects channel to external system
+  ** Are inbound (= into the channel) or outbound (= out of the channel)
+  ** Symbol spitzes Viereck mit 2 parallele lineien
+  ** Ready to use adapters for: Stream, File, JMS, JDBC, FTP, RSS, Mail, Mongo, UDP, Twitter...
+
+* *Filter*
+  ** Selection via Header or Payload
+  ** Ready to use for: Expression Filter, Xpath Filter, XML Validation Filter
+  ** CustomFilter implements MessageSelector interface
+* Transformer
+  ** eg xml to json, java-objects,
+
+* *Router*
+  ** Take from inbound to outbound channel
+  ** `Content Router` examine the incoming message
+  ** `Recipient list` routers deliver to all recipient channels
+
+* *Enricher*
+  ** is variant of transformer
+  ** symbol is Square arrow Bigger-Square
+* Service activator
+  ** Calls a Service an optionally returns the response to the outbound channel
+  ** ServiceBean does not need to implement an interface, it is registered within SI
+  ** ServiceBean Method argument could be Message or AnyType means the Type of Payload or no Argument, just for Event triggering
+
+* *Gateway*
+  ** Serves as a facade to a SI system, it hides any SI msg API from your application
+  ** eg: interface defining methods with `@Gateway(requestChannel="targetChannel"")`
+  ** Symbol Arrow to outbound square
+
+== Message Channels (=Pipe)
+Two generated types of channels
+
+* Pollable Channel
+  ** Used as buffer
+  ** Point to point, not for multiple User, who did pull?...
+  ** Often used for Documents
+
+* Subscribable Channel
+  ** Multiple subscribers are informed each subscriber
+  ** Not buffering its messages
+
+

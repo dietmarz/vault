@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd $(pwd)
+if [[ `git status --porcelain` ]]; then
+  echo ERROR: Modified files, stop format checking!
+  git status -s
+else
+  echo Start checking format....
+  ./githooks/jenkins/check-formatting.sh
+fi

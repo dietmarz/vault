@@ -1,0 +1,148 @@
+include::/home/dietmar/cloud/customer/Otto/msg/inc/templateInclude.adoc[]
+
+= openssl
+
+* Source: https://www.udemy.com/course/encryption-for-beginners-with-openssl/
+
+== Symmetric Encryption
+Das `pass:` gehört nicht zum passwort!
+
+.En- and decrypt message.txt
+[source, shell script]
+----
+# Encryption
+openssl enc -aes-256-cbc -in message.txt -out message.txt.enc --pass pass:MY-PASSWORD
+
+# Decryption
+openssl enc -aes-256-cbc -d -in message.txt.enc --pass pass:MY-PASSWORD
+----
+
+== Asymmetric Encrypt and decrypt a file
+* Max size of encrypted file depends on the algorithm but is very small, so you encrypt a symmetric key with asymmetric
+  algorithm und use the symmetric algorithm to encrypt large files
+* pem = privacy enhanced mail
+* Never generate the same key again
+* Size starts at 512 to 16384
+* Every key has a header type: (PRIVATE, PUBLIC, CERTIFICATE)
+  **  starting with `-----BEGIN RSA` <KEY-TYPE> `KEY-----`
+  ** ending   with `-----END RSA` <KEY-TYPE> `KEY-----`
+
+.Generate keys
+[source, shell script]
+----
+# Generate private key, use `-des3` for encrypted private key
+openssl genrsa -out myPrivate.pem 1024
+
+# Generate public key
+openssl rsa -in myPrivate.pem -outform PEM -pubout -out myPublic.pem
+
+# Encrypt private key afterwards
+openssl rsa -in myPrivate.pem -des3 -out myPrivate_enc.pem
+
+# Decrypt private key afterwards
+openssl rsa -in myPrivate_enc.pem -out myPrivate-2.pem
+----
+
+.Encrypted private key looks:
+----
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: DES-EDE3-CBC,36B22D4C3486F342
+----
+
+.Extract information about the key
+[source, shell script]
+----
+# -noout: Dont show private key on console at the end!
+openssl rsa -in myPrivate.pem -text -noout
+----
+
+
+.Exchange bigger files using asymmetric and symmetric encryption from User1 to User2
+[source, shell script]
+----
+# Generate private key (`-des3` means with password)
+user1 $>openssl genrsa -des3 -out user1_private_key.pem 2048
+
+# Generate public key
+user1 $>openssl rsa -in user1_private_key.pem -outform PEM -pubout -out user1_public_key.pem
+
+# Same for user2
+user2 $>openssl genrsa -des3 -out user2_private_key.pem 2048
+user2 $>openssl rsa -in  user2_private_key.pem -outform PEM -pubout -out user2_public_key.pem
+
+# Send public key to user1
+user2 $>cp user2_public_key.pem ../user1
+
+# Create random key for symmetric encryption
+user1 $>openssl rand -hex -out user1_random_key.hex 64
+
+# Create big, secret file
+user1 $>echo "Big secret here." > confidential.txt
+
+# Symmetric encrypt the confidential.txt using the random key
+user1 $>openssl enc -aes-256-cbc -salt -in confidential.txt -out confidential.txt.enc -pass file:./user1_random_key.hex
+
+    *** WARNING : deprecated key derivation used.
+    Using -iter or -pbkdf2 would be better.
+
+# Asymetric encrpyt the random key using the public key of user2
+user1 $>openssl rsautl -encrypt -inkey user2_public_key.pem -pubin -in user1_random_key.hex -out user1_random_key.hex.enc
+
+# Send User2 Encrpyted random key and encrypted message
+user1 $>cp user1_random_key.hex.enc confidential.txt.enc ../user2
+
+# User2 encrypt the random key using prviate key and asymmetric encryption
+user2 $>openssl rsautl -decrypt -inkey user2_private_key.pem -in user1_random_key.hex.enc -out user1_random_key.hex
+
+# User2 encrypt the confidential file using symmetric encryption and the random file
+user2 $>openssl enc -d -aes-256-cbc -in confidential.txt.enc -out confidential.txt -pass file:./user1_random_key.hex
+
+# Now User2 can read the confidential.txt file
+----
+
+== md5checksum
+
+.Helpful
+[source, shell script]
+----
+$> ls
+msg1.txt msg2.txt
+
+$> md5sum *
+d535a8cbc5ea90ce5f690231b551cf47  msg1.txt
+7494ab07987ba112bd5c4f9857ccfb3f  msg2.txt
+
+$> md5sum * > msg.md5
+
+$> md5sum -c msg.md5
+msg1.txt: OK
+msg2.txt: OK
+----
+checking a file from Internet using sha256 with `sha256sum <file>`
+
+== Digital Signiture
+To verify a content and origin for:
+* Digitally signed documents
+* SSL Certificates
+
+----
+# At sender
+fileHash1 = Hash(file)
+encFileHash1 = Encrypt(PrivateKeySender, fileHash1)
+
+[File + encFileHash1] transfered.
+
+# At receiver
+fileHash2 = Hash(file)
+fileHash1 = Decrypt(PublicKeySender, encFileHash1)
+
+Get PublicKeySender from trusted source!
+if fileHash2 == fileHash1 -> Content not changed && sender is trusted
+----
+
+
+== Encrypt using private, decrypt using public key
+* So everybody knows who was the origin. But decrypt the whole message is unnecessary because the message
+  themselves is public, so why not let the message clear und encrypt with private key (=signing) the hash value.
+  This way it is more comfortable and no lack of security happens anyway.

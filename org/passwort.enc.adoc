@@ -1,0 +1,9 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= Passwort
+
+//-----BEGIN MESSAGE-----
+wrXDqMOAw4/Dk8ORw4PCmm7Cr29bwovDi8K4w5/Cs8OZwr/DpMOHwrnDk3/C
+sMOSwrFrOsOAw5XCqsK7w5d/w43DlsOIw4LCpcKnw5rCrMK1w4fDhcOAw5XC
+rcKaw5HDnMOYwrrDiMOEwrHDjsKqwqLCp8OEw6TCssK0w6nCtsOPw5fDhMK1
+wqrCn8OrwqPCsg==

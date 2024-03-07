@@ -1,0 +1,154 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2024-01-18
+
+== Aufgaben 
+Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus
+
+* 4DX anwenden: 1 Ziele bestimmen 2 Messparameter 3 Board 4 Meetings
+* Use backlog to keep overview in daily work
+* link:../prv/backlog.adoc[BackLog]
+
+
+
+
+== Heute
+
+.Abrechnung für Monat: Dezember 2023
+Amazon letzter Artikel: Docht 6 Meter 11. Januar
+Udemy  letzter Artikel: 20.11. Python
+ebay   letzter Artikel: Logitech Web Cam
+|===
+| [x] | Kopieren           | Diese Liste in das Daily kopieren und Monat richtig setzen, damit grep Fähigkeit hergestellt.
+| [x] | Postkasten         | Ggf. Stempeln und Scannen
+| [x] | Portemonnaie       | Ggf. Einkleben
+| [x] | Selfhost           | https://selfhost.de/cgi-bin/selfhost?p=account&cat=rechnung&CGISESSID=090ed7dc07cc73a1f6237252daa8d67f[Selfhost-Login]
+| [x] | Amazon             | https://www.amazon.de/gp/css/order-history?ref_=nav_AccountFlyout_orders[Meine Bestellungen]
+| [x] | Amazon Messages    | https://www.amazon.de/gp/message#!/inbox
+| [x] | Email              | https://mail.google.com/mail/u/0/?pli=1#advanced-search/subset=all&attach=true&within=1d&sizeoperator=s_sl&sizeunit=s_smb[Gmail m. Anhang]
+| [x] | Ebay zur Prüfung   | https://www.ebay.de/mye/myebay/v2/purchase[Ebay gekauft]
+| [x] | Udemy              | https://www.udemy.com/dashboard/purchase-history/[Udemy-Gekauft]
+| [x] | Bhhz Digital       | https://portal.buchholz-stadtwerke.de/powercommerce/ivu/fo/portal/invoiceDetails[Bhhz-Digital]
+| [x] | HVV                | https://shop.hvv.de/personal_data/orderList[HVV-Login]
+| [x] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank]
+| [x] | Auszüge Skat       | https://www.vrbank-altenburgerland.de/services_auth/auth-ui/?v=5ff448423447dee6&client_id=fkp&redirect_uri=https:%2F%2Fwww.vrbank-altenburgerland.de%2Fservices_cloud%2Fportal%2Fportal-oauth%2Flogin[Skat Bank]
+| [x] | Umsätze QCC prüfen | Ggf. An Frau Bahlburg senden
+| [ ] | Auszüge Flatex     | https://www.flatex.de/#[Flatex Bank]
+| [x] | EWE Tel Handy      | https://mein.ewe.de/ewetelcss/secure/billingOverview.xhtml[EWE-Tel-Login]
+| [x] | Invest tätigen     | Was, wie, welche Strategie?
+| [x] | Chat GPT           | Im Portal kann man Rechnungen downloaden
+| [x] | Scan Ordner leeren | vorher syncSmb
+| [x] | Besonderheiten     | WVL und offene Dinge notiert im Daily
+| [x] | Ordern sync        | git office & sv, ganz zum Schluß
+| [x] | Mail               | Mail an Frau Bahlburg
+|===
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Eichengrund Übertragungsvertrag
+* [ ] Fdw 30 01 Schreiben an Schapp aufsetzen.
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== OLB OberesJüchen Anlage
+* [W] F   10 01 Stadt Esens, Anfrage Kontowechsel als Pfandgläubiger
+* [W] F w 00 01 WVL OLB gibt, wartet auf Stadt Esens
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Bewerbungen
+* [W] FD  00 01 Antworten Leonhard Krauss mit Referenzen. Leonhard die Daten von Jürgen geschickt 17.01
+* [ ] Jdw 02 12 Was machen die Bewerbungen? https://docs.google.com/spreadsheets/d/1iJZIE0leBKod_TWfXyiVQ0Gmvw_JyV04gIuhUIqP0uQ/edit#gid=833871327[Bewerbung]
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Steuern
+* [ ] FDW 60 12 Cosmos direkt abarbeiten, bei Fr. Bahlburg melden, warum hat sich cosmos nicht gemeldet?
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Arbeitslosengeld
+* [W] FdW 10 01 Fehlt immer noch die Arbeitsbescheinigung von SThree?
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Gesundheit
+* [ ] G W 10 01 Orthopäde Termin besorgen
+* [ ] G W 30 01 Urologe besuchen
+* [ ] F   30 12 KKasse wechseln
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Eichengrund Schimmel
+* [ ] Fdw 10 12 Eichengrund Schimmel Bestandsaufnahme Schimmel Dokument fertig. Wie weiter? Raveling?
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Haus
+* [ ] P w 99 01 Stuben Regal bauen.
+* [ ] H   30 12 Ladestecker bauen -> PausenJob
+* [ ] H   30 01 Vogeltränke brennstoff entsorgen
+* [ ] Hdw 60 01 Stromfresser finden, was ist mir son Server wert.
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Lernen
+* [ ] Jdw 99 12 Projekt Wecker / Uhr Website starten
+  ** Vue, Spring-boot
+* [ ] Udemy Kurs DDD ist echt gut!
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+* [ ] Jdw 60 12 Plan erstellen! link:plan.adoc[Plan]
+
+
+
+
+
+
+
+
+
+Zentrale Software Resoucen verteilung. Agiles, Java Springboot. Angular
+
+4 Personen, 1 java, 2 DPort in, Ende Pharse 1, suchen seniorigeren Entwickler
+6 Monate eher langfristig. Nahezu 100% Remote. Projekte Standort HH. Realität nachezu 100% Homeoffice wenn dann in HH
+Bremen unwichtig.
+
+* mittwoch | donnerstag
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Neue Firma
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== JIRA-12345 Titel
+* https://jira/JIRA-12345[JIRA]
+* link:../.ticket/12345.adoc[Ticket]
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

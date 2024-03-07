@@ -1,0 +1,43 @@
+include::{root}/.inc/include.adoc[]
+
+= 2022-08-22
+
+== Aufgaben
+* DHL Einlager 
+* Alle Services testen
+* Skillmatrix
+
+* Packen
+* 
+=== Privat
+* Obsidian lernen
+* 2021 Einkommenssteuer fertig
+* t grundsteuer
+* 0,5h Vogelhaus aufbauen
+* 1,0h Keller aufräumen
+* 0,5h Aktien einkaufen
+* 2,0h LStJA Dokumente zusammen sammeln
+* 0,5h 4 ultraleichte Untersetzer für Campustische?
+* 0,5h Jetbrains Kotlin machen oder nicht
+
+=== Unternehmen
+* WVL GEZ Unternehmen anmelden, haben sie schon abgebucht?
+* Neuen StB suchen
+
+
+
+
+== Einsortieren
+* source https://www.youtube.com/watch?v=3NSkk31vFbU
+  ** Plan night before, goals
+  ** Stay seated
+  ** Hide phone
+  ** Rewards!
+  ** Settings Standards
+
+
+== Notizen
+
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen|
+|-------------|-----------|------|-------|------|------|
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |      |

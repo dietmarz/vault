@@ -1,0 +1,32 @@
+include::{root}/.inc/include.adoc[]
+
+= Urlaub
+
+== Aktuell Optionen
+* CM
+  ** + Andrea, Sorglos, Yoga, Zeit für mich
+  ** - Wdh,
+
+* CM-Elbe
+
+
+
+== Planungshilfe
+* https://map.campwild.org/places/7081
+
+== Großer 4 Wochen Urlaub, Neuseeland
+* Sam 02.12.2023 bis Die 01.01.2024
+
+=== Hinflug HH - Singapur
+
+=== Hinflug Singapur - Auckland
+* am 04
+
+* HH - Singapur -Auckland 1500€ direkt Hin & Zurück
+
+
+=== Rückflug Auckland - Hawaii
+* 24.12 Neuseeland nach HNL
+* https://www.opodo.de/travel/?landingPageType=PASSENGER&searchMainProductTypeName=FLIGHT&utm_medium=crm&utm_source=sg&utm_campaign=t&utm_term=share_flight&mktportal=T&searchId=176117017720&fareItineraryKey=0,1A_0&segmentKey0=0,NZ10&sharePrice=424.07#results/type=O;dep=2023-12-24;from=AKL;to=HNL
+
+*

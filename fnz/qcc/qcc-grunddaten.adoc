@@ -1,0 +1,46 @@
+include::{root}/.inc/include.adoc[]
+
+= Grunddaten Quality Code Consulting UG
+
+Kapital: 	1,00 EUR
+
+start KK Freiwillig: 01.09.2008
+letzter Arbeitstag Ethalon 30.11.2010 -> Selbständigkeit
+
+== Laufzeit
+* Gründung 1 *16.08.2011*
+  ** 2011.08.16 Gründung Gesellschaftervertrag vom 16.08.2011 <<HRB-1>>
+  ** 2011.08.30 Eintragungsdatum <<HRB-1>>
+
+* Liquidation 1 *16.03.2016*
+  ** 2016.03.16 Protokoll: Die Gesellschaft ist aufgelöst<<<PRO-3>>
+  ** 2016.03.21 Liquidation-1: Die Gesellschaft ist aufgelöst Eintragungsdatum <<HRB-1>>
+
+* Gründung 2 *22.05.2017*
+  ** 2017.05.22 Besuch Notar: Beschluss 2016.03.16 aufgehoben, Fortsetzung beschlossen <<PRO-2>>
+  ** 2017.05.30 Die Gesellschaft wird fortgesetzt Eintragungsdatum <<HRB-1>>
+
+* Liquidation 2 *31.12.2022*
+  ** 2022.12.22 Unterzeichnung Liquidation <<PRO-1>>
+  ** 2022.12.31 Liquidation-2, Protokoll: Die Gesellschaft wird zum 31.12.22 aufgelöst. <<PRO-1>>
+  ** 2023.01.10 Beglaubigung vom Notar <<PRO-1>>
+  ** 2023.01.12 Die Gesellschaft ist aufgelöst, Eintragungsdatum <<HRB-1>>
+
+[bibliography]
+- [[[HRB-1]]] file:///home/dietmar/cloud/office/Unternehmen/Vertraege/Handelsregister/2024-01-30_NI-Tostedt_HRB_203065-CD.pdf
+- [[[PRO-1]]] file:///home/dietmar/cloud/office/Unternehmen/Vertraege/Handelsregister/2022-12-22_21255_HRB203065_PRB_R_27096068_61366.pdf
+- [[[PRO-2]]] file:///home/dietmar/cloud/office/Unternehmen/Vertraege/Handelsregister/2017-05-22_21255_HRB203065_ANM_R_16030299_75258.tiff
+- [[[PRO-3]]] file:///home/dietmar/cloud/office/Unternehmen/Vertraege/Handelsregister/2016-03-16_21255_HRB203065_ANM_R_13941782_37159.tiff
+
+== Nummern und IDs
+* Lei Nummer
+LEI: 894500WQYVTR1R6SMQ53
+
+
+* Handelsregister Amtsgericht Tostedt HRB 203065
+* Ust-Id-Nr: DE 278916624
+* Steuernummer: 15/200/25081
+
+== VBG Unfallversicherung QCC
+* UNR.S: 6934 7641 8389 001
+

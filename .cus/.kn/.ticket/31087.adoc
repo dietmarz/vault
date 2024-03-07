@@ -1,0 +1,9 @@
+include::{root}/.inc/include.adoc[]
+
+= 31087
+
+https://jira.int.kn/browse/KNOMP-31087[Ticket]
+
+== Ausbauen Reporting Remove EventStoreWorkflow
+
+* EventStoreQueueConfiguration

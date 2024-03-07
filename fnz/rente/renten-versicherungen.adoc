@@ -1,0 +1,31 @@
+include::{root}/.inc/include.adoc[]
+
+= Versicherungen
+
+* link:/home/dietmar/cloud/office/Finanz/Rente/Cosmos-Directversicherung-3860585/[cloud]
+
+
+
+
+
+
+== Schichtenmodell
+* Schicht I: Unflexible, da nur als Rente. Keine Auszahlung. Pfändungssicher
+  ** Dietmar: Gesetzliche Renten Versicherung
+  ** Dietmar: Cosmos Rürup Basisrente 201139069
+  ** Karin: Versorungswerk
+
+* Schicht II: Man kann evt am Ende wählen zwischen Auszahlung oder Rente. Pfändungssicher
+  ** QCC: Zurich Betriebliche Altersversorung Direktversicherung
+  ** Dietmar: Cosmos Directversicherung
+  ** Karin: Zurich Betriebliche Altersversorgung Directversicherung
+
+* Schicht III: Voll flexibel, Privat
+  ** Dietmar: Zurich Fondsrente
+
+
+
+Zurich 01FV-1421219 Private Rentenversicherung. Auszahlung oder Rente. Fondsgebunden. Mindest das was einging. Nicht-Pfändungssicher, Kein Fondswechsel möglich.
+
+Zurich 02FV-1421219  ist jetzt Privat und war eine Betriebliche Alterversogung mit der Nummer 1FV-1794945
+Steuerberater fragen: Gehaltsumwandlung vom Brutto oder Firmenfinanziert vom Brutto der Firma. Läuft momentan privat

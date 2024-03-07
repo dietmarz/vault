@@ -1,0 +1,409 @@
+include::{root}/.inc/include.adoc[]
+
+= Installation of new notebook
+
+== VMWare
+* Keine eigenen Partitionen, alles Standard
+* Mem: 32GB
+* Processors: Number of Cores/Processor=1 ; enable VT-x/EPD, CPU Performance Counter IOMMU
+* Display: disable Accelerate 3D graphics
+* Network NAT
+
+== Als aller erstes
+Wenn sich noch ein Win10 auf dem Rechner befindet, Bios und Dockingstation updaten!
+
+Erase disk and install Linux Mint
+Advanced-Options: Check Use LVM with new Linux installation
+Check Encrypt the new Linux mint installation for security
+
+== Bios settings [F2]
+* General Section -> Boot Sequence -> select UEFI
+* System Configuration> SATA Operation -> select AHCI
+* Secure Boot -> Secure Boot Enable, select Disabled!
+* Disable any security for Thunderbold
+
+== Backup
+Sichern /home/dietmar, /opt, /etc, Bookmarks, Screenshot vom Desktop
+
+USB Stick erzeugen, booten, Verschlüsselung 
+Paketquellen Source neu auswählen
+
+zum Panel hinzufügen: Workspaceswitcher, Systemmonitor
+
+.System updaten
+----
+sudo apt-get update
+sudo apt-get upgrade
+----
+
+Neu booten
+
+.vim installieren
+----
+sudo apt install vim
+----
+
+.No splash screen
+----
+sudo vim /etc/default/grub
+  From: GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+  To:   GRUB_CMDLINE_LINUX_DEFAULT=""
+sudo update-grub
+----
+
+
+.ssh
+----
+.ssh Ordner koieren, aber knownhosts löschen
+----
+
+
+
+.keypassXc
+----
+# Bei Bedarf
+  snap remove keepassxc
+sudo add-apt-repository ppa:phoerious/keepassxc
+sudo apt update
+sudo apt install keepassxc
+# Falls ein passwort in die Zwischenablage kopiert werden soll
+sudo apt install xclip
+----
+
+.chromium
+----
+# Bei Bedarf
+  sudo snap remove chromium
+  sudo snap remove chromium-ffmpeg
+
+sudo apt install chromium
+# sudo apt install chromium-codecs-ffmpeg-extra // Wahrscheinlich unnötig
+* Settings->Appearance: Disable Show Bookmars bar, Use system title bar
+* Disable : chrome://flags/#enable-quic  // Youtube blocker
+
+Add search engine with google, @g, "https://www.google.com/search?q=%s"
+
+* Disable : "Offer to save passwords"
+
+----
+
+
+
+.snap installieren
+----
+# Browser funktionieren nicht mit keepassXc wenn aus snap installiert
+sudo mv /etc/apt/preferences.d/nosnap.pref ~/Documents/nosnap.backup
+sudo apt update
+sudo apt install snapd
+sudo snap install chromium
+sudo snap install chromium-ffmpeg
+sudo snap install --classic code
+sudo snap install gimp
+----
+
+.git
+----
+restore .gitconfig from backup
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt update
+sudo apt install git
+sudo apt-get install kdiff3
+sudo apt-get install gitk
+
+git clone git@bitbucket.org:zabel/kh.git
+
+----
+
+.teams
+----
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
+sudo apt-get  update
+sudo apt-get install teams
+----
+
+.Authy
+----
+sudo snap install authy
+----
+
+.NextCloud
+----
+sudo add-apt-repository ppa:nextcloud-devs/client
+sudo vim /etc/apt/sources.list.d/nextcloud-client.list
+==============================================================================
+deb http://ppa.launchpad.net/nextcloud-devs/client/ubuntu focal main
+# deb-src http://ppa.launchpad.net/nextcloud-devs/client/ubuntu focal main
+==============================================================================
+sudo apt update
+sudo apt list --upgradable
+sudo apt upgrade nextcloud-desktop/focal
+
+Strategie: voller cloud ordner umbenenen, NC neu aufsetzen auf leeren Ordner mit den selben sync foldern.
+Kurz anlaufen lassen und schauen ob die Ordner auf der richtigen Ebene angelegt werden. NC beenden
+und Ordner umbenennen.
+----
+
+.Tools
+----
+sudo apt-get install jq
+sudo apt-get install gparted
+sudo apt install iotop
+sudo apt install exif
+sudo apt install gnuradio
+sudo apt-get install octave octave-doc gnuplot
+sudo apt install cheese
+# Zoom via Website deb-file downloand
+sudo apt-get install pdfgrep 
+sudo apt install python3-pip
+pip install --user pipenv
+sudo apt-get install vlc
+sudo apt-get install ffmpeg
+sudo apt-get install audacity
+sudo snap install youtube-dl
+sudo snap install yt-dlp
+# pip3 install --user youtube-dl
+# pip3 install --user yt-dlp ---> Alte Version!
+# pip3 install --upgrade youtube-dl
+# pip3 install --upgrade pip
+sudo apt-get install k3b
+sudo apt install graphviz
+sudo snap install mp3gain
+----
+
+.docker
+----
+# https://docs.docker.com/engine/install/ubuntu/
+sudo apt-get update
+
+sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+
+ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+ echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# !!! Da ist ein Fehler in der /etc/apt/sources.list.d/docker.list, die Zeile muss lauten:
+deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu   focal stable
+
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+sudo groupadd docker
+sudo usermod -aG docker $USER
+
+# !!! Erst REBOOT dann Test !!!
+docker run hello-world
+----
+
+.docker-compose
+----
+# Release downloaden unter linux x86_64 https://github.com/docker/compose/releases
+sudo mv /home/dietmar/Downloads/docker-compose-linux-x86_64 /usr/local/bin/docker-compose
+
+sudo chmod +x        /usr/local/bin/docker-compose
+sudo chown root:root /usr/local/bin/docker-compose
+----
+
+.Copy /opt files
+----
+sudo rsync -a -o -g --info=progress2 --no-i-r --human-readable /media/dietmar/drive_5/sicherung2/opt/XXX .
+----
+
+
+.JDK
+----
+sudo apt install openjdk-8-jdk openjdk-8-doc openjdk-8-source
+sudo apt install openjdk-11-jdk openjdk-11-doc openjdk-11-source
+----
+
+.Calibre
+----
+# https://calibre-ebook.com/download_linux
+sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+
+sudo apt install okular
+----
+
+
+.FF und Chromium Extensions
+----
+* Last Pass
+* Floccus
+  ** GoogleDrive -> bookmarks.xbel, keine-Passphrase, (*) Localer Ordern /Bookmarks bar/
+* I Still dont care about cookies
+* KeypassXC-Browser
+----
+
+.VMWare Workstation Pro 17
+----
+Anleitung: https://wiki.ubuntuusers.de/VMware_Workstation_Pro/
+
+sudo apt install gcc wget build-essential linux-headers-generic 
+
+Download: https://www.vmware.com/de/products/workstation-pro/workstation-pro-evaluation.html
+
+sudo bash VMware-Workstation-Full-*.x86_64.bundle 
+Key: CF3N0-6YD1L-M8EEQ-KZYXX-P3RA0
+----
+
+
+.Chromium und Firefox mit t - Jira Suchmaschine einrichten
+----
+Firefox Bookmark mit Name=TAGs=Keyword= "t" und URL= "https://jira.otto.de/browse/QUALITY-%s"
+Chromium: Settings->Search engine->Default search engines-> Add Button. Search engine=Keyword="t" URL= "https://otto-eg.atlassian.net/browse/PRIME-%s"
+BurgerMenu->More Tools-->Customize toolbar-> Uncheck "Title Bar" ganz untern.
+----
+
+.Node
+----
+* Download https://nodejs.org/en/download/
+* Extract in /opt/node/
+* change own dietmar:dietmar
+* Create sym link to bin:  ln -s node-v16.14.0-linux-x64/bin/ .
+npm install -g typescript
+----
+
+.Intellij
+----
+* Den .local/share/JetBrains Ordner wieder herstellen
+
+Version Control -> Commit -> UnCheck: Use non-modal commit
+Editor -> General -> Editor Tabs -> Uncheck tabs in one row
+Keymap -> Navigate -> Back=[Alt+Left] [Button4 Click]
+Keymap -> Navigate -> Forward=[Alt+Right] [Button5 Click]
+* UnCheck Checkbox -> Version Control -> Commit  -> Use non-modal commit
+* Check Build,Execu... -> Debugger -> Data Views -> Sort values alphabetical
+
+==================================================
+== Slow file system
+
+* Source: https://stackoverflow.com/questions/67927480/how-to-fix-these-warnings-external-file-changes-sync-may-be-slow-and-the-curr
+
+Create following file:
+
+.sudo touch /etc/sysctl.d/60-jetbrains.conf
+
+If docker is already intalled, goto settings->Build, Exe..., Docker and press the + button
+----
+// Remove the '//' signs !!!
+// # Set inotify watch limit high enough for IntelliJ IDEA (PhpStorm, PyCharm, RubyMine, WebStorm).
+// # Create this file as /etc/sysctl.d/60-jetbrains.conf (Debian, Ubuntu), and
+// # run `sudo service procps start` or reboot.
+// # Source: https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit
+// #
+// # More information resources:
+// # -$ man inotify # manpage
+// # -$ man sysctl.conf # manpage
+// # -$ cat /proc/sys/fs/inotify/max_user_watches # print current value in use
+
+fs.inotify.max_user_watches = 524288
+----
+
+[source,bash]
+.Terraform & Terragrunt
+----
+curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+
+# focal not una !
+sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com focal main"
+sudo apt install terraform
+
+----
+Downlaod from https://github.com/gruntwork-io/terragrunt/releases
+sudo mv ~/Downloads/terragrunt_linux_amd64 /usr/local/bin/terragrunt
+sudo chmod a+x /usr/local/bin/terragrunt
+sudo chown root:root /usr/local/bin/terragrunt
+----
+
+.Chromium
+----
+Plugin "AWS Extend Switch Roles" installieren
+Plugin für Vue.js devtools installieren. Allow access to file URL anhaken in settings
+
+# Nervige System Toast Messages beenden
+sudo snap set core experimental.refresh-app-awareness=false
+----
+
+.Brother scan folder als Bookmark einrichten
+----
+smb user=smbuser
+smb password=smbuser!
+# Url oben in die Leiste vom caja eingeben, dann add Bookmark aus dem menu
+smb://smbuser@fritz.box/fritz.nas/SanDisk/Brother-MFC-8950
+smb://smbuser@fritz.box/fritz.nas/SanDisk/Brother-MFC-L9570CDW
+
+\\fritz.box\fritz.nas\SanDisk\Brother-MFC-L9570CDW
+
+
+# mount
+sudo mkdir /mnt/fritz.nas/
+
+cat /root/.smbcredentials
+username=smbuser
+password=smbuser!
+domain=WORKGROUP
+
+cat /etc/fstab
+...
+# mount -t cifs -o credentials=/root/.smbcredentials -o uid=dietmar -o gid=dietmar //fritz.box/fritz.nas /mnt/fritz.nas/
+//fritz.box/fritz.nas /mnt/fritz.nas/ cifs credentials=/root/.smbcredentials,uid=dietmar,gid=dietmar 0 0
+----
+
+.Screenrecorder
+----
+https://mintguide.org/video/202-simple-screen-recorder-ssr-qt-application-for-recording-linux-desktop.html
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+sudo apt-get update
+sudo apt-get install simplescreenrecorder libavcodec-extra-* libavformat-extra-*
+----
+
+.aws cli
+----
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+$ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+----
+
+.OCR
+----
+sudo apt-get install imagemagick parallel ghostscript qpdf unpaper tesseract-ocr
+sudo apt-get install tesseract-ocr-deu
+sudo apt-get install ocrmypdf
+
+ocrmypdf -l eng+deu Check_001300.pdf Unfall.pdf
+----
+
+Fix backtik and tilde
+----
+sudo vim /usr/share/X11/xkb/symbols/de
+bei "key <AE12> "dead_acute" durch "acute" und "dead_grave" durch "grave" ersetzen
+bei "key <TLDE> "circumflex" durch "asciicircum" ersetzen
+Siehe /home/dietmar/cloud/system/linux/tastatur/
+----
+
+[[Obsidian]]
+Use `Software Manager` tool of mint system
+
+Github cli: https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+[source, shell]
+----
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+sudo apt update
+sudo apt install gh
+----
+
+.Discord Instant messenger
+[source, shell]
+----
+sudo apt-get install libatomic1 libgconf-2-4 libc++1 gconf2-common libc++abi1 
+sudo snap install discord 
+----

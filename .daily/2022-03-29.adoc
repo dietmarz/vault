@@ -1,0 +1,37 @@
+include::{root}/.inc/include.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2022-03-29
+
+== Aufgaben
+
+* [ ] 962  JMeter LoadTest (CleanUp)
+  ** [ ] PR erstellen https://git-codecommit.eu-central-1.amazonaws.com/v1/repos/jenkins-job-dsl
+
+== Heute
+* URLs kibana korrigieren
+* [ ] Zeichnung quality_psr_loadtest-xlt filehandling.drawio.svg weiter
+
+=== Morgen
+=== Mittagspause
+=== Nachmittag
+
+=== Abend
+* [ ] Rohr installieren unterm Tisch + Schrauben zur Befestigung DVI Swich
+
+=== Sport
+
+=== Ziel Woche 13 - 19
+* [ ] Krafttraining
+
+== Privat
+[ ] Finanz Termin setzen knallhart 30 Min pro Woche fix
+[ ] Andree einsehen und dokumentieren
+[ ] Rentenkasse, warum weniger?
+
+== Notizen
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

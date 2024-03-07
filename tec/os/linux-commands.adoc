@@ -1,0 +1,47 @@
+= Linux
+
+== Commandline
+
+
+
+[source, bash]
+----
+# Source any deep with file filter
+cp --parents -R /sourc-any-deep/**/*.mp3 /destination
+
+# xargs with space separator, instead of for loop
+echo arg1 arg2 arg3 |  xargs -d ' ' -i command {}
+
+# Welche Linux Version Mate / Cinnamon benutze ich?
+lsb_release -a # or cat /etc/os-release
+echo $XDG_CURRENT_DESKTOP
+cat /etc/upstream-release/lsb-release # Ubuntuversion unter Linux Mint
+----
+
+== Trouble shooting
+
+[source, bash]
+----
+# Problem: apt error ... signature verification ...  signature invalid: ABCDEFG12345
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ABCDEFG12345
+----
+
+[source, bash]
+----
+# Compress jpg
+convert FILE.jpg -quality 60 FILE.jpg
+ls *.jpg | xargs -i convert {} -quality 60 {}
+
+# Pull all A54 Camera Files
+adb pull "/storage/3163-3838/DCIM/Camera"
+----
+
+[source, bash]
+----
+df -h # to find the device
+sudo umount /dev/sdXY
+sudo mkfs.exfat /dev/sdXY
+sudo exfatlabel /dev/sdXY LABEL_NAME
+----
+
+pfad="${pfad%/}" # Entfernt den abschließenden Schrägstrich, falls vorhanden. Für copieren mit rsync

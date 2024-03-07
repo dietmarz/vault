@@ -1,0 +1,151 @@
+tinclude::{root}/.inc/includeDaily.adoc[]
+
+= 2023-07-27
+
+== Aufgaben 
+* [ ] WVL Termin HH-KN für 64GB
+
+
+=== Woche Buchen ('.' Log Time)
+https://jira.int.kn/secure/Tempo.jspa[MyWork]
+https://jira.int.kn/browse/KNOMP-29388[Operationals]
+https://jira.int.kn/browse/KNOMP-31487[Remove Status]
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-32333 [esp-mykn-components] fix local development process
+* https://jira.int.kn/browse/KNOMP-32333[Jira]
+link:../.ticket/32333.adoc[Ticket]
+* start:mock:int etc geht nicht wegen @ path
+* Basic Auth hinzugefügt, läuft aber nicht. Call parameter verglichen mit call zum
+https://mykn-test.kuehne-nagel.com/news/
+* PR für die Dummy Page, getrennt von der Auth sache. (Für SystemTest und Int)
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-31571 Define deletion contracts
+* https://jira.int.kn/browse/KNOMP-31571[Jira]
+* https://jira.int.kn/browse/KNOMP-33283[Bug]
+link:../.ticket/31571.adoc[Ticket]
+
+* Eigentlich fertig...
+* [ ] Wie diese Infos speichern für SDR?
+
+* http://localhost:8088/admin/api/sso/v1/login?dest=/shp/api-doc/
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== Eichengrund
+* [ ] Carport freischneiden
+* [ ] KKasse wechseln
+* [ ] Zahnarzt Termin
+
+* [ ] Wertfeststellung per Ertragswertverfahren
+* [ ] Feststellung Kosten Renovierungsstau nur der Pflichtanteile (Heizung!)
+* [ ] Besichtigungstermin mit Gutachter mit beiden Mieterinnen.
+* [ ] Kontoauszüge für Mieteinnahmen
+
+* [ ] WVL: 29.06. auf 04.07 Stb Janssen Middels letzten 3 EKStErklärungen, Betr. u. Heizkosten, Welcher Steuersatz -> Was bleibt netto von der Miete?
+
+* [ ] WVL: v14. auf 16.06. Mail Preuss   -> Was zahle ich drauf
+* [ ] WVL: v14. auf 16.06. Mail Raveling -> Diverse Fragen, Frage Wilfried Goldenstein
+* [ ] WVL: v14. auf 17.06. Rückruf Valerie -> Steuern.
+* [ ] WVL: v14. auf 16.06. Mail Schapp   -> Änderungswünsche
+* [ ] WVL: v14. auf 17.06. WhAp Reents   -> Wiese?
+
+
+
+
+
+
+
+=== WIP
+* [ ] JDW 30 PlaBewerbung fertig
+
+
+==== Backlog nach Prio
+* [ ] Fdw 30 06 Steuer 2021 Quittungen durchgehen, nach prinzipiellen Unterlagen und diese dokumentieren
+* [ ] Hdw 30 03 Isomatte (+ Luftbett) auf Dichtigkeit prüfen
+* [ ] P   15 06 Liste von offenene Projekten & Hobbies anfertigen!
+
+* [ ] F W 30 SThree Monatsnachweise einsortieren und drucken
+
+* [ ] JdW 60 Office: Script in kh: Copy smb; ocr +  guess Name! Enum mit bekannten Absendern
+* [ ] F W 30 WVL OLB Tan verfahren.evt Kündigen auf Haspa gehen? Kosten evaluieren
+
+
+
+== KN Idle
+* [ ] JDW 30 03 Zoom Webinar aufzeichnen, als unkonkrete Investition
+* [ ] Jw  60 03 Eigene Q mit mehreren Topics
+* [ ] Jdw 30 04 State-Diagram zeichnen, mit Events als Vorbereitung für https://jira.int.kn/browse/KNOMP-31118[jira]
+* [ ] Jdw 30 03 Document tms-export branch KNOMP-22972
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+== Backlog
+
+=== Dringender
+* [ ] GDW Vorsorge Terminserien anlegen
+
+=== Irgendwann
+* [ ] Gdw TB 01 OtF harte Matratze
+* [ ] Gw  60 03 Skript, wie man das Wissen und Dateinamen aus doc & office grepfähig machen kann, vielleicht mit t d <search> (oder o)
+* [ ] Jdw 99 03 Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg  ?Daraus OKRs generieren? 3, 5, 15 Jahres Plan?
+
+* [W] FDW 30 03 Lohnsteuer Jahresausgleich fertig fertig. Evaluieren von Software.  Welche Fragen an Fr. Bahlburg? Status QCC?
+* [ ] FDW 60 01 Depot 7988387 kündigen, brauche ich da Hilfe, Frage an Frau Bahlburg?
+* [ ] FDW 30 03 ?Jens Rabe monatlich https://aktienkannjeder.de/?utm_source=mail&utm_medium=newsletter&utm_campaign=aktienkannjeder
+* [R] F W 99 01 Andree de B Aufstellung verstehen.
+* [ ] F W 45 03 Outcome Frame Dietmar Vermietet
+* [ ] Fdw 99 03 Amazon Invoice Generator, alles absetzbar und nicht verfolgbar. Einarbeitung PDF Generator
+
+* [ ] P w 30 03 CM Notizen auswerten,
+* [R] P w 99 03 Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich.
+* [ ] P   60 03 CM 7 Schritte fertig
+
+* [ ] H W TB 01 Keller aufräumen
+
+
+
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

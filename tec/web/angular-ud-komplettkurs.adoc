@@ -1,0 +1,63 @@
+include::{root}/.inc/include.adoc[]
+
+= Angular
+
+* https://www.udemy.com/course/angular-komplettkurs/[quelle]
+* ~/project/angular/ud-angular-komplettkurs/hotel-app
+
+
+[source, shell]
+----
+npm install -g @angular/cli
+
+ng new hotel-app
+# No routing, only CSS, all in default
+
+ng serve --open
+# To open browser directly
+----
+
+=== Adding  Component
+
+[source, shell]
+----
+ng generate component createActivity
+
+# Nachträglich routing hinzufügen, sicher selten...
+ng generate module app-routing --flat --module=app
+----
+
+* Add routing for component
+[source, typescript]
+----
+// app-routing.module.ts
+import {CreateActivityComponent} from "./create-activity/create-activity.component";
+const routes: Routes = [
+  ** {
+  ** path:'createActivity',
+  ** component:CreateActivityComponent
+  ** }
+];
+----
+* Usage
+[source, html]
+----
+<a href="/createActivity">Create Activity</a>
+----
+
+== Loop
+[source, html ]
+----
+  ** <div *ngFor="let activity of activities">
+----
+
+== Databinding
+* {{ member }} oneway called ....
+
+
+== Navbar
+* https://getbootstrap.com/docs/5.0/components/navbar/
+
+== Create Booking 4.19
+
+* `ng generate component createBooking`

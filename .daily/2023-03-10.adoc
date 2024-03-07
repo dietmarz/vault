@@ -1,0 +1,125 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2023-03-10
+
+== Aufgaben
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== 30815 RollbackExcption
+* [ ] Was sind die ACC? Was soll weg?
+
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== 30670 Reporting entityIdentifier and bucketIdentifier differs
+link:../.ticket/30670.adoc[task]
+* [ ] Zumachen wenn erfolgreich getestet
+
+  ** Spalten einblenden und prüfen auf bucketKey != entityIdentifier
+  ** __TypeId__: kn.knlogin.esp.reporting.domain.events.BookingDataUpdatedEvent
+  ** application: esp-reporting-app
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Idle
+
+* [ ] Eigene Q mit mehreren Topics
+* [ ] States durchspielen KNESP
+* [ ] Reporting doc lesen
+* [ ] tms-export als svg
+* [ ] Tobi fragen:
+  ** Klärung Überstunden, wie abbauen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Private Aufgaben
+
+D=sehr dringend
+W=sehr wichtig
+E=sehr entspannend, nur bei Done!
+03=seit März drin. Tracking
+
+== Wochenende
+
+=== Entspannung
+* Holotropes Atmen
+* Osho Bewegungsübung
+* Schwimmen 10-16!
+* 18:00 Sauna?
+
+=== Samstag
+* [ ] DW 60 03 Einkaufen
+* [ ] DW 60 03 Entscheidung Dresden treffen, vielleicht erstmal das Sparprogramm anschauen
+* [X] DW 15 03 Dopa Website blocker plugin installieren
+* [ ] dw 60 03 Morgenroutine ausarbeiten
+* [X] dw 15 03 Reichel Fragen zum Donnerstag
+* [X] w  15 03 Krankenkasse Quittungen schicken
+* [X] w  cm 03 Fixierung angelegt
+* [X] w  cm 03 4/7 Schritte angelegt
+* [X] e  80 03 Spazieren im Schnee am Vormittag
+
+=== Sonntag
+* [ ] DW 60 03 t encryption
+* [ ] DW 30 03 ?Jens Rabe monatlich https://aktienkannjeder.de/?utm_source=mail&utm_medium=newsletter&utm_campaign=aktienkannjeder
+
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+== Kurzfristiges Backlog
+* [ ] Dw 15 03 Gibt es Unterstützung vom Athletikum? Muskuläre Disbalancen
+* [ ] D  99 03 Hecke schneiden
+* [ ] w  99 03 Lohnsteuer Jahresausgleich fertig fertig. Evaluieren von Software. Fragen an Fr. Bahlburg
+
+* [ ] w  30 03 CM Notizen auswerten,
+* [ ] w  60 03 CM 7 Schritte fertig
+* [ ] w  30 03 CM Podcast zu 5 fragen anhören
+* [ ] w  99 03 Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich.
+* [ ] w  30 03 MeinenFilm anschauen
+
+* [ ] dw 00 03 ?Docuscanner kaufen?
+* [ ] dw 99 03 Amazon Invoice Generator
+  ** Vorarbeit: Was genau bringt der Aufwand, alle Aktendokumente digital zu haben? Welchen strategischen Vorteil? t digital anlegen
+
+* [ ] DW 60 03 Handy Lösung
+* [ ] DW 60 03 Outcome frame mit Plath
+
+* [ ] dw 99 03 Alle own Infos in t, dazu planen wo welche stehen. Diese Einfrieren und migrieren und löschen! google docs!, doc/own
+* [ ] dw 99 03 ALLES konsolidieren! Alle docs aus own etc.
+* [ ] dw 99 03 Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg
+  ** 00 ?Daraus OKRs generieren? 3, 5, 15 Jahres Plan?
+
+
+== Backlog
+* [ ] DW 60 01 Depot kündigen
+* [ ] DW 99 01 OtF Harte Matratze
+* [ ] dW 99 01 Andree de B Aufstellung verstehen
+* [ ] w  60 01 Schreibtisch frei
+* [ ] w  30 01 TimeBox Keller aufräumen
+* [ ] d  60 01 Gelbe Säcke organisieren
+* [ ]    30 03 Isomatte auf Dichtigkeit prüfen
+
+* Zu Projekten: nextcloud with kibana... see techteddy
+
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

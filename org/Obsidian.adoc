@@ -1,0 +1,7 @@
+= Obsidian
+
+== 8 Most important Hotkeys
+1. Crtl e toggle edit view
+2. Crtl o opens Quick Switcher
+3. Shift Crtl f opens search
+4. Shift Crtl f opens Dev Console

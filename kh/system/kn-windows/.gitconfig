@@ -1,0 +1,45 @@
+[user]
+	name = Dietmar Zabel
+	email = external.dietmar.zabel@kuehne-nagel.com
+[core]
+	editor = vim
+	autocrlf = true
+[alias]
+	co = checkout
+	cp = cherry-pick
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	dt = difftool -y
+	mt = mergetool -y
+	lg = log --graph --pretty=format:'%Cred%h%Creset - %s %C(yellow)%d%Creset%Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	trustExitCode = false
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	trustExitCode = false
+# [credential]
+# 	helper = cache
+# [push]
+#  	default = current
+# [branch]
+#         autosetupmerge = always
+#         autosetuprebase = always
+[push]
+	default = current
+
+[init]
+	defaultBranch = master
+
+[commit]
+    template = c:/project/kh/util/git/gitmessage
+
+[credential "https://git.int.kn"]
+	provider = bitbucket
+[http]
+	# Use "Windows" certificate mechanism
+	sslbackend = schannel

@@ -1,0 +1,9 @@
+include::{root}/.inc/include.adoc[]
+
+= basis-rentenversicherung
+
+* link:/home/dietmar/cloud/office/Finanz/Rente/Cosmos-Basisrente-201139069/[cloud]
+
+* Rentenbeginn:
+
+==

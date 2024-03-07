@@ -1,0 +1,26 @@
+include::{root}/.inc/include.adoc[]
+
+= 34204  [esp-unified] remove old eventHistory attributes from the api and in the implementation
+
+https://jira.int.kn/browse/KNOMP-34204[Ticket]
+
+----
+EventType -> Sea- + Air- EventType
+EventType :  Id, ShipmentEventLevel, CargoFlowState, EventClassification, List<StatusCodes>, messageKey
+ -------------------------------
+ShipmentStatusDefinition : ModeOfTransport, StatusCode, statusLabel, EventClassification,isCustomerVisible
+ImportantStatusCodes : code, EventClassification
+StatusCode : AbstractString
+----
+
+
+----
+US mapUnifiedShipment EspShipment
+
+USBucketMessageConsumer
+  bookingDataUpdatedEventMessageConsumer(@Payload BookingDataUpdatedEvent message)
+  buyersConsolidationDataUpdatedEventMessageConsumer(@Payload BuyersConsolidationDataUpdatedEvent message)
+
+
+
+----

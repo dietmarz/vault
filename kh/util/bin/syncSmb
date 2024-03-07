@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Set the SMB path and local download directory
+SMB_PATH="//fritz.box/fritz.nas"
+LOCAL_DIR="/home/dietmar/scan"
+
+# Set the username and password for the SMB share
+USERNAME="smbuser"
+PASSWORD="smbuser!"
+
+
+function syncSmb() {
+  smbDirectoy=$1
+
+  # Download
+  smbclient -U $USERNAME%$PASSWORD $SMB_PATH --directory $smbDirectoy -c "lcd $LOCAL_DIR; prompt; recurse; mget *"
+
+  # Delete on server
+  for file in "$LOCAL_DIR"/*
+  do
+    filename=$(basename "$file")
+    smbclient -U $USERNAME%$PASSWORD $SMB_PATH  --directory $smbDirectoy -c "del \"$filename\"" && echo "File : $filename deleted"
+  done
+
+}
+
+syncSmb "/SanDisk/Brother-MFC-L9570CDW";
+syncSmb "/SanDisk/Brother-MFC-8950";
+
+ls "$LOCAL_DIR"/*.pdf | xargs -i -P 7 ocr "{}"

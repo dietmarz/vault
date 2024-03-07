@@ -1,0 +1,33 @@
+include::{root}/.inc/include.adoc[]
+
+= Handies
+
+* https://www.google.com/android/find?did=oCNe5AyF4ozP0oHKkv9DGcYfv7Mn5vC3rapiSIggQZc%3D&pli=1[Geräte]
+  ** Klingeln lassen
+  ** Löschen!
+
+
+== Samsung Galaxy A54 5G
+
+== Huawei P20 Pro
+
+
+== Aldi SIM
+Handy Pin 3055
+Tel: 01573 1119084
+SIM Karten Nr: 007625190845
+Pin1 6585
+Pin2 1563
+Puk1 15243916
+Puk2 30929025
+
+== Vodafone ewetel SIM
+Pin: 1222
+SuperPin: 70963975
+SimKartenNr: 17155076915012
+
+== Muttis Huawei
+Das momentane Entwicklerhandy. Muttis Huawei
+Tel:01520 5471527
+PIN: 5238
+PUK: 97070475

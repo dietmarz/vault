@@ -1,0 +1,115 @@
+include::{root}/.inc/include.adoc[]
+
+= Schenkung / Übertragung Eichengrund 10 (1987)
+
+* link:../fnz/eichengrund-haus.adoc[Hause]
+
+== Historie, Stand, Tätigkeiten
+* 2024-01-24: Otte-Witte Telefonat, ich bekomme evt Tel v. StB mit Notarkenntnissen & Vertragsentwurf. Wenn Mutti gesund Termin
+unter Schapp 04941 9236615
+
+
+== Anwalt / Notar
+* Welche Vorteile, Nachteile und Risiken meiner Mutter und welche bei mir?
+* Was passiert, wenn ich zahlungsunfähig werde?
+* Abschmelzung Pflichtteilsansprüche= 8000€ / Jahr, richtig?
+* Könnte ich meinen Wohnsitz nach Esens verlegen und so mehr Steuern sparen? (Ist aber schon untervermietet)
+* 2% Abschreibung steuerlich wertlos, da Haus zu alt
+
+== Vertrags Variablen:
+* Verhandlungsdatum ???
+* Verkehrswert 350.000€
+* vermietet an: Marion Birgfeld und Tochter seit 01.01.2015 und Tanja Emken seit 01.02.2016
+* vermietet seit
+* Startdatum Leibrente 01.01.2024
+* Höhe Leibrente 800€
+
+
+== Vertragsmöglichkeiten
+
+=== Leibrente
+* *Vorteile*
+  ** 10% Abschmelzung / Jahr. Kein Risiko f. Mutti mit Grundbuch-absicherung, falls ich insolvents gehen sollte.
+  ** Umbau im Grundbuch eintragen lassen. Dieses Recht geht dann vor der meiner Mutter.
+  ** Oder wenn ein Gericht sagt, das es gibt keine Abschmelzung, weil das dem Nießbrauch zu ähnlich.
+  ** Frage, ob man die Gesamtzahlungen nach oben hin deckeln muss.
+  ** Zwei Wege: Leibrente statisch, oder Dauernde Last nicht empfehlen.
+  ** Wertanpassungsklausel, bezüglich inflation aufwertend, oder Investitionen abwertend.
+
+* *Nachteile*
+  ** Mieteinnahmen versteuern
+  ** Leibrente vom Netto
+  ** 800€ im Grundbuch verdächtig, hemmt u.U. Abschmelzung der 10 Jahre
+  ** 800€ entsprechen der Miete hier findet also ein Tausch statt
+
+=== Nießbrauch
+* *Vorteile*
+  ** Wird zur Festsetzung des Immobilienwertes zum Nießbrauch Startdatum benutzt
+  ** Pflichtteilsanspruch = Immo-Wert - Nießbrauchswert(= Netto Einnahmen * Lebenserwartung)
+  ** Keine Einnahmen -> keine Steuern. Weniger Verwaltungsarbeit
+
+* *Nachteile*
+  ** Kein Absetzen von Investitionen!
+
+=== Kein Vertrag, nur testamentarisches Erbe
+* *Vorteile*
+  ** Geringe Kosten in der Umsetzung
+  ** Keine Mieten Steuern auf Mieten
+
+* *Nachteile*
+  ** Kein Absetzen von Investitionen!
+
+
+== Fragen Steuerberater
+* Welche steuerliche Mehrbelastung erwartet mich? -> Ohne Investitionen: 42% * Mieteinnahmen
+* Kann man die Leibrente absetzen? Nein. Gibt es Alternativen? -> Nein
+
+* Was kann ich bei einer Modernisierung von 50.000 Euro absetzen? -> 42%
+  ** Mit Kredit oder eigenfinanziert?
+
+* Was ist über Modernisierungsmaßnahmen hinaus absetzbar?
+  ** 12 Fahrten pro Jahr nach Esens 221km * 24 = 5300km * 0,3€/km = 1590€ / Jahr
+  ** Investitionen: Heizung 35 Jahre, Fenster? Dach Dichtigkeit? Dämmung? Keller Dichtigkeit?
+  ** Abschmelzung der Pflichtteilsansprüche
+
+== Allgemein
+WertRente = Lebenserwartung * Zahlungen
+Pflichtteil = 1/6 Wert-Immobilie - WertRente
+
+
+
+.aus Google Docs. Bitte auswerten und einsortieren v. 06.03.2021
+----
+Frage ist was passiert, wenn Wiltraud nicht mehr Zahlungsfähig ist?
+Wie wahrscheinlich ist das? Was gibt es dort für Fälle?
+Muss mein Bruder Roland dann auch einspringen?
+
+Welche Risiken trägt der Beschenkte?
+Wie errechnet sich der Anteil der Schenkung und der Anteil des Kaufs?
+Welche Steuerlichen Vorteile bringt das schenken eines Hauses, neben der Abschmelzung?
+Kann man das gesellschaftlich verantworten?
+Wenn meine Mutter 100 wird, was bezahle ich dann als Dauer last, gibt es dort ein Ende? (Ziemke)
+
+Wenn die Kinder zahlen sollen, dann wie wenn alles verschenkt wäre?
+Oder
+Wenn Ländereien und Eichengrund existieren?
+
+Übersicht Einnahmen:
+Leibrente Roland 1530€
+Mieteinnahmen 500€
+Pacht aus Ländereien 100€
+Rente 300€
+
+Alle Besitztümer Werte
+4 Ländereien
+EFH Eichengrund
+
+
+Übersicht der Ausgaben
+Wohnung
+…
+
+[  ] Auskunft vom Steuerbüro, könnte die wesentlichen Fragen klären
+
+
+----

@@ -1,0 +1,9 @@
+include::{root}/.inc/include.adoc[]
+
+= Kloster Regeln
+
+* Shopping Einkäufe nur zwischen 6 - 7 Uhr
+* Was soll sich damit ändern? Welche neue Haltung wird unterstützt?
+
+* immer dokumentieren, was man geschafft hat.
+

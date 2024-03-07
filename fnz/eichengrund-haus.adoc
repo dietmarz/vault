@@ -1,0 +1,104 @@
+include::{root}/.inc/include.adoc[]
+
+= Eichengrund
+
+* HR Auktionator Hartmut Raveling,
+* MB Mieter Marion Birgfeld und Tochter seit 01.01.2015 017642751794
+* TE Mieter Tanja Emken und Sohn seit 01.02.2016 01729199668
+
+link:eichengrund-uebertragung.adoc[Vertragliches]
+
+== Fragen, Aktuelles, WVL.
+* *Wenn abgearbeitet in Historie einsortieren*
+
+
+* Garagenleck
+* Anfang Januar bei HR anrufen
+  ** WerWasBisWann festlegen: Garagendach reparatur.
+
+* [ ] 2023-11-13 Macht es Sinn, einen Feuchtigkeit- Temperatur Logger zu installieren?
+  ** Anfang des Jahres geht es weiter
+  ** info@tobias-diekmann.de aus Achim fragen?
+
+
+== Historie, Stand, Tätigkeiten
+* 2024-02-16 TE per Mail, neue Schimmelbilder einsortiert
+* 2024-01-26 HR Telefonat: Er prüft bei sich, ob Wasser Eindring Test in Mauerwerk erfolgreich. Mail an TE
+* 2023-12-30 Termin mit TE, Fotos zu Schimmelbildung, Bericht schreiben.
+* 2023-12-21 Investition 423,15€: Wärmebildkamera: 239.20, Kompendium Schimmel: 59, Handbuch Schimmelpilz: 65, Hygrometer 59,95
+* 2023-12-21  Mail v. TE, Schimmel geht weiter https://mail.google.com/mail/u/0/#inbox/FMfcgzGwJJfrqWJjnBWtRJvxbWdRMgKh[Mail]
+* 2023-12-21 HR hat mit Wilfried gesprochen, geht erst Anfang Januar, HR wird TE nochmal fragen wegen der Feuchtigkeit
+* 2023-11-27 Mail an Raveling: Garage, Absage Rohr reiniger Firma. Mail https://mail.google.com/mail/u/0/?pli=1#search/info%40raveling.de/KtbxLvHDfgxndGBPrsxxgGvrvsWZwKWzsB[Fotos]
+* 2023-11-19 Fahrt nach Esens, Besichtigung und Fotografieren der Mängel
+* 2023-11-14 Anruf bei Raveling: Er ruft zurück, wenn sich in der Sache etwas tut
+* 2023-11-13 Anruf bei Fisser: Hat dafür keine Kapazitäten, Vorschlag GaLa Bau Templin Utarp
+* 2023-11-07 Rechnung Heizung 35,11€ v. 30.10. bezahlt
+* 2023-10-30 Tel Raveling: Das Durchspülen des Abflussrohres soll Fisser machen. WVL 08.11.
+* 2023-10-30 Anruf Bei Goldenstein: Alles mit Kupfer eingefasst.
+  Das ganze Kupfer muss erst angehoben werden bevor man da eine neue Schweißbahn legen kann. Da muss ein anderes Unternehmen ran.
+* 2023-10-10 Raveling hat die Garage von innen fotografiert und Beschädigungen aufgenommen.
+* 2023-10-09 Anruf bei Raveling: Goldenstein
+* 2023-10-05 Mail v. Tanja, Raveling war da m. Tochter von Birgfeld gesprochen
+* 2023-09-14 Frage bei Raveling, war krank. Wertermittlung bis Ende der Woche 21.09
+* 2023-09-11 WVL: Wurde Termin mit Emken/Birgfeld vereinbart? Frage an TE. per Mail. Nein.
+* 2023-09-05 Anruf bei Raveling: Goldenstein war dort, Vermutung Verstopftes Abwasserrohr. Nächste Woche Termin mit Emken/Birgfeld.
+* 2023-08-23 Anruf bei Raveling, ob notwendigen Infos per Mail vorhanden für eine Wertermittlung. -> 04.Sep fertig.
+* 2023-08-21 Stb Preuß: Frage nach Kosten. AFA nicht möglich, da Miete zu niedrig.
+* 2023-08-16 Mail Beauftragung Raveling Wertermittlung mit Infos: Grundriss & qm Zahlen
+* 2023-08-08 Anruf bei Wilfried Goldenstein. Macht Subunternehmer soll im August passieren. Mail an Tanja.
+* 2023-07-27 Telefonat Steuerbüro Janssen Herrn Lüschen: Gesanteinahmen 2020: 5665,82€
+* 2023-07-27 Mail Steuerbüro erhalten: https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGtwMdRcPFpKwJrVTcxsFzFJkTh[Antwort]
+* 2023-07-27 Telefonat Steuerbüro Janssen: Es werden Unterlagen zugesandt
+* 2023-07-27 Mail Raveling, Antwort von Wilfried Goldenstein & Tel Nummer
+* 2023-07-26 Telefonat Raveling, Wann Dach Reparatur
+* 2023-06-22 Anruf: Mail Antwort diese nächste Woche, nach Schützenfest Dach fertig.
+
+
+
+== Vorbereitung Besuch
+* Zollstock, Laser-Thermometer, Handy, <rote Werkzeug-Box>
+
+Gemarkung: Esens; Flur: 4; Flurstück: 343; Grundbuchblatt: 1881
+Grundstücksgröße: 603m² Wohnflächen: oben: 60,29m² unten: 88,83m²
+
+Reine kaltmiete EG 440€ seit 09.21 + 70€ Nebenkosten
+Reine kaltmiete OG 429€ kalt 09.21 seit 100€ Nebenkosten
+15€ Raveling, 414€ Reine Kaltmiete
+
+
+Abzüglich der Steuern die sie dazu bezahlen müssen
+Stb Preuß: Keine AFA möglich wegen zu geringer LRente, da nicht kauf-ähnlich.
+
+
+== Handwerker
+* Bauunternehmen Wilfried Goldenstein 0176 96226221
+
+== Rechnung
+* TODO!!! Kosten: Aus - Ein =  Rente + Miete * 0.45  - Miete * 0.55 = Rente
+* Infos hier, wenn genügend Zeit: https://www.iww.de/ssp/alle-steuerzahler/leibrente-immobilienverkauf-gegen-leibrente-diese-steuerfolgen-ergeben-sich-beim-kaeufer-f123327
+
+== Aufgaben
+
+* [ ] Whatsapp / Mail Gruppe erstellen
+
+* Dach klappert
+* Fenster undicht: https://mail.google.com/mail/u/0/#search/tanja.emken2%40gmail.com/FMfcgzGtwDBHBVNjQPZVqNhsJKSRQlCV
+* Garage leck auf WVL
+
+
+* Mieteinhamne 10445,44 Euro 2020
+
+== Mängel aus dem Gutachten
+* Flur Anstrich erforderlich.
+* Beton Fensterfaschen müßten gestrichen werden
+* Beton Fertiggaragen haben kleine Risse.
+* Holz der Terassenüberdachung ist teilweise sanierungsbedürftig.
+
+
+.https://www.youtube.com/watch?v=IOXNRXI4Q-c[Quelle]
+----
+https://www.tobias-diekmann.de/schimmelpilzbefall/
+* bis 0,5m² kann man alleine gegen Pilze vorgehen
+* Alkohol oder Wasserstoffperoxid 5-7%, Tapete einstreichen, abnehmen, entsorgen & den Putz darunter begutachten, evt. abschleifen
+* Wiederaufbau hochalkalisch, d.h. mit einem Kalkglätter arbeten, hoher PH Wert. ZB. Silikatfarbe. Wand nicht zustellen
+----

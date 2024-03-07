@@ -1,0 +1,136 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2024-01-21
+
+== Aufgaben 
+Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus
+
+* 4DX anwenden: 1 Ziele bestimmen 2 Messparameter 3 Board 4 Meetings
+* Use backlog to keep overview in daily work
+* link:../prv/backlog.adoc[BackLog]
+
+
+
+
+== Heute
+Bislang 30
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Entlastung LWS
+* [ ] GdW XX 01.05 G<= 88, Versuch: Intervallfasten
+* 21.01: EKZ: 92,5 FID: 18:00
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Eichengrund Übertragungsvertrag
+* [ ] Fdw 45 < ? > Schreiben an Schapp aufsetzen.
+* Ziel immer W
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== OLB OberesJüchen Anlage
+* [W] F   10 < ? > Stadt Esens, Anfrage Kontowechsel als Pfandgläubiger
+* [W] F w 00 < ? > WVL OLB gibt, wartet auf Stadt Esens
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Bewerbungen
+* [W] FD  00 < ? > Antworten Leonhard Krauss mit Referenzen. Leonhard die Daten von Jürgen geschickt 17.01
+* [W] Jdw 02 12 Was machen die Bewerbungen? https://docs.google.com/spreadsheets/d/1iJZIE0leBKod_TWfXyiVQ0Gmvw_JyV04gIuhUIqP0uQ/edit#gid=833871327[Bewerbung]
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Steuern
+* [ ] FDW 60 < ? > Cosmos direkt abarbeiten, bei Fr. Bahlburg melden, warum hat sich cosmos nicht gemeldet?
+* Ziel stapel Verschickt
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Arbeitslosengeld
+* [W] FdW 10 < ? > Fehlt immer noch die Arbeitsbescheinigung von SThree?
+* Ziel Geld erhalten
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Gesundheit
+* [ ] G W 10 < ? > Orthopäde Termin besorgen
+* [ ] G W 30 < ? > Urologe besuchen
+* [ ] F   30 < ? > KKasse wechseln
+* Ziel ein X nach dem anderen
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Eichengrund Schimmel
+* [ ] Fdw 10 < ? > Eichengrund Schimmel Bestandsaufnahme Schimmel Dokument fertig. Wie weiter? Raveling?
+* Ziel immer W
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Haus
+* [ ] P w 99 < ? > Stuben Regal bauen.
+* [ ] H   30 < ? > Ladestecker bauen -> PausenJob
+* [X] H   30 < ? > Vogeltränke brennstoff entsorgen
+* [ ] Hdw 60 < ? > Stromfresser finden, was ist mir son Server wert.
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Lernen
+* [ ] Jdw 99 < ? > Projekt Wecker / Uhr Website starten
+  ** Vue, Spring-boot
+* [ ] Udemy Kurs DDD ist echt gut!
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+* [ ] Jdw 60 12 Plan erstellen! link:plan.adoc[Plan]
+
+
+
+
+
+
+
+
+
+Zentrale Software Resoucen verteilung. Agiles, Java Springboot. Angular
+
+4 Personen, 1 java, 2 DPort in, Ende Pharse 1, suchen seniorigeren Entwickler
+6 Monate eher langfristig. Nahezu 100% Remote. Projekte Standort HH. Realität nachezu 100% Homeoffice wenn dann in HH
+Bremen unwichtig.
+
+* mittwoch | donnerstag
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Neue Firma
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== JIRA-12345 Titel
+* https://jira/JIRA-12345[JIRA]
+* link:../.ticket/12345.adoc[Ticket]
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

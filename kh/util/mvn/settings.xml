@@ -1,0 +1,44 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+	  https://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <mirrors>
+        <mirror>
+            <id>central</id>
+            <name>central</name>
+            <url>https://artifactory-extern.dataport.de/artifactory/Common-maven-central-development</url>
+            <mirrorOf>*</mirrorOf>
+        </mirror>
+    </mirrors>
+    <servers>
+        <server>
+            <id>central</id>
+            <username>srv-svs-jenkins</username>
+            <password>AP4zCM3Mw1E1MBtkwkra3xVobjF</password>
+        </server>
+        <server>
+            <id>releases</id>
+            <username>srv-svs-jenkins</username>
+            <password>AP4zCM3Mw1E1MBtkwkra3xVobjF</password>
+        </server>
+        <server>
+            <id>snapshots</id>
+            <username>srv-svs-jenkins</username>
+            <password>AP4zCM3Mw1E1MBtkwkra3xVobjF</password>
+        </server>
+    </servers>
+
+
+
+    <!--    <proxies>-->
+<!--        <proxy>-->
+<!--            <id>example-proxy</id>-->
+<!--            <active>true</active>-->
+<!--            <protocol>http</protocol>-->
+<!--            <host>141.91.176.130</host>-->
+<!--            <port>80</port>-->
+<!--            <nonProxyHosts>*.fhhnet.stadt.hamburg.de|*.dataport.de</nonProxyHosts>-->
+<!--        </proxy>-->
+<!--    </proxies>-->
+
+</settings>

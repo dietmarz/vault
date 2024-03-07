@@ -1,0 +1,90 @@
+= General CSS KH
+:toc:
+:sectnums:
+:sectnumlevels: 4
+
+== Scrollable
+* Ein div on demand scrollable machen mit `overflow-y: auto;`. Möglicherweise funktioniert das nur am parent div.
+
+== Introduction to CSS
+* Site for getting interesting colors http://www.colorhunt.co[colurhunt]
+* Site for generating favicon  https://www.favicon.cc[favicon]
+
+* Blockelemnte füllen die ganze zeile aus, wie divs
+* Inline element brauchen nur so wenig platz wie möglich, können aber nicht in der Weite geändert werden
+* Man ändert  display zu inline-block, dann kann man die weite ändern und hat inline elemente
+* Verschwinden lassen kann man mit display none oder visibility hidden, letztere bewahrt den space.
+
+== Positioning 4 Types
+
+=== Static Positioning
+* Default in HTML flow. If not specified, positioning is set to static
+
+=== Relative Positioning
+* It is relative to its position, where the browser would have placed it.
+* Doesn't effect the position on anything else on the screen.
+* The element left a 'ghost' in order for all other elements to keep their positions.
+* Source https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12287756[Lec. 44]
+* Standard positioning is static. Default, same as no css
+
+=== 45 Absolute Positioning
+* Positioning to it's Parents position
+* It does effect the flow of your page, it doesn’t interact with other elements around it.
+
+
+== interessante Seiten
+* http://www.flaticon.com[icons]
+
+== Display and Positioning
+* https://kilianvalkhof.com/2008/css-html/understanding-css-positioning-part-1/[src]
+
+=== Display:block
+* Block can be, quite literally, seen as a block. It has a specified width and height, #optionally# controlled by its content
+* They do not allow elements on the same “line” as their own. So while an element might have a small width, The next
+  element will always be placed under it.
+
+=== Display:inline
+* #Always# take their width and height from the contents. No attribute settings.
+* As the name suggest, these elements are displayed in-line. If filled it wraps to the next line.
+
+=== Display:none
+* hidden and removed from the website flow
+* style `visibilty: hidden` will remain in the flow
+
+=== Positioning
+* what way the element should interact with the elements around it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

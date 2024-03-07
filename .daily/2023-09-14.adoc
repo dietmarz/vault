@@ -1,0 +1,157 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= 2023-09-14
+
+== Aufgaben 
+Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus
+
+=== Heute
+
+=== Mittag
+
+=== Abend
+
+=== Sport
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== PDw 60 09 Busfahrt
+* Dachbox besorgen
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== FDW 60 09 Linas Unterhalt errechnen
+* link:../fnz/unterhalt-lina.adoc[Linas Unterhalt]
+* Stand: 14.09. SMS Frage an Karin wie wir weiter machen wollen.
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Task Kotlin Entwicklung
+* [ ] task printservice einbauen, Testen!
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Eichengrund
+* [ ] Mit der Stadt Esens klären, was mit den MündSich Wertpapieren geschehen soll.
+* [ ] F W 30 03 WVL OLB Tan verfahren.evt Kündigen auf Haspa gehen? Kosten evaluieren
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Weitere, laufende Projekte
+* [ ] J W 90 08 link:../prv/entscheidungsfindung-mentale-modelle.adoc[MM]
+* [ ] J W 30 08 Orga: Board: Fehlende Tasks anbringen, priorisieren
+* [ ] H W 90 Keller säubern"
+* [ ] H W 60 Liste jeder Raum 60min, Entsorgen-Verkaufen-Behalten.
+* [ ] HDw 90 + QRP fertig! <Anfang
+* [ ] Was wir mit den Geldern der OLB? link:../fnz/oberes-juechen-grundstuecke.adoc[Details]
+
+* [ ] GdW 30 09 KKasse wechseln
+* [ ] JDW 30 03 PlaBewerbung fertig
+* [ ] Hdw 30 03 Isomatte (+ Luftbett) auf Dichtigkeit prüfen
+* [ ] F W 30 03 SThree Monatsnachweise einsortieren und drucken
+* [ ] JdW 60 03 Office: Script in kh: Copy smb; ocr +  guess Name! Enum mit bekannten Absendern
+
+
+
+== Backlog
+
+=== Dringender
+* [ ] GDW 60 09 Vorsorge Terminserien anlegen
+
+=== Irgendwann
+* [ ] Gdw TB 01 OtF harte Matratze
+* [ ] Gw  60 03 Skript, wie man das Wissen und Dateinamen aus doc & office grepfähig machen kann, vielleicht mit t d <search> (oder o)
+* [ ] Jdw 99 03 Mein Miro https://miro.com/app/board/o9J_lruDyUo=/ umziehen nach board.drawio.svg  ?Daraus OKRs generieren? 3, 5, 15 Jahres Plan?
+
+* [ ] FDW 30 03 ?Jens Rabe monatlich https://aktienkannjeder.de/?utm_source=mail&utm_medium=newsletter&utm_campaign=aktienkannjeder
+* [R] F W 99 01 Andree de B Aufstellung verstehen.
+* [ ] F W 45 03 Outcome Frame Dietmar Vermietet
+* [ ] Fdw 99 03 Amazon Invoice Generator, alles absetzbar und nicht verfolgbar. Einarbeitung PDF Generator
+
+* [ ] P w 30 03 CM Notizen auswerten,
+* [R] P w 99 03 Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich.
+* [ ] P   60 03 CM 7 Schritte fertig
+
+* [ ] H W TB 01 Keller aufräumen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Kühne & Nagel
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+=== Done
+* Support Version Upgrade Shipment
+
+
+
+
+=== Woche Buchen ('.' Log Time)
+https://jira.int.kn/secure/Tempo.jspa[MyWork]
+https://jira.int.kn/browse/KNOMP-29388[Operationals]
+https://jira.int.kn/browse/KNOMP-31487[Remove Status]
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-33537 [esp-unified] remove old eventHistory attributes from the api and in the implementation
+* https://jira.int.kn/browse/KNOMP-33537[Jira]
+* https://jira.int.kn/browse/KNOMP-31282[Epic] MDM: Clean-Up
+* link:../.ticket/33537[docu]
+* Ist Reporting!
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-33930 [esp-shipment-events] deprecate git repository
+* https://jira.int.kn/browse/KNOMP-33930[Jira]
+* https://jira.int.kn/browse/KNOMP-31282[Epic] MDM: Clean-Up
+* link:../.ticket/33930[docu]
+* [ ] beim Daily: Soll ich da jetzt noch was tun?
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-33802 [esp-shipment] clean up "null" status codes from ESP_SHIPMENT_STATUS
+https://jira.int.kn/browse/KNOMP-33802[Jira]
+https://jira.int.kn/browse/KNOMP-31282[Epic] MDM: Clean-Up
+* [-] Blocked! Maintenance Pod starten zum Testen der DB Migration
+* [ ] Georg fragen!
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-33980 Create new ART for testing integration from ESP & myKN
+https://jira.int.kn/browse/KNOMP-33980[Jira]
+link:../.ticket/33980[docu]
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== PreShipment Video Mitschrift (auf SystemTest)
+* https://kuehne-nagel.zoom.us/rec/share/tIBAqgLHncLqjWWNfoWzwi7eI286j1DoLw172iVtlB1KNMyoNT0caqhxihnv_Il4.orwSIHesSRMCW8M_ [Video]
+  ** Kenncode: RAC3iQ%L
+  ** link:../kn/pre-shipment.adoc[DOC]
+
+
+* [ ] Film anschauen, wesentlichen Dinge extrahieren
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+== Notizen
+
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

@@ -1,0 +1,20 @@
+include::{root}/.inc/include.adoc[]
+
+= Fritzbox
+
+== Youtube auf Chrome sperren
+* Disable : chrome://flags/#enable-quic
+
+.gesperrte Seiten
+----
+ggpht.com
+googlevideo.com
+m.youtube.com
+news.google.com
+news.google.de
+theync.com
+youtu.be
+youtube.com
+youtube.googleapis.com
+youtubei.googleapis.com
+----

@@ -1,0 +1,81 @@
+include::{root}/.inc/include.adoc[]
+
+= 33537 Reporting
+
+https://jira.int.kn/browse/KNOMP-33537[Ticket]
+
+
+
+== Neu Changes
+
+
+
+=== unified-shipment-model-message von 7 -> 8.2
+* Remove <esp-shared-message-api>UnifiedShipment.ShipmentEventHistory und ShipmentEvent
+
+// ===  rm shipment-events dependency
+// * Remove ALL classes from kn.knlogin.esp.shipmentevents
+// ** Eg: Sea- Air- EventType, CargoFlowState, EventClassification, StatusCode, EventTypeIds...
+// ** shipment-events_message.properties (+ja +zh)
+
+
+
+// ===  shipment-event-message-api von 2 -> 3
+// * Remove ShipmentEvent.*
+// * Remove SeaShipmentEvent.*
+// * Remove AirShipmentEvent.*
+//
+// * Remove SeaShipmentContainerEvent.*
+// * Remove ShipmentContainer.seaShipmentContainerEvents
+//
+// * Remove AbstractShipmentEventMessage.triggeringEvents
+// * Remove AbstractAirShipmentEventMessage.triggeringEvents
+// * Remove AbstractSeaShipmentEventMessage.seaShipmentEvents
+//
+// * Remove AirShipmentEventMessage.triggeringEvents UND airShipmentEvents
+// * Remove SeaShipmentEventMessage.triggeringEvents UND seaShipmentEvents
+
+
+
+
+
+
+
+=== Rm transitive shipment-events dependency from
+* esp-shipment-event-message-api-v1 AND esp-unified-shipment-model-message-api-v1
+
+=== Fix SeaShipment
+* Use ImportantStatusCodes statt SeaEventType
+
+
+esp-shipment-events:4
+
+
+
+33537 gehört zu reporting, ist blockiert durch taskmanager und querybuilder
+
+
+----
+EventType -> Sea- + Air- EventType
+EventType :  Id, ShipmentEventLevel, CargoFlowState, EventClassification, List<StatusCodes>, messageKey
+ -------------------------------
+ShipmentStatusDefinition : ModeOfTransport, StatusCode, statusLabel, EventClassification,isCustomerVisible
+ImportantStatusCodes : code, EventClassification
+StatusCode : AbstractString
+----
+
+
+----
+US mapUnifiedShipment EspShipment
+
+USBucketMessageConsumer
+  bookingDataUpdatedEventMessageConsumer(@Payload BookingDataUpdatedEvent message)
+  buyersConsolidationDataUpdatedEventMessageConsumer(@Payload BuyersConsolidationDataUpdatedEvent message)
+
+
+
+----
+
+
+
+

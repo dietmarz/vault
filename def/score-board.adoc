@@ -1,0 +1,61 @@
+include::{root}/.inc/include.adoc[]
+
+= 4DX Score Board
+
+link:../org/4dx.adoc[4DX]
+
+== Frühindikatoren
+Sleep : 22:00 -> 30P ; 08:00 -> 10P ; 07:00 -> 30P ; 06:00 -> 50P
+Fasten: 18:00 -> 10P ; 17:00 -> 30P ; 16:00 -> 30P
+Learn : 00:01 -> 01P
+Task X: X min ->  xP
+Minima: Stk einsortiert 1P; Entsorgt, Ebay, Verschenkt: 3P
+Putzen: 01:00 -> 30P
+Sport : 01:00 -> 10P ; Swim -> 20P
+DrugFr: 40P
+SAVERS: 20P -> Morgens: 1h = S-20, A-5, V-5, E-15, R-5, S-10
+Musik : 00:10 -> 10P
+
+.Copy Template
+----
+|Mo .02 |   |     |      |     |    |      |      |
+|Di .02 |   |     |      |     |    |      |      |
+|Mi .02 |   |     |      |     |    |      |      |
+|Do .02 |   |     |      |     |    |      |      |
+|Fr .02 |   |     |      |     |    |      |      |
+|Sa .02 |   |     |      |     |    |      |      |
+|So .02 |   |     |      |     |    |      |      |
+----
+
+.Daily Score Table
+|===
+|Date  |Sum|Sleep|Fasten|Learn|Task|Minima|Putzen|Sport
+|So 21.01 | 50|     |    10|   10|  30|      |      |   15
+|Mo 22.01 | 70|   10|      |     |  55|      |      |    5
+|Di 23.01 | 65|   15|    10|     |  30|      |      |   10
+|Mi 24.01 | 40|   10|      |     |  30|      |      |
+|Do 25.01 | 45|   10|      |     |  10|      |      |   25
+|Fr 26.02 |   |     |      |     |    |      |      |
+|Sa 27.01 |  5|     |      |     |   5|      |      |
+|So 28.01 |  5|     |      |     |   5|      |      |
+|Mo 29.01 | 20|     |      |     |  20|      |      |
+|Di 30.01 | 40|     |      |     |  20|      |      |   20
+|Mi 31.01 | 20|   10|      |     |  10|      |      |
+|Do 01.02 |  0|     |      |     |    |      |      |
+|Fr 02.02 |  0|     |      |     |    |      |      |
+|Sa 03.02 |  0|     |      |     |    |      |      |
+|So 04.02 | 25|     |      |     |   5|      |      |   20
+|Mo 05.02 |   |     |      |    5|  10|      |      |
+|Di .02 |   |     |      |     |    |      |      |
+|Mi .02 |   |     |      |     |    |      |      |
+|Do .02 |   |     |      |     |    |      |      |
+|Fr .02 |   |     |      |     |    |      |      |
+|Sa .02 |   |     |      |     |    |      |      |
+|So .02 |   |     |      |     |    |      |      |
+
+
+
+
+
+
+|===

@@ -1,0 +1,121 @@
+include::/home/dietmar/cloud/customer/Otto/msg/inc/templateInclude.adoc[]
+
+= AWS
+
+== Saved Costs
+* Data Center Building, Security
+* SW Licensing, Maintenance Contracts
+* Hardware, Power, Internet, Cooling
+* Staff: wages, design, operations etc.
+
+== What is Cloud Computing
+* Selfe Service
+* On-Demand, always there
+* Rapid elasticity
+* Pay what you use
+
+
+== Cloud Typees
+
+=== Private Cloud
+* Everything selfservice: VM (or Container), Hypervisor, Hardware
+* My Data stay in house!
+
+=== IaaS Infrastructure as a Service
+* Only VM, managed up to the OS
+* Amazon Elastic Compute Cloud
+* Azure Virtual Machines
+* Goolge Compute Engine
+
+=== PaaS Platform as a Service
+* Only your WAR and data files, managed up to the code
+* AWS Elastic Beanstalk
+* Azure WebApps
+* Google: Compute App Engine
+
+=== SaaS Software as a Service
+* Nothing to manage, just consume the service
+* Google Apps, Salesforce.com, Zoom...
+
+== Cloud types
+* (Public) Cloud: AWS, Azure, GCP
+* Private Cloud (on-premise) managed in your own data center
+* Hybrid Cloud: Mixture of both
+
+
+
+== Pricing fundamentals Charge for:
+* Compute: CPU RAM duration
+* Storage: Quantity of data
+* Outbound Data Transfer
+
+== Global Infrastructure
+* 25 Regions around the world
+* Each Region has at least 2 Availability Zone
+* An Avaibility Zone has one ore more Data Centers
+* An avaibility Zone is physically seperate and isolated from each other
+* Local Zones extend regions closer to the end-users, eg: CDN
+* Regions are redundant connected
+
+== 18 Public and private Services
+* VPC = Virtual Private Cloud
+
+== 19 The 6 Advantages!
+* Only Operative Costs
+  ** Pay as you go
+  ** Tax deductible in same year
+* Aggreated Usage across thousands of customers
+* Stop guessing capacity
+* Increase speed aguility
+* Stop money for data centers, invest it to your business
+* Go global in minutes
+
+== IAM (Identity & Access Management) Web Service
+* Delete root access keys
+* Create induvidual users with MFA
+* Use roles are used for delegating permissions for services
+* Use manged policies for groups instead of own
+* Authentication and Authorisation
+* Users have no permissions by default
+* Users are organized in Groups with policies
+
+== ECS (Elastic Container Service)
+* ECR = Elastic Container Registry = Image Registry
+
+=== ECS Cluster
+* ECS Cluster runs over several Availability Zones
+* The Cluster contains Tasks (= running Container)
+* The Task has a Task-Definition
+
+=== ECS Service
+* Runs in a Cluster
+* Maintain desired count of Tasks
+
+=== ECS Container Instance
+* HW to run Tasks
+* One per Availibility Zone
+
+== ECS "EC2" vs "Fargate" Type
+* Fargate (~= serverless)
+* Provision by EC2 instances vs. Automatically by resources
+* You manage EC2 instances vs. Automatically
+* Charged per EC2 instance vs. Running Task
+* EFS, EBS integration vs. No integration
+* You handle cluster optimization vs. Fargate handle that for you
+* Granular control over infrastructure vs. Limited control
+
+== S3 = Simple Storage Service
+* Object based storage system
+* Object = Key + Value
+
+
+== Swamp Token erneuern
+.AWS Konsole einloggen
+.Menu Punkt "Users",  dizabel suchen und anklicken
+.Die unter Security Credentials abgelegten Token (access_key und secret_key) müssen unter ~/.aws/credentials [default] eingetragen werden
+
+== Rollen testen mit
+----
+swamp-scale-nonlive-admin
+aws sts assume-role --role-session-name AWSCLI-Session --role-arn "arn:aws:iam::684697321556:role/quality-metric-monitoring"
+----

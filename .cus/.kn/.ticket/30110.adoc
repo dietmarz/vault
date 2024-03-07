@@ -1,0 +1,123 @@
+// include::{root}/.inc/include.adoc[]
+
+
+= In case of unlink LCL update BCM linkage
+
+*BCM*: Besteht aus vielen LCLs. EIN Kunde, aber viele Supplier die Ware an KN in einen/mehrere Container liefern.
+*Unlink*: Wir wollen wechseln der Container, weil dieses Shipment schon voll ist, zB.
+
+Im LCL wird nur die OrderBookingNr auf null gesetzt, nicht aus der Liste entfernt.
+
+Jedes LCL hat zwingend ein BCM, nach der Zuordnung, sonst kann es nicht in den Transport gehen
+
+
+
+== Test
+
+.Szenario 1: UnlinkedProgressIntegrationTest
+  ****
+* Legen ein BCM Shipment an
+* Verbinden des BCM Shipments mit LCL-1 und LCL-2 Shipment
+* Unlink des LCL-1 mit BCM
+* Assert: Nachricht ging raus.
+* Update Event des BCM (vom TMS das nichts vom unlink weiß)
+* Assert: Nach dem Update bleibt LCL-1 ge-unlinked
+  ****
+
+
+  ****
+in case a LCL Shipment is unlinked we need to remove this LCL shipment from the linked BCM Shipment by removing the LCL
+Order Booking Number from the Shipment Container within BCM Shipment
+
+ensure that a Shipment Event Message for this BCM is send (should happen implictily due to the triggered removal of
+LCL Order Booking Number)
+  ****
+this == shipment...
+
+
+[source,java]
+----
+if(this.shipmentType == LCL) { // in case a LCL Shipment is unlinked
+   bcmShipment = this.getLinkedBcmShip() // from the linked BCM Shipment
+   bcmShipment.getContainer(?).getLinkedOrderBookingNumbers().remove( this.getOrderBookingNumber )
+
+   // Ensure Send ShipmentEvent: "BCM Unlinked"
+}
+----
+
+
+1. BCM zu argu.LCL-shnr finden
+   BCM Shipmentnumber
+   BCM holen
+2. BCM->Containers->LclRefences
+    if( argu.LCL-shnr == LclRefences.ShipmentNumber ) {
+      LclRefences.bookingNr = null;
+    }
+3. Event erzeugen
+
+
+
+.Im ShipmentLinkingService:
+* [X] Bauen: Erkennt, das es ein LCL Shipment ist.
+* [ ] Bauen: LCL und BCM unlinkage,
+  ** Ex: tmsshipment.Container#lclOriginReferences
+  ** Ex: EspMasterContainer#lclOriginReferences
+
+.Message handling
+* [ ]  Prüfen: Sendet message an esp.shipment.q.kniemessage.import Q senden
+* [X]  Update: SeaShipmentKnieMessageImportMapper.mapToShipmentContainer nur
+* [ ]  Bauen: BCM-Unlink-Event (within Shipment)
+* [ ]  Bauen: BCM-Unlink-Event Bucket Consumer.
+  **           Ex: EspSeaShipmentMilestoneUpdateMessageReceiver & EspSeaShipmentMilestoneUpdateMessage
+  **           neuer Receiver anlegen
+  ***              copy EspSeaShipmentMilestoneUpdateMessageReceiver to EspSeaShipmentBcmUnlinkMessageReceiver
+
+
+
+== Entity Model
+[source, sql]
+----
+    select bcm.shipment_number
+    from esp_shipment bcm
+      join esp_master_sea_shipment ss   on ss.id = bcm.id -- gurantee that it is a master file
+      join esp_master_container mc_link on mc_link.shipment_id = bcm.id
+      join esp_lcl_reference lcl_link   on lcl_link.container_id = mc_link.id
+      join esp_shipment lcl             on lcl.id = lcl_link.shipment_id
+    where
+      lcl.shipment_number = 'CN2301005115-01'
+----
+
+
+
+[source, sql]
+----
+esp_shipment_lcl.shipment_number = 'lcl-shipment-number'                        AND
+esp_shipment_lcl.id              = esp_lcl_reference.shipment_id                AND
+esp_lcl_reference.container_id   = esp_master_container.id                      AND
+esp_master_container.shipment_id = esp_shipment_bcm.id                          AND
+esp_master_sea_shipment.id       = esp_shipment_bcm.id                          AND
+
+return esp_shipment_bcm.shipment_number
+----
+
+
+
+`lcl-shipment-number` == shipment_number.#esp_shipment_lcl#.id == shipment_id.#esp_lcl_reference#.container_id == id.#esp_master_container#.shipment_id == id.#esp_master_sea_shipment#.id == id.#esp_shipment_bcm#
+
+
+
+
+[source, hql]
+.Not running due to missing container in EspLclReference
+----
+SELECT new kn.knlogin.esp.shared.domain.ShipmentNumber(aes.shipmentNumber)
+FROM kn.knlogin.esp.shipment.domain.espshipment.AbstractEspShipment aes
+    JOIN EspMasterSeaShipment emss  ON emss.id = aes.id
+    JOIN EspMasterContainer emc     ON emc.shipment_id = aes.id
+    JOIN EspLclReference lclRef     ON lclRef.container_id = emc.id
+    JOIN AbstractEspShipment lcl    ON lcl.id = lclRef.linkedShipment.id
+WHERE lcl.shipmentNumber = :lclShipmentNumber
+----
+
+
+

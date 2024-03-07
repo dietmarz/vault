@@ -1,0 +1,98 @@
+= Grundsteuerreform
+
+== Stand
+* 2022-08-24 PWg muss quadratmeterzahl angepasst und abgeschickt werden
+* 2022-08-24 OJü sind neue Dokumente in der Cloud
+
+== Quellen
+* YT: https://www.youtube.com/watch?v=Qh0GpcEpET4[youtube]
+* YT: https://www.youtube.com/watch?v=lCr2eJjZToI[youtube]
+* FA: https://download.elster.de/download/videos/grundsteuer_ni_ausfuellanleitung.mp4[eigenes Video]
+* Steuerberater https://mail.google.com/mail/u/0/?pli=1#search/Bahlburg/KtbxLxGPpGQTQsfdxMjWpcDDTTJpkwJptL[PzWg5]
+
+* Neubewertung aller Grundstücke zum Stichtag 1. Januar 2022
+* Grundsteuer gilt ab 2025
+* Bundesmodell gilt in Nds nicht, dort gilt ein Flächen-Lage-Modell
+* Fristende 31.10.2022, Zahlung ab 01.01.2025
+* Eingabe unter Elster oder Steuerberater
+
+== Bundesmodell
+* Schritt 1: Erklärung und Feststellung des Grundwertes durch das Finanzamt (mit der Steuererklärung?)
+
+* Schritt 2: Anwendung der neuen Steuermeßzahl auf Grundsteuerwert
+  ** Zu diesem Zweck erteilt das FA einen sg. Grundsteuer-Mess-Bescheid
+  ** GS-Mess-Zahl = 0,34 Promille, für Wohngrundstücke 0,31 Promille
+
+
+* Schritt 3: Festsetzung der Grundsteuer durch die Gemeinde in 2024
+  ** Wenn der Hebesatz bekannt ist in 2024
+  ** Grundsteurmessbetrag = Grundsteuerwert * Steuermesszahl
+  ** Grundsteuer          = Grundsteuerwert * Steuermesszahl * Hebesatz der Gemeinde
+  ** Grundsteuerwert wird vom Finanzamt festgelegt nach meinen Angaben
+  ** Steuermesszahl nach Objektart.
+  ** Hebesatz wird von der Gemeinde festgesetzt
+
+
+== Erklärung der Wertfeststellung
+* Abgabe vom 01.07 - 01.11.2022
+
+=== Angaben zum Grundstück
+* Grundbuch: Blatt, Flur, Flurstück, Größe. (Kaufvertrag?)
+* Bodenrichtwert vom 01.01.2022, https://grundsteuer-viewer.niedersachsen.de/[hier]
+  ** Gemarkung Buchholz i.d.N. Flur 9 Flurstück 103/102 414m², BRW 380 €/m²
+
+* Aktenzeichen bzw. Steuernummer aus dem letzten Einheitswertbescheid
+  ** Mittels https://www.ueberbrueckungshilfe-unternehmen.de/[Umrechner]
+  ** Format ZZ / ZZZ / ZZZZZ. Sie lautet umgerechnet: 2315005020201
+
+=== Angaben zur Wohnfläche
+* Nach der Wohnflächenverordnung
+  ** Ohne Keller, Waschküche, Boden, Heizungsräume, Treppen Garagen<50m² unerheblich
+* Unter Dachschrägen unter 2m nur zur Hälfte
+* Terrassen nur zu einem viertel
+
+== Bewertung unbebauter Grundstücke OJüchen>
+* = Fläche * Bodenrichtwert
+
+== Kategorien
+* A: Agrar 
+* B: Bebaut
+* C: Neu: baureif aber unbebaute Grundstücke, teuer!
+
+== Wohnflächenverordnung WoFiV
+* Quelle https://www.youtube.com/watch?v=9zgMHTTVvi0[yt]
+* Allgemein > 2m 100%, 1 - 2m 50%, <1m 0%
+* Dachterrassen 25% nicht 50 wegen fehlender Aussicht
+* Ohne Büro
+
+=== Räume https://www.youtube.com/watch?v=OPIjdw9-9io[yt]
+[source, text]
+----
+* Volle      : Wohn, Schlaf, Kinder, Ess, Küche, Bad, Gäste, Toilette
+* 0.25 - 0.5 : Terasse
+* Keine      : Keller, Abstell, HWR, Boden, Trocken, Heizung, Garage
+----
+
+## Berechnung
+* Schlafzimmer
+* Kind 1 Lina 14,15
+* Kind 2      14,11
+* OG Bad       8,70
+* OG Flur      4,28
+* Küche       11,38
+* EG Bad       4,59
+* Wohnzimmer  24,83
+* EG Flur      7,83
+* Terasse      5,23 = 20,91 * 0,25 
+------------------------
+  ** 97,7
+
+* Rausgefallen: Büro, HWR
+* Abziehen: 
+  ** Höher als 1,5m und > 0,1m². Also Schornsteine...
+  ** Treppen
+  ** Türnischen
+  ** Fenster und Wandnischen, die nicht bis zum Fußboden gehen
+
+
+

@@ -1,0 +1,51 @@
+include::{root}/.inc/include.adoc[]
+
+= maven
+
+Maven lädt und added transitive Dependencies automatisch zum
+Runtime classpath.
+Dabei entstehen leicht Konflikte, wenn an zwei stellen
+die selbe dependency aber in unterschiedlichen Versionen benötigt
+wird. Um diese Konflikte zu sehen benutzt man:
+[source shell script]
+----
+mvn -Dverbose dependency:tree | less --pattern=conflict
+----
+.Konflikte anzeigen
+
+Um dieses Konflikte aufzulösen gibt es mehrere Möglichkeiten:
+
+. Die Version des ziehenden Jars soweit erhöhen, bis die Version der Dependency
+mit er Konflikten Version übereinstimmt.
+. In der Ziehenden-jar-dependency die nicht gewünschte transitive dependency excluden.
+. Die gewünschte Konflikt-Version als explizite Dependeny aufführen.
+
+Falls es Probleme mit den transitiven dependencies eines Plugins gibt, das plugin
+als normale dependency eintragen und im tree nach dem Problem schauen.
+
+
+== Ant to maven migration
+
+=
+=== Creating dependency
+* Search in maven Central for dependency tags
+* Searching in jar in pom.xml for coordinates
+
+=== Transitive dependencies
+* Probably makes sense to not pull, previously never used jar files, which now comes with maven, because maven
+resolves all transitive dependencies.
+* find dependencies using `mvn dependency:tree`
+
+.removed transitive dependency
+[source, xml]
+----
+<dependency>
+    <groupId>...</groupId><artifactId>...</artifactId><version>...</version>
+    <exclusions>
+        <exclusion>
+            <groupId>jdbc</groupId>
+            <artifactId>jdbc</artifactId>
+        </exclusion>
+    </exclusions>
+</dependency>
+----

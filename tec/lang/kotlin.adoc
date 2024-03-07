@@ -1,0 +1,12 @@
+include::{root}/.inc/include.adoc[]
+
+= kotlin
+
+* ? Elvis-Operator
+* use `?.let{...}` instead of if not null
+* let returns last call of block
+* also returns this themselves
+* apply offers invisible this and returns this
+* run is the same as apply but returns the last line
+
+==

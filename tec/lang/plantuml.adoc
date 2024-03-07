@@ -1,0 +1,162 @@
+include::{root}/.inc/include.adoc[]
+
+= plantuml
+
+https://plantuml.com/de/guide
+
+[plantuml]
+----
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml
+----
+
+[plantuml]
+----
+@startuml
+class User {
+-String id
+-String name
++String name()
+}
+User <|-- SpecificUser
+@enduml
+----
+
+[plantuml]
+----
+@startuml
+autonumber
+
+actor User as user
+participant "Browser UI" as browser
+participant "Reseller UI" as reseller_ui
+
+user -> browser : Visit the Reseller UI login page
+browser -> reseller_ui : Retrieve the Reseller UI login page
+browser <- reseller_ui : Return the login page with form field \nusername, password, and One Time Password(OTP)
+user <- browser : Display the page, wait for user input
+user -> user: Recall username and password \nfrom memory
+user -> browser : Fill in the username and password field
+user -> user: Open Google Authenticator, \nread the OTP
+user -> browser : Fill in the OTP, and hit the send button
+browser -> reseller_ui : Send the username, password and OTP
+reseller_ui -> reseller_ui : Verify the information is valid
+alt Login valid
+browser <- reseller_ui : Return the logged in page
+user <- browser : Display the logged in page
+else Login invalid
+browser <- reseller_ui : Return login failure page
+user <- browser : Display the login failure page
+end
+@enduml
+----
+
+.Participants and messages involved when changing a shipment in the Web UI
+[plantuml, target=message-flow, format=svg]
+....
+skinparam responseMessageBelowArrow true
+
+Participant "Web UI"
+Participant "esp-api-gateway"
+Participant "esp-tms-export"
+Participant TMS
+Participant "esp-shipment" #9e9
+
+"Web UI" -> "esp-api-gateway": update shipment //(REST)//
+"esp-api-gateway" -> "esp-tms-export": relay message //(async)//
+"esp-tms-export" -> TMS: EDIORD //(async)//
+"esp-shipment" <- TMS: SEASHP or AIRSHP //(async)//
+....
+
+.Another Example
+[plantuml, target=process-message, format=svg]
+....
+start
+:**My Header**
+unmarshal incoming XML;
+if (message type) then (else)
+    :extract key field values from the message;
+    if (message type) then (AIRSHP, AIRSTS)
+        :**MyRepo**
+        find a number
+        another line;
+    else (dennoch)
+        :**MyRepo II**
+        find a number
+        another line;
+    endif
+    stop
+else (Other-II)
+    :process KNLSTS message;
+    stop
+endif
+....
+
+
+.Processing a SEASHP message
+[plantuml, target=process-sea-message, format=svg]
+....
+start
+:a bold **text**;
+note right
+  note right
+end note
+
+if (shipment is found) then (no)
+    :create shipment using the shipment
+    number from the message header;
+    note left
+        side note
+    end note
+endif
+note left
+    without arrow
+end note
+
+if (shipment should be processed) then (no)
+    stop
+endif
+stop
+....
+
+[plantuml,demo,svg,opts="inline",svg-type="inline"]
+----
+@startuml
+
+package "Some Group" {
+  HTTP - [First Component]
+  [Another Component]
+}
+
+node "Other Groups" {
+  FTP - [Second Component]
+  [First Component] --> FTP
+}
+
+cloud {
+  [Example 1]
+}
+
+
+database "MySql" {
+  folder "This is my folder" {
+    [Folder 3]
+  }
+  frame "Foo" {
+    [Frame 4]
+  }
+}
+
+
+[Another Component] --> [Example 1]
+[Example 1] --> [Folder 3]
+[Folder 3] --> [Frame 4]
+
+@enduml
+
+----
+

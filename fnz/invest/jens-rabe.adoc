@@ -1,0 +1,32 @@
+include::{root}/.inc/include.adoc[]
+
+= jens-rabe
+
+== Themen
+* Blindes Buy and Hold ist vorbei
+* Builders first source Aktie NYSE * Voxx internationa
+Bhc check! Strategien
+tradingview.com
+goldminen aktien
+Indikatoren unbestechliches ampelsystem
+trading tagebuch
+
+== Morgenroutine https://www.youtube.com/watch?v=7WZjnTA-SeE
+* Volatilität: VIX, VVIX End of Day / max
+* SKEW Index Sind sie vorsichtig
+* Advance decline line NYSE
+
+* https://blog.jensrabe.de/?utm_source=newsletter&utm_medium=email&utm_campaign=infomail_20230511_jens_rabe_academy_blog[Jens-Rabe blog]
+
+== Rabe Webinar 2023-11-23
+* /film/Finanz/2023-11-23_Rabe-Live-Webinar
+* Mit Aktien kein monatliches Einkommen
+* Unabhängig vom Staat, Arbeitgeber, vom Land in dem Du lebst
+* Egal in welcher Phase ich verdiene immer Geld
+* Handel mit Optionen: Bedingungen
+  ** min 10.000€, Broker, theoretische Grundlagen, schriftlichen Handelsplan, praktische Anleitung (Coach),
+  ** 3-4h/Woche zum Lernen, später 0,5h/Tag am Anfang mehr, 6 Monate Einarbeitung
+  ** Was kannst Du jeden Monat rausziehen: Ziel: 1%/M = 12,7%/Y Cache flow
+  ** Verantwortung übernehmen und Entscheidungen treffen!
+
+**

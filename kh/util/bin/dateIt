@@ -1,0 +1,6 @@
+#!/bin/bash
+
+fileName=$1
+myDate=$(date '+%Y-%m-%d')
+
+mv "${fileName}" "${myDate}_${fileName}"

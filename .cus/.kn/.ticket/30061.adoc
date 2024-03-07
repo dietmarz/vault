@@ -1,0 +1,54 @@
+include::{root}/.inc/include.adoc[]
+
+= 30061 Unlink FCL shipment and switch to AIR is not working
+
+== Technical Solution
+
+[source,java]
+----
+public class AirShipmentKnieMessageImporter {
+    @BucketMessageConsumer(bucketStoreNames = KNIE_MESSAGE_IMPORT, bucketKeyJsonPointer = "/messageHeader/shipmentNumber")
+    public void updateShipment(AirShipmentKnieMessage knieMessage) {
+        MessageHeader messageHeader = knieMessage.getMessageHeader();
+        AirShipment shipment = airShipmentService.findShipment(messageHeader.getShipmentNumber())
+                .orElseGet(() -> AirShipment.fromKnComRef(messageHeader.getKnCommunicationReference().get())); // <1>
+     }
+}
+// Benutzt vom TmsMessageReceiver
+public class KnieImportService {
+  var shipmentNumber = shipmentRepository.findShipmentNumber(header.trackingNumber, header.knComRef); // <2>
+}
+----
+<1> Wenn eine AirShipmentKnieMessage reinkommt und die ShipmentNumber nicht gefunden wird,
+      statt eine neue per shipmentNumber anzulegen, eine neue mit KnComRef angelegt
+<2> Wenn eine knieXml message reinkommt, wird nur noch nach der trackingNumber und knComRef geschaut
+      und nicht mehr nach der orderBookingobTmsReference.
+
+== Reproduction Stacktrace
+
+* shipmentnumber: NZ2303I00803-01
+* https://es-esp-monitor-test.int.kn/app/dashboards#/view/9e27baa0-ad55-11e9-int-75644471cb55?_g=(filters:!())
+  ** org.hibernate.exception.ConstraintViolationException: could not execute statement
+* amqp_consumerQueue esp.shipment.q.kniemessage.import
+* amqp_receivedExchange esp.esbproxy.inbound.e.topic
+* __TypeId__ kn.knlogin.esp.shipment.app.importer.knie.air.AirShipmentKnieMessage
+* uuid 2d9849ae-4344-4850-90e7-ac149ec76d21
+
+* Es geht um: tableName="SHIPMENT" column name="SHIPMENT_NUMBER" type="VARCHAR2(255 CHAR)"> constraints nullable="false" *unique="true"* uniqueConstraintName="SHIPMENT_UK"/
+
+== Test
+* Create: SN1: ES2210000091-01 OBN: ES2210000091 OBTMSR: ES2210000091-01
+          ESP: DITO + kcr: A10S48992652 kor: null
+
+
+* UnLink: SN1: ES2210000091-01 OBN: null         OBTMSR: ES2210000091-01
+          ESP: DITO + kcr: A10S48992652 kor: null
+
+
+* ReLink: SN1: ES2210000091-01 OBN: null         OBTMSR: null
+          SN2: UK2240000092-01 OBN: UK2240000092 OBTMSR: UK2240000092-01
+
+
+
+* ReLin2: SN1: ES2210000091-01 OBN: null         OBTMSR: null
+          SN2: UK2240000092-01 OBN: UK2240000092 OBTMSR: UK2240000092-01

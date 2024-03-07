@@ -1,0 +1,110 @@
+include::{root}/.inc/include.adoc[]
+
+= Prozess
+
+== Troubleshooting
+* tempexpertstimesheets@sthree.com
+* m.maertens@computerfutures.de
+
+== Urlaub
+* link:urlaub.adoc[urlaub]
+
+== Krankmeldung
+* Im Google Calendar eintragen
+
+
+== !!! Buchung am Letzten Werktag des Monats !!!
+* Die Stundenanzahl aus JIRA muss dann im SThree gebucht werden.
+
+== Krankheit
+* First day https://wiki.int.kn/display/KNESP/23-01-11+1430+Wed+Joint+ESP+Teammeeting
+* Auf SThree im portal. Gescannte Arbeitsunfähigkeits Bescheinigung hochladen
+* Jira Zeiten Eintragung korrigieren
+* Erst am dritten tag zum doktor.
+* Nur für interne: https://krankmeldung.kuehne-nagel.com/start.xhtml
+* In Google Calendar eintragen
+
+
+== Stundenbuchung wöchentlich
+* Auf Urlaubstage & Krankheit prüfen!
+* Jeden Freitag bis 12Uhr!
+  ** firefox: https://519452.landwehr-hosting.de[SThree]
+  ** https://jira.int.kn/secure/Tempo.jspa#/my-work[Jira] Tempo->My Work, Tab Timesheet, Button Log Time drücken
+
+== Stundenbuchung Ende des Monats
+* Auf Urlaubstage & Krankheit prüfen!
+* FF Eingaben des Monats abschließen
+* Stundenzettel drucken
+  ** Alles anhaken bis auf `PDF direkt hochladen`
+  ** Speichern unter C:\dietmar\stundenzettel
+  **  tc /c/Users/dietmar.zabel/Downloads/ /c/dietmar/stundenzettel/
+* PDF an knham.CustomerFacing.Forecasts@kuehne-nagel.com , es wird nicht unterschrieben, sondern einfach per OK zurück geschickt.
+* Stundezettel weiterleiten an: "Maertens, Matthias" <m.maertens@computerfutures.de>
+* Wenn bestätigungsmail da, diese an `m.maertens@computerfutures.de` weiterleiten
+
+== Mitte des Monats
+* Forecast an: knham.CustomerFacing.Forecasts <knham.CustomerFacing.Forecasts@kuehne-nagel.com>
+
+
+== Besuch in HH
+
+=== Vorbereitung
+* Überseeallee 12 in Google Kalender speichern + weitere Adressen
+* -> Arbeitsplatz buchen
+* Vor 6:30 los
+* Bei KN klingeln am Tor. Nicht die 117 nehmen
+* Foto vom Parkplatz!
+
+=== Ankunft
+* Vollständiges Material im 1. OG Schließschrank
+* Desk Buchung bestätigen
+* Headset immer laden! (Usb am Monitor)
+
+=== Mittagspause
+* Headset laden!
+
+=== Nachbereiten
+* Headset ausschalten! (+ Maus &  Tastatur)
+
+== Mit dem Auto
+* Überseeallee 12
+[source, text]
+----
+An: Empfang, Knham / Kuehne + Nagel / Ham KN-Centrum <knham.empfang@Kuehne-Nagel.com>
+Betreff: Parkplatz Tiefgarage im Shipyard Gebäude
+
+Sehr geehrter Empfang,
+
+ich benötige für Xxxxxxx den XX.XX einen Parkplatz 
+in der Tiefgarage vom Shipyard Gebäude. 
+Sind an diesem Tag noch freie Plätze verfügbar?
+
+Mit freundlichem Gruß
+
+Dietmar Zabel
+---- 
+
+== Arbeitsplatz buchen mit Kollegen
+* https://kuehne-nagel.condecosoftware.com
+  ** Button: "Go to main App" -> Linkes Menu: "Find a colleague"
+  ** Aus Liste Button: "View"
+  ** Freien, grünen Arbeitsplatz anwählen und für "AM" & "PM" reservieren. Button: "Save & Close". Popup schließt
+  ** Buchung prüfen unter Personal Spaces-> Your Bookings!
+
+=== Buchen alleine
+* MyDesk aufrufen (https://kuehne-nagel.condecosoftware.com/EnterpriseLite/#/app/dashboard)
+  ** Location: Hafencity SY       Group: Ham SY Shared Desktop
+  ** Floor 1 (1) Desk             Workspace Type: Desk
+  ** Search Button, Book Button
+  ** Arbeitsplatz Nummer in Google Termin speichern!
+* Prüfen und Löschen unter "Personal spaces"
+
+== Arbeitsplatz
+* Gute plätze mit dem Rücken zur Wand an den Enden:
+  ** 1.OG:  1-130-1  1-139-1  1-121-1  1-108-1 1-209-1  1-233-1  1-224-1
+
+== IT Support
+* 040 30333 2332
+* Username und Passwörter in Windows Systemsteuerung unter "Credential Manager"
+
+

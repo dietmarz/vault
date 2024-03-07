@@ -1,0 +1,9 @@
+include::{root}/.inc/include.adoc[]
+
+= Pre Shipment
+
+==
+* In KN ESP wechsel zu Supplier: "KAYECO Limited -> Theatre Equipment Ltd"
+* Create Booking -> New Booking Screen
+  ** Orderline Selection: Nimmt sich irgendeine Orderline -> Next
+  ** Booking Request: Quantity, Weight, Volume..., Start-Datum, SeaWayBill, Commodity, Container Infos ausfüllen -> [Request Booking]

@@ -1,0 +1,53 @@
+include::{root}/.inc/include.adoc[]
+:otto-prj-dir: /home/dietmar/project/otto/
+
+= 2022-04-07
+
+== Aufgaben
+
+
+=== 1013
+
+== Heute
+
+* [ ] Zeichnung quality_psr_loadtest-xlt filehandling.drawio.svg weiter
+
+=== Morgen
+=== Mittagspause
+=== Nachmittag
+
+=== Abend
+* [ ] Rohr installieren unterm Tisch + Schrauben zur Befestigung DVI Swich
+* t ls einbauen mit tree
+* t und p wieder zusammenführen. lohnt sihc nicht
+* t daten auf ssd syncen
+* t rm einbauen
+* t wenn endung adoc und fiel nicht das template einfügen
+
+=== Sport
+
+=== Ziel Woche 13 - 19
+* [ ] Krafttraining
+
+== Privat
+
+[ ] Finanz Termin setzen knallhart 30 Min pro Woche fix
+[ ] Andree einsehen und dokumentieren
+[ ] Rentenkasse, warum weniger?
+
+
+
+
+
+
+
+
+
+
+
+== Notizen
+
+|===
+|[ ] Mail Privat |[ ] Cal Privat |[ ] Müll  |[ ] Sport  |[ ] Alarm |[ ] Buchen
+|[ ] Mail Custom |[ ] Cal Custom |[ ] Brief |[ ] Chat   |[ ] Daily |
+|===

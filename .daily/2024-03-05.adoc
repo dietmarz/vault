@@ -1,0 +1,106 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= Dienstag, 05. März 2024
+
+link:../def/score-board.adoc[Daily Score Board]
+
+== Aufgaben
+Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
+
+* Use backlog to keep overview in daily work
+* link:../prv/backlog.adoc[BackLog]
+* [ ] Paper Score board?
+** yubikee fertig
+
+* Steuer
+* Briane Greene der Stoff aus dem der kosmos ist
+
+* Merker: D: 400,65€ Hotel Berlin, 365 Frohberg Tantra Seminar
+
+
+== Heute: (Ziel immer W)
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== BITEP 20. - 24.03.
+* [X] Event gebucht
+* [X] Event bezahlt und Ticket-Druck im Ordner
+* [X] Event Rechnung angepasst und gedruckt im Ordner
+* [X] Bahn Hin- und Rückfahrt gekauft & gedruckt
+* [x] Unterkunft gebucht
+* [ ] Unterkunft bezahlt und gedruckt im Ordner. 400,65€ Rechnung fehlt noch
+* [ ] Event Rechnung angepasst und gedruckt im Ordner
+* [ ] Event und Unterkunft Details in Kalendar eingetragen
+* [ ] StB: Event, Unterkunft, PKW-Km als PostIt da. Sonst nichts!
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Tantra
+* [X] Event gebucht
+* [X] Event bezahlt und Ticket-Druck im Ordner
+* [X] Event Rechnung angepasst und gedruckt im Ordner
+* [X] Caddy oder Bus
+* [X] Unterkunft gebucht
+* [x] Unterkunft bezahlt und gedruckt im Ordner
+* [X] Event Rechnung angepasst und gedruckt im Ordner -> BITEP VII Rechnung
+* [ ] Event und Unterkunft Details in Kalendar eingetragen
+* [ ] StB: Event, Unterkunft, PKW-Km als PostIt da. Sonst nichts!
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== BKK
+* [x] Event gebucht
+* [x] Event bezahlt und Ticket-Druck im Ordner
+* [ ] Event Rechnung angepasst und gedruckt im Ordner
+* [ ] Bahn Hin- und Rückfahrt gekauft & gedruckt
+* [ ] Unterkunft gebucht
+* [ ] Unterkunft bezahlt und gedruckt im Ordner
+* [ ] Event Rechnung angepasst und gedruckt im Ordner
+* [ ] Event und Unterkunft Details in Kalendar eingetragen
+* [ ] StB: Event, Unterkunft, PKW-Km als PostIt da. Sonst nichts!
+
+
+
+
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Eichengrund Übertragungsvertrag
+link:../fnz/eichengrund-uebertragung.adoc[Stand]
+* [ ] Termin zur Beurkundung mit Frau Schlüchting unter 04941/92366-15 absprechen
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== OLB OberesJüchen Anlage
+* [W] Frau Reents von der OLB fragt nochmal nach, welche Möglichkeiten es gibt.
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Gesundheit
+* [ ] G W 30 < ? > 29.01 Urologe besuchen, Zettel + m. gefüllter Blase Mo-Fr 8:30 - 11:00 Mo-Do 15:00 - 18:00.
+* [ ] F   30 < ? > KKasse wechseln
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Eichengrund Schimmel
+* [W] Fdw 10 < ? > 09.02 HR, war der Test bei seiner Immobilie erfolgreich?
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Haus
+* [ ] H   30 < ? > Ladestecker bauen -> PausenJob
+* [ ] Hdw 60 < ? > Stromfresser finden, was ist mir son Server wert.
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Lernen
+* [ ] Jdw 99 < ? > Projekt Wecker / Uhr Website starten
+** Angular, spring boot
+* [ ] Udemy Kurs DDD ist echt gut!
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

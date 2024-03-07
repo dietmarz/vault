@@ -1,0 +1,41 @@
+include::{root}/.inc/include.adoc[]
+
+= 34206
+
+https://jira.int.kn/browse/KNOMP-34206[Ticket]
+
+== abc
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== KNOMP-34206 [oedi-data-bridge] update to unified-shipment-model-message v1 8.0.0
+* https://jira.int.kn/browse/KNOMP-34206[Jira]
+* https://jira.int.kn/browse/KNOMP-31282[Epic] MDM: Clean-Up
+* link:../.ticket/34206.adoc[docu]
+
+
+
+[source,java]
+.Projekt: eps-shared-message-api ArtifactId: esp-unified-shipment-model-message-api-v1 Version: 8.0.0
+----
+package kn.knlogin.esp.message.v1.unifiedshipmentmodelmessage.types;
+public class UnifiedShipment {
+  ShipmentEventHistory eventHistory; // removed !!!
+  ShipmentEvent lastCargoMovement;  // removed !!!
+}
+----
+
+[source,java]
+.Projekt: esp-oedi-data-bridge Version 6.0.0
+----
+package kn.knlogin.esp.oedidatabridge.unified.types;
+public class UnifiedShipment {
+  ShipmentEventHistory eventHistory; // removed !!!
+}
+
+----
+
+
+* [ ] Wie ausbauen in oedi-data-bridge? Abhängig von der Benutzung, deshalb Frage an Martin und Dimitrii.
+* Kontakt: Martin Bekier und Dmitrii Danileiko (Chef) -> Aditi Singh (Architect)
+
+
