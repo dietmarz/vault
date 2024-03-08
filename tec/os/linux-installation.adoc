@@ -142,6 +142,9 @@ sudo apt upgrade nextcloud-desktop/focal
 Strategie: voller cloud ordner umbenenen, NC neu aufsetzen auf leeren Ordner mit den selben sync foldern.
 Kurz anlaufen lassen und schauen ob die Ordner auf der richtigen Ebene angelegt werden. NC beenden
 und Ordner umbenennen.
+
+dietmar->settings->general->Edit Ignored Files
+.git, .idea, .attach_pid*, *.dec.adoc
 ----
 
 .Tools
