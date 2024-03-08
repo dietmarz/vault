@@ -33,6 +33,7 @@ rsync_backup /home/dietmar/.gitconfig
 rsync_backup "$ENV_OFFICE"
 rsync_backup "$ENV_VAULT"
 rsync_backup /home/dietmar/cloud/photo
+rsync_backup "/home/dietmar/cloud/andi/Christian Meyer/all-mp3gain"
 
 
 # Berechne den freien Speicherplatz, den benutzten Speicherplatz und die Gesamtkapazität

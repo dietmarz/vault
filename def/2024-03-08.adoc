@@ -74,7 +74,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 * [X] Unterkunft Rechnung angepasst und gedruckt im Ordner -> BITEP VII Rechnung
 * [ ] Event und Unterkunft Details in Kalendar eingetragen
 * [ ] StB: Event, Unterkunft, PKW-Km als PostIt da. Sonst nichts!
-
+ddd
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === BKK
 * [x] Event gebucht
