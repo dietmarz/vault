@@ -46,10 +46,11 @@ if [[ $(type -P "snap") ]]; then
   sudo snap refresh
 fi
 
-echo -----------------------------------------------------------
-echo update zoom
-echo -----------------------------------------------------------
 if command -v zoom &>/dev/null; then
+  echo -----------------------------------------------------------
+  echo update zoom
+  echo -----------------------------------------------------------
+
   url=https://zoom.us/client/latest/
   file=zoom_amd64.deb
   cd ~/Downloads

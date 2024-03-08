@@ -18,7 +18,7 @@ fi
 #  || [ "$HOSTNAME" == "server" ] Fehlt
 if [ "$HOSTNAME" == "p5470" ] || [ "$HOSTNAME" == "e5401" ] || [ "$HOSTNAME" == "labor" ] || [ "$HOSTNAME" == "cinnamon-vm" ]
 then
-  export ENV_VAULT="/home/dietmar/vault"
+  export ENV_VAULT="/home/dietmar/cloud/Notes"
   export ENV_EDITOR="/opt/idea/bin/idea.sh"
   export ENV_FILE_LISTER="tree"
   export ENV_FILE_LISTER_ARG=""
@@ -40,6 +40,11 @@ if ! [ -f "$ENV_EDITOR" ]
 then
     echo ENV_EDITOR does not point to the idea editor executable: $ENV_EDITOR
 fi
+
+
+export PATH=${PATH}:${ENV_VAULT}/kh/util/bin
+export PATH=${PATH}:${ENV_EDITOR%/*}
+
 
 # --- filesystem ---
 alias largeDirs='du -ah --max-depth=1 . | sort -h'
