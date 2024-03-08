@@ -41,6 +41,10 @@ then
     echo ENV_EDITOR does not point to the idea editor executable: $ENV_EDITOR
 fi
 
+SERVER_BIN=/home/dietmar/project/server/bin
+if [ -d "$SERVER_BIN" ]; then
+    export PATH=${PATH}:${SERVER_BIN}
+fi
 
 export PATH=${PATH}:${ENV_VAULT}/kh/util/bin
 export PATH=${PATH}:${ENV_EDITOR%/*}
