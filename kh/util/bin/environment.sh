@@ -3,9 +3,8 @@
 # Windows Beispiel
 if [ "$HOSTNAME" == "DEXXXLPF458HGE" ] || [ "$HOSTNAME" == "DEW33687" ]
 then
-  export ENV_VAULT="c:/dietmar/vault/"
+  export ENV_VAULT="c:/dietmar/vault"
   export ENV_EDITOR="c:/opt/idea/bin/idea64.exe"
-  export ENV_KH="c:/vault/kh/"
   export ENV_FILE_LISTER="ls"
   export ENV_FILE_LISTER_ARG="-lrth"
   export ENV_PYTHON="py.exe"
@@ -19,9 +18,8 @@ fi
 #  || [ "$HOSTNAME" == "server" ] Fehlt
 if [ "$HOSTNAME" == "p5470" ] || [ "$HOSTNAME" == "e5401" ] || [ "$HOSTNAME" == "labor" ] || [ "$HOSTNAME" == "cinnamon-vm" ]
 then
-  export ENV_VAULT="/home/dietmar/vault/"
+  export ENV_VAULT="/home/dietmar/vault"
   export ENV_EDITOR="/opt/idea/bin/idea.sh"
-  export ENV_KH="${ENV_VAULT}/kh/"
   export ENV_FILE_LISTER="tree"
   export ENV_FILE_LISTER_ARG=""
   export ENV_PYTHON="python3"
@@ -43,11 +41,6 @@ then
     echo ENV_EDITOR does not point to the idea editor executable: $ENV_EDITOR
 fi
 
-if ! [ -d "$ENV_KH" ]
-then
-    echo ENV_KH does not point to the kh directory: $ENV_KH
-fi
-
 # --- filesystem ---
 alias largeDirs='du -ah --max-depth=1 . | sort -h'
 alias removeSpacesInFiles='for f in *\ *; do mv "$f" "${f// /-}"; done'
@@ -55,7 +48,7 @@ alias cddietmar="cd ~/dietmar"
 alias cdvault="cd $ENV_VAULT"
 alias cdDownloads="cd ~/Downloads && ls -lrtha"
 alias cdoffice="cd ~/cloud/office"
-alias cdkh="cd ~/project/kh/util/bin"
+alias cdkh="cd $ENV_VAULT/kh/util/bin"
 alias cdserver="cd ~/project/server"
 alias cdkonto="cd ~/cloud/office/Finanz/Konten/Kontoauszug"
 alias ll='ls -lrtha'

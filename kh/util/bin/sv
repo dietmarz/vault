@@ -62,11 +62,11 @@ git_ops() {
     git status -s
 }
 
-# Check if ENV_VAULT and ENV_KH are set and not empty
-if [[ -n ${ENV_VAULT:-} && -n ${ENV_KH:-} ]]; then
+# Check if ENV_VAULT is set and not empty
+if [[ -n ${ENV_VAULT:-} ]]; then
     # Encryption operation
     echo "-------------------------  vault encryption -------------------------"
-    ${ENV_KH}/util/bin/t   "e"
+    ${ENV_VAULT}/kh/util/bin/t "e"
 
     # Call the function for vault
     git_ops ENV_VAULT "Update vault by sv"
@@ -74,4 +74,3 @@ fi
 
 # Call the function for office and kh
 git_ops ENV_OFFICE "Update office by sv"
-git_ops ENV_KH "Update kh by sv"

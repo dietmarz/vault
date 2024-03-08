@@ -32,7 +32,6 @@ rsync_backup /home/dietmar/.bashrc
 rsync_backup /home/dietmar/.gitconfig
 rsync_backup "$ENV_OFFICE"
 rsync_backup "$ENV_VAULT"
-rsync_backup "$ENV_KH"
 rsync_backup /home/dietmar/cloud/photo
 
 
