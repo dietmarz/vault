@@ -22,21 +22,20 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 * [ ] O-w yubikee verwendet, wie unter Android?
 * [ ] O-w vault in cloud, damit keepass zugriff erhält
 * [ ] O-W Zeugnismappe einmal komplett einscannen
-* [ ] O-W Backup-DVD Medien und Md5 Dateien strukturieren
+* [ ] O-W Backup-DVD Medien und Md5 Dateien strukturieren, NC->project->backup-md5files
 * [ ] O-W Backup großer Video Dateien überlegen, wie inkrementell sichern
 * [ ] O-W Accounts.odt entfernen, drucken. Office löschen und neue anlegen
 
 
 == Heute! (Hier wird gearbeitet)
 * [w] JDW Bewerbung raus. "Suche immer noch... ANÜ, FB, Fest"
-* [ ] Vertrag drucken, Parameter ausarbeiten
-* [ ] J-W merge vault & kh + Folgetätigkeiten
-* [ ] J-W pwd aus environment entfernen. Githubkey entfernen. env_pwd manuell pflegen nur auf Stick
+* [x] Vertrag drucken, Parameter ausarbeiten
+* [ ] J-W merge vault & kh -> Cinnamon reparieren.
+* [ ] J-W e5401, labor reparieren
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-=== kh & vault merge
-* server, p5470, e5401, A54, Cinnamon, labor
-* Zuerst säubern.
+=== Start Minimalismus
+* Keller.
 
 
 
@@ -74,7 +73,8 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 * [X] Unterkunft Rechnung angepasst und gedruckt im Ordner -> BITEP VII Rechnung
 * [ ] Event und Unterkunft Details in Kalendar eingetragen
 * [ ] StB: Event, Unterkunft, PKW-Km als PostIt da. Sonst nichts!
-ddd
+
+
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === BKK
 * [x] Event gebucht
