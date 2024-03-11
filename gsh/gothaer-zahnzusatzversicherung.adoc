@@ -1,0 +1,10 @@
+include::{root}/.inc/include.adoc[]
+
+= Gothaer Zahnzusatzversicherung
+* /home/dietmar/cloud/office/Gesundheit/Versicherung/Gothaer-Zahnzusatzversicherung[cloud-speicher]
+
+* Versicherungsnummer: 98.000.496645
+
+== Zahnreinigungsrechnung einreichen
+* https://www.gothaer.de/meine-gothaer/kundenordner/login/abgemeldet.htm[Login]
+* Punkt: Rechnungen einreichen
