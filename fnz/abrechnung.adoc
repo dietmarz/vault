@@ -1,6 +1,6 @@
 include::{root}/.inc/include.adoc[]
 
-= Abrechnung Template
+= Abrechnung Template Vorlage
 
 == Monatsabrechnung Steuern
 
@@ -9,7 +9,7 @@ Amazon letzter Artikel: <ARTIKEL>
 ebay   letzter Artikel: <ARTIKEL>
 udemy  letzter Artikel: <ARTIKEL>
 |===
-| [ ] | Kopieren           | Diese Liste in das Daily kopieren und Monat richtig setzen, damit grep Fähigkeit hergestellt.
+| [ ] | Kopieren           | ./fnz/abrechnung.adoc in das Daily kopieren und Monat richtig setzen, damit grep Fähigkeit hergestellt.
 | [ ] | Postkasten         | Ggf. Stempeln und Scannen
 | [ ] | Portemonnaie       | Ggf. Einkleben
 | [ ] | Selfhost           | https://selfhost.de/cgi-bin/selfhost?p=account&cat=rechnung&CGISESSID=090ed7dc07cc73a1f6237252daa8d67f[Selfhost-Login]

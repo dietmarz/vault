@@ -1,6 +1,6 @@
 include::{root}/.inc/includeDaily.adoc[]
 
-= Sonntag, 10. März 2024
+= Montag, 11. März 2024
 
 link:../def/score-board.adoc[Daily Score Board]
 
@@ -27,10 +27,44 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 * [ ] O-W Accounts.odt entfernen, drucken. Office löschen und neue anlegen
 
 
+
 == Heute! (Hier wird gearbeitet)
 * [w] JDW Bewerbung raus. "Suche immer noch... ANÜ, FB, Fest"
 * [ ] Vertragsfragen klären
 * [ ] J-W e5401, labor reparieren
+* [ ] Steuer
+
+.Abrechnung für Monat: Januar 2024
+Amazon letzter Artikel: Halstuch
+ebay   letzter Artikel: Logitech Web Cam
+Udemy  letzter Artikel: 20.11. Deep Learning Python
+|===
+| [X] | Kopieren           | ./fnz/abrechnung.adoc in das Daily kopieren und Monat richtig setzen, damit grep Fähigkeit hergestellt.
+| [X] | Postkasten         | Ggf. Stempeln und Scannen
+| [X] | Portemonnaie       | Ggf. Einkleben
+| [x] | Selfhost           | https://selfhost.de/cgi-bin/selfhost?p=account&cat=rechnung&CGISESSID=090ed7dc07cc73a1f6237252daa8d67f[Selfhost-Login]
+| [X] | Amazon             | https://www.amazon.de/gp/css/order-history?ref_=nav_AccountFlyout_orders[Meine Bestellungen]
+| [X] | Amazon Messages    | https://www.amazon.de/gp/message#!/inbox
+| [ ] | Email              | https://mail.google.com/mail/u/0/?pli=1#advanced-search/subset=all&attach=true&within=1d&sizeoperator=s_sl&sizeunit=s_smb[Gmail m. Anhang]
+| [ ] | Ebay zur Prüfung   | https://www.ebay.de/mye/myebay/v2/purchase[Ebay gekauft]
+| [ ] | Udemy              | https://www.udemy.com/dashboard/purchase-history/[Udemy-Gekauft]
+| [ ] | Bhhz Digital       | https://portal.buchholz-stadtwerke.de/powercommerce/ivu/fo/portal/invoiceDetails[Bhhz-Digital]
+| [ ] | HVV                | https://shop.hvv.de/personal_data/orderList[HVV-Login]
+| [ ] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank]
+| [ ] | Auszüge Skat       | https://www.vrbank-altenburgerland.de/services_auth/auth-ui/?v=5ff448423447dee6&client_id=fkp&redirect_uri=https:%2F%2Fwww.vrbank-altenburgerland.de%2Fservices_cloud%2Fportal%2Fportal-oauth%2Flogin[Skat Bank]
+| [ ] | Umsätze QCC prüfen | Ggf. An Frau Bahlburg senden
+| [ ] | Auszüge Flatex     | https://www.flatex.de/#[Flatex Bank]
+| [ ] | EWE Tel Handy      | https://mein.ewe.de/ewetelcss/secure/billingOverview.xhtml[EWE-Tel-Login]
+| [ ] | Invest tätigen     | Was, wie, welche Strategie?
+| [ ] | Chat GPT           | Profile -> My Plan -> Manage My Subscription. Unten Tabelle, rechts neben der Datum Spalte den Link-Pfeil drücken
+| [ ] | Scan Ordner leeren | vorher syncSmb
+| [ ] | Besonderheiten     | WVL und offene Dinge notiert im Daily
+| [ ] | Ordern sync        | git office & sv, ganz zum Schluß
+| [ ] | Mail               | Mail an Frau Bahlburg
+|===
+
+
+
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Start Minimalismus
@@ -44,8 +78,6 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Bhhz 15 - 17.03 Vorstieg
-
-
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === BITEP 20. - 24.03.
 * [X] Event gebucht

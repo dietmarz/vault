@@ -17,6 +17,7 @@ include::{root}/.inc/include.adoc[]
 * Regelmäßige Pausen
 
 
+
 == Erster Schritt
 * Im E-Werkstatt sammeln 10 unnützen und lieblosen Gegenstände bis 18.
 * Regelmäßige Zeit festlegen, 17 - 18 Uhr?
@@ -65,6 +66,17 @@ Neue Ordnung systematisch aufrechterhalten, neue Routinen entwickeln
 
 === Meistern
 Anwenden, durchhalten
+
+== Vorgehen
+Durch alle Räume einen Zustand herstellen
+
+== Zustände
+* Müllfrei. Müll: Defekt, irreparabel
+* Unbenutzbar, weil doppelt
+* Nie wieder gebraucht
+* Irgendwann nutzbar
+
+
 
 == Dinge und Hobbies
 9 Wichtig, 0 unwichtig (Emotionalität)
