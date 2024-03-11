@@ -35,9 +35,9 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 * [ ] Steuer
 
 .Abrechnung für Monat: Januar 2024
-Amazon letzter Artikel: Halstuch
-ebay   letzter Artikel: Logitech Web Cam
-Udemy  letzter Artikel: 20.11. Deep Learning Python
+Amazon letzter Artikel: Buch das kann doch weg
+ebay   letzter Artikel: Klöpperboden
+Udemy  letzter Artikel: 06.03. Der moderne Java Kurs
 |===
 | [X] | Kopieren           | ./fnz/abrechnung.adoc in das Daily kopieren und Monat richtig setzen, damit grep Fähigkeit hergestellt.
 | [X] | Postkasten         | Ggf. Stempeln und Scannen
@@ -45,9 +45,9 @@ Udemy  letzter Artikel: 20.11. Deep Learning Python
 | [x] | Selfhost           | https://selfhost.de/cgi-bin/selfhost?p=account&cat=rechnung&CGISESSID=090ed7dc07cc73a1f6237252daa8d67f[Selfhost-Login]
 | [X] | Amazon             | https://www.amazon.de/gp/css/order-history?ref_=nav_AccountFlyout_orders[Meine Bestellungen]
 | [X] | Amazon Messages    | https://www.amazon.de/gp/message#!/inbox
-| [ ] | Email              | https://mail.google.com/mail/u/0/?pli=1#advanced-search/subset=all&attach=true&within=1d&sizeoperator=s_sl&sizeunit=s_smb[Gmail m. Anhang]
-| [ ] | Ebay zur Prüfung   | https://www.ebay.de/mye/myebay/v2/purchase[Ebay gekauft]
-| [ ] | Udemy              | https://www.udemy.com/dashboard/purchase-history/[Udemy-Gekauft]
+| [X] | Email              | https://mail.google.com/mail/u/0/?pli=1#advanced-search/subset=all&attach=true&within=1d&sizeoperator=s_sl&sizeunit=s_smb[Gmail m. Anhang]
+| [X] | Ebay zur Prüfung   | https://www.ebay.de/mye/myebay/v2/purchase[Ebay gekauft]
+| [X] | Udemy              | https://www.udemy.com/dashboard/purchase-history/[Udemy-Gekauft]
 | [ ] | Bhhz Digital       | https://portal.buchholz-stadtwerke.de/powercommerce/ivu/fo/portal/invoiceDetails[Bhhz-Digital]
 | [ ] | HVV                | https://shop.hvv.de/personal_data/orderList[HVV-Login]
 | [ ] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank]
