@@ -53,17 +53,17 @@ HVV: 27.02
 | [X] | Udemy              | https://www.udemy.com/dashboard/purchase-history/[Udemy-Gekauft]
 | [X] | Bhhz Digital       | https://portal.buchholz-stadtwerke.de/powercommerce/ivu/fo/portal/invoiceDetails[Bhhz-Digital]
 | [X] | HVV                | https://shop.hvv.de/personal_data/orderList[HVV-Login]
-| [ ] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank]
-| [ ] | Auszüge Skat       | https://www.vrbank-altenburgerland.de/services_auth/auth-ui/?v=5ff448423447dee6&client_id=fkp&redirect_uri=https:%2F%2Fwww.vrbank-altenburgerland.de%2Fservices_cloud%2Fportal%2Fportal-oauth%2Flogin[Skat Bank]
-| [ ] | Umsätze QCC prüfen | Ggf. An Frau Bahlburg senden
+| [X] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank]
+| [X] | Auszüge Skat       | https://www.vrbank-altenburgerland.de/services_auth/auth-ui/?v=5ff448423447dee6&client_id=fkp&redirect_uri=https:%2F%2Fwww.vrbank-altenburgerland.de%2Fservices_cloud%2Fportal%2Fportal-oauth%2Flogin[Skat Bank]
+| [X] | Umsätze QCC prüfen | Ggf. An Frau Bahlburg senden
 | [ ] | Auszüge Flatex     | https://www.flatex.de/#[Flatex Bank]
-| [ ] | EWE Tel Handy      | https://mein.ewe.de/ewetelcss/secure/billingOverview.xhtml[EWE-Tel-Login]
+| [X] | EWE Tel Handy      | https://mein.ewe.de/ewetelcss/secure/billingOverview.xhtml[EWE-Tel-Login]
 | [ ] | Invest tätigen     | Was, wie, welche Strategie?
 | [ ] | Chat GPT           | Profile -> My Plan -> Manage My Subscription. Unten Tabelle, rechts neben der Datum Spalte den Link-Pfeil drücken
 | [ ] | Scan Ordner leeren | vorher syncSmb
 | [ ] | Besonderheiten     | WVL und offene Dinge notiert im Daily
 | [ ] | Ordern sync        | git office & sv, ganz zum Schluß
-| [ ] | Mail               | Mail an Frau Bahlburg
+| [X] | Mail               | Mail an Frau Bahlburg
 |===
 
 
