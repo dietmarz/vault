@@ -29,11 +29,12 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 
 
 == Heute! (Hier wird gearbeitet)
-* [w] JDW Bewerbung raus. "Suche immer noch... ANÜ, FB, Fest"
+* [w] JDW Bewerbung raus. "Suche immer noch... ANÜgit@github.com:dietmarz/vault.git, FB, Fest"
 * [ ] Vertragsfragen klären
-* [ ] J-W e5401, labor reparieren
+* [ ] J-W e5401 Rechner, labor rechner an Notes anpassen
 * [ ] Steuer
 * [ ] Termin besorgen und absprechen mit Mutti
+* [ ] Hecke zuende schneiden
 
 .Abrechnung für Monat: Januar 2024
 Amazon letzter Artikel: Buch das kann doch weg
