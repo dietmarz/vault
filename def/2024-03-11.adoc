@@ -33,11 +33,13 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 * [ ] Vertragsfragen klären
 * [ ] J-W e5401, labor reparieren
 * [ ] Steuer
+* [ ] Termin besorgen und absprechen mit Mutti
 
 .Abrechnung für Monat: Januar 2024
 Amazon letzter Artikel: Buch das kann doch weg
 ebay   letzter Artikel: Klöpperboden
 Udemy  letzter Artikel: 06.03. Der moderne Java Kurs
+HVV: 27.02
 |===
 | [X] | Kopieren           | ./fnz/abrechnung.adoc in das Daily kopieren und Monat richtig setzen, damit grep Fähigkeit hergestellt.
 | [X] | Postkasten         | Ggf. Stempeln und Scannen
@@ -48,8 +50,8 @@ Udemy  letzter Artikel: 06.03. Der moderne Java Kurs
 | [X] | Email              | https://mail.google.com/mail/u/0/?pli=1#advanced-search/subset=all&attach=true&within=1d&sizeoperator=s_sl&sizeunit=s_smb[Gmail m. Anhang]
 | [X] | Ebay zur Prüfung   | https://www.ebay.de/mye/myebay/v2/purchase[Ebay gekauft]
 | [X] | Udemy              | https://www.udemy.com/dashboard/purchase-history/[Udemy-Gekauft]
-| [ ] | Bhhz Digital       | https://portal.buchholz-stadtwerke.de/powercommerce/ivu/fo/portal/invoiceDetails[Bhhz-Digital]
-| [ ] | HVV                | https://shop.hvv.de/personal_data/orderList[HVV-Login]
+| [X] | Bhhz Digital       | https://portal.buchholz-stadtwerke.de/powercommerce/ivu/fo/portal/invoiceDetails[Bhhz-Digital]
+| [X] | HVV                | https://shop.hvv.de/personal_data/orderList[HVV-Login]
 | [ ] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank]
 | [ ] | Auszüge Skat       | https://www.vrbank-altenburgerland.de/services_auth/auth-ui/?v=5ff448423447dee6&client_id=fkp&redirect_uri=https:%2F%2Fwww.vrbank-altenburgerland.de%2Fservices_cloud%2Fportal%2Fportal-oauth%2Flogin[Skat Bank]
 | [ ] | Umsätze QCC prüfen | Ggf. An Frau Bahlburg senden
