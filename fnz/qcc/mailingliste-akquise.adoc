@@ -5,6 +5,7 @@ juri.palmer@allgeier-experts.com
 h.geerligs@ambass-group.de
 l.opladen@aristo-group.com
 a.sammer@austinfraser.com
+l.bodenstab@austinfraser.com
 m.neumeier@austinfraser.com
 o.rekunova@austinfraser.com
 s.ritzer@austinfraser.com
@@ -18,7 +19,6 @@ e.oganjan@computerfutures.de
 g.langwieler@computerfutures.de
 n.abdine@computerfutures.de
 andreas.rother@conceptpeople.de
-andreas.rother@conceptpeople.de
 bjarne.jansen@conceptpeople.de
 daniel.kornfeld@constaff.com
 robert.boenisch@constaff.com
@@ -26,6 +26,7 @@ ruben.lepka@constaff.com
 yeter.yilmaz@constaff.com
 harald.krause@dataport.de
 peter.vogelsang@dataport.de
+johanna.holthuis@eightbitexperts.com
 interim-it.dus@email.michaelpage.com
 alina.nobiling@etengo.de
 jonas.pflug@etengo.de
@@ -48,9 +49,9 @@ olga.fester@hays.de
 sophie.vogel@hays.de
 ronny.boettcher@interim-group.de
 julia.beuth@iso-gruppe.com
-info@krongaard.de
 carina.zirwes@krongaard.de
 despina.serranito@krongaard.de
+info@krongaard.de
 johannes.grillmayer@krongaard.de
 julia.koll@krongaard.de
 justine.lange@krongaard.de
@@ -64,6 +65,7 @@ manuelahauschke@michaelpage.com
 thanublum@michaelpage.com
 leon.droege@mindsquare.de
 lina.klingbeil@modis.com
+martin.lam@modis.com
 christian.schoppe@mup.de
 kai.bechtel@mup.de
 katharina.wesemeyer@mup.de
@@ -82,17 +84,17 @@ bewerbung@ppi.de
 l.braun@progressive.de
 lea.reiners@progressive.de
 v.jahn@progressive.de
-info@project-pool.de
 info@projekt-pool.de
 sauer@pulsar-it.de
 leyla.el-khaledi@questax.com
-violetta.brauer@questax.com
 markus.sommer@questax.com
+violetta.brauer@questax.com
 robin.passmann@roberthalf.de
 soeren.gerdes@roberthalf.de
-Vanessa.Sinther@roberthalf.de
+vanessa.sinther@roberthalf.de
 a.reiff@solcom.de
 h.beindorff@solcom.de
+j.klee@solcom.de
 j.reingruber@solcom.de
 j.schwenkel@solcom.de
 j.weiss@solcom.de
@@ -108,6 +110,7 @@ s.pieper@staffgroup.com
 l.sarkisyan@sthree.com
 office@support-gdc.de
 daniel.teichert@voquz.com
+joshua.irwin@voquz.com
 rosalie.bierbaum@voquz.com
 pfm-hh1-empf-info@vtg.com
 j.lueder@westhouse-consulting.com

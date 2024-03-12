@@ -4,6 +4,7 @@ include::{root}/.inc/include.adoc[]
 
 IMPORTANT: !!! Als BCC abschicken !!!
 * link:mailingliste-akquise.adoc[BCC-Liste]
+* link:boersen-akquise.adoc[Vorgehen]]
 
 IMPORTANT: Don't forget the attachment
 
@@ -54,8 +55,8 @@ hiermit möchte Ich Ihnen kurz mein aktuelles Profil übersenden und erlaube Ihn
 die Speicherung der Daten zum Zwecke der Projektvermittlung.
 
 Aktuell suche ich ab sofort ein Java / Angular / React / Vue Projekt im Hamburger Raum oder
-gerne auch Remote auf freiberuflicher, ANÜ-ler oder Festanstellung-Basis, mit eingeschränkter
-Reisebereitschaft.
+gerne auch Remote auf freiberuflicher, Arbeitnehmerüberlassung oder Festanstellung-Basis,
+mit eingeschränkter Reisebereitschaft.
 
 Bitte antworten Sie nicht direkt auf diese Mail, sondern schicken eine neue, angebotsbezogene Nachricht.
 
