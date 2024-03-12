@@ -2,6 +2,8 @@ include::{root}/.inc/include.adoc[]
 
 = Börsen Akquise
 
+* link:anschreiben-mail.adoc[Anschreiben]
+
 == Strategie
 * Nicht dem Endkunden vorstellen, erst den Markt sichten. Keinen Druck aufbauen lassen. Wer Druck aufbaut will nur verdienen.
 
@@ -9,8 +11,8 @@ include::{root}/.inc/include.adoc[]
 
 [source,bash]
 ----
-cat mailingliste-akquise.adoc | sort -u -t'@' -k2,2 -k1,1 | tr '[:upper:]' '[:lower:]' > mails-sorted.txt
-mv mails-sorted.txt mails.txt
+cat /home/dietmar/cloud/Notes/fnz/qcc/mailingliste-akquise.adoc | sort -u -t'@' -k2,2 -k1,1 | tr '[:upper:]' '[:lower:]' > mails-sorted.txt
+mv mails-sorted.txt /home/dietmar/cloud/Notes/fnz/qcc/mailingliste-akquise.adoc
 ----
 
 

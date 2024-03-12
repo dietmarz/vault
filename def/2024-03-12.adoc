@@ -1,7 +1,8 @@
 include::{root}/.inc/includeDaily.adoc[]
 
-= Montag, 11. März 2024
+= Dienstag, 12. März 2024
 
+link:../fnz/office.adoc[Regeln]
 link:../def/score-board.adoc[Daily Score Board]
 
 == Aufgaben
@@ -32,42 +33,10 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 * [w] JDW Bewerbung raus. "Suche immer noch... ANÜgit@github.com:dietmarz/vault.git, FB, Fest"
 * [ ] Vertragsfragen klären
 * [ ] J-W e5401 Rechner, labor rechner an Notes anpassen
-* [ ] Steuer
+* [x] Steuer
 * [ ] Termin besorgen und absprechen mit Mutti
 * [ ] Hecke zuende schneiden
 
-.Abrechnung für Monat: Januar 2024
-Amazon letzter Artikel: Buch das kann doch weg
-ebay   letzter Artikel: Klöpperboden
-Udemy  letzter Artikel: 06.03. Der moderne Java Kurs
-HVV: 27.02
-|===
-| [X] | Kopieren           | ./fnz/abrechnung.adoc in das Daily kopieren und Monat richtig setzen, damit grep Fähigkeit hergestellt.
-| [X] | Postkasten         | Ggf. Stempeln und Scannen
-| [X] | Portemonnaie       | Ggf. Einkleben
-| [x] | Selfhost           | https://selfhost.de/cgi-bin/selfhost?p=account&cat=rechnung&CGISESSID=090ed7dc07cc73a1f6237252daa8d67f[Selfhost-Login]
-| [X] | Amazon             | https://www.amazon.de/gp/css/order-history?ref_=nav_AccountFlyout_orders[Meine Bestellungen]
-| [X] | Amazon Messages    | https://www.amazon.de/gp/message#!/inbox
-| [X] | Email              | https://mail.google.com/mail/u/0/?pli=1#advanced-search/subset=all&attach=true&within=1d&sizeoperator=s_sl&sizeunit=s_smb[Gmail m. Anhang]
-| [X] | Ebay zur Prüfung   | https://www.ebay.de/mye/myebay/v2/purchase[Ebay gekauft]
-| [X] | Udemy              | https://www.udemy.com/dashboard/purchase-history/[Udemy-Gekauft]
-| [X] | Bhhz Digital       | https://portal.buchholz-stadtwerke.de/powercommerce/ivu/fo/portal/invoiceDetails[Bhhz-Digital]
-| [X] | HVV                | https://shop.hvv.de/personal_data/orderList[HVV-Login]
-| [X] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank]
-| [X] | Auszüge Skat       | https://www.vrbank-altenburgerland.de/services_auth/auth-ui/?v=5ff448423447dee6&client_id=fkp&redirect_uri=https:%2F%2Fwww.vrbank-altenburgerland.de%2Fservices_cloud%2Fportal%2Fportal-oauth%2Flogin[Skat Bank]
-| [X] | Umsätze QCC prüfen | Ggf. An Frau Bahlburg senden
-| [ ] | Auszüge Flatex     | https://www.flatex.de/#[Flatex Bank]
-| [X] | EWE Tel Handy      | https://mein.ewe.de/ewetelcss/secure/billingOverview.xhtml[EWE-Tel-Login]
-| [ ] | Invest tätigen     | Was, wie, welche Strategie?
-| [ ] | Chat GPT           | Profile -> My Plan -> Manage My Subscription. Unten Tabelle, rechts neben der Datum Spalte den Link-Pfeil drücken
-| [ ] | Scan Ordner leeren | vorher syncSmb
-| [ ] | Besonderheiten     | WVL und offene Dinge notiert im Daily
-| [ ] | Ordern sync        | git office & sv, ganz zum Schluß
-| [X] | Mail               | Mail an Frau Bahlburg
-|===
-
-
-https://stackoverflow.com/questions/78140146/git-replace-file-content-in-history
 
 
 
@@ -90,7 +59,8 @@ https://stackoverflow.com/questions/78140146/git-replace-file-content-in-history
 * [X] Event Rechnung angepasst und gedruckt im Ordner
 * [X] Bahn Hin- und Rückfahrt gekauft & gedruckt
 * [x] Unterkunft gebucht
-* [ ] Unterkunft bezahlt und gedruckt im Ordner. 400,65€ Rechnung fehlt noch
+* [X] Unterkunft bezahlt und
+* [ ] Unterkunft Rechnung gedruckt im Ordner. 400,65€
 * [ ] Unterkunft Rechnung angepasst und gedruckt im Ordner
 * [ ] Event und Unterkunft Details in Kalendar eingetragen
 * [ ] StB: Event, Unterkunft, PKW-Km als PostIt da. Sonst nichts!
@@ -109,7 +79,7 @@ https://stackoverflow.com/questions/78140146/git-replace-file-content-in-history
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-=== BKK
+=== BKK im Kloster
 * [x] Event gebucht
 * [x] Event bezahlt und Ticket-Druck im Ordner
 * [ ] Event Rechnung? Man könnte ein zusätzliches Bitep erfinden

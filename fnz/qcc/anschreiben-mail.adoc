@@ -1,0 +1,83 @@
+include::{root}/.inc/include.adoc[]
+
+= Anschreiben Mail
+
+IMPORTANT: !!! Als BCC abschicken !!!
+* link:mailingliste-akquise.adoc[BCC-Liste]
+
+IMPORTANT: Don't forget the attachment
+
+
+== Variante 1 -> Datum geplant
+
+*Update Verfügbarkeit 15.01.2024*
+
+Sehr geehrte Damen und Herren,
+
+hiermit möchte Ich Ihnen kurz mein aktualisiertes Profil übersenden und erlaube Ihnen explizit
+die Speicherung der Daten zum Zwecke der Projektvermittlung.
+
+Aktuell suche ich ab dem 15.01.2024 ein Java / Angular / React / Vue Projekt im Hamburger Raum oder
+gerne auch Remote auf freiberuflicher oder ANÜ-ler Basis.
+
+Bitte antworten Sie nicht direkt auf diese Mail, sondern schicken eine neue, angebotsbezogene Nachricht.
+Vielen Dank!
+
+Mit freundlichen Grüßen
+
+Dietmar Zabel
+
+// ....................................................................
+
+Dear Madam or Sir,
+
+I would like to briefly submit my updated profile to you and explicitly grant permission for the storage
+of my data for the purpose of project placement.
+
+Currently, I am looking for a Java / Angular / React / Vue project in the Hamburg area.
+I am open to remote opportunities on a freelance or contract basis starting from January 15, 2024.
+
+Please do not reply directly to this email, but send a new message related to the offer.
+Thank you!
+
+Best regards,
+
+Dietmar Zabel
+
+== Variante 2 -> Datum ungeplant + Fest + Reisebereitschaft
+
+*Projektsuche FB / ANÜ / Fest*
+
+Sehr geehrte Damen und Herren,
+
+hiermit möchte Ich Ihnen kurz mein aktuelles Profil übersenden und erlaube Ihnen explizit
+die Speicherung der Daten zum Zwecke der Projektvermittlung.
+
+Aktuell suche ich ab sofort ein Java / Angular / React / Vue Projekt im Hamburger Raum oder
+gerne auch Remote auf freiberuflicher, ANÜ-ler oder Festanstellung-Basis, mit eingeschränkter
+Reisebereitschaft.
+
+Bitte antworten Sie nicht direkt auf diese Mail, sondern schicken eine neue, angebotsbezogene Nachricht.
+
+Vielen Dank!
+
+Mit freundlichen Grüßen
+
+Dietmar Zabel
+
+// ....................................................................
+
+Dear Madam or Sir,
+
+I would like to briefly submit my current profile to you and explicitly grant permission for the storage
+of my data for the purpose of project placement.
+
+I am currently looking for a Java / Angular / React / Vue project in the Hamburg area or gladly also remotely on a freelance, temporary employee, or permanent employment basis, with limited willingness to travel.
+
+Please do not reply directly to this email, but send a new message related to the offer.
+
+Thank you!
+
+Best regards,
+
+Dietmar Zabel
