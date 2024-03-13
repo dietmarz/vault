@@ -25,10 +25,10 @@ include::{root}/.inc/include.adoc[]
 * Triathlon Einteiler BioRacer XL
 
 * Abmessungen
-  ** Kopfumfang   61cm    = 24,0"
+  ** Kopfumfang 61cm    = 24,0"
   ** Taille		98cm  	= 38,5“ (waist)
   ** Hüfte		98cm  	= 38,5“
   ** Hals 		42cm  	= 16,5“
   ** Brust 		98cm  	= 38,5“ (chest)
-  ** Gewicht	    92kg    = 203lbs
+  ** Gewicht	92kg    = 203lbs
   ** Größe		192cm	= 6‘6“ oder 6,5 Feet
