@@ -20,17 +20,18 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 
 == Bald
 * [ ] OdW Paper Score board? Experiment.
-* [ ] O-W Zeugnismappe einmal komplett einscannen
 * [ ] O-W Backup-DVD Medien und Md5 Dateien strukturieren, NC->project->backup-md5files
 * [ ] O-W Backup großer Video Dateien überlegen, wie inkrementell sichern
-* [ ] O-W Accounts.odt entfernen, drucken. Office löschen und neue anlegen
 
 
 
 == Heute! (Hier wird gearbeitet)
 * [w] 14:00 Vertragsfragen klären, morgen Anruf! Termin besorgen und absprechen mit Mutti
 * [ ] 15:00 Hecke zuende schneiden
-* [ ] J-W e5401 Rechner, labor rechner an Notes anpassen
+* [ ] 17:00 Fahrrad fertig für Cux?
+* [ ] Heute Bahlburg antworten
+
+(Steuer) Identifikationnummer 11 Ziffern
 
 
 

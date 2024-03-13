@@ -1,6 +1,6 @@
 include::{root}/.inc/include.adoc[]
 
-= intellij-autoNumberingMarkdownFiles
+= Intellij AutoNumbering Markdown Files
 
 [source,css]
 .Languages & Frameworks -> Markdown -> Custom CSS
