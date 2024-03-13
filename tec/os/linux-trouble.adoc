@@ -7,3 +7,19 @@ include::{root}/.inc/include.adoc[]
 
 == VMware, slow keyboard response
 * Disable 3D acceleration
+
+.update.sh output
+----
+Get:19 http://ppa.launchpad.net/misery/ppa/ubuntu focal/main i386 Packages [1.016 B]
+Err:19 http://ppa.launchpad.net/misery/ppa/ubuntu focal/main i386 Packages
+  File has unexpected size (32 != 1016). Mirror sync in progress? [IP: 2620:2d:4000:1::81 80]
+  Hashes of expected file:
+   - Filesize:1016 [weak]
+   - SHA256:eac1f4d51d7ad884d05f1817e06d318e5a699c5b822eb53c7f364c3502871033
+   - SHA1:576d57db67f5596c5f809c1049f83e7988131678 [weak]
+   - MD5Sum:5620bcbfaec68cc2a3e00c9fae019d1e [weak]
+  Release file created at: Tue, 06 Feb 2024 01:41:18 +0000
+
+# Solution:
+sudo rm -rf /var/lib/apt/lists/*
+----
