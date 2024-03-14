@@ -10,10 +10,10 @@ include::{root}/.inc/include.adoc[]
 * Gehalt: 90 bis 105€/h
 * Beginn: 01.04.2024
 * Ende: 31.12.2024
-* Ansprechpartner: projekt-pool.de
+* *bwb-call* projekt-pool.de
 
 == History
-* 13.03.24 <bwb-status> Erstkontakt, Bewerbung per Portal
+* 13.03.24 *bwb-status* Erstkontakt, Bewerbung per Portal
 
 == Ausschreibung / Tätigkeit
 

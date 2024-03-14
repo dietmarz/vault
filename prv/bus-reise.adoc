@@ -28,7 +28,7 @@
   ** Getragen: Schmutzbeutel
   ** Zubehör:  Sonnenschutz, Basecap, Schlauchtücher, Handschuhe
   ** Sport:    Airex-Kissen, Hantel, Bänder,...
-  ** Elektro:  USB Lader
+  ** Elektro:  USB Lader, Batterie-Ladegerät?
   ** A4-Beutel: Fährunterlagen, Wichtige Schlüssel
 
 * *Innenraum*

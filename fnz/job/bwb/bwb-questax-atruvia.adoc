@@ -1,0 +1,76 @@
+include::{root}/.inc/include.adoc[]
+
+= Bewerbung Questax Atruvia
+
+== Ausschreibung (2)
+* URL: https://mail.google.com/mail/u/0/?pli=1#inbox/FMfcgzGxSHhtBxtkZpkJtnldpvGtDDPB[Mail]
+* Ext-Referenz-1: Java Developer – Massendatenberichte
+* Ext-Referenz-2: DevOps Engineer – Migration Jenkins / Gitlab
+* Einsatzort: Münster
+* Home-Office: Hauptsächlich
+* Vertrag: ANÜ bei Questax
+* Gehalt: 110T
+* Beginn: 15.04.2024
+* Ende: 6-12 Monate ++
+* *bwb-call* Markus.Sommer@questax.com
+
+== History
+* 14.03.24 Antwort: Interessant. (Auf Mail vom 13.03)
+* 14.03.24 *bwb-status* Telefonat m. 110T auf 2 Projekte. Bewerbung läuft...
+
+== Ext-Referenz-1: Java Developer – Massendatenberichte
+=== Aufgaben
+* Neuimplementierung von Massendatenberichten in einer Java-Anwendung. Migration der bisher in Talend erstellten Berichte.
+* Im Zuge der Migrationsarbeiten soll eine weitreichende Optimierung hinsichtlich des Arbeitsspeicherbedarfs bei Erstellung der Berichte erfolgen.
+* Die fachlichen Anforderungen, die Servicearchitektur und -implementierung sind zu dokumentieren.
+
+=== Technisch erforderliche Skills
+* Java 17
+* Spring Boot (2.7, 3.2)
+* System- und Schnittstellenanalyse im Umfeld von Microservicearchitekturen
+* Optimierung von Massendatenverarbeitungen (Batching/Chunk-Processing)
+* Schreiben automatischer Tests (Unit, Integration, End-to-End)
+* Verfassen technischer Dokumentationen (optimalerweise mittels AsciiDoc)
+* Implementierung neuer Features in einem Continuous Deployment Umfeld, Steuerung der Featureaktivierung über entsprechende Toggle
+* Git zur Versionsverwaltung
+* Jenkins als CI/CD Plattform
+* Oracle Database als Datenbanksystem
+* Fehleranalyse in Anwendungen zum Logmanagement (Graylog)
+
+=== Methodisch/sozial erforderliche Skills
+* Arbeiten in agilen Unternehmen/Projekten
+* Jira und Confluence
+* Teamfähigkeit
+* Zielgruppenangepasste Kommunikation
+* Hohes Qualitätsbewusstsein
+* Eigenverantwortliches Arbeiten
+
+=== Zusätzliche Info:
+* Die Arbeit kann überwiegend remote erfolgen. Die Bereitschaft zur Reise zu unserem Standort Münster zur Einarbeitung und zu agilen Formaten muss vorhanden sein.
+
+// #####################################################################################################################
+// #####################################################################################################################
+// #####################################################################################################################
+
+== Ext-Referenz-2: DevOps Engineer – Migration Jenkins / Gitlab
+
+=== Aufgaben
+* Der Schwerpunkt liegt auf der Migration unserer Jenkins-basierten CI/CD-Pipeline auf eine Gitlab CI/CD Pipeline, die unternehmensweit eingesetzt wird.
+* Dies beinhaltet:
+
+* Konzeption einer CI/CD-Pipeline in dem vom Unternehmen vorgegebenen DevSecOps-Rahmen
+* Planen und Umsetzen der Migration der bestehenden CI/CD-Pipeline von Jenkins und Bitbucket auf Gitlab
+* Umstellung bestehender Jenkins-Groovy-Jobs in Gitlab-Jobs, die als Container gestartet werden.
+* Erkennen von Optimierungspotential der bestehenden Prozesse (CI/CD-Pipeline, Automatisierung)
+* guter Überblick und Koordination sämtlicher Teiltätigkeiten in Zusammenarbeit mit den beteiligten Teams
+* automatisierte Bereitstellung, Versorgung und Pflege von Testumgebungen für die Fachprojekte
+* Anforderungen
+
+=== Anforderungen
+* Abgeschlossenes Studium der Informatik oder vergleichbare Qualifikation im IT-Bereich
+* sehr gute Kenntnisse GitLab CI/CD Pipelines, Java, OpenShift/Kubernetes und Helm
+* gute Kenntnisse in Werkzeugen wie Bash, Jenkins, Groovy, Maven und Vault
+* Kenntnisse in Prometheus/Grafana und im Betrieb von Java-Applikationen
+* Analytisches Denkvermögen, ausgeprägte Teamfähigkeit und kundenorientiertes Denken und Handeln
+* Sehr gute Durchsetzungs-, Koordinations- und Kommunikationsfähigkeit in deutscher Sprache
+* Zuverlässigkeit, Belastbarkeit, eigenverantwortliche und selbständige Arbeitsweise sowie hohes Verantwortungsbewusstsein und Qualitätsorientierung
