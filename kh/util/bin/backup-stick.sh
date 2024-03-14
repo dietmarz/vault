@@ -7,6 +7,8 @@ if [ ! -d "$STICK" ]; then
   exit 1
 fi
 
+DATE=$(date "+%Y_%m_%d-%H_%M_%S")
+
 
 # Definiere eine Funktion mit dem Namen 'rsync_backup'
 rsync_backup() {
@@ -21,8 +23,13 @@ rsync_backup() {
     return 0
   fi
 
-  echo copy "${1%/}" to "$STICK"
-  rsync -a --info=progress2 --no-i-r --human-readable  --exclude '.git/' --no-links "${1%/}" "$STICK"
+  # Without ending / char
+  SOURCE="${1%/}"
+
+  echo "................................................................."
+  echo "copying $SOURCE"
+  rsync -a --info=progress2 --delete                                     --no-inc-recursive --human-readable --exclude '.git/' --no-links "$SOURCE" "$STICK"
+# rsync -a --info=progress2 --delete  --backup --backup-dir=_trash/$DATE --no-inc-recursive --human-readable --exclude '.git/' --no-links "$SOURCE" "$STICK"
 }
 
 # Verwende die Funktion mit Quelle und Ziel als Argumente
@@ -41,4 +48,6 @@ free_space=$(df -h "$STICK" | awk 'NR==2 {print $4}')
 used_space=$(df -h "$STICK" | awk 'NR==2 {print $3}')
 total_space=$(df -h "$STICK" | awk 'NR==2 {print $2}')
 
+echo "================================================================="
 echo "Backup done. $free_space left on device. ($used_space used of $total_space total)"
+echo "================================================================="

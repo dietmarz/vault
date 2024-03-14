@@ -17,3 +17,17 @@ include::{root}/.inc/include.adoc[]
 * Abgabe einer Steuererklärung Frist 2022 bis 31.07.23, vorher verlängern lassen. 25€ pro Monat Strafe.
 * Große Eingriffe besser in einem Jahr komplett machen, mehr als 1200€ in dem Jahr auch bezahlen!
 * Kapitalerträge über 825€
+
+== Prinzipiell
+* Bestätigung 2022 gezahlte Versicherungs-Beiträge Techniker Krankenkasse
+  ** Klären ob schon elektronisch übermittelt
+* Lohnsteuerbescheinigung für 2022  / STree Temp Experts GmH
+  ** Klären ob schon elektronisch übermittelt
+* Haftpflichtversicherungen z. B. Kfz und private Haftpflichtversicherungen (Rechnungen)
+  ** Unter huk.de. Für 2023 erledigt.
+* Haushaltsnahe Dienstleistungen z. B. Handwerkerleistungen auch Schornsteinfeger (Rechnungen)
+  ** Schornsteinfeger: https://home.digibase.com/post_assignments
+  ** 2023 erledigt
+* Spenden, Geldzuwendungen (Soko Tierschutz € 50 liegt vor)
+* Außergewöhnliche Belastungen wie Arztrechnungen etc. (hier liegen bereits Quittungen vor)
+

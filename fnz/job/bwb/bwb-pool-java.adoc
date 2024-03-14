@@ -1,0 +1,35 @@
+include::{root}/.inc/include.adoc[]
+
+= Bewerbung
+
+* URL: https://projekt-pool.de/projekte/?Profilnummer=28679[Ausschreibung]
+* Ext-Referenz: Projekt Nr: 28679
+* Einsatzort: Hannover
+* Home-Office: 95%
+* Vertrag: freiberuflich
+* Gehalt: 90 bis 105€/h
+* Beginn: 01.04.2024
+* Ende: 31.12.2024
+* Ansprechpartner: projekt-pool.de
+
+== History
+* 13.03.24 <bwb-status> Erstkontakt, Bewerbung per Portal
+
+== Ausschreibung / Tätigkeit
+
+----
+Leistungsbeschreibung:
+- Entwicklung cloudbasierter und serviceorientierter Lösungen Einsatz verschiedener Frameworks (Spring Boot, Vaadin) und Technologien zur Entwicklung und Integration der notwendigen Software-Komponenten unter Verwendung aktueller Architekturkonzepte
+- Aufbau eines maximalen Automatisierungsgrads zum multiregionalen Betrieb von Services in der Azure Cloud unter Verwendung von Infrastructure-as-Code -Kontinuierliche und nachhaltige Optimierung unserer Services, Tools und Prozesse
+- Enge Zusammenarbeit mit weiteren Entwickler:innen, Business Analyst:innen und Fachexpert:innen in einem Scrum-Team
+
+Skills:
+- Mehrjährige praktische Erfahrung in der Entwicklung mit mindestens einer höheren Programmiersprache, vorzugsweise Java
+- Kenntnisse in der Entwicklung und dem Betrieb von Anwendungen auf Cloud-Technologien, vorzugsweise Kubernetes und Microsoft Azure
+- Hohes Qualitätsbewusstsein mit Gespür für saubere Softwarearchitektur, Clean Code, Usability, automatisiertes Testen und funktionierendes CI/CD
+- Azure DevOps
+
+Auslastung: Vollzeit
+Ort: remote, max. 5% Hannover
+Sprache: deutsch
+----

@@ -55,6 +55,7 @@ alias largeDirs='du -ah --max-depth=1 . | sort -h'
 alias removeSpacesInFiles='for f in *\ *; do mv "$f" "${f// /-}"; done'
 alias cddietmar="cd ~/dietmar"
 alias cdvault="cd $ENV_VAULT"
+alias cdnotes=cdvault
 alias cdDownloads="cd ~/Downloads && ls -lrtha"
 alias cdoffice="cd ~/cloud/office"
 alias cdkh="cd $ENV_VAULT/kh/util/bin"

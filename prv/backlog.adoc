@@ -11,7 +11,7 @@ include::{root}/.inc/include.adoc[]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 == Eichengrund
 * [ ] F w XX 07 Garage leckt link:../fnz/eichengrund-stand.adoc[Stand]
-* [ ] F w XX 12 Datenlogger besorgen
+* [ ] F w XX 12 Datenlogger besorgen -> erst in Achim fragen...
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 == Thomsen Erbschaft
@@ -40,5 +40,3 @@ include::{root}/.inc/include.adoc[]
 * [ ] P w 30 03 CM Notizen auswerten,
 * [R] P w 99 03 Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich.
 * [ ] P   60 03 CM 7 Schritte fertig
-
-

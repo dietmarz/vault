@@ -3,6 +3,7 @@ include::{root}/.inc/include.adoc[]
 = Schenkung / Übertragung Eichengrund 10 (1987)
 
 * link:../fnz/eichengrund-haus.adoc[Hause]
+* Frau Schlüchting unter 04941/92366-15 Sekretariat
 
 == Historie, Stand, Tätigkeiten
 * 2024-01-24: Otte-Witte Telefonat, ich bekomme evt Tel v. StB mit Notarkenntnissen & Vertragsentwurf. Wenn Mutti gesund Termin
