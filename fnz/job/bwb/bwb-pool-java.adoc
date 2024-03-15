@@ -7,13 +7,14 @@ include::{root}/.inc/include.adoc[]
 * Einsatzort: Hannover
 * Home-Office: 95%
 * Vertrag: freiberuflich
-* Gehalt: 90 bis 105€/h
+* Gehalt: 90 bis 105€/h -> 95€/h
 * Beginn: 01.04.2024
 * Ende: 31.12.2024
-* *bwb-call* projekt-pool.de
+* *bwb-call* Beate Sauer <sauer@pulsar-it.de>
 
 == History
-* 13.03.24 *bwb-status* Erstkontakt, Bewerbung per Portal
+* 13.03.24 Erstkontakt, Bewerbung per Portal
+* 15.03.24 *bwb-status*, Mail Frage(v.13.03) Stundensatz, Antwort 95€/h
 
 == Ausschreibung / Tätigkeit
 

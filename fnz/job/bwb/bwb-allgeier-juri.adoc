@@ -1,0 +1,67 @@
+include::{root}/.inc/include.adoc[]
+
+= Bewerbung
+
+
+|===
+| URL         | https://mail.google.com/mail/u/0/?pli=1#inbox/FMfcgzGxSHkFccjWPlHVRsfglvgSLbzh
+| Ext_Referenz| Application manager,
+| Einsatzort  | Berlin Bundesdruckerei,
+| Home_Office | 99% Angeblich
+| Vertrag     | ANÜ allgeier
+| Gehalt      | 96T 35h/W
+| Beginn      |
+| Ende        |
+| *bwb-call*  | Juri Palmer, Katharina Staples
+|===
+
+
+
+== History
+* Konkrete Angebot fehlt noch per mail.
+* 15.03.24 *bwb-status* 1. Telefonat mit Juri Palmer. Bekomme noch Mail.
+
+
+== Application Manager – Bundesdruckerei, Berlin
+=== Aufgabenbereich
+* Anleitung eines Teams, um eine effektive Servicebereitstellung und kontinuierliche Verbesserungen sicherzustellen
+* Schnittstelle (Spoc) zwischen dem Betrieb, dem Service-Management und den Projekten innerhalb der Multiprojektorganisation bei der Etablierung von Services
+* Gewährleistung einer effizienten und zuverlässigen Bereitstellung von neuen Services innerhalb der Multiprojektorganisation einschließlich Planung, Implementierung und Überwachung für den Betrieb
+* Überwachung und Gewährleistung der Qualität von Anwendungen und Services durch Implementierung von Qualitätskontroll- und Testverfahren
+* Konzeption und Einführung von projektübergreifenden Services wie Benutzer-/ Konfigurations- und  Change-Management
+* Überwachung und Verwaltung von Cloud- und On-Premises-Infrastrukturen zur Sicherstellung der Funktionalität bei der Weiterführung des Betriebs von bestehenden Anwendungen
+* Erstellung und Pflege von Dokumentationen für Serviceprozesse, Richtlinien und Best-Practices
+
+=== Ihr Profil
+* erfolgreich abgeschlossenes technisches Studium im Bereich Informatik, Wirtschaftsinformatik oder vergleichbar
+* mehrjährige Erfahrung im Bereich von Service-/Applikationsmanagement mit nachweisbaren Erfolgen bei der Implementierung von Servicestrategien oder Webanwendungen
+* gute Kenntnisse in Anwendungsarchitektur, -entwicklung und -betrieb sowie Verständnis von Technologien, Frameworks und Tools im Zusammenhang mit Anwendungsmanagement / ́(zB. Gitlab, Jenkins)
+* fundierte Kenntnisse in den Bereichen agiles Projektmanagement und Qualitätssicherung und den entsprechenden Planungstools (Jira, Confluence, Sharepoint)
+* sehr gute schriftliche Darstellungsfähigkeit komplexer technischer Sachverhalte und deren Planung mittels agiler Arbeitsmethoden
+* sicherer Umgang bei der Interaktion mit Kunden, Teammitgliedern und Stakeholdern
+* sehr gute Kommunikationsfähigkeit in deutscher und englischer Sprache
+
+// #####################################################################################################################
+// #####################################################################################################################
+// #####################################################################################################################
+
+== Field Application Engineer – Bundesdruckerei, Berlin
+=== Deine Aufgabenbereich
+* Integration und Monitoring eines neuen externen Kundensystems
+* Monitoring der Anforderungen und Durchführung der relevanten Tests
+* Unterstützung des Senior System Test Engineer
+* Unterstützung der Entwicklung
+* Begleitung der Serieneinführung
+* Fehleranalyse und Mithilfe bei Fehlerbehebung
+* Datenaufbereitung der Felddaten
+* Bearbeitung der Aufgaben in JIRA und confluence und SPLUNK
+* Unterstützung des Service bei technischen Anforderungen und Problemlösunge*
+
+=== Ihr Profil
+* abgeschlossenes Studium oder Ausbildung im Bereich Elektrotechnik, Informatik oder eine vergleichbare Qualifikation, Software- oder Hardwareausbildung
+* sichere Deutsch- und gute Englischkenntnisse
+* Allgemeines technisches Grundverständnis
+* Hohe Kundenorientierung und Qualitätsbewusstsein
+* Ziel- und ergebnisorientierte Arbeitsweise
+* Ausgeprägtes konzeptionelles und strukturiertes Vorgehen
+* Mehrjährige passende Berufserfahrung

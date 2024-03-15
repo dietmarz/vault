@@ -1,0 +1,15 @@
+include::{root}/.inc/include.adoc[]
+
+= Udemy Kurs: Microservices clean architecture dd saga outbox kafka kubernetes
+
+* Udemy Course https://www.udemy.com/course/microservices-clean-architecture-ddd-saga-outbox-kafka-kubernetes/[Course]
+
+
+== 11. Kubernetes
+* p5470 ~/project/kubernetes/ud-clean-architecture[Sandbox]
+
+
+* Kubernetes: Eine Einführung in 120 Minuten // deutsch
+  ** https://www.youtube.com/watch?v=1SaPfm96lY4&t=4481s[yt]
+* Control Plain notes, ungerade anzahl wegen Abstimmen.3,5,..
+Worker notes
