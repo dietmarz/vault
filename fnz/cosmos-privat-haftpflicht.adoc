@@ -1,0 +1,8 @@
+include::{root}/.inc/include.adoc[]
+
+= Cosmos Privat Haftpflicht Versicherung
+
+* link:../../office/Finanz/Versicherung/Cosmos-PrivatHaftpflicht[Office-Verzeichnis]
+
+== Dokumente
+* https://www.cosmosdirekt.de/meincosmosdirekt/#/schutz/vertragsdetail-allgemein/500302992/7/PHV[Website]

@@ -90,7 +90,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Eichengrund Übertragungsvertrag
-link:../fnz/eichengrund-uebertragung.adoc[Stand]
+link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
 * [ ] Perso mitnehmen
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

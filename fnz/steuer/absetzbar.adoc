@@ -1,6 +1,0 @@
-include::{root}/.inc/include.adoc[]
-
-= Absetzbar 2022
-
-26.07. 150€ Vuemastery Mail Rechnung gedruckt
-31.07 Wiso grundsteuer

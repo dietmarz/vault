@@ -1,0 +1,9 @@
+include::{root}/.inc/include.adoc[]
+
+= Cosmos Hausrat Versicherung
+
+* link:../../office/Finanz/Versicherung/Cosmos-HausratVersicherung/[Office-Verzeichnis]
+
+== Dokumente
+* https://www.cosmosdirekt.de/meincosmosdirekt/#/schutz/vertragsdetail-allgemein/700132667/9/HV[Website]
+

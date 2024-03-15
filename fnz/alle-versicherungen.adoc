@@ -1,0 +1,18 @@
+include::{root}/.inc/include.adoc[]
+
+= Alle Versicherungen
+
+== Rente
+* link:rente/gesetzliche-rente.adoc[Gesetzliche Rente]
+* link:rente/cosmos-basisrente.adoc[Basisrente]
+* link:rente/zurich-fonds-rente.adoc[Fondsrente]
+* link:rente/apothekerversorgung-rente.adoc[Apothekerversorgung]
+* link:rente/cosmos-direkt-rente.adoc[Direktversicherung]
+
+== Gesundheit
+* link:../gsh/krankenkasse-versicherung.adoc[Krankenkasse]
+* link:../gsh/gothaer-zahnzusatzversicherung.adoc[Zahn-Zusatzversicherung]
+
+== Privat
+* link:[Privat-Haftpflicht]
+* link:[Hausrat]
