@@ -16,3 +16,4 @@ include::{root}/.inc/include.adoc[]
 == Privat
 * link:[Privat-Haftpflicht]
 * link:[Hausrat]
+* link:[Wohngebäude]

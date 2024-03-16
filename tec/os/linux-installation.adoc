@@ -260,7 +260,9 @@ Key: CF3N0-6YD1L-M8EEQ-KZYXX-P3RA0
 ----
 Firefox Bookmark mit Name=TAGs=Keyword= "t" und URL= "https://jira.otto.de/browse/QUALITY-%s"
 Chromium: Settings->Search engine->Default search engines-> Add Button. Search engine=Keyword="t" URL= "https://otto-eg.atlassian.net/browse/PRIME-%s"
+          Settings: Section: On startup: select "Open the New Tab page"
 BurgerMenu->More Tools-->Customize toolbar-> Uncheck "Title Bar" ganz untern.
+
 ----
 
 .Node
