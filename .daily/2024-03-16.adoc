@@ -26,11 +26,12 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 * [ ] F-W 60 Google AusgabenProMonat ins vault holen
 * [ ] FdW XX Versicherungen adoc anlegen, strukturieren. Solange 60 wiederholen bis fertig
 * [ ] F-W 60 Start Einstellen Kleinanzeigen/eBay
-* [ ] Fdw 20 Neues DKB Konto aktivieren und
+* [ ] Fdw 20 Anruf: Neues DKB Konto aktivieren, es fehlt das start passwort. Oder brauche ich garnichts aktiverien?
+* [ ] Hosen kaufen
 
 == Heute! (Hier wird gearbeitet)
 * [ ] Task Verify. Wegen häufiger Refactorings
-* [ ] Lernen
+* [ ] Lernen Merge ~/temp/angular/ud-.. mit ~/projek...
 
 
 
@@ -41,8 +42,6 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 
 
 == Zeitstrahl
-
-
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -106,11 +105,10 @@ link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
 === Eichengrund Schimmel
 * [ ] Fdw 20 info@tobias-diekmann.de aus Achim fragen!
 
-
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Haus
 * [ ] H-- 30 < ? > Ladestecker bauen -> PausenJob
-* [ ] Hdw 60 < ? > Stromfresser finden, was ist mir son Server wert.
+cdcdd* [ ] Hdw 60 < ? > Stromfresser finden, was ist mir son Server wert.
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Lernen
