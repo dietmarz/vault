@@ -1,3 +1,12 @@
-build/
-target/
-dist/
+build
+target
+dist
+.java
+.idea
+.mozilla
+.sonarlint
+.zoom
+.vmware
+.linuxmin
+.dotnet
+.vscode

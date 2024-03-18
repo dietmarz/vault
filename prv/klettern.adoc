@@ -1,0 +1,37 @@
+include::{root}/.inc/include.adoc[]
+
+= Klettern
+
+== Vorstiegskurs (15-17.03.2024)  Learnings
+
+=== Partnercheck
+* Bulin knoten: 1 bis 2 Handbreiten überstand
+* Knoten Schlaufen gleich groß aber nicht zu groß
+* Partner Gurt, Verschlüsse richtig
+* Als Vorsteiger Sicherungsgerät checken, Karabiner zu und evt. im Gurt geklippt mit kleinem Bügel
+* Knoten im Seil aus Prinzip
+
+=== Sichern
+* Seilhaufen möglichst Rechts für Rechtshänder
+* Schrittstellung, klar zum Sprung.
+* Bei Sturz, mit dem Zug im Seil abspringen
+* Evtl. ein Bein auf den ersten Griff zum Hochspringen
+* Hochspringen mal üben am Überhang
+* Beobachten und synchron in der Armbewegung Seil mit ausgeben
+* Bremshand möglichst weiter weg um Krangelleien früher zu lösen
+* Nicht zu doll zu machen, sonst Verletzungsgefahr, evt. zieht man den Kletterer aus der Bahn
+* Nur ganz kurz aufmachen, also die Hand nach oben nehmen oder den Rüssel nach oben
+* Spotten macht man eigentlich nicht mehr, nur im speziellen Gelände
+* Wenn Edelrid Ohm dann immer mit Abstand zur Wand. Sonst Abstand max 1m!
+
+=== Vorstieg
+* "Von der Wand ins Land" Seilführung durch die Exe
+* zwischen Schulter und Bauchnabel klippen
+* Bodensturz bis zur 6. Exe möglich
+* Erste und zweite Exe überstreckt einhängen, bieten keine Schutz
+* Mehr als 10kg -> 45° mehr als 15kg Unterschied 90° quer klippen mit der Nachbar Bahn.
+* Sturz: Nicht abstoßen (üben am Boden), Nicht ins Seil greifen
+
+=== Allgemein
+* Großer Unterschied ob über der Sicherung oder darunter gefallen wird
+* Ein Buletin

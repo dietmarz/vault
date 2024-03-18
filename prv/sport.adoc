@@ -2,7 +2,7 @@ include::{root}/.inc/include.adoc[]
 
 = Sport
 
-== Büro Siten
+== Büro Sitzen
 * Tastatur an den vorderen Rand kleben mit Tesa -> Schultern zusammen
 * Schneidersitz auf Airex-Kissen mit kleiner Yoga matte
 * PullUps mit Beinen von der Stange

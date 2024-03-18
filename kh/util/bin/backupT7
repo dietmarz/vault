@@ -15,7 +15,7 @@ fi
 
 
 # sudo rsync -avxtHAX --info=progress2 --delete --backup --backup-dir=_trash/$(date "+%Y_%m_%d-%H_%M_%S") --exclude=_trash /home/dietmar /opt /etc /media/dietmar/Samsung_T5/backup/
-sudo rsync -avxtHAX --delete --backup --backup-dir=_trash/$(date "+%Y_%m_%d-%H_%M_%S") --exclude=_trash --exclude-from=${ENV_VAULT}/kh/util/bin/backupT7.exclude /home/dietmar /opt /etc /media/dietmar/Samsung_T7/backup/ 2>&1 | grep -E -v '^.*[0-9]%.*$'
+sudo rsync -avxtHAX --delete --backup --backup-dir=_trash/$(date "+%Y_%m_%d-%H_%M_%S") --exclude=_trash --exclude-from=${ENV_VAULT}/kh/util/bin/backupT7.exclude /home/dietmar /etc /media/dietmar/Samsung_T7/backup/ 2>&1 | grep -E -v '^.*[0-9]%.*$'
 
 
 
