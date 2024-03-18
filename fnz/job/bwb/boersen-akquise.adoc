@@ -5,6 +5,7 @@ include::{root}/.inc/include.adoc[]
 * link:anschreiben-mail.adoc[Anschreiben]
 
 == Strategie
+* *ERSTE FRAGE* Wo haben Sie mich gefunden?
 * Nicht dem Endkunden vorstellen, erst den Markt sichten. Keinen Druck aufbauen lassen. Wer Druck aufbaut will nur verdienen.
 
 * Emails durchgehen nach neuen Kontakten
@@ -15,9 +16,24 @@ cat /home/dietmar/cloud/Notes/fnz/qcc/mailingliste-akquise.adoc | sort -u -t'@' 
 mv mails-sorted.txt /home/dietmar/cloud/Notes/fnz/qcc/mailingliste-akquise.adoc
 ----
 
+== Freelancer Map (Ranking: 1)
+* Verfügbarkeit oben rechts ein kleiner Button "Verfügbar" oder "nicht verfügbar bis "
+* 2x Profil unter
+** Profil bearbeiten - Portfolio und Dateianlagen
 
+== Freelance.de (Ranking: 2)
+* Verfügbarkeit, im Linken Menü Link suchen nach Verfügbarkeit oder "Nicht bis "
+* Unter Dokumente Profil und Firmeninterne Projekte
 
-== xing.com
+== LinkedIn.com (Ranking: 3)
+* https://www.linkedin.com/in/dietmar-zabel-6b2413125/edit/forms/summary/new/?profileFormEntryPoint=PROFILE_SECTION&trackingId=M7ho1Q9BQf6TZDxoNfErhA%3D%3D[Link]
+* Profil PDF wieder entfernt. Vielleicht gibt es eine neue Möglichkeit
+* Verfügbarkeit
+* Me - View Profile, unter "Edit about" als Freitext
+* Unter Experience kann man im Description Teil den Teil aus dem Profile kopieren.
+* Unter "Add profile section" gibt es Intro- Looking for Job Opportunities
+
+== xing.com (Ranking: 4)
 * https://www.xing.com/profile/Dietmar_Zabel/web_profiles[Link]
 * Verfügbarkeit unter Dietmar Zabel - Wants
 * Skill Liste unter Haves
@@ -25,13 +41,6 @@ mv mails-sorted.txt /home/dietmar/cloud/Notes/fnz/qcc/mailingliste-akquise.adoc
 * [ ] Contains my PDF profile under Portfolio
 * [ ] No own Job details
 
-== LinkedIn.com
-* https://www.linkedin.com/in/dietmar-zabel-6b2413125/edit/forms/summary/new/?profileFormEntryPoint=PROFILE_SECTION&trackingId=M7ho1Q9BQf6TZDxoNfErhA%3D%3D[Link]
-* Profil PDF wieder entfernt. Vielleicht gibt es eine neue Möglichkeit
-* Verfügbarkeit
-* Me - View Profile, unter "Edit about" als Freitext
-* Unter Experience kann man im Description Teil den Teil aus dem Profile kopieren.
-* Unter "Add profile section" gibt es Intro- Looking for Job Opportunities
 
 == Gulp.de
 * Gulp lohnt sich nicht, nie wieder was von gehört
@@ -41,14 +50,7 @@ mv mails-sorted.txt /home/dietmar/cloud/Notes/fnz/qcc/mailingliste-akquise.adoc
 * https://www.gulp.de/gulp2/g/experten/selbststaendige/profile/upload[Profilupload]
 * https://www.gulp.de/gulp2/g/experten/selbststaendige/profile/53ff8382e4b080615e3ff2d8[Verfügbarkeit]
 
-== Freelance.de
-* Verfügbarkeit, im Linken Menü Link suchen nach Verfügbarkeit oder "Nicht bis "
-* Unter Dokumente Profil und Firmeninterne Projekte
 
-== Freelancer Map
-* Verfügbarkeit oben rechts ein kleiner Button "Verfügbar" oder "nicht verfügbar bis "
-* 2x Profil unter
-  ** Profil bearbeiten - Portfolio und Dateianlagen
 
 == Hays
 * Kein Profil, aber Emails abstellbar. Mein Hays-Meine Einstellungen-Themenauswahl

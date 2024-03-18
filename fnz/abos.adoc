@@ -39,5 +39,8 @@ include::{root}/.inc/include.adoc[]
 == Bahncard 25 bis 21.02.2025
 * gekündigt auf bahn.de. Kostet 62,90, lohnt sich erst ab 251,60
 
+== Xing
+* 18.03.2024 gekauft und gekündigt.
+Settings(Zahnrad) -> Membership & Invoices -> Cancel membership (unten)
 
 ...

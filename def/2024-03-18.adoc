@@ -19,6 +19,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * Wenn Du etwas loslassen möchtest, musst Du es erleben: Funk, Angeln, QRP. Plane das Erleben!
 
 
+
 == Bald
 * [ ] OdW 60 Paper Score board Erstellung Experiment.
 * [ ] O-W 60 Backup-DVD Medien und Md5 Dateien strukturieren
@@ -33,10 +34,13 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * [ ] M-- 60 Kleidung aussortieren und sammeln.
 
 == Bewerben Routine
+* https://mail.google.com/mail/u/0/?pli=1#inbox[Nur Bewerber Mails]
 * https://www.xing.com/chats[]
 
 == Heute! (Hier wird gearbeitet)
-* [ ] JDW 60 BEWERBEN!
+* [ ] JDW 60 BEWERBEN! Jeden Tag Routine!
+* [ ] JDW 60 Profil updaten mit QCC
+
 * [ ] Task Verify. Wegen häufiger Refactorings. Linking your Thinking?
 * [ ] Fdw 20 info@tobias-diekmann.de aus Achim fragen!
 
