@@ -23,7 +23,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Eichengrund Übertragungsvertrag
-link:../fnz/eichengrund-uebertragung.adoc[Stand]
+link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
 * [ ] Findeklee zusammenfassung durchlesen
 * [ ] Termin zur Beurkundung mit Frau Schlüchting unter 04941/92366-15 absprechen
 

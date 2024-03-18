@@ -26,7 +26,7 @@ https://jira.int.kn/browse/KNOMP-31487[Remove Status]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-32333 [esp-mykn-components] fix local development process
 * https://jira.int.kn/browse/KNOMP-32333[Jira]
-link:../.ticket/32333.adoc[Ticket]
+link:../.cus/.kn/.ticket/32333.adoc[Ticket]
 
 * [X] Doku: Nutzung Local & Integration + Docker Testdata import
 * [X] Fix: URL correction local docker environment
@@ -69,7 +69,7 @@ link:../.ticket/32333.adoc[Ticket]
 
 === Eichengrund
 * [ ] KKasse wechseln
-* [ ] link:../org/eat-the-frog.adoc[Frog]
+* [ ] link:../org/bachelor-of-time-tim-reichel.adoc[Frog]
 
 
 * [ ] t projekte files mergen. GästeWC, Hutablage

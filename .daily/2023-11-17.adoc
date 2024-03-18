@@ -57,9 +57,10 @@ https://www.bundesdruckerei.de/de/karriere/maurer-electronics-hamburg
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Eichengrund
-* [ ] FdW XX 06 Wertermittlung link:../fnz/eichengrund-uebertragung.adoc[Stand]
-* [ ] F w XX 07 Garage leckt link:../fnz/eichengrund-stand.adoc[Stand]
-* [ ] Was wir mit den Geldern der OLB? link:../fnz/oberes-juechen-grundstuecke.adoc[Details]
+* [ ] FdW XX 06 Wertermittlung link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
+* [ ] F w XX 07 Garage leckt link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
+
+* [ ] Was wir mit den Geldern der OLB? link:../fnz/immo/oberes-juechen-grundstuecke.adoc[Details]
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

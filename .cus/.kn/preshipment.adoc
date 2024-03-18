@@ -25,7 +25,7 @@ MyKn arbeitet mit shipments
 == PreShipment Video Mitschrift (auf SystemTest)
 * https://kuehne-nagel.zoom.us/rec/share/tIBAqgLHncLqjWWNfoWzwi7eI286j1DoLw172iVtlB1KNMyoNT0caqhxihnv_Il4.orwSIHesSRMCW8M_ [Video]
   ** Kenncode: RAC3iQ%L
-  ** link:../kn/pre-shipment.adoc[DOC]
+  ** link:pre-shipment.adoc[DOC]
 * [ ] Film anschauen, wesentlichen Dinge extrahieren
 
 

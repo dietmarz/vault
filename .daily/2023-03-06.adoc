@@ -27,7 +27,7 @@ private Container mapToShipmentContainer(ContainerDetails containerDetails, Orig
 
 
 === 30670 Reporting entityIdentifier and bucketIdentifier differs
-link:.ticket/30670.adoc[task]
+link:../.cus/.kn/.ticket/30670.adoc[task]
 * [ ] Wie testen?
   ** Spalten einblenden und prüfen auf bucketKey != entityIdentifier
   ** __TypeId__: kn.knlogin.esp.reporting.domain.events.BookingDataUpdatedEvent

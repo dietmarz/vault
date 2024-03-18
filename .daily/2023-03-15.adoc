@@ -22,7 +22,7 @@ Unified shipment kann nicht gebaut werden
 
 // '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === 30670 Reporting entityIdentifier and bucketIdentifier differs
-link:../.ticket/30670.adoc[task]
+link:../.cus/.kn/.ticket/30670.adoc[task]
 * [X] Neuer PR gestellt (Feld aus anderem Wert dem Header hinzugefügt)
 * [X] Reduce Flakieness of Scaling support
 * [ ] PR für Reporting OK?

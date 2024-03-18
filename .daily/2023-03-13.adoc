@@ -6,12 +6,12 @@ include::{root}/.inc/includeDaily.adoc[]
 
 // '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === 30815 Prod RollbackExcption
-link:../.ticket/30815.adoc[task]
+link:../.cus/.kn/.ticket/30815.adoc[task]
 * [ ] Was sind die ACC? Was soll weg?
 
 // '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === 30670 Reporting entityIdentifier and bucketIdentifier differs
-link:../.ticket/30670.adoc[task]
+link:../.cus/.kn/.ticket/30670.adoc[task]
 * [ ] Zumachen wenn erfolgreich getestet
 
 * [X] 3 Commits

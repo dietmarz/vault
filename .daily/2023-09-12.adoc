@@ -40,7 +40,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus
 * [ ] HDw 90 + QRP fertig! <Anfang
 
 == Frog liste pflegen!
-* [ ] link:../org/eat-the-frog.adoc[Frog]
+* [ ] link:../org/bachelor-of-time-tim-reichel.adoc[Frog]
 
 === Woche Buchen ('.' Log Time)
 https://jira.int.kn/secure/Tempo.jspa[MyWork]
@@ -63,7 +63,7 @@ https://jira.int.kn/browse/KNOMP-31487[Remove Status]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-33930 [esp-shipment-events] deprecate git repository
 https://jira.int.kn/browse/KNOMP-33930[Jira]
-link:../.ticket/33930[docu]
+link:../.cus/.kn/.ticket/33930.adoc[docu]
 * [ ] PR gestellt esp-documents
 * [ ] PR gestellt esp-shipment
 * [!] PR gestellt esp-shared-message-api ZURÜCK
@@ -88,7 +88,7 @@ https://jira.int.kn/browse/KNOMP-33802[Jira]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-33980 Create new ART for testing integration from ESP & myKN
 https://jira.int.kn/browse/KNOMP-33980[Jira]
-link:../.ticket/33980[docu]
+
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

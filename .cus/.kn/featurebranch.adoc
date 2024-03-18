@@ -4,7 +4,6 @@ include::{root}/.inc/include.adoc[]
 
 link:deploy.adoc[deployen]
 link:release-bauen.adoc[releasen]
-link:../tec/openshift.adoc[openshift]
 
 * Hilfe von Janar Rahumeel
 

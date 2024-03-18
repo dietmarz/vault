@@ -11,7 +11,7 @@ include::{root}/.inc/includeDaily.adoc[]
 === MM Sven, tms-export, branch umbenennen zu gefährlich.
 
 === 30670 Reporting entityIdentifier and bucketIdentifier differs
-link:.ticket/30670.adoc[task]
+link:../.cus/.kn/.ticket/30670.adoc[task]
 * [X] PR scaling-support wrote test. Merged!
 * [X] PR reporting merged!
 

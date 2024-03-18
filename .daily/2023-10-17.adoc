@@ -33,9 +33,9 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Eichengrund
-* [ ] FdW XX 06 Wertermittlung link:../fnz/eichengrund.adoc[Stand]
-* [ ] F w XX 07 Garage leckt link:../fnz/eichengrund.adoc[Stand]
-* [ ] Was wir mit den Geldern der OLB? link:../fnz/oberes-juechen-grundstuecke.adoc[Details]
+* [ ] FdW XX 06 Wertermittlung link:../fnz/immo/eichengrund-haus.adoc[Stand]
+* [ ] F w XX 07 Garage leckt link:../fnz/immo/eichengrund-haus.adoc[Stand]
+* [ ] Was wir mit den Geldern der OLB? link:../fnz/immo/oberes-juechen-grundstuecke.adoc[Details]
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -116,7 +116,7 @@ https://jira.int.kn/browse/KNOMP-31487[Remove Status]
 === KNOMP-33537 [Reporting] remove old eventHistory attributes the implementation
 * https://jira.int.kn/browse/KNOMP-33537[Jira]
 * https://jira.int.kn/browse/KNOMP-31282[Epic] MDM: Clean-Up
-* link:../.ticket/33537.adoc[docu]
+* link:../.cus/.kn/.ticket/33537.adoc[docu]
 
 
 
@@ -127,7 +127,7 @@ https://jira.int.kn/browse/KNOMP-31487[Remove Status]
 == PreShipment Video Mitschrift (auf SystemTest)
 * https://kuehne-nagel.zoom.us/rec/share/tIBAqgLHncLqjWWNfoWzwi7eI286j1DoLw172iVtlB1KNMyoNT0caqhxihnv_Il4.orwSIHesSRMCW8M_ [Video]
   ** Kenncode: RAC3iQ%L
-  ** link:../kn/pre-shipment.adoc[DOC]
+
 * [ ] Film anschauen, wesentlichen Dinge extrahieren
 
 

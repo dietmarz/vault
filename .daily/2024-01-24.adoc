@@ -65,7 +65,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 
-* [ ] Jdw 60 12 Plan erstellen! link:plan.adoc[Plan]
+* [ ] Jdw 60 12 Plan erstellen!
 
 
 
@@ -112,7 +112,7 @@ Bremen unwichtig.
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === JIRA-12345 Titel
 * https://jira/JIRA-12345[JIRA]
-* link:../.ticket/12345.adoc[Ticket]
+* link:../.cus/.kn/.ticket/12345.adoc[Ticket]
 
 
 

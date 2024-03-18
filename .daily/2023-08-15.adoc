@@ -17,7 +17,7 @@ https://jira.int.kn/browse/KNOMP-31487[Remove Status]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-32333 [esp-mykn-components] fix local development process
 * https://jira.int.kn/browse/KNOMP-32333[Jira]
-link:../.ticket/32333.adoc[Ticket]
+link:../.cus/.kn/.ticket/32333.adoc[Ticket]
 
 * Ich bekomme dort ein 401.
 * [ ] Doku schreiben!

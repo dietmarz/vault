@@ -28,7 +28,7 @@ include::{root}/.inc/includeDaily.adoc[]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-32333 [esp-mykn-components] fix local development process
 * https://jira.int.kn/browse/KNOMP-32333[Jira]
-link:../.ticket/32333.adoc[Ticket]
+link:../.cus/.kn/.ticket/32333.adoc[Ticket]
 Sebastian und Valentin gemeldet?
 Weiter schauen Module Bundlers Explained... Webpack, Rollup, Parcel, and Snowpack
 video::5IG4UmULyoA[youtube]
@@ -40,7 +40,7 @@ video::5IG4UmULyoA[youtube]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-31571 Define deletion contracts
 * https://jira.int.kn/browse/KNOMP-31571[Jira]
-link:../.ticket/31571.adoc[Ticket]
+link:../.cus/.kn/.ticket/31571.adoc[Ticket]
   *** https://git.int.kn/projects/KNLOGIN/repos/esp-shipment/pull-requests/1075/overview[PR]
 * Merged!
 * [ ] Was machen mit den Impediments?

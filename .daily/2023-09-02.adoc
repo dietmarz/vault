@@ -87,7 +87,7 @@ https://jira.int.kn/browse/KNOMP-31487[Remove Status]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-33958 [Reporting] Field "Active Task" not correct
 https://jira.int.kn/browse/KNOMP-33958[Jira]
-link:../.ticket/33958[docu]
+
 
 
 
@@ -95,7 +95,7 @@ link:../.ticket/33958[docu]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-33296 [DI] [esp-tms-export] Add "Shipper's Reference" to EDIORD message
 https://jira.int.kn/browse/KNOMP-33296[Jira]
-link:../.ticket/33296.adoc[docu]
+link:../.cus/.kn/.ticket/33296.adoc[docu]
 
 * [ ] https://git.int.kn/projects/KNLOGIN/repos/esp-tms-export/pull-requests/740/overview[tms-mergen]
 * [ ] PR tms-export erstellen
@@ -103,8 +103,6 @@ link:../.ticket/33296.adoc[docu]
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-33980 Create new ART for testing integration from ESP & myKN
-https://jira.int.kn/browse/KNOMP-33980[Jira]
-link:../.ticket/33980[docu]
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
@@ -141,7 +139,7 @@ link:../.ticket/33980[docu]
 
 === Eichengrund
 * [ ] Mit der Stadt Esens klären, was mit den MündSich Wertpapieren geschehen soll.
-* [ ] link:../org/eat-the-frog.adoc[Frog]
+* [ ] link:../org/bachelor-of-time-tim-reichel.adoc[Frog]
 
 
 

@@ -14,7 +14,7 @@ include::{root}/.inc/includeDaily.adoc[]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-32333 [esp-mykn-components] fix local development process
 * https://jira.int.kn/browse/KNOMP-32333[Ticket]
-link:../.ticket/32333.adoc[Ticket]
+link:../.cus/.kn/.ticket/32333.adoc[Ticket]
 * [X] Docker neu installieren
 * [X] node 18.12.1
 * [X] yarn 1.22.19
@@ -37,7 +37,7 @@ link:../.ticket/32333.adoc[Ticket]
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-31571 Define deletion contracts
-link:../.ticket/31571.adoc[Ticket]
+link:../.cus/.kn/.ticket/31571.adoc[Ticket]
 * https://git.int.kn/projects/KNLOGIN/repos/esp-shipment/pull-requests/1075/overview[PR]
 
 

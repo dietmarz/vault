@@ -14,7 +14,7 @@ include::{root}/.inc/includeDaily.adoc[]
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === 30061 Unlink FCL shipment
-link:../.ticket/30061.adoc[docu]
+link:../.cus/.kn/.ticket/30061.adoc[docu]
 https://jira.int.kn/browse/KNOMP-30061[jira]
 * [ ] Selber nochmal reproduzieren und die Stelle finden, wo Shipment.shipmentnumber gesetzt wird
 * [ ] Implementierung Testen

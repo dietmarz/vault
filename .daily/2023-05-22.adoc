@@ -8,7 +8,7 @@ include::{root}/.inc/includeDaily.adoc[]
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-31571 Define deletion contracts
-link:../.ticket/31571.adoc[Ticket]
+link:../.cus/.kn/.ticket/31571.adoc[Ticket]
 * [ ] PR gestellt, wer hat was dazu gesagt?
 * [ ] Fehlt da noch eine Nachricht? Epic checken
 
@@ -16,7 +16,7 @@ link:../.ticket/31571.adoc[Ticket]
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === 30061 Unlink FCL shipment
-link:../.ticket/30061.adoc[docu]
+link:../.cus/.kn/.ticket/30061.adoc[docu]
 https://jira.int.kn/browse/KNOMP-30061[jira]
 
 * [ ] Erkenntnis: Sea wird nicht ge-canceled, kein Relinkage. Irgendwie dokumentieren?

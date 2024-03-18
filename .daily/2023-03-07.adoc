@@ -44,7 +44,7 @@ if (StringUtils.isBlank(containerDetails.getContainer().getNumber())
 * [ ] WVL MM Dennis & Georg: Jupiter, Nachricht schicken und dann keine Log message.
 
 === 30670 Reporting entityIdentifier and bucketIdentifier differs
-link:.ticket/30670.adoc[task]
+link:../.cus/.kn/.ticket/30670.adoc[task]
 * [ ] Scaling Framework releasen
   ** [ ] WVL MM Taris harbor image registry kaputt.
 

@@ -105,7 +105,7 @@ https://jira.int.kn/browse/KNOMP-31487[Remove Status]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-34983 [unified-model] IllegalArgumentException
 * https://jira.int.kn/browse/KNOMP-35253[JIRA]
-* link:../.ticket/35253.adoc[Ticket]
+* link:../.cus/.kn/.ticket/35253.adoc[Ticket]
 
 
 

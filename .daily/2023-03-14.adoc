@@ -6,13 +6,13 @@ include::{root}/.inc/includeDaily.adoc[]
 
 // '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === 30815 Prod RollbackExcption
-link:../.ticket/30815.adoc[task]
+link:../.cus/.kn/.ticket/30815.adoc[task]
 * ?Ticket sollte geschlossen werden! Soll mit dem PO von PurchaseOrder sprechen, die sollen das fixen sagt Dennis.
 
 
 // '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === 30670 Reporting entityIdentifier and bucketIdentifier differs
-link:../.ticket/30670.adoc[task]
+link:../.cus/.kn/.ticket/30670.adoc[task]
 * [X] Neuer PR gestellt (Feld aus anderem Wert dem Header hinzugefügt)
 * [X] Reduce Flakieness of Scaling support
 * [ ] PR für Reporting OK?

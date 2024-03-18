@@ -11,7 +11,7 @@ include::{root}/.inc/includeDaily.adoc[]
 
 // '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === 30670 Reporting entityIdentifier and bucketIdentifier differs
-link:../.ticket/30670.adoc[task]
+link:../.cus/.kn/.ticket/30670.adoc[task]
 * [ ] Zumachen wenn erfolgreich getestet
 
   ** Spalten einblenden und prüfen auf bucketKey != entityIdentifier

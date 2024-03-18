@@ -11,7 +11,7 @@ include::{root}/.inc/includeDaily.adoc[]
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-31571 Define deletion contracts
-link:../.ticket/31571.adoc[Ticket]
+link:../.cus/.kn/.ticket/31571.adoc[Ticket]
 * 1. rest-apis shipment-status & -admin incompatible releasen.
 * 2. Version increment fehlte.
 * 3. Nur bei mir SeaShipmentRepositoryIntegrationTest failed nach rebase mit Float difference, 15 statt 15.4. Ursache unbekannt. JDK?
@@ -24,7 +24,7 @@ link:../.ticket/31571.adoc[Ticket]
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === 30061 Unlink FCL shipment
-link:../.ticket/30061.adoc[docu]
+link:../.cus/.kn/.ticket/30061.adoc[docu]
 https://jira.int.kn/browse/KNOMP-30061[jira]
 
 * [ ] Erkenntnis: Sea wird nicht ge-canceled, kein Relinkage. Irgendwie dokumentieren?

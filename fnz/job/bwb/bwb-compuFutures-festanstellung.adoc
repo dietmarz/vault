@@ -1,0 +1,17 @@
+include::{root}/.inc/include.adoc[]
+
+= Bwb ComputureFutures Festanstellung
+
+* URL: https://mail.google.com/mail/u/0/?pli=1#inbox/FMfcgzGxSHnhBxvgRxjPPLvNqrjQLjvd[Mail]
+* Ext-Referenz:dz hyp, Baloise, intersoft Bitmarck, Berenberg, Techniker Krankenkasse
+* Einsatzort: Hamburg
+* Home-Office: je nach dem
+* Vertrag: ANGESTELLT
+* Gehalt: max 95T€
+* Beginn: sofort
+* Ende: offen
+* *bwb-call* m.grossholz@computerfutures.de
+
+== History
+* 18.03.24 Telefonat Mario Grossholz
+

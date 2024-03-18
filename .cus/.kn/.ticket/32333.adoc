@@ -5,7 +5,7 @@ include::{root}/.inc/include.adoc[]
 * [X] node 18.12.1  & yarn 1.22.19
 
 https://jira.int.kn/browse/KNOMP-32333[Jira]
-link:../kn/esp-dev-launcher.adoc[dev-launcher]
+link:../esp-dev-launcher.adoc[dev-launcher]
 
 == Doc
 https://wiki.int.kn/display/KNESP/esp-dev-launcher+development+setup[wiki]

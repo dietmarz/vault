@@ -18,14 +18,14 @@ https://jira.int.kn/browse/KNOMP-31487[Remove Status]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-33397 [esp-unified-model] refactoring
 * https://jira.int.kn/browse/KNOMP-33397[Jira]
-link:../.ticket/33397.adoc[Ticket]
+link:../.cus/.kn/.ticket/33397.adoc[Ticket]
 * weiter EspContainer
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-32333 [esp-mykn-components] fix local development process
 * https://jira.int.kn/browse/KNOMP-32333[Jira]
-link:../.ticket/32333.adoc[Ticket]
+link:../.cus/.kn/.ticket/32333.adoc[Ticket]
 
 * [X] Zurückdrehen esp-mykn-mock url aus dem Varnish: https://git.int.kn/projects/KNLOGIN/repos/esp-dev-launcher/pull-requests/156/overview
 

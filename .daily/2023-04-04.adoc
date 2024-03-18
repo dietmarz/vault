@@ -23,14 +23,14 @@ IMPORTANT: Epic myKN ist erstmal wichtiger
 
 * https://jira.int.kn/browse/KNOMP-26446[epic]
 * https://jira.int.kn/browse/KNOMP-31087[jira]
-* link:../.ticket/31087.adoc[docu]
+* link:../.cus/.kn/.ticket/31087.adoc[docu]
 
 NOTE: Preconditon is not on prod. https://git.int.kn/projects/KNLOGIN/repos/esp-reporting/pull-requests/2972/overview[ticket]
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === 30061 Unlink FCL shipment
 BITTE ÜBERNEHMEN
-link:../.ticket/30061.adoc[docu]
+link:../.cus/.kn/.ticket/30061.adoc[docu]
 https://jira.int.kn/browse/KNOMP-30061[jira]
 * [X] PR gestellt, Kai hatte XLS Doku Tabelle
   ** Kais Doku ge-reviewed.

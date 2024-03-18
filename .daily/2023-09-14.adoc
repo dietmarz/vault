@@ -43,7 +43,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus
 * [ ] H W 90 Keller säubern"
 * [ ] H W 60 Liste jeder Raum 60min, Entsorgen-Verkaufen-Behalten.
 * [ ] HDw 90 + QRP fertig! <Anfang
-* [ ] Was wir mit den Geldern der OLB? link:../fnz/oberes-juechen-grundstuecke.adoc[Details]
+* [ ] Was wir mit den Geldern der OLB? link:../fnz/immo/oberes-juechen-grundstuecke.adoc[Details]
 
 * [ ] GdW 30 09 KKasse wechseln
 * [ ] JDW 30 03 PlaBewerbung fertig
@@ -112,14 +112,14 @@ https://jira.int.kn/browse/KNOMP-31487[Remove Status]
 === KNOMP-33537 [esp-unified] remove old eventHistory attributes from the api and in the implementation
 * https://jira.int.kn/browse/KNOMP-33537[Jira]
 * https://jira.int.kn/browse/KNOMP-31282[Epic] MDM: Clean-Up
-* link:../.ticket/33537[docu]
+
 * Ist Reporting!
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-33930 [esp-shipment-events] deprecate git repository
 * https://jira.int.kn/browse/KNOMP-33930[Jira]
 * https://jira.int.kn/browse/KNOMP-31282[Epic] MDM: Clean-Up
-* link:../.ticket/33930[docu]
+
 * [ ] beim Daily: Soll ich da jetzt noch was tun?
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -133,13 +133,13 @@ https://jira.int.kn/browse/KNOMP-31282[Epic] MDM: Clean-Up
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-33980 Create new ART for testing integration from ESP & myKN
 https://jira.int.kn/browse/KNOMP-33980[Jira]
-link:../.ticket/33980[docu]
+
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 == PreShipment Video Mitschrift (auf SystemTest)
 * https://kuehne-nagel.zoom.us/rec/share/tIBAqgLHncLqjWWNfoWzwi7eI286j1DoLw172iVtlB1KNMyoNT0caqhxihnv_Il4.orwSIHesSRMCW8M_ [Video]
   ** Kenncode: RAC3iQ%L
-  ** link:../kn/pre-shipment.adoc[DOC]
+
 
 
 * [ ] Film anschauen, wesentlichen Dinge extrahieren

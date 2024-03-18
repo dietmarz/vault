@@ -15,14 +15,14 @@ https://jira.int.kn/browse/KNOMP-31487[Remove Status]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-33397 [esp-unified-model] refactoring
 * https://jira.int.kn/browse/KNOMP-33397[Jira]
-link:../.ticket/33397.adoc[Ticket]
+link:../.cus/.kn/.ticket/33397.adoc[Ticket]
 * weiter EspContainer
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-32333 [esp-mykn-components] fix local development process
 * https://jira.int.kn/browse/KNOMP-32333[Jira]
-link:../.ticket/32333.adoc[Ticket]
+link:../.cus/.kn/.ticket/32333.adoc[Ticket]
 * start:mock:int etc geht nicht wegen @ path
 * Basic Auth hinzugefügt, läuft aber nicht. Call parameter verglichen mit call zum
 https://mykn-test.kuehne-nagel.com/news/
@@ -38,7 +38,7 @@ URLs
 === KNOMP-31571 Define deletion contracts
 * https://jira.int.kn/browse/KNOMP-31571[Jira]
 * https://jira.int.kn/browse/KNOMP-33283[Bug]
-link:../.ticket/31571.adoc[Ticket]
+link:../.cus/.kn/.ticket/31571.adoc[Ticket]
 
 * Eigentlich fertig...
 * [ ] Wie diese Infos speichern für SDR?

@@ -10,7 +10,7 @@ include::{root}/.inc/include.adoc[]
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 == Eichengrund
-* [ ] F w XX 07 Garage leckt link:../fnz/immo/eichengrund-stand.adoc[Stand]
+* [ ] F w XX 07 Garage leckt link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
 * [ ] F w XX 12 Datenlogger besorgen -> erst in Achim fragen...
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

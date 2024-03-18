@@ -48,7 +48,7 @@ public EspShipment insertOrUpdate(EspShipment espShipment)
 insertOrUpdateContainerAllocation
 fillFactTypeTableForShipmentContainerAllocation
 getOrderLineKeyToOrderLineIdByAllocations -> to throws Zeile 1087
-link:C:/data/esp-reporting/reporting-app/src/main/java/kn/knlogin/esp/reporting/domain/reports/starschema/StarSchemaRepository.java[StarSchema]
+link: C:/data/esp-reporting/reporting-app/src/main/java/kn/knlogin/esp/reporting/domain/reports/starschema/StarSchemaRepository.java[StarSchema]
 
 == Suche nach
 1051309057 and

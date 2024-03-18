@@ -25,7 +25,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Eichengrund Übertragungsvertrag
-link:../fnz/eichengrund-uebertragung.adoc[Stand]
+link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
 * [W] Fdw 45 < ? > 25.01. Telefonat warten auf Vertrag und Kontaktdate
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -74,7 +74,7 @@ link:../fnz/eichengrund-uebertragung.adoc[Stand]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 
-* [ ] Jdw 60 12 Plan erstellen! link:plan.adoc[Plan]
+* [ ] Jdw 60 12 Plan erstellen!
 
 
 
@@ -121,7 +121,7 @@ Bremen unwichtig.
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === JIRA-12345 Titel
 * https://jira/JIRA-12345[JIRA]
-* link:../.ticket/12345.adoc[Ticket]
+* link:../.cus/.kn/.ticket/12345.adoc[Ticket]
 
 
 

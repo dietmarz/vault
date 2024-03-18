@@ -122,7 +122,7 @@ Udemy  letzter Artikel: 20.11. Deep Learning Python
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Eichengrund Übertragungsvertrag
-link:../fnz/eichengrund-uebertragung.adoc[Stand]
+link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
 * [ ] Termin zur Beurkundung mit Frau Schlüchting unter 04941/92366-15 absprechen
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

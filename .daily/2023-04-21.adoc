@@ -44,7 +44,7 @@ PreShipmentSender
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === 30061 Unlink FCL shipment
-link:../.ticket/30061.adoc[docu]
+link:../.cus/.kn/.ticket/30061.adoc[docu]
 https://jira.int.kn/browse/KNOMP-30061[jira]
 
 * [ ] Erkenntnis: Sea wird nicht ge-canceled, kein Relinkage. Irgendwie dokumentieren?

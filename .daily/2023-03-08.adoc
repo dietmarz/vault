@@ -28,7 +28,7 @@ if (StringUtils.isBlank(containerDetails.getContainer().getNumber())
 
 // '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === 30670 Reporting entityIdentifier and bucketIdentifier differs
-link:.ticket/30670.adoc[task]
+link:../.cus/.kn/.ticket/30670.adoc[task]
 * [X] Scaling Framework releasen
 * [X] PR Reporting Version Upgrade Scaling Framework gestellt
 

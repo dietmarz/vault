@@ -24,7 +24,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus
 * [ ] HDw 90 + QRP fertig! <Anfang
 
 == Frog liste pflegen!
-* [ ] link:../org/eat-the-frog.adoc[Frog]
+* [ ] link:../org/bachelor-of-time-tim-reichel.adoc[Frog]
 
 === Woche Buchen ('.' Log Time)
 https://jira.int.kn/secure/Tempo.jspa[MyWork]
@@ -56,7 +56,7 @@ https://jira.int.kn/browse/KNOMP-33802[Jira]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-33980 Create new ART for testing integration from ESP & myKN
 https://jira.int.kn/browse/KNOMP-33980[Jira]
-link:../.ticket/33980[docu]
+link:../.cus/.kn/.ticket/33980.adoc[docu]
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 

@@ -5,8 +5,8 @@ include::{root}/.inc/include.adoc[]
 Steht auch alles im README
 
 Siehe auch
-link:../.ticket/32333.adoc[Ticket]
-link:../.ticket/32333-2.excalidraw.svg[Zeichnung]
+link:../.cus/.kn/.ticket/32333.adoc[Ticket]
+link:../.cus/.kn/.ticket/32333-2.excalidraw.svg[Zeichnung]
 
 
 

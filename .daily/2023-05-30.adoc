@@ -30,7 +30,7 @@ include::{root}/.inc/includeDaily.adoc[]
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-31571 Define deletion contracts
-link:../.ticket/31571.adoc[Ticket]
+link:../.cus/.kn/.ticket/31571.adoc[Ticket]
 * [ ] Nachricht und logging fehlt laut 31535
   ** After the status are deleted successfully the shipment needs to be rebuilt/republished
   ** Deleted status should be logged, including the full status data and login id of the user that has performed the deletion

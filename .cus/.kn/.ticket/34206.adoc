@@ -10,7 +10,6 @@ https://jira.int.kn/browse/KNOMP-34206[Ticket]
 === KNOMP-34206 [oedi-data-bridge] update to unified-shipment-model-message v1 8.0.0
 * https://jira.int.kn/browse/KNOMP-34206[Jira]
 * https://jira.int.kn/browse/KNOMP-31282[Epic] MDM: Clean-Up
-* link:../.ticket/34206.adoc[docu]
 
 
 

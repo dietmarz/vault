@@ -23,7 +23,7 @@ https://jira.int.kn/browse/KNOMP-31487[Remove Status]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-33296 [DI] [esp-tms-export] Add "Shipper's Reference" to EDIORD message
 https://jira.int.kn/browse/KNOMP-33296[Jira]
-link:../.ticket/33296.adoc[docu]
+link:../.cus/.kn/.ticket/33296.adoc[docu]
 
 * [ ] https://git.int.kn/projects/KNLOGIN/repos/esp-tms-knie4/pull-requests/140/overview[knie4-mergen]
 
@@ -65,7 +65,7 @@ link:../.ticket/33296.adoc[docu]
 === Eichengrund
 * [ ] KKasse wechseln
 * [ ] Mit der Stadt Esens klären, was mit den MündSich Wertpapieren geschehen soll.
-* [ ] link:../org/eat-the-frog.adoc[Frog]
+* [ ] link:../org/bachelor-of-time-tim-reichel.adoc[Frog]
 
 
 

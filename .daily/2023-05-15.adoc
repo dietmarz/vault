@@ -13,7 +13,7 @@ include::{root}/.inc/includeDaily.adoc[]
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === KNOMP-31571 Define deletion contracts
-link:../.ticket/31571.adoc[Ticket]
+link:../.cus/.kn/.ticket/31571.adoc[Ticket]
 * 15 30 Container: Test einbauen, wie status auch.
 * 15 15 JPA delete entfernen.
 * 15 15 Alles durchgehen, imports etc entfernen
@@ -26,7 +26,7 @@ link:../.ticket/31571.adoc[Ticket]
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === 30061 Unlink FCL shipment
-link:../.ticket/30061.adoc[docu]
+link:../.cus/.kn/.ticket/30061.adoc[docu]
 https://jira.int.kn/browse/KNOMP-30061[jira]
 
 * [ ] Erkenntnis: Sea wird nicht ge-canceled, kein Relinkage. Irgendwie dokumentieren?

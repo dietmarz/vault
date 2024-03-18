@@ -65,7 +65,8 @@ include::Example.java[tags=helloMethod]
 == Kleinkram
 * Increment counter each time used: One: {counter:cnt-step}, two {counter:cnt-step}
 * <Crtl> + <click on filename> works
-* link:{root}/kn/release.adoc[release]
+// Das adoc am Ende ist optional!
+* link:{root}/.cus/.kn/release-bauen.adoc[release]
 // ---------------------------------------------------------------------------------------------------------------------
 == Blöcke
 
