@@ -68,6 +68,9 @@ if [[ -n ${ENV_VAULT:-} ]]; then
     echo "-------------------------  vault encryption -------------------------"
     ${ENV_VAULT}/kh/util/bin/t "e"
 
+    echo "-------------------------  vault validation -------------------------"
+    ${ENV_VAULT}/kh/util/bin/t "v"
+
     # Call the function for vault
     git_ops ENV_VAULT "Update vault by sv"
 fi
