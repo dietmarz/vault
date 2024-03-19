@@ -2,7 +2,7 @@ include::{root}/.inc/include.adoc[]
 
 = Renten Planung
 
-link:file:///home/dietmar/cloud/office/Finanz/Rente/Finanz-Coaching/dietmar_zabel.xlsx[Excel]
+link:file:///home/dietmar/cloud/office/Finanz/Beratung/AndreeDeBoer/dietmar_zabel.xlsx[Excel]
 
 == Ziele
 . Früher Rentenaustritt, ich kann mir nicht vorstellen bis 67 zu arbeiten.
