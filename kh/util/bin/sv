@@ -64,12 +64,15 @@ git_ops() {
 
 # Check if ENV_VAULT is set and not empty
 if [[ -n ${ENV_VAULT:-} ]]; then
+    echo "-------------------------  vault validation -------------------------"
+    if ! ${ENV_VAULT}/kh/util/bin/t "v"; then
+        echo "Validation failed. Aborting script."
+        exit 1
+    fi
+
     # Encryption operation
     echo "-------------------------  vault encryption -------------------------"
     ${ENV_VAULT}/kh/util/bin/t "e"
-
-    echo "-------------------------  vault validation -------------------------"
-    ${ENV_VAULT}/kh/util/bin/t "v"
 
     # Call the function for vault
     git_ops ENV_VAULT "Update vault by sv"

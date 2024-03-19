@@ -2,7 +2,7 @@ include::{root}/.inc/include.adoc[]
 
 = Versicherungen
 
-* link:/home/dietmar/cloud/office/Finanz/Rente/Cosmos-Directversicherung-3860585_/[cloud]
+* link:/home/dietmar/cloud/office/Finanz/Rente/Cosmos-Directversicherung-3860585/[cloud]
 
 
 
