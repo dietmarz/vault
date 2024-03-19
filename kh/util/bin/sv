@@ -65,18 +65,31 @@ git_ops() {
 # Check if ENV_VAULT is set and not empty
 if [[ -n ${ENV_VAULT:-} ]]; then
     echo "-------------------------  vault validation -------------------------"
-    if ! ${ENV_VAULT}/kh/util/bin/t "v"; then
-        echo "Validation failed. Aborting script."
+    ${ENV_VAULT}/kh/util/bin/t "v"
+    exit_status=$?  # Speichert den Exit-Status des letzten Befehls
+
+    # Ausgabe und Auswertung des Exit-Status
+    echo "Validation exit status: $exit_status"
+    if [ $exit_status -ne 0 ]; then
+        echo "Validation failed with exit status $exit_status. Aborting script."
         exit 1
     fi
 
     # Encryption operation
     echo "-------------------------  vault encryption -------------------------"
     ${ENV_VAULT}/kh/util/bin/t "e"
+    exit_status=$?
+
+    # Überprüfe den Exit-Status der Verschlüsselung
+    if [ $exit_status -ne 0 ]; then
+        echo "Encryption failed with exit status $exit_status. Aborting script."
+        exit 1
+    fi
 
     # Call the function for vault
     git_ops ENV_VAULT "Update vault by sv"
 fi
+
 
 # Call the function for office and kh
 git_ops ENV_OFFICE "Update office by sv"
