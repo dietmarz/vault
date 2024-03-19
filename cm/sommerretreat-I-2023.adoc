@@ -17,11 +17,11 @@ include::{root}/.inc/include.adoc[]
 
 == Wissen
 * Nicht auf die Stille ausgerichtet sein, das ist ein Tun, die Stille erfaßt Dich von allein
-* Die Aktzeptanz der Ohnmacht ist das Tor zur Unendlichkeit
-* Konzentraton: Was ist Dir noch wichtiger?
+* Die Akzeptanz der Ohnmacht ist das Tor zur Unendlichkeit
+* Konzentration: Was ist Dir noch wichtiger?
 * Weil es ein Geschenk ist, fällt es mir leicht zu sagen,  nicht mein, sondern Dein Wille geschehe
 * Hilfe: Gedanke führt zum Gefühl! Ist das vermutete Gefühl da?
-* Eine Entscheidung treffen und die tiefe Freude des Fühlens das ma eine Entscheidung getroffen hat
+* Eine Entscheidung treffen und die tiefe Freude des Fühlens das man eine Entscheidung getroffen hat
 * Polar um Gedanken zur Ruhe zu bringen in Mini Format
 * Vergebung ist Anmaßung!
 * Gähnen hilft beim Fühlen
@@ -52,9 +52,6 @@ include::{root}/.inc/include.adoc[]
 * Fühlen ohne was damit zu tun (zB. Denken)
 * (D) Sei Dich der Unachtsamkeit bewußt
 * Entscheidung Liebe zu sein hilft still zu sein. Aus Liebe, nicht aus Regeln handeln!
-
-
-
 
 == Yoga
 === 3 Zitter Vorübungen

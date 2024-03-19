@@ -12,48 +12,6 @@ include::{root}/.inc/includeDaily.adoc[]
 
 https://www.youtube.com/watch?v=JNg63_uy2-o&t=746s[hier]
 
-=== Vorbereiten Frohberg
-Tourenrad, Gitarre,
-Notebook
-Sauna?
-Strinlampe
-Waschschüssel
-
-
-
-
-* [ ] Generall: Badelatschen! Sonnenbrille! DickeSocken
-* [ ] Schwimmen: Badehose, Brille, Kappe
-* [ ] Kurze Sporthosen, Sportshirts
-* [ ] Yoga: Yogamatte, Blöcke, Rolle+, BasketB, Sack, AirexKissen
-* [ ] LaHa: LaHa, 10*2,5Kg 2*1,5 auf Stange
-* [ ] Zelten: Isomatte, Schlafsack?
-* [ ] Tourenrad: Fronttasche, eine Seitentasche, Schlauchtücher
-* [ ] Blauer Rucksack
-* [ ] Gitarre?
-* [ ] Notebook: Rucksack, PC, Headset, extra Maus, Monitor Kabel, ...
-* [ ] Sauna?
-
-* [ ] Stirnlampe
-* [ ] Massageöl
-* [ ] Handtücher
-* [ ] Radjacke
-* [ ] Waschschüssel und Wäscheleine
-* [ ] J     oggen: Schuhe Stirnbänder
-* [ ] Schmutzwäsche-sack
-* [ ] 14 (TShirt, UHosen, Socken)
-* [ ] Picknickdecke
-
-* [ ] Decke/Kissen für die Treffen im Seminarraum
-* [ ] Hausschuhe/dicke Socken
-* [ ] Schreibzeug
-* [ ] verschließbare Flasche für Getränke
-* [ ] Bargeld für Snacks, Getränke, Waschmaschine, Bücher, ggf. Mentoren-Stunden etc.
-* [ ] Zelter: komplette Schlafausrüstung (es gibt keine Matratzen vom Gut)
-* [ ] Wohnmobile: Kabeltrommel zum Stromanschluss (Schuko, kein CEE)
-* [ ] Schwimmsachen, Zelt, dicke LMatratze
-
-* [ ] Andreas mp3 stick updaten
 * [ ] Andreas Tür reparieren
 
 

@@ -1,0 +1,83 @@
+include::{root}/.inc/include.adoc[]
+
+= Packliste Seminar
+
+== Gepäckbehälter
+* Großer Rucksack oder Rollkoffer. Viel Laufen? Dinge Unklar? Langer Aufenthalt? Keine Waschmaschine?
+
+
+== Seminar
+* Kleiner Rucksack (Notebook)
+* Wasserflasche
+* Schreibzeug
+* Sitzkissen
+* Airexkissen Autoanreise
+
+== KLeidung
+* [ ] T-Shirts, U-Hosen, Socken
+* [ ] Div Schlauchtücher, Merino Shirts, Langarm Pullis, Sporthose lang, Sporthosen kurz, etwas zum schlafen
+* [ ] Jacke
+
+== Elektronik
+* [ ] Ladegerät Handy mit Kabeln
+* [ ] Notebook, Netzteil, Maus
+* [ ] Handy, Gürtel mit Tasche
+Kopfhörer
+
+== Sport
+* [ ] Schwimmsachen
+* [ ] Kleinigkeiten für Sport und Faszien
+* [ ] Crogs und Turnschuhe
+* [ ] Elektrobürste
+* [ ] Handtücher, Duschen? Strand?
+
+== Mental
+* [ ] Gitarre?
+* [ ] Zeichenmaterial
+
+
+== ### Vobereitung Trantra ###
+* Bilder unter link:file:///home/dietmar/drucken
+* Schlappi Stofftier
+
+
+
+== Vorbereiten Frohberg
+Tourenrad, Gitarre,
+Notebook
+Sauna?
+Stirnlampe
+Waschschüssel
+
+* [ ] Generall: Badelatschen! Sonnenbrille! DickeSocken
+* [ ] Schwimmen: Badehose, Brille, Kappe
+* [ ] Kurze Sporthosen, Sportshirts
+* [ ] Yoga: Yogamatte, Blöcke, Rolle+, BasketB, Sack, AirexKissen
+* [ ] LaHa: LaHa, 10*2,5Kg 2*1,5 auf Stange
+* [ ] Zelten: Isomatte, Schlafsack?
+* [ ] Tourenrad: Fronttasche, eine Seitentasche, Schlauchtücher
+* [ ] Blauer Rucksack
+* [ ] Gitarre?
+* [ ] Notebook: Rucksack, PC, Headset, extra Maus, Monitor Kabel, ...
+* [ ] Sauna?
+
+* [ ] Stirnlampe
+* [ ] Massageöl
+* [ ] Handtücher
+* [ ] Radjacke
+* [ ] Waschschüssel und Wäscheleine
+* [ ] Joggen: Schuhe Stirnbänder
+* [ ] Schmutzwäsche-sack
+* [ ] 14 (TShirt, UHosen, Socken)
+* [ ] Picknickdecke
+
+* [ ] Decke/Kissen für die Treffen im Seminarraum
+* [ ] Hausschuhe/dicke Socken
+* [ ] Schreibzeug
+* [ ] verschließbare Flasche für Getränke
+* [ ] Bargeld für Snacks, Getränke, Waschmaschine, Bücher, ggf. Mentoren-Stunden etc.
+* [ ] Zelter: komplette Schlafausrüstung (es gibt keine Matratzen vom Gut)
+* [ ] Wohnmobile: Kabeltrommel zum Stromanschluss (Schuko, kein CEE)
+* [ ] Schwimmsachen, Zelt, dicke LMatratze
+
+* [ ] Andreas mp3 stick updaten

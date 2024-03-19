@@ -3,17 +3,12 @@ include::{root}/.inc/includeDaily.adoc[]
 = Dienstag, 19. März 2024
 
 link:../fnz/office.adoc[Regeln]
-link:../def/score-board.adoc[Daily Score Board]
+* link:../prv/backlog.adoc[BackLog]
 
 == Aufgaben
 State: ' ' Unplanned, B = Blocked, X = Done, R = Refine it!, W = Wiedervorlage, S = Selected
 Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
-
-* Use backlog to keep overview in daily work
-* link:../prv/backlog.adoc[BackLog]
-
-* Merker Marokko Restbetrag
 
 == Motto
 * Wenn Du etwas loslassen möchtest, musst Du es erleben: Funk, Angeln, QRP. Plane das Erleben!
@@ -21,7 +16,6 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 
 == Bald
-* [ ] OdW 60 Paper Score board Erstellung Experiment.
 * [ ] O-W 60 Backup-DVD Medien und Md5 Dateien strukturieren
   **         Backup großer Video Dateien überlegen, wie inkrementell sichern. Einen Notes/.archive und Notes/.backup Ordner anlegen,
              dort md5 der Dateien speichern. Archive = Cloud ohne git, doppelt gesichert.  Backup = M-Disc md5 Dateien. dot Ordner damit ausgeschlossen vom normalen grep.
@@ -30,7 +24,6 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * [ ] FdW XX Versicherungen adoc anlegen, strukturieren. Solange 60 wiederholen bis fertig
 * [ ] M-W 60 Start Einstellen Kleinanzeigen/eBay
 * [ ] Fdw 20 Anruf: Neues DKB Konto aktivieren, es fehlt das start passwort. Oder brauche ich garnichts aktiverien?
-* [ ] Pdw 60 Hosen kaufen
 * [ ] M-- 60 Kleidung aussortieren und sammeln.
 
 == Bewerben Routine
@@ -39,11 +32,11 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 == Heute! (Hier wird gearbeitet)
 * [ ] JDW 60 BEWERBEN! Jeden Tag Routine!
-* [ ] JDW 60 Profil updaten mit QCC
+* [ ] JDW 60 Profil updaten mit QCC Task und Clock
 
-* [ ] Task Verify. Wegen häufiger Refactorings. Linking your Thinking?
 * [ ] Fdw 20 info@tobias-diekmann.de aus Achim fragen!
 
+* [ ] Tantra link:file:///home/dietmar/cloud/andi/Tantra-Seminar/Anschreiben-Detailinfos-zum-Tantra-an-Ostern-2024.pdf[Anschreiben]
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

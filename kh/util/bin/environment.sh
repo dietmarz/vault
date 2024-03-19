@@ -70,7 +70,6 @@ alias cdcloud="cd ~/cloud/"
 
 
 # alias backup='rsync -avxtHAX --info=progress2 --delete --backup --backup-dir=_trash/$(date "+%Y_%m_%d-%H_%M_%S") --exclude=_trash'
-alias cdcustomer="cd ~/cloud/customer/"
 cdd ()
 {
   mkdir -p -- "$1" &&
