@@ -5,6 +5,10 @@ include::{root}/.inc/include.adoc[]
 == Gepäckbehälter
 * Großer Rucksack oder Rollkoffer. Viel Laufen? Dinge Unklar? Langer Aufenthalt? Keine Waschmaschine?
 
+* Seminarunterlagen / Ordner
+* Brotdose wegen Hotel Essen
+* Bahntickets und sonstige Tickets
+* Große Fazienkugel
 
 == Seminar
 * Kleiner Rucksack (Notebook)

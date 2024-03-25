@@ -61,11 +61,6 @@ Wo geht die Reise hin, was liebe ich was brauche ich regelmäßig, was ist meine
 * Reduktion physischer und nicht physischer Dinge.
 * Nie gebraucht oder kein Nutzen? Potenzial für Nutzen? Macht glücklich?
 
-=== Methodisieren
-Neue Ordnung systematisch aufrechterhalten, neue Routinen entwickeln
-
-=== Meistern
-Anwenden, durchhalten
 
 == Vorgehen
 Durch alle Räume einen Zustand herstellen
@@ -120,5 +115,13 @@ eigentlich schon, es geht um die Frage, was weg kann.
 == Entzug: Einen Monat lang versuchen, ohne Abos zu leben
 * Prime, Blinkist und was es sonst noch so gibt. Nur was man wirklich vermisst wieder abonnieren. Aus <<Coaching>>
 
+
+== Elemete aus <<Fumio>>
+* Abnehmen lernen durch es reicht...
+* Fruende minmalisieren, als Voraussetzugn für Glück
+
+
+
 [bibliography]
 - [[[Coaching]]] Spiegel Coaching 01/2022 Arbeitsbuch
+- [[[Fumio]]] Das kann doch weg! Das befreiende Gefühl, mit weniger zu leben, Fumio Sasaki, Kindle
