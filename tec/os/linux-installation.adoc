@@ -95,8 +95,6 @@ Add search engine with google, @g, "https://www.google.com/search?q=%s"
 sudo mv /etc/apt/preferences.d/nosnap.pref ~/Documents/nosnap.backup
 sudo apt update
 sudo apt install snapd
-sudo snap install chromium
-sudo snap install chromium-ffmpeg
 sudo snap install --classic code
 sudo snap install gimp
 ----

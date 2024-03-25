@@ -1,0 +1,70 @@
+include::{root}/.inc/include.adoc[]
+
+= Bewerbungsgespräch
+
+== Allgemein
+* Wegen! der Erfahrung trotzdem *nicht Ausschweifen*. Kein Redeflash!, Kein Monolog! Nachfragen lassen! Max 1-2min!
+* Gesucht wird: Kein Nerd (Außenseiter), Themen Pusher, zeige technologische Tiefe,
+  ** Erwartung bei 90K€: 1.) Vorangehen 2.) Abholen 3.) Begeistern! Leidenschaft!
+
+== Vorbereitung
+* [ ] Namen und Lebensläufe lesen
+* [ ] Lesen was wo gemacht: link:bewerbung-taetigkeiten.adoc[gemacht]
+* [ ] Website durchklicken, was ist die Kernkompetenz, Kernprodukt ist alles klar? Wiki eintrag?
+* [ ] Einwahltechnologie prüfen Zoom/Webex... Mikro, Kamera,... Keine Neuen Installationen!
+* [ ] Hemd anziehen, kein Kaffee!
+* [ ] Extra Einwahltermin 15min früher
+* [ ] Klemmbrett mit Papier und Stift, Namen
+* [ ] Timer parat. Diese Seite drucken
+* [ ] Seite öffnen: link:bewerbung-taetigkeiten.adoc[interview]
+
+== Was ist mir wichtig
+* Qualität (Tests, Gesicherte Funktionen)
+* Robustheit, Erweiterbarkeit
+* Umgang im Team, Stimmung, Retrospektiven
+* Weiterbildung
+
+== Fragen über mich
+* Kernkompetenz: Vogelperspektive Backend, etwas Frontend, etwas Cloud
+* Welche Rolle: Senior Software Developer, & alles was mich persönlich weiter bringt (Scrum-Master)
+* Welche Methodik: Scrum-Cherry-Picking, Wasserfall, Echtes Scrum
+
+== Gute, "smarte" Fragen stellen
+* Was sind eure konkreten Erwartungen an mich?
+* Wie wird die Zusammenarbeit im Team gelebt?
+* Was ist euch bei einem neuen Teammitglied am allerwichtigsten?
+* Was wäre der größte Teil meiner Arbeit?
+* Warum arbeite ihr gerne bei Intersoft?
+
+* Teamgröße, Vorgehen, Linux?, Kleiderordnung, Homeoffice?
+* Wie werden neue MA fachlich geschult?
+
+== Online
+
+
+
+
+
+1. * Intersoft Website durchklicken, Tec  -> Aber Komplett SW ent WWK Versicherung,
+
+
+Keinen Nerd, Themen Pushen, Technische Tiefe: 1Vorangeht, 2abholen, 3begeistern, ab 90T.
+Leidenschaft der etwas tut.
+Kein Redeflash! So viel Erfahrung, Reden ohne Nachzufragen.
+1. Welche Rolle hatte ich im Team.
+2. Vogelperspektive: Backenend auch im Frontend.
+Keine Gedankenspaziergänge!!!
+Glaubhaft versichern das ich
+dieses Hin und Her, Feste identität, nicht immer wechselt.
+Festes Team, Langfristigkeit, War 7 Jahre bei der HH Süd.
+Erste FEstanstellung Oder der Wikrlichj bock drauf hat.
+
+5,6 min früher rein.
+Hemd, wegen Profil bild
+
+== Vorbereitung Interview vorort
+* Vorbereitung Telefon Interview machen.
+* Namen und Bilder drucken
+* Ausschreibung drucken
+* min 1h früher da, pünktlich, 5min früher hereingehen.
+* Nicht zu viel trinken

@@ -1,0 +1,16 @@
+include::{root}/.inc/include.adoc[]
+
+= Bwb Bewerbungen Übersicht
+
+|===
+|*Firma*                |*Kontakt*       |*Datum*|*Status*          |*Link*
+|Questax  -> Atruvia    |Markus Sommer   |14.03. |*BWB-Eingereicht* |link:bwb-questax-atruvia.adoc[link]
+|Allgeier -> Bdruckerei |Juri Palmer     |15.03  |*BWB-Eingereicht* |link:bwb-allgeier-juri.adoc[link]
+|PrjPool  -> ???        |Beate Sauer     |15.03  |*BWB-Eingereicht* |link:bwb-pool-java.adoc[link]
+|CompFut  -> Intersoft  |Mario Grossholz |26.03  |*1-BWB-Gespräch*  |link:bwb-intersoft-ag.adoc[link]
+
+
+
+
+
+|===

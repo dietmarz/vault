@@ -31,12 +31,15 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * https://mail.google.com/mail/u/0/?pli=1#inbox[Nur Bewerber Mails]
 * https://www.xing.com/chats[]
 
-== Heute! (Hier wird gearbeitet)
-* [ ] JDW 60 BEWERBEN! Jeden Tag Routine!
-* [ ] JDW 60 Profil updaten mit QCC Task und Clock
+== HEUTE ###############################################################################################################
+* [ ] JDW 60 Intersoft 9:00Uhr Vorbereiten
+* [ ] BWB Übersichtsseite erstellen
+
+* [ ] JdW 60 BEWERBEN! Jeden Tag Routine!
+* [ ] JdW 60 Profil updaten mit QCC Task und Clock
 * [ ] J-- 60 Lernen Angular: Clock weiter das umsetzen was bei UD gezeigt, oder ChatGPT, Hauptsache Ergebnis.
 
-* [ ] Fdw 20 info@tobias-diekmann.de aus Achim fragen!
+* [ ] F-w 20 info@tobias-diekmann.de aus Achim fragen!
 
 * [ ] Tantra link:file:///home/dietmar/cloud/andi/Tantra-Seminar/Anschreiben-Detailinfos-zum-Tantra-an-Ostern-2024.pdf[Anschreiben]
 
@@ -44,6 +47,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Start Minimalismus
 * Keller.
+
 
 
 

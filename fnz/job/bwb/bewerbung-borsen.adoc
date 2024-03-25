@@ -1,8 +1,8 @@
 include::{root}/.inc/include.adoc[]
 
-= Börsen Akquise
+= Bewerbung Börsen Akquise
 
-* link:anschreiben-mail.adoc[Anschreiben]
+* link:bewerbung-anschreiben.adoc[Anschreiben]
 
 == Strategie
 * *ERSTE FRAGE* Wo haben Sie mich gefunden?

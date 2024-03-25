@@ -3,8 +3,8 @@ include::{root}/.inc/include.adoc[]
 = Anschreiben Mail
 
 IMPORTANT: !!! Als BCC abschicken !!!
-* link:mailingliste-akquise.adoc[BCC-Liste]
-* link:boersen-akquise.adoc[Vorgehen]]
+* link:bewerbung-mailingliste.adoc[BCC-Liste]
+* link:bewerbung-borsen.adoc[Vorgehen]]
 
 IMPORTANT: Don't forget the attachment
 

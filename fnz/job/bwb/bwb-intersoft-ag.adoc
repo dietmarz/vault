@@ -1,0 +1,32 @@
+include::{root}/.inc/include.adoc[]
+
+= Bewerbung Intersoft Ag
+
+Intersoft  Branche: Versicherung
+Technologien:
+Umfeld: 60 Software-Entwickler (verteilt auf ca. 10 Teams)
+Benefits: bis 100% Remote, 32 Urlaubstage, keine Kernarbeitszeiten, Workation (bis zu 3 Monate aus dem EU-Ausland pro Jahr), maximale Familienfreundlichkeit, kollegiales Umfeld, organisches Wachstum bei Führungskräften
+
+
+|===
+| URL         | https://mail.google.com/mail/u/0/#inbox/FMfcgzGxSRLHfDhwmnRTvVkdLhkHpGSH
+| Ext_Referenz| Senior Backend Entwickler (m/w/d)
+| Einsatzort  | Hamburg
+| Home_Office | 100%
+| Vertrag     | Fest
+| Gehalt      | 90T
+| Beginn      | sofort
+| Ende        |
+| *bwb-call*  | Mario Grossholz
+|===
+
+
+
+== History
+* Konkrete Angebot fehlt noch per mail.
+* 26.03.24 *bwb-status* 1. Gespräch mit Kunden
+
+
+== Senior Backend Entwickler (m/w/d)
+=== Aufgabenbereich
+Java 11, Spring Boot, IntelliJ, Eclipse, Hibernate, Docker, Kubernetes, Git, Gradle, PostgreSQL, Jenkins, Confluence
