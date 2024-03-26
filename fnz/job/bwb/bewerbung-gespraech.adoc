@@ -1,4 +1,4 @@
-include::{root}/.inc/include.adoc[]
+//include::{root}/.inc/include.adoc[]
 
 = Bewerbungsgespräch
 
@@ -37,7 +37,17 @@ include::{root}/.inc/include.adoc[]
 * Warum arbeite ihr gerne bei Intersoft?
 
 * Teamgröße, Vorgehen, Linux?, Kleiderordnung, Homeoffice?
-* Wie werden neue MA fachlich geschult?
+* Wie werden neue MA fachlich geschult? (Ihr Umgang mit Komplexität)
+* Weiterbildungsmöglichkeiten? zB. Frontendtechnologien
+* Karrieremöglichkeiten (falls interessant)
+* Wie messen Sie Erfolg im Team und einer Einzelperson?
+* Jetzigen Herausforderungen des Teams?
+* Gibt es ein Leitungsbeurteilungssystem?
+* Gibt es regelmäßige Feedeback Meetings für Mitarbeiter? (OneOnOne)
+
+* Gibt es noch etwas, das ich über die Rolle, das Team oder das Unternehmen wissen sollte,
+  das wir noch nicht besprochen haben?
+
 
 == Online
 

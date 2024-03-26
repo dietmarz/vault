@@ -8,9 +8,6 @@ include::{root}/.inc/include.adoc[]
 |Allgeier -> Bdruckerei |Juri Palmer     |15.03  |*BWB-Eingereicht* |link:bwb-allgeier-juri.adoc[link]
 |PrjPool  -> ???        |Beate Sauer     |15.03  |*BWB-Eingereicht* |link:bwb-pool-java.adoc[link]
 |CompFut  -> Intersoft  |Mario Grossholz |26.03  |*1-BWB-Gespräch*  |link:bwb-intersoft-ag.adoc[link]
-
-
-
-
+|CompFut  -> Mercedes   |Lars Nowak      |26.03  |*BWB-Eingereicht* |link:bwb-compuFutures-mercedes.adoc[link]
 
 |===

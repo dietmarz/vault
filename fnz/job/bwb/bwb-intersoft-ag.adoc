@@ -30,3 +30,22 @@ Benefits: bis 100% Remote, 32 Urlaubstage, keine Kernarbeitszeiten, Workation (b
 == Senior Backend Entwickler (m/w/d)
 === Aufgabenbereich
 Java 11, Spring Boot, IntelliJ, Eclipse, Hibernate, Docker, Kubernetes, Git, Gradle, PostgreSQL, Jenkins, Confluence
+
+
+== 1. Treffen
+* Tobias Berens.
+* 2. Treffen wäre dann noch mit Torben (Agil) & Jörg (Entwickler). 3. Wäre persönlich
+* Weitere Personen: Peter (PO), Andrea (BA=Business Analyst)
+* 10 Jahre + gewünscht, geht um "Provisioning"
+* Wunsch: Lust sich in die Fachlichkeit einzuarbeiten, 2 Jahre ca.
+* Großes Backlog, Vorgehen Kanban + CP-Scrum
+* 6 Entwickler Team.
+* 1,6 Mio Zeilen Code, 6,5 Mio gesamt
+* 1 im Monat Teamabend, 11:15 Daily, Mi + Do Meeting
+
+=== Negativ
+* Pair keine Gewohnheit
+* Nur Windows
+
+
+

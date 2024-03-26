@@ -22,6 +22,7 @@ link:eichengrund-uebertragung.adoc[Vertragliches]
 
 
 == Historie, Stand, Tätigkeiten
+* 2024-03-24 Schimmel Mail an
 * 2024-02-16 TE per Mail, neue Schimmelbilder einsortiert
 * 2024-01-26 HR Telefonat: Er prüft bei sich, ob Wasser Eindring Test in Mauerwerk erfolgreich. Mail an TE
 * 2023-12-30 Termin mit TE, Fotos zu Schimmelbildung, Bericht schreiben.

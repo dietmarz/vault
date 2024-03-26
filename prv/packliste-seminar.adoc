@@ -12,7 +12,7 @@ include::{root}/.inc/include.adoc[]
 
 == Seminar
 * Kleiner Rucksack (Notebook)
-* Wasserflasche
+* Wasserflasche, Taschentücher
 * Schreibzeug
 * Sitzkissen
 * Airexkissen Autoanreise

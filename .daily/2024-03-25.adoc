@@ -33,7 +33,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 == HEUTE ###############################################################################################################
 * [ ] JDW 60 Intersoft 9:00Uhr Vorbereiten
-* [ ] BWB Übersichtsseite erstellen
+* [x] BWB Übersichtsseite erstellen
 
 * [ ] JdW 60 BEWERBEN! Jeden Tag Routine!
 * [ ] JdW 60 Profil updaten mit QCC Task und Clock
@@ -41,59 +41,12 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 * [ ] F-w 20 info@tobias-diekmann.de aus Achim fragen!
 
-* [ ] Tantra link:file:///home/dietmar/cloud/andi/Tantra-Seminar/Anschreiben-Detailinfos-zum-Tantra-an-Ostern-2024.pdf[Anschreiben]
-
-
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-=== Start Minimalismus
-* Keller.
 
 
 
 
 == Zeitstrahl
-
-
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-=== BITEP 20. - 24.03.
-* [X] Event gebucht
-* [X] Event bezahlt und Ticket-Druck im Ordner
-* [X] Event Rechnung angepasst und gedruckt im Ordner
-* [X] Bahn Hin- und Rückfahrt gekauft & gedruckt
-* [x] Unterkunft gebucht
-* [X] Unterkunft bezahlt und
-* [ ] Unterkunft Rechnung gedruckt im Ordner. 400,65€
-* [ ] Unterkunft Rechnung angepasst und gedruckt im Ordner
-* [ ] Event und Unterkunft Details in Kalendar eingetragen
-* [ ] StB: Event, Unterkunft, PKW-Km als PostIt da. Sonst nichts!
-
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-=== Tantra Do 28.03 - Di 02.04, 6 Tage
-* [X] Event gebucht
-* [X] Event bezahlt und Ticket-Druck im Ordner
-* [X] Event Rechnung angepasst und gedruckt im Ordner
-* [ ] PKW planen!
-* [X] Unterkunft gebucht
-* [x] Unterkunft bezahlt und gedruckt im Ordner
-* [X] Unterkunft Rechnung angepasst und gedruckt im Ordner -> BITEP VII Rechnung
-* [ ] Event und Unterkunft Details in Kalendar eingetragen
-* [ ] StB: Event, Unterkunft, PKW-Km als PostIt da. Sonst nichts!
-
-
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-=== BKK im Kloster
-* [x] Event gebucht
-* [x] Event bezahlt und Ticket-Druck im Ordner
-* [ ] Event Rechnung? Man könnte ein zusätzliches Bitep erfinden
-* [-] Bahn Hin- und Rückfahrt gekauft & gedruckt
-* [x] Unterkunft gebucht
-* [ ] Unterkunft bezahlt und gedruckt im Ordner
-* [ ] Unterkunft Rechnung angepasst und gedruckt im Ordner
-* [ ] Event und Unterkunft Details in Kalendar eingetragen
-* [ ] StB: Event, Unterkunft, PKW-Km als PostIt da. Sonst nichts!
-
-
-
+link:../def/zeitstrahl.adoc[zeitstrahl]
 
 
 
