@@ -30,18 +30,19 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ABCDEFG12345
 ----
 # Compress jpg
 convert FILE.jpg -quality 60 FILE.jpg
-ls *.jpg | xargs -i convert {} -quality 60 {}
+find . -name "*.JPG" -size +200k -exec convert {} -quality 30 {} \;
 
 # Pull all A54 Camera Files
 adb pull "/storage/3163-3838/DCIM/Camera"
 ----
 
+.USB Stick format
 [source, bash]
 ----
-df -h # to find the device
-sudo umount /dev/sdXY
-sudo mkfs.exfat /dev/sdXY
-sudo exfatlabel /dev/sdXY LABEL_NAME
+df -h # to find the device or lsblk or GParted
+sudo umount /dev/sdXN
+sudo mkfs.exfat /dev/sdXN
+sudo exfatlabel /dev/sdXN LABEL_NAME
 ----
 
 pfad="${pfad%/}" # Entfernt den abschließenden Schrägstrich, falls vorhanden. Für copieren mit rsync

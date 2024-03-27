@@ -1,6 +1,6 @@
 include::{root}/.inc/includeDaily.adoc[]
 
-= Dienstag, 26. März 2024
+= Mittwoch, 27. März 2024
 
 link:../fnz/office.adoc[Regeln]
 link:../def/score-board.adoc[Daily Score Board]
@@ -51,7 +51,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 
 == Zeitstrahl
-link:zeitstrahl.adoc[zeitstrahl]
+link:../def/zeitstrahl.adoc[zeitstrahl]
 
 
 
@@ -76,7 +76,7 @@ link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Haus
 * [ ] H-- 30 < ? > Ladestecker bauen -> PausenJob
-cdcdd* [ ] Hdw 60 < ? > Stromfresser finden, was ist mir son Server wert.
+* [ ] Hdw 60 < ? > Stromfresser finden, was ist mir son Server wert.
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Lernen
