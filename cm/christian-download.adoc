@@ -13,7 +13,7 @@ include::{root}/.inc/include.adoc[]
 ----
 youtube-dl --no-check-certificate                         <URL>
 # Oder mit Passwort
-youtube-dl --no-check-certificate --video-password ramana <URL>
+youtube-dl --no-check-certificate --video-password onegod <URL>
 # Oder dieser Aufruf
 yt-dlp --legacy-server-connect --no-check-certificate --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" <URL>
 ----
