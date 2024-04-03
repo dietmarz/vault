@@ -4,6 +4,7 @@
 
 == Allgemein
 * Wegen! der Erfahrung trotzdem *nicht Ausschweifen*. Kein Redeflash!, Kein Monolog! Nachfragen lassen! Max 1-2min!
+* *NUR DIE FRAGEN BEANTWORTEN* Kein Psycho Interesse!
 * Gesucht wird: Kein Nerd (Außenseiter), Themen Pusher, zeige technologische Tiefe,
   ** Erwartung bei 90K€: 1.) Vorangehen 2.) Abholen 3.) Begeistern! Leidenschaft!
 
@@ -27,23 +28,22 @@
 == Fragen über mich
 * Kernkompetenz: Vogelperspektive Backend, etwas Frontend, etwas Cloud
 * Welche Rolle: Senior Software Developer, & alles was mich persönlich weiter bringt (Scrum-Master)
-* Welche Methodik: Scrum-Cherry-Picking, Wasserfall, Echtes Scrum
 
-== Gute, "smarte" Fragen stellen
-* Was sind eure konkreten Erwartungen an mich?
-* Wie wird die Zusammenarbeit im Team gelebt?
+
+== Fragen über die Rolle
+* konkrete *Erwartungen* an mich
+* Wie wird die *Zusammenarbeit* im Team gelebt?
 * Was ist euch bei einem neuen Teammitglied am allerwichtigsten?
+* Können Sie mir mehr über das Team erzählen, in dem ich arbeiten würde?
 * Was wäre der größte Teil meiner Arbeit?
-* Warum arbeite ihr gerne bei Intersoft?
+* Warum arbeite ihr gerne <bei / in diesem Unternehmen>?
 
-* Teamgröße, Vorgehen, Linux?, Kleiderordnung, Homeoffice?
-* Wie werden neue MA fachlich geschult? (Ihr Umgang mit Komplexität)
-* Weiterbildungsmöglichkeiten? zB. Frontendtechnologien
-* Karrieremöglichkeiten (falls interessant)
-* Wie messen Sie Erfolg im Team und einer Einzelperson?
-* Jetzigen Herausforderungen des Teams?
-* Gibt es ein Leitungsbeurteilungssystem?
-* Gibt es regelmäßige Feedeback Meetings für Mitarbeiter? (OneOnOne)
+* Teamgröße, Vorgehen, Linux, Kleiderordnung, Homeoffice
+* Wie MA-Beurteilung? One-on-One Gespräche? Wie Weiterbildung
+* *Ausblicke?* Frontend?
+* Jetzigen *Herausforderungen* des Teams?
+* *Verbleib?*
+
 
 * Gibt es noch etwas, das ich über die Rolle, das Team oder das Unternehmen wissen sollte,
   das wir noch nicht besprochen haben?
@@ -56,7 +56,6 @@
 
 
 1. * Intersoft Website durchklicken, Tec  -> Aber Komplett SW ent WWK Versicherung,
-
 
 Keinen Nerd, Themen Pushen, Technische Tiefe: 1Vorangeht, 2abholen, 3begeistern, ab 90T.
 Leidenschaft der etwas tut.

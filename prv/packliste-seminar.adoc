@@ -48,7 +48,6 @@ Kopfhörer
 
 == Vorbereiten Frohberg
 Tourenrad, Gitarre,
-Notebook
 Sauna?
 Stirnlampe
 Waschschüssel
@@ -85,3 +84,6 @@ Waschschüssel
 * [ ] Schwimmsachen, Zelt, dicke LMatratze
 
 * [ ] Andreas mp3 stick updaten
+
+=== Tantra
+* Eigenes Ritaltuch oder vergleichbares

@@ -1,8 +1,0 @@
-include::{root}/.inc/include.adoc[]
-
-= Bewerbung Anrufe Gespräche mit Vermittlern
-
-== Historie
-* 16.03.2024 Janiana reykowski windhoff: linked in eher freelancer map! freelance!
-* 16.03.2024 Mario Grossholz computerfutures, Festanstellung max 95.000. Vorstellung bei: dz hyp, Baloise, intersoft Bitmarck, Berenberg, Techniker Krankenkasse
-* 16.03.2024 Philippe Strass computer futures, suchte einen Angular Material design Entwickler
