@@ -42,9 +42,9 @@
 * Wie MA-Beurteilung? One-on-One Gespräche? Wie Weiterbildung
 * *Ausblicke?* Frontend?
 * Jetzigen *Herausforderungen* des Teams?
+
+== Abschluss
 * *Verbleib?*
-
-
 * Gibt es noch etwas, das ich über die Rolle, das Team oder das Unternehmen wissen sollte,
   das wir noch nicht besprochen haben?
 

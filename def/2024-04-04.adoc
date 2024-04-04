@@ -1,6 +1,6 @@
 include::{root}/.inc/includeDaily.adoc[]
 
-= Mittwoch, 03. April 2024
+= Donnerstag, 04. April 2024
 
 link:../fnz/office.adoc[Regeln]
 link:../def/score-board.adoc[Daily Score Board]
@@ -12,7 +12,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 == Motto
 * Wenn Du etwas loslassen möchtest, musst Du es erleben: Funk, Angeln, QRP. Plane das Erleben!
-* Fokus gegen Unruhe
+* Fokus gegen Unruhe, Bewußt-Sein!
 
 
 == Bald
@@ -23,31 +23,25 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * [ ] F-W 60 Google AusgabenProMonat ins vault holen
 * [ ] FdW XX Versicherungen adoc anlegen, strukturieren. Solange 60 wiederholen bis fertig
 * [ ] M-W 60 Start Einstellen Kleinanzeigen/eBay
-* [ ] Fdw 20 Anruf: Neues DKB Konto aktivieren, es fehlt das start passwort. Oder brauche ich garnichts aktiverien?
-* [ ] M-- 60 Kleidung aussortieren und sammeln.
-* [ ] O-- 60 Task counter. Zählt runter o. rauf. Hat aber im Scrum auch nicht interessiert. Frog Regel anhängen
-* Frag Dich, in welchen Job würdest du sogar in den Vertrieb gehen.
-* Fragen gespräch sortieren wie bei chat gpt
-
+* [ ] O-- 60 Task counter einbauen. Zählt runter 0. rauf. Hat aber im Scrum auch nicht interessiert. Frog Regel anhängen
+* [ ] O-- 40 Alle adoc aus office einsortieren. Prüfen ob bei Fahrräder rechnung verlinkt und Rahmennummer angegeben.
+* [W] F-w 20info@tobias-diekmann.de aus Achim fragen!
 
 
 == Frog FIRST!!!
-* Bewerbung fertig machen
-* Schimmel Mail
+
 
 == Bewerben Routine
 * https://mail.google.com/mail/u/0/?pli=1#inbox[Nur Bewerber Mails]
 * https://www.xing.com/chats[]
 
 == HEUTE ###############################################################################################################
-* [ ] JDW 60 Intersoft 9:00Uhr Vorbereiten
-* [x] BWB Übersichtsseite erstellen
-
 * [ ] JdW 60 BEWERBEN! Jeden Tag Routine!
-* [ ] JdW 60 Profil updaten mit QCC Task und Clock
-* [ ] J-- 60 Lernen Angular: Clock weiter das umsetzen was bei UD gezeigt, oder ChatGPT, Hauptsache Ergebnis.
 
-* [ ] F-w 20 info@tobias-diekmann.de aus Achim fragen!
+=== Lernen  ############################################################################################################
+* [ ] Angular
+
+
 
 
 == Zeitstrahl
