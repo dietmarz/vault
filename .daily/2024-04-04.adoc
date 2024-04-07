@@ -39,9 +39,24 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * [ ] JdW 60 BEWERBEN! Jeden Tag Routine!
 
 === Lernen  ############################################################################################################
-* [ ] Angular
+* [ ] Angular link:../tec/web/angular-lernen.adoc[Ziele]
 
 
+
+
+== Rente beitragsfrei stellen
+* schriftlich, 36 Monate möglich, email, Fax von bis. Sollen oder sollen nicht nachgezahlt werden.
+leben@zurich.com. Handschriftliche Unterschrift
+
+
+* 1FV 316,70
+* 2FV 292
+* 1LV 117,13 (+316,70 = 433,83)
+
+* VERS-NR: 02FV-1421219/0 292,00€
+* VERS-NR: 01LV-1421219/0 433,83€
+COSMOS Dynamik 201139069
+Beitrag 201139069
 
 
 == Zeitstrahl

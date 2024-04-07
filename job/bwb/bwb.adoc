@@ -3,9 +3,12 @@ include::{root}/.inc/include.adoc[]
 = Bwb Bewerbungen Übersicht
 
 |===
-|*Firma*                |*Kontakt*       |*Datum*|*Status*          |*Link*
-|Questax  -> Atruvia    |Markus Sommer   |14.03. |*BWB-Eingereicht* |link:bwb-questax-atruvia.adoc[link]
-|Allgeier -> Bdruckerei |Juri Palmer     |15.03  |*BWB-Eingereicht* |link:bwb-allgeier-juri.adoc[link]
-|PrjPool  -> ???        |Beate Sauer     |15.03  |*BWB-Eingereicht* |link:bwb-pool-java.adoc[link]
-|CompFut  -> Mercedes   |Lars Nowak      |26.03  |*BWB-Eingereicht* |link:bwb-compuFutures-mercedes.adoc[link]
+|*Firma*                |*Kontakt*        |*Datum*|*Status*          |*Link*
+|Questax  -> Atruvia    |Markus Sommer    |14.03. |*BWB-Eingereicht* |link:bwb-questax-atruvia.adoc[link]
+|Allgeier -> Bdruckerei |Juri Palmer      |15.03  |*BWB-Eingereicht* |link:bwb-allgeier-juri.adoc[link]
+|PrjPool  -> ???        |Beate Sauer      |15.03  |*BWB-Eingereicht* |link:bwb-pool-java.adoc[link]
+|CompFut  -> Mercedes   |Lars Nowak       |26.03  |*BWB-Eingereicht* |link:bwb-compuFutures-mercedes.adoc[link]
+|CompFut  -> Generalli  |Lars Nowak       |04.04  |*BWB-Eingereicht* |Ähnliche Anforderungen wie mercedes, mehr AWS
+|Windhoff -> ???        |Janina Reykowski |05.04  |*BWB-Erstkontakt* |https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxSbmJQmdGjKxwpNJvqWLQzSnM[mail]
+
 |===

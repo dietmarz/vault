@@ -6,4 +6,8 @@ include::{root}/.inc/include.adoc[]
 
 * Rentenbeginn:
 
-==
+== Beiträge
+Die 01LV und die 01FV werden zusammen abgebucht.
+* VERS-NR: 02FV-1421219/0 292,00€
+* VERS-NR: 01LV-1421219/0 433,83€ = 117,13 (BU) + 316,70
+

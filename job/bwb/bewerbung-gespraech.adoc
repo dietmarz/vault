@@ -18,8 +18,11 @@
 * [ ] Klemmbrett mit Papier und Stift, Namen
 * [ ] Timer parat. Diese Seite drucken
 * [ ] Seite öffnen: link:bewerbung-taetigkeiten.adoc[interview]
+* [ ] Kamera-App unter Kamera, ins Bild schauen. Extra Workspace als Vorbereitung nutzen. Profil öffnen
+
 
 == Was ist mir wichtig
+* 3 Eigenschaften: Zuverlässig, Neugier im Sinne einer Lehrfähigkeit, Unruhe Ungeduld.
 * Qualität (Tests, Gesicherte Funktionen)
 * Robustheit, Erweiterbarkeit
 * Umgang im Team, Stimmung, Retrospektiven

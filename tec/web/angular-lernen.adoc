@@ -1,0 +1,100 @@
+include::{root}/.inc/include.adoc[]
+
+= Angular Lernen
+
+* https://www.thecodecampus.de/schulungen/angular[Grundlagen]
+* https://www.thecodecampus.de/schulungen/angular-advanced[Advanced]
+
+//======================================================================================================================
+== Grundlagen
+
+=== TypeScript-Grundlagen
+* [ ] Grundlagen & Syntax
+* [ ] Klassen & Interfaces
+* [ ] Module
+
+=== Tooling/Build-System
+* [ ] Module System
+* [ ] TypeScript-Compiler & Linting
+* [ ] Strict-Mode
+* [ ] Build System
+
+=== Angular-Grundlagen (1)
+* [ ] Komponenten – Grundlagen
+* [ ] Module
+* [ ] Bootstrapping
+* [ ] Komponenten & Data-Binding
+* [ ] Direktiven
+* [ ] Control Flow Syntax NEU
+* [ ] Komponenten verschachteln
+* [ ] Template-Syntax
+
+=== Angular-Grundlagen (2)
+* [ ] Services
+* [ ] Dependency Injection
+* [ ] Komponenten-Lebenszyklus
+* [ ] Pipes
+* [ ] Routing
+* [ ] Formulare
+* [ ] Validierung
+* [ ] Komponenten-Interaktion
+* [ ] Datenfluss
+* [ ] Signals NEU
+* [ ] Kommunikation mit dem Backend
+
+=== Testen
+* [ ] Unit-Tests
+* [ ] Karma Test Runner
+* [ ] Jasmine Test-Framework
+* [ ] Angular TestBed
+
+//======================================================================================================================
+== Advanced
+
+=== Features/Tooling
+* [ ] Angular CLI (Schemantics)
+* [ ] TypeScript Advanced Recipes
+* [ ] Dev-Tools und Debugging
+* [ ] Internationalisierung
+* [ ] Dependency Injection
+* [ ] Optimale HTTP-Kommunikation
+
+=== Architektur
+* [ ] Statemanagement/ Datenfluss (Redux)
+* [ ] Komponenten-Komposition (Smart / Präsentation)
+* [ ] Dynamische Inhalte
+* [ ] Server-Side-Rendering mit Angular Universal NEU
+* [ ] Deep Dive RxJS
+* [ ] Control Flow Syntax NEU
+* [ ] Signals NEU
+* [ ] Standalone Components NEU
+* [ ] Security (XSS, XSRF, XSSI …)
+
+=== User Interfaces
+* [ ] Animationen
+* [ ] Style Encapsulation
+* [ ] Advanced Templating und Direktiven
+* [ ] Skalierende Formulare NEU
+* [ ] Komponenten Bibliotheken (Material, Bootstrap)
+
+=== Performance
+* [ ] Modulsystem
+* [ ] Lazy Loading
+* [ ] Deferrable Views NEU
+* [ ] AOT
+* [ ] Change Detection
+
+=== Testen und Qualitätssicherung
+* [ ] Testumgebungen
+* [ ] Dos & Don’ts
+* [ ] Snapshot-Tests mit Jest
+* [ ] End-to-End Testing (Playwright) NEU
+* [ ] Dokumentation generieren
+
+== Gute Kurse
+
+* https://www.udemy.com/course/angular-2-and-nodejs-the-practical-guide/[Maximilian Schwarzmüller]
+
+* https://www.udemy.com/course/complete-angular-14-course-learn-frontend-development/[Jannick Leismann]
+* https://www.udemy.com/course/the-modern-angular-bootcamp/[Stephen Grider]
+* https://www.udemy.com/course/angular-reactjs-vuejs-quickstart-comparison/[Maximilian Schwarzmüller]
