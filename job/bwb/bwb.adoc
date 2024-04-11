@@ -2,7 +2,7 @@ include::{root}/.inc/include.adoc[]
 
 = Bwb Bewerbungen Übersicht
 
-Intersoft Balois
+
 
 .Aktuelle Bewerbungen
 |===
@@ -14,7 +14,7 @@ Intersoft Balois
 |CompFut  -> Generalli  |Lars Nowak       |04.04  |*BWB-Eingereicht* |Ähnliche Anforderungen wie mercedes, mehr AWS
 |Windhoff -> ???        |Janina Reykowski |05.04  |*BWB-Erstkontakt* |https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxSbmJQmdGjKxwpNJvqWLQzSnM[mail]
 |Ivon -> öffentlcih jsf ||||
-|Allgeier -> Bdruckerei |Inga Hagen       |11.04  |*BWB-Erstkontakt* |Legacy Glassfish JBoss, 90€/h 20% Vorort in Nürnberg?
+|Allgeier -> Bdruckerei |Inga Hagen       |11.04  |*BWB-Erstkontakt* |Legacy Glassfish JBoss, 90€ Remote, 95 Vorort,  2Tag / 14Tage Vorort in Nürnberg?
 |Selber -> Zeitfracht   |Dietmar          |11.04  |*BWB-Eingereicht*|https://recruitingapp-5164.de.umantis.com/SelfService
 
 
@@ -44,6 +44,5 @@ Intersoft Balois
   ** Gill:   ALD automotive
 
 == Alte Bewerbungen
-* Plath, BDruckerei Maurer Electronics,
-
+* Plath, BDruckerei Maurer Electronics, Intersoft, Baloise
 Uwe dingfelder

@@ -6,4 +6,5 @@ include::{root}/.inc/include.adoc[]
 
 * Rentenbeginn:
 
-==
+== History
+* 2024-04-11 Beitragsfreistellung: https://mail.google.com/mail/u/0/?pli=1#sent/KtbxLthhnrgBmjmClDCscbjLWWkdgnlJxq[mail]
