@@ -2,7 +2,6 @@ include::{root}/.inc/include.adoc[]
 
 = Bewerbung
 
-
 |===
 | URL         | https://mail.google.com/mail/u/0/?pli=1#inbox/FMfcgzGxSHkFccjWPlHVRsfglvgSLbzh
 | Ext_Referenz| Application manager,
@@ -15,12 +14,9 @@ include::{root}/.inc/include.adoc[]
 | *bwb-call*  | Juri Palmer, Katharina Staples
 |===
 
-
-
 == History
 * Konkrete Angebot fehlt noch per mail.
 * 15.03.24 *bwb-status* 1. Telefonat mit Juri Palmer. Bekomme noch Mail.
-
 
 == Application Manager – Bundesdruckerei, Berlin
 === Aufgabenbereich
