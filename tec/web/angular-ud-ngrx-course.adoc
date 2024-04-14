@@ -1,0 +1,71 @@
+include::{root}/.inc/include.adoc[]
+
+= Angular Ud Ngrx Course
+
+* link:file:///home/dietmar/project/angular/ud-angular-ngrx-course[Projekt]
+* https://www.udemy.com/course/ngrx-course/[Kurs]
+
+* Interessante App mit Angular und Material Design!
+* Usage of Redux DevTools Chromium Plugin
+
+
+== cGPT: Promise und Observable
+* Ein Promise liefert genau einen Wert oder einen Fehler und ist danach abgeschlossen. Es kann nicht mehrere Werte liefern.
+* Ein Observable kann von mehreren Subscribern wiederverwendet werden, und jeder Subscriber erhält Daten vom Observable, sobald er sich anmeldet. Ein Promise hingegen kann nur einmal aufgelöst oder abgelehnt werden und ist danach nicht wiederverwendbar.
+* Operator-Unterstützung: Observables unterstützen eine Vielzahl von Operatoren, die zur Bearbeitung von Datenströmen verwendet werden können (wie map, filter, reduce usw.), während Promises solche eingebauten Operatoren nicht haben.
+
+
+[source,typescript]
+----
+import { Observable } from 'rxjs';
+
+// Erstellen eines neuen Observables, das einen Wert aussendet
+const myObservable = new Observable<string>(subscriber => {
+  // Ein Wert wird ausgesendet
+  subscriber.next('Hallo von Observable!');
+  subscriber.complete(); // Beendet das Observable
+});
+
+// Subscriber-Funktion, die reagiert, wenn das Observable Werte aussendet
+const mySubscriber = {
+  next: (x: string) => console.log('Erhalten: ' + x),
+  error: (err: any) => console.error('Fehler: ' + err),
+  complete: () => console.log('Beendet')
+};
+
+// Das Observable abonnieren
+myObservable.subscribe(mySubscriber);
+
+// ============================================================================
+
+// Funktion, die ein Promise zurückgibt
+function getData(): Promise<string> {
+  return new Promise((resolve, reject) => {
+    // Simuliere eine asynchrone Operation mit setTimeout
+    setTimeout(() => {
+      resolve("Hallo von Promise!");
+    }, 1000);
+  });
+}
+
+// Das Promise verwenden
+getData().then(data => {
+  console.log(data); // Ausgabe: Hallo von Promise!
+}).catch(error => {
+  console.error('Fehler aufgetreten:', error);
+});
+----
+
+
+== Section 1
+* Aus package.json:
+  ** `npm run server`
+  ** `npm run start` oder npm start
+
+== Section 2, Actions und Reducer (Kap 7-12)
+* a Action has a Type and a payload, here a user profile
+
+* The store is like an in memory DB that shares data between multiple components within the application
+* Each component does not modify the state directly, it will dispatch an action
+* Action = plain JS Object, containing Payload and Type
+* Action.Type tells Store what to do with the action

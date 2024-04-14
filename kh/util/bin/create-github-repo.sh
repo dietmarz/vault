@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eu
+
 # Stellen Sie sicher, dass ein Repository-Name als Argument übergeben wurde
 if [ "$#" -ne 1 ]; then
     echo "Verwendung: $0 <repository-name>"
@@ -16,6 +18,16 @@ then
     echo "'gh' (GitHub CLI) konnte nicht gefunden werden. Bitte installieren Sie 'gh', um fortzufahren."
     exit
 fi
+
+
+# Versuch, den Remote zu entfernen
+if git remote remove origin; then
+    echo "Remote 'origin' erfolgreich entfernt."
+else
+    echo "Fehler: Remote 'origin' konnte nicht entfernt werden. Möglicherweise existiert der Remote nicht."
+    # Optionale weitere Fehlerbehandlung
+fi
+
 
 # GitHub Repository erstellen und als Remote hinzufügen
 gh repo create $USERNAME/$REPO_NAME --public --source=. --remote=origin

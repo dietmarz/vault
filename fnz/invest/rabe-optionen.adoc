@@ -1,0 +1,40 @@
+include::{root}/.inc/include.adoc[]
+
+= Jens Rabe Optionen Grundlagen
+
+== Call / Put
+https://www.youtube.com/watch?v=kvYpnuXhxWs[YT]
+
+Lerne immer vom Käufer aus
+|===
+|*Kaufe*  | *Verkaufe* | Wenn ich eine Option/Future...
+|Call     |            | Erhälst Du das Recht   zu    kaufen
+|         | Call       | Erhälst Du die Pflicht zu verkaufen
+|Put      |            | Erhälst Du das Recht   zu verkaufen
+|         | Put        | Erhälst Du die Pflicht zu    kaufen
+|===
+
+Recht erhalten = Geld geben
+Pflicht erhalten = Geld bekommen
+
+== ATM / ITM / OTM = At In Out the money
+https://www.youtube.com/watch?v=AKO34-Da_IA[YT]
+ATM = At The Money, egal ob Call oder Put ist genau der Kurs jetzt
+
+|===
+| Optionstyp | Marktpreis             | Beschreibung                                                 | Status
+
+| Call       | Kurs unterhalb des ATM | Recht zu kaufen, aber teurer als aktueller Marktpreis.       | OTM
+| Call       | Kurs oberhalb  des ATM | Recht zu kaufen, günstiger als aktueller Marktpreis.         | ITM
+| Put        | Kurs unterhalb des ATM | Recht zu verkaufen, teurer als aktueller Marktpreis.         | ITM
+| Put        | Kurs oberhalb  des ATM | Recht zu verkaufen, aber günstiger als aktueller Marktpreis. | OTM
+|===
+
+ lynx ist der Broker von jens rabe
+
+== 4 O strategien
+https://www.youtube.com/watch?v=VUxC4AI53W4[YT]
+* covered call writing, du besitzt die aktie
+* Short Put System, willst die Aktie nicht haben, nur die Prämie
+* Cash Secured Put
+* Future OPtionen

@@ -25,6 +25,10 @@ include::{root}/.inc/include.adoc[]
 * Cosmos Privat-Haftpflicht
   ** Rechnung unter https://www.cosmosdirekt.de/meincosmosdirekt/#/schutz/vertragsdetail-allgemein/700132667/9/HV[Portal]
   ** für 2023 schon gedruckt
+* Zahnzusatzversicherung
+  ** link:../../gsh/gothaer-zahnzusatzversicherung.adoc[zzv]
+  
+  
 
 
 

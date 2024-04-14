@@ -1,0 +1,27 @@
+include::{root}/.inc/include.adoc[]
+
+= Oauth
+
+* https://www.udemy.com/course/oauth-2-simplified/[udemy]
+
+== Analogie
+* Oauth Server = Hotel Reception
+* Access Token = Keycard
+* Google-Account = Identity Card
+
+* Oauth issues access tokens to apps
+* OpenID issues ID tokens to apps, and adds e.g. profile infos
+
+* OpenID Identifying user, Authentication, user picture,...
+* Oauth Accessing APIs, Authorization, no infos to the app about the user!
+
+* 2.5 Spec language:
+  ** User (uses device)        -> Resource Owner
+  ** Device (runs Application) -> User Agent
+  ** Application (calls API)   -> Oauth Client
+  ** API (calls Oauth Server)  -> Resource Server
+  ** Oauth Server              -> Authorization Server
+
+* 2.6 Two types of clients
+  ** Confidential Clients -> contains    Credentials, eg JWT
+  ** Public Clients       -> contains NO Credentials

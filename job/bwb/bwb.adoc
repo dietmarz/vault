@@ -2,8 +2,6 @@ include::{root}/.inc/include.adoc[]
 
 = Bwb Bewerbungen Übersicht
 
-
-
 .Aktuelle Bewerbungen
 |===
 |*Firma*                |*Kontakt*        |*Datum*|*Status*          |*Link*
@@ -16,7 +14,6 @@ include::{root}/.inc/include.adoc[]
 |Ivon -> öffentlcih jsf ||||
 |Allgeier -> Bdruckerei |Inga Hagen       |11.04  |*BWB-Erstkontakt* |Legacy Glassfish JBoss, 90€ Remote, 95 Vorort,  2Tag / 14Tage Vorort in Nürnberg?
 |Selber -> Zeitfracht   |Dietmar          |11.04  |*BWB-Eingereicht*|https://recruitingapp-5164.de.umantis.com/SelfService
-
 
 |===
 
@@ -36,11 +33,14 @@ include::{root}/.inc/include.adoc[]
   ** BDK
   ** CITTI
 
+* Marcel
+  ** comparus Video Telefonie oder Banken versicherungen oder intern. 2 Tge pro Woche in HH im Norden
+  ** tellence, 2 Optionen: Techniker Account Manager. 3erTeam Quasi PO ,Value Streams, Chapter, oder als Entwickler!
+
 * Kollegen ohne Vorgespräch
-  ** Kollge: Nordex,
   ** Kollge: dzhyp
   ** Kollge: Forkonis finanzmärkte Trading
-  ** Marcel: comparus
+  ** Marcel: Nordex
   ** Gill:   ALD automotive
 
 == Alte Bewerbungen

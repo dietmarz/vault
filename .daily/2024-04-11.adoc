@@ -36,8 +36,9 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 == HEUTE ###############################################################################################################
 * [ ] JdW 60 BEWERBEN! Jeden Tag Routine!
-* Cosmos und Zurich beitragsfrei stellen!
-
+* Rasenmähen
+* Steuern
+* Lernen
 
 === Lernen  ############################################################################################################
 * [ ] Angular link:../tec/web/angular-lernen.adoc[Ziele]
