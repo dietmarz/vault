@@ -79,8 +79,14 @@ IMPORTANT: Only perform the stretches and exercises for tests you fail!
 * Kräftigung
   ** Frosch Gesäß Presse: Rücklage, Fußsohlen zusammen und dicht heranziehen, Gesäß von der Matte heben. Arme gekreuzt.
 
-// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+// '''''''''''''''''''''''''''''''''''''''''''''''''''Q''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 == Continue
   ** even days = stretch day
   ** odd days = strength day
   **  day 22 = test day again
+
+== 3 Übunge degenerativer Bandscheibe
+* https://www.youtube.com/watch?v=nwQ5_r1SKJc[YT]
+* Im sitz die Beine bis zu den Füßen ausstreichebn
+* Im Liegen Kniee parallel hin und her wiegen
+* Im Liegen seitwärts unteres Bein ausstrecken, oberer Fuß in Kniekehle und Kniegelenk auf und ab zur Kräftigung.

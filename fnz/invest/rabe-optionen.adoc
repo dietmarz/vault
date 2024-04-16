@@ -5,32 +5,37 @@ include::{root}/.inc/include.adoc[]
 == Call / Put
 https://www.youtube.com/watch?v=kvYpnuXhxWs[YT]
 
+Basiswert      = Wert des Underlying
+Marktpreis     = Kurs
+Ausübungspreis = Strike Price für das Underlying, fest.
+ATM            = `Strike Price == Marktpreis`
+Optionspreis   = Optionsprämie
+
+
 Lerne immer vom Käufer aus
 |===
-|*Kaufe*  | *Verkaufe* | Wenn ich eine Option/Future...
-|Call     |            | Erhälst Du das Recht   zu    kaufen
-|         | Call       | Erhälst Du die Pflicht zu verkaufen
-|Put      |            | Erhälst Du das Recht   zu verkaufen
-|         | Put        | Erhälst Du die Pflicht zu    kaufen
+|*Kaufe*   | *Verkaufe* | Wenn ich eine Option/Future...
+|Long Call |            | Erhälst Du das Recht   zu kaufen
+|Long Put  |            | Erhälst Du das Recht   zu verkaufen
+|          | Short Call | Erhälst Du die Pflicht zu verkaufen
+|          | Short Put  | Erhälst Du die Pflicht zu kaufen
 |===
 
-Recht erhalten = Geld geben
-Pflicht erhalten = Geld bekommen
+Recht   erhalten = Prämie bezahlen
+Pflicht erhalten = Prämie erhalten
 
 == ATM / ITM / OTM = At In Out the money
 https://www.youtube.com/watch?v=AKO34-Da_IA[YT]
 ATM = At The Money, egal ob Call oder Put ist genau der Kurs jetzt
 
-|===
-| Optionstyp | Marktpreis             | Beschreibung                                                 | Status
 
-| Call       | Kurs unterhalb des ATM | Recht zu kaufen, aber teurer als aktueller Marktpreis.       | OTM
-| Call       | Kurs oberhalb  des ATM | Recht zu kaufen, günstiger als aktueller Marktpreis.         | ITM
-| Put        | Kurs unterhalb des ATM | Recht zu verkaufen, teurer als aktueller Marktpreis.         | ITM
-| Put        | Kurs oberhalb  des ATM | Recht zu verkaufen, aber günstiger als aktueller Marktpreis. | OTM
 |===
-
- lynx ist der Broker von jens rabe
+| Status | Optionstyp | Marktpreis                               | Beschreibung
+| *ITM*  | Long Call  | Strike Preis liegt unter akt. Marktpreis | Recht zu kaufen, günstiger als aktueller Marktpreis.
+| *ITM*  | Long Put   | Strike Preis liegt über  akt. Marktpreis | Recht zu verkaufen, teurer als aktueller Marktpreis.
+| *OTM*  | Long Call  | Strike Preis liegt über  akt. Marktpreis | Recht zu kaufen, aber teurer als aktueller Marktpreis.
+| *OTM*  | Long Put   | Strike Preis liegt unter akt. Marktpreis | Recht zu verkaufen, aber günstiger als aktueller Marktpreis.
+|===
 
 == 4 O strategien
 https://www.youtube.com/watch?v=VUxC4AI53W4[YT]
@@ -38,3 +43,22 @@ https://www.youtube.com/watch?v=VUxC4AI53W4[YT]
 * Short Put System, willst die Aktie nicht haben, nur die Prämie
 * Cash Secured Put
 * Future OPtionen
+
+
+== Innerer Wert / Zeitwert
+* Je länger die Laufzeit, desto höher der Zeitwert, Zeitwert sinkt mit jedem Tag.
+
+
+== Griechen
+* Delta Δ = d(Optionspreis) / einer Geldeinheit (€ oder $)
+  ** Wirkung von Kursänderungen auf den Optionspreis
+  ** Wahrscheinlichkeit, ob die Option am Laufzeitende im Geld liegt und somit ausgeübt wird
+
+* Gamma γ = d(Delta) / d(Kurs)
+  ** Wirkung von Kursänderungen auf das Delta
+
+* Theta Θ = d(Optionspreis) / 1 Tag
+  ** Wirkung vom Zeitverfall auf den Optionspreis
+
+* Vega V =  d(Optionspreis) / d( 1% Volatilität)
+  ** Wirkung von Volatilität auf den Optionspreis

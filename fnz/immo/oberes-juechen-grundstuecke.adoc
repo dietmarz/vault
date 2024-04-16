@@ -2,6 +2,31 @@ include::{root}../.inc/include.adoc[]
 
 = Oberes Jüchen Grundstücke
 
+* Flächen
+  ** Dietmar = 916 + 726 + 755 = 2.397 m²
+  ** EG      = 927 + 700 + 559 = 2.186 m²
+  ** EG + TR =  EG + 721       = 2.907 m²
+
+* Kosten
+  ** EG     : 2907m² Deich&Sielacht 112.88€, Grundsteuer B 101,64€ = 214,52€
+  ** Dietmar: 2405m² Deich&Sielacht: 29,00€, Grundsteuer B 110,92€ = 139,92€ + Mähen 50€
+
+* Ertrag
+  ** 50€ / 2907m² = 1,72 Cent/m²
+
+* Vorschlag: 2405m² * 1,72 Cent/m² = 41,36€
+
+|===
+| 92  |D|NO Marion |916
+| 93  |E|NW Roland |927
+| 94  |E|West      |700
+| 95  |E|Wende     |559
+| 96  |D|Ost       |726
+| 97  |R|TRocker   |721
+| 100 |D|Süd-Ost   |755
+| 102 | |Verkauft  |765
+|===
+
 * Ziele
   ** Grundstücke bebaubar machen
   ** Erbengemeinschaft auflösen
@@ -51,3 +76,4 @@ Zur Absicherung der späteren Erschließung, damit zumindest das eine Grundstüc
 - [[[jahn]]] Frau Jahn LK WTM
 - [[[kuen]]] Herr Sander Kühn, Stadt Esens
 - [[[vRahden]]] Frau von Rahden, Stadt Esens
+
