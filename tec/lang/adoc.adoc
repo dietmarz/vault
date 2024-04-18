@@ -5,7 +5,11 @@ include::{root}/.inc/include.adoc[]
 == Text
 * Normal Text, 'single ticks', "double ticks"
 * `Backticks mono`, *bold*, _italic_, #High#, bold**In**Word
-* https://google.de[a link]
+* https://google.de[a external link]
+* link:../lang/adoc.adoc[a internal checked link]
+* p5470 ../lang/notExisting.adoc[a internal unchecked link]
+* Wasser mit tiefer Zwei: H~2~O
+
 // ---------------------------------------------------------------------------------------------------------------------
 
 == Comments

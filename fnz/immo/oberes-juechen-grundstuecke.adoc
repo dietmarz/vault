@@ -8,8 +8,8 @@ include::{root}../.inc/include.adoc[]
   ** EG + TR =  EG + 721       = 2.907 m²
 
 * Kosten
-  ** EG     : 2907m² Deich&Sielacht 112.88€, Grundsteuer B 101,64€ = 214,52€
-  ** Dietmar: 2405m² Deich&Sielacht: 29,00€, Grundsteuer B 110,92€ = 139,92€ + Mähen 50€
+  ** EG     : 2907m² Deich & Sielacht   5,91€, Grundsteuer B 101,64€ = 107,55€
+  ** Dietmar: 2405m² Deich & Sielacht: 29,00€, Grundsteuer B 110,92€ = 139,92€ + Mähen 50€
 
 * Ertrag
   ** 50€ / 2907m² = 1,72 Cent/m²
@@ -30,6 +30,7 @@ include::{root}../.inc/include.adoc[]
 * Ziele
   ** Grundstücke bebaubar machen
   ** Erbengemeinschaft auflösen
+  ** Interessierte Pächter: Meike Janssen, Marion Martensen-Saathoff?, Immobilien Andre Reents Dunum?
 
 == Historie
 * 2021-05-20: Mail <<reents>>: Möchte Flurstreifen 1,5-2m Breite

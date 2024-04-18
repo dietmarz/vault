@@ -69,3 +69,16 @@ getData().then(data => {
 * Each component does not modify the state directly, it will dispatch an action
 * Action = plain JS Object, containing Payload and Type
 * Action.Type tells Store what to do with the action
+
+== Section 3
+
+[source,typescript]
+----
+export const isLoggedIn = createSelector(
+  // Only call projector funktion, if state has changed and unknown for that input values (memorized funktion). Could be N methods separated by colon
+  state => state["auth"],
+  // Trick: !! => convert to boolean. Check if user is in store
+  (auth) => !!auth.user // Last method = "Projector funktion"
+// select = map and  distinctUntilChanged(), fires only if state auth has been changed.
+);
+----

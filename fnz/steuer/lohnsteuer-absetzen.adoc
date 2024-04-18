@@ -9,6 +9,7 @@ include::{root}/.inc/include.adoc[]
 ** Klären ob schon elektronisch übermittelt
 * Haftpflichtversicherungen z. B. Kfz und private Haftpflichtversicherungen (Rechnungen)
 ** Unter huk.de. Für 2023 erledigt.
+** Privathaftpflicht per Post, 2024 erledigt.
 * Haushaltsnahe Dienstleistungen z. B. Handwerkerleistungen auch Schornsteinfeger (Rechnungen)
 ** Schornsteinfeger: https://home.digibase.com/post_assignments
 ** 2023 erledigt

@@ -15,7 +15,7 @@ include::{root}/.inc/include.adoc[]
 * Wasserflasche, Taschentücher
 * Schreibzeug
 * Sitzkissen
-* Airexkissen Autoanreise
+* Airexkissen (wegen Größe Autoanreise)
 
 == KLeidung
 * [ ] T-Shirts, U-Hosen, Socken
@@ -26,13 +26,13 @@ include::{root}/.inc/include.adoc[]
 * [ ] Ladegerät Handy mit Kabeln
 * [ ] Notebook, Netzteil, Maus
 * [ ] Handy, Gürtel mit Tasche
-Kopfhörer
+* [ ] Kopfhörer
 
 == Sport
 * [ ] Schwimmsachen
 * [ ] Kleinigkeiten für Sport und Faszien
 * [ ] Crogs und Turnschuhe
-* [ ] Elektrobürste
+* [ ] Elektro Zahnbürste
 * [ ] Handtücher, Duschen? Strand?
 
 == Mental

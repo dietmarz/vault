@@ -3,6 +3,9 @@ include::{root}/.inc/include.adoc[]
 = Udemy Kurs: Microservices clean architecture dd saga outbox kafka kubernetes
 
 * Udemy Course https://www.udemy.com/course/microservices-clean-architecture-ddd-saga-outbox-kafka-kubernetes/[Course]
+* p5470 ~/project/hexa/[project]
+
+def~abc~
 
 
 == 11. Kubernetes

@@ -15,3 +15,9 @@ include::{root}/.inc/include.adoc[]
 == History
 * 18.03.24 Telefonat Mario Grossholz
 
+* Intersoft -> Absage 10 Jahre +
+* Baloise -> Absage
+* DZ Hyp
+* Techniker Krankenkasse
+* Bitmarck
+* Berenberg
