@@ -25,7 +25,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * [ ] M-W 60 Start Einstellen Kleinanzeigen/eBay
 * [ ] O-- 60 Task counter einbauen. Zählt runter 0. rauf. Hat aber im Scrum auch nicht interessiert. Frog Regel anhängen
 * [ ] O-- 40 Alle adoc aus office einsortieren. Prüfen ob bei Fahrräder rechnung verlinkt und Rahmennummer angegeben.
-
+* [ ] Lynx Depot eröffnen
 
 == Frog FIRST!!!
 
@@ -35,7 +35,8 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * https://www.xing.com/chats[]
 
 == HEUTE ###############################################################################################################
-* 09 Dataport ge
+* 09 Dataport gespräch
+
 
 
 * [ ] JdW 60 BEWERBEN! Jeden Tag Routine!

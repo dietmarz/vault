@@ -5,6 +5,7 @@ include::{root}/.inc/include.adoc[]
 * HR Auktionator Hartmut Raveling,
 * MB Mieter Marion Birgfeld und Tochter seit 01.01.2015 017642751794
 * TE Mieter Tanja Emken und Sohn seit 01.02.2016 01729199668
+* SteuerBuero-Janssen.de
 
 link:eichengrund-uebertragung.adoc[Vertragliches]
 
@@ -13,15 +14,14 @@ link:eichengrund-uebertragung.adoc[Vertragliches]
 
 
 * Garagenleck
-* Anfang Januar bei HR anrufen
-  ** WerWasBisWann festlegen: Garagendach reparatur.
+* Idee: 17.04 Giebel inmpregnieren, HR wollte dafür ein Angebot einholen
 
 * [ ] 2023-11-13 Macht es Sinn, einen Feuchtigkeit- Temperatur Logger zu installieren?
   ** Anfang des Jahres geht es weiter
-  ** info@tobias-diekmann.de aus Achim fragen?
-
+  ** info@tobias-diekmann.de aus Achim fragen -> 300€ für ein Telefonat
 
 == Historie, Stand, Tätigkeiten
+* 2024-04-18 TE: Stand der Dinge https://mail.google.com/mail/u/0/?pli=1#sent/KtbxLwgxCJBgmmrztbFdMLLFRQMkGkSjmL[Stand]
 * 2024-03-27 Suche geht weiter Mail Antwort.
 * 2024-03-27 Handlungsoptionen an TE: https://mail.google.com/mail/u/0/?pli=1#sent/KtbxLvhVdtnltBHpkpZSVnSxzpkNttGqcL[mail]
 * 2024-03-26 Telefonat mit Maler Rieken Esens, Ergebnis in Mail an TE s.o.

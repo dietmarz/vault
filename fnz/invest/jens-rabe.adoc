@@ -44,3 +44,11 @@ trading tagebuch
   ** 3 Dinge die wichtiger sind als Geld: Das Sein(Selbsterkenntnis), die Liebe, meine Freiheit
   ** 3 Dinge als Schwäche zu den bestehenden Geldanlagen: Auf Glück basierend, Unstrukturiert, Ungepflegt, Wind und Wellen ausgesetzt
 optionsstrategien jens rabe.
+
+== Lynx B.V.
+* Deutschsprachigen Kundenservice ! Als Vorteil. Lynx Plus Browser, API
+* Kontoführungsgebühren. 0€
+* Tipps: Einzahlung
+** Anleitung, Mit Ankündigung Verwendungszweck.
+** 1. mal Zweifaktor, Lynx Trading app. installieren und einrichten
+** 2. dann das Erstpasswort wechseln.

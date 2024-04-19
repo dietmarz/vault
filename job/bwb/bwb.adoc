@@ -20,8 +20,11 @@ include::{root}/.inc/include.adoc[]
 == Michael Page
 * Melf Cosmilla
   ** Synaos , VW Werk Softwerk. SkillSheet
-  ** HDI Versicherungen, 2 Tage / Woche in Hannover *Mark Stehr* (Lead Developer), ruft 17 o. 18. Apr an.
-  ** VHV versicherung 1 Tag Präsensens pro Woche
+  ** HDI Versicherungen, 2 Tage / Woche in Hannover *Mark Stehr* (Lead Developer), ruft 18. Apr an.
+     *** Quartal: 40% vor Ort, Vertragsverwaltung, Vaadin, Schwenk Azur Cloud, Feste Teams, Cross funktionales Team, 5 Entwickler, 3 Monatsplanung, VorOrt zum PI, PO aus Schweiz, Team komplett zu Workshop, MS-Teams, UX Experience, PPI,
+     *** Code Challenge, in Hannover, 1. 9:00 Kennenlernen, 2. Aufgabe in Java, Spring-Boot, 3.5h Zeit, Lösung vorstellen, Notebook bereitgestellt, alle Tools, alles erlaubt, Code Assist, Windows, People Leads, Anfangsphase: Pair selten mehr bei Review, Vor-Ort, Nebeneinader setzen,
+     *** Profile freischalten, dann Code Challenge, Abschlussintrview.
+  ** VHV versicherung 1 Tag Präsenz pro Woche
   ** KSP Rechtsanwaltskanzlei Forderungsmanagement 1 Tag pro Woche vor Ort
   ** Rossmann: Senior Java, Burgwedel
   ** DTMS: Callcenter Software, KI, Datengetrieben, 80/85TE
@@ -48,4 +51,4 @@ include::{root}/.inc/include.adoc[]
 
 == Absagen
 * Plath, BDruckerei Maurer Electronics, Intersoft, Baloise
-* Zeitfracht
+* Zeitfracht(mit 90T weit drüber)

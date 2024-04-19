@@ -1,4 +1,4 @@
-include::{root}../.inc/include.adoc[]
+include::{root}/.inc/include.adoc[]
 
 = Oberes Jüchen Grundstücke
 

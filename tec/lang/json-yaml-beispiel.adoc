@@ -1,0 +1,73 @@
+include::{root}/.inc/include.adoc[]
+
+= Json Yaml Beispiel
+
+== Yaml "YAML Ain't Markup Language
+* 2 bis 4 Spaces, keine Tabs. Leerzeilen keine Wirkung
+* Besser für Konfigurationen
+
+[source, yaml]
+----
+name: John Doe
+age: 30
+isEmployee: true
+addresses:
+  - type: home
+    street: 123 Maple Street
+    city: Anytown
+    state: CA
+  - type: work
+    street: 456 Elm Street
+    city: Othertown
+    state: NY
+----
+
+== Json
+* Key immer in "
+*  [Array], {Object},
+* parse und stringify heiße die js Methoden.
+* Besser zum Austausch
+[source, json]
+----
+{
+    "name": "John Doe",
+    "age": 30,
+    "isEmployee": true,
+    "addresses": [
+        {
+            "type": "home",
+            "street": "123 Maple Street",
+            "city": "Anytown",
+            "state": "CA"
+        },
+        {
+            "type": "work",
+            "street": "456 Elm Street",
+            "city": "Othertown",
+            "state": "NY"
+        }
+    ]
+}
+----
+
+[source, javascript]
+----
+// Angenommen, das JSON ist als String verfügbar
+const jsonString = '{"name":"John Doe","age":30,"isEmployee":true,"addresses":[{"type":"home","street":"123 Maple Street","city":"Anytown","state":"CA"},{"type":"work","street":"456 Elm Street","city":"Othertown","state":"NY"}]}';
+
+// Konvertierung des JSON-String in ein JavaScript-Objekt
+const user = JSON.parse(jsonString);
+
+// Zugriff auf Daten im JavaScript-Objekt
+console.log(user.name); // Ausgabe: John Doe
+console.log(user.addresses[0].city); // Ausgabe: Anytown
+
+// Verändern des Objekts
+user.age = 31;
+
+// Konvertierung des JavaScript-Objekts zurück in einen JSON-String
+const updatedJsonString = JSON.stringify(user);
+
+console.log(updatedJsonString);
+----
+

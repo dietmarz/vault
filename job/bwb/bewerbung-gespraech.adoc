@@ -20,7 +20,6 @@
 * [ ] Seite öffnen: link:bewerbung-taetigkeiten.adoc[interview]
 * [ ] Kamera-App unter Kamera, ins Bild schauen. Extra Workspace als Vorbereitung nutzen. Profil öffnen
 
-
 == Was ist mir wichtig
 * 3 Eigenschaften: Zuverlässig, Neugier im Sinne einer Lehrfähigkeit, Unruhe Ungeduld.
 * Qualität (Tests, Gesicherte Funktionen)
@@ -31,7 +30,6 @@
 == Fragen über mich
 * Kernkompetenz: Vogelperspektive Backend, etwas Frontend, etwas Cloud
 * Welche Rolle: Senior Software Developer, & alles was mich persönlich weiter bringt (Scrum-Master)
-
 
 == Fragen über die Rolle
 * konkrete *Erwartungen* an mich
@@ -51,13 +49,7 @@
 * Gibt es noch etwas, das ich über die Rolle, das Team oder das Unternehmen wissen sollte,
   das wir noch nicht besprochen haben?
 
-
 == Online
-
-
-
-
-
 1. * Intersoft Website durchklicken, Tec  -> Aber Komplett SW ent WWK Versicherung,
 
 Keinen Nerd, Themen Pushen, Technische Tiefe: 1Vorangeht, 2abholen, 3begeistern, ab 90T.

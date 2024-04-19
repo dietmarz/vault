@@ -1,0 +1,21 @@
+include::{root}/.inc/include.adoc[]
+
+= Gitignore
+
+[source, gitignore]
+----
+# Datei oder Dir überall
+logs
+
+# Datei oder Dir im Root
+/logs
+
+# Dir im Root
+/logs/
+
+# Dir überall
+logs/
+
+# Dir überall, selbst wenn parent auch ignoriert wurde
+**/logs/
+----

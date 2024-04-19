@@ -3,9 +3,71 @@ include::{root}/.inc/include.adoc[]
 = Udemy Kurs: Microservices clean architecture dd saga outbox kafka kubernetes
 
 * Udemy Course https://www.udemy.com/course/microservices-clean-architecture-ddd-saga-outbox-kafka-kubernetes/[Course]
-* p5470 ~/project/hexa/[project]
+* Hexa prinzip: https://www.youtube.com/watch?v=-VmhytwBZVs[Hombergs build components]
+* p5470 ~/project/architecture/ud-clean-arch-saga[project]
 
-def~abc~
+
+== 1.1 Overview Structure of Course
+* Hexagonal (=clean) Architecture known as Ports and Adapters 2005
+* Dependencies always point to the inner circle, never outside
+* Learn SAGA pattern and Outbox pattern
+
+== 1.2 Project overview
+Explanation and problems of start architecture
+* See link:/home/dietmar/project/architecture/ud-clean-arch-saga/doc/starting-point-to-improve.png[Start-Architecture]
+
+== 1.3 Overview Clean Arch  Part 2
+* See link:/home/dietmar/project/architecture/ud-clean-arch-saga/doc/project-overview-section-1.png[Fertig-Architecture]
+
+* Start with introduce input and output ports
+* Postman -> RestAPI -> InputPort(from Domain Logic) -> Domain Model -> OutputPort(f.D.Logic) -> DB & Msg Calls
+* 2. Improvement is DDD applied to Domain Logic
+** *Aggregates*:          Group of business objects (entities) which always need to be consistent.
+** *Entities*:            Business Objects, consists of critical business rules of the system
+** *Core business logic*: Will be handled in a Aggregate through Entities
+** *Value Objects*:       Simple, immutable objects with domain driven names without identifier
+** *Domain Services*:     Handle business logic that spans multiple aggregate route,
+** *Application Service*: Is the point of contact to do outside of domain.
+** *Domain Events*:       Send notifications to other services that runs in different bundle contexts
+
+* Outbox Pattern: In derselben Txn werden Daten geschrieben und ein Eintrag in die Outbox-Tabelle erzeugt, der nach Gesamterfolg durch einen externen Prozess (Scheduler) als Event weitergeleitet wird.
+  **  Scheduler schreibt Events in Kafka
+* CQRS Command(write) Query(read) Responsibility Segregation also trenne Read & Write Ops,
+  ** Performance, Skalierbarkeit, Sicherheit
+
+=== Steps to improve
+1.) Hexagonal clean architecture
+2.) DDD
+3.) SAGA: process and rollback methods
+4.) Outbox Pattern: Pulling OB-tcht
+able with scheduler.
+    - idempotent: Gleiche Ergebnis, wenn Signal mehrmals gesendet
+    - co
+
+== 2.6 Intro Hexagonal: Ports and Adapters
+* Devides to Inside: Business Logic core
+* And to Outside: (UI, Console, Tests) -> InputPort (implemented in Domain layer) - & Output-Port(implemented in external modules) -> (DB, MsgQ, Http)
+* Isolated dependencies -> better testability
+* Eg: (UI-Input) validated-> Primary Input Port -> CoreLogic -> Secondary Adapters -> Primary Adapter -> as (Answer)
+
+* Clean Architecture:
+  ** Entities contains critical business rules
+  ** UseCases specify when and how an entity is called. Orchestrates data flow to and from entities.
+* DDD, same as Clean Architecture but:
+  ** Domain Model, (~Entities~)
+  ** Aggregate: Group of business objects, always consistent, txn based.
+  ** Aggregate Root: Main entity, orchestrates core business roles. => Bounded Context => Entrypoint from outside
+     => Responsible to keep aggregate consistent
+  ** Domain Service: (~UseCases~) eg uses several Aggr. Roots.
+  ** Application service: Validation & Exposes BLayer Methods, but implemented in Domain Layer.
+
+
+
+
+
+
+
+
 
 
 == 11. Kubernetes
