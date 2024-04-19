@@ -47,6 +47,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * Tabnine prüfen als KI
 * Leibrente steuerlich absetzen
 * Entscheidung HDI
+* Lernziel: Aufbau infrastruktur HomeServer: docker kuba, logstash elastic nextcloud, angular-mit-login, github-actions
 
 
 
