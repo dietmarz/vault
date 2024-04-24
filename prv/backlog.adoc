@@ -8,10 +8,12 @@ include::{root}/.inc/include.adoc[]
 
 == Aufgaben generell
 
+
+
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 == Eichengrund
 * [ ] F w XX 07 Garage leckt link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
-* [ ] F w XX 12 Datenlogger besorgen -> erst in Achim fragen...
+* [ ] F w XX 12 Datenlogger besorgen
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 == Thomsen Erbschaft
@@ -23,7 +25,6 @@ include::{root}/.inc/include.adoc[]
 * [ ] H W 90 08 Keller säubern
 * [ ] J W 90 08 link:../prv/entscheidungsfindung-mentale-modelle.adoc[MM]
 * [ ] H W 60 Liste jeder Raum 60min, Entsorgen-Verkaufen-Behalten.
-
 * [ ] GdW 30 09 KKasse wechseln
 * [ ] Hdw 30 03 Isomatte (+ Luftbett) auf Dichtigkeit prüfen
 * [ ] JdW 60 03 Office: Script in kh: Copy smb; ocr +  guess Name! Enum mit bekannten Absendern

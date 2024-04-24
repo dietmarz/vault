@@ -2,13 +2,15 @@ include::{root}/.inc/include.adoc[]
 
 = Bwb Bewerbungen Übersicht
 
+* Wichtig keine Doppelbewerbung: Bei wem für was vorgestellt.
+
 .Aktuelle Bewerbungen
 |===
 |*Firma*                |*Kontakt*        |*Datum*|*Status*          |*Link*
 |Questax  -> Atruvia    |Markus Sommer    |14.03. |*BWB-Eingereicht* |link:bwb-questax-atruvia.adoc[link]
 |Allgeier -> Bdruckerei |Juri Palmer      |15.03  |*BWB-Eingereicht* |link:bwb-allgeier-juri.adoc[link]
 |PrjPool  -> ???        |Beate Sauer      |15.03  |*BWB-Eingereicht* |link:bwb-pool-java.adoc[link]
-|CompFut  -> Mercedes   |Lars Nowak       |26.03  |*BWB-Eingereicht* |link:bwb-compuFutures-mercedes.adoc[link]
+|CompFut  -> Mercedes   |Lars Nowak       |26.03  |*Anderweitig besetzt* |link:bwb-compuFutures-mercedes.adoc[link]
 |CompFut  -> ...        |Mario Großholz   |26.03  |*BWB-Eingereicht* |link:bwb-compuFutures-mercedes.adoc[link]
 |CompFut  -> Generalli  |Lars Nowak       |04.04  |*BWB-Eingereicht* |Ähnliche Anforderungen wie mercedes, mehr AWS
 |Windhoff -> ???        |Janina Reykowski |05.04  |*BWB-Erstkontakt* |https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxSbmJQmdGjKxwpNJvqWLQzSnM[mail]
@@ -16,6 +18,26 @@ include::{root}/.inc/include.adoc[]
 |Allgeier -> Bdruckerei |Inga Hagen       |11.04  |*BWB-Erstkontakt* |Legacy Glassfish JBoss, 90€ Remote, 95 Vorort,  2Tag / 14Tage Vorort in Nürnberg?
 
 |===
+
+== Königstein
+* Marco Weiss, für NEONPULSE https://www.edv-koenigstein.de/anzeige/Entwickler-(m/w/d)-f%C3%BCr-Full-Stack-Webanwendungen_KS-001768 per mail https://mail.google.com/mail/u/0/?pli=1#sent/QgrcJHsNmtShFfsrXgNGTrPkSdQJJpKJFxV
+
+== Computer Futures
+
+* Mario Grossholz
+  ** RTL
+
+* Cedric Bahr
+  ** eher nicht BAADER Global SE / Food Processing Innovation GmbH & Co. KG   https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxSlSwzSdXwbvBxxhbPVRpDrxH
+  ** eher nicht EDEKA ZENTRALE Stiftung & Co. KG / EDEKA DIGITAL GmbH  https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxSlSwzSdXwbvBxxhbPVRpDrxH
+  ** Pilot Hamburg GmbH & Co. KG (20354 Hamburg, Hamburg) https://pilot.softgarden.io/job/41599918/?l=de
+
+* René Bauer https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxSlSwzSdXwbvBxxhbPVRpDrxH
+  ** Adesso SE
+
+* Alexander Berckhan
+
+
 
 == Michael Page
 * Melf Cosmilla
@@ -31,13 +53,13 @@ include::{root}/.inc/include.adoc[]
 
 * Hanna Hofmann
   ** Berenberg
-  ** Bonprix -> Gespräch am 24.05. 13:30 Uhr.
+  ** Bonprix -> Gespräch am 24.05. 13:30 Uhr. https://mail.google.com/mail/u/0/?pli=1#inbox/FMfcgzGxStpNnNSsXlBhwMpZhwXvFBbV
   ** MSG Insur:It
   ** BDK
   ** CITTI
 
 * Marcel
-  ** comparus Video Telefonie oder Banken versicherungen oder intern. 2 Tge pro Woche in HH im Norden
+  ** comparus *Termin-findung-1-Gespräch* Termin von Sina, Video Telefonie oder Banken versicherungen oder intern. 2 Tge pro Woche in HH im Norden
   ** tellence, 2 Optionen: Techniker Account Manager. 3erTeam Quasi PO ,Value Streams, Chapter, oder als Entwickler!
 
 * Kollegen ohne Vorgespräch
@@ -46,8 +68,12 @@ include::{root}/.inc/include.adoc[]
   ** Marcel: Nordex
   ** Gill:   ALD automotive
 
-* Alexander Berckhan CFutures (17.04)
-  ** 90T,
+
+== Constaff GmbH
+* Julian Müller
+  ** Java Kotlin Vue, 100% Remote, Mercedes Ulm, Anfrage seit: 19.04 17Uhr.  *https://mail.google.com/mail/u/0/?pli=1#inbox/FMfcgzGxStnFcQZCzMSLKKlKRHMtnMhQ*
+  ** 103T
+
 
 == Absagen
 * Plath, BDruckerei Maurer Electronics, Intersoft, Baloise

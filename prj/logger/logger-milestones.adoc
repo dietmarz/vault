@@ -1,0 +1,42 @@
+include::{root}/.inc/include.adoc[]
+
+= Milestones
+
+== Milestone 1: Projektplanung und Hardware-Auswahl
+* link:logger-spec-und-projektplan.adoc[spec]
+* Zieldefinition und Anforderungsanalyse abschließen.
+* Auswahl und Kauf der Hardware, einschließlich Raspberry Pi und Sensoren.
+* Erstellung eines initialen Projektplans mit Zeitplan und Ressourcenzuordnung.
+
+== Milestone 2: Aufbau der Hardware und Basissoftware
+* Initialer Aufbau der Hardware (Raspberry Pi und Sensoren).
+* Entwicklung der Firmware, die die Sensordaten liest und temporär speichert.
+* Erste Tests der Hardware und Firmware, um Funktionalität sicherzustellen.
+
+== Milestone 3: Backend- und Datenbankentwicklung
+* Entwicklung der REST API mit Spring Boot, die Sensorwerte empfangen und verarbeiten kann.
+* Aufsetzen der Datenbank und Implementierung der Datenpersistenz.
+* Integrationstests der API mit simulierten Sensordaten.
+
+== Milestone 4: Frontend-Entwicklung und Integration
+* Entwicklung des Angular Frontends zur Anzeige der Daten.
+* Integration des Frontends mit der Backend-REST API.
+* User Interface (UI) Tests, um die korrekte Anzeige und Funktionalität des Frontends zu gewährleisten.
+
+== Milestone 5: Netzwerkintegration und Kommunikationstests
+* Einrichten der Netzwerkkommunikation zwischen Raspberry Pi und Server.
+* Durchführung von Kommunikationstests zur Validierung der Datenübertragung unter realen Bedingungen.
+
+== Milestone 6: Containerisierung und Deployment
+* Dockerisierung der Spring Boot-Anwendung und des Frontends.
+* Erstellung von Docker Compose- und später Kubernetes-Konfigurationen für das Deployment.
+* Deployment-Tests zur Überprüfung der korrekten Funktion in einer isolierten Umgebung.
+
+== Milestone 7: Monitoring, Dokumentation und Launch
+* Einrichtung von Monitoring-Tools zur Überwachung der Systemleistung.
+* Erstellung der Benutzer- und Entwicklerdokumentation.
+* Offizieller Launch des Systems mit einer Veranstaltung oder einer offiziellen Bekanntgabe.
+
+== Milestone 8: Wartung und Weiterentwicklung
+* Erste Wartung und Fehlerbehebung nach dem Launch.
+* Planung und Umsetzung von Erweiterungen oder Verbesserungen basierend auf Nutzerfeedback.

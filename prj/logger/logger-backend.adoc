@@ -1,0 +1,6 @@
+include::{root}/.inc/include.adoc[]
+
+= Logger Backend
+
+== Entitäten
+

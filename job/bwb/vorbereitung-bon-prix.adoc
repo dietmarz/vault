@@ -1,0 +1,23 @@
+include::{root}/.inc/include.adoc[]
+
+= Vorbereitung Bon Prix
+
+* Website Lighthouse index in allen Punkten besser als Amazon und Otto, vor allem in Performance
+
+* Smart Mirrors (intelligente Spiegel) und Self-Checkout-Systeme
+* Big Data und künstlicher Intelligenz für Personalisierung
+* automatisierte Lager, fortschrittliche Bestandsmanagement-Systeme und effiziente Verteilungsstrategien, die dazu beitragen, dass Produkte schnell und zuverlässig bei den Kunden ankommen.
+
+== Technologie
+
+* https://www.wappalyzer.com/lookup/bonprix.de/
+
+* Java Note.js
+* React jQuery? Underscore?
+
+von Hanna,2 teams suchen
+
+* Webshop produkt detail page
+* Suche
+
+Leute mitnehmen, Technisch vorantreiben, Bock auf die Themen

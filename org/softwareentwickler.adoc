@@ -104,3 +104,6 @@ Die Aufgabe muss fordern, nur nicht überfordern
 == Nicht in aller Tiefe lernen, die Fakten reichen aus:
 * Was ist eine NoSQL DB, welche Typen gibt es, welche Einschränkungen. Ende.
 * Lernen nach Projekt Wahrscheinlichkeit: CSS Frontendkram war bislang immer dabei!
+
+== Architektur Themen
+* Eine Architektur entwerfen: iSAQB Advanced Beispielaufgabe https://www.youtube.com/watch?v=VspImCV5mi8[YT]

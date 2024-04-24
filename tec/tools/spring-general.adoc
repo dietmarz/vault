@@ -53,3 +53,14 @@ public class MyFactory {
 == @Configuration vs @Component (ud sboot-3 2.19)
 * @Configuration erzeugt cglib Subklassen um Methodenaufrufe umzubiegen, abschalten: proxyBeanMethods = false
 
+== Spring Security
+* https://www.youtube.com/watch?v=GjN5IauaflY&list=PL82C6-O4XrHe3sDCodw31GjXbwRdCyyuY[source]
+* spring-boot-starter-security needed as dependency
+
+Request comes in and then:
+. Authentication Filter
+. Authentication Manager
+. Default Authentication Provider
+. UserDetailsService
+
+then you get stored in SecurityContext

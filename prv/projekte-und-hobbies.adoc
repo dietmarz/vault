@@ -16,6 +16,13 @@ link:../org/lern-themen.adoc[]
 * 1. Beenden 2. Gut machen 3. So gut wie man es nicht für möglich gehalten hätte. Daran wachsen!
 * Unterkategorien sind aus /home/dietmar/vault/fnz/office.adoc
 
+* Schimmelpilz Luftfeuchte, Temp Logger
+  ** µC, Raspberry, STM32, mit SD Card(+RTC) oder WLAN
+  ** Spring-Boot REST SS zum entgegennehme & konfigurieren
+  ** Angular zur Anzeige
+
+
+
 == Hobbies
 Wünsche: Entfernen(-) Weniger(~) Weiter so(.) Unentschlossen(?) Mehr(+) Viel Mehr(#)
 * [ ] Erstmal diese Tabelle im Kopf und aktualisieren

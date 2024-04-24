@@ -1,0 +1,34 @@
+include::{root}/.inc/include.adoc[]
+
+= Logger Spec Und Projektplan
+
+Datenlogger, der (Temp & Luftfeuchte) Daten über 3 räumlich getrennte  Sensoren sammelt und diese als Block an eine REST Schnittstelle sendet. (Spring-Boot). Die Daten werden dann über ein Angular Frontend angezeigt.
+Serverseitig kommt (erstmal) Docker und Docker-Compose, Später Kubernetes, die Hardware  ein Raspberry pi micro, die Sensoren sollten ein bussystem unterstützen, das die Verdrahtung einfach macht.
+
+* Ziel: Lernen und Frage klären, ob ein Mauerschaden oder Lüftungsfehler vorliegt.
+
+== Anforderungen
+* (Minimal: SD-Card, kein FE, kein BE, kein WLAN. Kein Web-Lernen)
+* Daten sammeln. 3 x Temp, Luftfeuchte pro Minute = 3×2×60×24×365 = 3 MS/Y
+* Login µC, Login Angular
+* Anzeige der Daten per Web (Angular)
+
+== Logger Hardware
+|===
+|Raspberry Pi Zero 2 W|18,80€ |4x 1 GHz, 512 MB RAM, WLAN, BT LE
+|SDSQUNR032GGN3MA 32GB|5,95   |microSDHC-Speicherkarte 32GB, SanDisk Ultra
+|RPIZ MULTI HUB       |8,35   |Netzwerkkonverter|
+|===
+
+== Sensoren
+*  DHT22/AM2302
+* BME280
+
+== Logger Server
+* Frontend
+** Angular Login
+
+* Backend
+** Spring-Boot REST, Json SS
+
+

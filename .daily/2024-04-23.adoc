@@ -1,6 +1,6 @@
 include::{root}/.inc/includeDaily.adoc[]
 
-= Freitag, 19. April 2024
+= Dienstag, 23. April 2024
 
 link:../fnz/office.adoc[Regeln]
 link:../def/score-board.adoc[Daily Score Board]
@@ -26,6 +26,9 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * [ ] O-- 60 Task counter einbauen. Zählt runter 0. rauf. Hat aber im Scrum auch nicht interessiert. Frog Regel anhängen
 * [ ] O-- 40 Alle adoc aus office einsortieren. Prüfen ob bei Fahrräder rechnung verlinkt und Rahmennummer angegeben.
 * [ ] Lynx Depot eröffnen
+* [ ] Meike Jannssen antworten.
+* [ ] Marion Birgfeld anrufen
+* [ ] Einkaufen
 
 == Frog FIRST!!!
 
@@ -37,6 +40,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 == HEUTE ###############################################################################################################
 
 
+cpr ~/cloud/andi /media/dietmar/Andrea/
 
 
 * [ ] JdW 60 BEWERBEN! Jeden Tag Routine!
@@ -46,7 +50,6 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * [ ] WVL Garage Leck Esens, Ingo ansprechen
 * Tabnine prüfen als KI
 * Leibrente steuerlich absetzen
-* Entscheidung HDI
 * Lernziel: Aufbau infrastruktur HomeServer: docker kuba, logstash elastic nextcloud, angular-mit-login, github-actions
 
 

@@ -1,0 +1,38 @@
+include::{root}/.inc/include.adoc[]
+
+= Lighthouse Performance für Websites
+
+* Chromium -> F12 (Developer Tools) -> Lighthous
+
+== Performance
+* Dieser Score misst, wie schnell und reaktionsfähig eine Webseite ist. Einige der Schlüsselmetriken hierfür sind:
+* First Contentful Paint *FCP*: Zeit bis zum ersten sichtbaren Inhalt.
+* *Speed Index*: Wie schnell die Inhalte während des Ladens der Seite sichtbar werden.
+* Largest Contentful Paint *LCP*: Zeitpunkt, zu dem der größte Inhaltstext oder das größte Bild sichtbar wird.
+* Time to Interactive *TTI*: Zeit, bis die Seite vollständig interaktiv ist.
+* Total Blocking Time *TBT*: Gesamtzeit, in der das Laden der Seite die Interaktivität blockiert.
+* Cumulative Layout Shift *CLS*: Maß für die Anzahl der Layoutverschiebungen während des Ladens.
+
+== Accessibility
+* Dieser Score bewertet, wie gut die Webseite für Menschen mit Behinderungen zugänglich ist. Es umfasst die Prüfung von Aspekten wie:
+* Kontrastverhältnisse.
+* Verwendung von ARIA-Attributen.
+* Vorhandensein von Tastatur-Navigationsmöglichkeiten.
+
+== Best Practices
+* Dieser Parameter bewertet, ob die Webseite allgemein anerkannte Best Practices für moderne Webentwicklung befolgt. Dazu gehören:
+* Sicherheitsaspekte wie HTTPS-Verwendung.
+* Vermeidung veralteter APIs.
+* Korrekte Handhabung von Anfragen und Berechtigungen.
+
+== SEO (Search Engine Optimization)
+* Bewertet, wie gut die Webseite für Suchmaschinen optimiert ist. Dazu gehören Faktoren wie:
+* Vorhandensein von Meta-Tags.
+* Responsive Design.
+* Korrekte Header-Tags.
+
+== PWA (Progressive Web App)
+* Beurteilt, ob die Webseite Merkmale einer progressiven Webanwendung aufweist, einschließlich:
+* Service Worker-Registrierung.
+* Reaktion auf verschiedene Netzwerkzustände.
+* Bereitstellung eines App-ähnlichen Erlebnisses.
