@@ -54,7 +54,7 @@ Python; X.shape = (nx,m) => (5, 3)
 
 * Aus <<yt-1>>
   ** Aufteilen in training und testing-set
-  ** Linear sieht schlecht aus mit trainig set als eine flexible
+  ** Linear sieht schlecht aus mit training set als eine flexible
   ** Zur optimierung wird die Line so langer verschoben bis (ΔY)² minimal ist. (Quadratischer Fehler genannt bias)
   ** Das Squiggly interpolationsverfahren scheitert aber am testing-set
   ** Die Squiggly Line is "over-fit"
@@ -87,7 +87,7 @@ L misst die Diskrepanz zwischen den tatsächlichen Labels y und den vom Modell v
 
 ----
 L = −( y log(y^) + (1−y) log(1−y^) )
-L = −( aaaaaaaaa + bbbbbbbbbbbbbbb )
+L = −( ---a----- + ------b-------- )
 a = Bestrafung falls y=1 aber y^=0 -> L groß!
 b = Bestrafung falls y=0 aber y^=1 -> L groß!
 y = y^ = 1 -> L = 0 und y = y^ = 0 -> L = 0

@@ -1,0 +1,21 @@
+include::{root}/.inc/include.adoc[]
+
+= Vorbereitung Comparus
+
+== Fragen über mich
+* Kernkompetenz: Vogelperspektive Backend, etwas Frontend, etwas Cloud, start KI
+* Welche Rolle: Senior Software Developer, & alles was mich persönlich weiter bringt (Scrum-Master)
+
+
+== Fragen über die Rolle
+* konkrete *Erwartungen* an mich
+* Wie wird die *Zusammenarbeit* im Team gelebt?
+* Was ist euch bei einem neuen Teammitglied am allerwichtigsten?
+* Können Sie mir mehr über das Team erzählen, in dem ich arbeiten würde?
+* Was wäre der größte Teil meiner Arbeit?
+* Warum arbeite ihr gerne <bei / in diesem Unternehmen>?
+
+* Teamgröße, Vorgehen, Linux, Kleiderordnung, Homeoffice
+* Wie MA-Beurteilung? One-on-One Gespräche? Wie Weiterbildung
+* *Ausblicke?* Frontend?
+* Jetzigen *Herausforderungen* des Teams?

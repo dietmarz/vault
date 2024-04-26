@@ -8,6 +8,9 @@
 * Gesucht wird: Kein Nerd (Außenseiter), Themen Pusher, zeige technologische Tiefe,
   ** Erwartung bei 90K€: 1.) Vorangehen 2.) Abholen 3.) Begeistern! Leidenschaft!
 
+== KN
+
+
 == Vorbereitung
 * [ ] Namen und Lebensläufe lesen
 * [ ] Lesen was wo gemacht: link:bewerbung-taetigkeiten.adoc[gemacht]
@@ -50,18 +53,18 @@
   das wir noch nicht besprochen haben?
 
 == Online
-1. * Intersoft Website durchklicken, Tec  -> Aber Komplett SW ent WWK Versicherung,
+1. Website durchklicken
 
-Keinen Nerd, Themen Pushen, Technische Tiefe: 1Vorangeht, 2abholen, 3begeistern, ab 90T.
-Leidenschaft der etwas tut.
-Kein Redeflash! So viel Erfahrung, Reden ohne Nachzufragen.
-1. Welche Rolle hatte ich im Team.
-2. Vogelperspektive: Backenend auch im Frontend.
-Keine Gedankenspaziergänge!!!
-Glaubhaft versichern das ich
-dieses Hin und Her, Feste identität, nicht immer wechselt.
-Festes Team, Langfristigkeit, War 7 Jahre bei der HH Süd.
-Erste FEstanstellung Oder der Wikrlichj bock drauf hat.
+* Keinen Nerd, Themen Pushen, Technische Tiefe: 1Vorangeht, 2abholen, 3begeistern, ab 90T.
+* Leidenschaft der etwas tut.
+* Kein Redeflash! So viel Erfahrung, Reden ohne Nachzufragen.
+* 1. Welche Rolle hatte ich im Team.
+* 2. Vogelperspektive: Backenend auch im Frontend.
+* Keine Gedankenspaziergänge!!!
+* Glaubhaft versichern das ich
+* dieses Hin und Her, Feste identität, nicht immer wechselt.
+* Festes Team, Langfristigkeit, War 7 Jahre bei der HH Süd.
+* Erste FEstanstellung Oder der Wikrlichj bock drauf hat.
 
 5,6 min früher rein.
 Hemd, wegen Profil bild

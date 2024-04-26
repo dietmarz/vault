@@ -12,7 +12,7 @@ include::{root}/.inc/include.adoc[]
 |PrjPool  -> ???        |Beate Sauer      |15.03  |*BWB-Eingereicht* |link:bwb-pool-java.adoc[link]
 |CompFut  -> Mercedes   |Lars Nowak       |26.03  |*Anderweitig besetzt* |link:bwb-compuFutures-mercedes.adoc[link]
 |CompFut  -> ...        |Mario Großholz   |26.03  |*BWB-Eingereicht* |link:bwb-compuFutures-mercedes.adoc[link]
-|CompFut  -> Generalli  |Lars Nowak       |04.04  |*BWB-Eingereicht* |Ähnliche Anforderungen wie mercedes, mehr AWS
+|CompFut  -> Generalli  |Lars Nowak       |04.04  |*BWB-Abgesagt* |Ähnliche Anforderungen wie mercedes, mehr AWS
 |Windhoff -> ???        |Janina Reykowski |05.04  |*BWB-Erstkontakt* |https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxSbmJQmdGjKxwpNJvqWLQzSnM[mail]
 |Ivon -> öffentlcih jsf ||||
 |Allgeier -> Bdruckerei |Inga Hagen       |11.04  |*BWB-Erstkontakt* |Legacy Glassfish JBoss, 90€ Remote, 95 Vorort,  2Tag / 14Tage Vorort in Nürnberg?

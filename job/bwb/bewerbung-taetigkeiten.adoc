@@ -4,10 +4,15 @@ include::{root}/.inc/include.adoc[]
 
 == Wichtige Tätigkeiten
 
-=== Kühne und Nagel
-* Einführung Status-Tracking für Container für Kunden (DDD & Hexagonale Architektur)
+Rolle: (Architekturberatung & Softwareentwicklung)
+
+=== Kühne und Nagel Team Io
+* Einführung Status-Tracking für Container für Kunden
+* Erarbeitung der DDD & Hexagonale Architektur Umsetzung
 * Einführung Shipper's Reference in Messages und Persistence
-* Einbau Delete Contract (Wegen Komplexität fachlich viel auf Zuruf)
+* Einbau Delete Contract
+* Positiv: Robuste Technologie Auswahl, Zusammenarbeit mit der Führung, Stimmung im Team
+* Negativ: Wegen Komplexität fachlich viel auf Zuruf, Unterschätzung des Lernwillens
 
 === Otto, Projekt Verwaltung strategischer Produktdaten
 * Anzeige Kontextspezifischer Überschreibungen
@@ -15,6 +20,8 @@ include::{root}/.inc/include.adoc[]
 * Aufbau und Deployment des Structures Service (Kotlin Projekt)
 * Aufbau und Deployment des Tree Service (Kotlin Projekt)
 * Unterstützung bei Lasttests
+* Positiv: Professionell AWS, Agilität, Firmenaufstellung, Stimmung
+* Negativ: Kritische Meinung zu der Architektur
 
 === Schulverwaltungssoftware Schleswig-Holstein
 * Einführung mehrerer Schulformen pro Schule
@@ -26,3 +33,9 @@ include::{root}/.inc/include.adoc[]
 * Einführung neue Wealth Management App
 * Prüfung der Ablösung des Depot-Donuts in Angular
 * Prüfung Einführung Browserstack
+
+
+
+== Freizeit
+* ehrenamtlich psychosoziale Hilfe
+* Sport: Schwimmen Laufen Radfahren Wandern

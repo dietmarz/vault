@@ -2,6 +2,8 @@ include::{root}/.inc/include.adoc[]
 
 = Installation of new notebook
 
+* jammy statt focal bei mint 21.3!
+
 == VMWare
 * Keine eigenen Partitionen, alles Standard
 * Mem: 32GB
@@ -201,6 +203,9 @@ sudo usermod -aG docker $USER
 
 # !!! Erst REBOOT dann Test !!!
 docker run hello-world
+
+bei permission denied, vielleicht
+sudo chmod 666 /var/run/docker.sock
 ----
 
 .docker-compose
