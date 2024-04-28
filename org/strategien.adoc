@@ -1,6 +1,6 @@
 include::{root}/.inc/include.adoc[]
 
-= Strategien
+= Strategien und Ideen
 
 == Weg
 === Vorstellung alles schon erreicht zu haben. Was gibt es mir? Und dann?

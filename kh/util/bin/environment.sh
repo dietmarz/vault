@@ -124,6 +124,23 @@ dc-restart(){
  dcu $@;
 }
 
+function check_intellij_terminal() {
+    if [ -z "$IS_INTELLIJ_SHELL" ]; then
+        # Ermitteln des Befehls des übergeordneten Prozesses in einem Aufruf
+        local parent_command=$(ps -o cmd= --ppid $(ps -o ppid= -p $$))
+
+        # Überprüfen, ob der Befehl Hinweise auf 'intellij' enthält
+        if [[ "$parent_command" =~ intellij ]]; then
+            export IS_INTELLIJ_SHELL="true"
+        else
+            export IS_INTELLIJ_SHELL="false"
+        fi
+    fi
+}
+check_intellij_terminal
+
+
+
 alias nextCloudDo="docker exec -u www-data nextcloud-app /var/www/html/occ "
 
 # --- intellij ---
