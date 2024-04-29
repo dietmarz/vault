@@ -166,10 +166,14 @@ sudo apt-get install ffmpeg
 sudo apt-get install audacity
 sudo snap install youtube-dl
 sudo snap install yt-dlp
-# pip3 install --user youtube-dl
-# pip3 install --user yt-dlp ---> Alte Version!
-# pip3 install --upgrade youtube-dl
-# pip3 install --upgrade pip
+.Update yt-dlp to beta
+----
+snap info yt-dlp
+sudo snap install yt-dlp --channel=latest/beta
+sudo snap refresh yt-dlp --channel=latest/beta
+sudo snap refresh --list
+----
+
 sudo apt-get install k3b
 sudo apt install graphviz
 sudo snap install mp3gain

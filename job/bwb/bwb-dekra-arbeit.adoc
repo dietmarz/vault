@@ -1,0 +1,26 @@
+include::{root}/.inc/include.adoc[]
+
+= Bwb Dekra Arbeit
+
+== Stellenbeschreibung
+
+
+We are looking Fullstack Java Developer for our client @ Hamburg, Germany.
+Role: Permanent
+EXP: 5years
+Language : German
+If you are interested, please share me a message. Thanks.
+Regards,
+Saranya Mathivanan
+
+WAS ERWARTET DICH?
+Du unterstützt ein bestehendes Team aus Java EntwicklerInnen und entwickelst gemeinsam unser Competence Center Java/Camunda weiter
+Du berätst Kunden bei der Entwicklung Java-basierter Lösungen und deren Integration in die bestehende Systemlandschaft
+Du unterstützt unseren Vertrieb beim Ausbau bestehender sowie dem Aufbau neuer Kundenbeziehungen
+WAS SOLLTEST DU MITBRINGEN?
+Abgeschlossenes Hochschulstudium mit dem Schwerpunkt Informationstechnologie oder eine vergleichbare Ausbildung
+Spaß an operativer Mitarbeit in Projekten sowie an strategischer Weiterentwicklung eines Geschäftsbereiches
+Tiefgehendes Wissen in Java Entwicklung ins. Spring-Boot sowie BPM und Prozessautomatisierung auf Basis von Camunda
+Idealerweise Erfahrung in cloudbasierten Microservice-Architekturen auf Basis von Azure oder AWS
+Kommunikationsstärke und Erfahrung im Bereich Stakeholder Management
+Verhandlungssichere Deutsch- und Englischkenntnisse in Wort und Schrift
