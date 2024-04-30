@@ -49,8 +49,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * Lernziel: Aufbau infrastruktur HomeServer: docker kuba, logstash elastic nextcloud, angular-mit-login, github-actions
 * Mindmap *Zukunft Strategie Plan Idee Ziel*, Beruflich, Privat, Wohnort, Einkommen
 * Notar bezahlen
-* Bewerbung Atlas
-* Armband reparieren
+* Armband reparieren, Uhrmacher
 
 
 === Lernen  ############################################################################################################

@@ -23,9 +23,3 @@ include::{root}/.inc/include.adoc[]
 * Schicht III: Voll flexibel, Privat
   ** Dietmar: Zurich Fonds-Rente
 
-
-
-Zurich 01FV-1421219 Private Rentenversicherung. Auszahlung oder Rente. Fondsgebunden. Mindest das was einging. Nicht-Pfändungssicher, Kein Fondswechsel möglich.
-
-Zurich 02FV-1421219  ist jetzt Privat und war eine Betriebliche Altersversorgung mit der Nummer 1FV-1794945
-Steuerberater fragen: Gehaltsumwandlung vom Brutto oder Firmenfinanziert vom Brutto der Firma. Läuft momentan privat

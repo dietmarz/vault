@@ -146,7 +146,8 @@ Diese Information stammt aus diesem Film <<dock-1>> und aus diesem Buch <<antenn
 - [[[antenna]]] file:///home/dietmar/cloud/doc/tec/antenna/Fuchsantenne_160m_DF1BT.pdf[Fuchs-Antenne]
 
 * Zeichen für "soll sein" `:=`
-* Wichtige Zeichen: ↑ ↓ ← → ∑ π ∈ Δ
+* Wichtige Zeichen: ↑ ↓ ← → ∑ π ∈ Δ ✓
+
 
 
 
