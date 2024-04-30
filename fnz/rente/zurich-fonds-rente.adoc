@@ -3,28 +3,29 @@ include::{root}/.inc/include.adoc[]
 = Fonds Rentenversicherung
 
 * link:/home/dietmar/cloud/office/Finanz/Rente/Zurich-FondsRente-2FV1421219/[cloud]
-* Rentenbeginn: 01.06.2038 mit 67,5
+* frühester Rentenbeginn: 01.06.2038 mit 67,5!!!
 
 == History / Korrespondenz
-* 2024-04-11 *Beitragsfreistellung*: https://mail.google.com/mail/u/0/?pli=1#sent/KtbxLvGzZqrKZfqcLVzwwfKrLrzQcqwhnq
+* 2024-04-11 *Beitragsfreistellung*: https://mail.google.com/mail/u/0/?pli=1#sent/KtbxLvGzZqrKZfqcLVzwwfKrLrzQcqwhnq[mail]
 
 == Beiträge
-Die 01LV und die 01FV werden zusammen abgebucht.
+* Die 01LV und die 01FV werden zusammen abgebucht.
 * VERS-NR: 02FV-1421219/0 292,00€
 * VERS-NR: 01LV-1421219/0 433,83€ = 117,13 (BU) + 316,70
 
 == Zurich 01FV-1421219 Private Rentenversicherung
-* [ ] WVL Anfrage per Mail wie hoch die Kosten sind: https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent/KtbxLvhCCzfpNGZsfmXPTdBqQknprwgNmL
+* [ ] WVL Anfrage per Mail wie hoch die Kosten sind: https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent/KtbxLvhCCzfpNGZsfmXPTdBqQknprwgNmL[mail]
 * Auszahlung oder Rente. Fondsgebunden. Mindest das was einging. Nicht-Pfändungssicher, Kein Fondswechsel möglich.
 * 3 Jahre Verfügungsphase, d.h. 01.06.2038 wäre der früheste Abruf. Eigentlich 01.06.2041 -> Mit 70 ???
 * Vertriebskosten in den ersten 5Jahre bezahlt...
 * 316€ / Monat
-* 01.05.2024 für 2 Jahre kalt gestellt, danach nicht mehr requierierbar!
+* 01.05.2024 für 2 Jahre kalt gestellt, wenn 3 Jahre beitragsfrei dann ist er nicht mehr besparbar.
+* Nachzahlen oder nicht nachzahlen ist möglich.
 
-== Zurich 02FV-1421219 Private Renteversicherung
-* [ ] WVL Anfrage per Mail wie hoch die Kosten sind: https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent/KtbxLvhCCzfpNGZsfmXPTdBqQknprwgNmL
+== Zurich 02FV-1421219 Private Renteversicherung (war Betriebliche Alterversorung)
+* [ ] WVL Anfrage per Mail wie hoch die Kosten sind: https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent/KtbxLvhCCzfpNGZsfmXPTdBqQknprwgNmL[mail]
 * ist jetzt Privat und war eine Betriebliche Altersversorgung mit der Nummer *1FV-1794945*
 * 262€ / Monat
-* 01.05.2024 für 2 Jahre kalt gestellt, danach nicht mehr requierierbar!
+* 01.05.2024 für 2 Jahre kalt gestellt, wenn 3 Jahre beitragsfrei dann ist er nicht mehr besparbar.
 
 
