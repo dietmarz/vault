@@ -28,19 +28,19 @@ include::{root}/.inc/include.adoc[]
 |CompFutures |Pilot         |Cedric Bahr       |  29.04|BWB-Erstkontakt |[✓]|    |läuft wohl noch https://mail.google.com/mail/u/0/?pli=1#inbox/QgrcJHsBqzbbfWqfGPdwRwkRWKVlmmSWtjL
 |CompFutures |Adesso SE     |René Bauer        |P 29.04|BWB-Erstkontakt |   |F85 |https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxStwKplZndZLNVNhvnGxqZkDt
 |CompFutures |Hermes        |Mario Grossholz   |  30.04|*BWB-Gespräch*  |   |F85?|https://www.hermesworld.com/de/karriere/jobs/Solution-Architect-mwd-de-j3908.html
-|Michael Page|Synaos        |Melf Cosmilla     |       |                |[ ]|    |
-|Michael Page|HDI           |Melf Cosmilla     |       |*BWB-Besuch*    |[ ]|    |
-|Michael Page|VHV Versicher |Melf Cosmilla     |       |                |[ ]|    |
-|Michael Page|KSP Kanzlei   |Melf Cosmilla     |       |                |[ ]|    |
-|Michael Page|Rossmann      |Melf Cosmilla     |       |                |[ ]|    |
-|Michael Page|DTMS Call Ctr |Melf Cosmilla     |       |                |[ ]|    |
-|Michael Page|Berenberg     |Hanna Hofmann     |       |                |[ ]|    |
-|Michael Page|MSG Ins       |Hanna Hofmann     |       |                |[ ]|    |
-|Michael Page|BDK           |Hanna Hofmann     |       |                |[ ]|    |
-|Michael Page|CITTI         |Hanna Hofmann     |       |                |[ ]|    |
+|Michael Page|HDI           |Melf Cosmilla     |  30.04|*BWB-Besuch*    |[✓]|    |läuft
+|Michael Page|VHV Versicher |Melf Cosmilla     |  30.04|                |[✓]|    |läuft
+|Michael Page|Rossmann      |Melf Cosmilla     |  30.04|                |[✓]|    |läuft
+|Michael Page|CITTI         |Hanna Hofmann     |  30.04|                |[✓]|    |läuft
 |Michael Page|comparus      |Marcel Bannehr    |       |                |[ ]|    |
 |Michael Page|tellence      |Marcel Bannehr    |       |                |[ ]|    |
 |------------|--------------|------------------|-------|----------------|---|----|---------------------------------------------------------------------------------
+|Michael Page|Berenberg     |Hanna Hofmann     |  30.04|                |[ ]|    |Absagen
+|Michael Page|MSG Ins       |Hanna Hofmann     |  30.04|                |[ ]|    |Absagen
+|Michael Page|BDK           |Hanna Hofmann     |  30.04|                |[ ]|    |Absagen
+|Michael Page|KSP Kanzlei   |Melf Cosmilla     |  30.04|                |[ ]|    |Keine weiteren infos mehr
+|Michael Page|Synaos        |Melf Cosmilla     |  30.04|                |[ ]|    |zu teuer
+|Michael Page|DTMS Call Ctr |Melf Cosmilla     |  30.04|                |[ ]|    |zu teuer
 |CompFutures |KSP Kanzlei   |Mario Grossholz   |  15.04|BWB-Abgesagt    |   |F90 |Abgesagt
 |CompFutures |RTL Münster   |Mario Grossholz   |  15.04|BWB-Abgesagt    |   |F90 |Abgesagt
 |CompFutures |Mercedes      |Lars Nowak        |  26.03|BWB-Abgesagt    |   |    |link:bwb-compuFutures-mercedes.adoc[link]
@@ -55,6 +55,7 @@ include::{root}/.inc/include.adoc[]
 |---         |Zeitfracht    |Alwin Dirr        |  17.04|BWB-Abgesagt    |   |F90 |zuTeuer!
 |||||||
 |===
+
 
 
 == Computer Futures
