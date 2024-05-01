@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Prüft, ob der Dateiname als Argument gegeben wurde
+if [ -z "$1" ]; then
+    echo "Usage: $0 <file-path>"
+    exit 1
+fi
+
+FILE_PATH=$1
+
+# Versucht, die Datei aus dem Index zurückzusetzen und wiederherzustellen
+git reset HEAD "$FILE_PATH" 2>/dev/null
+git checkout -- "$FILE_PATH" 2>/dev/null
+
+# Überprüft, ob die Datei jetzt im Arbeitsverzeichnis existiert
+if [ -f "$FILE_PATH" ]; then
+    echo "File '$FILE_PATH' has been successfully restored."
+else
+    # Durchsucht die Historie nach dem letzten Commit, der die Datei enthält
+    LAST_COMMIT=$(git rev-list -n 1 HEAD -- "$FILE_PATH")
+    if [ -n "$LAST_COMMIT" ]; then
+        echo "File was deleted in the past. Restoring from last commit before deletion..."
+        git checkout $LAST_COMMIT~1 -- "$FILE_PATH"
+        if [ -f "$FILE_PATH" ]; then
+            echo "File '$FILE_PATH' has been successfully restored from commit $LAST_COMMIT."
+        else
+            echo "Failed to restore file from history. File might have been renamed or moved."
+        fi
+    else
+        echo "No record of '$FILE_PATH' found in the repository's commit history."
+    fi
+fi

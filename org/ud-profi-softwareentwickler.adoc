@@ -106,4 +106,14 @@ Die Aufgabe muss fordern, nur nicht überfordern
 * Lernen nach Projekt Wahrscheinlichkeit: CSS Frontendkram war bislang immer dabei!
 
 == Architektur Themen
-* Eine Architektur entwerfen: iSAQB Advanced Beispielaufgabe https://www.youtube.com/watch?v=VspImCV5mi8[YT]
+* Eine Architektur entwerfen: iSAQB Advanced Beispielaufgabe https://www.youtube.com/watch?v=VspImCV5mi8[Eberhard Wolff]
+
+== Qualitätsmerkmale ISO 25010
+* *Funktionale Eignung*: Vollständigkeit, Korrektheit, Angemessenheit
+* *Leistungseffizienz*:  Zeitverhalten, Verbrauchsverhalten, Kapazität
+* *Kompatibilität*:      Koexistenz, Interoperabilität
+* *Benutzbarkeit*:       Verständlichkeit, Erlernbarkeit, Bedienbarkeit, Fehlervermeidung, Ästhetik, Zugänglichkeit
+* *Zuverlässigkeit*:     Reife, Verfügbarkeit, Fehlertoleranz, Wiederherstellbarkeit
+* *Sicherheit*:          Vertraulichkeit, Integrität, Nichtabstreitbarkeit, Zurechenbarkeit, Authentizität
+* *Wartbarkeit*:         Modularität, Wiederverwendbarkeit, Analysierbarkeit, Änderbarkeit, Prüfbarkeit
+* *Übertragbarkeit*:     Anpassbarkeit, Installierbarkeit, Austauschbarkeit
