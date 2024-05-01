@@ -16,10 +16,6 @@ include::{root}/.inc/include.adoc[]
 * [ ] F w XX 12 Datenlogger besorgen
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-== Thomsen Erbschaft
-* [ ] Was wir mit den Geldern der OLB? link:../fnz/immo/oberes-juechen-grundstuecke.adoc[Details]
-
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Weitere, laufende Projekte
 * [ ] H W 99 11 Energiearbeit: 2h Labor, 3 Haufen: (Behalten) Verkaufen Verschenken Entsorgen
 * [ ] H W 90 08 Keller säubern
@@ -37,7 +33,3 @@ include::{root}/.inc/include.adoc[]
 * [ ] FDW 30 03 ?Jens Rabe monatlich https://aktienkannjeder.de/?utm_source=mail&utm_medium=newsletter&utm_campaign=aktienkannjeder
 * [R] F W 99 01 Andree de B Aufstellung verstehen, Pflege-Routine erarbeiten
 * [ ] F W 45 03 Outcome Frame Dietmar Vermietet. Vorteile beachten.
-
-* [ ] P w 30 03 CM Notizen auswerten,
-* [R] P w 99 03 Alle Methoden von CM zusammenfassen  und besser strukturieren als adoc wenn möglich.
-* [ ] P   60 03 CM 7 Schritte fertig

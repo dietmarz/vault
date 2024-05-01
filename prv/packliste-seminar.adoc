@@ -2,6 +2,20 @@ include::{root}/.inc/include.adoc[]
 
 = Packliste Seminar
 
+== Steuer-Bezahl Orga Liste
+* [ ] Sammelmappe mit Papieren angelegt!
+* [ ] Event gebucht
+* [ ] Event bezahlt und Ticket-Druck im Ordner
+* [ ] Event Rechnung angepasst und gedruckt im Ordner
+* [ ] Bahn Hin- und Rückfahrt gekauft & gedruckt
+* [ ] Unterkunft gebucht
+* [ ] Unterkunft bezahlt und
+* [ ] Unterkunft Rechnung gedruckt im Ordner. 400,65€
+* [ ] Unterkunft Rechnung angepasst und gedruckt im Ordner
+* [ ] Event und Unterkunft Details in Kalendar eingetragen
+* [ ] StB: Event, Unterkunft, PKW-Km als PostIt da. Sonst nichts
+* [ ] Sammelmappe ausgewertet
+
 == Gepäckbehälter
 * Großer Rucksack oder Rollkoffer. Viel Laufen? Dinge Unklar? Langer Aufenthalt? Keine Waschmaschine?
 
