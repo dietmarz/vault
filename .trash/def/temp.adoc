@@ -1,0 +1,80 @@
+Moin Dietmar,
+
+untenstehend findest du nun die Einladung und Agenda vom HDI für die Code Challenge vor Ort.
+
+Ich habe den Termin bereits in deinem Namen bestätigt. Hier gibt es also erstmal kein weiteres To Do für dich außer am Donnerstag zu erscheinen.
+
+Hier noch ein paar Tipps für den Termin was potenziell auf dich zukommen könnte:
+
+Beim HDI ging es in weiteren Sinne darum, einen Rest-Service in Spring Boot zu schreiben. Zeitlich natürlich sehr knapp gehalten, mit einer Präsentation des Ergebnisses in Anschluss. Zwei Tipps wären:
+
+1. Nicht nervös werden, wenn man nicht fertig wird. Das soll so
+2. Auf eine ggf. etwas anstrengendere Diskussion im Anschluss einstellen
+
+Falls du vorab Rückfragen hast, melde dich gerne. Ansonsten freue ich mich über ein kurzes Feedback im Anschluss an den Termin. Vielen Dank vorab.
+
+------------------------------------------------------
+Corinna Baumgarth, Group Recruiting Services | Group People CoE | HDI AG, Büroadresse: Proactiv-Platz 1, 40721 Hilden | Telefon +49 2103 34-7298, PC-Fax +49 2103 34-5067298, E-Mail corinna.baumgarth@hdi.de | http://www.hdi.de
+
+
+
+----------------
+
+Hallo Dietmar,
+
+wir möchten Dich gerne zu einer Code Challenge am
+
+
+
+02.05.2024 von 10:00 bis ca. 16:00 Uhr
+
+
+
+mit Christopher Kliem und Tino Reichardt (Fachbereich) einladen.
+
+
+
+Der Ablauf ist wie folgt geplant:
+
+10:00 Uhr Treffen am HDI Platz 1 - Haupteingang
+
+10:15 Uhr Kennenlernen des Teams und Vorstellung der Aufgabe
+
+10:45 Uhr Start der Code Challenge
+
+11:45 Uhr Gemeinsames Mittagessen (Du bist eingeladen)
+
+12:45 Uhr Fortsetzen der Code Challenge
+
+15:00 Uhr Deine Präsentation der Ergebnisse vor dem Team
+
+16:00 Uhr Abschluss
+
+
+
+Die Code Challenge findet im HDI-Platz 1, 30659 Hannover statt. Bitte melde Dich dort bei unseren Kolleg:innen am Empfang.
+
+Für die Code-Challenge kannst Du Deine bevorzugte IDE verwenden. Internet ist verfügbar und kann genutzt werden.
+
+
+
+Teile uns bitte telefonisch oder per E-Mail mit, ob wir Dich zu diesem Termin begrüßen dürfen.
+
+Solltest Du nicht nach Hannover kommen können, können wir die Code Challenge auch umplanen und remote durchführen.
+
+
+
+Eventuell anfallende Fahrtkosten erstatten wir Dir gern nach dem Gespräch. Bahnfahrtkosten werden auf Basis eines 2. Klasse Tickets der Deutschen Bahn unter Einreichung der Originalbelege übernommen. Solltest Du mit dem PKW anreisen, erfolgt eine pauschale Abgeltung in Höhe von 0,15 EUR pro gefahrenen Kilometer. Bitte berücksichtige, dass wir darüber hinaus anfallende Kosten grundsätzlich nicht erstatten können.
+
+
+
+Viele Grüße
+
+Corinna
+
+
+
+
+
+Corinna Baumgarth, Group Recruiting Services | Group People CoE | HDI AG, Büroadresse: Proactiv-Platz 1, 40721 Hilden | Telefon +49 2103 34-7298, PC-Fax +49 2103 34-5067298, E-Mail corinna.baumgarth@hdi.de | http://www.hdi.de
+

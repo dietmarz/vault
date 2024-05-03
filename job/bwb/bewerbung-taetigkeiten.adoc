@@ -1,10 +1,10 @@
 include::{root}/.inc/include.adoc[]
 
-= Bewerbung Interview ---> Siehe Sektion Vorbereitung
-
 == Wichtige Tätigkeiten
 
 Rolle: (Architekturberatung & Softwareentwicklung)
+
+*Ich fasse mich kurz, bei Interesse gerne Nachfragen!*
 
 === Kühne und Nagel Team Io
 * Einführung Status-Tracking für Container für Kunden
@@ -16,25 +16,23 @@ Rolle: (Architekturberatung & Softwareentwicklung)
 
 === Otto, Projekt Verwaltung strategischer Produktdaten
 * Anzeige Kontextspezifischer Überschreibungen
-* Einführung von Entwürfen
+* *ICH* Einführung von Entwürfen mit Zustimmung und Ablehnung
 * Aufbau und Deployment des Structures Service (Kotlin Projekt)
 * Aufbau und Deployment des Tree Service (Kotlin Projekt)
-* Unterstützung bei Lasttests
+* Unterstützung bei Lasttests: Start, Erweiterungen, Auswertungen
 * Positiv: Professionell AWS, Agilität, Firmenaufstellung, Stimmung
 * Negativ: Kritische Meinung zu der Architektur
 
 === Schulverwaltungssoftware Schleswig-Holstein
 * Einführung mehrerer Schulformen pro Schule
 * Konsolidierung der PDF-Generatoren zur Zeugnisgenerierung
-* Einführung von UI Tests mittels Selenium in Docker, Page Object Pattern und Cucumber und Docker
+* Einführung von UI Tests mittels Selenium in Docker, Page Object Pattern und Cucumber
 
 === Berenberg Bank
 * Unterstützung bei Daueraufträgen.
 * Einführung neue Wealth Management App
 * Prüfung der Ablösung des Depot-Donuts in Angular
 * Prüfung Einführung Browserstack
-
-
 
 == Freizeit
 * ehrenamtlich psychosoziale Hilfe

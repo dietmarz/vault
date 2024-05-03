@@ -1,0 +1,64 @@
+include::{root}/.inc/include.adoc[]
+
+= Progressive Hermes Software Entwickler
+
+* https://www.hermesworld.com/de/karriere/jobs/Senior-Software-Developer-MDE-mwd-de-j3781.html[Stelle]
+
+* Montag 6.5. Anruf für die 2 von 3 Runden
+* Arbeiten im Scanner Team, 2 Interne, 2 Externe
+* Mobil Device Management
+* Lernen Fe-React und Android
+* Grundlagen AWS wiederholen
+* Rufbereitschaft
+
+
+
+== Kühne
+* Einführung Status-Tracking für Container für Kunden
+** Erarbeitung der DDD & Hexagonale Architektur Umsetzung
+
+* Frontend Login Page, Security Login Token an Testpage durchreichen und
+  in Vue Value Store einpflegen
+
+* Einführung Shipper's Reference in Messages und Persistence
+* Einbau Delete Contract
+* Rabbit MQ
+
+* Positiv: Robuste Technologie Auswahl, Zusammenarbeit mit der Führung, Stimmung im Team
+* Negativ: Wegen Komplexität fachlich viel auf Zuruf, Unterschätzung des Lernwillens
+
+
+== Otto
+* Alles auf AWS
+
+* Anzeige Kontextspezifischer Überschreibungen mit Kotlin, Mongo, Terra-form, Terra-grunt, Vue
+  ** *Ich* Einführung von Entwürfen mit Zustimmung und Ablehnung
+
+* Lasttest Erweiterungen, Durchführung, Auswertung auf AWS, Infrastructure as Code
+
+* Positiv: Professionell AWS, Agilität, Firmenaufstellung, Stimmung
+* Negativ: Potenzial für Vereinfachungen
+
+
+
+Android Projekt
+
+
+== Warum Hermes
+* Logistiker
+* Weiterbildungsmöglichkeiten, Java User Group
+* Google Cloud
+* Beschwerde prozess
+
+=== Was ich mir wünsche
+* Die Chance in ein Thema und Technologie richtig einzutauchen
+* Ich suche eine Arbeitsumgebung, die sowohl menschlich als auch produktiv ist.
+   ** Ein Ort, an dem Kollegialität und Zusammenarbeit geschätzt werden und jeder dazu beiträgt, ein positives Arbeitsklima zu schaffen.
+* Herausforderungen und damit zu wachsen
+* Mehr Planbarkeit, weniger Wechsel
+* Ich mag Software ohne Schnickschnack, basierend auf Anforderungen, die funktioniert.
+  ** Automatisierte Tests -> Gesicherte Funktionalität
+  ** Robust und Erweiterbar
+
+max Teichmann
+
