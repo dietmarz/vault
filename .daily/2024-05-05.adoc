@@ -12,7 +12,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 == Motto
 * Wenn Du etwas loslassen möchtest, musst Du es erleben: Funk, Angeln, QRP. Plane das Erleben!
-* Fokus gegen Unruhe, Bewußt-Sein!
+* Fokus gegen Unruhe, Bewußt-Sein! Verbinde das 3. Chakra
 
 
 
@@ -28,24 +28,6 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * [ ] O-- 40 Alle adoc aus office einsortieren. Prüfen ob bei Fahrräder rechnung verlinkt und Rahmennummer angegeben.
 * [ ] Lynx Depot eröffnen
 * [ ] Marion Birgfeld anrufen
-* [ ] Einkaufen
-* [ ] Bewerbung Atlas Elektronik
-
-* Sparplan IE00B6R52259 wieder aktivieren
-
-
-
-* Arbeitsplan, wenn wieder neuer Job, was machen.
-** Diesen etf sparplan wieder aktiovieren
-Depot	1009782768
-Cashkonto	0017614124
-Bezeichnung	ISHARES MSCI ACWI ETF
-ISIN	IE00B6R52259
-WKN, Symbol	A1JMDF, IUSQ
-Auftragsart	Sparplan
-Betrag	200,00 EUR
-Zahlungsweise	1. Tag im Monat, monatlich
-Laufzeit	ab 01.12.2021
 
 
 
@@ -58,7 +40,7 @@ Laufzeit	ab 01.12.2021
 
 == HEUTE ###############################################################################################################
 * Aktien verkaufen!
-* Ostrfriesische Brandkasse kontaktieren
+* Ostfriesische Brandkasse kontaktieren 04941 177-0
 * Mutti 354,50 überweisen
 * Kontonummer validieren
 * Aufgabe Hermes lösen

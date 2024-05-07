@@ -10,13 +10,15 @@ Rolle: (Architekturberatung & Softwareentwicklung)
 * Einführung Status-Tracking für Container für Kunden
 * Erarbeitung der DDD & Hexagonale Architektur Umsetzung
 * Einführung Shipper's Reference in Messages und Persistence
-* Einbau Delete Contract
+* Einbau Delete Contract sentry
+* Frontend Login Page, Security Login Token an Testpage durchreichen und  in Vue Value Store einpflegen
 * Positiv: Robuste Technologie Auswahl, Zusammenarbeit mit der Führung, Stimmung im Team
 * Negativ: Wegen Komplexität fachlich viel auf Zuruf, Unterschätzung des Lernwillens
 
 === Otto, Projekt Verwaltung strategischer Produktdaten
 * Anzeige Kontextspezifischer Überschreibungen
 * *ICH* Einführung von Entwürfen mit Zustimmung und Ablehnung
+* Lasttest Erweiterungen, Durchführung, Auswertung auf AWS, Infrastructure as Code
 * Aufbau und Deployment des Structures Service (Kotlin Projekt)
 * Aufbau und Deployment des Tree Service (Kotlin Projekt)
 * Unterstützung bei Lasttests: Start, Erweiterungen, Auswertungen

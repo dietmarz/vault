@@ -5,6 +5,13 @@ include::{root}/.inc/includeDaily.adoc[]
 link:../fnz/office.adoc[Regeln]
 link:../def/score-board.adoc[Daily Score Board]
 
+== Done
+* 07:00 - 09:00
+* 09:00 - 11:00
+* 11:00 - 13:00
+* 13:00 - 15:00
+* 15:00 - 17:00
+
 == Aufgaben
 _LAST_AUFGABEN_== Notizen
 

@@ -1,0 +1,17 @@
+include::{root}/.inc/include.adoc[]
+
+= Mongo Grundlagen
+
+== Grundlagen
+* Speichert Daten in einem JSON-ähnlichen Format (BSON), gut für veränderliche Datenschemata
+* Ist hoch skalierbar, sowohl horizontal als auch vertikal. Sie unterstützt Sharding: Ein Sharding-Cluster besteht aus drei Hauptkomponenten
+  ** *1. Shard* (Scherbe) enthält einen Teil der gesamten Datenbankdaten, kann selbst ein Replica Set sein.
+  ** *2. Config Server* Sie speichern Informationen darüber, welche Daten auf welchem Shard gespeichert sind.
+  ** *3. Mongos (Query Router)* Es leitet die Anfragen der Clients an die entsprechenden Shards weiter, basierend auf den Sharding-Schlüsseln und der im Config Server gespeicherten Konfiguration.
+  ** *Shard Key* 1-N Felder in den Dokumenten, die als Basis für die Verteilung der Daten über die verschiedenen Shards dienen
+  ** *Chunk* Jeder Chunk wird durch einen Bereich von Sharding-Keys definiert und beinhaltet alle Datensätze innerhalb dieses Bereichs
+  ** *Balancing* Der Balancer, der auf den Config Servern läuft, überwacht die Größe und Anzahl der Chunks pro Shard und initiiert den Transfer von Chunks zwischen den Shards, wenn ein Ungleichgewicht festgestellt wird.
+  ** *Queries & Operations*
+* Flexibel, kein festes Schema
+* Geo-Räumliche Informationen
+* Replikationen über Datenzentren hinweg

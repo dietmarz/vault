@@ -16,9 +16,12 @@ include::{root}/.inc/include.adoc[]
 * [ ] Hemd anziehen, kein Kaffee!
 * [ ] Extra Einwahltermin 15min früher
 * [ ] Klemmbrett mit Papier und Stift, Namen
-* [ ] Timer parat. Diese Seite drucken
+* [ ] Timer parat, Countdown zum Termin-Ende Diese Seite drucken
 * [ ] Seite öffnen: link:bewerbung-taetigkeiten.adoc[interview]
 * [ ] Kamera-App unter Kamera, ins Bild schauen. Extra Workspace als Vorbereitung nutzen. Profil öffnen
+* [ ] Einen Screenshot machen von den Teilnehmern!
+* [ ] Handy stumm
+* [ ] Prüfen ob Einladungslink vorhanden
 
 === Was ich mir wünsche
 * Die Chance in ein Thema und Technologie richtig einzutauchen

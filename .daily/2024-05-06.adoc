@@ -1,0 +1,103 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= Montag, 06. Mai 2024
+
+link:../fnz/office.adoc[Regeln]
+link:../def/score-board.adoc[Daily Score Board]
+
+== Done
+* 07:00 - 09:00
+* 09:00 - 11:00
+* 11:00 - 13:00
+* 13:00 - 15:00
+* 15:00 - 17:00
+
+
+
+
+== Aufgaben
+State: ' ' Unplanned, B = Blocked, X = Done, R = Refine it!, W = Wiedervorlage, S = Selected
+Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
+
+
+== Motto
+* Wenn Du etwas loslassen möchtest, musst Du es erleben: Funk, Angeln, QRP. Plane das Erleben!
+* Fokus gegen Unruhe, Bewußt-Sein! Verbinde das 3. Chakra
+
+
+
+== First Level Backlog
+* link:../prv/backlog.adoc[Second-Level-Backlog]
+* [ ] O-W 60 Backup-DVD Medien und Md5 Dateien strukturieren
+  **         Backup großer Video Dateien überlegen, wie inkrementell sichern. Einen Notes/.archive und Notes/.backup Ordner anlegen,
+             dort md5 der Dateien speichern. Archive = Cloud ohne git, doppelt gesichert.  Backup = M-Disc md5 Dateien. dot Ordner damit ausgeschlossen vom normalen grep.
+             Für Archive könnte man ein Skript schreiben. Wichtig ist die M-Discs zu benennen. Nur in der Hülle!. Archiv md5 Dateien machen keinen Sinn. Vielleicht nur die Directory Struktur.
+* [ ] F-W 60 Google AusgabenProMonat ins vault holen
+* [ ] FdW XX Versicherungen adoc anlegen, strukturieren. Solange 60 wiederholen bis fertig
+* [ ] M-W 60 Start Einstellen Kleinanzeigen/eBay
+* [ ] O-- 60 Task counter einbauen. Zählt runter 0. rauf. Hat aber im Scrum auch nicht interessiert. Frog Regel anhängen
+* [ ] O-- 40 Alle adoc aus office einsortieren. Prüfen ob bei Fahrräder rechnung verlinkt und Rahmennummer angegeben.
+* [ ] Lynx Depot einzahlen wenn Geld da
+* [ ] Marion Birgfeld anrufen
+
+== Frog FIRST!!!
+
+
+== Bewerben Routine
+* https://mail.google.com/mail/u/0/?pli=1#inbox[Nur Bewerber Mails]
+* https://www.xing.com/chats[]
+
+== HEUTE ###############################################################################################################
+* Ostfriesische Brandkasse kontaktieren 04941 177-0
+
+** service@brandkasse-aurich.de  Im Eichengrund 10 als Betreff. Kopie der Umschreibung, mit Handynummer bei Rückfragen.
+
+
+
+
+* [ ] JdW 60 BEWERBEN! Jeden Tag Routine!
+* Schreibtisch aufräumen
+* [ ] WVL Raveling Fuger angebot?
+* [ ] WVL Garage Leck Esens, Ingo ansprechen
+* Tabnine prüfen als KI
+* Lernziel: Aufbau infrastruktur HomeServer: docker kuba, logstash elastic nextcloud, angular-mit-login, github-actions
+* Mindmap *Zukunft Strategie Plan Idee Ziel*, Beruflich, Privat, Wohnort, Einkommen
+* Armband reparieren, Uhrmacher
+* Dauerauftrag 800 Euro einrichten.
+
+=== Lernen  ############################################################################################################
+* [ ] Angular link:../tec/web/angular-lernen.adoc[Ziele]
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Eichengrund Übertragungsvertrag
+link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
+* [ ] Perso mitnehmen! Kalendereintrag beachten
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Gesundheit
+* [ ] F-- 30 < ? > KKasse wechseln
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Haus
+* [ ] H-- 30 < ? > Ladestecker bauen -> PausenJob
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Lernen
+* [ ] Jdw 99 < ? > Projekt Wecker / Uhr Website starten
+** Angular, spring boot
+* [ ] Udemy Kurs DDD ist echt gut!
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

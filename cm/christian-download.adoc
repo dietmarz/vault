@@ -30,7 +30,7 @@ yt-dlp --legacy-server-connect --no-check-certificate --user-agent "Mozilla/5.0 
 ## XXX= WR, LuA, 3JT-2
 
 # mp4 to mp3
-ls | sed 's/.mp4//' | xargs -i -n 1 -P 7 ffmpeg -i {}.mp4 -vn -acodec libmp3lame -ac 2 -qscale:a 4 -ar 48000 {}.mp3
+ls *.mp4 | sed 's/.mp4//' | xargs -i -n 1 -P 7 ffmpeg -i {}.mp4 -vn -acodec libmp3lame -ac 2 -qscale:a 4 -ar 48000 {}.mp3
 
 
 # Keep Original files

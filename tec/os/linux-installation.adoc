@@ -389,9 +389,17 @@ sudo ./aws/install
 sudo apt-get install imagemagick parallel ghostscript qpdf unpaper tesseract-ocr
 sudo apt-get install tesseract-ocr-deu
 sudo apt-get install ocrmypdf
-
-ocrmypdf -l eng+deu Check_001300.pdf Unfall.pdf
 ----
+
+.Convert JPEGs to PDF: convert *.jpg -quality 75 -resize 1240x1753 output.pdf
+----
+sudo vim /etc/ImageMagick-6/policy.xml
+# Search
+  <policy domain="coder" rights="none" pattern="PDF" />
+# To
+  <policy domain="coder" rights="read|write" pattern="PDF" />
+----
+
 
 Fix backtik and tilde
 ----

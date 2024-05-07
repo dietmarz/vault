@@ -1,0 +1,20 @@
+include::{root}/.inc/include.adoc[]
+
+= Nach Arbeitslosigkeit
+
+* Klärung ob im Nov Urlaub
+* Cosmos und Zurich Verträge wieder weiter? Neue Idee? wegen 67 Ausstieg
+* Flatex Sparplan IE00B6R52259 wieder aktivieren
+----
+   Depot	1009782768
+   Cashkonto	0017614124
+   Bezeichnung	ISHARES MSCI ACWI ETF
+   ISIN	IE00B6R52259
+   WKN, Symbol	A1JMDF, IUSQ
+   Auftragsart	Sparplan
+   Betrag	200,00 EUR
+   Zahlungsweise	1. Tag im Monat, monatlich
+   Laufzeit	ab 01.12.2021
+----
+* Arbeitsamt melden
+

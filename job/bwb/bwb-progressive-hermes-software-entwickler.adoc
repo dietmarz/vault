@@ -4,53 +4,47 @@ include::{root}/.inc/include.adoc[]
 
 * https://www.hermesworld.com/de/karriere/jobs/Senior-Software-Developer-MDE-mwd-de-j3781.html[Stelle]
 
-* Montag 6.5. Anruf für die 2 von 3 Runden
-* Arbeiten im Scanner Team, 2 Interne, 2 Externe
-* Mobil Device Management
-* Lernen Fe-React und Android
-* Grundlagen AWS wiederholen
-* Rufbereitschaft
+== Über mich
+* Grundsatz: Ich mag nicht höher gestellt werden, alle Meinungen werden gleichwertig zu meiner geprüft
+* Kernkompetenz: Backend, etwas Frontend, etwas Cloud und alles was mich weiter bringt
 
 
+== Probleme
+* Beispiel: Soll man im Vorbeigehen "Findings" fixen
+  ** Ich nein: Extra Commit nötig, mit git-gerrit nicht möglich.
+  ** Einigung: Entscheidung im Einzelfall
 
-== Kühne
-* Einführung Status-Tracking für Container für Kunden
-** Erarbeitung der DDD & Hexagonale Architektur Umsetzung
+* Beispiel: Entwicklerin nimmt mir PR Kommentar übel
+  ** Folge: 4 Augengespräch
+  ** Ursache: Imperativer Schreibstil durch Zeitmangel, Klärung keine bösen Absichten
+  ** Learning: Alles Offen formulieren, alles mit Bitte, mehr Zeit lassen beim Formulieren.
 
-* Frontend Login Page, Security Login Token an Testpage durchreichen und
-  in Vue Value Store einpflegen
-
-* Einführung Shipper's Reference in Messages und Persistence
-* Einbau Delete Contract
-* Rabbit MQ
-
-* Positiv: Robuste Technologie Auswahl, Zusammenarbeit mit der Führung, Stimmung im Team
-* Negativ: Wegen Komplexität fachlich viel auf Zuruf, Unterschätzung des Lernwillens
-
-
-== Otto
-* Alles auf AWS
-
-* Anzeige Kontextspezifischer Überschreibungen mit Kotlin, Mongo, Terra-form, Terra-grunt, Vue
-  ** *Ich* Einführung von Entwürfen mit Zustimmung und Ablehnung
-
-* Lasttest Erweiterungen, Durchführung, Auswertung auf AWS, Infrastructure as Code
-
-* Positiv: Professionell AWS, Agilität, Firmenaufstellung, Stimmung
-* Negativ: Potenzial für Vereinfachungen
-
-
-
-Android Projekt
-
+* Problemlösungen
+  ** Dataport: Member in Spring-Bean
 
 == Warum Hermes
-* Logistiker
-* Weiterbildungsmöglichkeiten, Java User Group
-* Google Cloud
-* Beschwerde prozess
+* Logistiker, kenne viele Probleme
+* Spannende Technologien
+** Google Cloud, Kotlin, Terraform
+* Kein Freund von Amazon und seinem Umgang mit Mitarbeitern
+* Hermes kenne ich schon von
+** Weiterbildungsmöglichkeiten, Java User Group
+** Beschwerde prozess, IBM WebSphere Process Server
+* Guter Eindruck:
+** Team entscheidet selbstständig -> Eigenverantwortlich -> Vertrauen
+** Teamlead nicht anwesend -> Einfluss erkannt
 
-=== Was ich mir wünsche
+== Meine Fragen
+* konkrete *Erwartungen* an mich
+* Wie wird die *Zusammenarbeit* im Team gelebt?
+* Jetzigen *Herausforderungen* des Teams?
+* Was ist euch bei einem neuen Teammitglied am allerwichtigsten?
+* Wie lange ist der Release Cycle?
+* Warum arbeite ihr gerne Hermes?
+* Arbeitet jemand mit Linux?
+
+
+== Was ich mir wünsche
 * Die Chance in ein Thema und Technologie richtig einzutauchen
 * Ich suche eine Arbeitsumgebung, die sowohl menschlich als auch produktiv ist.
    ** Ein Ort, an dem Kollegialität und Zusammenarbeit geschätzt werden und jeder dazu beiträgt, ein positives Arbeitsklima zu schaffen.
@@ -60,5 +54,19 @@ Android Projekt
   ** Automatisierte Tests -> Gesicherte Funktionalität
   ** Robust und Erweiterbar
 
-max Teichmann
+== Vorgespräch mit  Michael Kunze (Teamlead IT Last Mile)
+* Montag 6.5. Anruf für die 2 von 3 Runden
+* Arbeiten im Scanner Team, 2 Interne, 2 Externe
+* Mobil Device Management
+* Lernen Fe-React und Android
+* Grundlagen AWS wiederholen
+* Rufbereitschaft
+* Android Projekt
 
+
+== Gespräch mit Sebastian Koniercek und Max Teichmann. Amri fehlt
+* Aufgabe: Be, Fe, TypeScript, Mongo sping,
+* Teams aufgeteilt in Support und Entwicklung
+* Erwartung: Struktur, Coaching, Viel selbst zu organisieren
+  ** Beispiel: Architektur Standards, Vorgaben Codestyles,...
+  **

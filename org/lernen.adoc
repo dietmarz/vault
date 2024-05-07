@@ -23,6 +23,7 @@
 == Platformen
 * https://exercism.org/tracks
 * https://www.youtube.com/playlist?list=PLn8PRpmsu08oBSjfGe8WIMN-2_rwWFSgr[matlab]
+* https://explore.skillbuilder.aws/
 
 == Generell lernen
 * zshell

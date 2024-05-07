@@ -1,6 +1,4 @@
-include::/home/dietmar/cloud/customer/Otto/msg/inc/templateInclude.adoc[]
-
-= AWS
+= AWS advantages
 
 == Saved Costs
 * Data Center Building, Security
@@ -14,9 +12,7 @@ include::/home/dietmar/cloud/customer/Otto/msg/inc/templateInclude.adoc[]
 * Rapid elasticity
 * Pay what you use
 
-
-== Cloud Typees
-
+== Cloud Types
 === Private Cloud
 * Everything selfservice: VM (or Container), Hypervisor, Hardware
 * My Data stay in house!
@@ -52,8 +48,8 @@ include::/home/dietmar/cloud/customer/Otto/msg/inc/templateInclude.adoc[]
 == Global Infrastructure
 * 25 Regions around the world
 * Each Region has at least 2 Availability Zone
-* An Avaibility Zone has one ore more Data Centers
-* An avaibility Zone is physically seperate and isolated from each other
+* An Availability Zone has one more more Data Centers
+* An availability Zone is physically separate and isolated from each other
 * Local Zones extend regions closer to the end-users, eg: CDN
 * Regions are redundant connected
 
@@ -63,16 +59,16 @@ include::/home/dietmar/cloud/customer/Otto/msg/inc/templateInclude.adoc[]
 == 19 The 6 Advantages!
 * Only Operative Costs
   ** Pay as you go
-  ** Tax deductible in same year
-* Aggreated Usage across thousands of customers
+** Tax-deductible in same year
+* Aggregated Usage across thousands of customers
 * Stop guessing capacity
-* Increase speed aguility
+* Increase speed agility
 * Stop money for data centers, invest it to your business
 * Go global in minutes
 
 == IAM (Identity & Access Management) Web Service
 * Delete root access keys
-* Create induvidual users with MFA
+* Create individual users with MFA
 * Use roles are used for delegating permissions for services
 * Use manged policies for groups instead of own
 * Authentication and Authorisation
