@@ -5,6 +5,7 @@ if [ "$HOSTNAME" == "DEXXXLPF458HGE" ] || [ "$HOSTNAME" == "DEW33687" ]
 then
   export ENV_VAULT="c:/dietmar/vault"
   export ENV_EDITOR="c:/opt/idea/bin/idea64.exe"
+  export ENV_CALCULATOR="excel.exe"
   export ENV_FILE_LISTER="ls"
   export ENV_FILE_LISTER_ARG="-lrth"
   export ENV_PYTHON="py.exe"
@@ -20,6 +21,7 @@ if [ "$HOSTNAME" == "p5470" ] || [ "$HOSTNAME" == "e5401" ] || [ "$HOSTNAME" == 
 then
   export ENV_VAULT="/home/dietmar/cloud/Notes"
   export ENV_EDITOR="/opt/idea/bin/idea.sh"
+  export ENV_CALCULATOR="/usr/bin/soffice --calc"
   export ENV_FILE_LISTER="tree"
   export ENV_FILE_LISTER_ARG=""
   export ENV_PYTHON="python3"
@@ -39,6 +41,12 @@ fi
 if ! [ -f "$ENV_EDITOR" ]
 then
     echo ENV_EDITOR does not point to the idea editor executable: $ENV_EDITOR
+fi
+
+# Extrahiere den Pfad ohne die Argumente --calc
+if ! [ -f "$(echo $ENV_CALCULATOR | cut -d ' ' -f1)" ]
+then
+    echo ENV_CALCULATOR does not point to a calculator executable: $ENV_CALCULATOR
 fi
 
 SERVER_BIN=/home/dietmar/project/server/bin
@@ -89,7 +97,7 @@ alias intermediate="git add . && git commit -m intermediate"
 alias st="git status -s"
 alias lg="git lg -10"
 alias log="git log -3"
-alias listAuthors="git shortlog -s -n --all --no-merges"
+alias authors="git shortlog -s -n --all --no-merges"
 alias master="git checkout master && rebase && st && git lg -1"
 alias develop="git checkout develop && rebase && st && git lg -1"
 alias main="git checkout main && rebase && st && git lg -1"

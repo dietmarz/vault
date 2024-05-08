@@ -1,0 +1,24 @@
+include::{root}/.inc/include.adoc[]
+
+= Git Grundlagen
+
+== Git submodule
+
+
+[source, bash]
+----
+git clone [URL-des-Hauptrepositorys]
+cd [Name-des-Hauptrepositorys]
+
+git submodule add [URL-des-anderen-Repositorys] [optionaler-Pfad/Name-des-Submoduls]
+
+git add .
+git commit -m "Submodul hinzugefügt"
+
+# Später auf einem anderen Rechner
+git clone --recurse-submodules [URL-des-Hauptrepositorys]
+
+# Rebase
+git submodule update --init --recursive
+
+----

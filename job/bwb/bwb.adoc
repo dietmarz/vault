@@ -20,14 +20,14 @@ include::{root}/.inc/include.adoc[]
 |Progressive |DZ Hyp AG     |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |https://vr.mein-check-in.de/dzhyp/position-89848
 |Progressive |Otto          |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |*gar nicht* https://www.otto.de/jobs/de/stellenangebote/03527709/full-stack-developer-%7C-java-typescript-aws-w-m-d-/
 |Progressive |Hermes        |Christina Rutz    |  29.04|*BWB-2-Runde*   |F85 |*Montag anruf* https://www.hermesworld.com/de/karriere/jobs/Senior-Software-Developer-MDE-mwd-de-j3781.html
-|Progressive |msg systems   |Christina Rutz    |  29.04|*BWB-Gespräch*  |F85 |*reise* https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxStwKWJNmvGBDpszRvlLqQZTm
+|Progressive |msg systems   |Christina Rutz    |  29.04|*BWB-1-Runde*   |F85 |*reise* https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxStwKWJNmvGBDpszRvlLqQZTm
 |Progressive |Cimt AG       |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |*gehalt* https://www.cimt-ag.de/job/cloud-java-entwickler-m-w-d-3-2/
 |Progressive |Seven         |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |*reise* https://7p-group.com/de/stellenanzeigen/
 |Koenigstein |Neonpulse     |Marco Weiss       |  22.04|BWB-Erstkontakt |    |29.04 Nachgefragt, meldet sich per Telefon
 |Constaff    |Mercedes      |Julian Müller     |  19.04|BWB-Erstkontakt |A103|https://mail.google.com/mail/u/0/?pli=1#inbox/FMfcgzGxStnFcQZCzMSLKKlKRHMtnMhQ
 |CompFutures |Pilot         |Cedric Bahr       |  29.04|BWB-Erstkontakt |    |läuft wohl noch https://mail.google.com/mail/u/0/?pli=1#inbox/QgrcJHsBqzbbfWqfGPdwRwkRWKVlmmSWtjL
 |CompFutures |Adesso SE     |Rene Bauer        |P 29.04|BWB-Erstkontakt |F85 |https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxStwKplZndZLNVNhvnGxqZkDt
-|CompFutures |Hermes        |Mario Grossholz   |  30.04|*BWB-1-Runde*   |F85?|Montag 9:20 Max Teichmann https://www.hermesworld.com/de/karriere/jobs/Solution-Architect-mwd-de-j3908.html
+|CompFutures |Hermes        |Mario Grossholz   |  30.04|*BWB-2-Runde*   |F85?|Montag 9:20 Max Teichmann https://www.hermesworld.com/de/karriere/jobs/Solution-Architect-mwd-de-j3908.html
 |Michael Page|VHV Versicher |Melf Cosmilla     |  30.04|                |    |läuft
 |Michael Page|Rossmann      |Melf Cosmilla     |  30.04|                |    |läuft
 |Michael Page|CITTI         |Hanna Hofmann     |  30.04|                |    |läuft

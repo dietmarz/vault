@@ -1,0 +1,55 @@
+include::{root}/.inc/include.adoc[]
+
+= Kotlin
+
+* ? Elvis-Operator
+* use `?.let{...}` instead of if not null
+* let returns last call of block
+* also returns this themselves
+* apply offers invisible this and returns this
+* run is the same as apply but returns the last line
+
+== Infix function
+* Call function, omitting dot and parenthesis, like an operator <<diving>>
+* must be member or extension functions
+* must have a single parameter, no varargs
+
+== data class
+* equals, hashCode, toString, copy
+* component-N-() N = Position in der Parameterliste des Primärkonstruktors
+
+[source, kotlin]
+----
+data class User(val name: String, val age: Int)
+val user1 = User("Alice", 30) // Construct
+println(user1)  // toString: Gibt "User(name=Alice, age=30)" aus
+val user2 = User("Alice", 30)
+println(user1 == user2)  // equals: Gibt "true" aus, weil die Inhalte gleich sind
+val user3 = user1.copy(age = 31)
+println(user3)  // Copy: Gibt "User(name=Alice, age=31)" aus
+val user3 = user1.copy(age = 31)
+println(user3)  // Destructing Gibt "User(name=Alice, age=31)" aus
+----
+
+== Operators
+[source, kotlin]
+----
+operator fun MyClass.plus(other: MyClass): MyClass {return MyClass(...)}
+// + plus, - minus, ++ incr, -- decr, [N] get, contains, in, invoke, compareTo, rangeTo
+
+----
+
+
+== Higher funktions
+* inline means some kind of copy that method
+* Returns from lambda or from outer funktion? Return always returns from the closest `fun` keyword
+
+
+
+
+
+
+
+[bibliography]
+- [[[diving]]] https://www.youtube.com/watch?v=zmqhe7fDEHI[Diving 2020]
+  Diving into advanced Kotlin features by Simon Wirtz
