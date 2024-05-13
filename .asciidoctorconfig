@@ -1,6 +1,6 @@
 :root: {asciidoctorconfigdir}
-:doc: {asciidoctorconfigdir}/../cloud/doc
-:office: {asciidoctorconfigdir}/../cloud/office
+:doc: {asciidoctorconfigdir}/../doc
+:office: {asciidoctorconfigdir}/../office
 
 
 ////

@@ -2,12 +2,25 @@ include::{root}/.inc/include.adoc[]
 
 = Kotlin
 
-* ? Elvis-Operator
+* x = (<exp1> ?: <exp2>) Elvis-Operator: exp1 == null ? <exp1> : <exp2>
 * use `?.let{...}` instead of if not null
-* let returns last call of block
-* also returns this themselves
-* apply offers invisible this and returns this
-* run is the same as apply but returns the last line
+* `with(obj) {member="value"}` spart Schreibarbeit, return Lambda-Ausdruck
+* `obj.run {member="value"}` is the same as with aber mit . angewendet, return Lambda-Ausdruck
+* `obj.let {it.member="value"}` durch `it` mehr Klarheit wer gemeint ist, return Lambda-Ausdruck
+* `obj.apply {member="value"}` returns this
+* `obj.also {it.member="value"}`  returns this, gut in einer Aufrufkette oder zum tauschen
+
+* `apply` offers invisible this and returns this
+
+* zahl.`takeIf` { it> minimum }?.let { ... }
+
+[source, kotlin]
+----
+val result = service.call()?.let {
+    println(it)
+    it.length  // Der Rückgabewert des Blocks
+}
+----
 
 == Infix function
 * Call function, omitting dot and parenthesis, like an operator <<diving>>
@@ -46,6 +59,9 @@ operator fun MyClass.plus(other: MyClass): MyClass {return MyClass(...)}
 
 
 
+== Klassen und Objekte
+* Innere Klassen sind erstmal statisch, es sein denn sie sind it `inner class` deklariert. <<hb>> 232
+
 
 
 
@@ -53,3 +69,4 @@ operator fun MyClass.plus(other: MyClass): MyClass {return MyClass(...)}
 [bibliography]
 - [[[diving]]] https://www.youtube.com/watch?v=zmqhe7fDEHI[Diving 2020]
   Diving into advanced Kotlin features by Simon Wirtz
+- [[[hb]]] {doc}/java/kotlin/Kotlin-Das-umfassende-Handbuch.pdf

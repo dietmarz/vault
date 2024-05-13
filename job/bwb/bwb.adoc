@@ -15,14 +15,9 @@ include::{root}/.inc/include.adoc[]
 |???         |???           |Timur Beck        |  29.04|BWB-Erstkontakt |    |LinkedIn keine weiteren Infos, Lukas Heim wird mich anrufen
 |Progressive |Engel&Völkers |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |https://engel-voelkers-liquidhome.jobs.personio.de/job/1372859?language=de&display=de
 |Progressive |Engel&Völkers |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |https://engel-voelkers-liquidhome.jobs.personio.de/job/1393356?language=de&display=de
-|Progressive |Fielmann      |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |*besetzt* https://jobs.fielmann.com/en/job-offers/detail/34059-senior-software-engineer-wmd
 |Progressive |DZ Hyp AG     |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |https://vr.mein-check-in.de/dzhyp/position-89839
 |Progressive |DZ Hyp AG     |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |https://vr.mein-check-in.de/dzhyp/position-89848
-|Progressive |Otto          |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |*gar nicht* https://www.otto.de/jobs/de/stellenangebote/03527709/full-stack-developer-%7C-java-typescript-aws-w-m-d-/
 |Progressive |Hermes        |Christina Rutz    |  29.04|*BWB-2-Runde*   |F85 |*Montag anruf* https://www.hermesworld.com/de/karriere/jobs/Senior-Software-Developer-MDE-mwd-de-j3781.html
-|Progressive |msg systems   |Christina Rutz    |  29.04|*BWB-1-Runde*   |F85 |*reise* https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxStwKWJNmvGBDpszRvlLqQZTm
-|Progressive |Cimt AG       |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |*gehalt* https://www.cimt-ag.de/job/cloud-java-entwickler-m-w-d-3-2/
-|Progressive |Seven         |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |*reise* https://7p-group.com/de/stellenanzeigen/
 |Koenigstein |Neonpulse     |Marco Weiss       |  22.04|BWB-Erstkontakt |    |29.04 Nachgefragt, meldet sich per Telefon
 |Constaff    |Mercedes      |Julian Müller     |  19.04|BWB-Erstkontakt |A103|https://mail.google.com/mail/u/0/?pli=1#inbox/FMfcgzGxStnFcQZCzMSLKKlKRHMtnMhQ
 |CompFutures |Pilot         |Cedric Bahr       |  29.04|BWB-Erstkontakt |    |läuft wohl noch https://mail.google.com/mail/u/0/?pli=1#inbox/QgrcJHsBqzbbfWqfGPdwRwkRWKVlmmSWtjL
@@ -33,7 +28,12 @@ include::{root}/.inc/include.adoc[]
 |Michael Page|CITTI         |Hanna Hofmann     |  30.04|                |    |läuft
 |Michael Page|comparus      |Marcel Bannehr    |       |                |    |
 |Michael Page|tellence      |Marcel Bannehr    |       |                |    |
-|------------|--------------|------------------|-------|----------------|----|---------------------------------------------------------------------------------
+|------------|--------------|------------------|-------|----------------|----| ---------------------------------------------------------------------------------
+|Progressive |Seven         |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |*reise* https://7p-group.com/de/stellenanzeigen/
+|Progressive |Cimt AG       |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |*gehalt* https://www.cimt-ag.de/job/cloud-java-entwickler-m-w-d-3-2/
+|Progressive |Otto          |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |*gar nicht* https://www.otto.de/jobs/de/stellenangebote/03527709/full-stack-developer-%7C-java-typescript-aws-w-m-d-/
+|Progressive |Fielmann      |Christina Rutz    |  29.04|BWB-Erstkontakt |F85 |*besetzt* https://jobs.fielmann.com/en/job-offers/detail/34059-senior-software-engineer-wmd
+|Progressive |msg systems   |Christina Rutz    |  29.04|*BWB-2-Runde*   |F85 |*reise* https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxStwKWJNmvGBDpszRvlLqQZTm
 |Michael Page|HDI           |Melf Cosmilla     |  30.04|                |    |
 |Michael Page|Berenberg     |Hanna Hofmann     |  30.04|                |    |
 |Michael Page|MSG Ins       |Hanna Hofmann     |  30.04|                |    |

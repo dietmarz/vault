@@ -2,6 +2,7 @@ include::{root}/.inc/include.adoc[]
 
 = Grunddaten
 
+* DHL Postnummer 42759158
 * Arbeitsamt Kundennummer:251 D 057396
 * Die Kranken Versichertennummer: A917295358
 * Sozialversicherungsnummer Rentenversicherungsnummer: 28130171Z007

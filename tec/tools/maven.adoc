@@ -49,3 +49,9 @@ resolves all transitive dependencies.
     </exclusions>
 </dependency>
 ----
+
+
+== Maven Submodule
+* Intellij, create Base project, delete src folder, keep only pom  packaging in pom.xml
+* Intellij, from Base project, create (sub) modules using maven, where parent is "main"
+* Use Base Pom to define all version in <dependencyManagement> section

@@ -63,13 +63,6 @@ able with scheduler.
 
 
 
-
-
-
-
-
-
-
 == 11. Kubernetes
 * p5470 ~/project/kubernetes/ud-clean-architecture[Sandbox]
 
@@ -78,3 +71,32 @@ able with scheduler.
   ** https://www.youtube.com/watch?v=1SaPfm96lY4&t=4481s[yt]
 * Control Plain notes, ungerade anzahl wegen Abstimmen.3,5,..
 Worker notes
+
+
+
+== 26. Apache Kafka (use to trigger domain events)
+* Kafka Cluster besteht aus Brokern die Replikate beinhalten
+* Kafka has the concept of topic, topics bestehen aus partitions (resiliency)
+* Consumer lesen ab einer bestimmten partition, ab einen bestimmten Offset
+* Die Consumer Thread Anzahl ist gleich mit der Anzahl Partitions
+* Partition data is immutable, blockchain
+* Kafka still requires `Zookeeper` s to manage the cluster and hold to metadata.
+----
+cd ~/project/architecture/ud-clean-arch-saga/food-ordering-system/infrastructure/docker-compose
+
+# Start and check Zookeeper
+docker-compose -f common.yml -f zookeeper.yml up
+echo ruok | netcat localhost 2181  # Check healthy ruok (AreYourOK) returns imok (I am OK) nc = netcat
+
+# Start Cluster
+docker-compose -f common.yml -f kafka_cluster.yml up
+
+# Start init Kafka
+docker-compose -f common.yml -f init_kafka.yml up
+
+# Add cluster manually
+chromium http://localhost:9000/addCluster
+# Cluster Name: food-ordering-system-cluster
+# Cluster Zookeepers Hosts: zookeeper:2181 -> [Save-Button]
+# Check in Cluster view:  Topics 7, Broker 3
+----
