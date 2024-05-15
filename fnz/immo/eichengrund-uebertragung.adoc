@@ -2,6 +2,16 @@ include::{root}/.inc/include.adoc[]
 
 = Schenkung / Übertragung Eichengrund 10 (1987)
 
+
+* [ ] Werden automatisch umgeschrieben, sagt HR
+** [ ] Deich und Sielacht https://mail.google.com/mail/u/0/?pli=1#search/eichengrund/KtbxLvHHmrfkpkPSwccwnPBTDFVbLTxCJB
+** [ ] Brandkasse Aurich https://mail.google.com/mail/u/0/?pli=1#search/eichengrund/QgrcJHsbcTWJVHwLxgcrBtHpQVnBscxLKKQ
+** [ ] OOWV 0800 1801201 (kostenlos) https://mail.google.com/mail/u/0/?pli=1#sent/KtbxLvHHmrfkpkPSwccwnPBTDFVbLTxCJB
+*** Jonas Buschmann geantwortet
+** [ ] Stadt Esens https://mail.google.com/mail/u/0/?pli=1#sent/KtbxLrjCPJsVhQKCxcQnJcPlVKvnkGZsFg
+
+
+
 * link:eichengrund-haus.adoc[Hause]
 * Frau Schlüchting unter 04941/92366-15 Sekretariat
 

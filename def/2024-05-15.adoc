@@ -8,8 +8,8 @@ link:../def/score-board.adoc[Daily Score Board]
 == Done
 * 07:00 - 09:00 Test
 * 09:00 - 11:00 Otte Witte Anruf
-* 11:00 - 13:00 Überweisung WTM, Aufräumen /dev angelegt
-* 13:00 - 15:00
+* 11:00 - 13:00 Überweisung WTM, Aufräumen /dev angelegt, Schlafen
+* 13:00 - 15:00 Überweisung Mutti, Telefonate, Haftpflicht abgeschlossen, Kosten eingetragen, Updates und Sicherungen
 * 15:00 - 17:00
 
 == Aufgaben
@@ -45,10 +45,10 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 == HEUTE ###############################################################################################################
 * *Raveling*: anrufen und Fragen klären
-* *Stadt*: Schlüssel neu kodieren und Rasierklingen kaufen
 * [ ] Marion Birgfeld anrufen
 * [ ] Ingo Tammen anrufen
 
+* Reiseversicherung Ergo nachtragen 24 Euro Februar Rechnung
 
 ==  Hermes Lernen ###############################################################################################################
   ** project/hermes/Galapagos anschauen
@@ -78,31 +78,10 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 * Neueste Fragen an H. Raveling
   ** Was macht die Anfrage bezüglich der Verfugung?
-  * [ ] Haus und Grundbeitzer Haftpflicht macht das Sinn?
- * Mutti rücküberweisen
-  **  75,00€ OOWV
-  ** 176,72€ Samtgemeinde Esens
-  **  39,70€ <erledigt> D&Sielacht
+
+* Haus und Grund Mitgliedschaft?
 
 
-
-* Werden automatisch umgeschrieben.
-
-
-
-
-
-* Umschreibungen
-  ** [ ] Deich und Sielacht https://mail.google.com/mail/u/0/?pli=1#search/eichengrund/KtbxLvHHmrfkpkPSwccwnPBTDFVbLTxCJB
-  ** [ ] Brandkasse Aurich https://mail.google.com/mail/u/0/?pli=1#search/eichengrund/QgrcJHsbcTWJVHwLxgcrBtHpQVnBscxLKKQ
-  ** [ ] OOWV 0800 1801201 (kostenlos) https://mail.google.com/mail/u/0/?pli=1#sent/KtbxLvHHmrfkpkPSwccwnPBTDFVbLTxCJB
-    *** Jonas Buschmann geantwortet
-  ** [ ] Stadt Esens https://mail.google.com/mail/u/0/?pli=1#sent/KtbxLrjCPJsVhQKCxcQnJcPlVKvnkGZsFg
-    *** Möchte Grundbuchauszug
-
-
-
-Otte Witte -> Bekomme anderweitig Grundbuchauszug und PDF
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Gesundheit
@@ -112,11 +91,6 @@ Otte Witte -> Bekomme anderweitig Grundbuchauszug und PDF
 === Haus
 * [ ] H-- 30 < ? > Ladestecker bauen -> PausenJob
 
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-=== Lernen
-* [ ] Jdw 99 < ? > Projekt Wecker / Uhr Website starten
-** Angular, spring boot
-* [ ] Udemy Kurs DDD ist echt gut!
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 

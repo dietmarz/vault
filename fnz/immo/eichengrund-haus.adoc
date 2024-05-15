@@ -18,6 +18,9 @@ link:eichengrund-uebertragung.adoc[Vertragliches]
 
 * [ ] 2023-11-13 Macht es Sinn, einen Feuchtigkeit- Temperatur Logger zu installieren?
 
+== Jährliche Abrechnung
+* Quittungen besorgen, kopieren zum StB und an Raveling
+
 
 == Historie, Stand, Tätigkeiten
 * 2024-04-18 TE: Stand der Dinge https://mail.google.com/mail/u/0/?pli=1#sent/KtbxLwgxCJBgmmrztbFdMLLFRQMkGkSjmL[Stand]

@@ -32,7 +32,7 @@ include::{root}/.inc/include.adoc[]
 
 
 [bibliography]
-- [[[diving]]] https://www.youtube.com/watch?v=zmqhe7fDEHI[Diving 2020]
+- [[[diving]]] https://www.youtube.com/watch?v=zmqhe7fDEHI[Ad]
 Diving into advanced Kotlin features by Simon Wirtz
 - [[[hb]]] {doc}/java/kotlin/Kotlin-Das-umfassende-Handbuch.pdf
 
