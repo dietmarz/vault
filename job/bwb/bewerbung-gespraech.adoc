@@ -15,13 +15,17 @@ include::{root}/.inc/include.adoc[]
 * [ ] Einwahltechnologie prüfen Zoom/Webex... Mikro, Kamera,... Keine Neuen Installationen!
 * [ ] Hemd anziehen, kein Kaffee!
 * [ ] Extra Einwahltermin 15min früher
-* [ ] Klemmbrett mit Papier und Stift, Namen
+* [ ] Klemmbrett mit Papier und Stift, Namen, Datum und Firma.
 * [ ] Timer parat, Countdown zum Termin-Ende Diese Seite drucken
 * [ ] Seite öffnen: link:bewerbung-taetigkeiten.adoc[interview]
 * [ ] Kamera-App unter Kamera, ins Bild schauen. Extra Workspace als Vorbereitung nutzen. Profil öffnen
-* [ ] Einen Screenshot machen von den Teilnehmern!
+* [ ] Einen *Screenshot* machen von den Teilnehmern!
 * [ ] Handy stumm
 * [ ] Prüfen ob Einladungslink vorhanden
+
+=== Nachbereitung
+* [ ] Zettel abheften o. auswerten und speichern
+* [ ] Vermittler über den Verlauf informieren
 
 === Was ich mir wünsche
 * Die Chance in ein Thema und Technologie richtig einzutauchen

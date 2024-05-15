@@ -100,3 +100,12 @@ chromium http://localhost:9000/addCluster
 # Cluster Zookeepers Hosts: zookeeper:2181 -> [Save-Button]
 # Check in Cluster view:  Topics 7, Broker 3
 ----
+
+=== Begriffe
+* `Broker` (Server) vermitteln zwischen Producern und Consumern anhand von Topics
+* `Topic` (Kontext) gliedern sich in Partitionen
+* `Message` besteht aus Byte-Array
+* `Producer` schreibt, Consumer liest Messages in Topic-Partition
+* `Partion` verwaltet von Kafka, single-threaded bearbeitet
+* `Consumer-Groups` lesen alle Messages eines Topics genau einmal
+* `Zookeeper` überwacht Kafka, Kafka beinhaltet N Broker

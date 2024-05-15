@@ -21,7 +21,7 @@ include::{root}/.inc/include.adoc[]
 |Koenigstein |Neonpulse     |Marco Weiss       |  22.04|BWB-Erstkontakt |    |29.04 Nachgefragt, meldet sich per Telefon
 |Constaff    |Mercedes      |Julian Müller     |  19.04|BWB-Erstkontakt |A103|https://mail.google.com/mail/u/0/?pli=1#inbox/FMfcgzGxStnFcQZCzMSLKKlKRHMtnMhQ
 |CompFutures |Pilot         |Cedric Bahr       |  29.04|BWB-Erstkontakt |    |läuft wohl noch https://mail.google.com/mail/u/0/?pli=1#inbox/QgrcJHsBqzbbfWqfGPdwRwkRWKVlmmSWtjL
-|CompFutures |Adesso SE     |Rene Bauer        |P 29.04|BWB-Erstkontakt |F85 |https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxStwKplZndZLNVNhvnGxqZkDt
+|CompFutures |ttt SE     |Rene Bauer        |P 29.04|BWB-Erstkontakt |F85 |https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGxStwKplZndZLNVNhvnGxqZkDt
 |CompFutures |Hermes        |Mario Grossholz   |  30.04|*BWB-2-Runde*   |F85?|Montag 9:20 Max Teichmann https://www.hermesworld.com/de/karriere/jobs/Solution-Architect-mwd-de-j3908.html
 |Michael Page|VHV Versicher |Melf Cosmilla     |  30.04|                |    |läuft
 |Michael Page|Rossmann      |Melf Cosmilla     |  30.04|                |    |läuft
@@ -50,12 +50,11 @@ include::{root}/.inc/include.adoc[]
 |CompFutures |Generalli     |Lars Nowak        |  04.04|                |    |Ähnliche Anforderungen wie mercedes, mehr AWS
 |PrjPool     |???           |Beate Sauer       |  15.03|                |    |link:bwb-pool-java.adoc[link]
 |Questax     |Dräger        |Markus Sommer     |  22.01|                |    |https://mail.google.com/mail/u/0/?tab=rm&ogbl#search/Markus+Sommer/FMfcgzGwJclNjlMKVqRXChqgqWzpMztB
-|---         |Plath         |Cindy Fischer     |  06.02|                |F   |Team? & zuTeuer!
+|---         |Plath         |Cindy Fischer     |  06.02|                |F   |Team? & zuTeuer! Stefan Nottorf, Yvan Benekor
 |Allgeier    |Bdruckerei    |Juri Palmer       |  15.03|                |    |link:bwb-allgeier-juri.adoc[link]
 |---         |Zeitfracht    |Alwin Dirr        |  17.04|                |F90 |zuTeuer!
 |||
 |===
-
 
 
 == Computer Futures

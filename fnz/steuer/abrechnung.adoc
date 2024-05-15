@@ -72,7 +72,7 @@ ChatGPT: 07.05
 | [x] | Chat GPT           | Profile -> My Plan -> Ganz klein: Manage My Subscription. Unten Tabelle, rechts neben der Datum Spalte den Link-Pfeil drücken
 | [x] | Scan Ordner leeren | vorher syncSmb
 | [x] | Besonderheiten     | WVL und offene Dinge notiert im Daily
-| [ ] | Ordern sync        | git office & sv, ganz zum Schluß
-| [ ] | Mail               | Mail an Frau Bahlburg
+| [x] | Ordern sync        | git office & sv, ganz zum Schluß
+| [x] | Mail               | Mail an Frau Bahlburg
 |===
 

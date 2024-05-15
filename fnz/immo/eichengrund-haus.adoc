@@ -1,6 +1,6 @@
 include::{root}/.inc/include.adoc[]
 
-= Eichengrund
+= Eichengrund Grundbuchbezirk Esens Blatt 1881
 
 * HR Auktionator Hartmut Raveling,
 * MB Mieter Marion Birgfeld und Tochter seit 01.01.2015 017642751794
@@ -14,11 +14,10 @@ link:eichengrund-uebertragung.adoc[Vertragliches]
 
 
 * Garagenleck
-* Idee: 17.04 Giebel inmpregnieren, HR wollte dafür ein Angebot einholen
+* Idee: 17.04 Giebel imprägnieren, HR wollte dafür ein Angebot einholen
 
 * [ ] 2023-11-13 Macht es Sinn, einen Feuchtigkeit- Temperatur Logger zu installieren?
-  ** Anfang des Jahres geht es weiter
-  ** info@tobias-diekmann.de aus Achim fragen -> 300€ für ein Telefonat
+
 
 == Historie, Stand, Tätigkeiten
 * 2024-04-18 TE: Stand der Dinge https://mail.google.com/mail/u/0/?pli=1#sent/KtbxLwgxCJBgmmrztbFdMLLFRQMkGkSjmL[Stand]
@@ -106,7 +105,7 @@ https://www.tobias-diekmann.de/schimmelpilzbefall/
 * Wiederaufbau hochalkalisch, d.h. mit einem Kalkglätter arbeten, hoher PH Wert. ZB. Silikatfarbe. Wand nicht zustellen
 ----
 == Leibrente
-* Leibrente Muttis IBAN: DE49285500000101275725
+* Leibrente Muttis Wiltraud IBAN: DE49285500000101275725
 
 == Fragen an Raveling
 * Eichengrund:
@@ -116,3 +115,7 @@ https://www.tobias-diekmann.de/schimmelpilzbefall/
 * Schimmel, Was man machen kann, ob zusätzlich noch Major fragen. Silikat außen auftragen? Dauerhaft trocken, Fuger sprechen, Lotus effekt.
 * Garage Leck. Ingo Tammen, Wilfried Goldenstein.
 * Oberes Jüchen Ländereien Verpachtung. Lohnt sich nicht. Ihmelt Saathoff lebt nicht mehr. Meike Janssen. Joachim, Karl Ulf Kinder
+
+== HUK Haus & Grundbesitzerhaftpflicht
+* link:/home/dietmar/cloud/office/Immobilien/Eichengrund/Haftpflicht/2024-05-15_HUK-Antrag.pdf[HUK]
+

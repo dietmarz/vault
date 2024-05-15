@@ -1,0 +1,38 @@
+include::{root}/.inc/include.adoc[]
+
+= Hermes
+
+== Progressive Hermes Christina Rutz Senior Sw Developer
+* Personen
+** Michael Kunze
+** Max Teichmann
+** Amri Dorloh
+** Sebastian Konieczek
+** Steven Butt HR nimmt auch teil am Gespräch
+
+== Lernen
+* Kotlin
+  ** Das Repository project/learn/kotlin/yt_Diving-into-advanced-kotlin/devoxx_kotlin ist gut <<diving>>
+  ** Handbuch <<hb>>, schön mit Kritik!
+
+* Architektur
+  ** link:../tec/arch/ud-clean-arch-saga.adoc[Wichtig!]
+
+* Mongo
+  ** https://www.udemy.com/course/mongodb-the-complete-developers-guide
+
+* Kafka
+  ** https://github.com/streamthoughts/kafka-monitoring-stack-docker-compose, https://github.com/conduktor/kafka-stack-docker-compose
+  ** project/hermes/galapagos
+
+* Goolge cloud
+
+
+
+
+
+[bibliography]
+- [[[diving]]] https://www.youtube.com/watch?v=zmqhe7fDEHI[Diving 2020]
+Diving into advanced Kotlin features by Simon Wirtz
+- [[[hb]]] {doc}/java/kotlin/Kotlin-Das-umfassende-Handbuch.pdf
+
