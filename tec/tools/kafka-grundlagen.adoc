@@ -1,0 +1,97 @@
+include::{root}/.inc/include.adoc[]
+
+= Apache Kafka Grundlagen
+
+
+== Begriffe
+* Kafka Cluster besteht aus Brokern die Replikate beinhalten
+* Kafka has the concept of topic, topics bestehen aus partitions (resiliency)
+
+* `Broker` (Server) vermitteln zwischen Producern und Consumern anhand von Topics
+* `Topic` (Kontext) hat Name, gliedern sich in Partitionen, wie ein Stream von Daten.
+  ** no queries, immutable, contains N Partitions,
+  ** Offset (~Message ID) hat nur eine Bedeutung innerhalb einer Partition
+* `Partion` verwaltet von Kafka, single-threaded bearbeitet, immutalbe
+  ** Msgs are ordered only within one Partition
+  ** Hat max ein Consumer pro Consumer-Group
+
+* `Message` = Key? + Value? + CompressionType + Headers? + (Partition + Offset) + Timestamp // ? = nullable
+* `Producer` Weiß in welche Partition geschrieben wird
+  ** msg.key == null ? Partition RoundRobin : same Partition (ordered!) // truck-id -> key
+
+* `Consumer`
+  ** Wenn ein Consumer N Partitions liest, dann eine nach der anderen.
+  ** Nie 2 Consumer einer Group für dieselbe Partition, #Consumer <= #Partitions pro Consumer-Group
+  ** Weiß vorher in welchem Format die Binärdaten kommen
+  ** Wenn alle Partitions einen Consumer haben, bleibt der neue Consumer inactive
+
+* `Consumer-Groups` lesen alle Messages eines Topics genau einmal
+* `Zookeeper` überwacht Kafka, Kafka beinhaltet N Broker
+  ** Kafka without `Zookeeper` (KIP-500) using `KRaft` instead. Zwang bis 2.X, optional ab 3.X, Not at 4.X <<ak>>(14)
+  ** ZK uses a leader, rest are follower. Don`t use ZK to configure your K Clients.
+
+* Kafka stores per partition in a Topic named  `__consumer_offsets` at which a consumer group has been reading
+  ** Key ist combination: GroupName-TopicName-PartitionNumber
+  ** enable.auto.commit == true ? Every 5sec : Every commitSync() or commitAsync() call
+
+* `bootstrap server` = every broker, sends on Metadata-Request a list of all brokers
+* Replication factor N means (N-1) broker can loss.
+* Only one broker is the `leader` which is allowed to receive data from a producer. All other are replica <<ak>>(12)
+* `Producer Acks` acks=0 => Producer won't waint, acks=1 => Producer wait for the Leader, acks=all => Producer wait for all replicas <<ak>>(13)
+
+* 'KRaft` due to scaling issues with K. ready sins K 3.3.1  <<ak>>(15)
+
+
+Weiter einbauen von CG
+----
+Delivery Semantics
+Delivery semantics describe how Kafka guarantees message delivery to consumers. There are three main types:
+
+At most once:
+
+Messages are delivered once or not at all.
+There is a risk of losing messages if a failure occurs after a message is sent but before it is acknowledged.
+Suitable for use cases where occasional message loss is acceptable.
+At least once:
+
+Messages are delivered one or more times.
+Kafka ensures that each message is delivered at least once, but duplicates are possible if a failure occurs and the message is resent.
+Appropriate for scenarios where message loss is unacceptable, but duplicates can be handled by the consumer.
+Exactly once:
+
+Messages are delivered exactly once.
+This requires additional configuration and mechanisms to ensure that duplicates are neither sent nor processed.
+Ideal for critical applications where neither message loss nor duplication is acceptable.
+----
+
+
+.Aus Ud Clean architecture
+[source,bash]
+----
+cd ~/project/architecture/ud-clean-arch-saga/food-ordering-system/infrastructure/docker-compose
+
+# Start and check Zookeeper
+docker-compose -f common.yml -f zookeeper.yml up
+echo ruok | netcat localhost 2181  # Check healthy ruok (AreYourOK) returns imok (I am OK) nc = netcat
+
+# Start Cluster
+docker-compose -f common.yml -f kafka_cluster.yml up
+
+# Start init Kafka
+docker-compose -f common.yml -f init_kafka.yml up
+
+# Add cluster manually
+chromium http://localhost:9000/addCluster
+# Cluster Name: food-ordering-system-cluster
+# Cluster Zookeepers Hosts: zookeeper:2181 -> [Save-Button]
+# Check in Cluster view:  Topics 7, Broker 3
+----
+
+
+[bibliography]
+- [[[ak]]] https://www.udemy.com/course/apache-kafka[Apache-Kafka]
+- [[[try1]]] https://github.com/streamthoughts/kafka-monitoring-stack-docker-compose[Example Docker 1]
+- [[[try2]]] https://github.com/conduktor/kafka-stack-docker-compose[Example Docker 2]
+- [[[arch]]] Udemy Course https://www.udemy.com/course/microservices-clean-architecture-ddd-saga-outbox-kafka-kubernetes/[Arch]
+
+

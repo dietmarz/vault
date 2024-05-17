@@ -6,12 +6,16 @@ include::{root}/.inc/include.adoc[]
 * MB Mieter Marion Birgfeld und Tochter seit 01.01.2015 017642751794
 * TE Mieter Tanja Emken und Sohn seit 01.02.2016 01729199668
 * SteuerBuero-Janssen.de
+* Ingo tammenbau@gmx.de
 
 link:eichengrund-uebertragung.adoc[Vertragliches]
 
 == Fragen, Aktuelles, WVL.
 * *Wenn abgearbeitet in Historie einsortieren*
 
+== Aktuelle Fragen an Raveling
+* NK Abrechnung ist noch nicht da.
+* Gibt es Neuigkeiten wegen der Ausschreibung zum Verfugen des Giebels?
 
 * Garagenleck
 * Idee: 17.04 Giebel imprägnieren, HR wollte dafür ein Angebot einholen
@@ -20,6 +24,9 @@ link:eichengrund-uebertragung.adoc[Vertragliches]
 
 == Jährliche Abrechnung
 * Quittungen besorgen, kopieren zum StB und an Raveling
+
+
+
 
 
 == Historie, Stand, Tätigkeiten

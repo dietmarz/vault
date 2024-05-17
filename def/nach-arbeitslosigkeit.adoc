@@ -17,4 +17,6 @@ include::{root}/.inc/include.adoc[]
    Laufzeit	ab 01.12.2021
 ----
 * Arbeitsamt melden
-* Renten
+* Renten wieder aktivieren?
+* LinkedIn umstellen
+* Recruiter Adressen aktualisieren und Mail an alle Recruiter

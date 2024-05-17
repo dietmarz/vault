@@ -24,6 +24,7 @@ include::{root}/.inc/include.adoc[]
 * [ ] Prüfen ob Einladungslink vorhanden
 
 === Nachbereitung
+* [ ] Handy wieder einschalten
 * [ ] Zettel abheften o. auswerten und speichern
 * [ ] Vermittler über den Verlauf informieren
 

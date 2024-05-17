@@ -1,9 +1,0 @@
-include::{root}/.inc/include.adoc[]
-
-= 0800
-
-https://jira.int.kn/browse/KNOMP-0800[Ticket]
-
-
-
-==

@@ -1,9 +1,0 @@
-include::{root}/.inc/include.adoc[]
-
-= 42
-
-https://jira.int.kn/browse/KNOMP-42[Ticket]
-
-
-
-==

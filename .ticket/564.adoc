@@ -1,9 +1,0 @@
-include::{root}/.inc/include.adoc[]
-
-= 564
-
-https://jira.int.kn/browse/KNOMP-564[Ticket]
-
-
-
-==

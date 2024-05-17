@@ -27,7 +27,7 @@ include::{root}/.inc/include.adoc[]
 * [ ] Event und Unterkunft Details in Kalendar eingetragen
 * [ ] StB: Event, Unterkunft, PKW-Km als PostIt da. Sonst nichts!
 
-* [ ] Tantra link:file:///home/dietmar/cloud/andi/Tantra-Seminar/Anschreiben-Detailinfos-zum-Tantra-an-Ostern-2024.pdf[Anschreiben]
+* [ ] Tantra link:file:///home/dietmar/cloud/andi/Regina Heckert/Anschreiben-Detailinfos-zum-Tantra-an-Ostern-2024.pdf[Anschreiben]
 * Speziell: Picknickdecke, Yogamatte, Fleecedecke, Sitzsack, Airexkissen, Crogs, Sauna Sachen, Schwimmsachen, Stirnband, Viele TShirts
   Kleines Kissen, Schere, Fotos von der Mutter, Schlappi, Wasser, Taschentücher, Augenbinde-Stirnband, Diverse Handtücher, Extra Socken
 

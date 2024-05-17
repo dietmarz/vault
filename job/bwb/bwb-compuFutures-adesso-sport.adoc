@@ -1,0 +1,25 @@
+include::{root}/.inc/include.adoc[]
+
+= Bwb Compufutures Adesso Sport
+
+https://mail.google.com/mail/u/0/?pli=1#search/rene/FMfcgzGxTNtllrWvZpTMXJJjcDwzLZDq[Einladung]
+
+17.05.2024
+* Gespräch mit Sebastian Strzelczyk 45min, Geschäftsstelle Münster.
+
+Geht um Sport in 3 Bereichen
+1. Economy: BVB, Management
+2. Berater und Scrum Master
+3. IT Dev: Machine Learning, Data Scientist, SW Entwicklung
+
+Kunden sind Vereine, Verbände. Im BTC bereich sind Kunden auch Fans
+
+Fragen die die SW beantwortet
+* Was müssen wir tun um weniger Verletzungen zu haben
+* Jeder hat seine Eigene SW kein einheitlicher Ansatz
+
+Verbleib: Sebastian hat noch einen Tag Urlaub d.h. am Mittwoch wird er sich beim Rene Bauer CompFutures melden
+
+Danach Vorort Termin in HH oder Münster mit Technologie Fragen über Java und Angular
+Es geht um ein Preisleistungsverhältnis 85T€ gegen Mitarbeit.
+

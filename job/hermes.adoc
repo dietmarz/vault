@@ -26,6 +26,9 @@ include::{root}/.inc/include.adoc[]
   ** project/hermes/galapagos
 
 * Goolge cloud
+* AWS erstmal wichtiger
+* Android 6 -> 8
+* Terraform Terragrunt
 
 
 
