@@ -9,6 +9,12 @@
 
 == Aktuell
 
+
+== Schöne Kombi + Nutzen und Umsetzung diverser Ideen
+* Lernziel wenn Hermes läuft: Aufbau infrastruktur HomeServer: docker kuba, logstash elastic nextcloud, angular-mit-login, github-actions
+** [ ] Angular link:../tec/web/angular-lernen.adoc[Ziele]
+
+
 == Fortbildung Job Vorschläge
 * Typescript
   ** https://www.udemy.com/course/typescript-the-complete-developers-guide/learn/lecture/14504488?start=15#overview

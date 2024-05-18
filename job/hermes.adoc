@@ -31,6 +31,12 @@ include::{root}/.inc/include.adoc[]
 * Terraform Terragrunt
 
 
+** project/hermes/Galapagos anschauen
+** Kotlin Buch
+** Udemy saga Kafka Sektion
+** Google Cloud basics
+** AWS Basics wiederholen
+
 
 
 

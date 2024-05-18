@@ -30,53 +30,40 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
   **         Backup großer Video Dateien überlegen, wie inkrementell sichern. Einen Notes/.archive und Notes/.backup Ordner anlegen,
              dort md5 der Dateien speichern. Archive = Cloud ohne git, doppelt gesichert.  Backup = M-Disc md5 Dateien. dot Ordner damit ausgeschlossen vom normalen grep.
              Für Archive könnte man ein Skript schreiben. Wichtig ist die M-Discs zu benennen. Nur in der Hülle!. Archiv md5 Dateien machen keinen Sinn. Vielleicht nur die Directory Struktur.
-* [ ] F-W 60 Google AusgabenProMonat ins vault holen
 * [ ] FdW XX Versicherungen adoc anlegen, strukturieren. Solange 60 wiederholen bis fertig
 * [ ] M-W 60 Start Einstellen Kleinanzeigen/eBay
 * [ ] O-- 60 Task counter einbauen. Zählt runter 0. rauf. Hat aber im Scrum auch nicht interessiert. Frog Regel anhängen
 * [ ] O-- 40 Alle adoc aus office einsortieren. Prüfen ob bei Fahrräder rechnung verlinkt und Rahmennummer angegeben.
-* [ ] Lynx Depot einzahlen wenn Geld da
 
 == Frog FIRST!!!
 
 
-== Bewerben Routine
-* https://mail.google.com/mail/u/0/?pli=1#inbox[Nur Bewerber Mails]
-* https://www.xing.com/chats[]
 
+//       ###############################################################################################################
 == HEUTE ###############################################################################################################
-* *Raveling*: anrufen und Fragen klären
-* [ ] Marion Birgfeld anrufen
-* Reiseversicherung Ergo nachtragen 24 Euro Februar Rechnung
+* Dienstag: Bohlmann und Hoffmann .. anrufen F5 Feuerungsautomat
+* Tabnine prüfen als KI
+* [ ] Lynx Depot einzahlen wenn Geld da
+
+
+
+* Mindmap *Zukunft Strategie Plan Idee Ziel*, Beruflich, Privat, Wohnort, Einkommen
+
+
 
 
 ==  Hermes Lernen ###############################################################################################################
-  ** project/hermes/Galapagos anschauen
-  ** Kotlin Buch
-  ** Udemy saga Kafka Sektion
-  ** Google Cloud basics
-  ** AWS Basics wiederholen
+link:../job/hermes.adoc[Hermes]
 
-* F5 Feuerungsautomat
-
-
-* [ ] JdW 60 BEWERBEN! Jeden Tag Routine!
-* Schreibtisch aufräumen
-* [ ] WVL Raveling Fuger angebot?
-* [ ] WVL Garage Leck Esens, Ingo ansprechen
-* Tabnine prüfen als KI
-* Lernziel: Aufbau infrastruktur HomeServer: docker kuba, logstash elastic nextcloud, angular-mit-login, github-actions
-* Mindmap *Zukunft Strategie Plan Idee Ziel*, Beruflich, Privat, Wohnort, Einkommen
-
-=== Lernen  ############################################################################################################
-* [ ] Angular link:../tec/web/angular-lernen.adoc[Ziele]
 
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Eichengrund Übertragungsvertrag
 
-* Neueste Fragen an H. Raveling
+* *Raveling*: anrufen und Fragen klären
+  ** [ ] WVL Raveling Fuger angebot?
+  ** [ ] Marion Birgfeld anrufen
   ** Was macht die Anfrage bezüglich der Verfugung?
 
 * Haus und Grund Mitgliedschaft?

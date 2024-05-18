@@ -26,6 +26,9 @@ include::{root}/.inc/include.adoc[]
   ** Wenn alle Partitions einen Consumer haben, bleibt der neue Consumer inactive
 
 * `Consumer-Groups` lesen alle Messages eines Topics genau einmal
+  ** Kafka assigns partitions of that topic to the consumers in the group.
+**
+
 * `Zookeeper` überwacht Kafka, Kafka beinhaltet N Broker
   ** Kafka without `Zookeeper` (KIP-500) using `KRaft` instead. Zwang bis 2.X, optional ab 3.X, Not at 4.X <<ak>>(14)
   ** ZK uses a leader, rest are follower. Don`t use ZK to configure your K Clients.
@@ -39,30 +42,22 @@ include::{root}/.inc/include.adoc[]
 * Only one broker is the `leader` which is allowed to receive data from a producer. All other are replica <<ak>>(12)
 * `Producer Acks` acks=0 => Producer won't waint, acks=1 => Producer wait for the Leader, acks=all => Producer wait for all replicas <<ak>>(13)
 
-* 'KRaft` due to scaling issues with K. ready sins K 3.3.1  <<ak>>(15)
+* 'KRaft` due to scaling issues (>100.000 Part) Prod ready since K 3.3.1 (KIP-833)  <<ak>>(15)
+  ** One Broker gets the `Quorum Controller` instead of having a Zookeeper
 
+* Zookeeper speichert: Broker ID, Hostname, Port, dazu T_Name jeweilige Partitions.
+  ** Liste activer Broker, Leader Election, Verteilt Configs, Consumer Group Management
 
-Weiter einbauen von CG
 ----
-Delivery Semantics
-Delivery semantics describe how Kafka guarantees message delivery to consumers. There are three main types:
-
-At most once:
-
-Messages are delivered once or not at all.
-There is a risk of losing messages if a failure occurs after a message is sent but before it is acknowledged.
-Suitable for use cases where occasional message loss is acceptable.
-At least once:
-
-Messages are delivered one or more times.
-Kafka ensures that each message is delivered at least once, but duplicates are possible if a failure occurs and the message is resent.
-Appropriate for scenarios where message loss is unacceptable, but duplicates can be handled by the consumer.
-Exactly once:
-
-Messages are delivered exactly once.
-This requires additional configuration and mechanisms to ensure that duplicates are neither sent nor processed.
-Ideal for critical applications where neither message loss nor duplication is acceptable.
+Source -> Producer → Kafka Cluster --------------> Consumers -> Target Systems
+                     ↑   Broker: B_ID
+                     |       Topic: T_Name
+                     |           Partition: T_Name-P_Nr
+                     Zookeeper
 ----
+
+
+
 
 
 .Aus Ud Clean architecture
