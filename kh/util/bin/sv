@@ -64,17 +64,19 @@ git_ops() {
 
 # Check if ENV_VAULT is set and not empty
 if [[ -n ${ENV_VAULT:-} ]]; then
-    echo "-------------------------  vault formatting -------------------------"
-    ${ENV_VAULT}/kh/util/bin/format-adoc.sh
+    echo "------------------------- vault formatting -------------------------"
+    if ! ${ENV_VAULT}/kh/util/bin/format-adoc.sh; then
+        echo "Vault formatting failed. Aborting script."
+        exit 1
+    fi
 
-
-    echo "-------------------------  vault validation -------------------------"
+    echo "------------------------- vault validation -------------------------"
     if ! ${ENV_VAULT}/kh/util/bin/t "v"; then
         echo "Validation failed. Aborting script."
         exit 1
     fi
 
-    echo "-------------------------  vault encryption -------------------------"
+    echo "------------------------- vault encryption -------------------------"
     if ! ${ENV_VAULT}/kh/util/bin/t "e"; then
         echo "Encryption failed. Aborting script."
         exit 1
