@@ -50,7 +50,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 == HEUTE ###############################################################################################################
 * Ostfriesische Brandkasse kontaktieren 04941 177-0
 
-** service@brandkasse-aurich.de  Im Eichengrund 10 als Betreff. Kopie der Umschreibung, mit Handynummer bei Rückfragen.
+  ** service@brandkasse-aurich.de  Im Eichengrund 10 als Betreff. Kopie der Umschreibung, mit Handynummer bei Rückfragen.
 
 
 
@@ -87,7 +87,7 @@ link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Lernen
 * [ ] Jdw 99 < ? > Projekt Wecker / Uhr Website starten
-** Angular, spring boot
+  ** Angular, spring boot
 * [ ] Udemy Kurs DDD ist echt gut!
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

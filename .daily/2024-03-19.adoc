@@ -117,7 +117,7 @@ cdcdd* [ ] Hdw 60 < ? > Stromfresser finden, was ist mir son Server wert.
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Lernen
 * [ ] Jdw 99 < ? > Projekt Wecker / Uhr Website starten
-** Angular, spring boot
+  ** Angular, spring boot
 * [ ] Udemy Kurs DDD ist echt gut!
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

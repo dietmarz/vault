@@ -147,7 +147,7 @@ link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Lernen
 * [ ] Jdw 99 < ? > Projekt Wecker / Uhr Website starten
-** Angular, spring boot
+  ** Angular, spring boot
 * [ ] Udemy Kurs DDD ist echt gut!
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

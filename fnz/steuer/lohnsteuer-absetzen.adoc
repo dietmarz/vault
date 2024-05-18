@@ -4,15 +4,15 @@ include::{root}/.inc/include.adoc[]
 
 == Prinzipiell
 * Bestätigung 2022 gezahlte Versicherungs-Beiträge Techniker Krankenkasse
-** Klären ob schon elektronisch übermittelt
+  ** Klären ob schon elektronisch übermittelt
 * Lohnsteuerbescheinigung für 2022  / STree Temp Experts GmH
-** Klären ob schon elektronisch übermittelt
+  ** Klären ob schon elektronisch übermittelt
 * Haftpflichtversicherungen z. B. Kfz und private Haftpflichtversicherungen (Rechnungen)
-** Unter huk.de. Für 2023 erledigt.
-** Privathaftpflicht per Post, 2024 erledigt.
+  ** Unter huk.de. Für 2023 erledigt.
+  ** Privathaftpflicht per Post, 2024 erledigt.
 * Haushaltsnahe Dienstleistungen z. B. Handwerkerleistungen auch Schornsteinfeger (Rechnungen)
-** Schornsteinfeger: https://home.digibase.com/post_assignments
-** 2023 erledigt
+  ** Schornsteinfeger: https://home.digibase.com/post_assignments
+  ** 2023 erledigt
 * Spenden, Geldzuwendungen (Soko Tierschutz € 50 liegt vor)
 * Außergewöhnliche Belastungen wie Arztrechnungen etc. (hier liegen bereits Quittungen vor)
 

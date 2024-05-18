@@ -42,8 +42,8 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * [ ] WVL Raveling Fuger angebot?
 * [ ] WVL Garage Leck Esens, Ingo ansprechen
 * [ ] Weide lösen mit Meike Janssen, Marion Martensen, Kosten ermitteln
-** ErbGem:  Deich&Sielacht 112.88, Grundsteuer B 101,64
-** Dietmar: Deich&Sielacht  29,00, Grundsteuer B 110,92
+  ** ErbGem:  Deich&Sielacht 112.88, Grundsteuer B 101,64
+  ** Dietmar: Deich&Sielacht  29,00, Grundsteuer B 110,92
 
 
 
@@ -101,7 +101,7 @@ link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Lernen
 * [ ] Jdw 99 < ? > Projekt Wecker / Uhr Website starten
-** Angular, spring boot
+  ** Angular, spring boot
 * [ ] Udemy Kurs DDD ist echt gut!
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

@@ -25,14 +25,14 @@ include::{root}/.inc/include.adoc[]
 == Warum Hermes
 * Logistiker, kenne viele Probleme
 * Spannende Technologien
-** Google Cloud, Kotlin, Terraform
+  ** Google Cloud, Kotlin, Terraform
 * Kein Freund von Amazon und seinem Umgang mit Mitarbeitern
 * Hermes kenne ich schon von
-** Weiterbildungsmöglichkeiten, Java User Group
-** Beschwerde prozess, IBM WebSphere Process Server
+  ** Weiterbildungsmöglichkeiten, Java User Group
+  ** Beschwerde prozess, IBM WebSphere Process Server
 * Guter Eindruck:
-** Team entscheidet selbstständig -> Eigenverantwortlich -> Vertrauen
-** Teamlead nicht anwesend -> Einfluss erkannt
+  ** Team entscheidet selbstständig -> Eigenverantwortlich -> Vertrauen
+  ** Teamlead nicht anwesend -> Einfluss erkannt
 
 == Meine Fragen
 * konkrete *Erwartungen* an mich

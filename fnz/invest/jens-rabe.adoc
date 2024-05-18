@@ -49,6 +49,6 @@ optionsstrategien jens rabe.
 * Deutschsprachigen Kundenservice ! Als Vorteil. Lynx Plus Browser, API
 * Kontoführungsgebühren. 0€
 * Tipps: Einzahlung
-** Anleitung, Mit Ankündigung Verwendungszweck.
-** 1. mal Zweifaktor, Lynx Trading app. installieren und einrichten
-** 2. dann das Erstpasswort wechseln.
+  ** Anleitung, Mit Ankündigung Verwendungszweck.
+  ** 1. mal Zweifaktor, Lynx Trading app. installieren und einrichten
+  ** 2. dann das Erstpasswort wechseln.

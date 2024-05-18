@@ -13,7 +13,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 
 
 
-** yubikee fertig
+  ** yubikee fertig
 
 * Steuer
 * Briane Greene der Stoff aus dem der kosmos ist
@@ -52,7 +52,7 @@ link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Lernen
 * [ ] Jdw 99 < ? > Projekt Wecker / Uhr Website starten
-** Angular, spring boot
+  ** Angular, spring boot
 * [ ] Udemy Kurs DDD ist echt gut!
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

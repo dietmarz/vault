@@ -27,7 +27,7 @@ include::{root}/.inc/include.adoc[]
 
 * `Consumer-Groups` lesen alle Messages eines Topics genau einmal
   ** Kafka assigns partitions of that topic to the consumers in the group.
-**
+  ** abc
 
 * `Zookeeper` überwacht Kafka, Kafka beinhaltet N Broker
   ** Kafka without `Zookeeper` (KIP-500) using `KRaft` instead. Zwang bis 2.X, optional ab 3.X, Not at 4.X <<ak>>(14)

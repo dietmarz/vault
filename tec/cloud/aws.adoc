@@ -59,7 +59,7 @@
 == 19 The 6 Advantages!
 * Only Operative Costs
   ** Pay as you go
-** Tax-deductible in same year
+  ** Tax-deductible in same year
 * Aggregated Usage across thousands of customers
 * Stop guessing capacity
 * Increase speed agility

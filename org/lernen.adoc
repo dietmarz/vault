@@ -12,7 +12,7 @@
 
 == Schöne Kombi + Nutzen und Umsetzung diverser Ideen
 * Lernziel wenn Hermes läuft: Aufbau infrastruktur HomeServer: docker kuba, logstash elastic nextcloud, angular-mit-login, github-actions
-** [ ] Angular link:../tec/web/angular-lernen.adoc[Ziele]
+  ** [ ] Angular link:../tec/web/angular-lernen.adoc[Ziele]
 
 
 == Fortbildung Job Vorschläge

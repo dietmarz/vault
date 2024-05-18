@@ -4,11 +4,11 @@ include::{root}/.inc/include.adoc[]
 
 == Progressive Hermes Christina Rutz Senior Sw Developer
 * Personen
-** Michael Kunze
-** Max Teichmann
-** Amri Dorloh
-** Sebastian Konieczek
-** Steven Butt HR nimmt auch teil am Gespräch
+  ** Michael Kunze
+  ** Max Teichmann
+  ** Amri Dorloh
+  ** Sebastian Konieczek
+  ** Steven Butt HR nimmt auch teil am Gespräch
 
 == Lernen
 * Kotlin
@@ -31,11 +31,11 @@ include::{root}/.inc/include.adoc[]
 * Terraform Terragrunt
 
 
-** project/hermes/Galapagos anschauen
-** Kotlin Buch
-** Udemy saga Kafka Sektion
-** Google Cloud basics
-** AWS Basics wiederholen
+  ** project/hermes/Galapagos anschauen
+  ** Kotlin Buch
+  ** Udemy saga Kafka Sektion
+  ** Google Cloud basics
+  ** AWS Basics wiederholen
 
 
 

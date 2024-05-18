@@ -10,7 +10,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 * Use backlog to keep overview in daily work
 * link:../prv/backlog.adoc[BackLog]
 * [ ] Paper Score board?
-** yubikee fertig
+  ** yubikee fertig
 
 * Steuer
 * Briane Greene der Stoff aus dem der kosmos ist
@@ -90,7 +90,7 @@ link:../fnz/immo/eichengrund-uebertragung.adoc[Stand]
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Lernen
 * [ ] Jdw 99 < ? > Projekt Wecker / Uhr Website starten
-** Angular, spring boot
+  ** Angular, spring boot
 * [ ] Udemy Kurs DDD ist echt gut!
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

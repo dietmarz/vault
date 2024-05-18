@@ -22,13 +22,13 @@ Explanation and problems of start architecture
 * Start with introduce input and output ports
 * Postman -> RestAPI -> InputPort(from Domain Logic) -> Domain Model -> OutputPort(f.D.Logic) -> DB & Msg Calls
 * 2. Improvement is DDD applied to Domain Logic
-** *Aggregates*:          Group of business objects (entities) which always need to be consistent.
-** *Entities*:            Business Objects, consists of critical business rules of the system
-** *Core business logic*: Will be handled in a Aggregate through Entities
-** *Value Objects*:       Simple, immutable objects with domain driven names without identifier
-** *Domain Services*:     Handle business logic that spans multiple aggregate route,
-** *Application Service*: Is the point of contact to do outside of domain.
-** *Domain Events*:       Send notifications to other services that runs in different bundle contexts
+  ** *Aggregates*:          Group of business objects (entities) which always need to be consistent.
+  ** *Entities*:            Business Objects, consists of critical business rules of the system
+  ** *Core business logic*: Will be handled in a Aggregate through Entities
+  ** *Value Objects*:       Simple, immutable objects with domain driven names without identifier
+  ** *Domain Services*:     Handle business logic that spans multiple aggregate route,
+  ** *Application Service*: Is the point of contact to do outside of domain.
+  ** *Domain Events*:       Send notifications to other services that runs in different bundle contexts
 
 * Outbox Pattern: In derselben Txn werden Daten geschrieben und ein Eintrag in die Outbox-Tabelle erzeugt, der nach Gesamterfolg durch einen externen Prozess (Scheduler) als Event weitergeleitet wird.
   **  Scheduler schreibt Events in Kafka

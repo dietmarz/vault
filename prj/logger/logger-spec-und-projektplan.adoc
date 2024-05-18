@@ -26,9 +26,9 @@ Serverseitig kommt (erstmal) Docker und Docker-Compose, Später Kubernetes, die 
 
 == Logger Server
 * Frontend
-** Angular Login
+  ** Angular Login
 
 * Backend
-** Spring-Boot REST, Json SS
+  ** Spring-Boot REST, Json SS
 
 
