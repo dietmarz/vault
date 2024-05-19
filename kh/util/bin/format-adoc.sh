@@ -10,8 +10,10 @@ fi
 find "${ENV_VAULT}" -type f -name "*.adoc" | while read -r file; do
   if [[ -f $file ]]; then
         # Ersetze '** ' am Zeilenanfang durch ' **'
-        sed -i -E 's/^\*\* /  ** /' "$file"
-        # echo "Bearbeitet: $file"
+    sed -i -E \
+        -e 's/^\*\* /  ** /' \
+        -e 's/^\*\*\* /     *** /' "$file"
+    # echo "Bearbeitet: $file"
     fi
 done
 

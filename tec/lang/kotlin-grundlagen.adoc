@@ -56,6 +56,31 @@ operator fun MyClass.plus(other: MyClass): MyClass {return MyClass(...)}
 == Higher funktions
 * inline means some kind of copy that method
 * Returns from lambda or from outer funktion? Return always returns from the closest `fun` keyword
+.Lambda-Ausdruck GPT
+
+[source,kotlin]
+----
+val greet = { println("Hello, World!") }
+greet()
+val printMessage = { message: String -> println(message) }
+printMessage("Hello, Kotlin!")  // Ruft den Lambda-Ausdruck auf und druckt "Hello, Kotlin!"
+
+
+fun doSomething1(param1: Int, action: (msg: String) -> Unit) {
+    action(msg)
+
+} // Lambda ist letztes Argument, dann darf "Trailing Lambda"
+doSomething(5) {msg -> print("Hallo $msg")}
+// Mit Parametern ---------------------------------------------------------------------
+fun repeatAction(times: Int, action: (Int) -> Unit) {
+    for (i in 0 until times) {
+        action(i)
+    }
+}
+repeatAction(3) { index ->
+    println("Action $index")
+}
+----
 
 
 
@@ -65,8 +90,8 @@ operator fun MyClass.plus(other: MyClass): MyClass {return MyClass(...)}
 
 
 
-
 [bibliography]
 - [[[diving]]] https://www.youtube.com/watch?v=zmqhe7fDEHI[Diving 2020]
   Diving into advanced Kotlin features by Simon Wirtz
 - [[[hb]]] {doc}/java/kotlin/Kotlin-Das-umfassende-Handbuch.pdf
+file:///home/dietmar/cloud/doc/java/kotlin/Kotlin-Das-umfassende-Handbuch.pdf

@@ -27,7 +27,11 @@ include::{root}/.inc/include.adoc[]
 
 * `Consumer-Groups` lesen alle Messages eines Topics genau einmal
   ** Kafka assigns partitions of that topic to the consumers in the group.
-  ** abc
+  ** Kafka rebalances the partition assignment among the consumers automatically
+  ** Delivery semantics describe how Kafka guarantees message delivery to consumers.
+     *** `at most once` Once or not at all: Risk of failure occurs after a message is sent but before it is acknowledged.
+     *** `at least once` One or more times: duplicates are possible if a failure occurs and the message is resent
+     *** `exactly once` Additional configuration needed. For critical applications where neither message loss nor duplication is acceptable.
 
 * `Zookeeper` überwacht Kafka, Kafka beinhaltet N Broker
   ** Kafka without `Zookeeper` (KIP-500) using `KRaft` instead. Zwang bis 2.X, optional ab 3.X, Not at 4.X <<ak>>(14)
@@ -48,6 +52,7 @@ include::{root}/.inc/include.adoc[]
 * Zookeeper speichert: Broker ID, Hostname, Port, dazu T_Name jeweilige Partitions.
   ** Liste activer Broker, Leader Election, Verteilt Configs, Consumer Group Management
 
+.<<ak>>(16)
 ----
 Source -> Producer → Kafka Cluster --------------> Consumers -> Target Systems
                      ↑   Broker: B_ID
@@ -57,7 +62,9 @@ Source -> Producer → Kafka Cluster --------------> Consumers -> Target Systems
 ----
 
 
-
+Weiter: Im Kurs statt installation Docker benutzen
+  ~/project/kafka/ud_apache-kafka/kafka-stack-docker-compose
+Statt dem kafka für den Client local zu installieren auch docker benutzen
 
 
 .Aus Ud Clean architecture

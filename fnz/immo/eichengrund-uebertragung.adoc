@@ -7,7 +7,7 @@ include::{root}/.inc/include.adoc[]
   ** [ ] Deich und Sielacht https://mail.google.com/mail/u/0/?pli=1#search/eichengrund/KtbxLvHHmrfkpkPSwccwnPBTDFVbLTxCJB
   ** [ ] Brandkasse Aurich https://mail.google.com/mail/u/0/?pli=1#search/eichengrund/QgrcJHsbcTWJVHwLxgcrBtHpQVnBscxLKKQ
   ** [ ] OOWV 0800 1801201 (kostenlos) https://mail.google.com/mail/u/0/?pli=1#sent/KtbxLvHHmrfkpkPSwccwnPBTDFVbLTxCJB
-*** Jonas Buschmann geantwortet
+     *** Jonas Buschmann geantwortet
   ** [ ] Stadt Esens https://mail.google.com/mail/u/0/?pli=1#sent/KtbxLrjCPJsVhQKCxcQnJcPlVKvnkGZsFg
 
 
