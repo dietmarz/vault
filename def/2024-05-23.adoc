@@ -7,9 +7,9 @@ link:../def/score-board.adoc[Daily Score Board]
 
 == Done
 * 07:00 - 09:00 Frühstücken etwas Dehnen
-* 09:00 - 11:00 Lynx
-* 11:00 - 13:00
-* 13:00 - 15:00
+* 09:00 - 11:00 Lynx, Task filter
+* 11:00 - 13:00 Task filter, UDM14
+* 13:00 - 15:00 UDM14
 * 15:00 - 17:00
 
 == Aufgaben
@@ -25,6 +25,9 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 * React Eigenes Projekt: Traffic
 
+* Stadt esens Mutti Whats app nachricht
+*  Ingo antworten
+* Bundesanzeiger bezahlen mit Firmengeld
 
 
 * Mindmap *Zukunft Strategie Plan Idee Ziel*, Beruflich, Privat, Wohnort, Einkommen

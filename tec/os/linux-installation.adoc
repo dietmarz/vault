@@ -271,6 +271,12 @@ Chromium: Settings->Search engine->Default search engines-> Add Button. Search e
           Settings: Section: On startup: select "Open the New Tab page"
 BurgerMenu->More Tools-->Customize toolbar-> Uncheck "Title Bar" ganz untern.
 
+Chromium Werbungsfrei:
+Chromium: Settings->Search engine->Default search engines->Google(Default)-> Edit
+  name: Google pur, Shortcut: https://google.com, URL-with: {google:baseURL}search?udm=14&q=%s
+
+Firefox add udm14 plugin and Settings->Search->Default Search Engine-> <udm14>
+
 ----
 
 .Node
