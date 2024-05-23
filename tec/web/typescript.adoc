@@ -92,8 +92,19 @@ class Vehicle {
 
 In tsconfig.json enalbe sourceMap attribute to get an debugging mapping file
 
+.<<ur>>
+[source,typescript]
+----
+import {createTypeAnnotationBasedOnTypeof} from "@babel/types";
+let typeBeStringOrNumber: string | number = 'abc';
+typeBeStringOrNumber = 123; // Is OK
+
+
+
+----
 
 [bibliography]
 - [[[ud-type]]] https://www.udemy.com/course/typescript-the-complete-developers-guide/
+- [[[ur]]] https://www.udemy.com/course/react-typescript-the-practical-guide
 - [[[yt-angular]]] https://www.youtube.com/watch?v=k5E2AVpwsko
 

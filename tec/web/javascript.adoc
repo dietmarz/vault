@@ -8,30 +8,30 @@ include::{root}/.inc/include.adoc[]
 [source, javascript]
 ----
 let p = new Promise((resolve, reject) => {
-  ** let a = 1 + 1;
-  ** if (a == 2) {
-  ** resolve('Success');
-  ** } else {
-  ** reject('Failed');
-  ** }
+  let a = 1 + 1;
+  if (a == 2) {
+  resolve('Success');
+  } else {
+  reject('Failed');
+  }
 });
 
 p.then((message) => {
-  ** console.log('This is the then messsage: ' + message);
+  console.log('This is the then messsage: ' + message);
 })
 .catch((message) => {
-  ** console.log('This is the catch message: ' + message);
+  console.log('This is the catch message: ' + message);
 })
 .finally(() => {
-  ** console.log('This is the finally message')
+  console.log('This is the finally message')
 })
 ----
 
 [source, javascript]
 ----
 Promise.all([
-  ** promise1, promise2, promiseN
+  promise1, promise2, promiseN
 ]).then((messages) => {
-  ** // All calls in parallel. Answer in Array. Order undetermined!
+  // All calls in parallel. Answer in Array. Order undetermined!
 })
 ----

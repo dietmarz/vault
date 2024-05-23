@@ -1,12 +1,6 @@
 = Lern Themen
 
 
-== C++ für Plath et al.
-
-== zeitlicher Lehrplan
-* 5h Arbeiten
-
-
 
 
 == Platformen

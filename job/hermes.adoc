@@ -10,6 +10,10 @@ include::{root}/.inc/include.adoc[]
   ** Sebastian Konieczek
   ** Steven Butt HR nimmt auch teil am Gespräch
 
+Steven
+
+6800 brutto 81.000
+
 == Lernen
 
 === Frontends ##########################################################################################################

@@ -16,19 +16,22 @@ link:../org/lern-themen.adoc[]
 * 1. Beenden 2. Gut machen 3. So gut wie man es nicht für möglich gehalten hätte. Daran wachsen!
 * Unterkategorien sind aus /home/dietmar/vault/fnz/office.adoc
 
-* Schimmelpilz Luftfeuchte, Temp Logger
+* Daten Logger: Temp  Luftfeuchte, Schimmelpilz
   ** µC, Raspberry, STM32, mit SD Card(+RTC) oder WLAN
   ** Spring-Boot REST SS zum entgegennehme & konfigurieren
   ** Angular zur Anzeige
 
 * Verkehrsüberwachung Ostring
+  ** Lernen: SBoot, React, Google Cloud (GCP)
   ** Öffentliches Interesse Zeitung -> Werbung!
   ** Website zur Info der aktuellen Lage
   ** Spring boot container sammelt Daten
   ** Sammelt Bilder screenshots
-  ** Angular
+  ** [.line-through]#Angular# React!
   ** Security Rollen
   ** Irgendwann Cloud gestützt, ist nicht groß, keine große Rechnenleistung
+
+* Amateurfunk Logbuch
 
 * Haus Leistungsmessung /home/dietmar/project/haus-leistungsmessung
 
@@ -50,32 +53,6 @@ Wünsche: Entfernen(-) Weniger(~) Weiter so(.) Unentschlossen(?) Mehr(+) Viel Me
 * DDD
 
 
-
-=== Zeit ist das Limitierte
-* Werktag Pause: Gitarre, Rudern, Schlafen, Nordic
-
-|===
-|Zeit |Mon |Die |Mit |Don |Fri |Sam |Son
-
-|07-09
-|-
-|-
-|-
-|-
-|-
-|-
-|-
-
-|18-21
-|-
-|Aerobic
-|Andrea
-|Aerobic
-|-
-|-
-|-
-|===
-
 === [P] Privat (Muße)
 * . Gitarre
 * . Strand-Camping (mit Bus)
@@ -91,8 +68,6 @@ Wünsche: Entfernen(-) Weniger(~) Weiter so(.) Unentschlossen(?) Mehr(+) Viel Me
 * # QRP Draußen
 * + Hochtouren Bergsteigen
 * . Geocaching
-* ? Kiten
-* + Wintersport?
 * - Motorrad
 * - Sportschießen
 
