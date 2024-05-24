@@ -1,15 +1,15 @@
 include::{root}/.inc/includeDaily.adoc[]
 
-= Donnerstag, 23. Mai 2024
+= Freitag, 24. Mai 2024
 
 link:../fnz/office.adoc[Regeln]
 link:../def/score-board.adoc[Daily Score Board]
 
 == Done
-* 07:00 - 09:00 Frühstücken etwas Dehnen
-* 09:00 - 11:00 Lynx, Task filter
-* 11:00 - 13:00 Task filter, UDM14
-* 13:00 - 15:00 UDM14
+* 07:00 - 09:00 Schlafen, cleanup Task
+* 09:00 - 11:00
+* 11:00 - 13:00
+* 13:00 - 15:00
 * 15:00 - 17:00
 
 == Aufgaben
@@ -25,9 +25,8 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 * React Eigenes Projekt: Traffic
 
-* Stadt esens Mutti Whats app nachricht
-*  Ingo antworten
-* Bundesanzeiger bezahlen mit Firmengeld
+* [ ] WVL Stadt esens Mutti Whats app nachricht
+* [ ] WVL Ingo antworten
 
 
 * Mindmap *Zukunft Strategie Plan Idee Ziel*, Beruflich, Privat, Wohnort, Einkommen

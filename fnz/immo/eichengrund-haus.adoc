@@ -15,18 +15,20 @@ link:eichengrund-uebertragung.adoc[Vertragliches]
 
 == Aktuelle Fragen an Raveling
 * NK Abrechnung ist noch nicht da.
-* Gibt es Neuigkeiten wegen der Ausschreibung zum Verfugen des Giebels?
+* [ ] Gibt es Neuigkeiten wegen der Ausschreibung zum Verfugen des Giebels?
+* [ ] Wie ist der Dokumenten-Flow? Raveling -> Steuerberater ->??? Selber kopieren?
+* [ ] Wie ist die genaue Zusammenarbeit
 
 * Garagenleck
-* Idee: 17.04 Giebel imprägnieren, HR wollte dafür ein Angebot einholen
+  ** Ingo schaut
 
-* [ ] 2023-11-13 Macht es Sinn, einen Feuchtigkeit- Temperatur Logger zu installieren?
+* Schimmel
+  ** Idee: 17.04 Giebel imprägnieren, HR wollte dafür ein Angebot einholen
+  ** [ ] 2023-11-13 Macht es Sinn, einen Feuchtigkeit- Temperatur Logger zu installieren?
+
 
 == Jährliche Abrechnung
 * Quittungen besorgen, kopieren zum StB und an Raveling
-
-
-
 
 
 == Historie, Stand, Tätigkeiten
