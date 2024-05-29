@@ -3,6 +3,7 @@
 == Sorce for learning
 
 * https://www.udemy.com/course/react-redux/
+* https://github.com/nilshartmann/moderne-react-pattern
 
 == 7. Creating a example project
 

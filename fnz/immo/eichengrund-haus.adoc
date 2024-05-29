@@ -18,6 +18,7 @@ link:eichengrund-uebertragung.adoc[Vertragliches]
 * [ ] Gibt es Neuigkeiten wegen der Ausschreibung zum Verfugen des Giebels?
 * [ ] Wie ist der Dokumenten-Flow? Raveling -> Steuerberater ->??? Selber kopieren?
 * [ ] Wie ist die genaue Zusammenarbeit
+* [ ] Marion Birgfeld kündigt zum 31. August. Soll ich mir
 
 * Garagenleck
   ** Ingo schaut
@@ -49,7 +50,7 @@ link:eichengrund-uebertragung.adoc[Vertragliches]
 * 2023-11-07 Rechnung Heizung 35,11€ v. 30.10. bezahlt
 * 2023-10-30 Tel Raveling: Das Durchspülen des Abflussrohres soll Fisser machen. WVL 08.11.
 * 2023-10-30 Anruf Bei Goldenstein: Alles mit Kupfer eingefasst.
-  Das ganze Kupfer muss erst angehoben werden bevor man da eine neue Schweißbahn legen kann. Da muss ein anderes Unternehmen ran.
+Das ganze Kupfer muss erst angehoben werden bevor man da eine neue Schweißbahn legen kann. Da muss ein anderes Unternehmen ran.
 * 2023-10-10 Raveling hat die Garage von innen fotografiert und Beschädigungen aufgenommen.
 * 2023-10-09 Anruf bei Raveling: Goldenstein
 * 2023-10-05 Mail v. Tanja, Raveling war da m. Tochter von Birgfeld gesprochen
@@ -87,7 +88,7 @@ Stb Preuß: Keine AFA möglich wegen zu geringer LRente, da nicht kauf-ähnlich.
 == Handwerker
 * Bauunternehmen Wilfried Goldenstein 0176 96226221
 
-== Rechnung
+== Steuer Absetzen Infos
 * TODO!!! Kosten: Aus - Ein =  Rente + Miete * 0.45  - Miete * 0.55 = Rente
 * Infos hier, wenn genügend Zeit: https://www.iww.de/ssp/alle-steuerzahler/leibrente-immobilienverkauf-gegen-leibrente-diese-steuerfolgen-ergeben-sich-beim-kaeufer-f123327
 

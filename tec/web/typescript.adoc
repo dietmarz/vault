@@ -99,9 +99,42 @@ import {createTypeAnnotationBasedOnTypeof} from "@babel/types";
 let typeBeStringOrNumber: string | number = 'abc';
 typeBeStringOrNumber = 123; // Is OK
 
+----
+
+.Destructuring
+[source,typescript]
+----
+// Array Destructuring
+const fruits = ["apple", "banana", "cherry"];
+const [first, second, third] = fruits; // first == "apple", second == "banana",...
+
+// Object Destructuring
+const person = {
+    name: "John",
+    age: 30,
+    address: {city: "NY", country: "USA"}};
+const { name, age, address } = person; // name == "John", age == 30, ...
+
+// Object Destructuring mit Aliasnamen
+const { name: fullName, age: yearsOld } = person; // fullName == "John", yearsOld = 30, ...
+
+// Verschachteltes Destructuring
+const {name, address: {city, country}} = person; // city == "NY",...
+
+// Destrucutring mit default Werten
+const { name, age, phone = "N/A" } = person; // phone == "N/A"
+
+// Destrucutring mit Funktionsparametern
+function printPerson({ name, age }: { name: string, age: number }) {
+    console.log(`Name: ${name}, Age: ${age}`);
+}
+printPerson(person); // "Name: John, Age: 30"
+
+
 
 
 ----
+
 
 [bibliography]
 - [[[ud-type]]] https://www.udemy.com/course/typescript-the-complete-developers-guide/
