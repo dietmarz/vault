@@ -16,7 +16,7 @@ include::{root}/.inc/include.adoc[]
    Zahlungsweise	1. Tag im Monat, monatlich
    Laufzeit	ab 01.12.2021
 ----
-* Arbeitsamt melden
+* [x] Arbeitsamt melden. Done 29.05.2024
 * Renten wieder aktivieren?
-* LinkedIn umstellen
+* [x] LinkedIn umstellen: Login->Profil->Offen für...
 * Recruiter Adressen aktualisieren und Mail an alle Recruiter

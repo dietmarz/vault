@@ -9,14 +9,17 @@ include::{root}/.inc/include.adoc[]
   ** Amri Dorloh
   ** Sebastian Konieczek
   ** Steven Butt HR nimmt auch teil am Gespräch
-  ** Fatima
-
-Steven
-
-6800 brutto 81.000
+  ** Fatima HR
+  ** Jonas PO
 
 
 == Lernen
+
+
+
+
+
+
 
 === Frontends ##########################################################################################################
   ** React
@@ -46,6 +49,18 @@ Steven
 * Terraform Terragrunt
 * AWS Basics wiederholen
 * Google Cloud basics
+
+
+
+
+
+
+
+=== Weiteres Vorgehen
+* Am 17.06, ist Abteilungstag,  Gespräch auch mit Jonas PO
+* Am 18.06 Vormittag mit Mitarbeitern, Nachmittags mit dem Team
+* Ich erhalte noch eine PPT Präsentation die Auskünfte gibt.
+
 
 
 [bibliography]

@@ -78,7 +78,7 @@ alias cdcloud="cd ~/cloud/"
 alias yt-mp4='yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" '
 
 # alias backup='rsync -avxtHAX --info=progress2 --delete --backup --backup-dir=_trash/$(date "+%Y_%m_%d-%H_%M_%S") --exclude=_trash'
-cdd ()
+mcd ()
 {
   mkdir -p -- "$1" &&
   cd -P -- "$1"
