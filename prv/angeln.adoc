@@ -39,7 +39,14 @@ video::fyDaYJCURsY[youtube]
   ** Beide Haken Nicht-Blei Empfindlich in der Bissanzeige
   ** Ein Vorfach hängt höher
 
-== Orte an der Elbe
+== Ostsee
+* https://goo.gl/maps/5k1kS3sFKYu71sLG9[Strand Hohen Wieschendorf]
+
+
+== Elbe
+* Bei auflaufend Wasser angeln
+
+=== Orte an der Elbe
 * https://asv-hh.maps.arcgis.com/apps/webappviewer/index.html?id=acf5f9ae428248ceb171810fd77538c8[Wo-erlaubt]
 * https://goo.gl/maps/acvPeA5YACJyttUG9[Strand Drage]
 * https://goo.gl/maps/BH4Pqzpcc9wkegYv7[Harburg mit Marina]
@@ -47,5 +54,3 @@ video::fyDaYJCURsY[youtube]
 * https://goo.gl/maps/nZZ56KYdS9tEvRe69[Am Holthusenkai]
 * https://goo.gl/maps/giRzbdKa8GsV2xeK8[WaPolizei mit Dirk]
 
-== Ostsee
-* https://goo.gl/maps/5k1kS3sFKYu71sLG9[Strand Hohen Wieschendorf]

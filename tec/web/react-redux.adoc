@@ -1,0 +1,18 @@
+include::{root}/.inc/include.adoc[]
+
+= React Redux
+
+== 26. Prj setup
+`npm install --save-exact react-redux redux @types/react-redux redux-thunk axios`
+
+
+== 27 Redux Store desing
+* https://registry.npmjs.org/-/v1/search?text=react[Search-URL]
+* statt package package zu nennen nehmen wir repository wegen Name-collision
+
+
+[bibliography]
+- [[[ud]]] https://www.udemy.com/course/react-and-typescript-build-a-portfolio-project/
+- [[[prj]]] p5470 ~/project/react/ud-react-and-ts-build-a-portfolio-project/redux-ts
+
+

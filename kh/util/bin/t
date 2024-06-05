@@ -1,1 +1,4 @@
+#!/bin/bash
+set -e
+
 java -jar ${ENV_VAULT}/kh/util/task/task-1.0-SNAPSHOT.jar "$@"

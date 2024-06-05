@@ -129,11 +129,39 @@ function printPerson({ name, age }: { name: string, age: number }) {
     console.log(`Name: ${name}, Age: ${age}`);
 }
 printPerson(person); // "Name: John, Age: 30"
+----
 
+."Discriminated Unions" CGPT
+[source,typescript]
+----
+enum E { TYPE_A=0,  TYPE_B=1 }
+interface A {
+    guard: E.TYPE_A,
+    differentType:string,
+}
+interface B {
+    guard: E.TYPE_B,
+    differentType:number,
+}
+type Z = A | B;  // Discriminated Union, `kind` is "Type Guard"
+const anyCodeBlock = () => {
+    const x : Z = {guard: E.TYPE_A, differentType: "text"}; // Could not be 123
+    const y : Z = {guard: E.TYPE_B, differentType: 123};  // could not be "text"
+}
 
+// Weiteres ------------------------------------------------------------------------------------------------------------
 
 
 ----
+
+== declare und unknown
+* Das `declare` - Schlüsselwort sagt dem TypeScript-Compiler, dass diese Variablen, Module oder Interfaces irgendwo anders definiert sind (z.B. in einer externen JavaScript-Datei oder Bibliothek) und dass TypeScript sie einfach als vorhanden akzeptieren soll.
+* `unknown:` Während `any` sagt "ich weiß nicht, welchen Typ das hat, und ich will es auch nicht wissen", sagt `unknown` "ich weiß nicht, welchen Typ das hat, und du musst es zuerst herausfinden, bevor du es verwendest".
+
+== Undefined und Null CGPT
+* null: Explizit set variable to null
+* undefined: Uninitialized variable
+* `error?: string | null;` darf `undefined` und `null` sein.
 
 
 [bibliography]

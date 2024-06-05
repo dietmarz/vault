@@ -1,2 +1,2 @@
 #/bin/bash
-kill $(pid4port $1)
+kill -9 $(pid4port $1)

@@ -68,7 +68,7 @@ mv mails-sorted.txt /home/dietmar/cloud/Notes/fnz/qcc/mailingliste-akquise.adoc
 === Hays als extra Mail
 ----
 # Sort and rm doubles
-cat mails.txt | sort -t @ -k2 |  awk '{print tolower($0)}' | uniq > mails-uniq-sorted.txt
+cat  /home/dietmar/cloud/Notes/job/bwb/bewerbung-mailingliste.adoc | sort -t @ -k2 |  awk '{print tolower($0)}' | uniq > mails-uniq-sorted.txt
 ----
 
 .Mail Suche

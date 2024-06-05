@@ -85,7 +85,7 @@ mcd ()
 }
 
 # --- ssh ---
-alias server="ssh dietmar@qualitycodeconsulting.de"
+alias server="ssh -X dietmar@qualitycodeconsulting.de"
 alias office="ssh dietmar@office"
 # alias server="ssh dietmar@server"
 

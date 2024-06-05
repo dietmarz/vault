@@ -2,8 +2,6 @@ include::{root}/.inc/include.adoc[]
 
 = Fixierung und Enneagramm
 
-* Kirstin Kaul https://www.landsiedel-seminare.de/enneagramm/enneagramm.html[Source]
-  ** https://youtu.be/aTnO_67641s[youtube-zur-1]
 
 == Übersicht (GPT-4)
 1. **Perfektionist**: Ist sehr kritisch, sowohl gegenüber sich selbst als auch gegenüber anderen, und strebt nach Ordnung und Perfektion.
@@ -114,5 +112,24 @@ Typ 1, der Perfektionist, muss lernen, dass es in Ordnung ist, nicht perfekt zu 
 
 * Es ist auch wichtig für Typ 1, zu lernen, ihre **Wut zu akzeptieren** und zu managen. Wut ist eine natürliche Emotion, aber Typ 1 neigt dazu, sie zu unterdrücken oder zu leugnen, was zu Stress und Frustration führen kann.
 * Es ist wichtig, gesunde Wege zu finden, um diese **Emotionen auszudrücken und loszulassen**.
+
+
+== Entwicklungstipps <<greator>>
+* Lerne dich zu entspannen
+* Sei geduldig mit anderen Menschen
+* Sei geduldiger mit dir selbst
+* Gestehe dir deine menschlichen Bedürfnisse zu
+* Du bist nicht der Maßstab aller Dinge
+
+== Jobs <<greator>>
+* Typ 1 scheuen sich nicht vor harter Arbeit und großer Verantwortung. Sie streben Berufe an, in denen sie etwas Bedeutsames bewirken können
+* No: Sämtliche Dienstleistungsberufe (Service, Büroarbeit etc). Routineaufgaben
+* Sind sie in einem Angestelltenverhältnis ohne Einflussmöglichkeiten beschäftigt, werden sie unglücklich.
+
+
+[bibliography]
+- [[[kaul]] Kirstin Kaul https://www.landsiedel-seminare.de/enneagramm/enneagramm.html[Source]
+  https://youtu.be/aTnO_67641s[youtube-zur-1]
+- [[[greator]]] https://greator.com/enneagramm-typ-1/
 
 

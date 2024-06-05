@@ -6,7 +6,7 @@ include::{root}/.inc/include.adoc[]
 * 2022 eingereicht
 
 == Jahresausgleich
-
+* Dokumente für den Eichengrund berücksichtigen. Kontoumsätze, Aktenordner und Dir /home/dietmar/cloud/office/Immobilien/Eichengrund/Dokumente
 * Basisrente 201139069 Dokument im https://www.cosmosdirekt.de/kundenportal/[Portal]
 * Dokumente 2022 durchgehen und Regeln finden.
 
