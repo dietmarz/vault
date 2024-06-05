@@ -19,9 +19,10 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 //       ###############################################################################################################
 == HEUTE ###############################################################################################################
+* Steuern
+
 * Tabnine prüfen als KI
 * Anderen absagen. Status ändern
-* Nochmal Gas geben, Dinge klar kriegen bis zum Start. evt. auch mal etwas Urlaub
 
 * React Eigenes Projekt: Traffic
 
