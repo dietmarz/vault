@@ -1,0 +1,16 @@
+include::{root}/.inc/include.adoc[]
+
+= Verkaufen
+
+== NUC
+* Intel NUC i5-4250U lüfterlos massiv Mini PC 16GB / 250GB
+
+* MiFcom Intel NUC D54250WYB, QM87, inkl. Core i5-4250U lüfterlos massiv Mini PC
+* Massives Vollmetallgehäuse, inkl. IR
+* SSD: 250GB Samsung 840 EVO, mSATA3 (MZ-MTE250BW)
+* RAM: 16GB Samsung SO-DIMM DDR3-1600 CL11, 1,35V
+* ADP: 65W Netzteil für NUC passiv, 19V
+* Intel HD Graphics 5000 (integriert)
+* Ohne Betriebssystem, zu Testzwecken mit Linux ausgeliefert (user Passwort useruser!)
+* PC: BHT ca 17 x 7 x 11.5cm, 1.4Kg
+* Keine Garantie, keine Rücknahme.

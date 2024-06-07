@@ -147,9 +147,8 @@ function check_intellij_terminal() {
 }
 check_intellij_terminal
 
-
-
-alias nextCloudDo="docker exec -u www-data nextcloud-app /var/www/html/occ "
+alias nextcloudDo="docker exec -u www-data nextcloud-app /var/www/html/occ "
+alias nextcloudLog='ssh -t -X dietmar@qualitycodeconsulting.de "sudo bash -c '\''less +F /vol/nextcloud/data/nextcloud.log'\''"'
 
 # --- intellij ---
 # alias i='/opt/idea/bin/idea.sh'

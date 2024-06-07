@@ -60,7 +60,7 @@ dc-restart(){
  dcu $@;
 }
 
-alias nextCloudDo="docker exec -it -u www-data nextcloud-app /var/www/html/occ "
+alias nextcloudDo="docker exec -it -u www-data nextcloud-app /var/www/html/occ "
 
 # --- intellij ---
 alias i='/opt/idea/bin/idea.sh'

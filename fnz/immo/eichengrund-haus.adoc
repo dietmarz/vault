@@ -5,6 +5,7 @@ include::{root}/.inc/include.adoc[]
 * HR Auktionator Hartmut Raveling,
 * MB Mieter Marion Birgfeld und Tochter seit 01.01.2015 017642751794
 * TE Mieter Tanja Emken und Sohn seit 01.02.2016 01729199668
+* Raveling Kosten 15€ pro Mieter pro Monat. Auf Kaltmiete geschalgen
 * SteuerBuero-Janssen.de
 * Ingo tammenbau@gmx.de
 
@@ -16,12 +17,12 @@ link:eichengrund-uebertragung.adoc[Vertragliches]
 == Aktuelle Fragen an Raveling
 * NK Abrechnung ist noch nicht da.
 * [ ] Gibt es Neuigkeiten wegen der Ausschreibung zum Verfugen des Giebels?
-* [ ] Wie ist der Dokumenten-Flow? Raveling -> Steuerberater ->??? Selber kopieren?
 * [ ] Wie ist die genaue Zusammenarbeit
 * [ ] Marion Birgfeld kündigt zum 31. August. Soll ich mir
 
-* Garagenleck
-  ** Ingo schaut
+* 615€ reine Kaltmiete (incl 15€ für Raveling)
+
+
 
 * Schimmel
   ** Idee: 17.04 Giebel imprägnieren, HR wollte dafür ein Angebot einholen
