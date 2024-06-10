@@ -35,3 +35,30 @@ Promise.all([
   // All calls in parallel. Answer in Array. Order undetermined!
 })
 ----
+
+== async & await
+* async: Declares a function as asynchronous and returns a Promise.
+* await: Pauses the execution of an async function, waiting for a Promise to resolve.
+.Example: Using `async` and `await` Together
+[source, javascript]
+----
+async function getUserData(userId) {
+  try {
+    // Wait for the API call to fetch user data
+    let response = await fetch(`https://api.example.com/user/${userId}`);
+    // Check if the response is successful
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    // Wait for the response to be parsed as JSON
+    let userData = await response.json();
+    return userData; // type Promise
+  } catch (error) {
+    console.error('There has been a problem with your fetch operation:', error);
+  }
+}
+
+// Usage
+getUserData(1).then(userData => console.log(userData));
+----
+

@@ -37,11 +37,13 @@ wsl --install -d Ubuntu --web-download
 * t https://jira.int.kn/browse/KNOMP-%s
 * w https://wiki.int.kn/dosearchsite.action?cql=siteSearch+~+%22%s%22&queryString=%s
 
-== Windows Lizenz https://www.youtube.com/watch?v=HYstkF_HqWE
+== Microsoft Windows Lizenz https://www.youtube.com/watch?v=HYstkF_HqWE
 * Volume: Irgendjemand verwaltet diese und kann Dich rauskicken! Nicht kaufen! Du bist nicht der Inhaber!
 * OEM: Eigentlich nur zusammen mit Hardware (Orig. Equip. Manu.) Du bist der Inhaber. Nur für EINE Hardware! One-Shot-Lizenz.
 * Retail: Teuer!
 * check Windows: `slmgr -dli`
 * check Office: `cscript ospp.vbs /dstatus`
+
+
 
 

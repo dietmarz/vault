@@ -3,7 +3,7 @@ include::{root}/.inc/include.adoc[]
 = Verkaufen
 
 == NUC
-* Intel NUC i5-4250U lüfterlos massiv Mini PC 16GB / 250GB
+* Intel NUC i5-4250U lüfterlos massiv Mini PC 16GB / 250GB Win 10 Pro
 
 * MiFcom Intel NUC D54250WYB, QM87, inkl. Core i5-4250U lüfterlos massiv Mini PC
 * Massives Vollmetallgehäuse, inkl. IR
@@ -11,6 +11,11 @@ include::{root}/.inc/include.adoc[]
 * RAM: 16GB Samsung SO-DIMM DDR3-1600 CL11, 1,35V
 * ADP: 65W Netzteil für NUC passiv, 19V
 * Intel HD Graphics 5000 (integriert)
-* Ohne Betriebssystem, zu Testzwecken mit Linux ausgeliefert (user Passwort useruser!)
 * PC: BHT ca 17 x 7 x 11.5cm, 1.4Kg
 * Keine Garantie, keine Rücknahme.
+* Windows 10 Pro, aktiviert und gepatched
+
+
+* Windows 10 Pro Key: BTNR6-K44W7-G89PT-FQPP9-JXCKM
+* Benutzer: User, Passwort: user, Sicherheitsfragen: user
+* MS Update Fehler 0x80070643, evt. mss

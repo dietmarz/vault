@@ -229,3 +229,9 @@ class XYZ {
 == 88 Callback children
 * In classes refere to props with this.props.myValue
 
+== Hooks CGPT
+* `useState`: Manages state in functional components.
+* `useNavigate`: Programmatically navigate between routes.
+* `useParams`: Access URL parameters in the current route.
+* `useLocation`: Get information about the current URL location.
+
