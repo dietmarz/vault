@@ -1,20 +1,17 @@
 # This file needs to be sourced in order to run all other files
 
 # Windows Beispiel
-if [ "$HOSTNAME" == "DEXXXLPF458HGE" ] || [ "$HOSTNAME" == "DEW33687" ]
+if [ "$HOSTNAME" == "NLEIH007" ]
 then
-  export ENV_VAULT="c:/dietmar/vault"
-  export ENV_EDITOR="c:/opt/idea/bin/idea64.exe"
-  export ENV_CALCULATOR="excel.exe"
+  export ENV_VAULT="c:/project/vault"
+  export ENV_EDITOR="c:/opt/intellij/bin/idea64.exe"
+  export ENV_CALCULATOR="c:/Program Files/Microsoft Office/root/Office16/EXCEL.EXE"
   export ENV_FILE_LISTER="ls"
   export ENV_FILE_LISTER_ARG="-lrth"
   export ENV_PYTHON="py.exe"
+  export ENV_SKIP_VALIDATION="true"
 fi
 
-if [ "$HOSTNAME" == "DEW33687" ]
-then
-  export ENV_EDITOR="c:/opt/intellij/bin/idea64.exe"
-fi
 
 #  || [ "$HOSTNAME" == "server" ] Fehlt
 if [ "$HOSTNAME" == "p5470" ] || [ "$HOSTNAME" == "e5401" ] || [ "$HOSTNAME" == "labor" ] || [ "$HOSTNAME" == "cinnamon-vm" ]
@@ -44,7 +41,7 @@ then
 fi
 
 # Extrahiere den Pfad ohne die Argumente --calc
-if ! [ -f "$(echo $ENV_CALCULATOR | cut -d ' ' -f1)" ]
+if ! [ -f "$(echo $ENV_CALCULATOR | sed 's/ -.*//')" ]
 then
     echo ENV_CALCULATOR does not point to a calculator executable: $ENV_CALCULATOR
 fi
@@ -132,20 +129,20 @@ dc-restart(){
  dcu $@;
 }
 
-function check_intellij_terminal() {
-    if [ -z "$IS_INTELLIJ_SHELL" ]; then
-        # Ermitteln des Befehls des übergeordneten Prozesses in einem Aufruf
-        local parent_command=$(ps -o cmd= --ppid $(ps -o ppid= -p $$))
-
-        # Überprüfen, ob der Befehl Hinweise auf 'intellij' enthält
-        if [[ "$parent_command" =~ intellij ]]; then
-            export IS_INTELLIJ_SHELL="true"
-        else
-            export IS_INTELLIJ_SHELL="false"
-        fi
-    fi
-}
-check_intellij_terminal
+#function check_intellij_terminal() {
+#    if [ -z "$IS_INTELLIJ_SHELL" ]; then
+#        # Ermitteln des Befehls des übergeordneten Prozesses in einem Aufruf
+#        local parent_command=$(ps -o cmd= --ppid $(ps -o ppid= -p $$))
+#
+#        # Überprüfen, ob der Befehl Hinweise auf 'intellij' enthält
+#        if [[ "$parent_command" =~ intellij ]]; then
+#            export IS_INTELLIJ_SHELL="true"
+#        else
+#            export IS_INTELLIJ_SHELL="false"
+#        fi
+#    fi
+#}
+#check_intellij_terminal
 
 alias nextcloudDo="docker exec -u www-data nextcloud-app /var/www/html/occ "
 alias nextcloudLog='ssh -t -X dietmar@qualitycodeconsulting.de "sudo bash -c '\''less +F /vol/nextcloud/data/nextcloud.log'\''"'
@@ -172,7 +169,10 @@ alias yt-mp3="yt-dlp -f 'ba' -x --audio-format mp3 "
 # export webdriver_gecko_driver=/opt/selenium-webdriver/firefox-driver
 # export webdriver_chrome_driver=/opt/selenium-webdriver/chrome-driver
 
-export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;32m\]$(__git_ps1)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
+if [ "$HOSTNAME" != "NLEIH007" ]
+then
+  export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;32m\]$(__git_ps1)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
+fi
 
 alias java11=' export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64  ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
 alias java8='  export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64   ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'

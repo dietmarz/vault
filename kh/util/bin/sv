@@ -70,10 +70,14 @@ if [[ -n ${ENV_VAULT:-} ]]; then
         exit 1
     fi
 
-    echo "------------------------- vault validation -------------------------"
-    if ! ${ENV_VAULT}/kh/util/bin/t "v"; then
-        echo "Validation failed. Aborting script."
-        exit 1
+    if [[ -n ${ENV_SKIP_VALIDATION:-} ]]; then
+        echo "------------------------- vault validation SKIPPED! ----------------"
+    else
+        echo "------------------------- vault validation -------------------------"
+        if ! ${ENV_VAULT}/kh/util/bin/t "v"; then
+            echo "Validation failed. Aborting script."
+            exit 1
+        fi
     fi
 
     echo "------------------------- vault encryption -------------------------"
