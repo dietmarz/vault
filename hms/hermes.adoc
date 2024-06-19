@@ -1,0 +1,77 @@
+include::{root}/.inc/include.adoc[]
+
+= Hermes
+
+== Progressive Hermes Christina Rutz Senior Sw Developer
+* Personen
+  ** Michael Kunze
+  ** Max Teichmann
+  ** Amri Dorloh
+  ** Sebastian Konieczek
+  ** Steven Butt HR nimmt auch teil am Gespräch
+  ** Fatima HR
+
+* Team PPS - Portable Platform Solutions
+  ** Jonas Kroner (PO)
+  ** Max Teichmann
+  ** Mufid Omar
+  ** Livan Munoz Lopez (Mobile)
+  ** Amri Dorloh (TS, REST, Node)
+  ** Dietmar Zabel
+
+
+== Lernen
+
+=== States
+image::.img/states.png[Prozess und Zuordnung]
+
+
+
+=== Frontends ##########################################################################################################
+  ** React
+     *** <<WD>> 8h30
+  ** Android 6 -> 8
+
+=== Backend ############################################################################################################
+
+* Architektur
+  ** link:../tec/arch/ud-clean-arch-saga.adoc[Wichtig!]
+
+* Kotlin *Als Füller mitlernen*
+  ** Das Repository project/learn/kotlin/yt_Diving-into-advanced-kotlin/devoxx_kotlin ist gut <<diving>>
+  ** Handbuch <<hb>>, schön mit Kritik!
+
+* Spring-Boot *Bei Arch saga mitlernen*
+
+* Mongo *Grundlagen noch verbessern*
+  ** https://www.udemy.com/course/mongodb-the-complete-developers-guide
+
+* Kafka *Bei Bedarf*
+  ** project/hermes/Galapagos anschauen
+  ** link:../tec/arch/ud-clean-arch-saga.adoc[Wichtig!]
+  ** link:../tec/tools/kafka-grundlagen.adoc
+
+=== Cloud ##############################################################################################################
+* Terraform Terragrunt
+* AWS Basics wiederholen
+* Google Cloud basics
+
+
+
+
+
+
+
+=== Weiteres Vorgehen
+* Am 17.06, ist Abteilungstag,  Gespräch auch mit Jonas PO
+* Am 18.06 Vormittag mit Mitarbeitern, Nachmittags mit dem Team
+* Ich erhalte noch eine PPT Präsentation die Auskünfte gibt.
+
+
+
+[bibliography]
+- [[[diving]]] https://www.youtube.com/watch?v=zmqhe7fDEHI[Ad] Alt!
+Diving into advanced Kotlin features by Simon Wirtz
+- [[[hb]]] {doc}/java/kotlin/Kotlin-Das-umfassende-Handbuch.pdf
+- [[[WD]]] https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/17038306#overview[Web Developer]
+

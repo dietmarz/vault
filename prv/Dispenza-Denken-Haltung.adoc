@@ -1,0 +1,39 @@
+include::{root}/.inc/include.adoc[]
+
+= Dr. Joe Dispenza
+
+== Programmieren Sie Ihr Gehirn Neu
+
+* Die meisten Mensche wachen morgens auf und denken über ihre Probleme nach
+* Diese Probleme sind mit Erinnerungen verbunden, und diese mit besten Personen
+* Das Gehirn ist wie ein Tonband das immer wieder die gleiche Kassette vorspielt
+* Wenn das Gehirn die Aufzeichnung der Vergangenheit ist, dann lebst Du in der Vergangenheit wenn du den Tag beginnst
+* Jede Erinnerung ist mit Emotionen verbunden
+* Die Emotionen sind das Endprodukt vergangener Erfahrungen
+* In dem Moment wo ich meine Erinnerungen abrufe, fühle ich mich unglücklich.
+* Wenn Deine Gesamten Gedanken in der Vergangenheit liegen, wird Deine Vergangeheit automatisch zur Zukunft
+* Gedanken und Schicksal sind korreliert.
+* Wenn ich weiter in der Vergangenheit denke werde ich immer wieder das gleiche Leben schaffen.
+* Mit 35 bestehen *95%* aus festen: Verhaltensweisen, Emotionen, Gewohnheiten, Überzeugungen
+* Mit nur *5%* kann man sagen ich will gesund, frei und glücklich sein.
+* Veränderung mit dem Analytischen Verstand als Verbind zwischen Bewusstsein und Unterbewusstsein.
+* Durch Meditation Denkprozesse Verlangsamen und Beobachten, nicht auf Kriesen warten
+weiter 4:44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[bibliography]
+- [[[yt1]]] https://www.youtube.com/watch?v=c9u1kfCoDhA[YT]
+

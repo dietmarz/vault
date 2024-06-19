@@ -1,0 +1,22 @@
+include::{root}/.inc/include.adoc[]
+
+= Android
+
+== Roadmap
+* Dont Over-Video!
+* Learn Fundamentals
+  ** Kotlin,
+* Learn Fundamentals of Android Development
+  ** Building Basic UI, Activities, Fragments, Navigation, Permissions, Notifications
+  ** Jetpack Compose
+* Build an App, skip everything else
+
+* Build OWN app, Calculator or ToDo
+* CoRoutines and Flows
+* Database Room
+* Retrofit
+
+[bibliography]
+- [[[start]]] https://www.youtube.com/watch?v=AhUL5tHF3uc[What to learn]
+- [[[overview]]] https://www.youtube.com/playlist?list=PLQkwcJG4YTCTq1raTb5iMuxnEB06J1VHX[Play List Philipp Lackner]
+
