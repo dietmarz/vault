@@ -31,7 +31,9 @@ link:../org/lern-themen.adoc[]
   ** Security Rollen
   ** Irgendwann Cloud gestützt, ist nicht groß, keine große Rechnenleistung
 
-* Amateurfunk Logbuch
+* Android
+  ** Amateurfunk Logbuch
+  ** Taschenlampen App
 
 * Haus Leistungsmessung /home/dietmar/project/haus-leistungsmessung
 

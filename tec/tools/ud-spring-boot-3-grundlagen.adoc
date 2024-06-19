@@ -15,4 +15,23 @@ dependencyManagement.dependencies.dependency ->
 ----
 Zu beachten ist das man einige Konfigurationen wiederholen muss.-
 
-=== DDD
+* 2.18 Optionale Abhängigkeiten:
+  ** Mit `@Autowired(required=false)`, setter werden nicht aufgerufen,
+  ** bei `@Nullable` wird der Setter mit null aufgerufen
+  ** `Optional<>` bei null ist es empty. Sehr elegant aber Optional ist nicht serialisierbar!
+  ** `ObjectProvider`
+* 2.18 Zyklische Abhängigkeiten lösen:
+  ** spring.main.allow-circular-references=true # No!
+  ** Setter nutzen. # Merkwürdig...
+  ** `@Lazy-Annotation` bei `@Autowired` einsetzen
+* 2.19 Klasse mit @Configuration und eine @Bean methode schreiben. dann volle Freiheit. Methodenname == Beanname
+
+.2.19
+----
+@Bean String appUuid1() { ... randomUuid() }
+@Bean String appUuid2() { return appUuid() }
+
+appUuid2 returned dieselbe Uuid, obwohl es ein direkter Aufruf ist, da sich Spring per CGLIB dazwischen hängt. Wenn man das nicht möchte
+kann man den proxy mechanismus abschalten mit `@Configuration(proxyBeanMethods = false)`
+----
+* In Spring nicht mit get etwas aktiv holen, sondern sich injizieren lassen. IoC

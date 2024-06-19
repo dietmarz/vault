@@ -257,7 +257,7 @@ Anleitung: https://wiki.ubuntuusers.de/VMware_Workstation_Pro/
 
 sudo apt install gcc wget build-essential linux-headers-generic 
 
-Download: https://www.vmware.com/de/products/workstation-pro/workstation-pro-evaluation.html
+Download: https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro
 
 sudo bash VMware-Workstation-Full-*.x86_64.bundle 
 Key: CF3N0-6YD1L-M8EEQ-KZYXX-P3RA0
