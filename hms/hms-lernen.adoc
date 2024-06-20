@@ -1,0 +1,37 @@
+include::{root}/.inc/include.adoc[]
+
+= Lernen
+
+* Architektur
+** link:../tec/arch/ud-clean-arch-saga.adoc[Wichtig!]
+
+* Kotlin *Als Füller mitlernen*
+** Das Repository project/learn/kotlin/yt_Diving-into-advanced-kotlin/devoxx_kotlin ist gut <<diving>>
+** Handbuch <<hb>>, schön mit Kritik!
+
+* Spring-Boot *Bei Arch saga mitlernen*
+
+* Mongo *Grundlagen noch verbessern*
+** https://www.udemy.com/course/mongodb-the-complete-developers-guide
+
+* Kafka *Bei Bedarf*
+** project/hermes/Galapagos anschauen
+** link:../tec/arch/ud-clean-arch-saga.adoc[Wichtig!]
+** link:../tec/tools/kafka-grundlagen.adoc
+
+=== Cloud ##############################################################################################################
+* Terraform Terragrunt
+* AWS Basics wiederholen
+* Google Cloud basics
+
+
+
+
+
+
+[bibliography]
+- [[[diving]]] https://www.youtube.com/watch?v=zmqhe7fDEHI[Ad] Alt!
+Diving into advanced Kotlin features by Simon Wirtz
+- [[[hb]]] {doc}/java/kotlin/Kotlin-Das-umfassende-Handbuch.pdf
+- [[[WD]]] https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/17038306#overview[Web Developer]
+

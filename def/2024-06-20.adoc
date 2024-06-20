@@ -20,7 +20,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 //       ###############################################################################################################
 == HEUTE ###############################################################################################################
 
-* Linux ansprechen: Temuri, Markus Detlefsen
+* Linux ansprechen: Temuri Isabekovi, Markus Detlefsen
 * Masterplan was ist das Kann-schulung
 * React TanStack Table anschauen
 

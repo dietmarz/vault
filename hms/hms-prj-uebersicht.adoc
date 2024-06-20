@@ -1,0 +1,28 @@
+include::{root}/.inc/include.adoc[]
+
+== Übersicht States
+image::.img/states.png[Prozess und Zuordnung]
+
+* Alt: hermes advanced
+
+== Projekte
+
+===  MAC: MultiAppCockpit
+* Steuerung wer was darf, 2J gerade in der Einführung
+* mac-ui (web-client)
+* multiapp (android-client)
+* mac-api (backend)
+* port-terraform (infrastructure)
+
+=== AM: Asset Management
+* Hardwareverwaltung alle Typen, momentan nur auf Staging, noch nicht benutzt
+* pps-am-fronend
+* pps-am-backend
+* pps-am-infrastructure
+* port-inventory -> Alle Hardware inventorisieren.
+* pps-am-even-processing -> Empfängt events von der Multiapp schickt infos an das Asset Management
+
+
+
+
+
