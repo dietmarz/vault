@@ -1,23 +1,5 @@
 include::{root}/.inc/include.adoc[]
 
-= Hermes
-
-== Progressive Hermes Christina Rutz Senior Sw Developer
-* Personen
-  ** Michael Kunze
-  ** Max Teichmann
-  ** Amri Dorloh
-  ** Sebastian Konieczek
-  ** Steven Butt HR nimmt auch teil am Gespräch
-  ** Fatima HR
-
-* Team PPS - Portable Platform Solutions
-  ** Jonas Kroner (PO)
-  ** Max Teichmann
-  ** Mufid Omar
-  ** Livan Munoz Lopez (Mobile)
-  ** Amri Dorloh (TS, REST, Node)
-  ** Dietmar Zabel
 
 
 == Lernen
@@ -25,6 +7,20 @@ include::{root}/.inc/include.adoc[]
 === States
 image::.img/states.png[Prozess und Zuordnung]
 
+hermes advanced
+
+* 2J gerade in der Einführung
+* Mac MultiAppCockpit -> Steuerung wer was darf
+  ** mac-ui (web-client)
+  ** multiapp (android-client)
+  ** mac-api (backend), port-terraform
+
+* (Alle) Hardwareverwaltung, Asset Management, nur auf staging momentan, noch nicht benutzt
+  ** pps-am-fronend
+  ** pps-am-backend
+  ** pps-am-infrastructure
+  ** port-inventory -> Alle Hardware inventorisieren.
+  ** pps-am-even-processing -> Empfängt events von der Multiapp schickt infos an das Asset Management
 
 
 === Frontends ##########################################################################################################

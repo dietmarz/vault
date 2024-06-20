@@ -1,0 +1,21 @@
+include::{root}/.inc/include.adoc[]
+
+= Hermes Informationen
+
+== Zeiten Urlaub
+* ersten 1.5 Mon auf Schulung Einarbeitung buchen
+* Über/Unterstunden max: 3x38h ins Plus, 1x38h ins Minus
+* Keinen Urlaub ins neue Jahr
+
+
+== Team PPS - Portable Platform Solutions (Michael Kunze)
+* Jonas Kroner (PO)
+* Max Teichmann
+* Mufid Omar
+* Livan Munoz Lopez (Mobile)
+* Amri Dorloh (TS, REST, Node)
+* Sebastian Konieczek
+* Bernd
+* Blerina Gashi
+* Dietmar Zabel, Personalnummer i804122
+

@@ -20,26 +20,23 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 //       ###############################################################################################################
 == HEUTE ###############################################################################################################
 
-* Tabnine prüfen als KI
-* Anderen absagen. Status ändern
+* Linux ansprechen: Temuri, Markus Detlefsen
+* Masterplan was ist das Kann-schulung
+* React TanStack Table anschauen
 
-* React Eigenes Projekt: Traffic
+* [ ] Buchen
 
-* [ ] WVL Stadt esens Mutti Whats app nachricht
 
 
 * Mindmap *Zukunft Strategie Plan Idee Ziel*, Beruflich, Privat, Wohnort, Einkommen
-
 * Fenster waschen
-* Sport
-* Was muss gelernt werden und wieviel zeit bleibt?
-
+* lernen Tour komplett
 
 
 
 == Motto
 * Wenn Du etwas loslassen möchtest, musst Du es erleben: Funk, Angeln, QRP. Plane das Erleben!
-* Fokus gegen Unruhe, Bewußt-Sein! Verbinde das 3. Chakra, Achte was Du in deinen Kopf läßt
+* Fokus gegen Unruhe, Bewußt-Sein! Verbinde das 3. Chakra, Achte was Du in deinen Kopf lässt.
 
 
 
@@ -60,8 +57,6 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 
 
-==  Hermes Lernen ###############################################################################################################
-link:../hms/hermes.adoc[Hermes]
 
 
 
