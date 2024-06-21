@@ -3,21 +3,21 @@ include::{root}/.inc/include.adoc[]
 = Lernen
 
 * Architektur
-** link:../tec/arch/ud-clean-arch-saga.adoc[Wichtig!]
+  ** link:../tec/arch/ud-clean-arch-saga.adoc[Wichtig!]
 
 * Kotlin *Als Füller mitlernen*
-** Das Repository project/learn/kotlin/yt_Diving-into-advanced-kotlin/devoxx_kotlin ist gut <<diving>>
-** Handbuch <<hb>>, schön mit Kritik!
+  ** Das Repository project/learn/kotlin/yt_Diving-into-advanced-kotlin/devoxx_kotlin ist gut <<diving>>
+  ** Handbuch <<hb>>, schön mit Kritik!
 
 * Spring-Boot *Bei Arch saga mitlernen*
 
 * Mongo *Grundlagen noch verbessern*
-** https://www.udemy.com/course/mongodb-the-complete-developers-guide
+  ** https://www.udemy.com/course/mongodb-the-complete-developers-guide
 
 * Kafka *Bei Bedarf*
-** project/hermes/Galapagos anschauen
-** link:../tec/arch/ud-clean-arch-saga.adoc[Wichtig!]
-** link:../tec/tools/kafka-grundlagen.adoc
+  ** project/hermes/Galapagos anschauen
+  ** link:../tec/arch/ud-clean-arch-saga.adoc[Wichtig!]
+  ** link:../tec/tools/kafka-grundlagen.adoc
 
 === Cloud ##############################################################################################################
 * Terraform Terragrunt

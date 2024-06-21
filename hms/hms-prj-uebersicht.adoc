@@ -12,7 +12,8 @@ image::.img/states.png[Prozess und Zuordnung]
 * mac-ui (web-client)
 * multiapp (android-client)
 * mac-api (backend)
-* port-terraform (infrastructure)
+* port-terraform (infrastructure) AWS
+
 
 === AM: Asset Management
 * Hardwareverwaltung alle Typen, momentan nur auf Staging, noch nicht benutzt
@@ -21,8 +22,4 @@ image::.img/states.png[Prozess und Zuordnung]
 * pps-am-infrastructure
 * port-inventory -> Alle Hardware inventorisieren.
 * pps-am-even-processing -> Empfängt events von der Multiapp schickt infos an das Asset Management
-
-
-
-
 
