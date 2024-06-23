@@ -120,6 +120,9 @@ git clone git@bitbucket.org:zabel/kh.git
 ----
 git clone git@github.com:dietmarz/task.git
 git clone git@github.com:dietmarz/vault.git
+git clone git@bitbucket.org:zabel/office.git
+git clone git@bitbucket.org:zabel/server.git
+git clone git@github.com:dietmarz/tracker.gi
 
 ----
 
