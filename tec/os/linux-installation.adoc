@@ -115,6 +115,14 @@ git clone git@bitbucket.org:zabel/kh.git
 
 ----
 
+
+.repositories
+----
+git clone git@github.com:dietmarz/task.git
+git clone git@github.com:dietmarz/vault.git
+
+----
+
 .teams
 ----
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -

@@ -2,24 +2,30 @@ include::{root}/.inc/include.adoc[]
 
 = Lernen
 
-* Architektur
-  ** link:../tec/arch/ud-clean-arch-saga.adoc[Wichtig!]
 
-* Kotlin *Als Füller mitlernen*
-  ** Das Repository project/learn/kotlin/yt_Diving-into-advanced-kotlin/devoxx_kotlin ist gut <<diving>>
-  ** Handbuch <<hb>>, schön mit Kritik!
+== React
+* [ ] React TanStack Table anschauen
 
-* Spring-Boot *Bei Arch saga mitlernen*
+==  Architektur
+* link:../tec/arch/ud-clean-arch-saga.adoc[Wichtig!]
 
-* Mongo *Grundlagen noch verbessern*
+== Kotlin
+* Das Repository project/learn/kotlin/yt_Diving-into-advanced-kotlin/devoxx_kotlin ist gut <<diving>>
+* Handbuch <<hb>>, schön mit Kritik!
+
+== Spring-Boot
+* *Bei Arch saga mitlernen*
+
+
+== Mongo *Grundlagen noch verbessern*
   ** https://www.udemy.com/course/mongodb-the-complete-developers-guide
 
-* Kafka *Bei Bedarf*
+== Kafka
   ** project/hermes/Galapagos anschauen
   ** link:../tec/arch/ud-clean-arch-saga.adoc[Wichtig!]
   ** link:../tec/tools/kafka-grundlagen.adoc
 
-=== Cloud ##############################################################################################################
+== Cloud
 * Terraform Terragrunt
 * AWS Basics wiederholen
 * Google Cloud basics
