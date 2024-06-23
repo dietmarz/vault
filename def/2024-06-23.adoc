@@ -19,11 +19,10 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 //       ###############################################################################################################
 == HEUTE ###############################################################################################################
-* [ ] Packen: Notebook, Netzteil!, Platte vorher Sicherung!,
-* [ ] Alle repository URLs rausschreibne
-* [ ] .gitconfig, .ssh ordner sichern
-* [ ] Vorbereiten
-* [ ] Sport, Putzen, Bettwäsche
+* [x] Packen: Notebook, Netzteil!, Platte vorher Sicherung!,
+* [x] Alle repository URLs rausschreibne
+* [x] .gitconfig, .ssh ordner sichern
+* [x] Sport, Putzen, Bettwäsche
 * [ ] Raveling Anzeige finden im Netz
 
 
