@@ -62,7 +62,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 
 ==  Hermes Lernen ###############################################################################################################
-link:../hms/hermes.adoc[Hermes]
+link:../hms/hms-lernen.adoc[Hermes]
 
 
 

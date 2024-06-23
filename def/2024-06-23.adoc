@@ -1,14 +1,14 @@
 include::{root}/.inc/includeDaily.adoc[]
 
-= Freitag, 21. Juni 2024
+= Sonntag, 23. Juni 2024
 
 link:../fnz/office.adoc[Regeln]
 link:../def/score-board.adoc[Daily Score Board]
 
 == Done
-* 07:00 - 09:00 Start 8:07
-* 09:00 - 11:00 Gespräche mit Jonas
-* 11:00 - 13:00 Suchmaschine %s hinzugefügt
+* 07:00 - 09:00
+* 09:00 - 11:00
+* 11:00 - 13:00
 * 13:00 - 15:00
 * 15:00 - 17:00
 
@@ -19,9 +19,14 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 //       ###############################################################################################################
 == HEUTE ###############################################################################################################
+* [ ] Packen: Notbook, Netzteil!, Platte vorher Sicherung!,
+* [ ] Vorbereiten
+* [ ] Sport, Putzen, Bettwäsche
+* [ ] Raveling Anzeige finden im Netz
+
+
 
 == Frog FIRST!!!
-* [ ] Buchen in Procon geht nicht https://timetracking.hlg.de/
 // ---------------------------------------------------------------------------------------------------------------------
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -40,7 +45,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === PPS-1123 [Nicht technisch] Onboarding Dietmar
 * https://hermesgermany.atlassian.net/browse/PPS-1123[Jira]
-// link:../.ticket/1123.adoc[Ticket]
+// link:../.ticket/1123.adoc[]
 * [ ] Login Einführung AWS
 * [ ] Login Einführung GCP
 * [ ] Bestellstatus PC? Für Montag

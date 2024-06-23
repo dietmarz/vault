@@ -63,7 +63,7 @@ Verwendungszweck U14733805 / Dietmar Zabel
 
 
 ==  Hermes Lernen ###############################################################################################################
-link:../hms/hermes.adoc[Hermes]
+link:../hms/hms-lernen.adoc[Hermes]
 
 
 

@@ -1,14 +1,14 @@
 include::{root}/.inc/includeDaily.adoc[]
 
-= Sonntag, 19. Mai 2024
+= Freitag, 21. Juni 2024
 
 link:../fnz/office.adoc[Regeln]
 link:../def/score-board.adoc[Daily Score Board]
 
 == Done
-* 07:00 - 09:00
-* 09:00 - 11:00
-* 11:00 - 13:00
+* 07:00 - 09:00 Start 8:07
+* 09:00 - 11:00 Gespräche mit Jonas
+* 11:00 - 13:00 Suchmaschine %s hinzugefügt
 * 13:00 - 15:00
 * 15:00 - 17:00
 
@@ -17,9 +17,64 @@ State: ' ' Unplanned, B = Blocked, X = Done, R = Refine it!, W = Wiedervorlage, 
 Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 
+//       ###############################################################################################################
+== HEUTE ###############################################################################################################
+
+== Frog FIRST!!!
+* [ ] Buchen in Procon geht nicht https://timetracking.hlg.de/
+// ---------------------------------------------------------------------------------------------------------------------
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Montag klären!
+* [ ] Scanner mini tour
+* [ ] Vorort Termin, Depot Lüneburg, LC Hamburg eher schlecht. Montag bespechen
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== PPS-???? [Nicht technisch] PC Einrichten
+* [ ] Docker IT Shop bestellen
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== PPS-1123 [Nicht technisch] Onboarding Dietmar
+* https://hermesgermany.atlassian.net/browse/PPS-1123[Jira]
+// link:../.ticket/1123.adoc[]
+* [ ] Login Einführung AWS
+* [ ] Login Einführung GCP
+* [ ] Bestellstatus PC? Für Montag
+
+* [ ] Jira Search anlegen
+
+* [ ] Linux ansprechen: Temuri Isabekovi, Markus Detlefsen
+* [ ] Masterplan was ist das Kann-schulung
+* [ ] React TanStack Table anschauen
+
+
+* [ ] Was machen die 3 QR Codes exchange-pool, kundenlager, starkverkehrlager
+
+
+
+
+
+
+== #####################################################################################################################
+
+
+
+
+
+
+* Mindmap *Zukunft Strategie Plan Idee Ziel*, Beruflich, Privat, Wohnort, Einkommen
+* Fenster waschen
+* lernen Tour komplett
+
+
+
 == Motto
 * Wenn Du etwas loslassen möchtest, musst Du es erleben: Funk, Angeln, QRP. Plane das Erleben!
-* Fokus gegen Unruhe, Bewußt-Sein! Verbinde das 3. Chakra
+* Fokus gegen Unruhe, Bewußt-Sein! Verbinde das 3. Chakra, Achte was Du in deinen Kopf lässt.
 
 
 
@@ -34,36 +89,11 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * [ ] O-- 60 Task counter einbauen. Zählt runter 0. rauf. Hat aber im Scrum auch nicht interessiert. Frog Regel anhängen
 * [ ] O-- 40 Alle adoc aus office einsortieren. Prüfen ob bei Fahrräder rechnung verlinkt und Rahmennummer angegeben.
 
-== Frog FIRST!!!
-
-
-
-//       ###############################################################################################################
-== HEUTE ###############################################################################################################
-* Dienstag: Bohlmann und Hoffmann .. anrufen F5 Feuerungsautomat
-* Tabnine prüfen als KI
-* [ ] Lynx Depot einzahlen wenn Geld da
-* DepotNr U14733805
-
-Depotinhaber Dietmar Zabel
-Depotnummer U14733805
-Benutzername diezab137
-Passwort faR4rlSuvel7
-
-Kontoinhaber Interactive Brokers Ireland Ltd.
-IBAN DE72 5011 0800 6231 4128 15
-SWIFT/BIC CHASDEFXXXX
-Bank J.P.MORGAN AG
-Verwendungszweck U14733805 / Dietmar Zabel
-
-
-* Mindmap *Zukunft Strategie Plan Idee Ziel*, Beruflich, Privat, Wohnort, Einkommen
 
 
 
 
-==  Hermes Lernen ###############################################################################################################
-link:../hms/hms-lernen.adoc[Hermes]
+
 
 
 
