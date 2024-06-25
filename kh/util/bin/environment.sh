@@ -14,7 +14,7 @@ fi
 
 
 #  || [ "$HOSTNAME" == "server" ] Fehlt
-if [ "$HOSTNAME" == "p5470" ] || [ "$HOSTNAME" == "e5401" ] || [ "$HOSTNAME" == "labor" ] || [ "$HOSTNAME" == "cinnamon-vm" ]
+if [ "$HOSTNAME" == "p5470" ] || [ "$HOSTNAME" == "e5401" ] || [ "$HOSTNAME" == "labor" ] || [ "$HOSTNAME" == "cinnamon-vm" ] || [ "$HOSTNAME" == "dza-pps" ]
 then
   export ENV_VAULT="/home/dietmar/cloud/Notes"
   export ENV_EDITOR="/opt/idea/bin/idea.sh"
@@ -22,6 +22,12 @@ then
   export ENV_FILE_LISTER="tree"
   export ENV_FILE_LISTER_ARG=""
   export ENV_PYTHON="python3"
+fi
+
+if [ "$HOSTNAME" == "dza-pps" ]
+then
+  export ENV_VAULT="/home/dietmar/project/vault"
+  export ENV_SKIP_VALIDATION="true"
 fi
 
 if [ "$HOSTNAME" == "p5470" ]
