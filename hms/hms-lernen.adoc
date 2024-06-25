@@ -3,6 +3,14 @@ include::{root}/.inc/include.adoc[]
 = Lernen
 
 
+* Entwickleroptionen 4x auf die Buildnummer clicken
+* USB Debugging einschalten
+* USB Konfiguration auf Media Transfer Protokoll.
+  ** Trouble: Hin und Zurück auswählen...
+
+
+
+
 == React
 * [ ] React TanStack Table anschauen
 

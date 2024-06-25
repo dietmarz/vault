@@ -38,7 +38,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * [ ] JobRad? Vollkasko zahlt hermes
 * [ ] Genussrechte?
 * [ ] VPN installieren
-
+* Fehlen noch Bar-Codes?
 
 ----
 0aI5CkYYGA-2qvVLoOhTn
