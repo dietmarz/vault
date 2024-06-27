@@ -131,7 +131,7 @@ alias rmImages='docker rmi $(docker images --format "{{.Repository}}:{{.Tag}}")'
 alias rmVolumes="docker volume ls --format '{{.Name}}' | xargs -i docker volume rm --force {} ; echo 'Volumes left:' ; docker volume ls"
 
 # --- android ---
-alias adb-offline="adb shell svc data disable && db shell svc wifi disable"
+alias adb-offline="adb shell svc data disable && adb shell svc wifi disable"
 alias adb-run-worker="adb shell am broadcast -p de.hermes.multiapp -a de.hermes.multiapp.action.RUN_WORKER -e type worker_chain"
 
 dc-restart(){
