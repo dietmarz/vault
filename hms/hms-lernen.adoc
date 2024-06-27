@@ -3,13 +3,30 @@ include::{root}/.inc/include.adoc[]
 = Lernen
 
 
-* Entwickleroptionen 4x auf die Buildnummer clicken
-* USB Debugging einschalten
-* USB Konfiguration auf Media Transfer Protokoll.
-  ** Trouble: Hin und Zurück auswählen...
+
+* MainScreen -> Einstellungen -> System
+  ** Entwickleroptionen: Einstellungen -> System ->Über das Telefon-> Buildnumber 10mal clicken
+  ** System -> Entwickler Optionen -> USB Debugging einschalten
+  ** USB Konfiguration auswählen -> Media Transfer Protokoll.
+     *** Trouble: Hin und Zurück auswählen...
+
+* AdminLogin Bedingung -> 3Pkt Menu -> Tools -> Priviledges Settings for Admin
+  ** Restore und Enable evt. 2mal machen!
+
+* Devmode einschalten
+  **
 
 
 
+
+* Fr: 1h n.D. Vorplaungs termin: Gibt es fachliche Fragen?
+  ** Spalte Ready for Replanishment durchgehen
+
+
+
+* Mo: 11:10 Fachliche klärung mit Jonas
+* Mo: 13:00 Technische Planung Planing II Taskbreakdown. Separater Termin ohne Jonas
+* Mo: Anshl Wochenplanung, was soll in der Woche geschafft werden. ca. 15min
 
 == React
 * [ ] React TanStack Table anschauen

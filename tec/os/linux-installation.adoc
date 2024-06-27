@@ -72,7 +72,7 @@ sudo apt install keepassxc
 sudo apt install xclip
 ----
 
-.chromium
+.chromium und edge
 ----
 # Bei Bedarf
   sudo snap remove chromium
@@ -87,6 +87,8 @@ Add search engine with google, @g, "https://www.google.com/search?q=%s"
 
 * Disable : "Offer to save passwords"
 
+
+sudo apt install microsoft-edge-stable
 ----
 
 
@@ -242,6 +244,7 @@ sudo rsync -a -o -g --info=progress2 --no-i-r --human-readable /media/dietmar/dr
 ----
 sudo apt install openjdk-8-jdk openjdk-8-doc openjdk-8-source
 sudo apt install openjdk-11-jdk openjdk-11-doc openjdk-11-source
+sudo apt install openjdk-21-jdk openjdk-21-source openjdk-21-doc
 ----
 
 .Calibre
@@ -260,7 +263,10 @@ sudo apt install okular
   ** GoogleDrive -> bookmarks.xbel, keine-Passphrase, (*) Localer Ordern /Bookmarks bar/
 * I Still dont care about cookies
 * KeypassXC-Browser
+
 ----
+
+
 
 .VMWare Workstation Pro 17
 ----
@@ -444,4 +450,14 @@ sudo apt install gh
 ----
 sudo apt-get install libatomic1 libgconf-2-4 libc++1 gconf2-common libc++abi1 
 sudo snap install discord 
+----
+
+.Android
+----
+sudo apt-get install android-tools-adb
+----
+
+.md to confluence converter
+----
+sudo apt install pandoc
 ----

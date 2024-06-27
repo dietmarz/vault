@@ -129,6 +129,11 @@ alias rmContainers='docker container rm -f $(docker container ls -aq)'
 alias stopContainers='docker container stop $(docker container ls -aq)'
 alias rmImages='docker rmi $(docker images --format "{{.Repository}}:{{.Tag}}")'
 alias rmVolumes="docker volume ls --format '{{.Name}}' | xargs -i docker volume rm --force {} ; echo 'Volumes left:' ; docker volume ls"
+
+# --- android ---
+alias adb-offline="adb shell svc data disable && db shell svc wifi disable"
+alias adb-run-worker="adb shell am broadcast -p de.hermes.multiapp -a de.hermes.multiapp.action.RUN_WORKER -e type worker_chain"
+
 dc-restart(){
  docker-compose stop $@;
  docker-compose rm -f -v $@;
