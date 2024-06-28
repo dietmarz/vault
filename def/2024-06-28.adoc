@@ -70,6 +70,8 @@ abc
   ** danach Bettina dann nochmal bescheid geben, damit der berechtigt wird.
 * Das Pipeline Skript anpassen!
 
+* t encrpytion reparieren nach drive document
+
 
 `find . -name '*.md' | sed 's/.md//' | xargs -i pandoc -f gfm -w jira {}.md -o {}.jira`
 https://www.youtube.com/watch?v=5o1GRFdKUCE[YT]
