@@ -77,6 +77,7 @@ alias lastModified='find . -type d \( -name .git -o -name .idea \) -prune -o -ty
 alias findDoublicates='find . ! -empty -type f -exec md5sum {} + | sort | uniq -w32 -dD'
 alias createMd5='find . ! -empty -type f -exec md5sum {} + | tee files.md5'
 alias cdproject="cd ~/project/"
+alias cdsandbox="cd ~/project/sandbox/"
 alias cdcloud="cd ~/cloud/"
 alias yt-mp4='yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" '
 

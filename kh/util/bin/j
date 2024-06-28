@@ -1,0 +1,5 @@
+#!/bin/bash
+
+TICKET="PPS-$1"
+microsoft-edge "https://hermesgermany.atlassian.net/browse/${TICKET}" >/dev/null 2>&1 &
+

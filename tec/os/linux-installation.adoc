@@ -300,7 +300,7 @@ Firefox add udm14 plugin and Settings->Search->Default Search Engine-> <udm14>
 
 .Node
 ----
-* Download https://nodejs.org/en/download/
+* Download https://nodejs.org/en/download/prebuilt-binaries
 * Extract in /opt/node/
 * change own dietmar:dietmar
 * Create sym link to bin:  ln -s node-v16.14.0-linux-x64/bin/ .

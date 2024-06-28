@@ -1,5 +1,0 @@
-#!/bin/bash
-
-TICKET="KNOMP-$1"
-chromium "https://jira.int.kn/browse/${TICKET}" >/dev/null 2>&1 &
-
