@@ -226,8 +226,10 @@ sudo chmod 666 /var/run/docker.sock
 ----
 
 .docker-compose
+* https://github.com/docker/compose/releases[github]
+* Aufklappen und nach docker-compose-linux-x86_64 suchen
 ----
-# Release downloaden unter linux x86_64 https://github.com/docker/compose/releases
+# Release downloaden unter
 sudo mv /home/dietmar/Downloads/docker-compose-linux-x86_64 /usr/local/bin/docker-compose
 
 sudo chmod +x        /usr/local/bin/docker-compose

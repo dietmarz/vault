@@ -2,8 +2,6 @@ include::{root}/.inc/include.adoc[]
 
 = Hermes Logistik Wissen
 
-* https://hermesgermany.atlassian.net/wiki/spaces/MPT/pages/633799391/Roadmap+nach+Rollout[Roadmap]
-
 VP    : Vertriebspartner
 VP+   : Standort im HZB, Depot
 LC    : Logistic Centren Groß, 10 Stück 40T Sendung pro Tag
@@ -13,13 +11,6 @@ ZSB   : immer extern, selbständig, kleiner. Fährt Touren
 EZSB  : Nur ein Team Enabling Zusteller Basis, ist noch älter als DM
 DM    : Device Management = Alter name von MAC
 
-* Verkäufer scannt. Wir machen nichts mit sendungsbearbeitung
-* Paketshop tour fahrer. Holen ab. Ab hier online
-* Fährt zum Standort. Da wo er herkommt. Je nach Typ Standort geht es weiter
-* Sortieranlage in Depot und LCs , Ausgangsortieren
-* Zielsortierung...
-
-
 
 Keycloak liefert Benutzer token den App Server, für WebServer Client für menschen
 Authorisation Server liefert Token nur für Scanner, (Warum 2?)
@@ -27,9 +18,6 @@ Authorisation Server liefert Token nur für Scanner, (Warum 2?)
 Geräte registrierun mit username und passwort. Besser Token exchange
 
 accessToken und refreshToken?
-
-
-AppServer Token Scanner registrieren kann.
 
 
 * Mal mit Sebastian reden, wo es mit dem Team weiter geht, Feedback fragen?
