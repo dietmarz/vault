@@ -20,7 +20,7 @@ Task: SUp: Standup, Cur: Current
 == Gestern ##############################################################################################################
 * Fehlersuche, Rechte fehlen für pps-bitbucket@atlassian.hc.de
 * Verschiedene Strategien überlegt zur Konvertierung um Node Abhängigkeit zu vermeiden Docker?
-* Start Abtippen, um Druck rauszunehmen, FE und API fertig, Infrastructure fehlt noch.
+* Abtippen fertig.
 
 === Alternative AWS extra oder nativ
 * *.md pandoc -> *.html
