@@ -46,6 +46,10 @@ then
     echo ENV_EDITOR does not point to the idea editor executable: $ENV_EDITOR
 fi
 
+if [ -f "${ENV_VAULT}/kh/util/bin/password.ignore.sh" ]; then
+    source "${ENV_VAULT}/kh/util/bin/password.ignore.sh"
+fi
+
 # Extrahiere den Pfad ohne die Argumente --calc
 if ! [ -f "$(echo $ENV_CALCULATOR | sed 's/ -.*//')" ]
 then

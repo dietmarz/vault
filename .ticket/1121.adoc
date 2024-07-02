@@ -1,9 +1,96 @@
 include::{root}/.inc/include.adoc[]
 
-= 1121
+= MAC Doku im Confluence ablegen
 
-https://jira.int.kn/browse/KNOMP-1121[Ticket]
+* https://hermesgermany.atlassian.net/browse/PPS-1121[Ticket]
+
+
+== Work
+* i mac-ui, i mac-api, i sandbox/poc-sync-markdown-with-confluence
+
+== Erkenntnisse
+* ! Nicht möglich confluence in any markdown direkt zu editieren. -> Kein manuelles editieren mit pandoc
+
+
+== Points
+* Welche Projekte? -> mac-api/arch mac-ui/arch
+* Plugin Documentation -> https://github.com/mihaeu/cosmere
+* Beispielprojekt ~/project/sandbox/poc-sync-markdown-with-confluence
+* ZIEL: https://hermesgermany.atlassian.net/wiki/spaces/MPT/pages/16908948/MAC+Architecture+Generated[Ziel]
 
 
 
-==
+* Technischer Team User für Confluence: pps-bitbucket@atlassian.hc.de
+* Generierter AccessToken in pps.kdbx -> PPS Bitbucket Bot
+
+
+* Verbindung: Confluence bietet API-Token -> Bitbucket bietet Repository Settings
+
+----
+bitbucket-pipelines.yml definitions->step: &deploy -> bitbucket_confluence_uppdate.sh
+
+bitbucket_confluence_uppdate.sh -> npm run publish-docu
+
+package.json -> mpx cosmere ->
+
+cosmere.json
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+== Alt, andere Lösung
+=== Eigner Webserver
+* *.md pandoc -> *.html
+* Extra AWS Instanz oder eingener Webserver (Extra für API?)
+  ** Vorteil: Keine Extra Technologie? Branch richtige Doku, wenn selbe Instanz
+* Nachteile cosmere:
+  ** Gehen Images?
+  ** 2 Jahre nicht geupdated,
+  ** Für API extra Node Abhängigkeit
+
+
+
+=== Confluence API direkt benutzen
+* https://developer.atlassian.com/cloud/confluence/rest/v2/intro/#about
+* https://developer.atlassian.com/cloud/confluence/rest/v2/api-group-custom-content/#api-custom-content-id-put
+
+.TestSkript low-level
+----
+curl --request GET \
+  --url 'https://hermesgermany.atlassian.net/wiki/api/v2/pages' \
+  --user 'pps-bitbucket@atlassian.hc.de:<TOKEN>' \
+  --header 'Accept: application/json'
+----
+
+
+=== Manuell
+https://gist.github.com/mkweskin/e531e65791c1d8036dd720ef3baf8af6[Confluence editing?]
+* Probleme: Wie in den Confluence Edit Mode commen, Stichwort "Markup"
+
+`find . -name '*.md' | sed 's/.md//' | xargs -i pandoc -f gfm -w jira {}.md -o {}.jira`
+
+`find . -name '*.md' | sed 's/.md//' | xargs -i pandoc -f markdown_strict -w jira {}.md -o {}.jira`
+
+https://www.youtube.com/watch?v=5o1GRFdKUCE[YT]
+~/project/sandbox/poc-sync-markdown-with-confluence
+
+
+

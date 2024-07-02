@@ -1,0 +1,6 @@
+include::{root}/.inc/include.adoc[]
+
+= Freunde Und Familie
+
+== Sangha
+* Ose + Jan, Melina. (Bruder Jan, Freundin Astrid, Sangha Anita)

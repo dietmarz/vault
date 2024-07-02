@@ -2,7 +2,7 @@ include::{root}/.inc/include.adoc[]
 
 = _THEMA_
 
-https://jira.int.kn/browse/KNOMP-_THEMA_[Ticket]
+* https://hermesgermany.atlassian.net/browse/PPS-_THEMA_[Ticket]
 
 
 
