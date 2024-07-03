@@ -3,7 +3,7 @@ include::{root}/.inc/includeDaily.adoc[]
 = Mittwoch, 20. März 2024
 
 link:../fnz/office.adoc[Regeln]
-link:../def/score-board.adoc[Daily Score Board]
+
 
 == Aufgaben
 State: ' ' Unplanned, B = Blocked, X = Done, R = Refine it!, W = Wiedervorlage, S = Selected
@@ -45,7 +45,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 
 
 
-== Zeitstrahl
+
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

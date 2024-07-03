@@ -77,7 +77,7 @@ nameserver 10.61.21.20
 === Berufliche Aufgaben 
 * Alles Settings als ENV Variablen und einpflegen
 
-== Zeitstrahl
+
 
 [source, text]
 ----

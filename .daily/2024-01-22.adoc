@@ -2,7 +2,7 @@ include::{root}/.inc/includeDaily.adoc[]
 
 = 2024-01-22
 
-link:../def/score-board.adoc[Daily Score Board]
+
 
 
 == Aufgaben 

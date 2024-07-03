@@ -3,7 +3,7 @@ include::{root}/.inc/includeDaily.adoc[]
 = Freitag, 12. April 2024
 
 link:../fnz/office.adoc[Regeln]
-link:../def/score-board.adoc[Daily Score Board]
+
 
 == Aufgaben
 State: ' ' Unplanned, B = Blocked, X = Done, R = Refine it!, W = Wiedervorlage, S = Selected
@@ -63,8 +63,8 @@ COSMOS Dynamik 201139069
 Beitrag 201139069
 
 
-== Zeitstrahl
-link:../def/zeitstrahl.adoc[zeitstrahl]
+
+
 
 
 

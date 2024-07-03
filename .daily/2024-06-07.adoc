@@ -3,7 +3,7 @@ include::{root}/.inc/includeDaily.adoc[]
 = Freitag, 07. Juni 2024
 
 link:../fnz/office.adoc[Regeln]
-link:../def/score-board.adoc[Daily Score Board]
+
 
 == Done
 * 07:00 - 09:00

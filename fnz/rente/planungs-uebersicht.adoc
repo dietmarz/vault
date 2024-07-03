@@ -7,7 +7,7 @@ link:file:///home/dietmar/cloud/office/Finanz/Beratung/AndreeDeBoer/dietmar_zabe
 == Ziele
 . Früher Rentenaustritt, ich kann mir nicht vorstellen bis 67 zu arbeiten.
 . Übersicht der Ausgaben, Einnahmen, Verträge, Laufzeiten, wann wird was fällig
-. Aus dem Zeitstrahl eine Strategie entwickeln, was macht wann Sinn?
+. Aus dem l eine Strategie entwickeln, was macht wann Sinn?
 .. Haus vermieten? Untervermieten? Was sind die psychologischen Hemmschwellen
 
 == [ ] Jahresplan!

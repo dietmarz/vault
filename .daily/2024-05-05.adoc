@@ -3,7 +3,7 @@ include::{root}/.inc/includeDaily.adoc[]
 = Sonntag, 05. Mai 2024
 
 link:../fnz/office.adoc[Regeln]
-link:../def/score-board.adoc[Daily Score Board]
+
 
 == Aufgaben
 State: ' ' Unplanned, B = Blocked, X = Done, R = Refine it!, W = Wiedervorlage, S = Selected

@@ -3,7 +3,7 @@ include::{root}/.inc/includeDaily.adoc[]
 = Dienstag, 26. März 2024
 
 link:../fnz/office.adoc[Regeln]
-link:../def/score-board.adoc[Daily Score Board]
+
 
 == Aufgaben
 State: ' ' Unplanned, B = Blocked, X = Done, R = Refine it!, W = Wiedervorlage, S = Selected
@@ -50,8 +50,8 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 * [ ] F-w 20 info@tobias-diekmann.de aus Achim fragen!
 
 
-== Zeitstrahl
-link:../def/zeitstrahl.adoc[zeitstrahl]
+
+
 
 
 

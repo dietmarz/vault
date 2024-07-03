@@ -2,7 +2,7 @@ include::{root}/.inc/includeDaily.adoc[]
 
 = Sonntag, 03. März 2024
 
-link:../def/score-board.adoc[Daily Score Board]
+
 
 == Aufgaben
 Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga

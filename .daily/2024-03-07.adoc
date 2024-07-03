@@ -2,7 +2,7 @@ include::{root}/.inc/includeDaily.adoc[]
 
 = Donnerstag, 07. März 2024
 
-link:../def/score-board.adoc[Daily Score Board]
+
 
 == Aufgaben
 Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
@@ -40,7 +40,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 
 
 
-== Zeitstrahl
+
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === Esens 08 - 10.03 Vertragsparameter

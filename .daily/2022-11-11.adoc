@@ -38,7 +38,7 @@ Test findet die Mapstruct nicht. Vielleicht hat Sven auf Mattermost geantwortet
 * Projekt überlegen, vue? Angular? Angular! Vor dem Projekt ist nach dem Projekt
 * Logbuch Anwendung auf AWS deployen
 
-== Zeitstrahl
+
 
 [source, text]
 ----

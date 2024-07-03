@@ -43,7 +43,7 @@ include::{root}/.inc/include.adoc[]
 === Berufliche Aufgaben 
 * Alles Settings als ENV Variablen und einpflegen
 
-== Zeitstrahl
+
 
 [source, text]
 ----

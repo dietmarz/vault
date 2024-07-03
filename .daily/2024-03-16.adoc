@@ -3,7 +3,7 @@ include::{root}/.inc/includeDaily.adoc[]
 = Samstag, 16. März 2024
 
 link:../fnz/office.adoc[Regeln]
-link:../def/score-board.adoc[Daily Score Board]
+
 
 == Aufgaben
 Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
@@ -41,7 +41,7 @@ Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
 
 
 
-== Zeitstrahl
+
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

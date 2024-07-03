@@ -28,7 +28,7 @@ include::{root}/.inc/include.adoc[]
 * Projekt überlegen, vue? Angular? Angular! Vor dem Projekt ist nach dem Projekt
 * Logbuch Anwendung auf AWS deployen
 
-== Zeitstrahl
+
 
 [source, text]
 ----

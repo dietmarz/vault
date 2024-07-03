@@ -2,7 +2,7 @@ include::{root}/.inc/includeDaily.adoc[]
 
 = Sonntag, 10. März 2024
 
-link:../def/score-board.adoc[Daily Score Board]
+
 
 == Aufgaben
 Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga
@@ -72,7 +72,7 @@ Udemy  letzter Artikel: 20.11. Deep Learning Python
 
 
 
-== Zeitstrahl
+
 
 
 
