@@ -427,13 +427,16 @@ sudo vim /etc/ImageMagick-6/policy.xml
 ----
 
 
-Fix tastatur backtik and tilde
+
+.link:usr-share-X11-xkb-symbols-de.file[Beispiel-tastatur-Layout]
 ----
 sudo vim /usr/share/X11/xkb/symbols/de
 bei "key <AE12> "dead_acute" durch "acute" und "dead_grave" durch "grave" ersetzen
 bei "key <TLDE> "circumflex" durch "asciicircum" ersetzen
-Siehe /home/dietmar/cloud/system/linux/tastatur/
 ----
+
+
+
 
 [[Obsidian]]
 Use `Software Manager` tool of mint system
