@@ -25,11 +25,10 @@ image::.img/states.png[Prozess und Zuordnung]
 * port-inventory -> Alle Hardware inventorisieren.
 * pps-am-even-processing -> Empfängt events von der Multiapp schickt infos an das Asset Management
 
+
+
+
 === AM
-* Blerina und Bernd sind
-
-
-
 * Nur die Geräte die nicht regelmäßig erfasst werden.
 * Frühzeitige Erfassung, zur Kostenvermeidung, Soll bei allen prozessen in der Verwaltung der HW helfen.
 * Circlon Operate, (CHG Tesma, leasing dienstleister, kostenlos aber passt nicht zu hermes, API zu langsam)

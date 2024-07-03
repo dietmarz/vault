@@ -1,0 +1,27 @@
+include::{root}/.inc/include.adoc[]
+
+= Hermes Entwicklung
+
+== Einrichten
+
+./etc/hosts
+----
+172.17.0.1      host.docker.internal    # Docker dev IP aus ifconfig
+172.17.0.1      gateway.docker.internal # Docker dev IP aus ifconfig
+----
+
+.docker-compose.yml
+[source,lang-yaml,s-code-block]
+----
+  ports:...
+  extra_hosts:
+      - "host.docker.internal:host-gateway"
+----
+
+
+== Starten
+* `~/project/mac-api> docker-compose -f localSetup/docker-compose.yml up`
+* i run DeviceManagementApplication, Profile: develop, local, local-overrides
+* `~/project/mac-ui>  yarn run:debug-local`
+
+

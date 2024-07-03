@@ -12,6 +12,7 @@ include::{root}/.inc/include.adoc[]
 * ! Nicht möglich confluence in any markdown direkt zu editieren. -> Kein manuelles editieren mit pandoc
 
 
+
 == Points
 * Welche Projekte? -> mac-api/arch mac-ui/arch
 * Plugin Documentation -> https://github.com/mihaeu/cosmere
@@ -22,8 +23,6 @@ include::{root}/.inc/include.adoc[]
 
 * Technischer Team User für Confluence: pps-bitbucket@atlassian.hc.de
 * Generierter AccessToken in pps.kdbx -> PPS Bitbucket Bot
-
-
 * Verbindung: Confluence bietet API-Token -> Bitbucket bietet Repository Settings
 
 ----
@@ -40,23 +39,8 @@ cosmere.json
 
 
 
+== Alt, andere Lösungen
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-== Alt, andere Lösung
 === Eigner Webserver
 * *.md pandoc -> *.html
 * Extra AWS Instanz oder eingener Webserver (Extra für API?)
@@ -66,6 +50,9 @@ cosmere.json
   ** 2 Jahre nicht geupdated,
   ** Für API extra Node Abhängigkeit
 
+
+=== Generierten html über UI API projekt eingen Webservice veröffentlichen
+* Authorisierung klären.
 
 
 === Confluence API direkt benutzen

@@ -427,7 +427,7 @@ sudo vim /etc/ImageMagick-6/policy.xml
 ----
 
 
-Fix backtik and tilde
+Fix tastatur backtik and tilde
 ----
 sudo vim /usr/share/X11/xkb/symbols/de
 bei "key <AE12> "dead_acute" durch "acute" und "dead_grave" durch "grave" ersetzen
