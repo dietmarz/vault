@@ -12,6 +12,18 @@ include::{root}/.inc/include.adoc[]
 * ! Nicht möglich confluence in any markdown direkt zu editieren. -> Kein manuelles editieren mit pandoc
 
 
+bitbucket technischer User braucht atlassion.hc.de
+bitbucket enforced SSO für hermesworld.de
+
+confluence jira ist es umgekehrt. atlassian.hc.de User total unbrauchbar
+
+
+pps-bi@hermesworld.com da kommt eine Mail an. Bei einer Einladung. Weil der User kein SSO, 2FA braucht per Policy
+Stefan Draber,
+
+
+
+
 
 == Points
 * Welche Projekte? -> mac-api/arch mac-ui/arch

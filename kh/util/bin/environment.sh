@@ -113,7 +113,7 @@ alias push="git push && git lg -1"
 alias pushf="git push --force --all && git push --force --tags && git lg -1 && st"
 alias pushu="git push -u && git lg -1"
 alias rebase="git pull --all --rebase --autostash --prune && st"
-alias rebaseToDev="git fetch --all --prune && git rebase --autostash origin/development"
+alias rebaseToDev="git fetch --all --prune && git rebase --autostash origin/develop"
 alias rebaseToMaster="git fetch --all --prune && git rebase --autostash origin/master"
 alias rebaseToMain="git fetch --all --prune && git rebase --autostash origin/main"
 alias mergeNoCommit="git pull --all --rebase && git merge --no-commit --ff-only "
@@ -190,8 +190,10 @@ then
   export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;32m\]$(__git_ps1)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
 fi
 
-alias java11=' export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64  ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
-alias java8='  export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64   ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
-alias java16=' export JAVA_HOME=/usr/lib/jvm/java-16-openjdk-amd64  ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
-alias java17=' export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64  ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
-alias java162='export JAVA_HOME=/opt/jdk/jdk-16.0.2                 ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
+alias java11='  export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64   ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
+alias java8='   export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64    ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
+alias java16='  export JAVA_HOME=/usr/lib/jvm/java-16-openjdk-amd64   ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
+alias java17='  export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64   ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
+alias java21='  export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64   ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
+alias java21c=' export JAVA_HOME=/home/dietmar/.jdks/corretto-21.0.3  ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
+
