@@ -19,7 +19,7 @@ Task: SUp: Standup, Cur: Current
 
 
 == Frog FIRST!!! #######################################################################################################
-* [ ] Steuern
+* [x] Steuern
 * [x] Procon (!)
 * [ ] Notebook nach rechts ziehen. USB Hub umziehen?
 * [x] Fahrrad 14:30
