@@ -1,0 +1,14 @@
+include::{root}/.inc/include.adoc[]
+
+= 1108 [mac-ui][mac-api] Kommentarfeld für User
+
+* https://hermesgermany.atlassian.net/browse/PPS-1108[Ticket]
+
+== 25 Char
+
+
+
+== Run FE
+* `~/project/mac-api> docker-compose -f localSetup/docker-compose.yml up`
+* i run DeviceManagementApplication, Profile: develop, local, local-overrides
+* `~/project/mac-ui>  yarn run:debug-local`
