@@ -1,0 +1,10 @@
+include::{root}/.inc/include.adoc[]
+
+= Hermes Backlog
+
+== Klärung AV-Hermes
+  ** [ ] Vermögenswirksame Leistungen, Endgeldumwandlung, an HR melden. Direkt brutto
+  ** [ ] HR: Direktversicherung klären
+  ** [ ] JobRad? Vollkasko zahlt hermes
+  ** [ ] Genussrechte?
+
