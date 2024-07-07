@@ -41,7 +41,7 @@ udemy  letzter Artikel: <ARTIKEL>
 
 
 == Aktuell
-.Abrechnung für Monat: Juni 2024
+.Abrechnung für Monat: *Juni 2024*
 Amazon letzter Artikel: Zwilling Maniküreset
 ebay   letzter Artikel: Klöpperboden
 udemy  letzter Artikel: 21.05
@@ -62,18 +62,14 @@ udemy  letzter Artikel: 21.05
 | [x] | Mail WVL leeren    | https://mail.google.com/mail/u/0/?pli=1#label/WVL
 | [x] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank]
 | [x] | Auszüge Skat       | https://www.vrbank-altenburgerland.de/services_auth/auth-ui/?v=5ff448423447dee6&client_id=fkp&redirect_uri=https:%2F%2Fwww.vrbank-altenburgerland.de%2Fservices_cloud%2Fportal%2Fportal-oauth%2Flogin[Skat Bank]
-| [ ] | Umsätze QCC prüfen | Ggf. An Frau Bahlburg senden
-| [ ] | Auszüge Flatex     | https://www.flatex.de/#[Flatex Bank]
-| [ ] | Invest tätigen     | Was, wie, welche Strategie?
-| [ ] | Scan Ordner leeren | vorher syncSmb
-| [ ] | Besonderheiten     | WVL und offene Dinge notiert im Daily
-| [ ] | Ordern sync        | git office & sv, ganz zum Schluß
-| [ ] | Mail               | Mail an Frau Bahlburg
+| [x] | Umsätze QCC prüfen | Ggf. An Frau Bahlburg senden
+| [-] | Auszüge Flatex     | https://www.flatex.de/#[Flatex Bank]
+| [-] | Invest tätigen     | Was, wie, welche Strategie?
+| [-] | Scan Ordner leeren | vorher syncSmb
+| [-] | Besonderheiten     | WVL und offene Dinge notiert im Daily
+| [x] | Ordern sync        | git office & sv, ganz zum Schluß
+| [x] | Mail               | Mail an Frau Bahlburg
 |===
-
-Steinbachstraße 21 14:30 50€
-
-
 
 .Abrechnung für Monat: *Mai 2024*
 Amazon letzter Artikel: 18. Mai 2024 Auditable Abo
