@@ -23,7 +23,7 @@ udemy  letzter Artikel: <ARTIKEL>
 | [ ] | EWE Tel Handy      | https://mein.ewe.de/ewetelcss/secure/billingOverview.xhtml[EWE-Tel-Login]
 | [ ] | Chat GPT           | Profile -> My Plan -> Ganz klein: Manage My Subscription. Unten Tabelle, rechts neben der Datum Spalte den Link-Pfeil drücken
 | [ ] | Mail WVL leeren    | https://mail.google.com/mail/u/0/?pli=1#label/WVL
-| [ ] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank]
+| [ ] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank] https://banking.dkb.de/postbox[Kontoauszüge]
 | [ ] | Auszüge Skat       | https://www.vrbank-altenburgerland.de/services_auth/auth-ui/?v=5ff448423447dee6&client_id=fkp&redirect_uri=https:%2F%2Fwww.vrbank-altenburgerland.de%2Fservices_cloud%2Fportal%2Fportal-oauth%2Flogin[Skat Bank]
 | [ ] | Umsätze QCC prüfen | Ggf. An Frau Bahlburg senden
 | [ ] | Auszüge Flatex     | https://www.flatex.de/#[Flatex Bank]
@@ -59,9 +59,9 @@ udemy  letzter Artikel: 21.05
 | [x] | HVV                | https://shop.hvv.de/personal_data/orderList[HVV-Login]
 | [x] | EWE Tel Handy      | https://mein.ewe.de/ewetelcss/secure/billingOverview.xhtml[EWE-Tel-Login]
 | [x] | Chat GPT           | Profile -> My Plan -> Ganz klein: Manage My Subscription. Unten Tabelle, rechts neben der Datum Spalte den Link-Pfeil drücken
-| [ ] | Mail WVL leeren    | https://mail.google.com/mail/u/0/?pli=1#label/WVL
-| [ ] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank]
-| [ ] | Auszüge Skat       | https://www.vrbank-altenburgerland.de/services_auth/auth-ui/?v=5ff448423447dee6&client_id=fkp&redirect_uri=https:%2F%2Fwww.vrbank-altenburgerland.de%2Fservices_cloud%2Fportal%2Fportal-oauth%2Flogin[Skat Bank]
+| [x] | Mail WVL leeren    | https://mail.google.com/mail/u/0/?pli=1#label/WVL
+| [x] | Auszüge DKB        | https://www.dkb.de/banking[DKB Bank]
+| [x] | Auszüge Skat       | https://www.vrbank-altenburgerland.de/services_auth/auth-ui/?v=5ff448423447dee6&client_id=fkp&redirect_uri=https:%2F%2Fwww.vrbank-altenburgerland.de%2Fservices_cloud%2Fportal%2Fportal-oauth%2Flogin[Skat Bank]
 | [ ] | Umsätze QCC prüfen | Ggf. An Frau Bahlburg senden
 | [ ] | Auszüge Flatex     | https://www.flatex.de/#[Flatex Bank]
 | [ ] | Invest tätigen     | Was, wie, welche Strategie?

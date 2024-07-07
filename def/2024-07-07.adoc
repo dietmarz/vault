@@ -19,12 +19,12 @@ Task: SUp: Standup, Cur: Current
 
 
 == Frog FIRST!!! #######################################################################################################
-* Steuern
-* Procon (!)
-* Notebook nach rechts ziehen. USB Hub umziehen?
-* Fahrrad 14:30
-* OOWV klären: https://mail.google.com/mail/u/0/?pli=1#label/WVL/FMfcgzQVwxBpszqBDpcrCCCxTHWMBHJL
-* Angeln (!)
+* [ ] Steuern
+* [x] Procon (!)
+* [ ] Notebook nach rechts ziehen. USB Hub umziehen?
+* [x] Fahrrad 14:30
+* [ ] OOWV klären: https://mail.google.com/mail/u/0/?pli=1#label/WVL/FMfcgzQVwxBpszqBDpcrCCCxTHWMBHJL
+* [ ] Angeln (!)
 
 //       ###############################################################################################################
 == HEUTE ###############################################################################################################
