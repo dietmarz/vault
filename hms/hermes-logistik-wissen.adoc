@@ -6,7 +6,8 @@ VP    : Vertriebspartner
 VP+   : Standort im HZB, Depot
 LC    : Logistic Centren Groß, 10 Stück 40T Sendung pro Tag
 Depots: kleiner Hermes.
-HZB   : Hermes Zustellbarsis
+HZB   : Hermes Zustellbasis
+SAT   : Satelite, verteilt um Hermes
 ZSB   : immer extern, selbständig, kleiner. Fährt Touren
 EZSB  : Nur ein Team Enabling Zusteller Basis, ist noch älter als DM
 DM    : Device Management = Alter name von MAC
@@ -24,3 +25,7 @@ accessToken und refreshToken?
 * Team voranbringen,
 * Jonas Übersetzungen
 * nächste Woche Procon, 6 Wochen, vor monats schluss buchen
+
+* [ ] SITs nochmal durchgehen. Für PPS Kh.
+Man darf nur einmal offline den Benutzer wechseln
+* Es gibt eine vorgemerkte Anmeldung und vorgemerkte Abmeldung

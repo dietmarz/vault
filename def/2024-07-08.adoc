@@ -1,0 +1,161 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= Montag, 08. Juli 2024
+
+link:../fnz/office.adoc[Regeln]
+
+
+== Done
+* 07:00 - 09:00
+* 09:00 - 11:00
+* 11:00 - 13:00
+* 13:00 - 15:00
+* 15:00 - 17:00
+
+== Aufgaben
+State: ' ' Unplanned, B = Blocked, X = Done, R = Refine it!, W = Wiedervorlage, S = Selected
+Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
+Task: SUp: Standup, Cur: Current
+
+
+== Frog FIRST!!! #######################################################################################################
+
+//       ###############################################################################################################
+== HEUTE ###############################################################################################################
+* [?] OneDrive installieren, zum Sync der pps.kdb
+* [ ] VPN installieren
+----
+ ! [remote rejected] develop -> develop (pre-receive hook declined)
+ ! [remote rejected] feature/PPS-1108-commentfield-for-users -> feature/PPS-1108-commentfield-for-users (pre-receive hook declined)
+error: failed to push some refs to 'bitbucket.org:hermesgermany/mac-ui.git'
+----
+check git!
+hilt const injeckti
+
+* [ ] Mockup bauen!
+
+== Gestern #############################################################################################################
+* UI Ausweis, 25Char Gestaltung schwierig, Fragen wie genau positionieren. Richtiges Alignment
+* Force Push geht nicht:
+* AWS Zugang, Graphana
+Aws Waf?
+
+== Frog FIRST!!! #######################################################################################################
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== PPS-1108 Kommentarfeld für User
+* https://hermesgermany.atlassian.net/browse/PPS-1108[jira]
+// * link:../.ticket/1121.adoc[Notes]
+* [ ] Start statischer Text überall, sehen wie sich das lauout ausdehnt
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== PPS-1121 MAC Doku im Confluence ablegen
+* https://hermesgermany.atlassian.net/browse/PPS-1121[jira]
+* link:../.ticket/1121.adoc[Notes]
+* [ ] SUP User Rechte funktionieren immer noch nicht, obwohl Bettina Funk ein Supportticke erstellt hat https://support.atlassian.com/requests/CES-43465
+    ** Evt. fehlt der Space-Key in der URL: "MPT"
+* [ ] SUP Ich würde das gerne testen brauche jetzt aber zugriff auf das EMail fach. Funktioniert auch nicht.
+
+
+
+* [ ] Cur: Das Pipeline Skript anpassen! Token einbauen
+* [ ] SUp: Das cosmere Plugin zum Schreiben nach Confluence ist ein Node prj. Das geht dann nach API, Also node abhägigkeit in API
+
+* Copy Paste ausprobieren
+* confluence API anschauen
+* evt. als docker container besser als cosmere wegen UI Abhängigkeit
+* Dann erstmal local ausprobieren
+* bitbucket namen = Var namen machen, wenn cosmere
+* cosmere zu alt! und evt nicht gepflegt!
+
+
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== PPS-1123 [Nicht technisch] Onboarding Dietmar
+* https://hermesgermany.atlassian.net/browse/PPS-1123[Jira]
+// link:../.ticket/1123.adoc[]
+* [ ] Login Einführung AWS
+* [ ] Login Einführung GCP
+* [ ] Bestellstatus PC? Für Montag
+
+* [ ] Jira Search anlegen
+
+* [x] Linux ansprechen: Temuri Isabekovi, Markus Detlefsen
+* [ ] Masterplan was ist das Kann-schulung
+* [ ] React TanStack Table anschauen
+
+
+* [ ] Was machen die 3 QR Codes exchange-pool, kundenlager, starkverkehrlager
+
+
+== #####################################################################################################################
+== #####################################################################################################################
+== #####################################################################################################################
+* [ ] Notebook nach rechts ziehen. USB Hub umziehen?
+* [ ] OOWV klären: https://mail.google.com/mail/u/0/?pli=1#label/WVL/FMfcgzQVwxBpszqBDpcrCCCxTHWMBHJL
+* [ ] Raveling, wann übergabe? Wo inseriert?
+* Brandkasse fragen, warum nur 25.000
+
+
+
+
+* Mindmap *Zukunft Strategie Plan Idee Ziel*, Beruflich, Privat, Wohnort, Einkommen
+* Fenster waschen
+
+== First Level Backlog
+* link:../prv/backlog.adoc[Second-Level-Backlog]
+* [ ] O-W 60 Backup-DVD Medien und Md5 Dateien strukturieren
+  **         Backup großer Video Dateien überlegen, wie inkrementell sichern. Einen Notes/.archive und Notes/.backup Ordner anlegen,
+             dort md5 der Dateien speichern. Archive = Cloud ohne git, doppelt gesichert.  Backup = M-Disc md5 Dateien. dot Ordner damit ausgeschlossen vom normalen grep.
+             Für Archive könnte man ein Skript schreiben. Wichtig ist die M-Discs zu benennen. Nur in der Hülle!. Archiv md5 Dateien machen keinen Sinn. Vielleicht nur die Directory Struktur.
+* [ ] FdW XX Versicherungen adoc anlegen, strukturieren. Solange 60 wiederholen bis fertig
+* [ ] M-W 60 Start Einstellen Kleinanzeigen/eBay
+* [ ] O-- 60 Task counter einbauen. Zählt runter 0. rauf. Hat aber im Scrum auch nicht interessiert. Frog Regel anhängen
+* [ ] O-- 40 Alle adoc aus office einsortieren. Prüfen ob bei Fahrräder rechnung verlinkt und Rahmennummer angegeben.
+
+
+
+
+
+
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Eichengrund
+
+* *Raveling*: anrufen und Fragen klären
+  ** [ ] WVL Raveling Fuger angebot?
+  ** Haus und Grund Mitgliedschaft?
+
+link:../fnz/immo/eichengrund-haus.adoc[]
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Gesundheit
+* [ ] F-- 30 < ? > KKasse wechseln
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Haus
+* [ ] H-- 30 < ? > Ladestecker bauen -> PausenJob
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+
