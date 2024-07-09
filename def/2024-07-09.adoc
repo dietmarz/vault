@@ -1,6 +1,6 @@
 include::{root}/.inc/includeDaily.adoc[]
 
-= Freitag, 05. Juli 2024
+= Dienstag, 09. Juli 2024
 
 link:../fnz/office.adoc[Regeln]
 
@@ -17,59 +17,42 @@ State: ' ' Unplanned, B = Blocked, X = Done, R = Refine it!, W = Wiedervorlage, 
 Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
 Task: SUp: Standup, Cur: Current
 
-//       ###############################################################################################################
-== Gestern ##############################################################################################################
-* Renovate: mac-ui eslint plugin & parser auf 7.14.1. Problem Cannot read properties of undefined (reading 'toUpperCase') 4.3.1
-  ** https://bitbucket.org/hermesgermany/mac-ui/pipelines/results/1852
-* Renovate: pps-am-event-processing update spring-data-common to 3.3.1
-  ** https://bitbucket.org/hermesgermany/pps-am-event-processing/pipelines/results/232
 
-
-* [ ] Rufbereitschaft klären für MAC, Anwesenheit sicherstellen.
-     ** SmartIT hermesgermany.app.opsgenie.com Beides
-     ** AWS
-Musst erreichbar sein, innerhalb ein h, erreichbar sein.
-
-
-* Interlfex eintragen wie Urlaub
-* Einsatz, dann im interflex
-Kritikalität 1-> Rufbereitschaft,
-
-
-* [ ] Overlay bildschirm testen
-caps lock abschalten
-
-
-* [ ]  intend devlauncher
-V-Tag?
-
+== Frog FIRST!!! #######################################################################################################
 
 //       ###############################################################################################################
 == HEUTE ###############################################################################################################
 * [?] OneDrive installieren, zum Sync der pps.kdb
 * [ ] VPN installieren
-* [ ] AWS/GCP Zugang
+----
+ ! [remote rejected] develop -> develop (pre-receive hook declined)
+ ! [remote rejected] feature/PPS-1108-commentfield-for-users -> feature/PPS-1108-commentfield-for-users (pre-receive hook declined)
+error: failed to push some refs to 'bitbucket.org:hermesgermany/mac-ui.git'
+----
+hilt const injeckti
+Intellij Lizens auf Hermes umstellen
+
+* [ ] Mockup bauen!
 
 
+interactor wenn änderungen auf dem ViewModel ersscheinen sollen.
 
+== Gestern #############################################################################################################
+* UI Ausweis, 25Char Gestaltung schwierig, Fragen wie genau positionieren. Richtiges Alignment
+* Force Push geht nicht:
+* AWS Zugang, Graphana
+Aws Waf?
 
-* Klärung AV-Hermes
-  ** [ ] Vermögenswirksame Leistungen, Endgeldumwandlung, an HR melden. Direkt brutto
-  ** [ ] HR: Direktversicherung klären
-  ** [ ] Genussrechte?
-
-
-== Frog FIRST!!! // ---------------------------------------------------------------------------------------------------------------------
-
-* H@V
+== Frog FIRST!!! #######################################################################################################
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === PPS-1108 Kommentarfeld für User
 * https://hermesgermany.atlassian.net/browse/PPS-1108[jira]
-* link:../.ticket/1108.adoc[Notes]
+// * link:../.ticket/1121.adoc[Notes]
 * [ ] Start statischer Text überall, sehen wie sich das lauout ausdehnt
-* [ ] mac-api prüfen,
+
+
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === PPS-1121 MAC Doku im Confluence ablegen
@@ -117,12 +100,12 @@ V-Tag?
 == #####################################################################################################################
 == #####################################################################################################################
 == #####################################################################################################################
+* [ ] Notebook nach rechts ziehen. USB Hub umziehen?
+* [ ] OOWV klären: https://mail.google.com/mail/u/0/?pli=1#label/WVL/FMfcgzQVwxBpszqBDpcrCCCxTHWMBHJL
+* [ ] Raveling, wann übergabe? Wo inseriert?
 * Brandkasse fragen, warum nur 25.000
 
 
-* Mail
-  ** [ ] WVL Raveling Anzeige finden im Netz
-  ** [ ] WVL OOVW mailen Eigentümer
 
 
 * Mindmap *Zukunft Strategie Plan Idee Ziel*, Beruflich, Privat, Wohnort, Einkommen
@@ -153,7 +136,6 @@ V-Tag?
 
 * *Raveling*: anrufen und Fragen klären
   ** [ ] WVL Raveling Fuger angebot?
-  ** [ ] Marion Birgfeld anrufen
   ** Haus und Grund Mitgliedschaft?
 
 link:../fnz/immo/eichengrund-haus.adoc[]
