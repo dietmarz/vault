@@ -19,3 +19,12 @@ include::{root}/.inc/include.adoc[]
   ** Livan Munoz Lopez (Mobile)
   ** Mufid Omar
 
+== Vorort
+* Ausweis prüfen
+* Portemonnaie, Handy, Gürtel mit Band
+* Headset, HDMI-Kabel
+* Handy-USB Kabel
+* Wasserflasche
+* Scanner + Scannerkabel
+* Notebook, Reisenetzteil
+
