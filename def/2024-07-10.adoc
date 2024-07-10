@@ -29,8 +29,8 @@ Task: SUp: Standup, Cur: Current
  ! [remote rejected] feature/PPS-1108-commentfield-for-users -> feature/PPS-1108-commentfield-for-users (pre-receive hook declined)
 error: failed to push some refs to 'bitbucket.org:hermesgermany/mac-ui.git'
 ----
-hilt const injeckti
-Intellij Lizens auf Hermes umstellen
+* [ ] L Hilt,  Activity, Interactor, BroadcastReceiver, Fragment, Factory
+* [ ] Intellij Lizens auf Hermes umstellen
 
 * [ ] Mockup bauen!
 
