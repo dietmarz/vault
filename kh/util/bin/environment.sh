@@ -206,4 +206,5 @@ alias ma="nohup /opt/android-studio/bin/studio.sh /home/dietmar/project/multiapp
 alias cdapi="cd ~/project/mac-api"
 alias api="nohup ${ENV_EDITOR} /home/dietmar/project/mac-api >/dev/null 2>&1 &"
 
-alias lint="./gradlew ktlintFormat"
+alias lint="./gradlew ktlintFormat && git status -s"
+alias lintf="yarn eslint --fix 'src/**/*.ts'  'src/**/*.tsx' 'test/**/*.tsx' && git status -s"
