@@ -110,7 +110,7 @@ alias master="git checkout master && rebase && st && git lg -1"
 alias develop="git checkout develop && rebase && st && git lg -1"
 alias main="git checkout main && rebase && st && git lg -1"
 alias push="git push && git lg -1"
-alias pushf="git push --force --all && git push --force --tags && git lg -1 && st"
+alias pushf="git push --force && git push --force --tags && git lg -1 && st"
 alias pushu="git push -u && git lg -1"
 alias rebase="git pull --all --rebase --autostash --prune && st"
 alias rebaseToDev="git fetch --all --prune && git rebase --autostash origin/develop"
@@ -198,6 +198,12 @@ alias java21='  export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64   ; export P
 alias java21c=' export JAVA_HOME=/home/dietmar/.jdks/corretto-21.0.3  ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
 
 alias cdui="cd ~/project/mac-ui"
-alias cdapi="cd ~/project/mac-api"
-alias cdma="cd ~/project/multiapp"
+alias ui="nohup ${ENV_EDITOR} /home/dietmar/project/mac-ui >/dev/null 2>&1 &"
 
+alias cdma="cd ~/project/multiapp"
+alias ma="nohup /opt/android-studio/bin/studio.sh /home/dietmar/project/multiapp >/dev/null 2>&1 &"
+
+alias cdapi="cd ~/project/mac-api"
+alias api="nohup ${ENV_EDITOR} /home/dietmar/project/mac-api >/dev/null 2>&1 &"
+
+alias lint="./gradlew ktlintFormat"

@@ -182,12 +182,10 @@ sudo apt-get install audacity
 sudo snap install youtube-dl
 sudo snap install yt-dlp
 .Update yt-dlp to beta
-----
 snap info yt-dlp
 sudo snap install yt-dlp --channel=latest/beta
 sudo snap refresh yt-dlp --channel=latest/beta
 sudo snap refresh --list
-----
 
 sudo apt-get install k3b
 sudo apt install graphviz
@@ -329,8 +327,7 @@ Create following file:
 
 .sudo touch /etc/sysctl.d/60-jetbrains.conf
 
-If docker is already intalled, goto settings->Build, Exe..., Docker and press the + button
-----
+# If docker is already intalled, goto settings->Build, Exe..., Docker and press the + button
 // Remove the '//' signs !!!
 // # Set inotify watch limit high enough for IntelliJ IDEA (PhpStorm, PyCharm, RubyMine, WebStorm).
 // # Create this file as /etc/sysctl.d/60-jetbrains.conf (Debian, Ubuntu), and
@@ -345,17 +342,19 @@ If docker is already intalled, goto settings->Build, Exe..., Docker and press th
 fs.inotify.max_user_watches = 524288
 ----
 
-[source,bash]
+
+
 .Terraform & Terragrunt
 ----
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 
-# focal not una !
+# focal not una or jammy
+
 sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com focal main"
+sudo apt-get update
 sudo apt install terraform
 
-----
-Downlaod from https://github.com/gruntwork-io/terragrunt/releases
+# Downlaod terragrunt_linux_amd64 from https://github.com/gruntwork-io/terragrunt/releases
 sudo mv ~/Downloads/terragrunt_linux_amd64 /usr/local/bin/terragrunt
 sudo chmod a+x /usr/local/bin/terragrunt
 sudo chown root:root /usr/local/bin/terragrunt
@@ -406,9 +405,12 @@ sudo apt-get install simplescreenrecorder libavcodec-extra-* libavformat-extra-*
 .aws cli
 ----
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+cdDownloads
 $ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
+
+# Auf der Website gibt es auch eine Info zum update
 ----
 
 .OCR
@@ -428,15 +430,13 @@ sudo vim /etc/ImageMagick-6/policy.xml
 ----
 
 
-
-.link:usr-share-X11-xkb-symbols-de.file[Beispiel-tastatur-Layout]
+.Keyboard
 ----
+# link:usr-share-X11-xkb-symbols-de.file[Beispiel-tastatur-Layout]
 sudo vim /usr/share/X11/xkb/symbols/de
 bei "key <AE12> "dead_acute" durch "acute" und "dead_grave" durch "grave" ersetzen
 bei "key <TLDE> "circumflex" durch "asciicircum" ersetzen
 ----
-
-
 
 
 [[Obsidian]]
