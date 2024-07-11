@@ -46,3 +46,5 @@ sudo exfatlabel /dev/sdXN LABEL_NAME
 ----
 
 pfad="${pfad%/}" # Entfernt den abschließenden Schrägstrich, falls vorhanden. Für copieren mit rsync
+
+* Portscan `sudo nmap -sS 52.223.16.71`

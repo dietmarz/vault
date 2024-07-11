@@ -1,0 +1,18 @@
+include::{root}/.inc/include.adoc[]
+
+= Hermes Mac API Documentation
+
+== 8 Mal User
+
+|===
+|User                    |Mongo DB Document | Yes
+|UserSearchService.User  |DTO from User     | No
+|ExternalUsersRepository |Keycloak User     | No
+|UserResponse            |
+|UserSearchRequest       |
+|UserSearchResponse      |
+|UserSearchResult        |
+|UserSessionResponse     |
+|===
+
+

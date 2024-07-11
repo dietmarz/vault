@@ -197,3 +197,7 @@ alias java17='  export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64   ; export P
 alias java21='  export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64   ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
 alias java21c=' export JAVA_HOME=/home/dietmar/.jdks/corretto-21.0.3  ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
 
+alias cdui="cd ~/project/mac-ui"
+alias cdapi="cd ~/project/mac-api"
+alias cdma="cd ~/project/multiapp"
+

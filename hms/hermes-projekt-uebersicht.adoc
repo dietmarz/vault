@@ -9,9 +9,9 @@ image::.img/states.png[Prozess und Zuordnung]
 
 ===  MAC: MultiAppCockpit
 * Steuerung wer was darf, 2J gerade in der Einführung
-* mac-ui (web-client)
-* multiapp (android-client)
-* mac-api (backend)
+* FE: mac-ui (web-client)
+* FE: multiapp (android-client)
+* BE: mac-api (backend)
 * port-terraform (infrastructure) AWS
 
 

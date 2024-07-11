@@ -164,6 +164,7 @@ dietmar->settings->general->Edit Ignored Files
 
 .Tools
 ----
+sudo apt-get install nmap
 sudo apt-get install jq
 sudo apt-get install gparted
 sudo apt install iotop

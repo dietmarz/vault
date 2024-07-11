@@ -22,8 +22,17 @@ Task: SUp: Standup, Cur: Current
 
 //       ###############################################################################################################
 == HEUTE ###############################################################################################################
+* Force Push geht nicht:
+* AWS Zugang, Graphana
+* Aws Waf? Was ist das?
+
+
+* [ ] AWS GCP Einführung
 * [?] OneDrive installieren, zum Sync der pps.kdb
 * [ ] VPN installieren
+
+
+
 ----
  ! [remote rejected] develop -> develop (pre-receive hook declined)
  ! [remote rejected] feature/PPS-1108-commentfield-for-users -> feature/PPS-1108-commentfield-for-users (pre-receive hook declined)
@@ -33,15 +42,16 @@ error: failed to push some refs to 'bitbucket.org:hermesgermany/mac-ui.git'
 * [ ] Intellij Lizens auf Hermes umstellen
 
 * [ ] Mockup bauen!
+* installieren aws, terraform
 
 
 interactor wenn änderungen auf dem ViewModel ersscheinen sollen.
 
 == Gestern #############################################################################################################
-* UI Ausweis, 25Char Gestaltung schwierig, Fragen wie genau positionieren. Richtiges Alignment
-* Force Push geht nicht:
-* AWS Zugang, Graphana
-Aws Waf?
+* Testen 2.18.1
+* Mail
+* Weiter Comment 1108 backend
+* Mail von Michael diverse offene Ports
 
 == Frog FIRST!!! #######################################################################################################
 
@@ -49,9 +59,11 @@ Aws Waf?
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === PPS-1108 Kommentarfeld für User
 * https://hermesgermany.atlassian.net/browse/PPS-1108[jira]
-// * link:../.ticket/1121.adoc[Notes]
+* link:../.ticket/1108.adoc[Notes]
 * [ ] Start statischer Text überall, sehen wie sich das lauout ausdehnt
 
+
+* [ ] ScheduledTasksService Uhrzeiten auseinander ziehen, sinnvoller gestallten
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -61,8 +73,6 @@ Aws Waf?
 * [ ] SUP User Rechte funktionieren immer noch nicht, obwohl Bettina Funk ein Supportticke erstellt hat https://support.atlassian.com/requests/CES-43465
     ** Evt. fehlt der Space-Key in der URL: "MPT"
 * [ ] SUP Ich würde das gerne testen brauche jetzt aber zugriff auf das EMail fach. Funktioniert auch nicht.
-
-
 
 * [ ] Cur: Das Pipeline Skript anpassen! Token einbauen
 * [ ] SUp: Das cosmere Plugin zum Schreiben nach Confluence ist ein Node prj. Das geht dann nach API, Also node abhägigkeit in API
@@ -97,17 +107,17 @@ Aws Waf?
 * [ ] Was machen die 3 QR Codes exchange-pool, kundenlager, starkverkehrlager
 
 
-== #####################################################################################################################
-== #####################################################################################################################
-== #####################################################################################################################
-* [ ] Notebook nach rechts ziehen. USB Hub umziehen?
+== Private ##############################################################################################################
+//  #####################################################################################################################
+//  #####################################################################################################################
+
 * [ ] OOWV klären: https://mail.google.com/mail/u/0/?pli=1#label/WVL/FMfcgzQVwxBpszqBDpcrCCCxTHWMBHJL
-* [ ] Raveling, wann übergabe? Wo inseriert?
-* Brandkasse fragen, warum nur 25.000
+* [ ] Brandkasse fragen, warum nur 25.000
 
 
 
 
+== Sonstiges
 * Mindmap *Zukunft Strategie Plan Idee Ziel*, Beruflich, Privat, Wohnort, Einkommen
 * Fenster waschen
 
@@ -135,7 +145,19 @@ Aws Waf?
 === Eichengrund
 
 * *Raveling*: anrufen und Fragen klären
-  ** [ ] WVL Raveling Fuger angebot?
+  ** Stand der Vermietung... Waren ja schon einige da
+  ** Anzeige, Mietvertrag,
+  ** Wann Übergabe,
+  ** Wann macht es Sinn das ich nach Esens komme?
+  ** Raveling Fuger angebot?
+* NK Abrechnung ist noch nicht da.
+* [ ] Gibt es Neuigkeiten wegen der Ausschreibung zum Verfugen des Giebels?
+* [ ] Wie ist die genaue Zusammenarbeit
+* [ ] Fotos machen von der Wohnung Haus und Grundstück!
+
+
+
+* Generell
   ** Haus und Grund Mitgliedschaft?
 
 link:../fnz/immo/eichengrund-haus.adoc[]
