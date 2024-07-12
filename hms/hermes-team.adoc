@@ -13,7 +13,7 @@ include::{root}/.inc/include.adoc[]
 
 * Fachlich für die Verwaltung der Scanner zuständig. Wer hat welche Hardware.
   ** Blerina Gashi
-  ** Bernd
+  ** Bernd Ragwitz
 
 * Betreuen das "Smart IT" Ticket-System, (der reine Hermes Außendienst schreibt)
   ** Livan Munoz Lopez (Mobile)

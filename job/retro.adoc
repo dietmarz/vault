@@ -1,0 +1,16 @@
+include::{root}/.inc/include.adoc[]
+
+= Retro
+
+== Beschlüsse Fri 12.07.
+* Learnings: Hermes Security Team, DIRT, MAC-K1 kritisch
+  ** *Jonas stellt einen Termin*
+
+* Sebastian Lock Screen: Geht nicht das da jemand so lange alleine arbeitet
+  ** Meine Idee: Immer zu zweit zuweisen Driver und CoDriver
+
+* Cool bei Hermes Linux benutzen zu dürfen
+  ** VPN, OneDirve?
+
+* Mal mit Soti arbeiten mit Mufid
+  ** Darf ich fragen, machen wir online
