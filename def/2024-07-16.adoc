@@ -36,6 +36,7 @@ Task: SUp: Standup, Cur: Current
 
 * Soti und SmartIT Einführung mit Mofid
 * Anruf Rav -> Tanja informieren
+* Anruf Wolckenhauer Termin.
 
 
 == Fragen --------------------------------------------------------------------------------------------------------------
