@@ -14,3 +14,7 @@ include::{root}/.inc/include.adoc[]
 
 * Mal mit Soti arbeiten mit Mufid
   ** Darf ich fragen, machen wir online
+
+
+Disziplin Daily. Ersccheinen
+Smart IT, Soti

@@ -51,3 +51,4 @@ pfad="${pfad%/}" # Entfernt den abschließenden Schrägstrich, falls vorhanden. 
 
 * Ubutu version `inxi -Fxxxrz | grep Distro`
 * Cinnamon version  `inxi -Fxxxrz | grep Desktop`
+* Adding ClientUser to Server: `ssh-copy-id serverUser@server`

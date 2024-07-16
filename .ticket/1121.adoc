@@ -2,6 +2,33 @@ include::{root}/.inc/include.adoc[]
 
 = MAC Doku im Confluence ablegen
 
+
+von Sebastian übernommen
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== PPS-1121 MAC Doku im Confluence ablegen
+* https://hermesgermany.atlassian.net/browse/PPS-1121[jira]
+* link:../.ticket/1121.adoc[Notes]
+* [ ] SUP User Rechte funktionieren immer noch nicht, obwohl Bettina Funk ein Supportticke erstellt hat https://support.atlassian.com/requests/CES-43465
+  ** Evt. fehlt der Space-Key in der URL: "MPT"
+* [ ] SUP Ich würde das gerne testen brauche jetzt aber zugriff auf das EMail fach. Funktioniert auch nicht.
+
+* [ ] Cur: Das Pipeline Skript anpassen! Token einbauen
+* [ ] SUp: Das cosmere Plugin zum Schreiben nach Confluence ist ein Node prj. Das geht dann nach API, Also node abhägigkeit in API
+
+* Copy Paste ausprobieren
+* confluence API anschauen
+* evt. als docker container besser als cosmere wegen UI Abhängigkeit
+* Dann erstmal local ausprobieren
+* bitbucket namen = Var namen machen, wenn cosmere
+* cosmere zu alt! und evt nicht gepflegt!
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+
+
+
 * https://hermesgermany.atlassian.net/browse/PPS-1121[Ticket]
 
 

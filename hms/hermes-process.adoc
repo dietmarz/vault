@@ -1,11 +1,9 @@
 include::{root}/.inc/include.adoc[]
 
-= Hermes Prozesse
+= Hermes Process.adoc
 
-== Zeiten Urlaub
-* ersten 1.5 Mon auf Schulung Einarbeitung buchen
-* Über/Unterstunden max: 3x38h ins Plus, 1x38h ins Minus
-* Keinen Urlaub ins neue Jahr
+== Urlaub
 
+* Teamkalendear
+Team_PPS@hermesworld.com, Immer als anzeigen als frei eintragen
 
-== Krankheit

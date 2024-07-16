@@ -1,0 +1,17 @@
+include::{root}/.inc/include.adoc[]
+
+= Hermes Mac Ui Docu
+
+== React
+* Icons: https://react-icons.github.io/react-icons/
+* Komponenten: shadcn
+
+* CSS TailWind
+
+== Cypress Tests laufen lassen
+* Server starten mit `mac-ui> yarn run:cyp`
+* Testsuite starten mit `mac-ui> yarn run:cypress`
+* Run it: In  Testsuite -> E2E click-> Chromium click->Start E2E in Chromium click-> Tab-Specs."Run 6 specs" click
+* Trouble: Wenn festhängt bei loading... dann oben rechts "Run all Tests [R]" drücken. Vielleicht auch 2 mal
+* Nur einen Test ausführen soll dann `it.("my-test"` ändern zu `it.only("my-test"`
+* Mehr Debug Ausgaben mit: `export DEBUG=cypress:*`

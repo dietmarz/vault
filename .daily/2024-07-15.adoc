@@ -1,0 +1,204 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= Montag, 15. Juli 2024
+
+link:../fnz/office.adoc[Regeln]
+
+
+== Done
+* 07:00 - 09:00
+* 09:00 - 11:00
+* 11:00 - 13:00
+* 13:00 - 15:00
+* 15:00 - 17:00
+
+== Aufgaben
+State: ' ' Unplanned, B = Blocked, X = Done, R = Refine it!, W = Wiedervorlage, S = Selected
+Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
+Task: SUp: Standup, Cur: Current
+
+
+== Frog FIRST!!! #######################################################################################################
+
+//       ###############################################################################################################
+== HEUTE ###############################################################################################################
+
+=== Infrasturktur
+* [ ] AWS GCP Einführung
+* [?] VPN OneDrive installieren, zum Sync der pps.kdb
+* [ ] Intellij Lizens auf Hermes umstellen
+
+* [ ] L Hilt,  Activity, Interactor, BroadcastReceiver, Fragment, Factory
+* t android anlegen: interactor wenn änderungen auf dem ViewModel ersscheinen sollen.
+
+
+
+* Fliegengitter bestelle, 7 Pläne machen mit zeichnung und masse und Bestellung der Teile
+* CSS  Ausweis klar mit ChatGpt
+
+
+== Daily ###############################################################################################################
+
+* *Story*
+* Show Ausweis Code now!
+* Fronend gefixed
+* Test fixen
+
+
+
+* Anruf Rav
+* Ops-Genie ?
+
+
+== Fragen --------------------------------------------------------------------------------------------------------------
+* Urlaubskalender wo ist der?
+* Brauche Win10 Test für Docker extra_hosts (mac-api)
+* Soti und SmartIT fertig bekommen
+* Ops Genie, zusammen mit EZSB? 
+
+
+== Frog ################################################################################################################
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== PPS-1108 Kommentarfeld für User
+* https://hermesgermany.atlassian.net/browse/PPS-1108[jira]
+* link:../.ticket/1108.adoc[Notes]
+* [ ] Mockup bauen, vorschlagen drei reihig
+* [ ] API: ScheduledTasksService Uhrzeiten auseinander ziehen, sinnvoller gestallten
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== PPS-1121 MAC Doku im Confluence ablegen
+* https://hermesgermany.atlassian.net/browse/PPS-1121[jira]
+* link:../.ticket/1121.adoc[Notes]
+* [ ] SUP User Rechte funktionieren immer noch nicht, obwohl Bettina Funk ein Supportticke erstellt hat https://support.atlassian.com/requests/CES-43465
+    ** Evt. fehlt der Space-Key in der URL: "MPT"
+* [ ] SUP Ich würde das gerne testen brauche jetzt aber zugriff auf das EMail fach. Funktioniert auch nicht.
+
+* [ ] Cur: Das Pipeline Skript anpassen! Token einbauen
+* [ ] SUp: Das cosmere Plugin zum Schreiben nach Confluence ist ein Node prj. Das geht dann nach API, Also node abhägigkeit in API
+
+* Copy Paste ausprobieren
+* confluence API anschauen
+* evt. als docker container besser als cosmere wegen UI Abhängigkeit
+* Dann erstmal local ausprobieren
+* bitbucket namen = Var namen machen, wenn cosmere
+* cosmere zu alt! und evt nicht gepflegt!
+
+
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== PPS-1123 [Nicht technisch] Onboarding Dietmar
+* https://hermesgermany.atlassian.net/browse/PPS-1123[Jira]
+// link:../.ticket/1123.adoc[]
+* [ ] Login Einführung AWS
+* [ ] Login Einführung GCP
+* [ ] Bestellstatus PC? Für Montag
+
+* [ ] Jira Search anlegen
+
+* [x] Linux ansprechen: Temuri Isabekovi, Markus Detlefsen
+* [ ] Masterplan was ist das Kann-schulung
+* [ ] React TanStack Table anschauen
+
+
+* [ ] Was machen die 3 QR Codes exchange-pool, kundenlager, starkverkehrlager
+
+
+==  ####################################################################################################################
+//  #####################################################################################################################
+//  #####################################################################################################################
+
+* [ ] OOWV klären: https://mail.google.com/mail/u/0/?pli=1#label/WVL/FMfcgzQVwxBpszqBDpcrCCCxTHWMBHJL
+* [ ] Brandkasse fragen, warum nur 25.000
+
+
+
+
+== Sonstiges
+* Mindmap *Zukunft Strategie Plan Idee Ziel*, Beruflich, Privat, Wohnort, Einkommen
+* Fenster waschen
+
+== First Level Backlog
+* link:../prv/backlog.adoc[Second-Level-Backlog]
+* [ ] O-W 60 Backup-DVD Medien und Md5 Dateien strukturieren
+  **         Backup großer Video Dateien überlegen, wie inkrementell sichern. Einen Notes/.archive und Notes/.backup Ordner anlegen,
+             dort md5 der Dateien speichern. Archive = Cloud ohne git, doppelt gesichert.  Backup = M-Disc md5 Dateien. dot Ordner damit ausgeschlossen vom normalen grep.
+             Für Archive könnte man ein Skript schreiben. Wichtig ist die M-Discs zu benennen. Nur in der Hülle!. Archiv md5 Dateien machen keinen Sinn. Vielleicht nur die Directory Struktur.
+* [ ] FdW XX Versicherungen adoc anlegen, strukturieren. Solange 60 wiederholen bis fertig
+* [ ] M-W 60 Start Einstellen Kleinanzeigen/eBay
+* [ ] O-- 60 Task counter einbauen. Zählt runter 0. rauf. Hat aber im Scrum auch nicht interessiert. Frog Regel anhängen
+* [ ] O-- 40 Alle adoc aus office einsortieren. Prüfen ob bei Fahrräder rechnung verlinkt und Rahmennummer angegeben.
+
+
+
+
+
+
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Eichengrund
+
+11:30 - 12:00 heute.
+
+* *Raveling*: anrufen und Fragen klären
+  ** Stand der Vermietung... Waren ja schon einige da, 4 Bewerber.
+* T.Emken: garantieren, dass die den Garten nicht ordentlich machen werden.
+
+* - Nikole Kremke alleine stehen, behindertes Kind 15J, aber Emken dagegen.
+* + Reinhold Fresee 70J in Wilmsfeld. Getrennt von seiner Frau
+* + 30J Klietzt und Harms paar, mit Kind, Sie Pflegezentrum Er Lagerist Grabpflege, Westerloog, einkommen ok. Junge 3 Jahre.
+* + Germann Esens 70Jahre, 7mal operiert. Hecke schneiden von den Kindern.
+* Baulik interess ohne Besichtug Termin.
+
+Alle ohne Tiere.
+
+
+
+  ** Wann macht es Sinn das ich nach Esens komme?
+  ** Anzeige, Mietvertrag,
+  ** Wann Übergabe,
+  ** Raveling Fuger angebot?
+  ** Mietvertrag
+
+* NK Abrechnung ist noch nicht da.
+* [ ] Gibt es Neuigkeiten wegen der Ausschreibung zum Verfugen des Giebels?
+* [ ] Wie ist die genaue Zusammenarbeit
+* [ ] Fotos machen von der Wohnung Haus und Grundstück!
+
+
+
+* Generell
+  ** Haus und Grund Mitgliedschaft?
+
+link:../fnz/immo/eichengrund-haus.adoc[]
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Gesundheit
+* [ ] F-- 30 < ? > KKasse wechseln
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Haus
+* [ ] H-- 30 < ? > Ladestecker bauen -> PausenJob
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+== Notizen
+
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===
+

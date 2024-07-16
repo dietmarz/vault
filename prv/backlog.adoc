@@ -2,6 +2,19 @@ include::{root}/.inc/include.adoc[]
 
 = Backlog Aufgabenstapel
 
+== First Level Backlog
+* link:../prv/backlog.adoc[Second-Level-Backlog]
+* [ ] O-W 60 Backup-DVD Medien und Md5 Dateien strukturieren
+  **         Backup großer Video Dateien überlegen, wie inkrementell sichern. Einen Notes/.archive und Notes/.backup Ordner anlegen,
+dort md5 der Dateien speichern. Archive = Cloud ohne git, doppelt gesichert.  Backup = M-Disc md5 Dateien. dot Ordner damit ausgeschlossen vom normalen grep.
+Für Archive könnte man ein Skript schreiben. Wichtig ist die M-Discs zu benennen. Nur in der Hülle!. Archiv md5 Dateien machen keinen Sinn. Vielleicht nur die Directory Struktur.
+* [ ] FdW XX Versicherungen adoc anlegen, strukturieren. Solange 60 wiederholen bis fertig
+* [ ] M-W 60 Start Einstellen Kleinanzeigen/eBay
+* [ ] O-- 60 Task counter einbauen. Zählt runter 0. rauf. Hat aber im Scrum auch nicht interessiert. Frog Regel anhängen
+* [ ] O-- 40 Alle adoc aus office einsortieren. Prüfen ob bei Fahrräder rechnung verlinkt und Rahmennummer angegeben.
+
+
+
 == Lernen Job
 * Udemy Lehrgang: https://www.udemy.com/course/microservices-clean-architecture-ddd-saga-outbox-kafka-kubernetes/learn/lecture/31152934?start=195#overview
 

@@ -2,6 +2,7 @@
 
 ./jira $1
 
-TICKET="KNOMP-$1"
-chromium "https://jira.int.kn/browse/${TICKET}" >/dev/null 2>&1 &
+
+TICKET="PPS-$1"
+chromium "https://hermesgermany.atlassian.net/browse/${TICKET}" >/dev/null 2>&1 &
 
