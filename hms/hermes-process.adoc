@@ -3,7 +3,13 @@ include::{root}/.inc/include.adoc[]
 = Hermes Process.adoc
 
 == Urlaub
+* Doc: Teams [Browser] -> Teams [Button left] -> It-PS-LastMile.General[Your teams] ->
+
 
 * Teamkalendear
 Team_PPS@hermesworld.com, Immer als anzeigen als frei eintragen
 
+
+* Vorbereiten Kalendar blockieren termine löschen...
+* Rufbereitschaft
+* Digital workplace eintragen?

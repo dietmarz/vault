@@ -4,3 +4,4 @@ include::{root}/.inc/include.adoc[]
 
 == Auto Caddy
 * Letzte Inspektion 04.04.2023 261TKm
+         Stand 17.07.2024 271TK

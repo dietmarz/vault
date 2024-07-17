@@ -2,14 +2,9 @@ include::{root}/.inc/include.adoc[]
 
 = Eichengrund Grundbuchbezirk Esens Blatt 1881
 
-* HR Auktionator Hartmut Raveling,
-* MB Mieter Marion Birgfeld und Tochter seit 01.01.2015 017642751794
-* TE Mieter Tanja Emken und Sohn seit 01.02.2016 01729199668
-* Raveling Kosten 15€ pro Mieter pro Monat. Auf Kaltmiete geschalgen
-* SteuerBuero-Janssen.de
-* Ingo tammenbau@gmx.de
-
 == Aktuell -------------------------------------------------------------------------------------------------------------
+* *Wann macht es Sinn das ich nach Esens komme*?
+
 * *Raveling*: anrufen und Fragen klären
   ** Stand der Vermietung... Waren ja schon einige da, 4 Bewerber.
 * T.Emken: garantieren, dass die den Garten nicht ordentlich machen werden.
@@ -21,9 +16,6 @@ include::{root}/.inc/include.adoc[]
 
 Alle ohne Tiere.
 
-
-
-  ** Wann macht es Sinn das ich nach Esens komme?
   ** Anzeige, Mietvertrag,
   ** Wann Übergabe,
   ** Raveling Fuger angebot?
@@ -37,6 +29,12 @@ Alle ohne Tiere.
 
 == Aktuell Ende ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+* HR Auktionator Hartmut Raveling,
+* MB Mieter Marion Birgfeld und Tochter seit 01.01.2015 017642751794
+* TE Mieter Tanja Emken und Sohn seit 01.02.2016 01729199668
+* Raveling Kosten 15€ pro Mieter pro Monat. Auf Kaltmiete geschalgen
+* SteuerBuero-Janssen.de
+* Ingo tammenbau@gmx.de
 
 
 link:eichengrund-uebertragung.adoc[Vertragliches]

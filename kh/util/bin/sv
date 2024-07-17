@@ -4,12 +4,11 @@ set -eu
 git_ops() {
     local env_var_name=$1
     local commit_msg=$2
-    local stashed_changes=false
 
     # Check if the environment variable is set and not empty
     if [[ -z ${!env_var_name:-} ]]; then
         echo "Environment variable $env_var_name is not set. Skipping..."
-        return
+        return 1
     fi
 
     local dir=${!env_var_name}
@@ -17,7 +16,7 @@ git_ops() {
     # Check if the directory exists
     if [[ ! -d $dir ]]; then
         echo "Directory $dir (from $env_var_name) does not exist. Skipping..."
-        return
+        return 2
     fi
 
     # Change to the specified directory
@@ -25,25 +24,11 @@ git_ops() {
 
     echo "========================= ${dir} git operations ========================= "
 
-    # Check if there are uncommitted changes and stash them if there are
-    if ! git diff-index --quiet HEAD --; then
-        # Detected changes
-        echo "Stashing changes in $dir"
-        git stash
-        stashed_changes=true
-    fi
-
     echo "------------------------- ${dir} rebasing -------------------------"
-    if ! git pull --rebase; then
+    if ! git pull --rebase --autostash; then
         echo "Es gab einen Konflikt beim Versuch, Änderungen zu pullen/rebasen in $dir."
         echo "Bitte lösen Sie den Konflikt manuell."
-        exit 1
-    fi
-
-    # Apply the stashed changes if they were stashed earlier
-    if $stashed_changes && git stash list | grep -q "stash@{0}"; then
-        echo "Applying stashed changes in $dir"
-        git stash pop
+        exit 3
     fi
 
     git status -s
@@ -67,7 +52,7 @@ if [[ -n ${ENV_VAULT:-} ]]; then
     echo "------------------------- vault formatting -------------------------"
     if ! ${ENV_VAULT}/kh/util/bin/format-adoc.sh; then
         echo "Vault formatting failed. Aborting script."
-        exit 1
+        exit 4
     fi
 
     if [[ -n ${ENV_SKIP_VALIDATION:-} ]]; then
@@ -76,20 +61,21 @@ if [[ -n ${ENV_VAULT:-} ]]; then
         echo "------------------------- vault validation -------------------------"
         if ! ${ENV_VAULT}/kh/util/bin/t "v"; then
             echo "Validation failed. Aborting script."
-            exit 1
+            exit 5
         fi
     fi
 
     echo "------------------------- vault encryption -------------------------"
     if ! ${ENV_VAULT}/kh/util/bin/t "e"; then
         echo "Encryption failed. Aborting script."
-        exit 1
+        exit 6
     fi
 
     # Call the function for vault
     git_ops ENV_VAULT "Update vault by sv"
 fi
 
-
 # Call the function for office and kh
 git_ops ENV_OFFICE "Update office by sv"
+
+return 0

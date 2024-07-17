@@ -11,7 +11,12 @@ include::{root}/.inc/include.adoc[]
 == Cypress Tests laufen lassen
 * Server starten mit `mac-ui> yarn run:cyp`
 * Testsuite starten mit `mac-ui> yarn run:cypress`
+  ** Without UI `yarn cypress run  --config-file ./test/integration/cypress.config.ts`
+  ** With    UI `yarn cypress open --config-file ./test/integration/cypress.config.ts`
+
 * Run it: In  Testsuite -> E2E click-> Chromium click->Start E2E in Chromium click-> Tab-Specs."Run 6 specs" click
 * Trouble: Wenn festhängt bei loading... dann oben rechts "Run all Tests [R]" drücken. Vielleicht auch 2 mal
 * Nur einen Test ausführen soll dann `it.("my-test"` ändern zu `it.only("my-test"`
 * Mehr Debug Ausgaben mit: `export DEBUG=cypress:*`
+
+

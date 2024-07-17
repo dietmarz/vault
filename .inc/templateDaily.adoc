@@ -7,10 +7,7 @@ link:../fnz/office.adoc[Regeln]
 == Aufgaben
 _LAST_AUFGABEN_== Notizen
 
-== Notizen
-
 |===
 | Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
 | Mail Custom |Cal Custom |Brief |Chat   |Daily |
 |===
-
