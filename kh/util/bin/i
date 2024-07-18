@@ -8,6 +8,6 @@ if ! ([ -f "$fileOrDir" ] || [ -d "$fileOrDir" ]); then
   touch $fileOrDir;
 fi
 
-nohup ${ENV_EDITOR} "$@" >/dev/null 2>&1 &
+nohup ${ENV_EDITOR_INTELLIJ} "$@" >/dev/null 2>&1 &
 
 

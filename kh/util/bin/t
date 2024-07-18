@@ -1,4 +1,5 @@
 #!/bin/bash
 set -e
 
+export ENV_EDITOR=$ENV_EDITOR_INTELLIJ
 java -jar ${ENV_VAULT}/kh/util/task/task-1.0-SNAPSHOT.jar "$@"

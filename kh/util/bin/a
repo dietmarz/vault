@@ -8,6 +8,6 @@ if ! ([ -f "$fileOrDir" ] || [ -d "$fileOrDir" ]); then
   touch $fileOrDir;
 fi
 
-nohup /opt/android-studio/bin/studio.sh "$@" >/dev/null 2>&1 &
+nohup ${ENV_EDITOR_ANDROID} "$@" >/dev/null 2>&1 &
 
 

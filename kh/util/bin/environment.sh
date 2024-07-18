@@ -4,7 +4,8 @@
 if [ "$HOSTNAME" == "NLEIH007" ]
 then
   export ENV_VAULT="c:/project/vault"
-  export ENV_EDITOR="c:/opt/intellij/bin/idea64.exe"
+  export ENV_EDITOR_INTELLIJ="c:/opt/intellij/bin/idea64.exe"
+  export ENV_EDITOR_ANDROID="c:/opt/android-studio/bin/studio.exe"
   export ENV_CALCULATOR="c:/Program Files/Microsoft Office/root/Office16/EXCEL.EXE"
   export ENV_FILE_LISTER="ls"
   export ENV_FILE_LISTER_ARG="-lrth"
@@ -17,7 +18,8 @@ fi
 if [ "$HOSTNAME" == "p5470" ] || [ "$HOSTNAME" == "e5401" ] || [ "$HOSTNAME" == "labor" ] || [ "$HOSTNAME" == "cinnamon-vm" ] || [ "$HOSTNAME" == "dza-pps" ]
 then
   export ENV_VAULT="/home/dietmar/cloud/Notes"
-  export ENV_EDITOR="/opt/idea/bin/idea.sh"
+  export ENV_EDITOR_INTELLIJ="/opt/idea/bin/idea.sh"
+  export ENV_EDITOR_ANDROID="/opt/android-studio/bin/studio.sh"
   export ENV_CALCULATOR="/usr/bin/soffice --calc"
   export ENV_FILE_LISTER="tree"
   export ENV_FILE_LISTER_ARG=""
@@ -41,9 +43,9 @@ then
     echo ENV_VAULT does not point to the vault directory: $ENV_VAULT
 fi
 
-if ! [ -f "$ENV_EDITOR" ]
+if ! [ -f "$ENV_EDITOR_INTELLIJ" ]
 then
-    echo ENV_EDITOR does not point to the idea editor executable: $ENV_EDITOR
+    echo ENV_EDITOR_INTELLIJ does not point to the idea editor executable: $ENV_EDITOR_INTELLIJ
 fi
 
 if [ -f "${ENV_VAULT}/kh/util/bin/password.ignore.sh" ]; then
@@ -62,8 +64,6 @@ if [ -d "$SERVER_BIN" ]; then
 fi
 
 export PATH=${PATH}:${ENV_VAULT}/kh/util/bin
-export PATH=${PATH}:${ENV_EDITOR%/*}
-
 
 # --- filesystem ---
 alias largeDirs='du -ah --max-depth=1 . | sort -h'
@@ -145,21 +145,6 @@ dc-restart(){
  dcu $@;
 }
 
-#function check_intellij_terminal() {
-#    if [ -z "$IS_INTELLIJ_SHELL" ]; then
-#        # Ermitteln des Befehls des übergeordneten Prozesses in einem Aufruf
-#        local parent_command=$(ps -o cmd= --ppid $(ps -o ppid= -p $$))
-#
-#        # Überprüfen, ob der Befehl Hinweise auf 'intellij' enthält
-#        if [[ "$parent_command" =~ intellij ]]; then
-#            export IS_INTELLIJ_SHELL="true"
-#        else
-#            export IS_INTELLIJ_SHELL="false"
-#        fi
-#    fi
-#}
-#check_intellij_terminal
-
 alias nextcloudDo="docker exec -u www-data nextcloud-app /var/www/html/occ "
 alias nextcloudLog='ssh -t -X dietmar@qualitycodeconsulting.de "sudo bash -c '\''less +F /vol/nextcloud/data/nextcloud.log'\''"'
 
@@ -190,21 +175,22 @@ then
   export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;32m\]$(__git_ps1)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
 fi
 
-alias java11='  export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64   ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
-alias java8='   export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64    ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
-alias java16='  export JAVA_HOME=/usr/lib/jvm/java-16-openjdk-amd64   ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
-alias java17='  export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64   ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
-alias java21='  export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64   ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
-alias java21c=' export JAVA_HOME=/home/dietmar/.jdks/corretto-21.0.3  ; export PATH="${JAVA_HOME}/bin:${PATH}" ; `${JAVA_HOME}/bin/java -version`'
+###
+### Java
+###
+set_java() {
+    export JAVA_HOME="$1"
+    # Remove any existing java paths, remaining :: or ending or beginning :
+    PATH=$(echo "$PATH" | sed -E -e 's|/usr/lib/jvm/java-[^:]*-openjdk-amd64/bin|:|g' -e 's|::|:|g' -e 's|^:||' -e 's|:$||' )
+    # Add the new java path
+    export PATH="$JAVA_HOME/bin:$PATH"
+}
+alias java11='set_java /usr/lib/jvm/java-11-openjdk-amd64; ${JAVA_HOME}/bin/java -version'
+alias java21='set_java /usr/lib/jvm/java-21-openjdk-amd64; ${JAVA_HOME}/bin/java -version'
 
 alias cdui="cd ~/project/mac-ui"
-alias ui="nohup ${ENV_EDITOR} /home/dietmar/project/mac-ui >/dev/null 2>&1 &"
-
 alias cdma="cd ~/project/multiapp"
-alias ma="nohup /opt/android-studio/bin/studio.sh /home/dietmar/project/multiapp >/dev/null 2>&1 &"
-
 alias cdapi="cd ~/project/mac-api"
-alias api="nohup ${ENV_EDITOR} /home/dietmar/project/mac-api >/dev/null 2>&1 &"
 
 alias lint="./gradlew ktlintFormat && git status -s"
 alias lintf="yarn eslint --fix 'src/**/*.ts'  'src/**/*.tsx' 'test/**/*.tsx' && git status -s"

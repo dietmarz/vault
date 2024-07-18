@@ -3,5 +3,4 @@ set -eu
 
 cd "${ENV_VAULT}"
 
-# Startet den Editor, der in der Umgebungsvariablen ENV_EDITOR definiert ist
-"${ENV_EDITOR}" .
+"${ENV_EDITOR_INTELLIJ}" .
