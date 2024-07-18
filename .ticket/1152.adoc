@@ -1,0 +1,32 @@
+include::{root}/.inc/include.adoc[]
+
+= 1152 DIRT
+
+* https://hermesgermany.atlassian.net/browse/PPS-1152[Ticket]
+
+* 17.07. Meeting mit Sebastian Frankfurt
+
+* Ansprechpartner
+  ** Natalia Timotin, Austausch, Sie hat das als erstes organisiert Abteilungsweit
+  ** Nancy Kiesel Platform team Ansprechen, wenn ich AWS accounts brauche.
+
+* Stephan Stapel Bereichsleiter, CustomerSolutions Vorschrift einmal im Jahr, um sich verbessern
+* Jan Steinke, Bereichsleiter, Parcel Solutions,  bislang nicht.  *min 2mal* im Jahr
+
+
+
+* Ziel Arch Team: Mit einem TF aufruf alles wieder herzustellen. Zirkuläre referenzen?
+* Wenn wir sowas gemacht haben, dann Sebastiaqn F bescheid geben.
+
+* Aikido mindesanforderungen von Otto
+* Nicht wie bei otto,
+* GCP eugebes projekt mit zusatz drt
+* Nicht alle K4 wissen, das sie von K1 gebraucht werden.
+
+
+
+* Bis Ende des Jahres soll alles in der GCP. Aufwände in AWS stecken?
+* Keine Stufen, (Reife-grad)
+
+==
+

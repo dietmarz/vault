@@ -2,6 +2,11 @@ include::{root}/.inc/include.adoc[]
 
 = Hermes Mac Ui Docu
 
+== Starten der localen dev environment
+* `~/project/mac-api> docker-compose -f localSetup/docker-compose.yml up`
+* i run DeviceManagementApplication, Profile: develop, local, local-overrides
+* `~/project/mac-ui>  yarn run:debug-local`
+
 == React
 * Icons: https://react-icons.github.io/react-icons/
 * Komponenten: shadcn

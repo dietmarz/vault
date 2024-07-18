@@ -59,6 +59,8 @@ Task: SUp: Standup, Cur: Current
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === PPS-1152 DIRT
+* https://hermesgermany.atlassian.net/browse/PPS-1152[jira]
+* link:../.ticket/1152.adoc[Notes]
 * O--o Doku sammeln
 
 

@@ -4,6 +4,7 @@ include::{root}/.inc/include.adoc[]
 
 == Aktuell -------------------------------------------------------------------------------------------------------------
 * *Wann macht es Sinn das ich nach Esens komme*?
+  ** Samstag morgen: 10Uhr, pro partei 15min. Steinstraße 42. gegenüber sparkasse
 
 * *Raveling*: anrufen und Fragen klären
   ** Stand der Vermietung... Waren ja schon einige da, 4 Bewerber.
