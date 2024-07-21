@@ -1,0 +1,17 @@
+include::{root}/.inc/include.adoc[]
+
+= Eichengrund Mieter Wechsel
+
+* Fotos machen
+* Tanja mit einladen zum kennenlernen?
+
+== Fragen an die potentiellen Mieter
+* Ist die alte Wohnung Ihre Wohnung?
+* Wie groß war ihre Wohnung
+* Warum möchten Sie umziehen?
+* Wie wollen Sie die Gartenarbeit erledigen?
+
+== Feststellung
+* Da nur Glas-Trennwand die Wohnungen trennt ist Ruhe das absolute Gebot.
+
+

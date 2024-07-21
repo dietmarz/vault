@@ -162,4 +162,8 @@ https://www.tobias-diekmann.de/schimmelpilzbefall/
 == HUK Haus & Grundbesitzerhaftpflicht
 * link:/home/dietmar/cloud/office/Immobilien/Eichengrund/Versicherung/Haus-und-Grundbesitzer-Haftpflicht/2024-05-15_HUK-Antrag.pdf[HUK]
 
+== Reparatur-Wissen
+* Frank Russmann (✝) hatte herausgefunden, bei der Wohnung unten, dass das Dichtband / Folie über den Fenstern nicht ordnungsgemäß von der Innenwand zur Außenwand führt.
+* https://www.sanier.de/daemmung/anwendungsgebiete/waermebruecken[Wärmebrücken]
+
 
