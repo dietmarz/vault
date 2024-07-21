@@ -1,0 +1,7 @@
+include::{root}/.inc/include.adoc[]
+
+= Hermes Development Trouble
+
+== MultiApp
+* Kotlin Problem... Läuft der GradleDaemon Prozess auf java 21 statt auf 11?
+* Android Speziallisten: Sebastian Lemcke oder Michael Meier

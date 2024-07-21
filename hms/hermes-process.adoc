@@ -1,10 +1,14 @@
 include::{root}/.inc/include.adoc[]
 
-= Hermes Process.adoc
+= Hermes Prozesse
+
+* Infos unter Teams->IT-PS-LastMile->General->Teammetings und Prozesse->"Bücher-Button"->Prozesse
+
+
+
 
 == Urlaub
-* Doc: Teams [Browser] -> Teams [Button left] -> It-PS-LastMile.General[Your teams] ->
-
+sylvester & wheinachten= 1 Tag aufsparen
 
 * Teamkalendear
 Team_PPS@hermesworld.com, Immer als anzeigen als frei eintragen
@@ -13,3 +17,13 @@ Team_PPS@hermesworld.com, Immer als anzeigen als frei eintragen
 * Vorbereiten Kalendar blockieren termine löschen...
 * Rufbereitschaft
 * Digital workplace eintragen?
+
+
+== Copy
+* Generell mit Vertreter abzustimmen
+* Teamkalender konsultieren und Urlaub im eigenen und Teamkalender eintragen (damit dieser "von außen geblockt ist)
+* Termin "im Urlaub" absagen
+* erst dann Urlaubsmeldung an Teamlead
+* Übergabemail an Vertreter / Team vor Urlaubsantritt, falls nötig
+* Pflege Procon für den gesamten Urlaub
+

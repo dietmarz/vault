@@ -1,25 +1,61 @@
 include::{root}/.inc/include.adoc[]
-= 1152 DIRT
 
+= 1152 DIRD Disaster Recovery Day
 * https://hermesgermany.atlassian.net/browse/PPS-1152[Ticket]
 
+* Eigentlich: All teams practise same scenario same time
+
+
+== Vorbereitung
+* Es gibt Live und Develop Accounts, genauso gibt es DIRD-Develop und DIRD-Live accounts, da beide verseucht sein können
+
+
 == Szenarien
-* Version zurückdrehen
+* *Definition Arbeitsfähigkeit*
+  ** Für Entwickler, für supporter
+
+* *Monitoring*
+  ** Netzwerklast allgemein, 500er/Stunde, Antwortzeiten
+  ** Speicher und CPU Verbrauch
+  ** Log Einsicht aller Zwischen messpunkte laut Architektur Bild
+  ** Sentry?
+
+* *Version zurückdrehen*
   ** Für alle oder für bestimmte Standorte zB Pilotierung
+  ** Rollback einer oder mehrerer Versionen
 
-* Rollback version in der vorhand
+* *Restart der Systeme*
+
+* Einspielen eines DB Backups
+* Modifizieren der Life Datenbank
+* Abriss und Aufbau nach Angriff, komplett oder in Teilen
+* Key-Rotation
+* Dokumentation der Durchführung Learings
+* Stufen festlegen: Achievements
+  ** Bronce, Silber, Gold, Namen finden wie "Lone Warrior", "Fire-Starter", "Bay-watch"
+
+* Festlegen, wenn welche Stufe erreicht werden soll.
+
+== Fragen
+* Wie dokumentieren?
+  ** In jedem Infra Repository einen doc/dird oder doc/support Ordner
+  ** Oder ein geführtes Skript mit Funktionen, Fragen und Aufforderungen, Verzweigungen
+
+* Wie sicherstellen, dass die Skripte funktionsfähig sind?
+  ** Nutzung im normalen Deployment
+  ** Training alle 3/6 Monate im DIRT day
 
 
-* 17.07. Meeting mit Sebastian Frankfurt
 
+
+
+== 17.07. Meeting mit Sebastian Frankfurt
 * Ansprechpartner
   ** Natalia Timotin, Austausch, Sie hat das als erstes organisiert Abteilungsweit
   ** Nancy Kiesel Platform team Ansprechen, wenn ich AWS accounts brauche.
 
 * Stephan Stapel Bereichsleiter, CustomerSolutions Vorschrift einmal im Jahr, um sich verbessern
 * Jan Steinke, Bereichsleiter, Parcel Solutions,  bislang nicht.  *min 2mal* im Jahr
-
-
 
 * Ziel Arch Team: Mit einem TF aufruf alles wieder herzustellen. Zirkuläre referenzen?
 * Wenn wir sowas gemacht haben, dann Sebastiaqn F bescheid geben.
@@ -29,10 +65,7 @@ include::{root}/.inc/include.adoc[]
 * GCP eugebes projekt mit zusatz drt
 * Nicht alle K4 wissen, das sie von K1 gebraucht werden.
 
-
-
 * Bis Ende des Jahres soll alles in der GCP. Aufwände in AWS stecken?
 * Keine Stufen, (Reife-grad)
 
-==
-
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

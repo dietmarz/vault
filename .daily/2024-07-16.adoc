@@ -24,7 +24,7 @@ Task: SUp: Standup, Cur: Current
 * SIT Test für den MAC
 * Cypress Tests fixen, soweit möglich. Branch
 * Bitbucket dated den Brunch nicht up. Alte Commits
-* Start 1152 DIRT
+* Start 1152 DIRD
 
 === Doing
 * Ops Genie, zusammen mit EZSB?
@@ -48,7 +48,7 @@ Task: SUp: Standup, Cur: Current
 * [ ] API: ScheduledTasksService Uhrzeiten auseinander ziehen, sinnvoller gestalten
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-=== PPS-1152 DIRT
+=== PPS-1152 DIRD
 * O--o Doku sammeln
 
 
