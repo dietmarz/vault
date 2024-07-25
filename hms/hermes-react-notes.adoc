@@ -1,0 +1,34 @@
+include::{root}/.inc/include.adoc[]
+
+== Hermes React Notes
+
+destructuring nennt sich das:
+
+.useContext Aktuelle Instanz des kontext besorgen das geht über eine äußere klammer..
+[source, typescript]
+----
+<ContextProvider value={contextA}>
+<CompnentA />
+</ContextProvider>
+
+export const ComponentA = () => {
+   const contextA =  useContect(ContextA)
+   return <></>
+}
+----
+
+searchParams NextJs Query URL Parameter
+
+*useSWR* nutzt cache und holt im hintergrund, immer nutzen wenn srvice auf. URL ist key für den Cache.
+
+
+* *useEffect* ist komplizierter als *useSWR*, je nach dem wie das Dependency Array aufgebaut ist.
+  ** Ohne Dep, wird das bei jeder Status änderung aufgerufen wird.
+  ** Leeres Dep Array, dann nur beim mounten aufgerufen einmalig. Wenn Status angegeben wird, dann NUR wenn eines der bekannten Felder angegeben wird.
+  ** Die Returnte funktion nur beim unmount aufgerufen ist immer ne cleanup funktion.
+
+*useState* Ändert sich die Komponente rendert sich die Komponente neu. Werte bleiben nach dem Rendern erhalten.
+
+*useSWRMutation* mit trigger wir können bestimmen, wann der call abgesetzt wird.
+
+*useMemo* wir merken und den Zustand zwischen den calls.

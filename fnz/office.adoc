@@ -4,7 +4,7 @@ include::{root}/.inc/include.adoc[]
 * src: Ebook Büro Effizienz Rositta Beck
 
 
-* Ziel: Das Gefühl von Kontrolle, Spaß an Ordnung, Freude, mit einem positiven Gefühl der Kontrolle tiefer in das Verständnis eindringen und die Dinge auch thematisch besser aufarbeiten, selbständiger Arbeiten zu können. ZB. LStJaAus. Und damit einen Finanzüberblick, was habe ich, was kann ihc erwarten, was brauche ich für meine Pension, wenn ihc nicht mehr arbeiten bräuchte, was könnte ihc dann machen? Friedvolles Sein im wo ich gerade möchte.
+* Ziel: Das Gefühl von Kontrolle, Spaß an Ordnung, Freude, mit einem positiven Gefühl der Kontrolle tiefer in das Verständnis eindringen und die Dinge auch thematisch besser aufarbeiten, selbständiger Arbeiten zu können. ZB. LStJaAus. Und damit einen Finanzüberblick, was habe ich, was kann ich erwarten, was brauche ich für meine Pension, wenn ich nicht mehr arbeiten bräuchte, was könnte ich dann machen? Friedvolles Sein im wo ich gerade möchte.
 * [ ] Grabrede, was würden Sie sich wünschen, dort zu hören? Was möchte ich noch machen, welche Ziele sind mir wichtig?
 * [ ] Mindmap mit Andrea wiederholen.
 * [ ] Tabelle mit Andrea; Jahr, Mein Alter, A Alter, besonderes Ereignis
@@ -31,9 +31,6 @@ include::{root}/.inc/include.adoc[]
 |0|Shw   |             |
 |===
 
-== Encryption Vorgang
-* Dokument als passwort PDF & adoc file
-
 == Legende
 Die Tue-Nicht-gut-Falle! Effektiv, nicht effizient!
 
@@ -49,8 +46,8 @@ GH: StartMonat, nach 3 Monaten löschen. War weder D noch W
 == EFFEKT-iver werden und Effizienz beibehalten
 * Störungsstrichliste anlegen
 * Zeit ist mehr wert als Geld. Passen sie min. genauso gut auf Ihre Zeit auf wie auf Ihr Geld
-* Versuche zu deligieren
-* Neue Habbits, 66 Tage lang durchhalten, mit Kalendar als markierung
+* Versuche zu delegieren
+* Neue Habbits, 66 Tage lang durchhalten, mit Kalender als markierung
 * 60% Verplanen 40% Puffer
 * Fri mit Wochenplan beginnen für 20min
 * Fri Wochenbilanz ziehen
