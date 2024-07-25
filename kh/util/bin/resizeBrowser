@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# Überprüfe, ob ein Argument übergeben wurde
+if [ $# -eq 0 ]; then
+    echo "Bitte gib ein Wort ein, um nach Fenstertiteln zu suchen."
+    exit 1
+fi
+
+# Das Suchwort
+SEARCH_WORD=$1
+
+# Liste alle Fenster mit Positionen und Größen und filtere nach dem Suchwort
+WINDOW_INFO=$(wmctrl -lG | grep -i "$SEARCH_WORD")
+
+# Überprüfe, ob ein Fenster gefunden wurde
+if [ -z "$WINDOW_INFO" ]; then
+    echo "Kein Fenster mit dem Wort '$SEARCH_WORD' im Titel gefunden."
+    exit 1
+fi
+
+# Ausgabe der gefundenen Fensterinformationen
+echo "Gefundene Fenster:"
+echo "$WINDOW_INFO"
+
+# Beispiel für die Verarbeitung der gefundenen Fensterinformationen
+# Hier wird nur das erste gefundene Fenster verwendet
+WINDOW_ID=$(echo "$WINDOW_INFO" | awk '{print $1}')
+WINDOW_X=$(echo "$WINDOW_INFO" | awk '{print $3}')
+WINDOW_Y=$(echo "$WINDOW_INFO" | awk '{print $4}')
+WINDOW_WIDTH=$(echo "$WINDOW_INFO" | awk '{print $5}')
+WINDOW_HEIGHT=$(echo "$WINDOW_INFO" | awk '{print $6}')
+
+echo "Fenster-ID: $WINDOW_ID"
+echo "Position: ($WINDOW_X, $WINDOW_Y)"
+echo "Größe: ${WINDOW_WIDTH}x${WINDOW_HEIGHT}"
+
+# Optional: Setze die Fensterposition und -größe (Beispiel)
+# Ändere die Werte entsprechend deinen Bedürfnissen
+NEW_X=-144
+NEW_Y=-132
+NEW_WIDTH=3030
+NEW_HEIGHT=1839
+
+wmctrl -i -r "$WINDOW_ID" -e 0,$NEW_X,$NEW_Y,$NEW_WIDTH,$NEW_HEIGHT
+echo "Fensterposition und -größe wurden angepasst."
