@@ -48,6 +48,14 @@ WIr benötigen 2.18.5 auf Basis 2.17.0 die sowohl mit neuem als auch altem Dataw
 * Learnings des Setups in Readmes gießen und pushen
 
 === Was sollte ich tun:
+
+Montag:
+MA mergen! Extraf fliegt weg vom intent
+Nav vereinfacht
+wenn du direkt zum launcher kannst must du dich trotzdem verfizieren mit ausweis
+
+
+
 * Reviews!
 * [ ] am tests und pipeline reparieren
 * [ ] Support-Fähig ab September (von Jan)
