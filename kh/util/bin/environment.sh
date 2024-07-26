@@ -188,9 +188,16 @@ set_java() {
 alias java11='set_java /usr/lib/jvm/java-11-openjdk-amd64; ${JAVA_HOME}/bin/java -version'
 alias java21='set_java /usr/lib/jvm/java-21-openjdk-amd64; ${JAVA_HOME}/bin/java -version'
 
+alias cdmac="cd ~/project/mac"
 alias cdui="cd ~/project/mac-ui"
-alias cdma="cd ~/project/multiapp"
 alias cdapi="cd ~/project/mac-api"
+alias cdma="cd ~/project/multiapp"
+alias cdam="cd ~/project/am"
+alias cdaf="cd ~/project/pps-am-fronted"
+alias cdab="cd ~/project/pps-am-backend"
+
+
+
 
 alias lint="./gradlew ktlintFormat && git status -s"
 alias lintf="yarn eslint --fix 'src/**/*.ts'  'src/**/*.tsx' 'test/**/*.tsx' && git status -s"

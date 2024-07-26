@@ -1,9 +1,0 @@
-include::{root}/.inc/include.adoc[]
-
-= 70
-
-* https://hermesgermany.atlassian.net/browse/PPS-70[Ticket]
-
-
-
-==

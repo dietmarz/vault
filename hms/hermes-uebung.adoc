@@ -1,0 +1,32 @@
+include::{root}/.inc/include.adoc[]
+
+= Hermes Übung
+
+
+== MultiApp
+* [ ] Nachbereitung: Prüfen, ob alle änderung von sebastian im ma nötig
+
+
+== React
+* App mit allen möglichen callbacks ausprobieren, allen, die wir verwenden möglichst
+
+
+== AM Interfaces vereinheitlichen
+* AM Fe d745385ce0b5b16645d79a3175a4670e64c65493 Cherrypicken auf feature/PPS-1100_2-filterfunktion-asset-übersicht
+
+
+
+== AM Setup mit Keycloac
+.Am WE nochmal von Scratch auf an üben!
+----
+mkdir h2
+Linux? sudo chown -R $(docker-compose exec keycloak id -u) keycloak-data/
+
+
+Create User, Credentials...
+clients->pps-assement-management->credentials->Button Regenerate->Copy Field Client Secret nach .env.local nach  CLIENT_SECRET
+
+Wie exportieren
+
+psql --host=localhost --port=5432 --username=asset-management --dbname=asset-management --file=./asset-management.sql
+----

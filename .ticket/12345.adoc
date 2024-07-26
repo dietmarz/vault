@@ -1,9 +1,0 @@
-include::{root}/.inc/include.adoc[]
-
-= 12345
-
-https://jira.int.kn/browse/KNOMP-12345[Ticket]
-
-
-
-==
