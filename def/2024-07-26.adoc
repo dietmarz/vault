@@ -14,7 +14,7 @@ Task: SUp: Standup, Cur: Current
 
 == HEUTE ###############################################################################################################
 
-link:../hms/hermes-übung.adoc[Üben]
+link:../hms/hermes-uebung.adoc[Üben]
 
 
 
