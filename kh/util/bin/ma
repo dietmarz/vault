@@ -6,7 +6,7 @@
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 export PATH=${JAVA_HOME}/bin:${PATH}
 
-${ENV_EDITOR_ANDROID} /home/dietmar/project/multiapp >/dev/null 2>&1 &
+nohup ${ENV_EDITOR_ANDROID} /home/dietmar/project/multiapp >/dev/null 2>&1 &
 
 
 
