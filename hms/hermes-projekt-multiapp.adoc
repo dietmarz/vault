@@ -1,0 +1,14 @@
+include::{root}/.inc/include.adoc[]
+
+= Hermes Projekt MultiApp
+
+.MultiApp Versionen
+----
+Pilot: 2.18.2 Bundesweit: 2.17.0
+2.18.2 Kaputt: Rollback -> retag 2.17.0 auf 2.18.3
+2.18.3 (auf Basis 2.17.0) kommt mit den nuen Datwedgeprofilen nicht zurecht
+2.18.4 (auf Basis 2.17.0)-> kommt mit neuen  Datawedgeprofilen zurecht
+2.18.4 (auf Basis 2.17.0) -> kommt nicht mehr mit altem Profil zurecht => Bundesweite 2.17.0 kann nicht upgedated werden
+WIr benötigen 2.18.5 auf Basis 2.17.0 die sowohl mit neuem als auch altem Datawedge-Profil zurecht kommt
+----
+

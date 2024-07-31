@@ -189,12 +189,12 @@ alias java11='set_java /usr/lib/jvm/java-11-openjdk-amd64; ${JAVA_HOME}/bin/java
 alias java21='set_java /usr/lib/jvm/java-21-openjdk-amd64; ${JAVA_HOME}/bin/java -version'
 
 alias cdmac="cd ~/project/mac"
-alias cdui="cd ~/project/mac-ui"
-alias cdapi="cd ~/project/mac-api"
+alias cdui="cd ~/project/mac/mac-ui"
+alias cdapi="cd ~/project/mac/mac-api"
 alias cdma="cd ~/project/multiapp"
 alias cdam="cd ~/project/am"
-alias cdaf="cd ~/project/pps-am-fronted"
-alias cdab="cd ~/project/pps-am-backend"
+alias cdaf="cd ~/project/am/pps-am-fronted"
+alias cdab="cd ~/project/am/pps-am-backend"
 
 
 

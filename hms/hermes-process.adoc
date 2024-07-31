@@ -27,3 +27,6 @@ Team_PPS@hermesworld.com, Immer als anzeigen als frei eintragen
 * Übergabemail an Vertreter / Team vor Urlaubsantritt, falls nötig
 * Pflege Procon für den gesamten Urlaub
 
+
+== Release MAC
+* In Chat Team informieren
