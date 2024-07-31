@@ -6,45 +6,35 @@ include::{root}/.inc/include.adoc[]
 * Eigentlich: All teams practise same scenario same time
 
 
-== Vorbereitung
-* Es gibt Live und Develop Accounts, genauso gibt es DIRD-Develop und DIRD-Live accounts, da beide verseucht sein können
+Szenario mobilfunknetz ausfall
+Konkretisieren Alle K1 Anwendungen (Kritikalität) Ma und Mac
 
+// <Copy-To-1152> ------------------------------------------------------------------------------------------------------
+== Vorbereitung
+* Es gibt Live und Develop Accounts, genauso gibt es DIRD-Develop und DIRD-Live accounts, da beide verseucht sein können.
+* Es sind Ansprechpartner dokumentiert um diese zu erhalten
+
+== Dokumentation
+* Jedes Produkt einzeln im infrastructure Ordner unter `dird`
+* Einheitliche Ordner und Dokument Struktur zum schnellen Zurechtfinden
+* Definition Arbeitsfähigkeit, Vorbedingungen
+* Dokumentation der Durchführung Learnings im Wiki
+  ** Stufen festlegen: Achievements: Bronze, Silber, Gold, Namen finden wie "Lone Warrior", "Fire-Starter", "Bay-watcher"
+* Wie dokumentieren? Oder ein geführtes Skript mit Funktionen, Fragen und Aufforderungen, Verzweigungen
 
 == Szenarien
-* *Definition Arbeitsfähigkeit*
-  ** Für Entwickler, für supporter
-
-* *Monitoring*
-  ** Netzwerklast allgemein, 500er/Stunde, Antwortzeiten
-  ** Speicher und CPU Verbrauch
-  ** Log Einsicht aller Zwischen messpunkte laut Architektur Bild
-  ** Sentry?
-
-* *Version zurückdrehen*
-  ** Für alle oder für bestimmte Standorte zB Pilotierung
-  ** Rollback einer oder mehrerer Versionen
-
-* *Restart der Systeme*
-
-* Einspielen eines DB Backups
-* Modifizieren der Life Datenbank
-* Abriss und Aufbau nach Angriff, komplett oder in Teilen
+* Monitoring: Netzwerklast allgemein, 500er/Stunde, Antwortzeiten
+* Monitoring: Speicher und CPU Verbrauch
+* Monitoring: Log Einsicht aller Zwischen messpunkte laut Architektur Bild
+* Monitoring: Gibt es automatische Alarme
+* Version Rollback: Für alle oder für bestimmte Standorte zB Pilotierung
+* Version Rollback einer oder mehrerer Versionen gleichzeitig? Wie handelt man DB Inkompatibilitäten?
+* Restart der Systeme
 * Key-Rotation
-* Dokumentation der Durchführung Learings
-* Stufen festlegen: Achievements
-  ** Bronce, Silber, Gold, Namen finden wie "Lone Warrior", "Fire-Starter", "Bay-watch"
-
-* Festlegen, wenn welche Stufe erreicht werden soll.
-
-== Fragen
-* Wie dokumentieren?
-  ** In jedem Infra Repository einen doc/dird oder doc/support Ordner
-  ** Oder ein geführtes Skript mit Funktionen, Fragen und Aufforderungen, Verzweigungen
-
-* Wie sicherstellen, dass die Skripte funktionsfähig sind?
-  ** Nutzung im normalen Deployment
-  ** Training alle 3/6 Monate im DIRT day
-
+* Einspielen eines DB Backups
+* Modifizieren der Live Datenbank
+* Abriss und Aufbau nach Angriff, komplett in einer anderen Region oder in Teilen
+// </Copy-To-1152> -----------------------------------------------------------------------------------------------------
 
 
 

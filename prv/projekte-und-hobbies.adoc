@@ -35,6 +35,12 @@ link:../org/lern-themen.adoc[]
   ** Amateurfunk Logbuch
   ** Taschenlampen App
 
+* Zitat Server
+  ** CM Kontent hat Andrea
+  ** Angebot übers Web und Mobile, mit Werbung, oder Spruch des Tages App, Vernetzung der Sprüche nach "Zettelkasten"
+     oder mit Node-js Tree wie bei ,Useraccounts mit Vavouriten, Bewertungen der Sprüche, Jeder Retreat Besuch absetzbar als Gewerbe
+
+
 * Haus Leistungsmessung /home/dietmar/project/haus-leistungsmessung
 
 

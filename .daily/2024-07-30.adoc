@@ -1,6 +1,6 @@
 include::{root}/.inc/includeDaily.adoc[]
 
-= Montag, 29. Juli 2024
+= Dienstag, 30. Juli 2024
 
 link:../fnz/office.adoc[Regeln]
 
@@ -14,9 +14,7 @@ Task: SUp: Standup, Cur: Current
 
 == HEUTE ###############################################################################################################
 
-link:../hms/hermes-übung.adoc[Üben]
-
-
+link:../hms/hermes-uebung.adoc[Üben]
 
 
 === Infrasturktur
@@ -28,10 +26,9 @@ link:../hms/hermes-übung.adoc[Üben]
 
 == Daily ###############################################################################################################
 
-
+.MultiApp Versionen
 ----
-Pilot: 2.18.2
-Bundesweit: 2.17.0
+Pilot: 2.18.2 Bundesweit: 2.17.0
 2.18.2 Kaputt: Rollback -> retag 2.17.0 auf 2.18.3
 2.18.3 (auf Basis 2.17.0) kommt mit den nuen Datwedgeprofilen nicht zurecht
 2.18.4 (auf Basis 2.17.0)-> kommt mit neuen  Datawedgeprofilen zurecht
@@ -40,23 +37,21 @@ WIr benötigen 2.18.5 auf Basis 2.17.0 die sowohl mit neuem als auch altem Dataw
 ----
 
 === Was habe ich gemacht
-* AM Column Filter: Umgang mit Null Werten, Join statt select, Alphabetische Sortierung,
-* [ ] Jonas: Was ist mit Jira Ticke: Version Rollback Task angelegt PPS-1164
-* Learnings des Setups in Readmes gießen
+* DIRD Doku überarbeitet
 
 === Woran arbeite ich gerade
-* Learnings des Setups in Readmes gießen und pushen
+* AM Learnings des Setups in Readmes gießen und pushen
 
 === Was sollte ich tun:
 
 Montag:
 MA mergen! Extraf fliegt weg vom intent
-Nav vereinfacht
-wenn du direkt zum launcher kannst must du dich trotzdem verfizieren mit ausweis
+Navigation vereinfacht
+wenn du direkt zum launcher kannst must du dich trotzdem verfizieren mit Ausweis
 
 
 
-* Reviews!
+* Reviews! schauen
 * [ ] am tests und pipeline reparieren
 * [ ] Support-Fähig ab September (von Jan)
 * [ ] AWS GCP Account Prüfen
@@ -66,14 +61,18 @@ wenn du direkt zum launcher kannst must du dich trotzdem verfizieren mit ausweis
 
 === Was werde ich tun
 * [ ] Column Filter Tests schreiben
-* DIRD Doku in jira updaten
-
-
-=== Wo brauche ich Hilfe
+* DIRD Doku in jira updaten, 1152
 * [ ] Ob das in Ordnung ist: Ticket einlösen für codetalk
-* [ ] Ops Genie, zusammen mit EZSB?
-* [ ] Überstunden planen in VTag in Interflex
 
+
+=== Fragen im Daily
+* [ ] MAC-API: Task erstellen: ScheduledTasksService Uhrzeiten auseinander ziehen, sinnvoller gestalten, in Ordnung?
+* [ ] DIRD Doku: Weiteres Vorgehen. Soll ich Folge-Tasks erstellen in Absprache mit Jonas?
+1152 <Termin! mach ich> In Bearbeitung setzen!
+
+
+=== Fragen im Developer Team
+* [ ] Ops Genie was kann ich damit machen
 
 
 === Später
@@ -82,12 +81,6 @@ wenn du direkt zum launcher kannst must du dich trotzdem verfizieren mit ausweis
 
 
 
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-=== PPS-1108 Kommentarfeld für User
-* https://hermesgermany.atlassian.net/browse/PPS-1108[jira]
-* link:../.ticket/1108.adoc[Notes]
-* [ ] API: ScheduledTasksService Uhrzeiten auseinander ziehen, sinnvoller gestalten
-* [ ] Soll in die 3.14 rein
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -96,10 +89,10 @@ wenn du direkt zum launcher kannst must du dich trotzdem verfizieren mit ausweis
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-=== PPS-1152 DIRD
+=== <!DRIVER!> PPS-1152 DIRD
 * https://hermesgermany.atlassian.net/browse/PPS-1152[jira]
 * link:../.ticket/1152.adoc[Notes]
-* O--o Doku sammeln
+
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''

@@ -36,10 +36,10 @@ echo "Größe: ${WINDOW_WIDTH}x${WINDOW_HEIGHT}"
 
 # Optional: Setze die Fensterposition und -größe (Beispiel)
 # Ändere die Werte entsprechend deinen Bedürfnissen
-NEW_X=-144
+NEW_X=-85
 NEW_Y=-132
-NEW_WIDTH=3030
-NEW_HEIGHT=1839
+NEW_WIDTH=3036
+NEW_HEIGHT=1698
 
 wmctrl -i -r "$WINDOW_ID" -e 0,$NEW_X,$NEW_Y,$NEW_WIDTH,$NEW_HEIGHT
 echo "Fensterposition und -größe wurden angepasst."
