@@ -1,0 +1,10 @@
+include::{root}/.inc/include.adoc[]
+
+= Hermes Google Cloud GCP
+
+== `gcloud`
+[source, bash]
+----
+
+gcloud config list # list User und active configuration
+----

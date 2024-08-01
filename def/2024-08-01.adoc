@@ -1,0 +1,156 @@
+include::{root}/.inc/includeDaily.adoc[]
+
+= Donnerstag, 01. August 2024
+
+link:../fnz/office.adoc[Regeln]
+
+== Aufgaben
+State: ' ' Unplanned, B = Blocked, X = Done, R = Refine it!, W = Wiedervorlage, S = Selected
+Themen: G Gesundheit, J Job, F Finanz, P Privat, H Haus, O Orga, M Minimalismus
+Task: SUp: Standup, Cur: Current
+
+
+
+
+== HEUTE ###############################################################################################################
+
+link:../hms/hermes-uebung.adoc[Üben]
+
+
+=== Infrasturktur
+* [ ] VPN und OneDrive installieren, zum Sync der pps.kdb
+* [ ] Intellij Lizens auf Hermes umstellen
+* Zugang zu google cloud prüfen
+* Passwörter aus browsers üpbertragen
+
+== Daily ###############################################################################################################
+
+
+* [ ] MAC letzte meile Software management
+
+
+=== Was habe ich gemacht
+* Renovate fixen
+* coEvery -> every -> verify -> Klasse Obsolete
+
+
+* Check OpsGenie läuft, Check Google Cloud, Login möglich.
+
+* 1119 Keycloak settings, Absprache Timeout Refresh-Token auf 25h setzen
+
+* Prod CPU Peak Analyse in Grafana: 110 Req/s  (30 Req/s Hohe Normal Last, System reagiert OK)
+  ** Prüfung ob wir loggen, wie lange welche URL gebraucht hat -> Kein Logging-> Blindflug!
+  ** Fehlender Lasttest! Was passiert bei Peak-Geschäft ??? (Dann wenn es am wichtigsten ist?)
+  ** Fehlender Metrik logger!
+  ** Unkritisch, solange wir 2T€/Monat an AWS abdrücken
+
+* Release Pipelines, Doku fehlt. Fehlt: Auto-deploy nach merge
+  (create-release deployed auf Prod!!!)
+
+
+
+
+* [ ] Erstellen eine öffentlichen Liste aller developer URLs
+
+* [ ] Bug: Warum hat der Renovate im mac-ui auf dem Release Branch committed?
+* [ ] Bug: gradle retrieve version startet möglicherweise immer auf der falschen Version
+* [ ] Pipeline fixes cherrypicken
+* [ ] Learning: Terraform ausführen
+* [ ] Learning: Release Anleitung: Wen warnen... Welche steps...
+* [ ] Bug: Infra as code: Missing HW Upgrade nachpflegen
+
+* git Graph bauen, States?
+
+60 P1238 hardwe Dev Cusmz test AM Buchen
+Mac Last mile applicati Dve
+
+=== Woran arbeite ich gerade
+* DIRD: Übersicht über alles
+* Supportfähigkeit gcp zugang prüfen
+
+=== Was sollte ich tun:
+* [ ] AM Learnings des Setups in Readmes gießen und pushen
+* [ ] AM tests und pipeline reparieren
+
+
+* [ ] AWS GCP Account Prüfen
+* [ ] Lern Release und Deploy. Releasebranch sollte nur 2 Nummern haben also 3.2 oder 3.2.xx
+* [ ] 23.08 Aufwände für Android 14
+
+
+=== Was werde ich tun
+* [ ] Column Filter Tests schreiben
+* DIRD Doku in jira updaten, 1152
+* Code Talk Ticke ID Booking #TX-16339-1509#
+
+
+=== Fragen im Daily
+* [ ] MAC-API: Task erstellen: ScheduledTasksService Uhrzeiten auseinander ziehen, sinnvoller gestalten, in Ordnung?
+* [ ] DIRD Doku: Weiteres Vorgehen. Soll ich Folge-Tasks erstellen in Absprache mit Jonas?
+1152 <Termin! mach ich> In Bearbeitung setzen!
+
+
+=== Fragen im Developer Team
+* [ ] Ops Genie was kann ich damit machen
+
+
+=== Später
+* [ ] SDK Man installieren
+* [ ] Brauche Win10 Test für Docker extra_hosts (mac-api)
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== PPS-1164 Rollbackversion erstellen
+* https://hermesgermany.atlassian.net/browse/PPS-1164[jira]
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== <!DRIVER!> PPS-1152 DIRD
+* https://hermesgermany.atlassian.net/browse/PPS-1152[jira]
+* link:../.ticket/1152.adoc[Notes]
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== PPS-1123 [Nicht technisch] Onboarding Dietmar
+* https://hermesgermany.atlassian.net/browse/PPS-1123[Jira]
+* [ ] Login Einführung AWS
+* [ ] Login Einführung GCP
+* [ ] Soti und SmartIT Einführung mit Mofid
+
+
+
+
+
+==  ####################################################################################################################
+==  #####################################################################################################################
+==  #####################################################################################################################
+
+* AAmt bezahlen
+* WVL Rav anrufen
+* Mit Andrea Urlaub planen
+* Fliegengitter bestelle, 7 Pläne machen mit zeichnung und masse und Bestellung der Teile
+
+* [ ] Brandkasse fragen, warum nur 25.000
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Eichengrund
+* link:../fnz/immo/eichengrund-haus.adoc[]
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Gesundheit
+* [ ] F-- 30 < ? > KKasse wechseln
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+=== Haus
+* [ ] H-- 30 < ? > Ladestecker bauen -> PausenJob
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+== Notizen
+
+|===
+| Mail Privat |Cal Privat |Müll  |Sport  |Alarm |Buchen
+| Mail Custom |Cal Custom |Brief |Chat   |Daily |
+|===

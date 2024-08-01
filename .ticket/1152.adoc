@@ -9,6 +9,12 @@ include::{root}/.inc/include.adoc[]
 Szenario mobilfunknetz ausfall
 Konkretisieren Alle K1 Anwendungen (Kritikalität) Ma und Mac
 
+* Mehrere an und Abmeldungen offline, Test?
+
+
+
+
+
 // <Copy-To-1152> ------------------------------------------------------------------------------------------------------
 == Vorbereitung
 * Es gibt Live und Develop Accounts, genauso gibt es DIRD-Develop und DIRD-Live accounts, da beide verseucht sein können.
@@ -23,17 +29,32 @@ Konkretisieren Alle K1 Anwendungen (Kritikalität) Ma und Mac
 * Wie dokumentieren? Oder ein geführtes Skript mit Funktionen, Fragen und Aufforderungen, Verzweigungen
 
 == Szenarien
-* Monitoring: Netzwerklast allgemein, 500er/Stunde, Antwortzeiten
+* Monitoring: Netzwerklast allgemein, 500er/Stunde, Antwortzeiten...
 * Monitoring: Speicher und CPU Verbrauch
-* Monitoring: Log Einsicht aller Zwischen messpunkte laut Architektur Bild
-* Monitoring: Gibt es automatische Alarme
-* Version Rollback: Für alle oder für bestimmte Standorte zB Pilotierung
+* Monitoring: Log Einsicht... verbessern aller Zwischen messpunkte laut Architektur Bild
+* Monitoring: Gibt es automatische Alarme, läuft!
+* Version Rollback: Für alle oder für bestimmte Standorte zB Pilotierung, läuft für MA, Eine-Pipeline aufsetzen?
 * Version Rollback einer oder mehrerer Versionen gleichzeitig? Wie handelt man DB Inkompatibilitäten?
-* Restart der Systeme
-* Key-Rotation
-* Einspielen eines DB Backups
-* Modifizieren der Live Datenbank
+* Restart der Systeme, Wie manuell starten.
+* Key-Rotation, wird alle 90 Tage gefordert. Forderung laut Aikido beachten
+* Einspielen eines DB Backups, dokumentieren und üben
+* Modifizieren der Live Datenbank, geht prinzipiell. Fehlt mir noch.
 * Abriss und Aufbau nach Angriff, komplett in einer anderen Region oder in Teilen
+* Aikido Handbuch? Brauchen wir.
+
+
+== Resume
+* Doku, wie Releasen, zB. Welche Uhrzeit, welche Pipes.
+* Antwortzeiten pro URL
+* Log erweitern was passiert
+* Für Rollback eine Pipe aufbauen
+* Wie systeme neustarten doku
+* Keyrotation laut Aikido dokumentieren und planen
+* Doku DB Backup einspiel
+* Überlegung ob gleichzeitig zu releasen, zum Schluss mit Tag auf Live setzen.
+
+
+
 // </Copy-To-1152> -----------------------------------------------------------------------------------------------------
 
 
@@ -49,7 +70,8 @@ Konkretisieren Alle K1 Anwendungen (Kritikalität) Ma und Mac
 
 * Ziel Arch Team: Mit einem TF aufruf alles wieder herzustellen. Zirkuläre referenzen?
 * Wenn wir sowas gemacht haben, dann Sebastiaqn F bescheid geben.
-
++
++
 * Aikido mindesanforderungen von Otto
 * Nicht wie bei otto,
 * GCP eugebes projekt mit zusatz drt
