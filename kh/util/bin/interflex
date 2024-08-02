@@ -6,7 +6,7 @@ nohup microsoft-edge --new-window https://timetracking.hlg.de/  >/dev/null 2>&1 
 sleep 1
 WINDOW_INFO=$(wmctrl -lG | grep -iE "$LABEL")
 WINDOW_ID=$(echo "$WINDOW_INFO" | awk '{print $1}')
-echo "WINDOW_ID: $WINDOW_ID"
+echo "$LABEL WINDOW_ID: $WINDOW_ID"
 wmctrl -i -r "$WINDOW_ID" -e 0,0,200,1300,1480
 
 LABEL="Sign in|Interflex"
@@ -14,5 +14,5 @@ nohup microsoft-edge --new-window https://interflexweb.hlg.de/Webclient/iflx/pin
 sleep 1
 WINDOW_INFO=$(wmctrl -lG | grep -iE "$LABEL")
 WINDOW_ID=$(echo "$WINDOW_INFO" | awk '{print $1}')
-echo "WINDOW_ID: $WINDOW_ID"
+echo "$LABEL WINDOW_ID: $WINDOW_ID"
 wmctrl -i -r "$WINDOW_ID" -e 0,1270,200,1300,1480
