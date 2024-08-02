@@ -464,6 +464,7 @@ sudo snap install discord
 .Android
 ----
 sudo apt-get install android-tools-adb
+settings.tools.terminal.Project settings.Environment: ENV_EDITOR=/opt/android-studio/bin/studio.sh
 ----
 
 .md to confluence converter

@@ -2,17 +2,17 @@ include::{root}/.inc/include.adoc[]
 
 = Hermes Prozesse
 
-* Infos unter Teams->IT-PS-LastMile->General->Teammetings und Prozesse->"Bücher-Button"->Prozesse
+* *weitere Infos unter:*  Teams->IT-PS-LastMile->General->Teammeetings und Prozesse->"Bücher-Button"->Prozesse
 
-
-
+== Buchen
+* Asset Management buchen auf: 60 Hardwaremgmt. LM LDD Dev/Custmz/Test
+* Alles andere auf:           610 Letzte Meile Application Development
 
 == Urlaub
 sylvester & wheinachten= 1 Tag aufsparen
 
 * Teamkalendear
 Team_PPS@hermesworld.com, Immer als anzeigen als frei eintragen
-
 
 * Vorbereiten Kalendar blockieren termine löschen...
 * Rufbereitschaft

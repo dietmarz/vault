@@ -1,0 +1,18 @@
+include::{root}/.inc/include.adoc[]
+
+= Firmware Versionen
+
+== Lenovo Thunderbold 4 Docking von Hermes
+* https://support.lenovo.com/de/de/downloads/ds554336-firmware-thinkpad-universal-thunderbolt-4-dock-thinkpad-thunderbolt-4-workstation-dock[URL]
+* V1.0.18 (vom 01.07.2024)
+* Check 02.08.2028
+* HowTo: WIN10: Just start connected exe
+
+== KVI Switch CS1942DP
+* https://www.aten.com/de/de/supportcenter/info/downloads/?q=CS1942DP[URL]
+* v1.1.105 vom 20.10.2023
+* Check 02.08.2028
+* HowTo: WIN10: Press and HOLD [Num Lock], Press and RELEASE [-], RELEASE [Num Lock], [u][p][g][r][a][d][e] [Enter]
+
+
+

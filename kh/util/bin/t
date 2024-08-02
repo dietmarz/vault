@@ -1,5 +1,9 @@
 #!/bin/bash
 set -e
 
-export ENV_EDITOR=$ENV_EDITOR_INTELLIJ
+# Prüfen, ob die Umgebungsvariable ENV_EDITOR bereits gesetzt ist
+if [ -z "$ENV_EDITOR" ]; then
+    export ENV_EDITOR=$ENV_EDITOR_INTELLIJ
+fi
+
 java -jar ${ENV_VAULT}/kh/util/task/task-1.0-SNAPSHOT.jar "$@"

@@ -1,0 +1,21 @@
+include::{root}/.inc/include.adoc[]
+
+= 1184 User steckt im Overlay fest
+
+* https://hermesgermany.atlassian.net/browse/PPS-1184[Ticket]
+
+== Reproduction
+* Log link:/home/dietmar/hermes/ticket/1184/de.hermes.multiapp.1.log[log]
+* Log link:/home/dietmar/hermes/ticket/1184/de.hermes.multiapp.log[log]
+* Video link:/home/dietmar/hermes/ticket/1184/VIDEO-2024-08-02-06-11-57.mp4[video]
+* Log link:/home/dietmar/hermes/ticket/1184/filtered.log[log]
+
+"Bitte Userausweis scannen!"
+* IST 6:11 Uhr, 3.0.0, Production (UTC -2h)
+* IST Standord dre Gleichen 2050
+* IST Grüner Haken Sanila Serghei. 2. Back knopf nicht mehr
+* IST Zugeordnet zu Stanila Serghei
+
+* Restart App
+* AppLauncher erscheint
+* Alpha und andere starten mit Sperrbildschirm

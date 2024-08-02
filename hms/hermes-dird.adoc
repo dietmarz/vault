@@ -1,7 +1,10 @@
 include::{root}/.inc/include.adoc[]
 
-= 1152 DIRD Disaster Recovery Day
+= DIRD Disaster Recovery Day
 * https://hermesgermany.atlassian.net/browse/PPS-1152[Ticket]
+* Sebastian: https://hermesgermany.atlassian.net/browse/PPS-1155[MASTER-TICKET]
+*
+
 
 * Eigentlich: All teams practise same scenario same time
 
@@ -50,8 +53,6 @@ Konkretisieren Alle K1 Anwendungen (Kritikalität) Ma und Mac
 * Für Rollback eine Pipe aufbauen
 * Wie systeme neustarten doku
 * Keyrotation laut Aikido dokumentieren und planen
-* Doku DB Backup einspiel
-* Überlegung ob gleichzeitig zu releasen, zum Schluss mit Tag auf Live setzen.
 
 
 
