@@ -88,7 +88,7 @@ Interflex, VTag bei Interflex.
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === PPS-1152 DIRD
 * https://hermesgermany.atlassian.net/browse/PPS-1152[jira]
-* link:../.ticket/1152.adoc[Notes]
+* link:../hms/hermes-dird.adoc[Notes]
 * O--o Doku sammeln
 
 

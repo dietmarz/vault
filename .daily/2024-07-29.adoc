@@ -92,7 +92,7 @@ wenn du direkt zum launcher kannst must du dich trotzdem verfizieren mit Ausweis
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 === <!DRIVER!> PPS-1152 DIRD
 * https://hermesgermany.atlassian.net/browse/PPS-1152[jira]
-* link:../.ticket/1152.adoc[Notes]
+* link:../hms/hermes-dird.adoc[Notes]
 
 
 

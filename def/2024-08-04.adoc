@@ -109,13 +109,13 @@ link:../hms/hermes-uebung.adoc[Üben]
 * [ ] JDW 20 08 Alle Zettel einsortiert
 * [ ] P W 60 08 Brandkasse fragen, warum nur 25.000
 * [ ] F w 15 08 Haus und Grund Mitgliedschaft!
-* [ ] J   60 08 Blech schneiden mit Rundung
-* [ ] GDW 60 -- Sport ab 19:15 Uhr
+* [x] J   60 08 Blech schneiden mit Rundung
+* [x] GDW 60 -- Sport ab 19:15 Uhr
 * [ ] F W -- 08 Rente, Zurich Cosmos wieder aktivieren; HR fragen ob sie das übernehmen
 * [ ] P   60 08 cloud/audiobook anlegen alle Hörbücher aus doc dahin ziehen, Nextcloud auf dza-pps
 * [ ] P   60 08 Rasen mähen
 * [ ] Pd  60 08 TimeBox Hausputz
-* [ ] P w -- 08 WVL Mit Andrea Urlaub planen
+* [x] P w -- 08 WVL Mit Andrea Urlaub planen
 * [ ] P   60 08 Fliegengitter Obi Holz schneiden, 8 Pläne machen mit zeichnung und masse und Bestellung der Teile
 
 
