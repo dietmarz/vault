@@ -53,9 +53,6 @@ Konkretisieren Alle K1 Anwendungen (Kritikalität) Ma und Mac
 * Für Rollback eine Pipe aufbauen
 * Wie systeme neustarten doku
 * Keyrotation laut Aikido dokumentieren und planen
-
-
-
 // </Copy-To-1152> -----------------------------------------------------------------------------------------------------
 
 
@@ -64,12 +61,12 @@ Konkretisieren Alle K1 Anwendungen (Kritikalität) Ma und Mac
 == 17.07. Meeting mit Sebastian Frankfurt
 * Ansprechpartner
   ** Natalia Timotin, Austausch, Sie hat das als erstes organisiert Abteilungsweit
-  ** Nancy Kiesel Platform team Ansprechen, wenn ich AWS accounts brauche.
+  ** Nancy Kiesel, Platform Team, ansprechen, wenn ich AWS accounts brauche.
 
 * Stephan Stapel Bereichsleiter, CustomerSolutions Vorschrift einmal im Jahr, um sich verbessern
 * Jan Steinke, Bereichsleiter, Parcel Solutions,  bislang nicht.  *min 2mal* im Jahr
 
-* Ziel Arch Team: Mit einem TF aufruf alles wieder herzustellen. Zirkuläre referenzen?
+* Ziel Arch Team: Mit einem TF Aufruf alles wieder herzustellen. Zirkuläre referenzen?
 * Wenn wir sowas gemacht haben, dann Sebastiaqn F bescheid geben.
 +
 +
