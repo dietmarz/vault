@@ -21,32 +21,32 @@ link:../hms/hermes-uebung.adoc[Üben]
 == Daily ###############################################################################################################
 
 === Was habe ich gemacht
-* DIRD Fragen und Learning Tasks sortiert
-* 1184 Analyse
+PPS-1151 AM Backend Tests, sehen soweit gut aus, coverage...
+
+* DIRD Fragen und Learning Tasks sortiert, weiter
 
 
-* [ ] Erstellen eine öffentlichen Liste aller developer URLs
 
 
-* git Graph bauen, States
-* [ ] Infra VPN und OneDrive installieren, zum Sync der pps.kdb
-* [ ] Infra Intellij Lizens auf Hermes umstellen
-* [ ] Infra Passwörter aus browsers üpbertragen
-* [ ]Mongo DB läuft nicht: https://learn.mongodb.com/
+
 
 === Woran arbeite ich gerade
 * [ ] DIRD: Übersicht über alles
 
 
 === Was sollte ich tun:
-
-
-=== Was werde ich tun
+* git Graph bauen, States beim Releasen
+* [ ] Infra VPN und OneDrive installieren, zum Sync der pps.kdb
+* [ ] Infra Intellij Lizens auf Hermes umstellen
+* [ ] Infra Passwörter aus browsers üpbertragen
+* [ ] Mongo DB läuft nicht: https://learn.mongodb.com/
 * Graph Offline OnLine Anmeldung
 * [ ] Column Filter Tests schreiben
 
 
-=== Fragen im Daily
+=== Was werde ich tun
+
+
 
 
 
