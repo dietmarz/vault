@@ -1,6 +1,6 @@
 include::{root}/.inc/include.adoc[]
 
-= Personen.adoc
+= Personen
 
 == Kühne & Nagel, ANÜ
 * Computer Futures / SThree Vermittler Matthias Märtens
@@ -31,6 +31,7 @@ include::{root}/.inc/include.adoc[]
 * Lukas Linke
 * Carlos Alfonso Cohen Polanco
 * Manuel Gnerlich
+* Michael Meyling
 
 == Otto Team Prime, ANÜ
 * Computer Futures / SThree Vermittler Langwieler Georg,

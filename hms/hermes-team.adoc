@@ -5,19 +5,20 @@ include::{root}/.inc/include.adoc[]
 
 == Team PPS - Portable Platform Solutions (Michael Kunze)
 * Development
-  ** Jonas Kroner (PO)
-  ** Sebastian Konieczek
-  ** Max Teichmann
-  ** Amri Dorloh (TS, REST, Node)
+  ** Jonas Kroner 10.02. (PO)
+  ** Sebastian Konieczek 16.03.
+  ** Max Teichmann 14.03.
+  ** Amri Dorloh 05.10. (TS, REST, Node)
   ** Dietmar Zabel, Personalnummer i804122
 
 * Fachlich für die Verwaltung der Scanner zuständig. Wer hat welche Hardware.
-  ** Blerina Gashi
-  ** Bernd Ragwitz
+  ** Blerina Gashi 01.01.
+  ** Bernd Ragwitz 17.05.
 
 * Betreuen das "Smart IT" Ticket-System, (der reine Hermes Außendienst schreibt)
-  ** Livan Munoz Lopez (Mobile)
-  ** Mufid Omar
+  ** Livan Munoz Lopez 15.12. (Mobile)
+  ** Mufid Omar 01.04.
+
 
 == Vorort
 * Ausweis prüfen
@@ -27,4 +28,5 @@ include::{root}/.inc/include.adoc[]
 * Wasserflasche
 * Scanner + Scannerkabel
 * Notebook, Reisenetzteil
+
 

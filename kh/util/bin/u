@@ -1,1 +1,0 @@
-${ENV_PYTHON} ${ENV_VAULT}/kh/util/bin/t.py "$@"

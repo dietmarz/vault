@@ -20,7 +20,6 @@
   ** https://www.udemy.com/course/typescript-the-complete-developers-guide/learn/lecture/14504488?start=15#overview
 
 
-
 == Prinzip
 * Jeder Lernende ist ein Lehrender, sich selbst mit seinen eigenen Notizen. Deshalb ist es sinnvoll
    bei Udemy zu schauen, mit welchen Methoden und Tools die Lehrenden unterrichten, um diese für sich zu verwenden

@@ -19,12 +19,63 @@ include::{root}/.inc/include.adoc[]
 == AM Setup mit Keycloac
 .Am WE nochmal von Scratch auf an üben!
 ----
-mkdir h2
-Linux? sudo chown -R $(docker-compose exec keycloak id -u) keycloak-data/
+cd localFrontendSetup
+localFrontendSetup> docker-compose up
 
+# Error?: while creating file ""/opt/keycloak/data/h2""
+sudo mkdir localFrontendSetup/keycloak-data/h2
+docker-compose up
+
+# Error?: Caused by: java.nio.file.AccessDeniedException: /opt/keycloak/data/h2/keycloakdb.trace.db
+localFrontendSetup> sudo chown -R $(docker-compose exec keycloak id -u) keycloak-data/
+# or
+localFrontendSetup> sudo chown -R $USER keycloak-data/
+----
 
 Create User, Credentials...
-clients->pps-assement-management->credentials->Button Regenerate->Copy Field Client Secret nach .env.local nach  CLIENT_SECRET
+Browser call: https://localhost:9010
+  User: admin Password: admin
+
+Dropdown: Keycloak -> Button: Create realm -> click
+  Realm name:pps-realm
+  (pps-realm is selected now)
+Menu: Clients -> Create client
+  (1) General Settings: Dropdown Client type: OpenID Connect
+  (1) General Settings: Client ID: pps-asset-management
+  Button: Next
+  (2) Capability config: Client authentication: On (!)
+  (2) Capability config: (Defaults: Authorization: Off, Standard flow on, Direct access grants on, everything else off)
+  Button: Next
+  (3) Login settings: Valid redirect URIs: http://localhost:3000/*
+  (3) Login settings: Web origins: http://localhost:3000/*
+  Button: Save
+Menu: Clients -> pps-asset-management -> Tab: Credentials
+  Button: Copy Client Secret (for Client Authenticator: Client Id and Secret) to .env.local
+Menu Users -> Button: Create new user
+  Email verified: Yes
+  Username: test
+  Email: test@test.de
+  Button: Create
+  Tab: Credentials -> Button Set password
+    Password: test
+    Temporary: Off
+    Button: Save
+  Check if Users->test->Details->Required user actions is empty
+
+
+
+
+
+.Create .env.local
+----
+LOGOUT_REDIRECT_URI=http://localhost:3000
+BACKEND_BASE_URL=http://localhost:8081/
+OAUTH_ISSUER=http://localhost:9010/realms/pps-realm
+CLIENT_ID=pps-asset-management
+AUTH_SECRET="This is an example"
+CLIENT_SECRET=<my-copied-secret>
+----
+
 
 Wie exportieren
 

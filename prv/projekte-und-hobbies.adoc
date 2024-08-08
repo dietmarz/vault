@@ -16,12 +16,16 @@ link:../org/lern-themen.adoc[]
 * 1. Beenden 2. Gut machen 3. So gut wie man es nicht für möglich gehalten hätte. Daran wachsen!
 * Unterkategorien sind aus /home/dietmar/vault/fnz/office.adoc
 
-* Daten Logger: Temp  Luftfeuchte, Schimmelpilz
+
+
+* *TRACKER* Depot Überwachung Finanzstatus URL-Caller
+
+* *TRACKER* Daten Logger: Temp  Luftfeuchte, Schimmelpilz
   ** µC, Raspberry, STM32, mit SD Card(+RTC) oder WLAN
   ** Spring-Boot REST SS zum entgegennehme & konfigurieren
   ** Angular zur Anzeige
 
-* Verkehrsüberwachung Ostring
+* *TRACKER* Verkehrsüberwachung Ostring
   ** Lernen: SBoot, React, Google Cloud (GCP)
   ** Öffentliches Interesse Zeitung -> Werbung!
   ** Website zur Info der aktuellen Lage

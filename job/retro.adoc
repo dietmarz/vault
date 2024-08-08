@@ -2,7 +2,19 @@ include::{root}/.inc/include.adoc[]
 
 = Retro
 
-== Beschlüsse Fri 12.07.
+== Retro Mit 07.08.2024 ================================================================================================
+* Review letzte Retro: Aus teamkalender heraus uns selber einladen und reinschreiben, was da passiert
+
+=== Eigene Punkte
+* Event driven "planning"
+* Viele wichtige ungeplante tasks
+* Supporter ab September
+
+
+
+
+
+== Beschlüsse Fri 12.07.2024 ===========================================================================================
 * Learnings: Hermes Security Team, DIRT, MAC-K1 kritisch
   ** *Jonas stellt einen Termin*
 
@@ -14,7 +26,3 @@ include::{root}/.inc/include.adoc[]
 
 * Mal mit Soti arbeiten mit Mufid
   ** Darf ich fragen, machen wir online
-
-
-Disziplin Daily. Ersccheinen
-Smart IT, Soti
