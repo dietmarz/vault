@@ -20,6 +20,12 @@ link:../hms/hermes-uebung.adoc[Üben]
 
 == Daily ###############################################################################################################
 === Was habe ich gemacht
+Staging zum laufen bekommen
+Analyse, was macht eigentlich was
+Piplines anstoßen
+AWS analysiert, 650 Deployversuche
+
+
 PPS-1191 Last Test task definiert
 Vorbereitung Abeteilungsroutine
 PPS-1151 AM Keycloak einrichten und dokumentieren
