@@ -195,7 +195,8 @@ alias cdma="cd ~/project/multiapp"
 alias cdam="cd ~/project/am"
 alias cdaf="cd ~/project/am/pps-am-fronted"
 alias cdab="cd ~/project/am/pps-am-backend"
-alias th="t n hms/hermes-"
-
+th() {
+  sh "${ENV_VAULT}/kh/util/bin/t" n "hms/hermes-$1"
+}
 alias lint="./gradlew ktlintFormat && git status -s"
 alias lintf="yarn eslint --fix 'src/**/*.ts'  'src/**/*.tsx' 'test/**/*.tsx' && git status -s"

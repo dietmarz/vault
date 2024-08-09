@@ -3,15 +3,12 @@ include::{root}/.inc/include.adoc[]
 = Retro
 
 == Retro Mit 07.08.2024 ================================================================================================
-* Review letzte Retro: Aus teamkalender heraus uns selber einladen und reinschreiben, was da passiert
+* Review letzte Retro: Aus Teamkalender heraus uns selber einladen und reinschreiben, was da passiert
 
-=== Eigene Punkte
-* Event driven "planning"
-* Viele wichtige ungeplante tasks
-* Supporter ab September
-
-
-
+=== Maßnahmen
+* Max Git Release Pipelines: 1190 1175 1187 1188 1179
+* Dza Lasttests 1191
+* Amri Logging Cloud & Android 1189
 
 
 == Beschlüsse Fri 12.07.2024 ===========================================================================================

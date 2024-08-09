@@ -136,6 +136,31 @@ sum_(i=1)^n i^3=((n(n+1))/2)^2
 ++++
 
 
+
+== Message Sequence Diagram
+
+[plantuml, message-sequence-diagram, png]
+----
+@startuml
+actor User
+participant Server
+
+User -> Server: Send Request
+activate Server
+
+Server -> Server: Process Request (thinking)
+... Processing ...
+Server -> User: Send Response
+deactivate Server
+
+User -> Server: Short Request
+Server -> User: Short Response
+deactivate Server
+@enduml
+----
+
+
+
 == Literaturverzeichnis
 
 Diese Information stammt aus diesem Film <<dock-1>> und aus diesem Buch <<antenna>>

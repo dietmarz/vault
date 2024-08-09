@@ -1,0 +1,22 @@
+include::{root}/.inc/include.adoc[]
+
+= 1191 Last Tests
+
+* https://hermesgermany.atlassian.net/browse/PPS-1191[Ticket]
+
+== Lasttest Vorgehens Vorschlag
+* Gatling installieren
+* Gegen staging einfacher Test dann komplexerer Tests, das Haupt-Last Szenario finden
+
+* Test Cloud fähig machen.
+  ** Capacity Test: Manueller Start, des Haupt-Last-Szenarios mit definierten Rampen und max Durchsatz
+  ** Stress Test: Manueller Start, des Peak Szenarios, sofern bekannt durch Log-Analyse
+  ** Smoke Test: Automatisierter Start, wahrscheinlich der Capacity Text mit einem 5min Timing + Alarm
+  ** Soak Test: Manueller Start, wahrscheinlich Capacity Test in 24h Schleife ohne Pause mit kleiner Last
+
+* Erstellen der Durchführungsanleitung
+  ** Wann getestet werden darf
+  ** Wer gewarnt werden muss
+  ** Wie Ergebnisse dokumentiert werden
+
+

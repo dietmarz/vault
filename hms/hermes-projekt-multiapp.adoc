@@ -9,6 +9,15 @@ Pilot: 2.18.2 Bundesweit: 2.17.0
 2.18.3 (auf Basis 2.17.0) kommt mit den nuen Datwedgeprofilen nicht zurecht
 2.18.4 (auf Basis 2.17.0)-> kommt mit neuen  Datawedgeprofilen zurecht
 2.18.4 (auf Basis 2.17.0) -> kommt nicht mehr mit altem Profil zurecht => Bundesweite 2.17.0 kann nicht upgedated werden
-WIr benötigen 2.18.5 auf Basis 2.17.0 die sowohl mit neuem als auch altem Datawedge-Profil zurecht kommt
+Wir benötigen 2.18.5 auf Basis 2.17.0 die sowohl mit neuem als auch altem Datawedge-Profil zurecht kommt
 ----
 
+== Offline An- und Abmeldung
+Offline: Kann er arbeiten, Woher weiß die App, welche Rechte der User hat?
+Wenn die MA einen StandScannt, wird ein snapshot aller user mit rechten auf das Gerät geladen.
+Wenn User Ausweis gescannt hat und Online ist, dann wird User Liste auch neu geholt.
+
+* Offline, User meldet sich ab.
+    ** Anderer User meldet sich an: Geht nur mit gecachten Usern des Standorts. User kann arbeiten. App merkt sich was der User macht. Alle 15min versuch der Ummeldung beim MAC
+    ** Selber User kein Problem.
+    ** Stand jetzt: Nur eine Ab und Anmeldung mit unterschiedlichen Usern  Offline möglich. Planung beliebig viele, POC

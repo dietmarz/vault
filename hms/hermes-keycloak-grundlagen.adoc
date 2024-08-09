@@ -1,0 +1,41 @@
+include::{root}/.inc/include.adoc[]
+
+= Keycloak Grundlagen
+
+
+
+
+
+`issuer-uri: <auth>:9010/realms/<realm-name>`
+
+
+`jwk-set-uri: http://localhost:9010/realms/production/protocol/openid-connect/certs`
+
+
+.Happy case
+[plantuml, server-rechnet-diagramm, png]
+----
+@startuml
+actor User
+participant "Shop" as Shop
+participant "Auth Server" as AuthServer
+
+User -> Shop : Request to view Shopping Cart
+Shop -> User : Redirect to Auth Server
+
+User -> AuthServer : Authenticate (Credentials)
+AuthServer -> User : Provide Authorization Code
+
+User -> Shop : Send Authorization Code
+Shop -> AuthServer : Exchange Authorization Code for Token
+AuthServer -> Shop : Provide Access Token
+
+Shop -> AuthServer : Validate Token
+AuthServer -> Shop : Token is valid
+
+Shop -> User : Display Shopping Cart
+
+@enduml
+----
+
+
